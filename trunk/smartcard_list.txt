@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.96 2004-10-21 11:12:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.97 2004-10-26 18:33:05 rousseau Exp $
 #
 
 # syntax:
@@ -712,6 +712,10 @@
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
 	ZeitControl BasicCard Professional 5.4 Revision A
+
+3B FB 98 00 FF C1 10 31 FE 55 00 64 05 20 47 03 31 80 00 90 00 F3
+	Gemplus GemGate 32K
+	distributed by Postecert (www.postecert.it) to legally sign documents
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card (EstEID cold)
