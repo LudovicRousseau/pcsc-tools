@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.62 2004-01-09 22:36:22 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.63 2004-01-14 16:57:41 rousseau Exp $
 #
 
 # syntax:
@@ -393,7 +393,8 @@
 	Setec / FINEID
 
 3B 9F 94 40 1E 00 67 16 43 46 49 53 45 10 52 66 FF 81 90 00
-	RSA SecurID 3100
+	RSA SecurID 3100 or SETEC or a Utimaco Safeware Smartcard
+	SLE66CX160S running SETCOS 4.3.1
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
