@@ -4,6 +4,13 @@
 # on your system
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.2  2001/09/03 12:49:02  lvictor
+# Added mostly cosmetic improvements to offer the user to connect when
+# he/she tries to run a script without any active conX to the smartcard.
+# I also identified a bug which should be verified/corrected. Its cause
+# may lie into PCSC-lite so investigating the wrapper alone is not
+# enough
+#
 # Revision 1.1  2001/07/02 12:08:08  lvictor
 # Initial checkin
 #
@@ -548,15 +555,61 @@ sub DefaultReaderStatus {
 	if (defined $hCard->{hCard}) {
 		my @StatusResult = $hCard->Status();
 		if (defined $StatusResult[0]) {
-#TODO This stinks
-#TODO BUG when using this code on an unpowered card or when the card has been removed it crashes
-# and the process terminates with a segfault... do find what is gong on...
-			my $tmpVal;
-			my $MessageString = "You are connected to reader $StatusResult[0] with ";
-			$MessageString .= "$StatusResult[2].\nThe ATR is ";
+#TODO This stinks can't I rewrite it so it looks better&shorter
+			my $tmpVal = 0;
 
-			foreach $tmpVal (@{$StatusResult[3]}) { $MessageString .= sprintf ("%02X ", $tmpVal); }
-			$MessageString .= "\n $StatusResult[1]\n";
+			my $MessageString = "You are connected to reader $StatusResult[0].\n";
+			$MessageString .= "Card status (". sprintf ("0x%04X",$StatusResult[1]) ."): ";
+
+			# Verbosely describes the Card Status (powered, inserted, etc...
+			if ($StatusResult[1] & $PCSC::SCARD_UNKNOWN) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "'Unknown state'";
+			}
+			if ($StatusResult[1] & $PCSC::SCARD_ABSENT) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "Absent";
+			}
+			if ($StatusResult[1] & $PCSC::SCARD_PRESENT) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "Present";
+			}
+			if ($StatusResult[1] & $PCSC::SCARD_SWALLOWED) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "Swallowed";
+			}
+			if ($StatusResult[1] & $PCSC::SCARD_POWERED) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "Powered";
+			}
+			if ($StatusResult[1] & $PCSC::SCARD_NEGOTIABLE) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "'PTS is negotiable'";
+			}
+			if ($StatusResult[1] & $PCSC::SCARD_SPECIFIC) {
+				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
+				$MessageString .= "'PTS has been set'";
+			}
+
+			# Verbosely describes the currently active protocol
+			$MessageString .= ".\nThe active protocol (".sprintf ("0x%04X", $StatusResult[2]).") is ";
+			if (($StatusResult[2] & $PCSC::SCARD_PROTOCOL_T0)) {
+				$MessageString .= "T=0 ";
+			} elsif (($StatusResult[2] & $PCSC::SCARD_PROTOCOL_T1)) {
+				$MessageString .= "T=1 ";
+			} elsif (($StatusResult[2] & $PCSC::SCARD_PROTOCOL_RAW)) {
+				$MessageString .= "RAW ";
+			} else {
+				$MessageString .= "unknown";
+			}
+
+			# Displays the ATR (if available)
+			$MessageString .= ".\nThe ATR is ";
+			if (defined $StatusResult[3]) {
+				foreach $tmpVal (@{$StatusResult[3]}) { $MessageString .= sprintf ("%02X ", $tmpVal); }
+			} else {
+				$MessageString .= "not available";
+			}
 			MessageBox ($MessageString, ['OK']);
 		} else {
 			MessageBox ("Can not retrieve reader status :\n$PCSC::errno", ['OK'])
