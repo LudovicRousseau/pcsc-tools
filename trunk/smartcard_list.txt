@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.11 2002-10-16 16:21:31 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.12 2002-10-22 20:27:42 rousseau Exp $
 #
 
 # syntax:
@@ -150,6 +150,9 @@
 
 3B 82 81 31 76 43 C1 03 C5
 	i.ti (ticket card for Collogne/Bonn)
+
+3B 81 1F 00 CC 52
+	eToken R2 2242
 
 3B 83 00 12 10 96
 	GSM-SIM T-Mobil D1 (900MHz)
