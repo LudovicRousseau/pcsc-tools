@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
 #    gscriptor: GTK interface to send APDU commands to a smart card
-#    Copyright (C) 2001   Lionel Victor
+#    Copyright (C) 2001   Lionel Victor, Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.14 2001-09-25 08:54:10 rousseau Exp $
+# $Id: gscriptor,v 1.15 2001-09-25 08:56:46 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.14  2001/09/25 08:54:10  rousseau
+# correctly assign the tip to the wrap line button
+#
 # Revision 1.13  2001/09/21 15:03:22  rousseau
 # removed () from $txtScript->get_length
 #
@@ -765,11 +768,12 @@ sub CloseAppWindow {
 
 sub Help {
 MessageBox ("
-$strAppName was coded by Lionel VICTOR.
+$strAppName is coded by Lionel VICTOR, (C) 2001.
+and debugged by Ludovic ROUSSEAU, (C) 2001.
 
-$strAppName is a small application written in perl.
+$strAppName is a small application written in Perl.
 It basically demonstrates how easy it is to develop a
-quick working prototype that uses smartcards in PERL.
+quick working prototype that uses smartcards in Perl.
 ",
 ['OK']
 );
