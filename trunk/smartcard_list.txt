@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.18 2002-11-22 12:17:33 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.19 2002-12-04 21:21:16 rousseau Exp $
 #
 
 # syntax:
@@ -139,6 +139,9 @@
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
 
+3B 67 25 00 62 24 33 03 ..
+	Bull TB1000 ? (SAM for ATM in Luxemburg)
+
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
@@ -160,6 +163,12 @@
 
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
+
+3B 75 94 00 00 62 02 02 01 01
+	Schlumberger Cyberflex 32K e-gate
+
+3B 76 11 00 00 00 9C 11 01 02 02
+	Schlumberger Cyberflex Access 32K
 
 3B 7B 94 00 00 80 65 B0 83 01 01 74 83 00 90 00
 	Gemplus GemXpresso Pro R3
@@ -223,6 +232,9 @@
 
 3B 95 15 40 .. 68 01 02 .. ..
 	Schlumberger CryptoFlex 8k v2
+
+3B 95 18 40 FF 62 01 02 01 04
+	Schlumberger Cryptoflex 32K e-gate
 
 3B 95 18 40 FF 64 02 01 01 02
 	Schlumberger CryptoFlex 32Ko
@@ -392,6 +404,9 @@
 
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
+
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 80 00 12 24 30 00 20 04 10 59
+	Geldkarte (Germany)
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
