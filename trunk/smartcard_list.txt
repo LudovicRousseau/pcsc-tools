@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.9 2002-10-09 06:11:57 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.10 2002-10-15 21:36:53 rousseau Exp $
 #
 
 # syntax:
@@ -46,7 +46,7 @@
 3B 16 94 81 10 06 01 81 3F
 	Schlumberger Cyberflex Access Crypto
 
-3B 17 13 9C 12 02 01 01 07\40
+3B 17 13 9C 12 02 01 01 07 40
 	Schlumberger Cyberflex Access Developer 32k
 
 3B 19 14 55 90 01 01 01 00 05 08 B0
