@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.98 2004-11-04 16:43:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.99 2004-11-09 19:51:47 rousseau Exp $
 #
 
 # syntax:
@@ -206,8 +206,11 @@
 	US Department of Defense, TEST Common Access Card (CAC)
 	Schlumberger Cyberflex Access #2
 
-3B 65 00 00 9C 11 01 01 03
+3B 65 00 00 9C 1[0,1] 01 01 03
 	Schlumberger Cyberflex Palmera
+
+3B 66 00 FF 4A 43 4F 50 30 33
+	IBM JCOP 30
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
@@ -317,6 +320,9 @@
 3B 76 12 00 00 00 9C 11 01 03 03
 	Precise BioMatch (TM) JavaCard (Schlumberger)
 	www.precisebiometrics.com
+
+3B 76 98 00 00 00 9C 11 01 01 02
+	CyberFlex Access 32
 
 3B 7A 94 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	Gemplus GemXpresso Pro R3 E32 PK
