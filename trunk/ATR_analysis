@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.4 2002-09-06 06:37:12 rousseau Exp $
+# $Id: ATR_analysis,v 1.5 2002-11-16 22:18:55 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -81,7 +81,7 @@ getopts("vh");
 
 if ($opt_v)
 {
-	print "Version: 1.1, (c) 2002, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "Version: 1.2, (c) 2002, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
 	exit;
 }
 
@@ -404,7 +404,10 @@ sub find_card($$@)
 	{
 		print "\tNONE\n\n";
 		print "Your card is not present in the database.\n";
-		print "Please send a mail to <ludovic.rousseau\@free.fr> containing:\n";
+		print "You can get the latest version of the database from\n";
+		print "  http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt\n";
+		print "If your ATR is still not in the latest version then please send a mail\n";
+		print "to <ludovic.rousseau\@free.fr> containing:\n";
 		print "- your ATR\n";
 		print "- a card description\n";
 	}
