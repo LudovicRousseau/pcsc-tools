@@ -111,6 +111,16 @@ Licences:
 History:
 ========
 
+1.3.2 - 17 December 2003, Ludovic ROUSSEAU
+    - scriptor: by default let pcscd select the protocol among T=0 and T=1 
+      . print the protocol actually used
+      . print textual status word according to ISO 7816
+    - gscriptor: change menu accelerator for Run so it can be used even
+      if a text Text widget is selected
+      . use paned windows to resize Script and Result frames
+      . print textual status word according to ISO 7816
+    - 16 new ATR in smartcard_list.txt
+
 1.3.1 - 29 Octobre 2003, Ludovic ROUSSEAU
     - ATR_analysis: only ask to send me the ATR and card description if
       it is a microprocessor card. I am not (yet) interested in a list
@@ -173,6 +183,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.19 2003-10-29 18:12:13 rousseau Exp $
+$Id: README,v 1.20 2003-12-17 19:33:14 rousseau Exp $
 
  vim:ts=8
