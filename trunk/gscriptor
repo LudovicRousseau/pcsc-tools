@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.29 2004-08-06 14:17:54 rousseau Exp $
+# $Id: gscriptor,v 1.30 2004-08-06 14:38:55 rousseau Exp $
 
 use strict;
 use warnings;
@@ -119,21 +119,30 @@ sub arrange_widgets () {
 				New =>
 				{
 					callback => \&NewScriptFile,
-					accelerator => '<ctrl>N'
+					accelerator => '<ctrl>N',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-new'
 				},
 				Open =>
 				{
 					callback => \&LoadScriptFile,
-					accelerator => '<ctrl>O'
+					accelerator => '<ctrl>O',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-open'
 				},
 				Save =>
 				{
 					callback => \&SaveScriptFile,
-					accelerator => '<ctrl>S'
+					accelerator => '<ctrl>S',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-save'
 				},
 				'Save As' =>
 				{
-					callback => \&SaveAsScriptFile
+					callback => \&SaveAsScriptFile,
+					accelerator => '<ctrl><shift>S',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-save-as'
 				},
 				Separator =>
 				{
@@ -142,7 +151,9 @@ sub arrange_widgets () {
 				Quit =>
 				{
 					callback => \&CloseAppWindow,
-					accelerator => '<ctrl>Q'
+					accelerator => '<ctrl>Q',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-quit'
 				}
 			]
 		},
@@ -159,7 +170,9 @@ sub arrange_widgets () {
 				},
 				Reco_nnect =>
 				{
-					callback => \&ReconnectDefaultReader
+					callback => \&ReconnectDefaultReader,
+					item_type => '<StockItem>',
+					extra_data => 'gtk-redo'
 				},
 				_Disconnect =>
 				{
@@ -172,7 +185,9 @@ sub arrange_widgets () {
 				},
 				'_Status...' =>
 				{
-					callback => \&DefaultReaderStatus
+					callback => \&DefaultReaderStatus,
+					item_type => '<StockItem>',
+					extra_data => 'gtk-properties'
 				}
 			]
 		},
@@ -185,12 +200,16 @@ sub arrange_widgets () {
 				'_Run Script' =>
 				{
 					callback => \&RunScript,
-					accelerator => '<ctrl>R'
+					accelerator => '<ctrl>R',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-execute'
 				},
 				'C_lear Result Area' =>
 				{
 					callback => \&ClearResult,
-					accelerator => '<ctrl>L'
+					accelerator => '<ctrl>L',
+					item_type => '<StockItem>',
+					extra_data => 'gtk-clear'
 				}
 			]
 		},
@@ -202,7 +221,9 @@ sub arrange_widgets () {
 			[
 				Reader =>
 				{
-					callback => \&ReaderConfig
+					callback => \&ReaderConfig,
+					item_type => '<StockItem>',
+					extra_data => 'gtk-preferences'
 				}
 			]
 		},
@@ -215,6 +236,8 @@ sub arrange_widgets () {
 				About =>
 				{
 					callback => \&Help,
+					item_type => '<StockItem>',
+					extra_data => 'gtk-dialog-info'
 				}
 			]
 		}
