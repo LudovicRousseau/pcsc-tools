@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.24 2003-02-18 19:10:44 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.25 2003-02-27 17:47:51 rousseau Exp $
 #
 
 # syntax:
@@ -139,6 +139,9 @@
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
+3B 65 00 00 58 01 01 00 80
+	RBS Advanta Platinum Reserve Master Card
+
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
 
@@ -175,9 +178,13 @@
 
 3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
 	HSBC Visa/MasterCard credit card
+	Barclay Card MasterCard
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
+
+3B 6E 00 00 00 31 80 71 86 65 47 44 23 01 02 83 90 00
+	Nat West Master Card
 
 3B 6E 00 00 80 31 80 65 B0 03 01 01 5E 83 00 00 90 00
 	FirstUSA Visa
@@ -513,5 +520,8 @@
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42
 	NTL digial TV card (Nagravision)
+
+3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42 30 36 4E
+	Telewest Broadband (Nagravision)
 
 # do not delete
