@@ -1,6 +1,6 @@
 /*
     Scan and print all the PC/SC devices available
-    Copyright (C) 2001  Ludovic Rousseau <ludovic.rousseau@free.fr>
+    Copyright (C) 2001-2003  Ludovic Rousseau <ludovic.rousseau@free.fr>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,47 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.9 2002-10-15 17:05:58 rousseau Exp $ */
-
-/*
- * $Log: not supported by cvs2svn $
- * Revision 1.8  2002/06/14 07:55:37  rousseau
- * add support for ATR_analysis
- *
- * Revision 1.7  2002/05/15 11:37:49  lvictor
- * Readers states are initialized with SCARD_STATE_UNAWARE to make sure the
- * first query will update the state to something we know.
- * Modified the event loop to monitor all readers at once. SCARD_STATE_CHANGED
- * is used to detect which reader triggered the event.
- *
- * Revision 1.6  2002/05/14 16:03:44  lvictor
- * Added comments and modified the event listener to listen to all readers at
- * once... This demonstrates the possibility to use a list of readers to
- * listen events to...
- *
- * Revision 1.5  2001/11/08 08:46:49  rousseau
- * change PCSC to PC/SC
- *
- * Revision 1.4  2001/11/08 08:34:04  rousseau
- * set the wait time to 0 to get all the events
- *
- * Revision 1.3  2001/10/22 08:54:55  rousseau
- * go to the next reader _after_ printing information for the current oone
- *
- * Revision 1.2  2001/10/16 07:31:51  rousseau
- * commented number of allocated readers (wrong info?)
- *
- * Revision 1.1.1.1  2001/10/16 07:24:07  rousseau
- * Created directory structure
- *
- * Revision 1.3  2001/09/14 17:57:07  rousseau
- * debugged support of multi readers
- * added time information
- *
- * Revision 1.2  2001/09/13 21:03:01  rousseau
- * print each state change
- *
- */
+/* $Id: pcsc_scan.c,v 1.10 2003-05-08 13:43:01 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -90,7 +50,7 @@ int main(int argc, char *argv[])
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE_A rgReaderStates_t[PCSCLITE_MAX_CHANNELS];
 	DWORD dwReaders;
-	LPSTR mszReaders;
+	LPSTR mszReaders = NULL;
 	char *ptr, *readers[PCSCLITE_MAX_CHANNELS];
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];
@@ -136,18 +96,24 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
+get_readers:
 	/* Retrieve the available readers list.
 	 *
 	 * 1. Call with a null buffer to get the number of bytes to allocate
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
+	printf("Scanning present readers\n");
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_S_SUCCESS)
 	{
 		printf("SCardListReader: %lX\n", rv);
 	}
 	//printf("%ld allocated reader(s)\n", dwReaders);
+
+	/* if non NULL we came back so free first */
+	if (mszReaders)
+		free(mszReaders);
 
 	mszReaders = malloc(sizeof(char)*dwReaders);
 	if (mszReaders == NULL)
@@ -235,7 +201,10 @@ int main(int argc, char *argv[])
 
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_UNKNOWN)
-				printf("Reader unknown, ");
+			{
+				printf("Reader unknown\n");
+				goto get_readers;
+			}
 
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_UNAVAILABLE)
