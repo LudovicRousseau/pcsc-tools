@@ -17,9 +17,12 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.6 2001-10-16 07:37:42 rousseau Exp $
+# $Id: scriptor,v 1.7 2002-03-05 14:54:05 rousseau Exp $
 
 # $Log: not supported by cvs2svn $
+# Revision 1.6  2001/10/16 07:37:42  rousseau
+# changed PCSCCard to PCSC::Card
+#
 # Revision 1.5  2001/09/05 07:35:59  rousseau
 # Added CVS Log field
 # Added documentation for -h argument
@@ -79,11 +82,11 @@ while (<IN_FILEHANDLE>) {
 	my $tmp_value;
 	my ($SendData, $RecvData, $cmd);
 
-	last if /exit/;
+	last if /exit/i;
 	next if /^\s*$/;
 	next if /^#/;
 
-	if (/reset/) {
+	if (/reset/i) {
 		print OUT_FILEHANDLE "> RESET\n";
 		if (defined $hCard->Reconnect ($PCSC::SCARD_SHARE_EXCLUSIVE,
 		                   $PCSC::SCARD_PROTOCOL_T0,
