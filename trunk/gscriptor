@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.17 2001-10-01 08:16:40 lvictor Exp $
+# $Id: gscriptor,v 1.18 2002-03-05 16:32:48 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.17  2001/10/01 08:16:40  lvictor
+# modified default buttons behaviour (mostly cosmetic)
+#
 # Revision 1.16  2001/09/25 09:05:44  rousseau
 # Disconnect the actual card when the reader is changed
 #
@@ -733,7 +736,7 @@ sub RunScript {
 			next if /^\s*$/;
 			next if /^#/;
 
-			if (/reset/) {
+			if (/reset/i) {
 				push @ResultStruct, "[Reset]\n\n";
 				ReconnectDefaultReader();
 				next;
