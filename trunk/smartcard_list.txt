@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.79 2004-07-29 15:23:50 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.80 2004-07-31 19:24:15 rousseau Exp $
 #
 
 # syntax:
@@ -53,7 +53,7 @@
 	GSM-SIM BEN (1800MHz)
 
 3B 0F 80 6A 16 32 46 49 53 45 53 8C E0 FF 07 90 00
-	GSM-SIM Sonera (from 1998, at least 900MHz, might be 1800MHz too)
+	GSM-SIM Sonera (from 1998)
 
 3B 16 94 81 10 06 01 81 2F
 	Schlumberger Cyberflex Access Augmented Crypto
@@ -76,14 +76,20 @@
 3B 1F 11 00 67 80 42 46 49 53 45 10 52 66 FF 81 90 00
 	Nokia branded SC (Setec)
 
+3B 1F 11 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
+	GSM-SIM Saunalahti (from 2004)
+
 3B 1F 11 80 6A 32 37 46 49 53 45 12 8C 02 FF 07 90 00
-	GSM-SIM DNA Finland (from 2001, and AFAICT is 1800MHz only)
+	GSM-SIM DNA Finland (from 2001)
 
 3B 1F 11 80 6A 80 34 46 49 53 45 53 94 36 FF 07 90 00
 	RSA SecurID 3100
 
+3B 1F 94 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
+	GSM-SIM Saunalahti (from 2004)
+
 3B 1F 94 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
-	GSM-SIM Sonera (from year 2002, at least 1800MHz, but I guess 900MHz too)
+	GSM-SIM Sonera (from 2002)
 
 3B 23 00 35 13 80
 	Schlumberger Cyberflex Access Campus
