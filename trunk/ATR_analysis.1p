@@ -1,4 +1,4 @@
-.TH ATR_ANALYSIS "1" "August 2002" "Version: 1.1" "User Commands"
+.TH ATR_ANALYSIS "1p" "August 2002" "Version: 1.1" "User Commands"
 .SH NAME
 ATR_analysis \- analyse a smart card ATR
 .SH SYNOPSIS
@@ -42,6 +42,6 @@ Maybe many bugs since I am not a ISO 7816 expert.
 .SH FILES
 .I smartcard_list.txt
 .SH "SEE ALSO"
-.BR pcscd "(1), " pcsc_scan (1)
+.BR pcscd "(8), " pcsc_scan (1)
 .SH AUTHOR
 Ludovic Rousseau <ludovic.rousseau@free.fr>
