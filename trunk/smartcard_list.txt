@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.48 2003-10-15 16:46:40 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.49 2003-10-22 16:33:27 rousseau Exp $
 #
 
 # syntax:
@@ -658,6 +658,9 @@
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
+
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 01 55 00 04 10 7B
+	Volksbank VR-BankCard (GeldKarte)
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42
 	NTL digial TV card (Nagravision)
