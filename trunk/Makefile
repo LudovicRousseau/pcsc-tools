@@ -1,8 +1,8 @@
 
-# $Id: Makefile,v 1.2 2001-10-16 07:31:35 rousseau Exp $
+# $Id: Makefile,v 1.3 2001-10-22 09:07:21 rousseau Exp $
 
 CC=gcc
-VERSION=1.0.0
+VERSION=`echo \`pwd\` | sed s/.*tools-//`
 CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\"
 LDLIBS=-lpcsclite -lpthread
 
