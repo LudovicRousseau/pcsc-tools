@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.63 2004-01-14 16:57:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.64 2004-01-17 16:56:14 rousseau Exp $
 #
 
 # syntax:
@@ -262,6 +262,9 @@
 
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
+
+3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
+	Norsk-Tipping (Buypass) Monodex card
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 24 22 0E E7 82 90 00
 	Navigo (contact mode)
