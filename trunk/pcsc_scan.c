@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.13 2004-04-02 06:44:38 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.14 2004-06-29 18:10:17 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -57,7 +57,7 @@ int main(int argc, char *argv[])
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE_A *rgReaderStates_t = NULL;
 	DWORD dwReaders, dwReadersOld;
-	LPSTR mszReaders = NULL;
+	LPTSTR mszReaders = NULL;
 	char *ptr, **readers = NULL;
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
