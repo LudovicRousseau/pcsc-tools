@@ -1,8 +1,11 @@
 #/bin/sh -e
 
-# $Id: create_distrib.sh,v 1.3 2001-10-18 07:22:51 rousseau Exp $
+# $Id: create_distrib.sh,v 1.4 2002-10-15 17:06:29 rousseau Exp $
 
 # $Log: not supported by cvs2svn $
+# Revision 1.3  2001/10/18 07:22:51  rousseau
+# updated with the version of pcsc-perl
+#
 # Revision 1.2  2001/10/17 09:22:11  rousseau
 # Added checks: directory name format, directory existance
 #
@@ -30,6 +33,11 @@ then
 	echo -e "ERROR: $dir already exists\nremove it and restart"
 	exit
 fi
+
+# clean
+echo -n "cleaning..."
+make clean &> /dev/null
+echo "done"
 
 # generate Changelog
 rcs2log > Changelog
