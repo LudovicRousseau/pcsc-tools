@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.27 2003-03-29 13:46:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.28 2003-04-08 17:08:42 rousseau Exp $
 #
 
 # syntax:
@@ -145,6 +145,9 @@
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
 
+3B 65 00 00 9C 11 01 01 03
+	Schlumberger Cyberflex Palmera
+
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
 
@@ -185,6 +188,10 @@
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
+
+3B 6E 00 00 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00
+	Australian ANZ First Visa Card from the ANZ
+	(Australia and New Zealand) Bank
 
 3B 6E 00 00 00 31 80 71 86 65 47 44 23 01 02 83 90 00
 	Nat West Master Card
@@ -518,6 +525,9 @@
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gemplus GemXpresso 211PK
+
+3F 77 18 25 00 29 14 00 62 68 90 00
+	Viaccess card
 
 3F 78 12 25 01 40 B0 03 4A 50 20 48 55
 	DSS/DTV H
