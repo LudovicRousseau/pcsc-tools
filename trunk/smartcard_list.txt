@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.20 2003-01-04 21:29:39 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.21 2003-01-23 17:32:55 rousseau Exp $
 #
 
 # syntax:
@@ -100,8 +100,14 @@
 3B 27 00 80 65 A2 05 01 01 37
 	Gemplus GPK4000sp
 
+3B 27 00 80 65 A2 06 01 01 37
+	GPK 4000, RSA 512 bits Sign, Unwrap 40 bits
+
 3B 27 00 80 65 A2 0C 01 01 37
-	Gemplus GPK4000?
+	Gemplus GPK4000
+
+3B 27 00 80 65 A2 8C 3B 27 00
+	GPK 4000, RSA 1024 bits Sign, Unwrap 256 bits
 
 3B 29 00 80 72 A4 45 64 00 00 D0 15
 	Moeda Electronica Bradesco (Gemplus MPCOS?) (Brasilia)
@@ -126,6 +132,9 @@
 
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
+
+3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
+	GSM SFR
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
@@ -152,8 +161,14 @@
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Debit Card
 
+3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
+	GemXpresso Lite: with EMV application
+
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
+
+3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
+	HSBC Visa/MasterCard credit card
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
@@ -240,7 +255,7 @@
 	Schlumberger CryptoFlex 32Ko
 
 3B 95 94 40 FF 63 01 01 02 01
-	Schlumberger Cryptoflex 16
+	Schlumberger Cryptoflex 16Ko
 
 3B 99 94 00 91 08 91 06 00 01 06 06 00
 	GSM-SIM Orange-UK (1800)
@@ -420,6 +435,9 @@
 3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
 	GSM-SIM e-plus (1800MHz)
 
+3F 2F 00 80 59 AF 02 01 01 30 00 00 0A 0E 83 06 9F 12
+	Gemplus GemXplore
+
 3F 2F 00 80 69 AF 02 04 01 36 00 02 0A 0E 83 3E 9F 16
 	GSM-SIM D2 CallYa (900MHz)
 
@@ -435,7 +453,7 @@
 3F 65 25 08 33 04 20 90 00
 	D-Trust card
 
-3F 65 25 00 22 09 F9 90 00
+3F 65 25 00 22 09 [F,6]9 90 00
 	Sesam Vitale (french health card)
 
 3F 65 25 00 2B 09 EB 90 00
@@ -459,9 +477,6 @@
 
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
-
-3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
-	HSBC Visa/MasterCard credit card
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gemplus GemXpresso 211PK
