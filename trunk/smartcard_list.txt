@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.90 2004-09-15 18:17:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.91 2004-09-17 18:33:29 rousseau Exp $
 #
 
 # syntax:
@@ -429,6 +429,7 @@
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	Hutchison/3 3G USIM
 	J+ SWIM WIB UMTS SIM Test card
+	  http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
