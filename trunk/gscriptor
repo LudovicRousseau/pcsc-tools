@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.21 2003-11-08 16:42:23 rousseau Exp $
+# $Id: gscriptor,v 1.22 2003-11-08 17:02:03 rousseau Exp $
 
 use strict;
 
@@ -156,10 +156,10 @@ sub arrange_widgets () {
 
 	# create and arrange box containers
 	my $vbxMainBox   = new Gtk::VBox(0,3);
-	my $hbxScriptBox = new Gtk::HBox (0,3);
-	my $vbxScriptBox = new Gtk::VBox (0,10);
-	my $hbxResultBox = new Gtk::HBox (0,3);
-	my $vbxResultBox = new Gtk::VBox (0,3);
+	my $hbxScriptBox = new Gtk::HBox(0,3);
+	my $vbxScriptBox = new Gtk::VBox(0,10);
+	my $hbxResultBox = new Gtk::HBox(0,3);
+	my $vbxResultBox = new Gtk::VBox(0,3);
 
 	$hbxScriptBox->add($txtScript);
 	$hbxScriptBox->pack_end($vscScript, 0, 0, 0);
@@ -183,12 +183,13 @@ sub arrange_widgets () {
 	$frmResult->set_border_width(5);
 	$frmResult->add ($vbxResultBox);
 	
-	my $separator = new Gtk::VSeparator();
+	my $hpaned = new Gtk::HPaned;
+	$hpaned->border_width(5);
 
 	my $hbxBox = new Gtk::HBox (0,10);
-	$hbxBox->add($frmScript);
-	$hbxBox->pack_start($separator,0 ,0, 0);
-	$hbxBox->add($frmResult);
+	$hpaned->add1($frmScript);
+	$hpaned->add2($frmResult);
+	$hbxBox->add($hpaned);
 	$vbxMainBox->pack_start ($item_factory->get_widget( '<main>' ), 0, 0, 0);
 	$vbxMainBox->add ($hbxBox);
 	$vbxMainBox->pack_end ($txtStatus, 0, 0, 0);
@@ -196,7 +197,7 @@ sub arrange_widgets () {
 	$wndMain->add($vbxMainBox);
 }
 
-# Connect widgets togeter
+# Connect widgets together
 $chkWrap->signal_connect('toggled', sub { $txtScript->set_line_wrap($chkWrap->active); } );
 $wndMain->signal_connect ("delete_event", \&CloseAppWindow);
 $btnRun->signal_connect ("clicked", \&RunScript);
