@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.91 2004-09-17 18:33:29 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.92 2004-09-30 18:59:57 rousseau Exp $
 #
 
 # syntax:
@@ -604,6 +604,9 @@
 
 3B EB 00 00 81 31 42 45 4E 4C 43 68 69 70 70 65 72 30 31 0A
 	Dutch Post (Chipper)
+
+3B EC 00 FF 81 31 FE 45 A0 00 00 00 56 33 33 30 4A 33 06 00 A1
+	Datakey model 330J card, www.datakey.com
 
 3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
