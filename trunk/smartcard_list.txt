@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.94 2004-10-15 18:05:09 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.95 2004-10-21 11:03:52 rousseau Exp $
 #
 
 # syntax:
@@ -304,6 +304,9 @@
 
 3B 76 11 00 00 00 9C 11 01 02 02
 	Schlumberger Cyberflex Access 32K
+
+3B 76 11 00 00 00 9C 11 01 02 03
+	RSA SecureID 5100
 
 3B 76 12 00 00 00 9C 11 01 03 03
 	Precise BioMatch (TM) JavaCard (Schlumberger)
