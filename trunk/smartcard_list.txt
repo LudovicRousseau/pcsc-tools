@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.55 2003-12-03 16:53:56 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.56 2003-12-05 15:34:24 rousseau Exp $
 #
 
 # syntax:
@@ -466,9 +466,6 @@
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
-
-3B E0 00 FF 81 31 FE 45 14
-	Sharp
 
 3B E2 00 00 40 20 49 ..
 	Schlumberger Cryptoflex 4k
