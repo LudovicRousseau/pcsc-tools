@@ -91,7 +91,7 @@ Licences:
 =========
 
     pcsc-tools
-    Copyright (C) 2001, 2002  Lionel VICTOR, Ludovic ROUSSEAU
+    Copyright (C) 2001-2003  Lionel VICTOR, Ludovic ROUSSEAU
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -110,6 +110,11 @@ Licences:
 
 History:
 ========
+
+1.2.5 - 25 May 2003, Ludovic ROUSSEAU
+    - use new naming scheme from pcsc-perl Chipcard::PCSC instead of
+      PCSC
+    - 32 new ATR in smartcard_list.txt
 
 1.2.4 - 28 Jan 2003, Ludovic ROUSSEAU
     - 20 new ATRs in the database
@@ -155,6 +160,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.16 2003-01-28 21:39:07 rousseau Exp $
+$Id: README,v 1.17 2003-05-24 22:11:05 rousseau Exp $
 
  vim:ts=8
