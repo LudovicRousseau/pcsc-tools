@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.64 2004-01-17 16:56:14 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.65 2004-02-20 17:41:19 rousseau Exp $
 #
 
 # syntax:
@@ -99,6 +99,9 @@
 
 3B 24 00 .. .. .. 45
 	Conax
+
+3B 26 00 00 26 40 00 90 00
+	Schlumberger, purse?
 
 3B 27 00 80 65 A2 00 01 01 37
 	Gemplus GemSAFE Card CSP v1.0
@@ -473,6 +476,9 @@
 
 3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66
 	Telesec TCOS 2 (SLE66P)
+
+3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 01 90 00
+	ACS (Advanced Card System) ACOS-1
 
 3B BF 11 00 81 31 45 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
