@@ -111,6 +111,12 @@ Licences:
 History:
 ========
 
+1.3.3 - 2 April 2004, Ludovic ROUSSEAU
+    - use a dynamic table for readers to avoid any use of the deprecated
+      PCSCLITE_MAX_CHANNELS constant
+    - 11 new ATR in smartcard_list.txt
+    - add support of PCSC MacOS X framework
+
 1.3.2 - 17 December 2003, Ludovic ROUSSEAU
     - scriptor: by default let pcscd select the protocol among T=0 and T=1 
       . print the protocol actually used
@@ -183,6 +189,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.20 2003-12-17 19:33:14 rousseau Exp $
+$Id: README,v 1.21 2004-04-02 10:11:18 rousseau Exp $
 
  vim:ts=8
