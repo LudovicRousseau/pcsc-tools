@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.10 2001-09-21 13:55:31 rousseau Exp $
+# $Id: gscriptor,v 1.11 2001-09-21 13:56:22 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.10  2001/09/21 13:55:31  rousseau
+# syntax "defined @ButtonDescr" is not correct with Perl 5.6
+#
 # Revision 1.9  2001/09/11 13:28:13  rousseau
 # configure default buttons in examples/gscriptor.pl
 #
@@ -346,7 +349,7 @@ sub ReaderConfig {
 
 	my $hbxReaderBox = new Gtk::HBox (0,10);
 	my $hbxButtonBox = new Gtk::HBox (0,3);
-	my $hbxStatusBox = new Gtk::Table (3,2);
+	my $hbxStatusBox = new Gtk::Table (3,2,1);
 
 	$hbxReaderBox->pack_start ($txtReader, 0, 0, 10);
 	$hbxReaderBox->pack_start ($cboReaders, 1, 1, 10);
