@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.12 2003-12-10 19:18:44 rousseau Exp $
+# $Id: scriptor,v 1.13 2003-12-10 19:40:13 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -54,11 +54,11 @@ if ($options{h}) {
 # protocol option
 if ($options{p}) {
 	if ($options{p} =~ m/T=0/) {
-		print STDERR "Using T=0 protocol\n";
+		print STDERR "Trying T=0 protocol\n";
 		$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T0;
 	} else {
 		if ($options{p} =~ m/T=1/) {
-			print STDERR "Using T=1 protocol\n";
+			print STDERR "Trying T=1 protocol\n";
 			$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T1;
 		} else {
 			die "unknown protocol: $options{p}\n";
