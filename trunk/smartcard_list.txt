@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.28 2003-04-08 17:08:42 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.29 2003-04-24 16:05:36 rousseau Exp $
 #
 
 # syntax:
@@ -82,6 +82,9 @@
 3B 23 00 35 13 FF
 	Schlumberger MicroPayflex
 
+3B 24 00 80 72 94 43
+	MPCOS-3DES 64K \ EMV Filter (Gemplus)
+
 3B 24 00 .. .. .. 45
 	Conax
 
@@ -114,6 +117,9 @@
 
 3B 29 00 80 72 A4 45 64 00 00 D0 15
 	Moeda Electronica Bradesco (Gemplus MPCOS?) (Brasilia)
+
+3B 29 00 80 72 A4 45 64 00 FF 00 10
+	MPCOS-3DES 8K (Gemplus)
 
 3B 2A 00 80 65 A2 01 00 00 00 72 D6 41
 	MPCOS_EMV_1B
@@ -181,6 +187,9 @@
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
+
+3B 6D 00 00 00 31 C0 71 D6 64 38 D0 02 00 84 90 00
+	EMV Visa Electron (Oberthur)
 
 3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
 	HSBC Visa/MasterCard credit card
@@ -330,6 +339,9 @@
 3B B0 11 00 81 31 90 73 F2
 	SamOS 2.7
 
+3B B2 11 00 10 80 00 02
+	AT88SC0204C (Atmel memory card)
+
 3B B7 11 00 81 31 90 43 A5 .. .. .. .. .. .. ..
 	Siemens CardOS/M V1.4 (SLE44C80S)
 
@@ -473,6 +485,9 @@
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
+
+3F 2D 00 27 A0 51 82 7D 00 00 00 52 00 0C 90 00
+	Porta Moedas Multibanco (Portugeese electronic purse)
 
 3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
 	GSM-SIM e-plus (1800MHz)
