@@ -111,6 +111,14 @@ Licences:
 History:
 ========
 
+1.3.4 - 4 July 2004, Ludovic ROUSSEAU
+    - 5 new ATR in smartcard_list.txt
+    - pcsc_scan.c: LPSTR -> LPTSTR for pcsc-lite 1.2.9 beta4
+    - scriptor, gscriptor: only send the 5 last characters of the
+      response to Chipcard::PCSC::Card::ISO7816Error()
+      The SW was sometimes not correctly parsed.
+    - Makefile: use 'pkg-config libpcsclite [--cflags|--libs]'
+
 1.3.3 - 2 April 2004, Ludovic ROUSSEAU
     - use a dynamic table for readers to avoid any use of the deprecated
       PCSCLITE_MAX_CHANNELS constant
@@ -189,6 +197,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.22 2004-07-04 13:04:00 rousseau Exp $
+$Id: README,v 1.23 2004-07-04 13:24:37 rousseau Exp $
 
  vim:ts=8
