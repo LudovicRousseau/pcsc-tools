@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.75 2004-07-07 16:56:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.76 2004-07-10 14:12:39 rousseau Exp $
 #
 
 # syntax:
@@ -364,6 +364,9 @@
 
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
+
+3B 8A 00 91 01 00 16 00 01 20 01 00 96
+	GSM-SIM T-D1 prepaid (Xtra)
 
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
