@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.41 2003-08-08 20:03:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.42 2003-08-12 16:52:57 rousseau Exp $
 #
 
 # syntax:
@@ -373,6 +373,9 @@
 
 3B AA 00 40 14 47 47 32 47 54 35 53 34 38 30
 	GSM-SIM Libertel (900MHz)
+
+3B AB 00 81 31 40 45 80 31 C0 65 08 06 80 00 00 00 00 84
+	Reloadable Visa Cash card (Schlumberger), Bank of America
 
 3B AD 00 40 FF 80 31 80 65 B0 05 01 01 5E 83 00 90 00
 	Dallas Semiconductor iButton
