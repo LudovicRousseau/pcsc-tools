@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.6 2003-06-24 20:27:40 rousseau Exp $
+# $Id: ATR_analysis,v 1.7 2003-09-02 16:40:14 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -52,7 +52,7 @@ my @LIST_PATH = qw(. /usr/local/pcsc /usr/lib/pcsc);
 
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line);
-my ($Y1, $K, @object, $nb_bytes);
+my ($Y1, $K, @object, $nb_bytes, $mpcard);
 
 # tables
 %TS = (0x3B, "Direct Convention", 0x3F, "Inverse Convention");
@@ -116,10 +116,13 @@ $value=hex(shift(@object));
 if (defined $TS{$value})
 {
 	printf "+ TS = %02X --> %s\n", $value, $TS{$value};
+	$mpcard = 1;
 }
 else
 {
-	printf "+ TS = %02X --> UNDEFINED\n", $value
+	printf "+ TS = %02X --> UNDEFINED\n", $value;
+	# this is NOT a microprocessor card
+	$mpcard = 0;
 }
 
 exit if ($#object < 0);
@@ -144,6 +147,12 @@ analyse_TD() if ($Y1 & 0x8);
 
 # the rest are historical byets
 print "+ Historical bytes: @object\n";
+
+if (! $mpcard)
+{
+	print "Your card is not a microprocessor card. It seams to be memory card.\n";
+	exit;
+}
 
 # find the corresponding card type
 find_card($atr, $SMARTCARD_LIST, @LIST_PATH);
