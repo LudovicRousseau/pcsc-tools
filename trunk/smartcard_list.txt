@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.105 2004-12-10 14:28:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.106 2004-12-11 15:02:20 rousseau Exp $
 #
 
 # syntax:
@@ -812,6 +812,9 @@
 
 3F 2F 00 80 69 AF 03 07 03 5A 00 15 0A 0E 83 3E 9F 16
 	Virgin Mobile SIM (Gemplus)
+
+3F 67 25 00 21 20 00 0F 78 90 00
+	Bank Nederlandse Gemeenten, BNG Data Services
 
 3F 65 25 .. .. 04 6C 90 .0
 	Carte Bancaire (french banking card)
