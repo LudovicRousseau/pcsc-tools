@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.67 2004-03-24 18:14:59 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.68 2004-03-24 18:18:10 rousseau Exp $
 #
 
 # syntax:
@@ -529,6 +529,9 @@
 	IBM JCOP 20/16
 	or Datakey Smart Card Model 330J
 	(http://www.datakey.com/products/smart_cards/products_sc_330j.shtml)
+
+3B E6 00 FF 81 31 FE 45 4A 43 4F 50 32 31 07
+	IBM JCOP ID21
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 31bio
