@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.109 2005-01-09 19:18:04 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.110 2005-01-11 18:36:03 rousseau Exp $
 #
 
 # syntax:
@@ -574,6 +574,9 @@
 
 3B BF 18 00 C0 20 31 70 52 53 54 41 52 43 4F 53 20 53 32 31 20 43 90 00 9C
 	Giesecke & Devrient SPK 2.1 C
+
+3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
+	Philips DESFire SAM
 
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto, http://www.athena-scs.com/product.asp?pid=8
