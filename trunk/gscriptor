@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.7 2001-09-05 08:39:42 lvictor Exp $
+# $Id: gscriptor,v 1.8 2001-09-05 14:47:08 lvictor Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.7  2001/09/05 08:39:42  lvictor
+# Cleared warning messages while running with perl -w...
+#
 # Revision 1.6  2001/09/05 07:28:33  rousseau
 # Added GPL licence in the source code
 # Added CVS Id field
@@ -305,7 +308,7 @@ sub ReaderConfig {
 	my $rdbT0  = new Gtk::RadioButton("T=0");
 	my $rdbT1  = new Gtk::RadioButton("T=1", $rdbT0);
 	my $rdbRAW = new Gtk::RadioButton("T=RAW", $rdbT0);
-	my $txtATR = new Gtk::Label ("ATR: ");
+	my $txtProtocol = new Gtk::Label ("Protocol");
 
 	# This sub adjusts the content of $hConfig with the selected protocol
 	my $subProtocol = sub {
@@ -345,10 +348,10 @@ sub ReaderConfig {
 		$rdbRAW->set_active(1) if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_RAW);
 	}
 
-	$hbxStatusBox->attach_defaults ($rdbT0, 0, 1, 0, 1);
-	$hbxStatusBox->attach_defaults ($rdbT1, 0, 1, 1, 2);
-	$hbxStatusBox->attach_defaults ($rdbRAW, 0, 1, 2, 3);
-	$hbxStatusBox->attach_defaults ($txtATR, 1, 2, 2, 3);
+	$hbxStatusBox->attach_defaults ($txtProtocol, 0, 1, 0, 1);
+	$hbxStatusBox->attach_defaults ($rdbT0, 1, 2, 0, 1);
+	$hbxStatusBox->attach_defaults ($rdbT1, 1, 2, 1, 2);
+	$hbxStatusBox->attach_defaults ($rdbRAW, 1, 2, 2, 3);
 
 	$cboReaders->set_popdown_strings ($hContext->ListReaders ());
 	$cboReaders->set_case_sensitive(1);
