@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.61 2004-01-09 20:15:01 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.62 2004-01-09 22:36:22 rousseau Exp $
 #
 
 # syntax:
@@ -511,6 +511,8 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 32 30 06
 	IBM JCOP 20/16
+	or Datakey Smart Card Model 330J
+	(http://www.datakey.com/products/smart_cards/products_sc_330j.shtml)
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 31bio
@@ -607,6 +609,10 @@
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card
+
+3B FF 11 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D0
+	Datakey 32K PKI Smart Card Model 330
+	(http://www.datakey.com/products/smart_cards/products_sc_330.shtml)
 
 3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 0[0,5] 63 .. .. .. .. 90 00.*
 	Smart Card "The Smart Way to Login"
