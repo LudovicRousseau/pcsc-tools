@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.83 2004-08-11 21:56:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.84 2004-08-13 21:38:30 rousseau Exp $
 #
 
 # syntax:
@@ -286,6 +286,9 @@
 
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
+
+3B 6E 00 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
+	Estonian Identity Card (EstEID warm)
 
 3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
 	Norsk-Tipping (Buypass) Monodex card
@@ -684,7 +687,7 @@
 	ZeitControl BasicCard Professional 5.4 Revision A
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
-	ESTEID Estonian Identity Card
+	ESTEID Estonian Identity Card (EstEID cold)
 
 3B FF 11 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D0
 	Datakey 32K PKI Smart Card Model 330
