@@ -1,5 +1,5 @@
 
-Release 1.0.3, Tue Nov 27 08:24:42 CET 2001
+Release 1.0.4, Tue Mar  5 17:33:07 CET 2002
 
 This archive contains some tools usefull for a PC/SC user.
 PC/SC can be obtained from [1].
@@ -46,5 +46,5 @@ The tools provided are:
 
 [1] http://linuxnet.com/middle.html
 
-$Id: README,v 1.7 2001-11-27 07:25:35 rousseau Exp $
+$Id: README,v 1.8 2002-03-05 16:33:40 rousseau Exp $
 
