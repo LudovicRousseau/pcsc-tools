@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.107 2004-12-15 20:14:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.108 2005-01-09 19:15:05 rousseau Exp $
 #
 
 # syntax:
@@ -527,6 +527,7 @@
 
 3B B7 94 00 81 31 FE 65 53 50 4B 32 33 90 00 D1
 	Giesecke & Devrient Starcos 2.3
+	Deutsche Bank WebSign (RSA-Card)
 
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
@@ -773,6 +774,9 @@
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 07 88 00 04 10 A0
 	HBCI-Karte (Berliner Sparkasse, Germany)
 
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 14 06 00 04 10 3D
+	Geldkarte/HBCI(DDV-1) (Staedtische Sparkasse Offenbach, Germany)
+
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 80 00 12 24 30 00 20 04 10 59
 	Geldkarte (Germany)
 
@@ -783,8 +787,9 @@
 	Landesbank baden-Württemberg Geldkarte
 
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
-	Citizencard of the People of Ulm in Germany (Bürgerkarte)
-	contains an D-Trust Signature
+	D-Trust Signature Card (www.d-trust.net):
+	- Citizencard of the People of Ulm in Germany (Bürgerkarte)
+	- Qualified Electronic Signature Card (Qualifizierte Signaturkarte)
 
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
 	Vodafone 64 KB SIM with Javacard
