@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.112 2005-01-13 17:49:36 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.113 2005-01-19 18:39:12 rousseau Exp $
 #
 
 # syntax:
@@ -251,6 +251,9 @@
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
+
+3B 6A 00 00 80 65 A2 01 01 01 3D 72 D6 43
+	GemSafe Xpresso 16k
 
 3B 6A 00 00 80 66 A1 09 02 01 63 0E 90 00
 	Danish Visa/Dankort
