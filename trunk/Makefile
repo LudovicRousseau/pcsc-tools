@@ -1,5 +1,5 @@
 
-# $Id: Makefile,v 1.13 2004-04-02 06:40:02 rousseau Exp $
+# $Id: Makefile,v 1.14 2004-05-25 07:35:13 rousseau Exp $
 
 # The root of the include and lib directory where PCSC Lite is installed.
 PCSCBASE ?= /usr/local
@@ -25,16 +25,16 @@ all: $(BIN) $(MAN)
 pcsc_scan: pcsc_scan.o
 
 install: all
-	install --directory $(DESTDIR)/bin/
+	install -d $(DESTDIR)/bin/
 	install $(BIN) $(DESTDIR)/bin/
 
 	install $(BIN_SCRIPT) $(DESTDIR)/bin/
 
-	install --directory $(DESTDIR)/pcsc
-	install --mode 644 smartcard_list.txt $(DESTDIR)/pcsc
+	install -d $(DESTDIR)/pcsc
+	install -m 644 smartcard_list.txt $(DESTDIR)/pcsc
 
-	install --directory $(DESTDIR)/share/man/man1/
-	install --mode 644 $(MAN) $(DESTDIR)/share/man/man1/
+	install -d $(DESTDIR)/share/man/man1/
+	install -m 644 $(MAN) $(DESTDIR)/share/man/man1/
 
 clean:
 	rm -f pcsc_scan.o $(BIN) $(MAN)
