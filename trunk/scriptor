@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.10 2003-11-07 17:46:59 rousseau Exp $
+# $Id: scriptor,v 1.11 2003-12-10 19:09:53 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -45,7 +45,8 @@ if ($options{h}) {
 	print "              By defaults the first one found is used so you\n";
 	print "              don't have to specify anything if you just have\n";
 	print "              one reader\n";
-	print " -p protocol: protocol to use among T=0 and T=1. Default is T=0\n";
+	print " -p protocol: protocol to use among T=0 and T=1.\n";
+	print "              Default is to let pcsc-lite choose the protocol\n";
 	print "        file: file containing APDUs\n";
 	exit (0);
 }
@@ -64,8 +65,7 @@ if ($options{p}) {
 		}
 	}
 } else {
-	print STDERR "No protocol given: using T=0\n";
-	$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T0;
+	$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T0 | $Chipcard::PCSC::SCARD_PROTOCOL_T1;
 }
 
 # reader option
@@ -73,7 +73,7 @@ if ($options{r}) {
 	print STDERR "Using given card reader: $options{r}\n";
 } else {
 	my @readers_list = $hContext->ListReaders ();
-	die ("Can't get readers list: $Chipcard::PCSC::errno\n") unless defined $readers_list[0];
+	die ("Can't get readers list\n") unless defined $readers_list[0];
 	print STDERR "No reader given: using $readers_list[0]\n";
 	$options{r} = $readers_list[0];
 }
