@@ -21,9 +21,13 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.6 2001-09-05 07:28:33 rousseau Exp $
+# $Id: gscriptor,v 1.7 2001-09-05 08:39:42 lvictor Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.6  2001/09/05 07:28:33  rousseau
+# Added GPL licence in the source code
+# Added CVS Id field
+#
 # Revision 1.5  2001/09/04 15:17:55  lvictor
 # Updated gscriptor to use asci_to_array(). a reset keyword has also been
 # added to the scripting 'language' so that it calls Reconnect()
@@ -252,7 +256,7 @@ die ("The Gtk event loop failed to start resulting in abnormal program terminati
 
 sub MessageBox {
 	my $strMessage = shift;
-	my $strTitle = shift unless ref (@_[0]);
+	my $strTitle = shift unless ref ($_[0]);
 	my @ButtonDescr = @_;
 
 	my $refCurButtonDescr;
@@ -272,7 +276,11 @@ sub MessageBox {
 		warn ("button named '$$refCurButtonDescr[0]' has an invalid callback: '$$refCurButtonDescr[1]'")
 			unless ref ($$refCurButtonDescr[1]);
 
+		# Each button is constructed from its label
 		my $btnTmpButton = new Gtk::Button($$refCurButtonDescr[0]);
+
+		# A mouse click on the button triggers a call to its embedded
+		# callback then destroys the dialog box
 		$btnTmpButton->signal_connect ("clicked", sub { &{$$refCurButtonDescr[1]}; $dlgDialog->destroy(); });
 		$hbxButtonBox->pack_end($btnTmpButton, 0, 0, 10);
 	}
@@ -330,10 +338,12 @@ sub ReaderConfig {
 	$hbxButtonBox->pack_end($btnCancel, 0, 0, 10);
 	$hbxButtonBox->pack_end($btnOK, 0, 0, 10);
 
-	# Select the last protocol used if any
-	$rdbT0->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T0);
-	$rdbT1->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T1);
-	$rdbRAW->set_active(1) if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_RAW);
+	# Select the last prefered protocol if any
+	if (defined $hConfig {'protocol'}) {
+		$rdbT0->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T0);
+		$rdbT1->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T1);
+		$rdbRAW->set_active(1) if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_RAW);
+	}
 
 	$hbxStatusBox->attach_defaults ($rdbT0, 0, 1, 0, 1);
 	$hbxStatusBox->attach_defaults ($rdbT1, 0, 1, 1, 2);
