@@ -17,10 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.4 2001-11-08 08:34:04 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.5 2001-11-08 08:46:49 rousseau Exp $ */
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.4  2001/11/08 08:34:04  rousseau
+ * set the wait time to 0 to get all the events
+ *
  * Revision 1.3  2001/10/22 08:54:55  rousseau
  * go to the next reader _after_ printing information for the current oone
  *
@@ -57,7 +60,7 @@ int main(int argc, char *argv[])
 
 	printf("PC/SC device scanner\n");
 	printf("V " VERSION " (c) 2001, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
-	printf("PCSC lite version: " PCSCLITE_VERSION_NUMBER "\n");
+	printf("PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	if (rv != SCARD_S_SUCCESS)
