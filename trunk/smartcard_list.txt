@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.12 2002-10-22 20:27:42 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.13 2002-10-25 17:27:14 rousseau Exp $
 #
 
 # syntax:
@@ -127,6 +127,9 @@
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
+3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
+	DeLaRue ProlifIC
+
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
@@ -135,6 +138,9 @@
 
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
+
+3B 7B 94 00 00 80 65 B0 83 01 01 74 83 00 90 00
+	Gemplus GemXpresso Pro R3
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00 
 	Oberthur Galactic V2
@@ -174,6 +180,9 @@
 
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
+
+3B 95 18 40 FF 64 02 01 01 02
+	Schlumberger CryptoFlex 32Ko
 
 3B 95 94 40 FF 63 01 01 02 01
 	Schlumberger Cryptoflex 16
@@ -310,6 +319,9 @@
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
 
+3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
+	DeLaRue DX(?)
+
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
 
@@ -333,6 +345,9 @@
 
 3F 65 25 00 22 09 F9 90 00
 	Sesam Vitale (french health card)
+
+3F 65 25 00 2B 09 EB 90 00
+	Bull Scot 5
 
 3F 65 25 08 .. 04 6C 90 .0
 	Card Bancaire (french banking card)
