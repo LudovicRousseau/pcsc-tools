@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.31 2003-04-30 15:48:35 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.32 2003-05-03 07:00:53 rousseau Exp $
 #
 
 # syntax:
@@ -174,7 +174,7 @@
 	370-4328-01 (31091)
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
-	Lloyds TSB Visa Debit Card
+	Lloyds TSB Visa Credit/Debit Card
 
 3B 6B 00 00 00 31 80 64 2D A0 02 0C 8C 61 27
 	SmartEMV prototype
@@ -471,6 +471,9 @@
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
+3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 00 63 00 00 00 00 90 00 EE
+	Smart Card "The Smart Way to Login"
+
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card
 
@@ -531,6 +534,9 @@
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
+
+3F 67 25 00 2A 20 00 0F 68 90 00
+	Carte Grand Voyageur (SNCF : french train company)
 
 3F 67 25 00 2A 20 00 40 68 9F 00
 	Swiss Cash card
