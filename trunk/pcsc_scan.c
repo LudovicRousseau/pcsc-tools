@@ -17,10 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.3 2001-10-22 08:54:55 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.4 2001-11-08 08:34:04 rousseau Exp $ */
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.3  2001/10/22 08:54:55  rousseau
+ * go to the next reader _after_ printing information for the current oone
+ *
  * Revision 1.2  2001/10/16 07:31:51  rousseau
  * commented number of allocated readers (wrong info?)
  *
@@ -113,60 +116,64 @@ int main(int argc, char *argv[])
 
 		rgReaderStates = rgReaderStates_t[current_reader];
 		
-		rv = SCardGetStatusChange(hContext, 1000, &rgReaderStates, 1);
+		rv = SCardGetStatusChange(hContext, 0, &rgReaderStates, 1);
 		
-		rgReaderStates.dwCurrentState = rgReaderStates.dwEventState;
-		rgReaderStates_t[current_reader] = rgReaderStates;
-
-		if (rv == SCARD_E_TIMEOUT)
-			continue;
-		if (rv != SCARD_S_SUCCESS)
-			printf("SCardGetStatusChange: %lX\n", rv);
-
-		t = time(NULL);
-		printf("\n%s Reader %d (%s)\n", ctime(&t), current_reader,
-			rgReaderStates.szReader);
-
-		printf("\tCard state: ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_IGNORE)
-			printf("Ignore this reader, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_CHANGED)
-			printf("State has changed, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_UNKNOWN)
-			printf("Reader unknown, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_UNAVAILABLE)
-			printf("Status unavailable, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_EMPTY)
-			printf("Card removed, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_PRESENT)
-			printf("Card inserted, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_ATRMATCH)
-			printf("ATR matches card, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_EXCLUSIVE)
-			printf("Exclusive Mode, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_INUSE)
-			printf("Shared Mode, ");
-
-		if (rgReaderStates.dwEventState & SCARD_STATE_MUTE)
-			printf("Unresponsive card, ");
-
-		printf("\n");
-
-		if (rgReaderStates.cbAtr > 0)
+		if (rgReaderStates.dwCurrentState != rgReaderStates.dwEventState)
 		{
-			printf("\tATR: ");
-			for (i=0; i<rgReaderStates.cbAtr; i++)
-				printf("%02X ", rgReaderStates.rgbAtr[i]);
+			rgReaderStates.dwCurrentState = rgReaderStates.dwEventState;
+			rgReaderStates_t[current_reader] = rgReaderStates;
+
+			if (rv == SCARD_E_TIMEOUT)
+				continue;
+
+			if (rv != SCARD_S_SUCCESS)
+				printf("SCardGetStatusChange: %lX\n", rv);
+
+			t = time(NULL);
+			printf("\n%s Reader %d (%s)\n", ctime(&t), current_reader,
+				rgReaderStates.szReader);
+
+			printf("\tCard state: ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_IGNORE)
+				printf("Ignore this reader, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_CHANGED)
+				printf("State has changed, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_UNKNOWN)
+				printf("Reader unknown, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_UNAVAILABLE)
+				printf("Status unavailable, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_EMPTY)
+				printf("Card removed, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_PRESENT)
+				printf("Card inserted, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_ATRMATCH)
+				printf("ATR matches card, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_EXCLUSIVE)
+				printf("Exclusive Mode, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_INUSE)
+				printf("Shared Mode, ");
+
+			if (rgReaderStates.dwEventState & SCARD_STATE_MUTE)
+				printf("Unresponsive card, ");
+
 			printf("\n");
+
+			if (rgReaderStates.cbAtr > 0)
+			{
+				printf("\tATR: ");
+				for (i=0; i<rgReaderStates.cbAtr; i++)
+					printf("%02X ", rgReaderStates.rgbAtr[i]);
+				printf("\n");
+			}
 		}
 
 		/* next reader */
