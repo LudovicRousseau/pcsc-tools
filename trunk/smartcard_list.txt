@@ -21,7 +21,7 @@
 # This list contains a match between an ATR and a card type
 # The list is sorted for edition purposes
 #
-# $Id: smartcard_list.txt,v 1.1 2002-08-21 07:58:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.2 2002-08-26 08:16:03 rousseau Exp $
 #
 
 # syntax:
@@ -54,6 +54,12 @@
 
 3B 19 14 59 01 01 0F 01 00 05 08 B0
 	Schlumberger Multiflex 8k
+
+3B 1F 11 00 67 80 42 46 49 53 45 10 52 66 FF 81 90 00
+	Nokia branded SC (Setec)
+
+3B 1F 11 80 6A 80 34 46 49 53 45 53 94 36 FF 07 90 00
+	RSA SecurID 3100
 
 3B 23 00 00 36 41 81
 	Schlumberger Payflex 4k SAM
@@ -106,6 +112,9 @@
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
+3B 67 25 00 2A 20 00 4[0,5] 68 90 00
+	Swedish cashcard (proton)
+
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
@@ -147,6 +156,9 @@
 
 3B 9A 94 00 91 01 00 17 00 01 23 10 00 96
 	GSM-SIM Victorvox D1 (900MHz)
+
+3B 9F 94 40 1E 00 67 16 43 46 49 53 45 10 52 66 FF 81 90 00
+	RSA SecurID 3100
 
 3B A7 00 40 14 80 65 A2 14 01 01 37
 	Gemplus GPK4000sdo
@@ -254,6 +266,9 @@
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
 
+3F 05 DC 20 FC 00 01
+	DigiCash Facility Card
+
 3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
 	GSM-SIM e-plus (1800MHz)
 
@@ -281,8 +296,9 @@
 3F 67 25 00 2A 20 00 40 68 9F 00
 	Swiss Cash card
 
-3F 67 25 00 2A 20 00 41 68 90 00
-	Dutch ChipKnip
+3F 67 25 00 2A 20 00 4[0,1] 68 90 00
+	Dutch ChipKnip, Proton
+	(chip Bull CC 60 V1, Bull CC 60 V2 or Bull CC 1000)
 
 3F 69 00 00 24 AF 01 70 01 01 FF 90 00
 	French GSM SIM card (900MHz)
