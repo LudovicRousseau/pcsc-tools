@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.92 2004-09-30 18:59:57 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.93 2004-09-30 20:27:19 rousseau Exp $
 #
 
 # syntax:
@@ -607,6 +607,11 @@
 
 3B EC 00 FF 81 31 FE 45 A0 00 00 00 56 33 33 30 4A 33 06 00 A1
 	Datakey model 330J card, www.datakey.com
+	http://www.hmk.de/downloads/datakey/Model_330J_Smart_Card.pdf
+	Model 330J JavaCard v2.1.1
+	Global Platform v2.0.1 specifications.
+	JCCOS operating system applet (Java-based Cryptographic Card
+	Operating System)
 
 3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
