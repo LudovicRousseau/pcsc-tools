@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.9 2003-10-17 21:28:29 rousseau Exp $
+# $Id: scriptor,v 1.10 2003-11-07 17:46:59 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -105,7 +105,10 @@ while (<IN_FILEHANDLE>) {
 		if (defined $hCard->Reconnect ($Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE,
 		                   $options{p},
 						   $Chipcard::PCSC::SCARD_RESET_CARD)) {
-			print OUT_FILEHANDLE "< OK\n";
+			my @s = $hCard->Status();
+			print OUT_FILEHANDLE "< OK: ";
+			print map { sprintf ("%02X ", $_) } @{$s[3]};
+			print OUT_FILEHANDLE "\n";
 		} else {
 			print OUT_FILEHANDLE "< KO: $Chipcard::PCSC::errno\n";
 		}
@@ -118,7 +121,8 @@ while (<IN_FILEHANDLE>) {
 	print OUT_FILEHANDLE "> $cmd\n";
 	$RecvData = $hCard->Transmit($SendData);
 	die ("Can't get info: $Chipcard::PCSC::errno\n") unless defined $RecvData;
-	print OUT_FILEHANDLE "< " . Chipcard::PCSC::array_to_ascii($RecvData) . "\n";
+	my $res = Chipcard::PCSC::array_to_ascii($RecvData);
+	print OUT_FILEHANDLE "< $res : " . Chipcard::PCSC::Card::ISO7816Error($res) . "\n";
 }
 
 close (IN_FILEHANDLE);
