@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.11 2003-12-10 19:09:53 rousseau Exp $
+# $Id: scriptor,v 1.12 2003-12-10 19:18:44 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -80,6 +80,17 @@ if ($options{r}) {
 
 $hCard = new Chipcard::PCSC::Card ($hContext, $options{r}, $Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE, $options{p});
 die ("Can't allocate Chipcard::PCSC::Card object: $Chipcard::PCSC::errno\n") unless defined $hCard;
+
+if ($hCard->{dwProtocol} == $Chipcard::PCSC::SCARD_PROTOCOL_T0) {
+	print "Using T=0 protocol\n";
+} else {
+	if ($hCard->{dwProtocol} == $Chipcard::PCSC::SCARD_PROTOCOL_T1) {
+		print "Using T=1 protocol\n";
+	}
+	else {
+		print "Using an unknown protocol (not T=0 or T=1)\n";
+	}
+}
 
 # file option
 if ($ARGV[0]) {
