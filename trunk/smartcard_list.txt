@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.40 2003-08-05 18:30:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.41 2003-08-08 20:03:49 rousseau Exp $
 #
 
 # syntax:
@@ -538,8 +538,9 @@
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card
 
-3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 00 63 00 00 00 00 90 00 EE
+3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 0[0,5] 63 .. .. .. .. 90 00.*
 	Smart Card "The Smart Way to Login"
+	Used on Acer TravelMate to secure boot
 
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 54 00 04 23 05 02 A5
 	Maestrocard/Geldkarte (Stadtsparkasse Haltern, Germany)
