@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.16 2001-09-25 09:05:44 rousseau Exp $
+# $Id: gscriptor,v 1.17 2001-10-01 08:16:40 lvictor Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.16  2001/09/25 09:05:44  rousseau
+# Disconnect the actual card when the reader is changed
+#
 # Revision 1.15  2001/09/25 08:56:46  rousseau
 # improved the Help dialog box
 #
@@ -308,6 +311,7 @@ sub MessageBox {
 
 		# Each button is constructed from its label
 		my $btnTmpButton = new Gtk::Button($$refCurButtonDescr[0]);
+		$btnTmpButton->can_default(1);
 
 		# A mouse click on the button triggers a call to its embedded
 		# callback then destroys the dialog box
@@ -323,7 +327,6 @@ sub MessageBox {
 	$dlgDialog->vbox->add ($hbxTextBox);
 
 	# the last button is the default one
-	$last_button->can_default(1);
 	$last_button->grab_default();
 
 	# Finally show up everything
@@ -359,11 +362,13 @@ sub ReaderConfig {
 		$hCard->Disconnect($PCSC::SCARD_UNPOWER_CARD);
 		$dlgReaderConfig->destroy();
 	});
+	$btnOK->can_default(1);
 
 	my $btnCancel = new Gtk::Button ("Cancel");
 	$btnCancel->signal_connect( "clicked", sub {
 		$dlgReaderConfig->destroy();
 	});
+	$btnCancel->can_default(1);
 
 	my $hbxReaderBox = new Gtk::HBox (0,10);
 	my $hbxButtonBox = new Gtk::HBox (0,3);
@@ -401,7 +406,6 @@ sub ReaderConfig {
 	$dlgReaderConfig->vbox->add ($hbxStatusBox);
 
 	# the OK button is the default one
-	$btnOK->can_default(1);
 	$btnOK->grab_default();
 
 	$dlgReaderConfig->set_policy (0, 0, 1);
