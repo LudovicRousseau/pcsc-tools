@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.6 2002-09-12 07:31:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.7 2002-09-27 06:39:54 rousseau Exp $
 #
 
 # syntax:
@@ -245,6 +245,9 @@
 
 3B E2 00 00 40 20 49 07
 	Schlumberger Cryptoflex Key Generation
+
+3B E2 00 FF C1 10 31 FE 55 C8 02 9C
+	Aladdin eToken PRO (USB token)
 
 3B EA 00 FF 81 31 20 75 00 64 05 14 01 02 31 00 90 00 27
 	GCOS-MDK
