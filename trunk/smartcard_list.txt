@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.51 2003-11-18 17:08:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.52 2003-11-19 17:01:41 rousseau Exp $
 #
 
 # syntax:
@@ -253,6 +253,9 @@
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 24 22 0E E7 82 90 00
 	Navigo (contact mode)
+
+3B 6F 00 FF 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 02
+	Giesecke & Devrient SmartCafe Expert 2.0
 
 3B 75 94 00 00 62 02 02 0[1-3] 01
 	Schlumberger Cyberflex 32K e-gate
