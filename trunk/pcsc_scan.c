@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.11 2003-05-31 20:44:09 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.12 2004-01-08 09:23:19 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -25,7 +25,12 @@
 #include <unistd.h>
 #include <string.h>
 
+#ifdef __APPLE__
+#include <PCSC/wintypes.h>
+#include <PCSC/winscard.h>
+#else
 #include <winscard.h>
+#endif
 
 #ifndef TRUE
 #define TRUE 1
