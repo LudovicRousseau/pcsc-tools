@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.77 2004-07-19 14:48:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.78 2004-07-23 20:06:43 rousseau Exp $
 #
 
 # syntax:
@@ -300,10 +300,16 @@
 	Oberthur Galactic V2
 
 3B 7D 11 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
-	Oberthur Cosmo 64 RSA v5
+	Oberthur Cosmo 64k RSA v5
+
+3B 7D 11 00 00 00 31 80 71 8E 64 77 E3 02 00 82 90 00
+	Oberthur 64k v5/2.2.0
 
 3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 01 00 81 90 00
 	DOD-CAC
+
+3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
+	Oberthur 64k v4/2.1.1
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
@@ -312,10 +318,13 @@
 	DoD CAC, Oberthur CosmopolIC V4
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
-	Oberthur Galactic V3
+	Oberthur Galactic V3 (32k)
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 04 00 82 90 00
 	Oberthur CosmopolIC
+
+3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
+	Oberthur 32k BIO
 
 3B 82 81 31 76 43 C1 03 C5
 	i.ti (ticket card for Collogne/Bonn)
