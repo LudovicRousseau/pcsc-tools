@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.10 2002-10-15 21:36:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.11 2002-10-16 16:21:31 rousseau Exp $
 #
 
 # syntax:
@@ -136,11 +136,17 @@
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
 
+3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00 
+	Oberthur Galactic V2
+
 3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 01 00 81 90 00
 	DOD-CAC
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
+
+3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
+	Oberthur Galactic V3
 
 3B 82 81 31 76 43 C1 03 C5
 	i.ti (ticket card for Collogne/Bonn)
