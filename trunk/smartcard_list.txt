@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.26 2003-03-23 18:12:32 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.27 2003-03-29 13:46:17 rousseau Exp $
 #
 
 # syntax:
@@ -395,6 +395,10 @@
 
 3B EB 00 00 81 31 42 45 4E 4C 43 68 69 70 70 65 72 30 31 0A
 	Dutch Post (Chipper)
+
+3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
+	Electronic Identification Card from the FNMT, the Spanish Official
+	Certification Authority
 
 3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 32 2E 33 BD
 	ZeitControl BasicCard Enhanced 2.3
