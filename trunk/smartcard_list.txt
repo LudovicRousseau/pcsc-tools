@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.32 2003-05-03 07:00:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.33 2003-05-11 17:57:21 rousseau Exp $
 #
 
 # syntax:
@@ -471,14 +471,20 @@
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
-3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 00 63 00 00 00 00 90 00 EE
-	Smart Card "The Smart Way to Login"
-
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card
 
+3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 00 63 00 00 00 00 90 00 EE
+	Smart Card "The Smart Way to Login"
+
+3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 54 00 04 23 05 02 A5
+	Maestrocard/Geldkarte (Stadtsparkasse Haltern, Germany)
+
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
+
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 00 26 00 04 10 09
+	Maestrocard/Geldkarte (Postbank, Germany)
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 80 00 12 24 30 00 20 04 10 59
 	Geldkarte (Germany)
@@ -547,6 +553,9 @@
 
 3F 69 00 00 24 AF 01 70 01 01 FF 90 00
 	French GSM SIM card (900MHz)
+
+3F 6C 00 00 24 A0 30 00 FF 00 00 01 00 04 90 00
+	Gemplus MCOS 16K DES Sample Card
 
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
