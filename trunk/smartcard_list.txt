@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.49 2003-10-22 16:33:27 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.50 2003-10-22 16:40:24 rousseau Exp $
 #
 
 # syntax:
@@ -547,6 +547,9 @@
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
+
+3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
+	ZeitControl BasicCard Professional 5.4 Revision A
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card
