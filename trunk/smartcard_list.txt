@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.117 2005-02-17 23:10:43 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.118 2005-04-05 17:53:55 rousseau Exp $
 #
 
 # syntax:
@@ -235,6 +235,10 @@
 
 3B 67 25 00 62 24 33 03 ..
 	Bull TB1000 ? (SAM for ATM in Luxemburg)
+
+3B 68 00 00 56 53 44 43 4C 43 31 30
+	VISA credit card
+	Hansabank http://www.hansa.ee; made by Trüb http://www.trueb.ch/
 
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
