@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.97 2004-10-26 18:33:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.98 2004-11-04 16:43:53 rousseau Exp $
 #
 
 # syntax:
@@ -45,6 +45,9 @@
 
 3B 04 41 11 77 B1
 	IBM JCOP 30 contactless
+
+3B 04 49 32 43 2E
+	German Health Insurance Card
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
