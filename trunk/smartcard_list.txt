@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.30 2003-04-26 18:05:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.31 2003-04-30 15:48:35 rousseau Exp $
 #
 
 # syntax:
@@ -373,7 +373,7 @@
 3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66
 	Telesec TCOS 2 (SLE66P)
 
-3B BF 11 00 81 31 45 45 45 50 41 00 00 00 00 10 36 68 47 00 00 00 00 43
+3B BF 11 00 81 31 45 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
