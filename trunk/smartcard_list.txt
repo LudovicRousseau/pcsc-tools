@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.81 2004-08-01 22:05:47 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.82 2004-08-06 13:51:17 rousseau Exp $
 #
 
 # syntax:
@@ -802,7 +802,7 @@
 	Contactless Mifare
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 88 00 00 00 8D
-	Contactless Mifare
+	Contactless Mifare 1k or 4k
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
