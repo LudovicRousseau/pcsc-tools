@@ -73,9 +73,9 @@ The tools provided are:
 You will need the package pcsc-perl [3] to be able to use scriptor and
 gscriptor.
 
-[1] http://linuxnet.com/middle.html
+[1] http://pcsclite.alioth.debian.org/
 [2] http://linuxnet.com/
-[3) http://ludovic.rousseau.free.fr/softwares/pcsc-perl/pcsc-perl.html
+[3] http://ludovic.rousseau.free.fr/softwares/pcsc-perl/
 
 
 Authors:
@@ -189,6 +189,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.21 2004-04-02 10:11:18 rousseau Exp $
+$Id: README,v 1.22 2004-07-04 13:04:00 rousseau Exp $
 
  vim:ts=8
