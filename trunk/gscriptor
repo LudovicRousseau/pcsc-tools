@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.23 2003-11-08 17:07:02 rousseau Exp $
+# $Id: gscriptor,v 1.24 2003-11-08 17:13:41 rousseau Exp $
 
 use strict;
 
@@ -98,7 +98,6 @@ sub arrange_widgets () {
 	my @menu_items = ({ path        => '/_File',
 	                    type        => '<Branch>' },
 	                  { path        => '/File/_New',
-	                    accelerator => '<control>N',
 	                    callback    => \&NewScriptFile },
 	                  { path        => '/File/_Open',
 	                    accelerator => '<control>O',
@@ -133,7 +132,7 @@ sub arrange_widgets () {
                       { path        => '/Ru_n',
                         type        => '<Branch>' },
 	                  { path        => '/Run/_Run Script',
-						accelerator => '<control>n',
+						accelerator => '<control>R',
 	                    callback    => \&RunScript },
 	                  { path        => '/Run/C_lear Result Area',
 						accelerator => '<control>L',
