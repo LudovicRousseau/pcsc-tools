@@ -1,4 +1,3 @@
-
 Some tools to be used with smart cards and PC/SC
 ================================================
 
@@ -7,36 +6,37 @@ PC/SC lite [1] from MUSCLE [2].
 
 The tools provided are:
 
-- pcsc_scan (Ludovic Rousseau <ludovic.rousseau@free.fr>
+- pcsc_scan (Ludovic Rousseau <ludovic.rousseau@free.fr>)
     regularly scans every PC/SC reader connected to the host
     if a card is inserted or removed a line is printed
 
     For example:
 
      PC/SC device scanner
-     V 1.0.3 (c) 2001, Ludovic Rousseau <ludovic.rousseau@free.fr>
-     PC/SC lite version: 1.0.0B
+     V 1.1.0 (c) 2001-2002, Ludovic Rousseau <ludovic.rousseau@free.fr>
+     PC/SC lite version: 1.0.2.beta5
      0: GemPC410 0 0
      1: GemPC430 0 0
      
-     Thu Nov  8 09:41:09 2001
-      Reader 0 (GemPC410 0 0)
-             Card state: State has changed, Card inserted, 
-             ATR: 3B 68 00 00 80 66 A2 06 02 01 32 0E 
-     
-     Thu Nov  8 09:41:10 2001
+     Fri Jun 14 09:59:02 2002
       Reader 0 (GemPC410 0 0)
              Card state: Card inserted, 
-             ATR: 3B 68 00 00 80 66 A2 06 02 01 32 0E 
+             ATR: 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
      
-     Thu Nov  8 09:41:12 2001
-      Reader 0 (GemPC410 0 0)
-             Card state: State has changed, Card removed, 
+     ATR: 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
+     + TS = 3B --> Direct Convention
+     + T0 = 6E, Y(1): 0110, K: 14 (historical bytes)
+       TB(1) = 00 --> Programming Param P: 0, I: 0
+       TC(1) = 00 --> Extra guard time: 0
+     + Historical bytes: 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
      
-     Thu Nov  8 09:41:12 2001
+     Fri Jun 14 09:59:05 2002
       Reader 0 (GemPC410 0 0)
              Card state: Card removed, 
 
+- ATR_analysis (Ludovic Rousseau <ludovic.rousseau@free.fr>)
+    Perl script used to parse the smart card ATR.
+    This script is called (by default) by pcsc_scan
 
 - scriptor (Lionel Victor <lionel.victor@unforgettable.com>)
     A Perl script to send commands to a smart card. You can use a file
@@ -46,7 +46,7 @@ The tools provided are:
     A Perl script to send commands to a smart card with GTK-based
     graphical interface.
 
-You will need the package pcsc-perl [3] to be able touse scriptor and
+You will need the package pcsc-perl [3] to be able to use scriptor and
 gscriptor.
 
 [1] http://linuxnet.com/middle.html
@@ -58,7 +58,8 @@ Authors:
 ========
 
 - Lionel VICTOR for scriptor and gscriptor
-- Ludovic ROUSSEAU for pcsc_scan and debug of scriptor and gscriptor
+- Ludovic ROUSSEAU for pcsc_scan, ATR_analysis and debug of scriptor and
+  gscriptor
 
 
 Licences:
@@ -85,6 +86,10 @@ Licences:
 History:
 ========
 
+1.1.0 - 14 Jun 2002, Ludovic ROUSSEAU
+    - include ATR_analysis and support for it in pcsc_scan
+    - modify pcsc_scan.c to listen to all the readers at once (Lionel)
+
 1.0.4 - 6 Mar 2002, Ludovic ROUSSEAU
     - gscriptor: case insensitive on "reset" command
     - scriptor: case insensitive on "exit" and "reset" commands
@@ -102,5 +107,5 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.9 2002-03-06 08:21:18 rousseau Exp $
+$Id: README,v 1.10 2002-06-14 08:05:01 rousseau Exp $
 
