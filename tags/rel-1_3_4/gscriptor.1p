@@ -1,0 +1,45 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH GSCRIPTOR 1p "octobre 19, 2001"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+gscriptor \- Perl script to send commands to a smart card using a Gtk
+GUI
+.SH SYNOPSIS
+.B gscriptor
+.SH DESCRIPTION
+This manual page documents briefly the
+.B gscriptor
+command.
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBgscriptor\fP is a program that sends commands to a smart card using a
+batch file. The syntax of the commands is the same as for scriptor(1).
+
+\fBscriptor\fP(1) is in text mode. \fBgscriptor\fP(1) uses a Perl-Gtk
+graphical user interface and may be more user friendly.
+
+See \fBscriptor\fP(1) for details on the comands format.
+.SH OPTIONS
+none
+.SH SEE ALSO
+.BR pcscd (1), scriptor (1)
+.br
+.SH AUTHOR
+This manual page was written by Ludovic Rousseau <rousseau@debian.org>,
+for the Debian GNU/Linux system (but may be used by others).
