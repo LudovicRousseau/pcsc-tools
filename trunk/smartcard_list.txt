@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.113 2005-01-19 18:39:12 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.114 2005-01-26 18:30:10 rousseau Exp $
 #
 
 # syntax:
@@ -319,6 +319,9 @@
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 24 2A 4A 09 82 90 00
 	Navigo (contact mode)
+
+3B 6F 00 00 80 5A 08 03 03 00 00 00 24 2E C1 0D 82 90 00
+	carte intégrale RATP (French metro in Paris)
 
 3B 6F 00 FF 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 02
 	Giesecke & Devrient SmartCafe Expert 2.0
