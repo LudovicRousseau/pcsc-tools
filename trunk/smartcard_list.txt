@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.54 2003-11-23 22:22:27 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.55 2003-12-03 16:53:56 rousseau Exp $
 #
 
 # syntax:
@@ -154,6 +154,9 @@
 3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
 
+3B 3B 11 00 80 65 AF 03 0C 01 6F 83 0F 90 00
+	Gemplus GemX{plore,presso} V3-B1
+
 3B 3B 11 00 80 69 AF 03 0C 01 6F 83 0[0,1] 90 00
 	GemXplore'Xpresso V3 64K
 
@@ -181,6 +184,9 @@
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
+
+3B 67 00 00 9C 10 01 01 03 FF 07
+	Schlumberger Cyberflex Palmera Protect
 
 3F 67 25 00 26 14 00 20 68 90 00
 	Pay-TV card from Casema Cable Television, Netherland
@@ -266,11 +272,17 @@
 3B 76 11 00 00 00 9C 11 01 02 02
 	Schlumberger Cyberflex Access 32K
 
+3B 7A 94 00 00 80 65 A2 01 01 01 3D 72 D6 43
+	Gemplus GemXpresso Pro R3 E32 PK
+
 3B 7B 94 00 00 80 65 B0 83 01 0[1,3] 74 83 00 90 00
-	Gemplus GemXpresso Pro R3
+	Gemplus GemXpresso Pro R3 (E64 PK)
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00 
 	Oberthur Galactic V2
+
+3B 7D 11 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
+	Oberthur Cosmo 64 RSA v5
 
 3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 01 00 81 90 00
 	DOD-CAC
@@ -449,8 +461,14 @@
 3B BF 18 00 C0 20 31 70 52 53 54 41 52 43 4F 53 20 53 32 31 20 43 90 00 9C
 	Giesecke & Devrient SPK 2.1 C
 
+3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
+	NEC V-WAY64 v2.1
+
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
+
+3B E0 00 FF 81 31 FE 45 14
+	Sharp
 
 3B E2 00 00 40 20 49 ..
 	Schlumberger Cryptoflex 4k
@@ -557,6 +575,9 @@
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
 
+3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
+	IBM JCOP BIO31
+
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
@@ -572,6 +593,9 @@
 3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 0[0,5] 63 .. .. .. .. 90 00.*
 	Smart Card "The Smart Way to Login"
 	Used on Acer TravelMate to secure boot
+
+3B FF 11 00 02 40 64 80 69 A2 07 01 03 57 00 00 FF 00 83 00 90 00
+	Gemplus GemXpresso
 
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 54 00 04 23 05 02 A5
 	Maestrocard/Geldkarte (Stadtsparkasse Haltern, Germany)
@@ -597,6 +621,9 @@
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	Citizencard of the People of Ulm in Germany (Bürgerkarte)
 	contains an D-Trust Signature
+
+3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
+	Giesecke & Devrient STARSIM
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
@@ -660,7 +687,7 @@
 	MCOS 24k EEPROM
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
-	Gemplus GemXpresso 211PK
+	Gemplus GemXpresso 211PK or 211PK-IS
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
