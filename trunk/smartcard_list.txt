@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.71 2004-05-17 20:22:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.72 2004-06-13 20:49:36 rousseau Exp $
 #
 
 # syntax:
@@ -616,6 +616,9 @@
 
 3B EF 00 FF 81 31 86 45 49 42 4D 20 4D 46 43 34 30 30 30 30 38 33 31 43
 	ComCard MFC 4.1
+
+3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 27 40 00 03 01 00 E1
+	Postbank Geldkarte
 
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
