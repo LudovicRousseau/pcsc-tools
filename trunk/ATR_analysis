@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.7 2003-09-02 16:40:14 rousseau Exp $
+# $Id: ATR_analysis,v 1.8 2003-10-22 16:33:16 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -409,7 +409,7 @@ sub find_card($$@)
 	}
 	close FILE;
 
-	if (! $found)
+	if ((! $found) && ($atr =~ m/^[3B|3F]/))
 	{
 		print "\tNONE\n\n";
 		print "Your card is not present in the database.\n";
