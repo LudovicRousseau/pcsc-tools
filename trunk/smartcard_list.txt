@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.22 2003-02-02 14:54:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.23 2003-02-07 17:40:19 rousseau Exp $
 #
 
 # syntax:
@@ -307,8 +307,14 @@
 3B B7 11 00 81 31 90 53 B5 .. .. .. .. .. .. ..
 	CardOS EM/V1.4 (SLE44CR80S)
 
+3B B7 18 00 81 31 FE 65 53 50 4B 32 34 90 00 5A
+	Giesecke & Devrient Starcos 2.4
+
 3B B7 94 00 81 31 FE 65 53 50 4B 32 32 90 00 D0
-	Giesecke&Devrient STARCOS SPK2.2
+	Giesecke & Devrient STARCOS SPK2.2
+
+3B B7 94 00 81 31 FE 65 53 50 4B 32 33 90 00 D1
+	Giesecke & Devrient Starcos 2.3
 
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
