@@ -2,7 +2,7 @@
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH PCSC_SCAN 1 "octobre 19, 2001"
+.TH PCSC_SCAN 1 "june 13, 2002"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:
@@ -18,7 +18,7 @@
 .SH NAME
 pcsc_scan \- regularly scans every PC/SC readers connected to the host
 .SH SYNOPSIS
-.B pcsc_scan
+.BI "pcsc_scan [" options ]
 .SH DESCRIPTION
 This manual page documents briefly the
 .B pcsc_scan
@@ -36,29 +36,43 @@ printed before each reader.
 
 Example:
  PC/SC device scanner
- V 1.0.1 (c) 2001, Ludovic Rousseau
- PCSC lite version: 1.0.0G
+ V 1.1.0 (c) 2001-2002, Ludovic Rousseau
+ PC/SC lite version: 1.1.1
  0: GemPC410 0 0
  1: GemPC430 0 0
 
 When a card is inserted in any reader some information is printed:
 .TP
-date and time
-Fri Oct 19 19:03:18 2001
+date and time:
+Thu Jun 13 18:56:14 2002
 .TP
-reader name
+reader name:
 Reader 0 (GemPC410 0 0)
 .TP
-card state and occured event
+card state and occured event:
 Card state: State has changed, Card inserted,
 .TP
-ATR in case of card insertion
+ATR in case of card insertion:
 ATR: 3B 82 00 86 1E
-
+.TP
+print an ATR analysis if the \fBATR_analysis\fP command is available:
+ ATR: 3B 82 00 86 1E
+ + TS = 3B --> Direct Convention
+ + T0 = 82, Y(1): 1000, K: 2 (historical bytes)
+   TD(1) = 00 --> Y(i+1) = 0000, Protocol T = 0
+ -----
+ + Historical bytes: 86 1E
 .SH OPTIONS
-none
+.TP
+.B \-h
+print help
+.TP
+.B \-V
+print version number
+.TP
+.B \-n
+do not print ATR analysis
 .SH SEE ALSO
-.BR pcscd (1),
+.BR pcscd "(1), " ATR_analysis (1)
 .SH AUTHOR
-This manual page was written by Ludovic Rousseau <rousseau@debian.org>,
-for the Debian GNU/Linux system (but may be used by others).
+Ludovic Rousseau <ludovic.rousseau@free.fr>
