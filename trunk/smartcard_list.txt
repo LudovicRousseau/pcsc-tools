@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.52 2003-11-19 17:01:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.53 2003-11-20 07:13:37 rousseau Exp $
 #
 
 # syntax:
@@ -326,6 +326,9 @@
 3B 89 00 91 26 91 06 00 01 22 01 00
 	BT Cellnet SIM
 
+3B 89 40 14 47 47 32 36 4D 35 32 38 30
+	GSM-SIM e-plus (1800MHz)
+
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
@@ -553,6 +556,9 @@
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
+
+3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
+	OpenPGP
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
 	ZeitControl BasicCard Professional 5.4 Revision A
