@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.57 2003-12-16 16:48:47 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.58 2003-12-19 08:11:25 rousseau Exp $
 #
 
 # syntax:
@@ -349,6 +349,9 @@
 
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
+
+3B 90 95 80 1F C3 59
+	Dai Nippon Printing Co., DNP Standard-J T3.1
 
 3B 95 15 40 .. 68 01 02 .. ..
 	Schlumberger CryptoFlex 8k v2
