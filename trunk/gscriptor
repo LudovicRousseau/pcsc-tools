@@ -2,6 +2,7 @@
 
 #    gscriptor: GTK interface to send APDU commands to a smart card
 #    Copyright (C) 2001   Lionel Victor, Ludovic Rousseau
+#             2002-2003   Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -17,82 +18,18 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-#
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
-#
-# $Id: gscriptor,v 1.18 2002-03-05 16:32:48 rousseau Exp $
-#
-# $Log: not supported by cvs2svn $
-# Revision 1.17  2001/10/01 08:16:40  lvictor
-# modified default buttons behaviour (mostly cosmetic)
-#
-# Revision 1.16  2001/09/25 09:05:44  rousseau
-# Disconnect the actual card when the reader is changed
-#
-# Revision 1.15  2001/09/25 08:56:46  rousseau
-# improved the Help dialog box
-#
-# Revision 1.14  2001/09/25 08:54:10  rousseau
-# correctly assign the tip to the wrap line button
-#
-# Revision 1.13  2001/09/21 15:03:22  rousseau
-# removed () from $txtScript->get_length
-#
-# Revision 1.12  2001/09/21 15:02:08  rousseau
-# added accelerator for Quit
-# added $pos argument to insert_text()
-#
-# Revision 1.11  2001/09/21 13:56:22  rousseau
-# added 'homogeneous' argument to Gtk::Table::new()
-#
-# Revision 1.10  2001/09/21 13:55:31  rousseau
-# syntax "defined @ButtonDescr" is not correct with Perl 5.6
-#
-# Revision 1.9  2001/09/11 13:28:13  rousseau
-# configure default buttons in examples/gscriptor.pl
-#
-# Revision 1.8  2001/09/05 14:47:08  lvictor
-# Removed the ATR entry from the Reader Configuration dialog
-#
-# Revision 1.7  2001/09/05 08:39:42  lvictor
-# Cleared warning messages while running with perl -w...
-#
-# Revision 1.6  2001/09/05 07:28:33  rousseau
-# Added GPL licence in the source code
-# Added CVS Id field
-#
-# Revision 1.5  2001/09/04 15:17:55  lvictor
-# Updated gscriptor to use asci_to_array(). a reset keyword has also been
-# added to the scripting 'language' so that it calls Reconnect()
-#
-# Revision 1.4  2001/09/04 12:31:47  lvictor
-# More cosmetic changes
-#
-# Revision 1.3  2001/09/04 08:11:14  lvictor
-# Applied a patch from Ludovic Rousseau <ludovic.rousseau@free.fr>
-# This patch includes mostly cosmetic changes and extra documentation about
-# array_to_ascii() and ascii_to_array(). Thanks to this contributor for his
-# help and time
-#
-# Revision 1.2  2001/09/03 12:49:02  lvictor
-# Added mostly cosmetic improvements to offer the user to connect when
-# he/she tries to run a script without any active conX to the smartcard.
-# I also identified a bug which should be verified/corrected. Its cause
-# may lie into PCSC-lite so investigating the wrapper alone is not
-# enough
-#
-# Revision 1.1  2001/07/02 12:08:08  lvictor
-# Initial checkin
-#
+
+# $Id: gscriptor,v 1.19 2003-05-24 22:10:34 rousseau Exp $
 
 use strict;
 
 use Gtk;
 use File::Basename;
 use Carp;
-use PCSC;
-use PCSC::Card;
+use Chipcard::PCSC;
+use Chipcard::PCSC::Card;
 
 init Gtk;
 set_locale Gtk;
@@ -103,10 +40,10 @@ my @ResultStruct;
 my %hConfig;
 
 # PCSC related variables
-my $hContext = new PCSC ();
-die ("Can't create the PCSC object: $PCSC::errno\n") unless (defined $hContext);
-my $hCard = new PCSC::Card ($hContext);
-die ("Can't create the PCSC::Card object: $PCSC::errno\n") unless (defined $hContext);
+my $hContext = new Chipcard::PCSC ();
+die ("Can't create the Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless (defined $hContext);
+my $hCard = new Chipcard::PCSC::Card ($hContext);
+die ("Can't create the Chipcard::PCSC::Card object: $Chipcard::PCSC::errno\n") unless (defined $hContext);
 
 ############################### create widgets ###############################
 my $wndMain   = new Gtk::Window ("toplevel");
@@ -351,9 +288,9 @@ sub ReaderConfig {
 
 	# This sub adjusts the content of $hConfig with the selected protocol
 	my $subProtocol = sub {
-		$hConfig{'protocol'} = $PCSC::SCARD_PROTOCOL_RAW if ($rdbRAW->active);
-		$hConfig{'protocol'} = $PCSC::SCARD_PROTOCOL_T0  if ($rdbT0->active);
-		$hConfig{'protocol'} = $PCSC::SCARD_PROTOCOL_T1  if ($rdbT1->active);
+		$hConfig{'protocol'} = $Chipcard::PCSC::SCARD_PROTOCOL_RAW if ($rdbRAW->active);
+		$hConfig{'protocol'} = $Chipcard::PCSC::SCARD_PROTOCOL_T0  if ($rdbT0->active);
+		$hConfig{'protocol'} = $Chipcard::PCSC::SCARD_PROTOCOL_T1  if ($rdbT1->active);
 	};
 	$rdbT0->signal_connect ('toggled', $subProtocol);
 	$rdbT1->signal_connect ('toggled', $subProtocol);
@@ -362,7 +299,7 @@ sub ReaderConfig {
 	my $btnOK = new Gtk::Button ("OK");
 	$btnOK->signal_connect( "clicked", sub {
 		$hConfig{'reader'} = $cboReaders->entry->get_text();
-		$hCard->Disconnect($PCSC::SCARD_UNPOWER_CARD);
+		$hCard->Disconnect($Chipcard::PCSC::SCARD_UNPOWER_CARD);
 		$dlgReaderConfig->destroy();
 	});
 	$btnOK->can_default(1);
@@ -385,9 +322,9 @@ sub ReaderConfig {
 
 	# Select the last prefered protocol if any
 	if (defined $hConfig {'protocol'}) {
-		$rdbT0->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T0);
-		$rdbT1->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T1);
-		$rdbRAW->set_active(1) if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_RAW);
+		$rdbT0->set_active(1)  if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_T0);
+		$rdbT1->set_active(1)  if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_T1);
+		$rdbRAW->set_active(1) if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_RAW);
 	}
 
 	$hbxStatusBox->attach_defaults ($txtProtocol, 0, 1, 0, 1);
@@ -607,11 +544,11 @@ sub ConnectDefaultReader {
 				['CANCEL']
 			);
 		} else {
-			$hCard->Connect ($hConfig{'reader'}, $PCSC::SCARD_SHARE_EXCLUSIVE, $hConfig{'protocol'});
+			$hCard->Connect ($hConfig{'reader'}, $Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE, $hConfig{'protocol'});
 			if (defined $hCard->{hCard}) {
 				$txtStatus->set_text ("Connected to '$hConfig{'reader'}'");
 			} else {
-				MessageBox ("Can not connect to the reader named '$hConfig{'reader'}':\n$PCSC::errno", ['OK'])
+				MessageBox ("Can not connect to the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", ['OK'])
 			};
 		}
 	} else {
@@ -621,16 +558,16 @@ sub ConnectDefaultReader {
 
 sub ReconnectDefaultReader {
 	if (defined $hCard->{hCard}) {
-		$hCard->Reconnect ($PCSC::SCARD_SHARE_EXCLUSIVE, $hConfig{'protocol'}, $PCSC::SCARD_RESET_CARD);
+		$hCard->Reconnect ($Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE, $hConfig{'protocol'}, $Chipcard::PCSC::SCARD_RESET_CARD);
 		if (defined $hCard->{hCard}) {
 			$txtStatus->set_text ("Connected to '$hConfig{'reader'}'");
 		} else {
-			MessageBox ("Can not reconnect to the reader named '$hConfig{'reader'}':\n$PCSC::errno", ['OK'])
+			MessageBox ("Can not reconnect to the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", ['OK'])
 		};
 	} else {
 		# we just propose to connect but do not call Reconnect()
 		# afterwards that would be quite useless
-		MessageBox ("The PCSC:Card object is not connected...\n Do you want to connect ?",
+		MessageBox ("The Chipcard::PCSC:Card object is not connected...\n Do you want to connect ?",
 		['OK', sub {ConnectDefaultReader();}],
 		['CANCEL']);
 	}
@@ -638,14 +575,14 @@ sub ReconnectDefaultReader {
 
 sub DisconnectDefaultReader {
 	if (defined $hCard->{hCard}) {
-		$hCard->Disconnect($PCSC::SCARD_UNPOWER_CARD);
+		$hCard->Disconnect($Chipcard::PCSC::SCARD_UNPOWER_CARD);
 		if (defined $hCard->{hCard}) {
-			MessageBox ("Can not disconnect from the reader named '$hConfig{'reader'}':\n$PCSC::errno", ['OK']);
+			MessageBox ("Can not disconnect from the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", ['OK']);
 		} else {
 			$txtStatus->set_text ("not connected");
 		};
 	} else {
-		MessageBox ("The PCSC::Card object is not connected !", ['OK']);
+		MessageBox ("The Chipcard::PCSC::Card object is not connected !", ['OK']);
 	}
 }
 
@@ -660,42 +597,42 @@ sub DefaultReaderStatus {
 			$MessageString .= "Card status (". sprintf ("0x%04X",$StatusResult[1]) ."): ";
 
 			# Verbosely describes the Card Status (powered, inserted, etc...
-			if ($StatusResult[1] & $PCSC::SCARD_UNKNOWN) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_UNKNOWN) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "'Unknown state'";
 			}
-			if ($StatusResult[1] & $PCSC::SCARD_ABSENT) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_ABSENT) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "Absent";
 			}
-			if ($StatusResult[1] & $PCSC::SCARD_PRESENT) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_PRESENT) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "Present";
 			}
-			if ($StatusResult[1] & $PCSC::SCARD_SWALLOWED) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_SWALLOWED) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "Swallowed";
 			}
-			if ($StatusResult[1] & $PCSC::SCARD_POWERED) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_POWERED) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "Powered";
 			}
-			if ($StatusResult[1] & $PCSC::SCARD_NEGOTIABLE) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_NEGOTIABLE) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "'PTS is negotiable'";
 			}
-			if ($StatusResult[1] & $PCSC::SCARD_SPECIFIC) {
+			if ($StatusResult[1] & $Chipcard::PCSC::SCARD_SPECIFIC) {
 				if ($tmpVal) { $MessageString .= ", "; } ++$tmpVal;
 				$MessageString .= "'PTS has been set'";
 			}
 
 			# Verbosely describes the currently active protocol
 			$MessageString .= ".\nThe active protocol (".sprintf ("0x%04X", $StatusResult[2]).") is ";
-			if (($StatusResult[2] & $PCSC::SCARD_PROTOCOL_T0)) {
+			if (($StatusResult[2] & $Chipcard::PCSC::SCARD_PROTOCOL_T0)) {
 				$MessageString .= "T=0 ";
-			} elsif (($StatusResult[2] & $PCSC::SCARD_PROTOCOL_T1)) {
+			} elsif (($StatusResult[2] & $Chipcard::PCSC::SCARD_PROTOCOL_T1)) {
 				$MessageString .= "T=1 ";
-			} elsif (($StatusResult[2] & $PCSC::SCARD_PROTOCOL_RAW)) {
+			} elsif (($StatusResult[2] & $Chipcard::PCSC::SCARD_PROTOCOL_RAW)) {
 				$MessageString .= "RAW ";
 			} else {
 				$MessageString .= "unknown";
@@ -710,7 +647,7 @@ sub DefaultReaderStatus {
 			}
 			MessageBox ($MessageString, ['OK']);
 		} else {
-			MessageBox ("Can not retrieve reader status:\n$PCSC::errno", ['OK'])
+			MessageBox ("Can not retrieve reader status:\n$Chipcard::PCSC::errno", ['OK'])
 		}
 	} else {
 		MessageBox ("The reader is not connected...\n Do you want to connect ?",
@@ -743,7 +680,7 @@ sub RunScript {
 			}
 
 			# Extract bytes from the ascii string
-			$raCurrentCommand = PCSC::ascii_to_array($_);
+			$raCurrentCommand = Chipcard::PCSC::ascii_to_array($_);
 
 			# push them in the Display structure
 			push @ResultStruct, "Sending: ";
@@ -756,14 +693,14 @@ sub RunScript {
 				push @ResultStruct, $raCurrentResult;
 				push @ResultStruct, "\n";
 			} else {
-				MessageBox ("Transmit failed: $PCSC::errno\nStopping script execution", ['OK']);
-				push @ResultStruct, "\nErrors During Script Execution: $PCSC::errno\n";
+				MessageBox ("Transmit failed: $Chipcard::PCSC::errno\nStopping script execution", ['OK']);
+				push @ResultStruct, "\nErrors During Script Execution: $Chipcard::PCSC::errno\n";
 				last;
 			}
 		}
 		push @ResultStruct, "Script was executed without error...\n";
 	} else {
-		MessageBox ("The PCSC::Card object is not connected !\nDo you want to connect ?",
+		MessageBox ("The Chipcard::PCSC::Card object is not connected !\nDo you want to connect ?",
 		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {RunScript();}}],
 		['CANCEL']);
 	}

@@ -2,6 +2,7 @@
 
 #    scriptor.pl: text interface to send APDU commands to a smart card
 #    Copyright (C) 2001  Lionel Victor
+#             2002-2003  Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -17,31 +18,22 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.7 2002-03-05 14:54:05 rousseau Exp $
-
-# $Log: not supported by cvs2svn $
-# Revision 1.6  2001/10/16 07:37:42  rousseau
-# changed PCSCCard to PCSC::Card
-#
-# Revision 1.5  2001/09/05 07:35:59  rousseau
-# Added CVS Log field
-# Added documentation for -h argument
-#
+# $Id: scriptor,v 1.8 2003-05-24 22:10:34 rousseau Exp $
 
 use Getopt::Std;
-use PCSC;
-use PCSC::Card;
+use Chipcard::PCSC;
+use Chipcard::PCSC::Card;
 
 use strict;
 
 my %options;
 
-my $hContext = new PCSC();
+my $hContext = new Chipcard::PCSC();
 my $hCard;
 my @out_buffer;
 my $in_buffer;
 
-die ("Could not create PCSC object: $PCSC::errno\n") unless defined $hContext;
+die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless defined $hContext;
 
 getopt ("r:", \%options);
 
@@ -57,15 +49,15 @@ if ($options{h}) {
 }
 
 if ($options{r}) {
-	$hCard = new PCSC::Card ($hContext, $options{r});
-	die ("Can't allocate PCSC::Card object: $PCSC::errno\n") unless defined $hCard;
+	$hCard = new Chipcard::PCSC::Card ($hContext, $options{r});
+	die ("Can't allocate Chipcard::PCSC::Card object: $Chipcard::PCSC::errno\n") unless defined $hCard;
 	print STDERR "Using given card reader: $options{r}\n";
 } else {
 	my @readers_list = $hContext->ListReaders ();
-	die ("Can't get readers list: $PCSC::errno\n") unless defined $readers_list[0];
+	die ("Can't get readers list: $Chipcard::PCSC::errno\n") unless defined $readers_list[0];
 	print STDERR "No reader given: using $readers_list[0]\n";
-	$hCard = new PCSC::Card ($hContext, $readers_list[0]);
-	die ("Can't allocate PCSC::Card object: $PCSC::errno\n") unless defined $hCard;
+	$hCard = new Chipcard::PCSC::Card ($hContext, $readers_list[0]);
+	die ("Can't allocate Chipcard::PCSC::Card object: $Chipcard::PCSC::errno\n") unless defined $hCard;
 }
 
 if ($ARGV[0]) {
@@ -88,27 +80,27 @@ while (<IN_FILEHANDLE>) {
 
 	if (/reset/i) {
 		print OUT_FILEHANDLE "> RESET\n";
-		if (defined $hCard->Reconnect ($PCSC::SCARD_SHARE_EXCLUSIVE,
-		                   $PCSC::SCARD_PROTOCOL_T0,
-						   $PCSC::SCARD_RESET_CARD)) {
+		if (defined $hCard->Reconnect ($Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE,
+		                   $Chipcard::PCSC::SCARD_PROTOCOL_T0,
+						   $Chipcard::PCSC::SCARD_RESET_CARD)) {
 			print OUT_FILEHANDLE "< OK\n";
 		} else {
-			print OUT_FILEHANDLE "< KO: $PCSC::errno\n";
+			print OUT_FILEHANDLE "< KO: $Chipcard::PCSC::errno\n";
 		}
 		next;
 	}
 	chomp;
 	$cmd = $_;
-	$SendData = PCSC::ascii_to_array($cmd);
+	$SendData = Chipcard::PCSC::ascii_to_array($cmd);
 
 	print OUT_FILEHANDLE "> $cmd\n";
 	$RecvData = $hCard->Transmit($SendData);
-	die ("Can't get info: $PCSC::errno\n") unless defined $RecvData;
-	print OUT_FILEHANDLE "< " . PCSC::array_to_ascii($RecvData) . "\n";
+	die ("Can't get info: $Chipcard::PCSC::errno\n") unless defined $RecvData;
+	print OUT_FILEHANDLE "< " . Chipcard::PCSC::array_to_ascii($RecvData) . "\n";
 }
 
 close (IN_FILEHANDLE);
-$hCard->Disconnect($PCSC::SCARD_LEAVE_CARD);
+$hCard->Disconnect($Chipcard::PCSC::SCARD_LEAVE_CARD);
 $hCard = undef;
 $hContext = undef;
 
