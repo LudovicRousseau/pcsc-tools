@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.74 2004-07-01 19:57:39 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.75 2004-07-07 16:56:26 rousseau Exp $
 #
 
 # syntax:
@@ -488,6 +488,9 @@
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 53 32 30 30 30
 	GSM-SIM Era-PL
+
+3B BC 94 00 40 14 47 47 33 48 33 35 58 56 32 30 30 30
+	GSM SIM CARD 32K, Vodafone
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 01 90 00
 	ACS (Advanced Card System) ACOS-1
