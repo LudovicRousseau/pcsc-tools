@@ -1,10 +1,13 @@
+gscriptor.1
+pcsc_scan.1
+scriptor.1
 Changelog
-gscriptor.pl
+gscriptor
 LICENCE
 Makefile
 MANIFEST
 pcsc_scan.c
 README
-scriptor.pl
+scriptor
 test.script
 TODO
