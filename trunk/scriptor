@@ -17,7 +17,9 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.4 2001-09-05 07:28:34 rousseau Exp $
+# $Id: scriptor,v 1.5 2001-09-05 07:35:59 rousseau Exp $
+
+# $Log: not supported by cvs2svn $
 
 use Getopt::Std;
 use PCSC;
@@ -37,7 +39,13 @@ die ("Could not create PCSC object: $PCSC::errno\n") unless defined $hContext;
 getopt ("r:", \%options);
 
 if ($options{h}) {
-	print "Usage: ";
+	print "Usage: $0 [-h] [-r reader] [file]\n";
+	print "         -h: this help\n";
+	print "  -r reader: specify to use the PCSC smart card reader named reader\n";
+	print "             By defaults the first one found is used so you\n";
+	print "             don't have to specify anything if you just have\n";
+	print "             one reader\n";
+	print "       file: file containing APDUs\n";
 	exit (0);
 }
 
