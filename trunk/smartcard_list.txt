@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.35 2003-05-25 21:29:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.36 2003-06-04 19:19:49 rousseau Exp $
 #
 
 # syntax:
@@ -178,6 +178,9 @@
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
+3B 69 00 FF 53 6D 40 72 74 43 61 66 65
+	G&D (Giesecke&Devrient) Sm@rtCafé
+
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
 	370-4328-01 (31091)
@@ -193,6 +196,9 @@
 
 3B 6B 00 00 80 65 B0 83 01 01 74 83 00 90 00
 	GemXpresso Pro R3 with 64K EEPROM
+
+3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
+	Datacard Group Aptura Development Card V1.1b
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
@@ -418,6 +424,15 @@
 3B E2 00 FF C1 10 31 FE 55 C8 02 9C
 	Aladdin eToken PRO (USB token)
 
+3B E6 00 FF 81 31 FE 45 4A 43 4F 50 30 33 07
+	IBM JCOP 30/16
+
+3B E6 00 FF 81 31 FE 45 4A 43 4F 50 31 30 05
+	IBM JCOP 10/16
+
+3B E6 00 FF 81 31 FE 45 4A 43 4F 50 32 30 06
+	IBM JCOP 20/16
+
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
 
@@ -440,6 +455,12 @@
 3B EF 00 FF 81 31 20 75 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 8C
 	ZeitControl BasicCard Enhanced 3.3
 
+3B EF 00 FF 81 31 20 75 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 37 88
+	ZeitControl BasicCard Enhanced 3.7
+
+3B EF 00 FF 81 31 20 75 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 39 86
+	ZeitControl BasicCard Enhanced 3.9
+
 3B EF 00 FF 81 31 42 45 .* 38
 	UNI-Card
 
@@ -448,6 +469,10 @@
 
 3B EF 00 FF 81 31 50 45 65 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 	Geldkarte v2
+
+3B EF 00 FF 81 31 52 45 4D 46 43 20 49 42 4D 20 34 30 48 39 36 30 31 FB
+	IBM MFC 3.5 file system smart card
+	(Card from the book "Smart Card Application Development Using Java")
 
 3B EF 00 FF 81 31 60 45 65 63 04 02 11 00 00 00 00 00 A5 32 A5 01 11 B6
 	GledKarte
@@ -550,8 +575,8 @@
 3F 65 25 08 22 04 68 90 00
 	France Telecom card (ex Pastel card)
 
-3F 65 25 08 .. 04 6C 90 .0
-	Card Bancaire (french banking card)
+3F 65 25 .. .. 04 6C 90 .0
+	Carte Bancaire (french banking card)
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
