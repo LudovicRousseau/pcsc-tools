@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.45 2003-10-03 16:17:28 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.46 2003-10-11 17:26:27 rousseau Exp $
 #
 
 # syntax:
@@ -174,6 +174,7 @@
 
 3B 65 00 00 9C 02 02 07 02
 	US Department of Defense, TEST Common Access Card (CAC)
+	Schlumberger Cyberflex Access #2
 
 3B 65 00 00 9C 11 01 01 03
 	Schlumberger Cyberflex Palmera
