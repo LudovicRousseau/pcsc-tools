@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.106 2004-12-11 15:02:20 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.107 2004-12-15 20:14:26 rousseau Exp $
 #
 
 # syntax:
@@ -740,6 +740,9 @@
 3B FB 98 00 FF C1 10 31 FE 55 00 64 05 20 47 03 31 80 00 90 00 F3
 	Gemplus GemGate 32K
 	distributed by Postecert (www.postecert.it) to legally sign documents
+
+3B FD 94 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 11 E0
+	MTCOS Light, http://www.masktech.de/products/mtcoslight/index.html
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	ESTEID Estonian Identity Card (EstEID cold)
