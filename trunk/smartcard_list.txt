@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.14 2002-10-31 21:50:06 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.15 2002-11-05 19:11:14 rousseau Exp $
 #
 
 # syntax:
@@ -36,6 +36,9 @@
 
 3B 02 14 50
 	Schlumberger Multiflex 3k
+
+3B 02 53 01
+	Gemplus GemClub Memo
 
 3B 0A 20 62 0C 01 4F 53 45 99 14 AA
 	GSM-SIM BEN (1800MHz)
@@ -88,6 +91,9 @@
 3B 27 00 80 65 A2 02 03 82 37
 	Gemplus GPK2000sp
 
+3B 27 00 80 65 A2 .. 01 01 37
+	Gemplus GemSAFE Smart Card (4K)
+
 3B 27 00 80 65 A2 04 01 01 37
 	Gemplus GPK4000s
 
@@ -127,6 +133,9 @@
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
 
+3F 67 25 00 26 14 00 20 68 90 00
+	Pay-TV card from Casema Cable Television, Netherland
+
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
 
@@ -136,6 +145,9 @@
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
 	370-4328-01 (31091)
+
+3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
+	Lloyds TSB Visa Debit Card
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -182,7 +194,7 @@
 3B 85 00 87 25 01 39 00
 	GSM-SIM Telfort (Netherlands) 900 MHz
 
-3B 85 40 20 68 01 01 00 00
+3B 85 40 20 68 01 01 .. ..
 	Schlumberger Cryptoflex 8k
 
 3B 85 40 20 68 01 01 03 05
@@ -194,10 +206,13 @@
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
 
+3B 89 00 91 26 91 06 00 01 22 01 00
+	BT Cellnet SIM
+
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
-3B 95 15 40 00 68 01 02 00 00
+3B 95 15 40 .. 68 01 02 .. ..
 	Schlumberger CryptoFlex 8k v2
 
 3B 95 18 40 FF 64 02 01 01 02
@@ -212,11 +227,15 @@
 3B 9F 94 40 1E 00 67 16 43 46 49 53 45 10 52 66 FF 81 90 00
 	RSA SecurID 3100
 
+3B A7 00 40 .. 80 65 A2 08 .. .. ..
+	Gemplus GemSAFE Smart Card (8K)
+
 3B A7 00 40 14 80 65 A2 14 01 01 37
 	Gemplus GPK4000sdo
 
 3B A7 00 40 18 80 65 A2 08 01 01 52
 	Gemplus GPK8000
+	GemSAFE Smart Card (8K)
 
 3B A7 00 40 18 80 65 A2 09 01 01 52
 	Gemplus GPK16000
@@ -274,7 +293,7 @@
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
 
-3B E2 00 00 40 20 49 00
+3B E2 00 00 40 20 49 ..
 	Schlumberger Cryptoflex 4k
 
 3B E2 00 00 40 20 49 05
@@ -341,6 +360,9 @@
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
 
+3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
+	Siemens CardOS M 4.01 running on Infineon SLE66CX320P
+
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
@@ -361,6 +383,9 @@
 
 3F 2F 00 80 69 AF 03 07 03 52 00 0D 0A 0E 83 3E 9F 16
 	GSM-SIM Debitel D2 (900MHz)
+
+3F 2F 00 80 69 AF 03 07 03 5A 00 15 0A 0E 83 3E 9F 16
+	Virgin Mobile SIM (Gemplus)
 
 3F 65 25 08 33 04 20 90 00
 	D-Trust card
@@ -390,6 +415,9 @@
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
 
+3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
+	HSBC Visa/MasterCard credit card
+
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gemplus GemXpresso 211PK
 
@@ -401,5 +429,8 @@
 
 3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
 	ExtremeHu3 (DSS satellite TV card)
+
+3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42
+	NTL digial TV card (Nagravision)
 
 # do not delete
