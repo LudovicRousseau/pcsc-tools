@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.89 2004-09-15 18:01:45 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.90 2004-09-15 18:17:41 rousseau Exp $
 #
 
 # syntax:
@@ -97,9 +97,6 @@
 3B 1F 94 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
 	GSM-SIM Sonera (from 2002)
 
-3B 23 00 35 13 80
-	Schlumberger Cyberflex Access Campus
-
 3B 23 00 00 36 41 81
 	Schlumberger Payflex 4k SAM
 
@@ -109,17 +106,23 @@
 3B 23 00 35 11 81
 	Schlumberger Payflex 1k SAM
 
+3B 23 00 35 13 80
+	Schlumberger Cyberflex Access Campus
+
 3B 23 00 35 13 FF
 	Schlumberger MicroPayflex
-
-3B 24 00 80 72 94 43
-	MPCOS-3DES 64K \ EMV Filter (Gemplus)
 
 3B 24 00 .. .. .. 45
 	Conax
 
+3B 24 00 80 72 94 43
+	MPCOS-3DES 64K \ EMV Filter (Gemplus)
+
 3B 26 00 00 26 40 00 90 00
 	Schlumberger, purse?
+
+3B 27 00 80 65 A2 .. 01 01 37
+	Gemplus GemSAFE Smart Card (4K)
 
 3B 27 00 80 65 A2 00 01 01 37
 	Gemplus GemSAFE Card CSP v1.0
@@ -129,9 +132,6 @@
 
 3B 27 00 80 65 A2 02 03 82 37
 	Gemplus GPK2000sp
-
-3B 27 00 80 65 A2 .. 01 01 37
-	Gemplus GemSAFE Smart Card (4K)
 
 3B 27 00 80 65 A2 04 01 01 37
 	Gemplus GPK4000s
@@ -203,20 +203,11 @@
 3B 65 00 00 9C 11 01 01 03
 	Schlumberger Cyberflex Palmera
 
-3F 65 25 00 2B 09 62 90 00
-	Coinamatic SmartyCity smartcard
-
-3F 65 25 00 52 09 6A 90 00
-	French carte Vitale
-
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
 
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
-
-3F 67 25 00 26 14 00 20 68 90 00
-	Pay-TV card from Casema Cable Television, Netherland
 
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
@@ -227,9 +218,6 @@
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
-3B 69 00 FF 53 6D 40 72 74 43 61 66 65
-	G&D (Giesecke&Devrient) Sm@rtCafé
-
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
 	370-4328-01 (31091)
@@ -239,6 +227,9 @@
 
 3B 69 00 00 50 01 01 04 01 00 01 01 A9
 	Sample card given to all attendees of the CTST 2004 SmartCard Conference
+
+3B 69 00 FF 53 6D 40 72 74 43 61 66 65
+	G&D (Giesecke&Devrient) Sm@rtCafé
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
@@ -261,12 +252,6 @@
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
 
-3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
-	GemXpresso Lite: with EMV application
-
-3B 6D 00 00 80 31 80 65 B0 43 01 00 77 83 00 90 00
-	Gemplus GemXpresso Lite
-
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
 
@@ -276,6 +261,12 @@
 3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
 	HSBC Visa/MasterCard credit card
 	Barclay Card MasterCard
+
+3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
+	GemXpresso Lite: with EMV application
+
+3B 6D 00 00 80 31 80 65 B0 43 01 00 77 83 00 90 00
+	Gemplus GemXpresso Lite
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
@@ -350,9 +341,6 @@
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
 
-3B 82 81 31 76 43 C1 03 C5
-	i.ti (ticket card for Collogne/Bonn)
-
 3B 81 1F 00 CC 52
 	eToken R2 2242
 
@@ -363,6 +351,7 @@
 	CardOS/M2 V2.01(SLE44CxxS)
 
 3B 82 81 31 76 43 C1 03 C5
+	i.ti (ticket card for Collogne/Bonn)
 	CardOS M2 Combi V2.02 (SLE44R42S)
 
 3B 83 00 12 10 96
@@ -439,6 +428,7 @@
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	Hutchison/3 3G USIM
+	J+ SWIM WIB UMTS SIM Test card
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
@@ -456,12 +446,6 @@
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
 
-3B A7 00 40 18 80 65 A2 09 01 02 52
-	Gemplus GPK16000
-
-3B A7 00 40 18 80 65 A2 09 01 03 52
-	Gemplus GemSAFE std (GPK16000?)
-
 3B A7 00 40 14 80 65 A2 14 01 01 37
 	Gemplus GPK4000sdo
 
@@ -471,6 +455,12 @@
 
 3B A7 00 40 18 80 65 A2 09 01 01 52
 	Gemplus GPK16000
+
+3B A7 00 40 18 80 65 A2 09 01 02 52
+	Gemplus GPK16000
+
+3B A7 00 40 18 80 65 A2 09 01 03 52
+	Gemplus GemSAFE std (GPK16000?)
 
 3B A8 00 81 71 46 5D 00 54 43 4F 53 31 2E 32 00 65
 	Telesec TCOS 1.2
@@ -618,11 +608,11 @@
 	Electronic Identification Card from the FNMT, the Spanish Official
 	Certification Authority
 
-3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 BC
-	Electronic Purse (Elton Senegal)
-
 3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 32 2E 33 BD
 	ZeitControl BasicCard Enhanced 2.3
+
+3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 BC
+	Electronic Purse (Elton Senegal)
 
 3B EF 00 FF 81 31 20 75 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 8C
 	ZeitControl BasicCard Enhanced 3.3
@@ -639,6 +629,9 @@
 3B EF 00 FF 81 31 50 45 42 61 73 69 63 43 61 72 64 20 5A 43 31 2E 31 CC
 	ZeitControl BasicCard Compact 1.1
 
+3B EF 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
+	GeldKarte v2 (Germany)
+
 3B EF 00 FF 81 31 50 45 65 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 	Geldkarte v2
 
@@ -650,9 +643,6 @@
 	GledKarte
 	Siemens M3-Module with a Motorola SC-28.
 	G&D (Giesecke&Devrient) Geldkarten-OS mit der Version 11
-
-3B EF 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
-	GeldKarte v2 (Germany)
 
 3B EF 00 FF 81 31 60 45 65 63 06 03 14 02 50 00 06 51 08 11 5E 01 41 90
 	Geldkarte from Deutsche Bank, Thomson-Chip
@@ -683,6 +673,12 @@
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
 
+3B F5 91 00 FF 91 81 71 FE 40 00 41 08 00 00 00 0D
+	Contactless Mifare
+
+3B F5 91 00 FF 91 81 71 FE 40 00 41 88 00 00 00 8D
+	Contactless Mifare 1k or 4k
+
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
 	IBM JCOP BIO31
 
@@ -691,6 +687,9 @@
 
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
+
+3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
+	GemXpresso Pro R3 32PK (MPCOS, T=1)
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
 	ZeitControl BasicCard Professional 5.4 Revision A
@@ -717,6 +716,9 @@
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 00 26 00 04 10 09
 	Maestrocard/Geldkarte (Postbank, Germany)
+
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 01 55 00 04 10 7B
+	Volksbank VR-BankCard (GeldKarte)
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 07 88 00 04 10 A0
 	HBCI-Karte (Berliner Sparkasse, Germany)
@@ -746,11 +748,11 @@
 3F 2D 00 27 A0 51 82 7D 00 00 00 52 00 0C 90 00
 	Porta Moedas Multibanco (Portugeese electronic purse)
 
-3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
-	GSM-SIM e-plus (1800MHz)
-
 3F 2F 00 80 59 AF 02 01 01 30 00 00 0A 0E 83 06 9F 12
 	Gemplus GemXplore
+
+3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
+	GSM-SIM e-plus (1800MHz)
 
 3F 2F 00 80 69 AF 02 04 01 36 00 02 0A 0E 83 3E 9F 16
 	GSM-SIM D2 CallYa (900MHz)
@@ -764,23 +766,32 @@
 3F 2F 00 80 69 AF 03 07 03 5A 00 15 0A 0E 83 3E 9F 16
 	Virgin Mobile SIM (Gemplus)
 
-3F 65 25 08 33 04 20 90 00
-	D-Trust card
+3F 65 25 .. .. 04 6C 90 .0
+	Carte Bancaire (french banking card)
 
 3F 65 25 00 2[2,C] 09 [F,6]9 90 00
 	Sesam Vitale (french health card)
 
+3F 65 25 00 2B 09 62 90 00
+	Coinamatic SmartyCity smartcard
+
 3F 65 25 00 2B 09 EB 90 00
 	Bull Scot 5
+
+3F 65 25 00 52 09 6A 90 00
+	French carte Vitale
 
 3F 65 25 08 22 04 68 90 00
 	France Telecom card (ex Pastel card)
 
-3F 65 25 .. .. 04 6C 90 .0
-	Carte Bancaire (french banking card)
+3F 65 25 08 33 04 20 90 00
+	D-Trust card
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
+
+3F 67 25 00 26 14 00 20 68 90 00
+	Pay-TV card from Casema Cable Television, Netherland
 
 3F 67 25 00 2A 20 00 0F 68 90 00
 	Carte Grand Voyageur (SNCF : french train company)
@@ -815,18 +826,6 @@
 
 3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
 	ExtremeHu3 (DSS satellite TV card)
-
-3B F5 91 00 FF 91 81 71 FE 40 00 41 08 00 00 00 0D
-	Contactless Mifare
-
-3B F5 91 00 FF 91 81 71 FE 40 00 41 88 00 00 00 8D
-	Contactless Mifare 1k or 4k
-
-3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
-	GemXpresso Pro R3 32PK (MPCOS, T=1)
-
-3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 01 55 00 04 10 7B
-	Volksbank VR-BankCard (GeldKarte)
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 31 49
 	PayTV card for DishNetwork Sat receiver http://www.dishnetwork.com/
