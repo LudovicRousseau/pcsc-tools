@@ -3,7 +3,7 @@ This archive contains some tools usefull for a user of PCSC user.
 PCSC can be obtained from [1].
 
 The tools provided are:
-- pcsc_scan
+- pcsc_scan (Ludovic Rousseau <ludovic.rousseau@free.fr>
 	regularly scans every PCSC reader connected to the host
 	if a card is inserted or removed a line is printed
 
@@ -23,15 +23,15 @@ The tools provided are:
 	 Reader 0 (GemPC410 0 0)
 			Card state: State has changed, Card removed, 
 
-- scriptor.pl
+- scriptor.pl (Lionel Victor <lionel.victor@unforgettable.com>)
 	 A Perl script to send commands to a smart card. You can use a file
 	containing the commands or stdin.
 
-- gscriptor.pl
+- gscriptor.pl (Lionel Victor <lionel.victor@unforgettable.com>)
 	A Perl script to send commands to a smart card with GTK-based
 	 graphical interface.
 
 [1] http://linuxnet.com/middle.html
 
-$Id: README,v 1.1 2001-10-16 07:52:17 rousseau Exp $
+$Id: README,v 1.2 2001-10-16 09:44:16 rousseau Exp $
 
