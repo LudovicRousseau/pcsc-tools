@@ -1,19 +1,19 @@
 
-Release 1.0.2, Mon Oct 22 13:47:29 CEST 2001
+Release 1.0.3, Thu Nov  8 09:44:56 CET 2001
 
-This archive contains some tools usefull for a user of PCSC user.
-PCSC can be obtained from [1].
+This archive contains some tools usefull for a PC/SC user.
+PC/SC can be obtained from [1].
 
 The tools provided are:
 - pcsc_scan (Ludovic Rousseau <ludovic.rousseau@free.fr>
-    regularly scans every PCSC reader connected to the host
+    regularly scans every PC/SC reader connected to the host
     if a card is inserted or removed a line is printed
 
     For example:
 
      PC/SC device scanner
      V 1.0.3 (c) 2001, Ludovic Rousseau <ludovic.rousseau@free.fr>
-     PCSC lite version: 1.0.0B
+     PC/SC lite version: 1.0.0B
      0: GemPC410 0 0
      1: GemPC430 0 0
      
@@ -46,5 +46,5 @@ The tools provided are:
 
 [1] http://linuxnet.com/middle.html
 
-$Id: README,v 1.5 2001-11-08 08:43:29 rousseau Exp $
+$Id: README,v 1.6 2001-11-08 08:54:02 rousseau Exp $
 
