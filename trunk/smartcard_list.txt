@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.15 2002-11-05 19:11:14 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.16 2002-11-15 12:32:18 rousseau Exp $
 #
 
 # syntax:
@@ -307,6 +307,9 @@
 
 3B E2 00 FF C1 10 31 FE 55 C8 02 9C
 	Aladdin eToken PRO (USB token)
+
+3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
+	Siemens CardOS/M 3.0
 
 3B EA 00 FF 81 31 20 75 00 64 05 14 01 02 31 00 90 00 27
 	GCOS-MDK
