@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.78 2004-07-23 20:06:43 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.79 2004-07-29 15:23:50 rousseau Exp $
 #
 
 # syntax:
@@ -39,6 +39,9 @@
 
 3B 02 53 01
 	Gemplus GemClub Memo
+
+3B 04 41 11 77 81
+	Sample Mifare DESFire contactless smartcard from Phillips
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
@@ -218,6 +221,9 @@
 
 3B 69 00 00 24 94 01 03 01 00 01 00 A9
 	Schlumberger MicroPayflex S card
+
+3B 69 00 00 50 01 01 04 01 00 01 01 A9
+	Sample card given to all attendees of the CTST 2004 SmartCard Conference
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
