@@ -1,17 +1,17 @@
+# $Id: Makefile,v 1.15 2004-06-13 21:01:23 rousseau Exp $
 
-# $Id: Makefile,v 1.14 2004-05-25 07:35:13 rousseau Exp $
-
-# The root of the include and lib directory where PCSC Lite is installed.
-PCSCBASE ?= /usr/local
+# PC/SC Lite libraries and headers.
+PCSC_CFLAGS ?= `pkg-config libpcsclite --cflags`
+PCSC_LDLIBS ?= `pkg-config libpcsclite --libs`
 
 # by default install in /usr/local
 DESTDIR ?= /usr/local
 
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
-CFLAGS=-Wall -O2 -g -DVERSION=\"$(VERSION)\" -I$(PCSCBASE)/include
-LDLIBS=-lpcsclite -lpthread -L$(PCSCBASE)/lib
+CFLAGS=-Wall -O2 -g -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
+LDLIBS=$(PCSC_LDLIBS)
 # On xBSD systems use
-#LDLIBS=-lpcsclite -lc_r -L$(PCSCBASE)/lib
+#LDLIBS=-lc_r $(PCSC_LDLIBS)
 # on MacOSX
 #CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\" -framework PCSC
 #LDLIBS=-framework PCSC
