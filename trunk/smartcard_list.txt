@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.80 2004-07-31 19:24:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.81 2004-08-01 22:05:47 rousseau Exp $
 #
 
 # syntax:
@@ -72,6 +72,9 @@
 
 3B 19 14 59 01 01 0F 01 00 05 08 B0
 	Schlumberger Multiflex 8k
+
+3B 19 94 31 02 05 10 45 98 01 02 4E
+	GSM-SIM EMT (Estonia)
 
 3B 1F 11 00 67 80 42 46 49 53 45 10 52 66 FF 81 90 00
 	Nokia branded SC (Setec)
@@ -343,6 +346,9 @@
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
+
+3B 82 00 55 22
+	GSM-SIM TELE2 Smart (Estonia, prepaid)
 
 3B 82 81 31 76 43 C0 02 C5
 	CardOS/M2 V2.01(SLE44CxxS)
