@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.14 2004-06-29 18:10:17 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.15 2004-08-06 13:51:03 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -209,8 +209,8 @@ get_readers:
 			== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
 				goto get_readers;
 
-		// Now we have an event, check all the readers in the list to see what
-		// happened
+		/* Now we have an event, check all the readers in the list to see what
+		 * happened */
 		for (current_reader=0; current_reader < nbReaders; current_reader++)
 		{
 			time_t t;
