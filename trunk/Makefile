@@ -1,5 +1,5 @@
 
-# $Id: Makefile,v 1.12 2004-01-08 09:23:19 rousseau Exp $
+# $Id: Makefile,v 1.13 2004-04-02 06:40:02 rousseau Exp $
 
 # The root of the include and lib directory where PCSC Lite is installed.
 PCSCBASE ?= /usr/local
@@ -8,7 +8,7 @@ PCSCBASE ?= /usr/local
 DESTDIR ?= /usr/local
 
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
-CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\" -I$(PCSCBASE)/include
+CFLAGS=-Wall -O2 -g -DVERSION=\"$(VERSION)\" -I$(PCSCBASE)/include
 LDLIBS=-lpcsclite -lpthread -L$(PCSCBASE)/lib
 # On xBSD systems use
 #LDLIBS=-lpcsclite -lc_r -L$(PCSCBASE)/lib
