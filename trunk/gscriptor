@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.9 2001-09-11 13:28:13 rousseau Exp $
+# $Id: gscriptor,v 1.10 2001-09-21 13:55:31 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.9  2001/09/11 13:28:13  rousseau
+# configure default buttons in examples/gscriptor.pl
+#
 # Revision 1.8  2001/09/05 14:47:08  lvictor
 # Removed the ATR entry from the Reader Configuration dialog
 #
@@ -270,7 +273,7 @@ sub MessageBox {
 
 	# Choose a nice title to our message box
 	$strTitle = $strAppName unless $strTitle;
-	@ButtonDescr = ["OK"] unless defined @ButtonDescr;
+	@ButtonDescr = ["OK"] unless @ButtonDescr;
 
 	my $dlgDialog = new Gtk::Dialog ();
 	my $hbxButtonBox = new Gtk::HBox (0,3);
