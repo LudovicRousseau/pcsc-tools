@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.59 2003-12-20 13:32:21 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.60 2004-01-05 22:32:11 rousseau Exp $
 #
 
 # syntax:
@@ -382,6 +382,9 @@
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	Hutchison/3 3G USIM
+
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
+	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
 	Setec / FINEID
