@@ -17,9 +17,13 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.5 2001-09-05 07:35:59 rousseau Exp $
+# $Id: scriptor,v 1.6 2001-10-16 07:37:42 rousseau Exp $
 
 # $Log: not supported by cvs2svn $
+# Revision 1.5  2001/09/05 07:35:59  rousseau
+# Added CVS Log field
+# Added documentation for -h argument
+#
 
 use Getopt::Std;
 use PCSC;
@@ -51,14 +55,14 @@ if ($options{h}) {
 
 if ($options{r}) {
 	$hCard = new PCSC::Card ($hContext, $options{r});
-	die ("Can't allocate PCSCCard object: $PCSC::errno\n") unless defined $hCard;
+	die ("Can't allocate PCSC::Card object: $PCSC::errno\n") unless defined $hCard;
 	print STDERR "Using given card reader: $options{r}\n";
 } else {
 	my @readers_list = $hContext->ListReaders ();
 	die ("Can't get readers list: $PCSC::errno\n") unless defined $readers_list[0];
 	print STDERR "No reader given: using $readers_list[0]\n";
 	$hCard = new PCSC::Card ($hContext, $readers_list[0]);
-	die ("Can't allocate PCSCCard object: $PCSC::errno\n") unless defined $hCard;
+	die ("Can't allocate PCSC::Card object: $PCSC::errno\n") unless defined $hCard;
 }
 
 if ($ARGV[0]) {
