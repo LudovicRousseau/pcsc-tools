@@ -17,10 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.8 2002-06-14 07:55:37 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.9 2002-10-15 17:05:58 rousseau Exp $ */
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.8  2002/06/14 07:55:37  rousseau
+ * add support for ATR_analysis
+ *
  * Revision 1.7  2002/05/15 11:37:49  lvictor
  * Readers states are initialized with SCARD_STATE_UNAWARE to make sure the
  * first query will update the state to something we know.
@@ -60,6 +63,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <unistd.h>
+#include <string.h>
 
 #include <winscard.h>
 
