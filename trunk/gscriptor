@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.25 2004-06-29 17:56:40 rousseau Exp $
+# $Id: gscriptor,v 1.26 2004-07-19 15:02:51 rousseau Exp $
 
 use strict;
 
@@ -678,6 +678,9 @@ sub RunScript {
 				ReconnectDefaultReader();
 				next;
 			}
+
+			# if the command does not contains spaces (00A4030000) we expand it
+			s/(..)/$1 /g if (! m/ /);
 
 			# Extract bytes from the ascii string
 			$raCurrentCommand = Chipcard::PCSC::ascii_to_array($_);

@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.14 2004-06-29 17:58:46 rousseau Exp $
+# $Id: scriptor,v 1.15 2004-07-19 15:02:51 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -126,7 +126,12 @@ while (<IN_FILEHANDLE>) {
 		next;
 	}
 	chomp;
+
+	# if the command does not contains spaces (00A4030000) we expand it
+	s/(..)/$1 /g if (! m/ /);
 	$cmd = $_;
+
+	# convert in an array (internal format)
 	$SendData = Chipcard::PCSC::ascii_to_array($cmd);
 
 	print OUT_FILEHANDLE "> $cmd\n";
