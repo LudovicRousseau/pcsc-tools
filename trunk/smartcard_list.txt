@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.38 2003-07-09 16:44:06 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.39 2003-07-09 16:56:13 rousseau Exp $
 #
 
 # syntax:
@@ -160,6 +160,9 @@
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
 
+3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
+	Gemplus GemXpresso PRO 64 PK SIM
+
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
@@ -205,6 +208,9 @@
 
 3B 6B 00 00 80 65 B0 83 01 01 74 83 00 90 00
 	GemXpresso Pro R3 with 64K EEPROM
+
+3B 6B 00 00 80 65 B0 83 01 03 74 83 00 90 00
+	Gemplus GemXpresso PRO 64 PK
 
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
@@ -444,6 +450,9 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 32 30 06
 	IBM JCOP 20/16
+
+3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
+	IBM JCOP 31bio
 
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
