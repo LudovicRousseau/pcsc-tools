@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.68 2004-03-24 18:18:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.69 2004-03-30 16:47:25 rousseau Exp $
 #
 
 # syntax:
@@ -370,6 +370,9 @@
 
 3B 95 18 40 FF 62 01 02 01 04
 	Schlumberger Cryptoflex 32K e-gate
+
+3B 95 18 40 FF 62 04 01 01 05
+	Schlumberger CryptoFlex 32Ko V1
 
 3B 95 18 40 FF 64 02 01 01 02
 	Schlumberger CryptoFlex 32Ko
