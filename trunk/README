@@ -111,6 +111,10 @@ Licences:
 History:
 ========
 
+1.2.4 - 28 Jan 2003, Ludovic ROUSSEAU
+    - 20 new ATRs in the database
+    - Makefile: use PCSCBASE to find libpcsclite library
+
 1.2.3 - 16 Nov 2002, Ludovic ROUSSEAU
     - Add the URL of the latest smartcard_list.txt file in the error
       message printed if the ATR is not already known
@@ -151,6 +155,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.15 2002-11-16 22:21:34 rousseau Exp $
+$Id: README,v 1.16 2003-01-28 21:39:07 rousseau Exp $
 
  vim:ts=8
