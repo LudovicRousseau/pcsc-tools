@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.8 2003-10-22 16:33:16 rousseau Exp $
+# $Id: ATR_analysis,v 1.9 2003-10-22 16:51:13 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -271,7 +271,7 @@ sub analyse_TB()
 		    my $BWI=$value >> 4;
 		    my $CWI=$value % 16;
 		    
-		    printf ("Block Wainting Integer: %s - Character Waiting Integer: %s", $BWI, $CWI);
+		    printf ("Block Waiting Integer: %s - Character Waiting Integer: %s", $BWI, $CWI);
 	    }
 	}
 	print "\n";
