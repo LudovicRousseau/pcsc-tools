@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.8 2002-10-07 07:16:28 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.9 2002-10-09 06:11:57 rousseau Exp $
 #
 
 # syntax:
@@ -283,6 +283,11 @@
 
 3B EF 00 FF 81 31 60 45 65 63 06 03 14 02 50 00 06 51 08 11 5E 01 41 90
 	Geldkarte from Deutsche Bank, Thomson-Chip
+
+3B EF 00 FF 81 31 66 45 49 42 4D 20 4D 46 43 34 30 30 32 30 38 33 31 A1
+	IBM MFC 4.1 file system smart card
+	Card from the book "Smart Card Application Development Using Java"
+	authors: Uwe Hansmann, Martin. S. Nicklous, Thomas Schäck, Achim Schneider, Frank Seliger
 
 3B EF 00 FF 81 31 66 45 65 63 20 20 49 42 4D 20 33 2E 31 20 20 20 20
 	IBM eCash
