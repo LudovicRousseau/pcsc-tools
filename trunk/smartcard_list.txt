@@ -21,7 +21,10 @@
 # This list contains a match between an ATR and a card type
 # The list is sorted for edition purposes
 #
-# $Id: smartcard_list.txt,v 1.3 2002-08-27 06:56:49 rousseau Exp $
+# You can get the latest version of this file from:
+# http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
+#
+# $Id: smartcard_list.txt,v 1.4 2002-08-27 13:31:15 rousseau Exp $
 #
 
 # syntax:
