@@ -1,10 +1,15 @@
 
-# $Id: Makefile,v 1.8 2002-06-17 07:21:01 rousseau Exp $
+# $Id: Makefile,v 1.9 2002-08-21 07:58:19 rousseau Exp $
 
 CC=gcc
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
 CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\"
 LDLIBS=-lpcsclite -lpthread
+
+# by default install in /usr/local
+ifeq ($(DESTDIR),)
+DESTDIR=/usr/local
+endif
 
 BIN=pcsc_scan
 BIN_SCRIPT=ATR_analysis gscriptor scriptor
@@ -15,13 +20,16 @@ all: $(BIN) $(MAN)
 pcsc_scan: pcsc_scan.o
 
 install: all
-	install --directory $(DESTDIR)/usr/bin/
-	install $(BIN) $(DESTDIR)/usr/bin/
+	install --directory $(DESTDIR)/bin/
+	install $(BIN) $(DESTDIR)/bin/
 
-	install $(BIN_SCRIPT) $(DESTDIR)/usr/bin/
+	install $(BIN_SCRIPT) $(DESTDIR)/bin/
 
-	install --directory $(DESTDIR)/usr/share/man/man1/
-	install --mode 644 $(MAN) $(DESTDIR)/usr/share/man/man1/
+	install --directory $(DESTDIR)/pcsc
+	install --mode 644 smartcard_list.txt $(DESTDIR)/pcsc
+
+	install --directory $(DESTDIR)/share/man/man1/
+	install --mode 644 $(MAN) $(DESTDIR)/share/man/man1/
 
 clean:
 	rm -f pcsc_scan.o $(BIN) $(MAN)

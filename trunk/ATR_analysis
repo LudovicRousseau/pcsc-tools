@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.1 2002-06-14 07:55:04 rousseau Exp $
+# $Id: ATR_analysis,v 1.2 2002-08-21 07:58:19 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -45,6 +45,11 @@ use strict;
 use warnings;
 use Getopt::Std;
 
+# file containing the smart card models
+my $SMARTCARD_LIST = "smartcard_list.txt";
+# where to look for $SMARTCARD_LIST
+my @LIST_PATH = qw(. /usr/local/pcsc /usr/lib/pcsc);
+
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line);
 my ($Y1, $K, @object, $nb_bytes);
@@ -59,6 +64,14 @@ my ($Y1, $K, @object, $nb_bytes);
 @XI = ("not supported", "state L", "state H", "no preference");
 @UI = ("A only (5V)", "B only (3V)", "A and B", "RFU");
 
+# prorotypes
+sub analyse_TA();
+sub analyse_TB();
+sub analyse_TC();
+sub analyse_TD();
+sub find_card($$@);
+
+# globals init
 $T = 0;
 
 $value = 0;
@@ -68,7 +81,7 @@ getopts("vh");
 
 if ($opt_v)
 {
-	print "Version: 1.0, (c) 2002, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "Version: 1.1, (c) 2002, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
 	exit;
 }
 
@@ -131,6 +144,9 @@ analyse_TD() if ($Y1 & 0x8);
 # the rest are historical byets
 print "+ Historical bytes: @object\n";
 
+# find the corresponding card type
+find_card($atr, $SMARTCARD_LIST, @LIST_PATH);
+
 ######## Sub functions
 
 #  _____  _    
@@ -139,7 +155,7 @@ print "+ Historical bytes: @object\n";
 #   | |/ ___ \ 
 #   |_/_/   \_\
 #
-sub analyse_TA
+sub analyse_TA()
 {
 	$value = hex(shift(@object));
 	printf ("  TA($counter) = %02X --> ", $value);
@@ -204,7 +220,7 @@ sub analyse_TA
 	    }
 	}
 	print "\n";
-}
+} # analyse_TA()
 
 #  _____ ____  
 # |_   _| __ ) 
@@ -212,7 +228,7 @@ sub analyse_TA
 #   | | | |_) |
 #   |_| |____/ 
 #
-sub analyse_TB
+sub analyse_TB()
 {
 	$value=hex(shift(@object));
 	printf ("  TB($counter) = %02X --> ", $value);
@@ -249,7 +265,7 @@ sub analyse_TB
 	    }
 	}
 	print "\n";
-}
+} # analyse_TB()
 
 #  _____ ____ 
 # |_   _/ ___|
@@ -257,7 +273,7 @@ sub analyse_TB
 #   | || |___ 
 #   |_| \____|
 #
-sub analyse_TC
+sub analyse_TC()
 {
 	$value=hex(shift(@object));
 	printf ("  TC($counter) = %02X --> ", $value);
@@ -293,7 +309,7 @@ sub analyse_TC
 		}
 	}
 	print "\n";
-}
+} # analyse_TC()
 
 #  _____ ____  
 # |_   _|  _ \ 
@@ -301,7 +317,7 @@ sub analyse_TC
 #   | | | |_| |
 #   |_| |____/ 
 #
-sub analyse_TD
+sub analyse_TD()
 {
 	my $str='';
 
@@ -330,5 +346,66 @@ sub analyse_TD
 
 	exit if ($#object < 0);
 	analyse_TD() if ($Y & 0x8);
-}
+} # analyse_TD()
+
+# _____ _           _                     _ 
+#|  ___(_)_ __   __| |   ___ __ _ _ __ __| |
+#| |_  | | '_ \ / _` |  / __/ _` | '__/ _` |
+#|  _| | | | | | (_| | | (_| (_| | | | (_| |
+#|_|   |_|_| |_|\__,_|  \___\__,_|_|  \__,_|
+#
+sub find_card($$@)
+{
+	my $atr = shift;
+	my $file = shift;
+	my @path = @_;
+
+	my ($line, $found, $p);
+
+	foreach $p (@path)
+	{
+		if (-e "$p/$file")
+		{
+			$file = "$p/$file";
+			last;
+		}
+	}
+
+	$found = 0;
+	print "\nPossibly identified card:\n";
+	open FILE, "< $file" or die "Can't open $file: $!\n";
+	while ($line = <FILE>)
+	{
+		next if ($line =~ m/^#/);	# comment
+		next if ($line =~ m/^$/);	# empty line
+		next if ($line =~ m/^\t/);	# description
+
+		chomp $line;
+
+		if ($atr =~ m/^$line$/)
+		{
+			# print the card ATR if a regular expression was used
+			print "$atr\n" if ($line ne $atr);
+
+			print "$line\n";	# print the matching ATR
+
+			$found = 1;
+			# print until a line do not start by a tabulation
+			while (($line = <FILE>) =~ m/^\t/)
+			{
+				print $line;	# print the card description
+			}
+		}
+	}
+	close FILE;
+
+	if (! $found)
+	{
+		print "\tNONE\n\n";
+		print "Your card is not present in the database.\n";
+		print "Please send a mail to <ludovic.rousseau\@free.fr> containing:\n";
+		print "- your ATR\n";
+		print "- a card description\n";
+	}
+} # find_card($$)
 
