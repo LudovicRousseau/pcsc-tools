@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.60 2004-01-05 22:32:11 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.61 2004-01-09 20:15:01 rousseau Exp $
 #
 
 # syntax:
@@ -233,6 +233,9 @@
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
+
+3B 6D 00 00 80 31 80 65 B0 43 01 00 77 83 00 90 00
+	Gemplus GemXpresso Lite
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
