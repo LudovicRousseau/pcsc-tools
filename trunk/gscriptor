@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.28 2004-08-06 14:15:34 rousseau Exp $
+# $Id: gscriptor,v 1.29 2004-08-06 14:17:54 rousseau Exp $
 
 use strict;
 use warnings;
@@ -276,7 +276,7 @@ ReadConfigFile();
 
 ############################### create widgets ###############################
 
-$txtStatus->set_text ("welcome to the $strAppName application !!! - not connected");
+$txtStatus->set_text ("welcome to the $strAppName application! - not connected");
 
 # Show up everything as we should be ready by now
 $wndMain->show_all();
@@ -506,7 +506,7 @@ sub NewScriptFile {
 		# That call to MessageBox will connect the OK button with a callback
 		# that actually erase the script
 		MessageBox(
-			"The current work will be lost !\nAre you sure you want to continue ?",
+			"The current work will be lost!\nAre you sure you want to continue?",
 			["OK", sub { EraseCurrentScript(); } ],
 			["CANCEL"]
 		);
@@ -553,7 +553,7 @@ sub SaveAsScriptFile {
 sub LoadScriptFile {
 	if ($txtScript->get_buffer->get_char_count()) {
 		MessageBox(
-			"The current work will be lost !\nAre you sure you want to continue ?",
+			"The current work will be lost!\nAre you sure you want to continue?",
 			["OK", \&LoadScript],
 			["CANCEL"]
 		);
@@ -604,9 +604,9 @@ sub RefreshResult {
 			} else {
 				foreach $tmp_value (@$tmpLine) {
 					# TODO: enhance filtering of non-printable chars
-					# TODO: how can we use array_to_ascii here ??? maybe
+					# TODO: how can we use array_to_ascii here??? maybe
 					# enhence the function so it can directly receive
-					# ranges of chars to ignore optionally ?
+					# ranges of chars to ignore optionally?
 					if (($tmp_value > 0x20) && ($tmp_value < 0x80)) {
 						$tmp_text .= chr ($tmp_value);
 					} else {
@@ -628,7 +628,7 @@ sub ConnectDefaultReader {
 	if (exists $hConfig{'reader'} && !($hConfig{'reader'} eq '')) {
 		if (defined $hCard->{hCard}) {
 			MessageBox (
-				"The card is already connected...\nDo you want to reconnect ?",
+				"The card is already connected...\nDo you want to reconnect?",
 				['OK', \&ReconnectDefaultReader],
 				['CANCEL']
 			);
@@ -641,7 +641,7 @@ sub ConnectDefaultReader {
 			};
 		}
 	} else {
-		MessageBox ("No default reader has been configured\nPlease make sure you have configured a reader first", ['OK']);
+		MessageBox ("No default reader has been configured.\nPlease make sure you have configured a reader first.", ['OK']);
 	}
 }
 
@@ -656,7 +656,7 @@ sub ReconnectDefaultReader {
 	} else {
 		# we just propose to connect but do not call Reconnect()
 		# afterwards that would be quite useless
-		MessageBox ("The Chipcard::PCSC:Card object is not connected...\n Do you want to connect ?",
+		MessageBox ("The Chipcard::PCSC:Card object is not connected...\n Do you want to connect?",
 		['OK', sub {ConnectDefaultReader();}],
 		['CANCEL']);
 	}
@@ -671,7 +671,7 @@ sub DisconnectDefaultReader {
 			$txtStatus->set_text ("not connected");
 		};
 	} else {
-		MessageBox ("The Chipcard::PCSC::Card object is not connected !", ['OK']);
+		MessageBox ("The Chipcard::PCSC::Card object is not connected!", ['OK']);
 	}
 }
 
@@ -734,7 +734,7 @@ sub DefaultReaderStatus {
 			MessageBox ("Can not retrieve reader status:\n$Chipcard::PCSC::errno", ['OK'])
 		}
 	} else {
-		MessageBox ("The reader is not connected...\n Do you want to connect ?",
+		MessageBox ("The reader is not connected...\n Do you want to connect?",
 		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {DefaultReaderStatus();}}],
 		['CANCEL']);
 	}
@@ -793,7 +793,7 @@ sub RunScript {
 		}
 		push @ResultStruct, "Script was executed without error...\n";
 	} else {
-		MessageBox ("The Chipcard::PCSC::Card object is not connected !\nDo you want to connect ?",
+		MessageBox ("The Chipcard::PCSC::Card object is not connected!\nDo you want to connect?",
 		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {RunScript();}}],
 		['CANCEL']);
 	}
