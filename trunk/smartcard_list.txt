@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.86 2004-08-24 18:13:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.87 2004-08-25 18:15:48 rousseau Exp $
 #
 
 # syntax:
@@ -205,6 +205,9 @@
 
 3F 65 25 00 2B 09 62 90 00
 	Coinamatic SmartyCity smartcard
+
+3F 65 25 00 52 09 6A 90 00
+	French carte Vitale
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
