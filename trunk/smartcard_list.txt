@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.39 2003-07-09 16:56:13 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.40 2003-08-05 18:30:23 rousseau Exp $
 #
 
 # syntax:
@@ -351,6 +351,9 @@
 
 3B A7 00 40 18 80 65 A2 09 01 02 52
 	Gemplus GPK16000
+
+3B A7 00 40 18 80 65 A2 09 01 03 52
+	Gemplus GemSAFE std (GPK16000?)
 
 3B A7 00 40 14 80 65 A2 14 01 01 37
 	Gemplus GPK4000sdo
