@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.115 2005-01-26 19:19:35 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.116 2005-02-01 18:55:22 rousseau Exp $
 #
 
 # syntax:
@@ -195,6 +195,9 @@
 
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
+
+3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
+	GSM SIM card Orange J2RE postpaid
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
