@@ -1,0 +1,75 @@
+#!/usr/bin/perl
+
+use Getopt::Std;
+use PCSC;
+use PCSC::Card;
+
+use strict;
+
+my %options;
+
+my $hContext = new PCSC();
+my $hCard;
+my @out_buffer;
+my $in_buffer;
+
+die ("Could not create PCSC object : $PCSC::errno\n") unless defined $hContext;
+
+getopt ("r:", \%options);
+
+if ($options{h}) {
+	print "Usage: ";
+	exit (0);
+}
+
+if ($options{r}) {
+	$hCard = new PCSC::Card ($hContext, $options{r});
+	die ("Can't allocate PCSCCard object : $PCSC::errno\n") unless defined $hCard;
+	print STDERR "Using given card reader : $options{r}\n";
+} else {
+	my @readers_list = $hContext->ListReaders ();
+	die ("Can't get readers list : $PCSC::errno\n") unless defined $readers_list[0];
+	print STDERR "No reader given : using $readers_list[0]\n";
+	$hCard = new PCSC::Card ($hContext, $readers_list[0]);
+	die ("Can't allocate PCSCCard object : $PCSC::errno\n") unless defined $hCard;
+}
+
+if ($ARGV[0]) {
+	open (IN_FILEHANDLE, "<$ARGV[0]") or die ("Can't open $ARGV[0] : $!\n");
+	print STDERR "Using given file : $ARGV[0]\n";
+} else {
+	*IN_FILEHANDLE = *STDIN;
+	print STDERR "Reading commands from STDIN\n";
+}
+
+*OUT_FILEHANDLE = *STDOUT;
+
+while (<IN_FILEHANDLE>) {
+	my $tmp_value;
+	local $,;
+	$, = ' ';
+
+	last if /exit/;
+	next if /^\s*$/;
+	next if /^#/;
+
+	s/(..)\s+/0x$1 /g;
+	@out_buffer = split (/\s/);
+	for ($tmp_value=0; $tmp_value < $#out_buffer+1; $tmp_value++) {
+		$out_buffer[$tmp_value] = hex($out_buffer[$tmp_value]);
+	}
+
+	$in_buffer = $hCard->Transmit (\@out_buffer);
+	die ("Can't get info : $PCSC::errno\n") unless defined $in_buffer;
+	print OUT_FILEHANDLE "> $_\n";
+	foreach $tmp_value (@$in_buffer) {
+		print OUT_FILEHANDLE sprintf ("%02X ", $tmp_value);
+	} print OUT_FILEHANDLE "\n";
+}
+
+close (IN_FILEHANDLE);
+$hCard->Disconnect($PCSC::SCARD_LEAVE_CARD);
+$hCard = undef;
+$hContext = undef;
+
+# End of File

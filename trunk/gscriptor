@@ -1,0 +1,604 @@
+#!/usr/bin/perl
+
+# gscriptor uses libgtk-perl, please make sure it is correctly installed
+# on your system
+#
+# $Log: not supported by cvs2svn $
+
+use Gtk;
+use File::Basename;
+use Carp;
+use PCSC;
+use PCSC::Card;
+use strict;
+
+init Gtk;
+set_locale Gtk;
+
+my $strAppName = "gscriptor";
+my $strConfigFileName = "$ENV{HOME}/.$strAppName";
+my @ResultStruct;
+my %hConfig;
+
+# PCSC related variables
+my $hContext = new PCSC ();
+die ("Can't create the PCSC object : $PCSC::errno\n") unless (defined $hContext);
+my $hCard = new PCSC::Card ($hContext);
+die ("Can't create the PCSC::Card object : $PCSC::errno\n") unless (defined $hContext);
+
+# LastUserChoice holds the very last choice made by the user i.e.: the
+# number of the button pressed : OK=0, CANCEL=1;
+my $LastUserChoice = -1;
+
+############################### create widgets ###############################
+my $wndMain   = new Gtk::Window ("toplevel");
+my $txtScript = new Gtk::Text ();
+my $txtResult = new Gtk::Text ();
+my $rdbASCII  = new Gtk::RadioButton("ASCII");
+my $rdbHex    = new Gtk::RadioButton("Hex", $rdbASCII);
+my $chkWrap   = new Gtk::CheckButton ("Wrap lines");
+my $btnRun    = new Gtk::Button ("Run");
+my $txtStatus = new Gtk::Entry();
+
+
+############################## arrange widgets ###############################
+# arrange_widgets () is used to arrange widgets in the windows.
+#  It allows to conveniently allocate temporary variables for the various
+# containers and the scrollbars, as well as the menu.
+#  This function also sets some basic properties of the different
+# widgets used... configuration is therefore grouped in a single place.
+sub arrange_widgets () {
+	$wndMain->set_title ("$strAppName");
+
+	$txtScript->set_editable(1);
+	$txtScript->set_word_wrap(1);
+
+	$txtResult->set_word_wrap(1);
+
+	$txtStatus->set_sensitive(0);
+	$txtStatus->set_editable(0);
+
+	$chkWrap->set_active(1);
+	$rdbHex->set_active(1);
+
+	# create and bind toolbars
+	my $vscScript = new Gtk::VScrollbar ($txtScript->vadj);
+	my $vscResult = new Gtk::VScrollbar ($txtResult->vadj);
+
+	# create and set tooltips
+	my $tipScript = new Gtk::Tooltips();
+	my $tipResult = new Gtk::Tooltips();
+	my $tipASCII  = new Gtk::Tooltips();
+	my $tipHex    = new Gtk::Tooltips();
+	my $tipRun    = new Gtk::Tooltips();
+	my $tipWrap   = new Gtk::Tooltips();
+	$tipScript->set_tip ($txtScript, "list of APDUs to exchange");
+	$tipResult->set_tip ($txtResult, "result window");
+	$tipASCII->set_tip ($rdbASCII, "show ASCII data");
+	$tipHex->set_tip ($rdbHex, "show hexadecimal data");
+	$tipRun->set_tip ($btnRun, "run the current script");
+	$tipWrap->set_tip ($btnRun, "wrap long lines");
+
+	# create and set the menu with the accel_table
+	my @menu_items = ({ path        => '/_File',
+	                    type        => '<Branch>' },
+	                  { path        => '/File/_New',
+	                    accelerator => '<control>N',
+	                    callback    => \&NewScriptFile },
+	                  { path        => '/File/_Open',
+	                    accelerator => '<control>O',
+	                    callback    => \&LoadScriptFile },
+	                  { path        => '/File/_Save',
+	                    accelerator => '<control>S',
+	                    callback    => \&SaveScriptFile },
+	                  { path        => '/File/Save _As',
+	                    callback    => \&SaveAsScriptFile },
+	                  { path        => '/File/sep',
+	                    type        => '<Separator>' },
+	                  { path        => '/File/Quit',
+	                    callback    => \&CloseAppWindow },
+
+	                  { path        => '/_Reader',
+	                    type        => '<Branch>' },
+	                  { path        => '/Reader/_Connect',
+						accelerator => '<control>C',
+	                    callback    => \&ConnectDefaultReader },
+	                  { path        => '/Reader/Reco_nnect',
+	                    callback    => \&ReconnectDefaultReader },
+	                  { path        => '/Reader/_Disconnect',
+						accelerator => '<control>D',
+	                    callback    => \&DisconnectDefaultReader },
+	                  { path        => '/Reader/sep',
+	                    type        => '<Separator>' },
+	                  { path        => '/Reader/_Run Script',
+						accelerator => '<control>R',
+	                    callback    => \&RunScript },
+	                  { path        => '/Reader/C_lear Result Area',
+						accelerator => '<control>L',
+	                    callback    => \&ClearResult },
+	                  { path        => '/Reader/_Status...',
+	                    callback    => \&DefaultReaderStatus },
+
+	                  { path        => '/_Settings',
+	                    type        => '<Branch>' },
+	                  { path        => '/Settings/Reader',
+	                    callback    => \&ReaderConfig },
+
+	                  { path => '/_Help',
+	                    type => '<LastBranch>' },
+	                  { path => '/_Help/About',
+	                    callback => \&Help }); 
+
+	my $accel_group = new Gtk::AccelGroup();
+	my $item_factory = new Gtk::ItemFactory( 'Gtk::MenuBar', '<main>', $accel_group);
+	$item_factory->create_items( @menu_items );
+	$wndMain->add_accel_group( $accel_group );
+
+	# create and arrange box containers
+	my $vbxMainBox   = new Gtk::VBox(0,3);
+	my $hbxScriptBox = new Gtk::HBox (0,3);
+	my $vbxScriptBox = new Gtk::VBox (0,10);
+	my $hbxResultBox = new Gtk::HBox (0,3);
+	my $vbxResultBox = new Gtk::VBox (0,3);
+
+	$hbxScriptBox->add($txtScript);
+	$hbxScriptBox->pack_end($vscScript, 0, 0, 0);
+	$vbxScriptBox->add($hbxScriptBox);
+	$vbxScriptBox->pack_end($btnRun, 0, 0, 0);
+	$vbxScriptBox->pack_end($chkWrap, 0, 0, 0);
+	$vbxScriptBox->set_border_width(5);
+	$hbxResultBox->add($txtResult);
+	$hbxResultBox->pack_end($vscResult, 0, 0, 0);
+	$vbxResultBox->add($hbxResultBox);
+	$vbxResultBox->pack_start($rdbASCII, 0, 0, 0);
+	$vbxResultBox->pack_start($rdbHex, 0, 0, 0);
+	$vbxResultBox->set_border_width(5);
+
+
+	# create and fill frame containers
+	my $frmScript = new Gtk::Frame ("Script");
+	my $frmResult = new Gtk::Frame ("Result");
+	$frmScript->set_border_width(5);
+	$frmScript->add ($vbxScriptBox);
+	$frmResult->set_border_width(5);
+	$frmResult->add ($vbxResultBox);
+	
+	my $separator = new Gtk::VSeparator();
+
+	my $hbxBox = new Gtk::HBox (0,10);
+	$hbxBox->add($frmScript);
+	$hbxBox->pack_start($separator,0 ,0, 0);
+	$hbxBox->add($frmResult);
+	$vbxMainBox->pack_start ($item_factory->get_widget( '<main>' ), 0, 0, 0);
+	$vbxMainBox->add ($hbxBox);
+	$vbxMainBox->pack_end ($txtStatus, 0, 0, 0);
+	$vbxMainBox->show_all();
+	$wndMain->add($vbxMainBox);
+}
+
+# Connect widgets togeter
+$chkWrap->signal_connect('toggled', sub { $txtScript->set_line_wrap($chkWrap->active); } );
+$wndMain->signal_connect ("delete_event", \&CloseAppWindow);
+$btnRun->signal_connect ("clicked", \&RunScript);
+$rdbASCII->signal_connect('toggled', \&RefreshResult);
+$rdbHex->signal_connect('toggled', \&RefreshResult);
+
+ReadConfigFile();
+arrange_widgets();
+
+############################### create widgets ###############################
+
+$txtStatus->set_text ("welcome to the $strAppName application !!! - not connected");
+
+# Show up everything as we should be ready by now
+$wndMain->show_all();
+
+if (exists $hConfig{'script'}) {
+	unless (ReadScriptFile ($hConfig{'script'})) {
+		MessageBox ("Can not open $hConfig{'script'} : $!", ['OK']);
+		delete $hConfig{'script'};
+	}
+}
+
+
+main Gtk;
+die ("The Gtk event loop failed to start resulting in abnormal program termination...\n");
+
+######################### application engine follows #########################
+
+sub MessageBox {
+	my $strMessage = shift;
+	my $strTitle = shift unless ref (@_[0]);
+	my @ButtonDescr = @_;
+
+	my $refCurButtonDescr;
+
+	# Choose a nice title to our message box
+	$strTitle = $strAppName unless $strTitle;
+	@ButtonDescr = ["OK"] unless defined @ButtonDescr;
+
+	my $dlgDialog = new Gtk::Dialog ();
+	my $hbxButtonBox = new Gtk::HBox (0,3);
+	my $hbxTextBox = new Gtk::HBox (0,3);
+
+	# build up all the buttons and associate callbacks
+	foreach $refCurButtonDescr (reverse @ButtonDescr) {
+		croak ("invalid button name") unless scalar ($$refCurButtonDescr[0]);
+		$$refCurButtonDescr[1] = sub { $dlgDialog->destroy(); } if $#$refCurButtonDescr == 0;
+		warn ("button named '$$refCurButtonDescr[0]' has an invalid callback : '$$refCurButtonDescr[1]'")
+			unless ref ($$refCurButtonDescr[1]);
+
+		my $btnTmpButton = new Gtk::Button($$refCurButtonDescr[0]);
+		$btnTmpButton->signal_connect ("clicked", sub { &{$$refCurButtonDescr[1]}; $dlgDialog->destroy(); });
+		$hbxButtonBox->pack_end($btnTmpButton, 0, 0, 10);
+	}
+
+	$dlgDialog->action_area->pack_start($hbxButtonBox, 1, 1, 0 );
+	my $label = new Gtk::Label($strMessage);
+	$hbxTextBox->pack_start($label, 0, 0, 30);
+	$dlgDialog->vbox->add ($hbxTextBox);
+
+	# Finally show up everything
+	$dlgDialog->set_policy (0, 0, 1);
+	$dlgDialog->set_default_size (0,0);
+	$dlgDialog->set_title ($strTitle);
+	$dlgDialog->set_modal(1);
+	$dlgDialog->show_all();
+}
+
+sub ReaderConfig {
+	my $dlgReaderConfig = new Gtk::Dialog ();
+	my $txtReader = new Gtk::Label ("Reader");
+	my $cboReaders = new Gtk::Combo();
+	my $rdbT0  = new Gtk::RadioButton("T=0");
+	my $rdbT1  = new Gtk::RadioButton("T=1", $rdbT0);
+	my $rdbRAW = new Gtk::RadioButton("T=RAW", $rdbT0);
+	my $txtATR = new Gtk::Label ("ATR : ");
+
+	# This sub adjusts the content of $hConfig with the selected protocol
+	my $subProtocol = sub {
+		$hConfig{'protocol'} = $PCSC::SCARD_PROTOCOL_RAW if ($rdbRAW->active);
+		$hConfig{'protocol'} = $PCSC::SCARD_PROTOCOL_T0  if ($rdbT0->active);
+		$hConfig{'protocol'} = $PCSC::SCARD_PROTOCOL_T1  if ($rdbT1->active);
+	};
+	$rdbT0->signal_connect ('toggled', $subProtocol);
+	$rdbT1->signal_connect ('toggled', $subProtocol);
+	$rdbRAW->signal_connect('toggled', $subProtocol);
+
+	my $btnOK = new Gtk::Button ("OK");
+	$btnOK->signal_connect( "clicked", sub {
+		$hConfig{'reader'} = $cboReaders->entry->get_text();
+		$dlgReaderConfig->destroy();
+	});
+
+	my $btnCancel = new Gtk::Button ("Cancel");
+	$btnCancel->signal_connect( "clicked", sub {
+		$dlgReaderConfig->destroy();
+	});
+
+	my $hbxReaderBox = new Gtk::HBox (0,10);
+	my $hbxButtonBox = new Gtk::HBox (0,3);
+	my $hbxStatusBox = new Gtk::Table (3,2);
+
+	$hbxReaderBox->pack_start ($txtReader, 0, 0, 10);
+	$hbxReaderBox->pack_start ($cboReaders, 1, 1, 10);
+
+	$hbxButtonBox->pack_end($btnCancel, 0, 0, 10);
+	$hbxButtonBox->pack_end($btnOK, 0, 0, 10);
+
+	# Select the last protocol used if any
+	$rdbT0->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T0);
+	$rdbT1->set_active(1)  if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_T1);
+	$rdbRAW->set_active(1) if ($hConfig {'protocol'} == $PCSC::SCARD_PROTOCOL_RAW);
+
+	$hbxStatusBox->attach_defaults ($rdbT0, 0, 1, 0, 1);
+	$hbxStatusBox->attach_defaults ($rdbT1, 0, 1, 1, 2);
+	$hbxStatusBox->attach_defaults ($rdbRAW, 0, 1, 2, 3);
+	$hbxStatusBox->attach_defaults ($txtATR, 1, 2, 2, 3);
+
+	$cboReaders->set_popdown_strings ($hContext->ListReaders ());
+	$cboReaders->set_case_sensitive(1);
+	$cboReaders->set_value_in_list(1, 0);
+	# We select the last reader if available
+	if (exists $hConfig{'reader'}) {
+		$cboReaders->entry->set_text($hConfig{'reader'});
+	}
+
+	$dlgReaderConfig->action_area->pack_start($hbxButtonBox, 1, 1, 0 );
+	$dlgReaderConfig->vbox->add ($hbxReaderBox);
+	$dlgReaderConfig->vbox->add (new Gtk::HSeparator());
+	$dlgReaderConfig->vbox->add ($hbxStatusBox);
+
+	$dlgReaderConfig->set_policy (0, 0, 1);
+	$dlgReaderConfig->set_default_size (0,0);
+	$dlgReaderConfig->set_modal(1);
+	$dlgReaderConfig->show_all();
+}
+
+sub ReadConfigFile {
+	if (-f $strConfigFileName) {
+		die ("Can't open $strConfigFileName for reading : $!\n") unless (open (FILE, "<$strConfigFileName"));
+		while (<FILE>) {
+			chomp;
+			next if /^#/;
+			next if /^\s*$/;
+			if (/^\s*(\S+)\s*=\s*(.+)$/) {
+				$hConfig{$1} = $2;
+			} else {
+				print STDERR "Error while parsing $strConfigFileName\n\t'$_'\n";
+			}
+		}
+		close (FILE);
+	} else {
+		print STDERR "Couldn't read from $strConfigFileName. Using default configuration\n";
+	}
+}
+
+sub WriteConfigFile {
+	my $strTmpKey;
+
+	die ("Can't open $strConfigFileName for writing : $!\n") unless (open (FILE, ">$strConfigFileName"));
+	print FILE "# This file is automatically generated\n# Do not edit unless you know what you are doing\n\n";
+	foreach $strTmpKey (keys %hConfig) {
+		print FILE "$strTmpKey = $hConfig{$strTmpKey}\n";
+	}
+	close (FILE);
+}
+
+sub ReadScriptFile {
+	my $strScriptFileName = shift;
+	my $strBaseFileName = basename ($strScriptFileName);
+
+	return 0 unless open (FILE, "<$strScriptFileName");
+	$txtScript->freeze();
+	$txtScript->delete_text (0,-1);
+	while (<FILE>) { $txtScript->insert_text ($_); }
+	$txtScript->thaw();
+	close (FILE);
+	# Upon succesfull completion, we also set the window title as well
+	# as the current ScriptfileName in the configuration hash
+	$hConfig{'script'} = $strScriptFileName;
+	$wndMain->set_title ("$strAppName - <$strBaseFileName>");
+	return 1;
+}
+
+sub WriteScriptFile {
+	my $strScriptFileName = shift;
+	my $strBaseFileName = basename ($strScriptFileName);
+
+	return 0 unless open (FILE, ">$strScriptFileName");
+	print FILE $txtScript->get_chars (0,-1);
+	close (FILE);
+	# Upon successfull completion, we also set the window title as well
+	# as the current ScriptfileName in the configuration hash
+	$hConfig{'script'} = $strScriptFileName;
+	$wndMain->set_title ("$strAppName - <$strBaseFileName>");
+	return 1;
+}
+
+sub NewScriptFile {
+	if ($txtScript->get_length()) {
+		# That call to MessageBox will connect the OK button with a callback
+		# that actually erase the script
+		MessageBox(
+			"The current work will be lost !\nAre you sure you want to continue ?",
+			["OK", sub { EraseCurrentScript(); } ],
+			["CANCEL"]
+		);
+	}
+}
+
+sub EraseCurrentScript {
+	$txtScript->delete_text (0,-1);
+	$wndMain->set_title ("$strAppName");
+	delete $hConfig{'script'};
+}
+
+sub SaveScriptFile {
+	my ($widget) = @_;
+	if (exists $hConfig{'script'}) {
+		WriteScriptFile ($hConfig{'script'});
+	} else {
+		SaveAsScriptFile ($widget);
+	}
+}
+
+sub SaveAsScriptFile {
+	my ($widget) = @_;
+
+	my $file_dialog = new Gtk::FileSelection( "Save File" );
+	$file_dialog->ok_button->signal_connect( "clicked", sub {
+		my $file = $file_dialog->get_filename();
+
+		if (-d $file) {
+			MessageBox ("Can't open $file : file is a directory", ['OK']);
+		} else {
+			MessageBox ("Can't open $file : $!", ['OK']) unless WriteScriptFile ($file);
+		}
+		$file_dialog->destroy();
+	});
+	$file_dialog->cancel_button->signal_connect( "clicked", sub { $file_dialog->destroy(); });
+	if (exists $hConfig{'script'}) {
+		$file_dialog->set_filename(dirname($hConfig{'script'}))
+	}
+
+	$file_dialog->show();
+}
+
+sub LoadScriptFile {
+	if ($txtScript->get_length()) {
+		MessageBox(
+			"The current work will be lost !\nAre you sure you want to continue ?",
+			["OK", \&LoadScript],
+			["CANCEL"]
+		);
+	} else {
+		LoadScript();
+	}
+}
+
+sub LoadScript {
+	my $file_dialog = new Gtk::FileSelection( "Load File" );
+	$file_dialog->ok_button->signal_connect( "clicked", sub {
+		my $file = $file_dialog->get_filename();
+
+		if (-d $file) {
+			MessageBox ("Can't open $file : file is a directory", ['OK']);
+		} else {
+			MessageBox ("Can't open $file : $!", ['OK']) unless ReadScriptFile ($file);
+		}
+		$file_dialog->destroy();
+	});
+	$file_dialog->cancel_button->signal_connect( "clicked", sub { $file_dialog->destroy(); });
+	if (exists $hConfig{'script'}) {
+		$file_dialog->set_filename(dirname($hConfig{'script'}))
+	}
+
+	$file_dialog->show();
+}
+
+sub ClearResult {
+	$txtResult->delete_text (0, -1);
+	@ResultStruct = ();
+}
+
+sub RefreshResult {
+	my $tmpLine;
+	my $tmp_value;
+
+	$txtResult->freeze();
+	$txtResult->delete_text (0, -1);
+	foreach $tmpLine (@ResultStruct) {
+		if (ref $tmpLine) {
+			foreach $tmp_value (@$tmpLine) {
+				if ($rdbHex->active) {
+					$txtResult->insert_text (sprintf ("%02X ", $tmp_value));
+				} else {
+					# TODO: filter non printable chars
+					$txtResult->insert_text (chr ($tmp_value));
+				}
+			}
+			$txtResult->insert_text ("\n");
+		} else {
+			$txtResult->insert_text ($tmpLine);
+		}
+	}
+	$txtResult->thaw();
+}
+
+sub ConnectDefaultReader {
+	if (exists $hConfig{'reader'}) {
+		if (defined $hCard->{hCard}) {
+			MessageBox (
+				"The card is already connected...\nDo you want to reconnect ?",
+				['OK', \&ReconnectDefaultReader],
+				['CANCEL']
+			);
+		} else {
+			$hCard->Connect ($hConfig{'reader'}, $PCSC::SCARD_SHARE_EXCLUSIVE, $hConfig{'protocol'});
+			if (defined $hCard->{hCard}) {
+				$txtStatus->set_text ("Connected to '$hConfig{'reader'}'");
+			} else {
+				MessageBox ("Can not connect to the reader named '$hConfig{'reader'}' :\n$PCSC::errno", ['OK'])
+			};
+		}
+	} else {
+		MessageBox ("No default reader has been configured\nPlease make sure you have configured a reader first", ['OK']);
+	}
+}
+
+sub ReconnectDefaultReader {
+	if (defined $hCard->{hCard}) {
+		$hCard->Reconnect ($PCSC::SCARD_SHARE_EXCLUSIVE, $hConfig{'protocol'}, $PCSC::SCARD_RESET_CARD);
+		if (defined $hCard->{hCard}) {
+			$txtStatus->set_text ("Connected to '$hConfig{'reader'}'");
+		} else {
+			MessageBox ("Can not reconnect to the reader named '$hConfig{'reader'}' :\n$PCSC::errno", ['OK'])
+		};
+	} else {
+		MessageBox ("The PCSC:Card object is not connected... use Connect first", ['OK']);
+	}
+}
+
+sub DisconnectDefaultReader {
+	if (defined $hCard->{hCard}) {
+		$hCard->Disconnect($PCSC::SCARD_UNPOWER_CARD);
+		if (defined $hCard->{hCard}) {
+			MessageBox ("Can not disconnect from the reader named '$hConfig{'reader'}' :\n$PCSC::errno", ['OK']);
+		} else {
+			$txtStatus->set_text ("not connected");
+		};
+	} else {
+		MessageBox ("The PCSC::Card object is not connected !", ['OK']);
+	}
+}
+
+sub DefaultReaderStatus {
+#TODO
+}
+
+sub RunScript {
+	if ($hCard->{hCard}) {
+		my @tmpCommandArray = split /\n/, $txtScript->get_chars (0,-1);
+		my $raCurrentResult;
+		my $nIndex;
+
+		push @ResultStruct, "Beginning script execution...\n\n";
+		foreach $_ (@tmpCommandArray) {
+			# this variable has to be inside the loop as we store a
+			# reference to it in the result struct... it has to be
+			# unique for each command line
+			my @aCurrentCommand;
+
+			# Skip blank lines and comments
+			next if /^\s*$/;
+			next if /^#/;
+
+			# Extract bytes from the ascii string
+			s/(..)\s+/0x$1 /g;
+			@aCurrentCommand = split (/\s/);
+
+			for ($nIndex=0; $nIndex < $#aCurrentCommand+1; $nIndex++) {
+				$aCurrentCommand[$nIndex] = hex($aCurrentCommand[$nIndex]);
+			}
+			push @ResultStruct, "Sending : ";
+			push @ResultStruct, \@aCurrentCommand;
+			
+			$raCurrentResult = $hCard->Transmit (\@aCurrentCommand);
+			if (ref $raCurrentResult) {
+				push @ResultStruct, "Received : ";
+				push @ResultStruct, $raCurrentResult;
+				push @ResultStruct, "\n";
+			} else {
+				MessageBox ("Transmit failed : $PCSC::errno\nStopping script execution", ['OK']);
+				push @ResultStruct, "\nErrors During Script Execution : $PCSC::errno\n";
+				last;
+			}
+		}
+		push @ResultStruct, "Script was executed without error...\n";
+	} else {
+		MessageBox ("The PCSC::Card object is not connected !", ['OK']);
+	}
+	RefreshResult();
+}
+
+sub CloseAppWindow {
+	undef $hCard;
+	undef $hContext;
+	WriteConfigFile();
+	Gtk->exit(0);
+}
+
+sub Help {
+MessageBox ("
+$strAppName was coded by Lionel VICTOR.
+
+$strAppName is a small application written in perl.
+It basically demonstrates how easy it is to develop a
+quick working prototype that uses smartcards in PERL.
+",
+['OK']
+);
+}
+
+# End of File #
