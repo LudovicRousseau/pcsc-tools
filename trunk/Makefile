@@ -1,10 +1,11 @@
 
-# $Id: Makefile,v 1.9 2002-08-21 07:58:19 rousseau Exp $
+# $Id: Makefile,v 1.10 2002-10-15 17:07:36 rousseau Exp $
 
-CC=gcc
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
-CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\"
-LDLIBS=-lpcsclite -lpthread
+CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\" -I/usr/local/include
+LDLIBS=-lpcsclite -lpthread -L/usr/local/lib
+# On xBSD systems use
+# LDLIBS=-lpcsclite -lc_r -L/usr/local/lib
 
 # by default install in /usr/local
 ifeq ($(DESTDIR),)
