@@ -34,9 +34,12 @@ The tools provided are:
       Reader 0 (GemPC410 0 0)
              Card state: Card removed, 
 
-- ATR_analysis (Ludovic Rousseau <ludovic.rousseau@free.fr>)
+- ATR_analysis (Christophe Levantis and Ludovic Rousseau)
     Perl script used to parse the smart card ATR.
     This script is called (by default) by pcsc_scan
+
+    This code was written in August 2000 for a Perl wrapper using "TLP
+	driver" (and not PC/SC) to access the smartcard.
 
 - scriptor (Lionel Victor <lionel.victor@unforgettable.com>)
     A Perl script to send commands to a smart card. You can use a file
@@ -60,6 +63,7 @@ Authors:
 - Lionel VICTOR for scriptor and gscriptor
 - Ludovic ROUSSEAU for pcsc_scan, ATR_analysis and debug of scriptor and
   gscriptor
+- Christophe LEVANTIS for the original code of ATR_analysis
 
 
 Licences:
@@ -107,5 +111,5 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.10 2002-06-14 08:05:01 rousseau Exp $
+$Id: README,v 1.11 2002-06-17 07:21:24 rousseau Exp $
 
