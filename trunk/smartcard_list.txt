@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.111 2005-01-12 18:15:27 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.112 2005-01-13 17:49:36 rousseau Exp $
 #
 
 # syntax:
@@ -177,6 +177,9 @@
 
 3B 32 15 00 06 95
 	Schlumberger Multiflex 8k DES
+
+3B 37 11 00 46 4C 4F 4D 41 90 00
+	SLE 4428
 
 3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
