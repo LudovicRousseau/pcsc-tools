@@ -1,6 +1,6 @@
 #
 #    smartcard_list.txt
-#    Copyright (C) 2002  Ludovic Rousseau
+#    Copyright (C) 2002-2003  Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.23 2003-02-07 17:40:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.24 2003-02-18 19:10:44 rousseau Exp $
 #
 
 # syntax:
@@ -161,6 +161,12 @@
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Debit Card
 
+3B 6B 00 00 00 31 80 64 2D A0 02 0C 8C 61 27
+	SmartEMV prototype
+
+3B 6B 00 00 00 31 80 64 43 B0 02 00 8C 61 27
+	Bull Odyssey 1.2 (Javacard 2.0)
+
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
 
@@ -178,6 +184,9 @@
 
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
+
+3B 6F 00 00 80 5A 08 03 03 00 00 00 24 22 0E E7 82 90 00
+	Navigo (contact mode)
 
 3B 75 94 00 00 62 02 02 01 01
 	Schlumberger Cyberflex 32K e-gate
@@ -462,11 +471,14 @@
 3F 65 25 08 33 04 20 90 00
 	D-Trust card
 
-3F 65 25 00 22 09 [F,6]9 90 00
+3F 65 25 00 2[2,C] 09 [F,6]9 90 00
 	Sesam Vitale (french health card)
 
 3F 65 25 00 2B 09 EB 90 00
 	Bull Scot 5
+
+3F 65 25 08 22 04 68 90 00
+	France Telecom card (ex Pastel card)
 
 3F 65 25 08 .. 04 6C 90 .0
 	Card Bancaire (french banking card)
