@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.46 2003-10-11 17:26:27 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.47 2003-10-14 07:13:50 rousseau Exp $
 #
 
 # syntax:
@@ -563,6 +563,9 @@
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 00 26 00 04 10 09
 	Maestrocard/Geldkarte (Postbank, Germany)
+
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 07 88 00 04 10 A0
+	HBCI-Karte (Berliner Sparkasse, Germany)
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 80 00 12 24 30 00 20 04 10 59
 	Geldkarte (Germany)
