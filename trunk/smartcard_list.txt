@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.50 2003-10-22 16:40:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.51 2003-11-18 17:08:17 rousseau Exp $
 #
 
 # syntax:
@@ -346,6 +346,9 @@
 
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
+
+3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
+	Miotec (http://www.miotec.fi) smartcard running Miocos 2.0 on an Atmel AT90SC646
 
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
 	Setec / FINEID
