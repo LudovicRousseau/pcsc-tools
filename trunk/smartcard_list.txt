@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.93 2004-09-30 20:27:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.94 2004-10-15 18:05:09 rousseau Exp $
 #
 
 # syntax:
@@ -304,6 +304,10 @@
 
 3B 76 11 00 00 00 9C 11 01 02 02
 	Schlumberger Cyberflex Access 32K
+
+3B 76 12 00 00 00 9C 11 01 03 03
+	Precise BioMatch (TM) JavaCard (Schlumberger)
+	www.precisebiometrics.com
 
 3B 7A 94 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	Gemplus GemXpresso Pro R3 E32 PK
