@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.12 2004-01-08 09:23:19 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.13 2004-04-02 06:44:38 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -55,18 +55,18 @@ int main(int argc, char *argv[])
 	int current_reader;
 	LONG rv;
 	SCARDCONTEXT hContext;
-	SCARD_READERSTATE_A rgReaderStates_t[PCSCLITE_MAX_CHANNELS];
+	SCARD_READERSTATE_A *rgReaderStates_t = NULL;
 	DWORD dwReaders, dwReadersOld;
 	LPSTR mszReaders = NULL;
-	char *ptr, *readers[PCSCLITE_MAX_CHANNELS];
+	char *ptr, **readers = NULL;
 	int nbReaders, i;
-	char atr[MAX_ATR_SIZE*3+1];
+	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int opt;
 	int analyse_atr = TRUE;
 
 	printf("PC/SC device scanner\n");
-	printf("V " VERSION " (c) 2001-2003, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
+	printf("V " VERSION " (c) 2001-2004, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 	printf("PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
 
 	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
@@ -104,6 +104,12 @@ int main(int argc, char *argv[])
 	}
 
 get_readers:
+	/* free memory possibly allocated in a previous loop */
+	if (NULL == readers)
+		free(readers);
+	if (NULL == rgReaderStates_t)
+		free(rgReaderStates_t);
+
 	/* Retrieve the available readers list.
 	 *
 	 * 1. Call with a null buffer to get the number of bytes to allocate
@@ -135,15 +141,12 @@ get_readers:
 		printf("SCardListReader: %lX\n", rv);
 	}
 
-	/* Extract readers from the null separated string and get thetotal
-	 * number of readers
-	 */
+	/* Extract readers from the null separated string and get the total
+	 * number of readers */
 	nbReaders = 0;
 	ptr = mszReaders;
-	while ((*ptr != '\0') && (nbReaders < PCSCLITE_MAX_CHANNELS))
+	while (*ptr != '\0')
 	{
-		printf("%d: %s\n", nbReaders, ptr);
-		readers[nbReaders] = ptr;
 		ptr += strlen(ptr)+1;
 		nbReaders++;
 	}
@@ -157,6 +160,33 @@ get_readers:
 			sleep(1);
 		printf("found one\n");
 		goto get_readers;
+	}
+
+	/* allocate the readers table */
+	readers = calloc(nbReaders, sizeof(char *));
+	if (NULL == readers)
+	{
+		printf("Not enough memory for readers table\n");
+		return -1;
+	}
+
+	/* fill the readers table */
+	nbReaders = 0;
+	ptr = mszReaders;
+	while (*ptr != '\0')
+	{
+		printf("%d: %s\n", nbReaders, ptr);
+		readers[nbReaders] = ptr;
+		ptr += strlen(ptr)+1;
+		nbReaders++;
+	}
+
+	/* allocate the ReaderStates table */
+	rgReaderStates_t = calloc(nbReaders, sizeof(* rgReaderStates_t));
+	if (NULL == rgReaderStates_t)
+	{
+		printf("Not enough memory for readers states\n");
+		return -1;
 	}
 
 	/* Set the initial states to something we do not know
@@ -293,6 +323,12 @@ get_readers:
 	{
 		printf("SCardReleaseContext: %lX\n", rv);
 	}
+
+	/* free memory possibly allocated */
+	if (NULL == readers)
+		free(readers);
+	if (NULL == rgReaderStates_t)
+		free(rgReaderStates_t);
 
 	return 0;
 } /* main */
