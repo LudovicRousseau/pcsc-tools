@@ -17,10 +17,15 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.6 2002-05-14 16:03:44 lvictor Exp $ */
+/* $Id: pcsc_scan.c,v 1.7 2002-05-15 11:37:49 lvictor Exp $ */
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.6  2002/05/14 16:03:44  lvictor
+ * Added comments and modified the event listener to listen to all readers at
+ * once... This demonstrates the possibility to use a list of readers to
+ * listen events to...
+ *
  * Revision 1.5  2001/11/08 08:46:49  rousseau
  * change PCSC to PC/SC
  *
@@ -56,7 +61,7 @@ int main(int argc, char *argv[])
 	int current_reader;
 	LONG rv;
 	SCARDCONTEXT hContext;
-	SCARD_READERSTATE_A rgReaderStates_t[PCSCLITE_MAX_CHANNELS];//, rgReaderStates;
+	SCARD_READERSTATE_A rgReaderStates_t[PCSCLITE_MAX_CHANNELS];
 	DWORD dwReaders;
 	LPSTR mszReaders;
 	char *ptr, *readers[PCSCLITE_MAX_CHANNELS];
@@ -118,81 +123,89 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	/* set the initial states */
+	/* Set the initial states to something we do not know
+	 * The loop below will include this state to the dwCurrentState
+	 */
 	for (i=0; i<nbReaders; i++)
 	{
 		rgReaderStates_t[i].szReader = readers[i];
-		rgReaderStates_t[i].dwCurrentState = SCARD_STATE_EMPTY;
+		rgReaderStates_t[i].dwCurrentState = SCARD_STATE_UNAWARE;
 	}
 
-	while (1)
-	{
+	/* Wait endlessly for all events in the list of readers
+	 * We only stop in case of an error
+	 */
+	while ((rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates_t, nbReaders)) == SCARD_S_SUCCESS) {
 		time_t t;
 
-		// Wait for all events in the list of readers
-		rv = SCardGetStatusChange(hContext, 0, rgReaderStates_t, nbReaders);
-		
 		// Now we have an event, check all the readers in the list to see what happened
 		for (current_reader=0; current_reader < nbReaders; current_reader++) {
-			if (rgReaderStates_t[current_reader].dwCurrentState != rgReaderStates_t[current_reader].dwEventState)
-			{
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_CHANGED) {
+				/* If something has changed the new state is now the current state */
 				rgReaderStates_t[current_reader].dwCurrentState = rgReaderStates_t[current_reader].dwEventState;
-
-				if (rv == SCARD_E_TIMEOUT)
-					continue;
-
-				if (rv != SCARD_S_SUCCESS)
-					printf("SCardGetStatusChange: %lX\n", rv);
-
-				t = time(NULL);
-				printf("\n%s Reader %d (%s)\n", ctime(&t), current_reader,
-					rgReaderStates_t[current_reader].szReader);
-
-				printf("\tCard state: ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_IGNORE)
-					printf("Ignore this reader, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_CHANGED)
-					printf("State has changed, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_UNKNOWN)
-					printf("Reader unknown, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_UNAVAILABLE)
-					printf("Status unavailable, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_EMPTY)
-					printf("Card removed, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_PRESENT)
-					printf("Card inserted, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_ATRMATCH)
-					printf("ATR matches card, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_EXCLUSIVE)
-					printf("Exclusive Mode, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_INUSE)
-					printf("Shared Mode, ");
-
-				if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_MUTE)
-					printf("Unresponsive card, ");
-
-				printf("\n");
-
-				if (rgReaderStates_t[current_reader].cbAtr > 0)
-				{
-					printf("\tATR: ");
-					for (i=0; i<rgReaderStates_t[current_reader].cbAtr; i++)
-						printf("%02X ", rgReaderStates_t[current_reader].rgbAtr[i]);
-					printf("\n");
-				}
+			} else {
+				/* If nothing changed then skip to the next reader */
+				continue;
 			}
-		}
-	}
 
+			/* From here we know that the state for the current reader has changed
+			 * because we did not pass through the continue statement above.
+			 */
+
+			/* Timestamp the event as we get notified */
+			t = time(NULL);
+
+			/* Specify the current reader's number and name */
+			printf("\n%s Reader %d (%s)\n", ctime(&t), current_reader,
+				rgReaderStates_t[current_reader].szReader);
+
+			/* Dump the full current state */
+			printf("\tCard state: ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_IGNORE)
+				printf("Ignore this reader, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_UNKNOWN)
+				printf("Reader unknown, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_UNAVAILABLE)
+				printf("Status unavailable, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_EMPTY)
+				printf("Card removed, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_PRESENT)
+				printf("Card inserted, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_ATRMATCH)
+				printf("ATR matches card, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_EXCLUSIVE)
+				printf("Exclusive Mode, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_INUSE)
+				printf("Shared Mode, ");
+
+			if (rgReaderStates_t[current_reader].dwEventState & SCARD_STATE_MUTE)
+				printf("Unresponsive card, ");
+
+			printf("\n");
+
+			/* Also dump the ATR if available */
+			if (rgReaderStates_t[current_reader].cbAtr > 0)
+			{
+				printf("\tATR: ");
+				for (i=0; i<rgReaderStates_t[current_reader].cbAtr; i++)
+					printf("%02X ", rgReaderStates_t[current_reader].rgbAtr[i]);
+				printf("\n");
+			}
+		} /* for */
+	} /* while */
+
+	/* If we get out the loop, GetStatusChange() was unsuccessful */
+	printf("SCardGetStatusChange: %lX\n", rv);
+	
+	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
 	if (rv != SCARD_S_SUCCESS)
 	{
