@@ -1,10 +1,12 @@
 
-Release 1.0.4, Tue Mar  5 17:33:07 CET 2002
+Some tools to be used with smart cards and PC/SC
+================================================
 
 This archive contains some tools usefull for a PC/SC user.
-PC/SC can be obtained from [1].
+PC/SC lite [1] from MUSCLE [2].
 
 The tools provided are:
+
 - pcsc_scan (Ludovic Rousseau <ludovic.rousseau@free.fr>
     regularly scans every PC/SC reader connected to the host
     if a card is inserted or removed a line is printed
@@ -44,7 +46,61 @@ The tools provided are:
     A Perl script to send commands to a smart card with GTK-based
     graphical interface.
 
-[1] http://linuxnet.com/middle.html
+You will need the package pcsc-perl [3] to be able touse scriptor and
+gscriptor.
 
-$Id: README,v 1.8 2002-03-05 16:33:40 rousseau Exp $
+[1] http://linuxnet.com/middle.html
+[2] http://linuxnet.com/
+[3) http://ludovic.rousseau.free.fr/softwares/pcsc-perl/pcsc-perl.html
+
+
+Authors:
+========
+
+- Lionel VICTOR for scriptor and gscriptor
+- Ludovic ROUSSEAU for pcsc_scan and debug of scriptor and gscriptor
+
+
+Licences:
+=========
+
+    pcsc-tools
+    Copyright (C) 2001, 2002  Lionel VICTOR, Ludovic ROUSSEAU
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+
+History:
+========
+
+1.0.4 - 6 Mar 2002, Ludovic ROUSSEAU
+    - gscriptor: case insensitive on "reset" command
+    - scriptor: case insensitive on "exit" and "reset" commands
+    - add the history, authors and licence in this README
+
+1.0.3 - 8 Nov 2001, Ludovic ROUSSEAU
+    - pcsc_scan.c: set the wait time to 0 to get all the events
+    - Makefile: add automatic rules to compress man pages and other
+      modifications
+
+1.0.2 - 22 Oct 2001, Ludovic ROUSSEAU
+    - add manpages
+    - pcsc_scan.c: go to the next reader _after_ printing information
+      for the current one
+
+1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
+
+$Id: README,v 1.9 2002-03-06 08:21:18 rousseau Exp $
 
