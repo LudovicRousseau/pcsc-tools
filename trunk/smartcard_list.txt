@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.65 2004-02-20 17:41:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.66 2004-03-02 13:37:17 rousseau Exp $
 #
 
 # syntax:
@@ -532,6 +532,12 @@
 
 3B EA 00 FF 81 31 20 75 00 64 05 14 01 02 31 00 90 00 27
 	GCOS-MDK
+
+3B EA 00 FF 81 31 FE 45 54 55 42 2D 43 4B 01 03 01 00 7B
+	Technische Universität Berlin - Campus Karte
+	Maybe Sm@rtCafé Expert 2.0 (Giesecke & Devrient)
+	or GemXpresso 211 PK (Gemplus)
+	Includes a Mifare-Chip (1 KB - Memory-Chip)
 
 3B EB 00 00 81 31 42 45 4E 4C 43 68 53 43 4B 30 34 30 31 2B
 	Dutch University accesscard & Electronic purse & telphone card
