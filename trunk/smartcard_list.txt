@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.16 2002-11-15 12:32:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.17 2002-11-16 16:38:11 rousseau Exp $
 #
 
 # syntax:
@@ -176,6 +176,9 @@
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3
 
+3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 04 00 82 90 00
+	Oberthur CosmopolIC
+
 3B 82 81 31 76 43 C1 03 C5
 	i.ti (ticket card for Collogne/Bonn)
 
@@ -288,7 +291,10 @@
 	Giesecke&Devrient SmartCafe 1.1
 
 3B BF 18 00 81 31 70 55 53 54 41 52 43 4F 53 20 53 32 31 20 43 90 00 FA
-	Giesecke&Devrient STARCOS S2.1
+	Giesecke & Devrient STARCOS S2.1
+
+3B BF 18 00 C0 20 31 70 52 53 54 41 52 43 4F 53 20 53 32 31 20 43 90 00 9C
+	Giesecke & Devrient SPK 2.1 C
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -368,6 +374,9 @@
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
+
+3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
+	Datakey DCOS model 320
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
