@@ -1,0 +1,25 @@
+#
+# Script to read a GSM SIM card
+# (c) 2001, Ludovic Rousseau
+
+# reset the card
+reset
+
+# Select MF 3F00
+A0 A4 00 00 02 3F 00
+
+# Get Reponse
+# 17 is the value of second SW from the previous command
+A0 C0 00 00 17
+
+# Select DF Telecom (7F10)
+A0 A4 00 00 02 7F 10
+
+# Get Response
+A0 C0 00 00 17
+
+# Select EF_ADN (6F3A) (Abbreviated Dialing Numbers)
+A0 A4 00 00 02 6F 3A
+
+# Get Reponse
+A0 C0 00 00 0F
