@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.58 2003-12-19 08:11:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.59 2003-12-20 13:32:21 rousseau Exp $
 #
 
 # syntax:
@@ -181,6 +181,9 @@
 
 3B 65 00 00 9C 11 01 01 03
 	Schlumberger Cyberflex Palmera
+
+3F 65 25 00 2B 09 62 90 00
+	Coinamatic SmartyCity smartcard
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
