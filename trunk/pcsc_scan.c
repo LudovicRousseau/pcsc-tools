@@ -17,10 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.2 2001-10-16 07:31:51 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.3 2001-10-22 08:54:55 rousseau Exp $ */
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.2  2001/10/16 07:31:51  rousseau
+ * commented number of allocated readers (wrong info?)
+ *
  * Revision 1.1.1.1  2001/10/16 07:24:07  rousseau
  * Created directory structure
  *
@@ -115,10 +118,6 @@ int main(int argc, char *argv[])
 		rgReaderStates.dwCurrentState = rgReaderStates.dwEventState;
 		rgReaderStates_t[current_reader] = rgReaderStates;
 
-		current_reader++;
-		if (current_reader >= nbReaders)
-			current_reader = 0;
-
 		if (rv == SCARD_E_TIMEOUT)
 			continue;
 		if (rv != SCARD_S_SUCCESS)
@@ -169,6 +168,11 @@ int main(int argc, char *argv[])
 				printf("%02X ", rgReaderStates.rgbAtr[i]);
 			printf("\n");
 		}
+
+		/* next reader */
+		current_reader++;
+		if (current_reader >= nbReaders)
+			current_reader = 0;
 	}
 
 	rv = SCardReleaseContext(hContext);
