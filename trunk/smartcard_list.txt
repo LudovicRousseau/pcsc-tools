@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.110 2005-01-11 18:36:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.111 2005-01-12 18:15:27 rousseau Exp $
 #
 
 # syntax:
@@ -747,6 +747,9 @@
 3B FB 98 00 FF C1 10 31 FE 55 00 64 05 20 47 03 31 80 00 90 00 F3
 	Gemplus GemGate 32K
 	distributed by Postecert (www.postecert.it) to legally sign documents
+
+3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
+	Oberthur Card Systems, authentIC
 
 3B FD 94 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 11 E0
 	MTCOS Light, http://www.masktech.de/products/mtcoslight/index.html
