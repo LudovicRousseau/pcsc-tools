@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.88 2004-09-01 17:00:46 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.89 2004-09-15 18:01:45 rousseau Exp $
 #
 
 # syntax:
@@ -733,6 +733,9 @@
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	Citizencard of the People of Ulm in Germany (Bürgerkarte)
 	contains an D-Trust Signature
+
+3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
+	Vodafone 64 KB SIM with Javacard
 
 3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
 	Giesecke & Devrient STARSIM
