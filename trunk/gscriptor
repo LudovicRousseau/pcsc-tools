@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.15 2001-09-25 08:56:46 rousseau Exp $
+# $Id: gscriptor,v 1.16 2001-09-25 09:05:44 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.15  2001/09/25 08:56:46  rousseau
+# improved the Help dialog box
+#
 # Revision 1.14  2001/09/25 08:54:10  rousseau
 # correctly assign the tip to the wrap line button
 #
@@ -353,6 +356,7 @@ sub ReaderConfig {
 	my $btnOK = new Gtk::Button ("OK");
 	$btnOK->signal_connect( "clicked", sub {
 		$hConfig{'reader'} = $cboReaders->entry->get_text();
+		$hCard->Disconnect($PCSC::SCARD_UNPOWER_CARD);
 		$dlgReaderConfig->destroy();
 	});
 
