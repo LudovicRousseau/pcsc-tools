@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.95 2004-10-21 11:03:52 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.96 2004-10-21 11:12:24 rousseau Exp $
 #
 
 # syntax:
@@ -192,6 +192,9 @@
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
+
+3B 65 00 00 29 05 01 02 01
+	ActivCard (Schlumberger) CyberFlex 64K V1
 
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
