@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.101 2004-11-19 18:40:37 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.102 2004-11-20 19:11:43 rousseau Exp $
 #
 
 # syntax:
@@ -553,7 +553,7 @@
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 02 90 00
 	ACS (Advanced Card System) ACOS-1 8K
 
-3B BF 11 00 81 31 45 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
+3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
