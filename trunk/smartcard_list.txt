@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.36 2003-06-04 19:19:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.37 2003-06-24 20:26:56 rousseau Exp $
 #
 
 # syntax:
@@ -148,6 +148,12 @@
 3B 32 15 00 06 95
 	Schlumberger Multiflex 8k DES
 
+3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
+	GemXplore Xpresso V3
+
+3B 3B 11 00 80 69 AF 03 0C 01 6F 83 0[0,1] 90 00
+	GemXplore'Xpresso V3 64K
+
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
 
@@ -184,6 +190,9 @@
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
 	370-4328-01 (31091)
+
+3B 69 00 00 24 94 01 03 01 00 01 00 A9
+	Schlumberger MicroPayflex S card
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
