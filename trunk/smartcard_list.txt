@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.100 2004-11-18 16:36:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.101 2004-11-19 18:40:37 rousseau Exp $
 #
 
 # syntax:
@@ -123,6 +123,9 @@
 
 3B 26 00 00 26 40 00 90 00
 	Schlumberger, purse?
+
+3B 26 00 11 04 5C 03 90 00
+	Caixa Abierta (Barcelona, Spain) Cash/Visa Electron
 
 3B 27 00 80 65 A2 .. 01 01 37
 	Gemplus GemSAFE Smart Card (4K)
@@ -694,6 +697,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 27 40 00 03 01 00 E1
 	Postbank Geldkarte
+
+3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
+	Postbank ec/Maestro (Germany)
 
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
