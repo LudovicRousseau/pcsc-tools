@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.21 2003-01-23 17:32:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.22 2003-02-02 14:54:07 rousseau Exp $
 #
 
 # syntax:
@@ -235,6 +235,9 @@
 
 3B 85 40 20 68 01 01 05 01
 	Schlumberger Cryptoflex 8k
+
+3B 86 40 20 68 01 01 02 04 AC
+	Activcard Gold, SchlumbergerSema Cryptoflex 8k
 
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
