@@ -21,9 +21,12 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.13 2001-09-21 15:03:22 rousseau Exp $
+# $Id: gscriptor,v 1.14 2001-09-25 08:54:10 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.13  2001/09/21 15:03:22  rousseau
+# removed () from $txtScript->get_length
+#
 # Revision 1.12  2001/09/21 15:02:08  rousseau
 # added accelerator for Quit
 # added $pos argument to insert_text()
@@ -140,7 +143,7 @@ sub arrange_widgets () {
 	$tipASCII->set_tip ($rdbASCII, "show ASCII data");
 	$tipHex->set_tip ($rdbHex, "show hexadecimal data");
 	$tipRun->set_tip ($btnRun, "run the current script");
-	$tipWrap->set_tip ($btnRun, "wrap long lines");
+	$tipWrap->set_tip ($chkWrap, "wrap long lines");
 
 	# create and set the menu with the accel_table
 	my @menu_items = ({ path        => '/_File',
