@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.53 2003-11-20 07:13:37 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.54 2003-11-23 22:22:27 rousseau Exp $
 #
 
 # syntax:
@@ -252,6 +252,9 @@
 	Gemplus GemXpresso 211is
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 24 22 0E E7 82 90 00
+	Navigo (contact mode)
+
+3B 6F 00 00 80 5A 08 03 03 00 00 00 24 2A 4A 09 82 90 00
 	Navigo (contact mode)
 
 3B 6F 00 FF 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 02
