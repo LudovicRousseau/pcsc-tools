@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.37 2003-06-24 20:26:56 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.38 2003-07-09 16:44:06 rousseau Exp $
 #
 
 # syntax:
@@ -258,6 +258,9 @@
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
+
+3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
+	DoD CAC, Oberthur CosmopolIC V4
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3
