@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.10 2003-05-08 13:43:01 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.11 2003-05-31 20:44:09 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,6 +31,8 @@
 #define TRUE 1
 #define FALSE 0
 #endif
+
+#define TIMEOUT 1000	/* 1 second timeout */
 
 /* command used to parse (on screen) the ATR */
 #define ATR_PARSER "ATR_analysis"
@@ -49,7 +51,7 @@ int main(int argc, char *argv[])
 	LONG rv;
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE_A rgReaderStates_t[PCSCLITE_MAX_CHANNELS];
-	DWORD dwReaders;
+	DWORD dwReaders, dwReadersOld;
 	LPSTR mszReaders = NULL;
 	char *ptr, *readers[PCSCLITE_MAX_CHANNELS];
 	int nbReaders, i;
@@ -59,7 +61,7 @@ int main(int argc, char *argv[])
 	int analyse_atr = TRUE;
 
 	printf("PC/SC device scanner\n");
-	printf("V " VERSION " (c) 2001-2002, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
+	printf("V " VERSION " (c) 2001-2003, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 	printf("PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
 
 	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
@@ -109,7 +111,7 @@ get_readers:
 	{
 		printf("SCardListReader: %lX\n", rv);
 	}
-	//printf("%ld allocated reader(s)\n", dwReaders);
+	dwReadersOld = dwReaders;
 
 	/* if non NULL we came back so free first */
 	if (mszReaders)
@@ -143,8 +145,13 @@ get_readers:
 
 	if (nbReaders == 0)
 	{
-		printf("No reader found\n");
-		return 1;
+		printf("Waiting for the first reader...");
+		fflush(stdout);
+		while ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
+			== SCARD_S_SUCCESS) && (dwReaders == dwReadersOld))
+			sleep(1);
+		printf("found one\n");
+		goto get_readers;
 	}
 
 	/* Set the initial states to something we do not know
@@ -159,15 +166,20 @@ get_readers:
 	/* Wait endlessly for all events in the list of readers
 	 * We only stop in case of an error
 	 */
-	while ((rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates_t,
-		nbReaders)) == SCARD_S_SUCCESS)
+	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
+	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
-		time_t t;
+		/* A new reader appeared? */
+		if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
+			== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
+				goto get_readers;
 
 		// Now we have an event, check all the readers in the list to see what
 		// happened
 		for (current_reader=0; current_reader < nbReaders; current_reader++)
 		{
+			time_t t;
+
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_CHANGED)
 			{
@@ -263,6 +275,8 @@ get_readers:
 			}
 
 		} /* for */
+
+		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
 	} /* while */
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
