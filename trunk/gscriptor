@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.20 2003-05-24 22:19:41 rousseau Exp $
+# $Id: gscriptor,v 1.21 2003-11-08 16:42:23 rousseau Exp $
 
 use strict;
 
@@ -691,7 +691,8 @@ sub RunScript {
 			if (ref $raCurrentResult) {
 				push @ResultStruct, "Received: ";
 				push @ResultStruct, $raCurrentResult;
-				push @ResultStruct, "\n";
+				$raCurrentResult = Chipcard::PCSC::array_to_ascii($raCurrentResult);
+				push @ResultStruct, Chipcard::PCSC::Card::ISO7816Error($raCurrentResult), "\n\n";
 			} else {
 				MessageBox ("Transmit failed: $Chipcard::PCSC::errno\nStopping script execution", ['OK']);
 				push @ResultStruct, "\nErrors During Script Execution: $Chipcard::PCSC::errno\n";
