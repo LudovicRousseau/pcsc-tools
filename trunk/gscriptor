@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.19 2003-05-24 22:10:34 rousseau Exp $
+# $Id: gscriptor,v 1.20 2003-05-24 22:19:41 rousseau Exp $
 
 use strict;
 
@@ -717,7 +717,7 @@ sub CloseAppWindow {
 sub Help {
 MessageBox ("
 $strAppName is coded by Lionel VICTOR, (C) 2001.
-and debugged by Ludovic ROUSSEAU, (C) 2001.
+and debugged by Ludovic ROUSSEAU, (C) 2001-2003.
 
 $strAppName is a small application written in Perl.
 It basically demonstrates how easy it is to develop a
