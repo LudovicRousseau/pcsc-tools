@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.84 2004-08-13 21:38:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.85 2004-08-24 17:41:28 rousseau Exp $
 #
 
 # syntax:
@@ -42,6 +42,9 @@
 
 3B 04 41 11 77 81
 	Sample Mifare DESFire contactless smartcard from Phillips
+
+3B 04 41 11 77 B1
+	IBM JCOP 30 contactless
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
@@ -569,6 +572,9 @@
 	(used in Rome to store personal information and Atac subscription.
 	Atac is the public transport company of the city of Rome.)
 	http://www.atac.roma.it/smart/smart.asp?A=2&S=22&PR=4&LNG=2
+
+3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
+	IBM JCOP 30/31bio (contact interface)
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 30 33 07
 	IBM JCOP 30/16
