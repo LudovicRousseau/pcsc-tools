@@ -111,6 +111,12 @@ Licences:
 History:
 ========
 
+1.2.2 - 15 Oct 2002, Ludovic ROUSSEAU
+    - correct some compilation problems. See Makefile if you have a xBSD
+      system
+    - use an updated version of smartcard_list.txt. Thanks to all the
+      contributors.
+
 1.2.1 - 27 Aug 2002, Ludovic ROUSSEAU
     - add ATR to smartcard_list.txt
     - make the ATR match case insensitive
@@ -140,5 +146,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.13 2002-08-27 06:58:25 rousseau Exp $
+$Id: README,v 1.14 2002-10-15 17:07:55 rousseau Exp $
 
+ vim:ts=8
