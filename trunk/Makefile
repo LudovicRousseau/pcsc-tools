@@ -1,5 +1,5 @@
 
-# $Id: Makefile,v 1.3 2001-10-22 09:07:21 rousseau Exp $
+# $Id: Makefile,v 1.4 2001-10-22 11:53:01 rousseau Exp $
 
 CC=gcc
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
@@ -12,6 +12,7 @@ all: $(BIN)
 
 install: all
 	cp $(BIN) $(DESTDIR)/usr/bin
+	cp gscriptor   scriptor $(DESTDIR)/usr/bin
 
 pcsc_scan: pcsc_scan.o
 
