@@ -52,6 +52,17 @@ while (<IN_FILEHANDLE>) {
 	next if /^\s*$/;
 	next if /^#/;
 
+	if (/reset/) {
+		print OUT_FILEHANDLE "> RESET\n";
+		if (defined $hCard->Reconnect ($PCSC::SCARD_SHARE_EXCLUSIVE,
+		                   $PCSC::SCARD_PROTOCOL_T0,
+						   $PCSC::SCARD_RESET_CARD)) {
+			print OUT_FILEHANDLE "< OK\n";
+		} else {
+			print OUT_FILEHANDLE "< KO: $PCSC::errno\n";
+		}
+		next;
+	}
 	chomp;
 	$cmd = $_;
 	$SendData = PCSC::ascii_to_array($cmd);
