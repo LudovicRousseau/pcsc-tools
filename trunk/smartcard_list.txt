@@ -21,7 +21,7 @@
 # This list contains a match between an ATR and a card type
 # The list is sorted for edition purposes
 #
-# $Id: smartcard_list.txt,v 1.2 2002-08-26 08:16:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.3 2002-08-27 06:56:49 rousseau Exp $
 #
 
 # syntax:
@@ -73,6 +73,9 @@
 3B 23 00 35 13 FF
 	Schlumberger MicroPayflex
 
+3B 24 00 .. .. .. 45
+	Conax
+
 3B 27 00 80 65 A2 02 02 82 37
 	Gemplus GPK2000s
 
@@ -121,8 +124,14 @@
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
+3B 6E 00 00 80 31 80 65 B0 03 01 01 5E 83 00 00 90 00
+	FirstUSA Visa
+
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
+
+3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 01 00 81 90 00
+	DOD-CAC
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
@@ -193,6 +202,7 @@
 
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
+	 Cryptokarte with RSA-Controller, T=1 Protocol
 
 3B BA 14 00 81 31 86 5D 00 64 05 14 02 02 31 80 90 00 91
 	Telesec TCOS 2 (SLE66)
@@ -242,14 +252,25 @@
 3B EF 00 FF 81 31 20 75 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 8C
 	ZeitControl BasicCard Enhanced 3.3
 
+3B EF 00 FF 81 31 42 45 .* 38
+	UNI-Card
+
 3B EF 00 FF 81 31 50 45 42 61 73 69 63 43 61 72 64 20 5A 43 31 2E 31 CC
 	ZeitControl BasicCard Compact 1.1
 
 3B EF 00 FF 81 31 50 45 65 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 	Geldkarte v2
 
+3B EF 00 FF 81 31 60 45 65 63 04 02 11 00 00 00 00 00 A5 32 A5 01 11 B6
+	GledKarte
+	Siemens M3-Module with a Motorola SC-28.
+	G&D (Giesecke&Devrient) Geldkarten-OS mit der Version 11
+
 3B EF 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v2 (Germany)
+
+3B EF 00 FF 81 31 60 45 65 63 06 03 14 02 50 00 06 51 08 11 5E 01 41 90
+	Geldkarte from Deutsche Bank, Thomson-Chip
 
 3B EF 00 FF 81 31 66 45 65 63 20 20 49 42 4D 20 33 2E 31 20 20 20 20
 	IBM eCash
@@ -308,5 +329,14 @@
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gempls GemXpresso 211PK
+
+3F 78 12 25 01 40 B0 03 4A 50 20 48 55
+	DSS/DTV H
+
+3F 7E 11 25 05 40 B0 08 00 00 4D 59 00 00 00 53 4B 0B 07
+	BSkyB Series 11 (DSS satellite TV card)
+
+3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
+	ExtremeHu3 (DSS satellite TV card)
 
 # do not delete
