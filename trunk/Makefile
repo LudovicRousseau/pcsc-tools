@@ -1,5 +1,5 @@
 
-# $Id: Makefile,v 1.5 2001-11-08 07:46:00 rousseau Exp $
+# $Id: Makefile,v 1.6 2001-11-08 08:44:10 rousseau Exp $
 
 CC=gcc
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
@@ -23,7 +23,7 @@ install: all
 	install --mode 644 $(MAN) $(DESTDIR)/usr/share/man/man1/
 
 clean:
-	rm -f pcsc_scan.o pcsc_scan
+	rm -f pcsc_scan.o $(BIN) $(MAN)
 
 %.1.gz: %.1
 	gzip --best $^ --to-stdout > $@
