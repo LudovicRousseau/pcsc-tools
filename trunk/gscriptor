@@ -21,9 +21,13 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 #
-# $Id: gscriptor,v 1.12 2001-09-21 15:02:08 rousseau Exp $
+# $Id: gscriptor,v 1.13 2001-09-21 15:03:22 rousseau Exp $
 #
 # $Log: not supported by cvs2svn $
+# Revision 1.12  2001/09/21 15:02:08  rousseau
+# added accelerator for Quit
+# added $pos argument to insert_text()
+#
 # Revision 1.11  2001/09/21 13:56:22  rousseau
 # added 'homogeneous' argument to Gtk::Table::new()
 #
@@ -435,7 +439,7 @@ sub ReadScriptFile {
 	$txtScript->delete_text (0,-1);
 	while (<FILE>)
 	{
-		$txtScript->insert_text ($_, $txtScript->get_length());
+		$txtScript->insert_text ($_, $txtScript->get_length);
 	}
 	$txtScript->thaw();
 	close (FILE);
@@ -556,22 +560,22 @@ sub RefreshResult {
 		if (ref $tmpLine) {
 			foreach $tmp_value (@$tmpLine) {
 				if ($rdbHex->active) {
-					$txtResult->insert_text (sprintf ("%02X ", $tmp_value), $txtResult->get_length());
+					$txtResult->insert_text (sprintf ("%02X ", $tmp_value), $txtResult->get_length);
 				} else {
 					# TODO: enhance filtering of non-printable chars
 					# TODO: how can we use array_to_ascii here ??? maybe
 					# enhence the function so it can directly receive
 					# ranges of chars to ignore optionally ?
 					if (($tmp_value > 0x20) && ($tmp_value < 0x80)) {
-						$txtResult->insert_text (chr ($tmp_value), $txtResult->get_length());
+						$txtResult->insert_text (chr ($tmp_value), $txtResult->get_length);
 					} else {
-						$txtResult->insert_text ('.', $txtResult->get_length());
+						$txtResult->insert_text ('.', $txtResult->get_length);
 					}
 				}
 			}
-			$txtResult->insert_text ("\n", $txtResult->get_length());
+			$txtResult->insert_text ("\n", $txtResult->get_length);
 		} else {
-			$txtResult->insert_text ($tmpLine, $txtResult->get_length());
+			$txtResult->insert_text ($tmpLine, $txtResult->get_length);
 		}
 	}
 	$txtResult->thaw();
