@@ -111,6 +111,11 @@ Licences:
 History:
 ========
 
+1.2.3 - 16 Nov 2002, Ludovic ROUSSEAU
+    - Add the URL of the latest smartcard_list.txt file in the error
+      message printed if the ATR is not already known
+    - use an updated version of smartcard_list.txt
+
 1.2.2 - 15 Oct 2002, Ludovic ROUSSEAU
     - correct some compilation problems. See Makefile if you have a xBSD
       system
@@ -146,6 +151,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.14 2002-10-15 17:07:55 rousseau Exp $
+$Id: README,v 1.15 2002-11-16 22:21:34 rousseau Exp $
 
  vim:ts=8
