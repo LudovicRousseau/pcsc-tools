@@ -111,6 +111,14 @@ Licences:
 History:
 ========
 
+1.3.1 - 29 Octobre 2003, Ludovic ROUSSEAU
+    - ATR_analysis: only ask to send me the ATR and card description if
+      it is a microprocessor card. I am not (yet) interested in a list
+      of memory cards.
+    - scriptor, scriptor.1p: add -p argument to specify the ISO 7816
+      protocol to use (T=0 or T=1)
+    - 26 new ATR in smartcard_list.txt
+
 1.3.0 - 31 May 2003, Ludovic ROUSSEAU
     - pcsc_scan.c: detect reader insertion/removal (USB) and adjust the
       reader list accordingly
@@ -165,6 +173,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.18 2003-05-31 20:49:25 rousseau Exp $
+$Id: README,v 1.19 2003-10-29 18:12:13 rousseau Exp $
 
  vim:ts=8
