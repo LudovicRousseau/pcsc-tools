@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.17 2002-11-16 16:38:11 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.18 2002-11-22 12:17:33 rousseau Exp $
 #
 
 # syntax:
@@ -185,6 +185,12 @@
 3B 81 1F 00 CC 52
 	eToken R2 2242
 
+3B 82 81 31 76 43 C0 02 C5
+	CardOS/M2 V2.01(SLE44CxxS)
+
+3B 82 81 31 76 43 C1 03 C5
+	CardOS M2 Combi V2.02 (SLE44R42S)
+
 3B 83 00 12 10 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
@@ -233,6 +239,9 @@
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
 
+3B A7 00 40 18 80 65 A2 09 01 02 52
+	Gemplus GPK16000
+
 3B A7 00 40 14 80 65 A2 14 01 01 37
 	Gemplus GPK4000sdo
 
@@ -259,11 +268,11 @@
 3B B0 11 00 81 31 90 73 F2
 	SamOS 2.7
 
-3B B7 11 00 81 31 90 43 A5 17 08 A2 0E 04 0C DB
-	Siemens CardOS/M V1.4
+3B B7 11 00 81 31 90 43 A5 .. .. .. .. .. .. ..
+	Siemens CardOS/M V1.4 (SLE44C80S)
 
-3B B7 11 00 81 31 90 43 A5 17 0C D4 0F 20 1B 9B
-	Siemens/Infineon SLE 44c80 processor, 64k EEPROM and crypto-functions
+3B B7 11 00 81 31 90 53 B5 .. .. .. .. .. .. ..
+	CardOS EM/V1.4 (SLE44CR80S)
 
 3B B7 94 00 81 31 FE 65 53 50 4B 32 32 90 00 D0
 	Giesecke&Devrient STARCOS SPK2.2
@@ -315,7 +324,7 @@
 	Aladdin eToken PRO (USB token)
 
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
-	Siemens CardOS/M 3.0
+	Siemens CardOS/M 3.0 (SLE66CX160S)
 
 3B EA 00 FF 81 31 20 75 00 64 05 14 01 02 31 00 90 00 27
 	GCOS-MDK
@@ -370,10 +379,16 @@
 	UBS Internet Card (IBM JetZ M2)
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
-	Siemens CardOS M 4.01 running on Infineon SLE66CX320P
+	Siemens CardOS M 4.01 (SLE66CX320P)
+
+3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
+	CardOS M4.01a (SLE66CX322P)
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
+
+3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
+	ESTEID Estonian Identity Card
 
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
