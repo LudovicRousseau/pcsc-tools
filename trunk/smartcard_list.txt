@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.56 2003-12-05 15:34:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.57 2003-12-16 16:48:47 rousseau Exp $
 #
 
 # syntax:
@@ -347,6 +347,9 @@
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
+3B 8A 00 91 91 00 17 00 01 07 03 00 96
+	T-Mobile prepaid 2G SIM
+
 3B 95 15 40 .. 68 01 02 .. ..
 	Schlumberger CryptoFlex 8k v2
 
@@ -371,11 +374,17 @@
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec (http://www.miotec.fi) smartcard running Miocos 2.0 on an Atmel AT90SC646
 
+3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
+	Hutchison/3 3G USIM
+
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
 	Setec / FINEID
 
 3B 9F 94 40 1E 00 67 16 43 46 49 53 45 10 52 66 FF 81 90 00
 	RSA SecurID 3100
+
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
+	Gemplus GemXplore 3G USIM
 
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
