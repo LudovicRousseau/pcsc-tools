@@ -17,10 +17,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.1.1.1 2001-10-16 07:24:07 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.2 2001-10-16 07:31:51 rousseau Exp $ */
 
 /*
  * $Log: not supported by cvs2svn $
+ * Revision 1.1.1.1  2001/10/16 07:24:07  rousseau
+ * Created directory structure
+ *
  * Revision 1.3  2001/09/14 17:57:07  rousseau
  * debugged support of multi readers
  * added time information
@@ -62,7 +65,7 @@ int main(int argc, char *argv[])
 	{
 		printf("SCardListReader: %lX\n", rv);
 	}
-	printf("%ld allocated reader(s)\n", dwReaders);
+	//printf("%ld allocated reader(s)\n", dwReaders);
 
 	mszReaders = malloc(sizeof(char)*dwReaders);
 	if (mszReaders == NULL)
