@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.7 2002-09-27 06:39:54 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.8 2002-10-07 07:16:28 rousseau Exp $
 #
 
 # syntax:
@@ -340,7 +340,7 @@
 	MCOS 24k EEPROM
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
-	Gempls GemXpresso 211PK
+	Gemplus GemXpresso 211PK
 
 3F 78 12 25 01 40 B0 03 4A 50 20 48 55
 	DSS/DTV H
