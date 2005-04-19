@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.15 2004-08-06 13:51:03 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.16 2005-04-19 19:20:08 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -67,7 +67,7 @@ int main(int argc, char *argv[])
 
 	printf("PC/SC device scanner\n");
 	printf("V " VERSION " (c) 2001-2004, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
-	printf("PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
+	printf("Compiled with PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
 
 	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
 	{
