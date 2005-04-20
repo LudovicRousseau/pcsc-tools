@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.119 2005-04-13 18:14:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.120 2005-04-20 19:40:21 rousseau Exp $
 #
 
 # syntax:
@@ -372,6 +372,9 @@
 
 3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
 	Oberthur 64k v4/2.1.1
+
+3B 7D 94 00 00 80 31 80 65 B0 83 01 01 90 83 00 90 00
+	GemSafeXpresso 16k R3.2
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
