@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.121 2005-04-22 08:03:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.122 2005-04-22 09:59:47 rousseau Exp $
 #
 
 # syntax:
@@ -771,15 +771,15 @@
 	distributed by Postecert (www.postecert.it) to legally sign documents
 
 3B FC 98 00 FF C1 10 31 FE 55 C8 03 49 6E 66 6F 63 61 6D 65 72 65 28
-	New Card Infocamere (Italy) series number 1401...
-	http://www.card.infocamere.it/
-	Siemens Informatica - Siemens M4.01
-	chip Infineon SLE66CX320P (ITSEC E4)
+	New Card Infocamere (Italy) series 1402...
+	 http://www.card.infocamere.it/
+	 Siemens Informatica - Siemens M4.01a
+	 chip Infineon SLE66CX322P (CC EAL5)
 	 Memory EEPROM: 32KB
 	 Operating system CARDOS
 	 Max numero dei tentativi PIN: 3
 	 Pin: da 5 a 8 digit
-	Unblocked by tool CARDOS API 2.2
+	 Unblocked by tool CARDOS API 2.2
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
