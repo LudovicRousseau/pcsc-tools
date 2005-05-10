@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.123 2005-05-06 10:19:54 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.124 2005-05-10 16:04:56 rousseau Exp $
 #
 
 # syntax:
@@ -935,7 +935,7 @@
 	BSkyB Series 11 (DSS satellite TV card)
 
 3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
-	ExtremeHu3 (DSS satellite TV card)
+	DSS/DTV HU
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 31 49
 	PayTV card for DishNetwork Sat receiver http://www.dishnetwork.com/
