@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.125 2005-05-10 16:06:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.126 2005-05-10 17:08:25 rousseau Exp $
 #
 
 # syntax:
@@ -939,6 +939,9 @@
 
 3F 78 13 25 03 40 B0 20 FF FF 4A 50 00
 	DSS/DTV P4
+
+3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 30 48
+	DSS/DISH ROM10
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 31 49
 	PayTV card for DishNetwork Sat receiver http://www.dishnetwork.com/
