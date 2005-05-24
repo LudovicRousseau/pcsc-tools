@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.128 2005-05-19 11:18:43 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.129 2005-05-24 18:07:58 rousseau Exp $
 #
 
 # syntax:
@@ -772,6 +772,9 @@
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
+
+3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
+	ZeitControl BasicCard 5.5
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
 	ZeitControl BasicCard Professional 5.4 Revision A
