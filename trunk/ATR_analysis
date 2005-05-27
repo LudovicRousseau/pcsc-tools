@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.12 2005-05-27 08:39:21 rousseau Exp $
+# $Id: ATR_analysis,v 1.13 2005-05-27 08:42:05 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -87,9 +87,9 @@ if ($opt_v)
 }
 
 # 1_ 1 argument then input = ATR else smart card
-if ($opt_h)
+if ($opt_h or ($#ARGV != 0))
 {
-	print "Usage: $0 ATR_string\n";
+	print "Usage: $0 [-v] [-h] ATR_string\n";
 	print "  Ex: $0 3B A7 00 40 18 80 65 A2 08 01 01 52\n";
 	exit;
 }
