@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.9 2003-10-22 16:51:13 rousseau Exp $
+# $Id: ATR_analysis,v 1.10 2005-05-27 08:34:57 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -86,15 +86,15 @@ if ($opt_v)
 }
 
 # 1_ 1 argument then input = ATR else smart card
-if (($#ARGV != 0) or $opt_h)
+if ($opt_h)
 {
 	print "Usage: $0 ATR_string\n";
-	print "  Ex: $0 '3B A7 00 40 18 80 65 A2 08 01 01 52'\n";
+	print "  Ex: $0 3B A7 00 40 18 80 65 A2 08 01 01 52\n";
 	exit;
 }
 
 # 1_ get the ATR
-$atr = $ARGV[0];
+$atr = join " ", @ARGV;
 if (substr ($atr, 2, 1) ne " ")
 {
 	# "3BA7004018" -> "3B A7 00 40 18"
