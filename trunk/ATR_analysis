@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.10 2005-05-27 08:34:57 rousseau Exp $
+# $Id: ATR_analysis,v 1.11 2005-05-27 08:35:42 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -145,7 +145,7 @@ analyse_TC() if ($Y1 & 0x4);
 exit if ($#object < 0);
 analyse_TD() if ($Y1 & 0x8);
 
-# the rest are historical byets
+# the rest are historical bytes
 print "+ Historical bytes: @object\n";
 
 if (! $mpcard)
