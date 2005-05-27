@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.129 2005-05-24 18:07:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.130 2005-05-27 06:54:18 rousseau Exp $
 #
 
 # syntax:
@@ -60,6 +60,10 @@
 
 3B 0F 80 6A 16 32 46 49 53 45 53 8C E0 FF 07 90 00
 	GSM-SIM Sonera (from 1998)
+
+3B 15 13 80 53 41 52 03
+	Eutron CryptoIdentity (ATMEL AT903232C - 6464C Cryptographic
+	processors, 64KB EEPROM, RSA 2048)
 
 3B 16 94 81 10 06 01 81 2F
 	Schlumberger Cyberflex Access Augmented Crypto
