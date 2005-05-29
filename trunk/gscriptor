@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.30 2004-08-06 14:38:55 rousseau Exp $
+# $Id: gscriptor,v 1.31 2005-05-29 13:32:20 rousseau Exp $
 
 use strict;
 use warnings;
@@ -648,6 +648,11 @@ sub RefreshResult {
 }
 
 sub ConnectDefaultReader {
+	my @readers_list = $hContext->ListReaders;
+
+	# if only one reader is found use it unconditionally
+	$hConfig{'reader'} = $readers_list[0] if ($#readers_list == 0);
+
 	if (exists $hConfig{'reader'} && !($hConfig{'reader'} eq '')) {
 		if (defined $hCard->{hCard}) {
 			MessageBox (
