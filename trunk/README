@@ -91,7 +91,7 @@ Licences:
 =========
 
     pcsc-tools
-    Copyright (C) 2001-2003  Lionel VICTOR, Ludovic ROUSSEAU
+    Copyright (C) 2001-2005  Lionel VICTOR, Ludovic ROUSSEAU
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -110,6 +110,15 @@ Licences:
 
 History:
 ========
+
+1.4.1 - 29 May 2005, Ludovic ROUSSEAU
+    - 42 new ATR in smartcard_list.txt
+    - ATR_analysis:
+     . accept 3B A7 00 40 18 80 65 A2 08 01 01 52 and not just '3B A7 00
+       40 18 80 65 A2 08 01 01 52' as command line argument
+     . check ~/.smartcard_list.txt for known ATR
+     . add instructions to download and install a new version of the list
+    - gscriptor: if only one reader is found use it unconditionally
 
 1.4.0 - 6 August 2004, Ludovic ROUSSEAU
     - 13 new ATR in smartcard_list.txt
@@ -202,6 +211,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.24 2004-08-06 14:45:48 rousseau Exp $
+$Id: README,v 1.25 2005-05-29 13:49:06 rousseau Exp $
 
  vim:ts=8
