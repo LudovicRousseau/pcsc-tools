@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.14 2005-05-27 08:43:47 rousseau Exp $
+# $Id: ATR_analysis,v 1.15 2005-05-29 10:31:37 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -46,9 +46,7 @@ use warnings;
 use Getopt::Std;
 
 # file containing the smart card models
-my $SMARTCARD_LIST = "smartcard_list.txt";
-# where to look for $SMARTCARD_LIST
-my @LIST_PATH = qw(. /usr/local/pcsc /usr/lib/pcsc);
+my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/lib/pcsc/smartcard_list.txt");
 
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line);
@@ -69,7 +67,7 @@ sub analyse_TA();
 sub analyse_TB();
 sub analyse_TC();
 sub analyse_TD();
-sub find_card($$@);
+sub find_card($@);
 
 # globals init
 $T = 0;
@@ -156,7 +154,7 @@ if (! $mpcard)
 }
 
 # find the corresponding card type
-find_card($atr, $SMARTCARD_LIST, @LIST_PATH);
+find_card($atr, @SMARTCARD_LIST);
 
 ######## Sub functions
 
@@ -365,25 +363,24 @@ sub analyse_TD()
 #|  _| | | | | | (_| | | (_| (_| | | | (_| |
 #|_|   |_|_| |_|\__,_|  \___\__,_|_|  \__,_|
 #
-sub find_card($$@)
+sub find_card($@)
 {
 	my $atr = shift;
-	my $file = shift;
-	my @path = @_;
+	my @files = @_;
 
-	my ($line, $found, $p);
+	my ($line, $found, $f, $file);
 
-	foreach $p (@path)
+	foreach (@files)
 	{
-		if (-e "$p/$file")
+		if (-e "$_")
 		{
-			$file = "$p/$file";
+			$file = $_;
 			last;
 		}
 	}
 
 	$found = 0;
-	print "\nPossibly identified card:\n";
+	print "\nPossibly identified card (using $file):\n";
 	open FILE, "< $file" or die "Can't open $file: $!\n";
 	while ($line = <FILE>)
 	{
@@ -421,5 +418,5 @@ sub find_card($$@)
 		print "- your ATR\n";
 		print "- a card description\n";
 	}
-} # find_card($$)
+} # find_card($)
 
