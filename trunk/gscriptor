@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.31 2005-05-29 13:32:20 rousseau Exp $
+# $Id: gscriptor,v 1.32 2005-05-29 13:42:12 rousseau Exp $
 
 use strict;
 use warnings;
@@ -393,6 +393,7 @@ sub ReaderConfig {
 	my $btnOK = Gtk2::Button->new ("OK");
 	$btnOK->signal_connect( "clicked", sub {
 		$hConfig{'reader'} = @readers_list[$cboReaders->get_active()];
+		$hConfig{'reader'} = "" if (! defined $hConfig{'reader'});
 		$hCard->Disconnect($Chipcard::PCSC::SCARD_UNPOWER_CARD);
 		$dlgReaderConfig->destroy();
 	});
