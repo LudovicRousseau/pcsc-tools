@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.130 2005-05-27 06:54:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.131 2005-06-01 18:11:42 rousseau Exp $
 #
 
 # syntax:
@@ -64,6 +64,9 @@
 3B 15 13 80 53 41 52 03
 	Eutron CryptoIdentity (ATMEL AT903232C - 6464C Cryptographic
 	processors, 64KB EEPROM, RSA 2048)
+
+3B 15 94 C3 02 08 16 01
+	GSM-SIM EMT (Estonia)
 
 3B 16 94 81 10 06 01 81 2F
 	Schlumberger Cyberflex Access Augmented Crypto
@@ -483,6 +486,9 @@
 
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
+
+3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 34 99 05 D0
+	GSM-SIM EMT "Diil", prepaid (Estonia)
 
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec (http://www.miotec.fi) smartcard running Miocos 2.0 on an Atmel AT90SC646
