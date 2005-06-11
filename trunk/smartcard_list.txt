@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.131 2005-06-01 18:11:42 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.132 2005-06-11 18:08:24 rousseau Exp $
 #
 
 # syntax:
@@ -379,6 +379,10 @@
 
 3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
 	Oberthur 64k v4/2.1.1
+
+3B 7D 94 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
+	Gem e-Seal
+	(GemSafeXpresso 16k R3.2?)
 
 3B 7D 94 00 00 80 31 80 65 B0 83 01 01 90 83 00 90 00
 	GemSafeXpresso 16k R3.2
