@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.132 2005-06-11 18:08:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.133 2005-06-29 17:56:07 rousseau Exp $
 #
 
 # syntax:
@@ -239,6 +239,11 @@
 
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
+
+3B 67 00 00 85 20 36 30 78 90 00
+	Belgium Fortis Bank
+	Belgium Keytrade Bank
+	Belgium Post Bank
 
 3B 67 25 00 62 24 33 03 ..
 	Bull TB1000 ? (SAM for ATM in Luxemburg)
@@ -481,6 +486,9 @@
 
 3B 95 94 40 FF 63 01 01 02 01
 	Schlumberger Cryptoflex 16Ko
+
+3B 98 13 40 0A A5 03 01 01 01 AD 13 11
+	Belgium Electronic ID card
 
 3B 99 94 00 91 08 91 06 00 01 06 06 00
 	GSM-SIM Orange-UK (1800)
