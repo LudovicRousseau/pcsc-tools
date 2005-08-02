@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.16 2005-04-19 19:20:08 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.17 2005-08-02 20:39:10 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -105,9 +105,9 @@ int main(int argc, char *argv[])
 
 get_readers:
 	/* free memory possibly allocated in a previous loop */
-	if (NULL == readers)
+	if (NULL != readers)
 		free(readers);
-	if (NULL == rgReaderStates_t)
+	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
 
 	/* Retrieve the available readers list.
