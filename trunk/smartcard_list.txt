@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.133 2005-06-29 17:56:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.134 2005-08-03 17:11:38 rousseau Exp $
 #
 
 # syntax:
@@ -614,8 +614,19 @@
 3B BE 11 00 00 41 01 38 01 00 03 00 00 00 00 00 02 90 00
 	ACOS2 test card from ACS reading off a ACR38U
 
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 21 00 93 42 00 00 00 00 01
+	Austrian BankCard (Old Version - ca. 2004)
+
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 24 68 30 00 00 00 00 AB
+	Austrian BankCard  (Maestro + Quick) (New Version, since 02/2005,
+	with Digital-Signature etc.)
+
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
+
+3B BD 18 00 81 31 FE 45 80 51 02 67 04 14 B1 01 01 02 00 81 05 3D
+	Austrian "e-Card" (=Health Card), BRANDNEW (since 06/2005)
+	special Version of Starcos 3.1
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
 	Giesecke&Devrient SmartCafe 1.1
@@ -628,6 +639,14 @@
 
 3B BF 18 00 C0 20 31 70 52 53 54 41 52 43 4F 53 20 53 32 31 20 43 90 00 9C
 	Giesecke & Devrient SPK 2.1 C
+
+3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
+	A-Trust: trust-sign (Old Version, ca. 2002) for Digital Signature etc.
+	A-Trust: a-sign-premium (ca. 2004) "Bürgerkarte" ("Citizen-Card")
+	for Identifikation, Digital Signature etc.
+	("should be" Starcos 2.3)
+
+3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
