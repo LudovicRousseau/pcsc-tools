@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.134 2005-08-03 17:11:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.135 2005-08-03 17:14:51 rousseau Exp $
 #
 
 # syntax:
@@ -959,6 +959,9 @@
 3F 67 25 00 2A 20 00 4[0,1] 68 90 00
 	Dutch ChipKnip, Proton
 	(chip Bull CC 60 V1, Bull CC 60 V2 or Bull CC 1000)
+
+3F 67 25 04 21 20 00 07 68 90 00
+	Philips TB100 (C-MOS chip)
 
 3F 67 2F 04 11 20 00 00 68 90 00
 	BULL HN ITALIA 06/92 - 100.000 - 64MP
