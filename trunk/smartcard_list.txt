@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.135 2005-08-03 17:14:51 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.136 2005-08-04 17:12:00 rousseau Exp $
 #
 
 # syntax:
@@ -697,6 +697,9 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 30/31bio (contact interface)
+
+3B E9 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 A7
+	IBM JCOP v2.2 41
 
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
