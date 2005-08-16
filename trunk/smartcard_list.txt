@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.136 2005-08-04 17:12:00 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.137 2005-08-16 17:40:17 rousseau Exp $
 #
 
 # syntax:
@@ -795,6 +795,9 @@
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
 	Siemens CardOS M 4.01 (SLE66CX320P)
+
+3B F2 18 00 FF C1 0A 31 FE 55 C8 06 8A
+	Siemens CardOS M 4.2 (SLE66CX642P)
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
