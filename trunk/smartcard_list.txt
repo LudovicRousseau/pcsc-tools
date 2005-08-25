@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.138 2005-08-18 18:43:14 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.139 2005-08-25 17:20:45 rousseau Exp $
 #
 
 # syntax:
@@ -124,6 +124,9 @@
 
 3B 24 00 .. .. .. 45
 	Conax
+
+3B 24 00 30 42 30 30
+	ComHem Digital-TV smartcard (Sweden)
 
 3B 24 00 80 72 94 43
 	MPCOS-3DES 64K \ EMV Filter (Gemplus)
