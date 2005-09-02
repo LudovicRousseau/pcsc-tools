@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.140 2005-08-30 16:06:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.141 2005-09-02 16:36:25 rousseau Exp $
 #
 
 # syntax:
@@ -240,12 +240,6 @@
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
 
-3B 67 00 00 9C 10 01 01 03 FF 07
-	Schlumberger Cyberflex Palmera Protect
-
-3B 67 25 00 2A 20 00 4[0,5] 68 90 00
-	Swedish cashcard (proton)
-
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
 
@@ -253,6 +247,15 @@
 	Belgium Fortis Bank
 	Belgium Keytrade Bank
 	Belgium Post Bank
+
+3B 67 00 00 9C 10 01 01 03 FF 07
+	Schlumberger Cyberflex Palmera Protect
+
+3B 67 00 00 A5 20 40 10 1F 90 00
+	Swedish eLegitimation (eID) from Nordea Bank http://www.elegitimation.se/
+
+3B 67 25 00 2A 20 00 4[0,5] 68 90 00
+	Swedish cashcard (proton)
 
 3B 67 25 00 62 24 33 03 ..
 	Bull TB1000 ? (SAM for ATM in Luxemburg)
