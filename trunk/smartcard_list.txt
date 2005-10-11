@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.143 2005-10-07 21:56:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.144 2005-10-11 18:55:21 rousseau Exp $
 #
 
 # syntax:
@@ -97,6 +97,9 @@
 
 3B 1F 11 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
 	GSM-SIM Saunalahti (from 2004)
+
+3B 1F 11 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
+	GSM SIM card - Tele2 Estonia - http://www.tele2.ee
 
 3B 1F 11 80 6A 32 37 46 49 53 45 12 8C 02 FF 07 90 00
 	GSM-SIM DNA Finland (from 2001)
@@ -961,6 +964,9 @@
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
+
+3F 28 00 00 11 14 00 03 68 90 00
+	SIMEMU - a DIY GSM SIM card - http://simemu.cjb.net/
 
 3F 2D 00 27 A0 51 82 7D 00 00 00 52 00 0C 90 00
 	Porta Moedas Multibanco (Portugeese electronic purse)
