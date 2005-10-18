@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.17 2005-05-29 10:38:09 rousseau Exp $
+# $Id: ATR_analysis,v 1.18 2005-10-18 16:36:18 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -149,7 +149,7 @@ print "+ Historical bytes: @object\n";
 
 if (! $mpcard)
 {
-	print "Your card is not a microprocessor card. It seams to be memory card.\n";
+	print "Your card is not a microprocessor card. It seems to be memory card.\n";
 	exit;
 }
 
