@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.145 2005-10-18 16:39:40 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.146 2005-10-20 22:28:02 rousseau Exp $
 #
 
 # syntax:
@@ -79,6 +79,9 @@
 
 3B 17 13 9C 12 02 01 01 07 40
 	Schlumberger Cyberflex Access Developer 32k
+
+3B 17 94 18 02 01 25 01 41 93
+	AT&T Wireless GSM SIM Card
 
 3B 19 14 55 90 01 01 01 00 05 08 B0
 	Schlumberger Multiflex 8k
@@ -217,6 +220,9 @@
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
+
+3B 3F 95 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
+	AT&T Wireless GSM SIM Card
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
@@ -652,6 +658,7 @@
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 53 32 30 30 30
 	GSM-SIM Era-PL
+	T-Mobile GSM SIM Card
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 56 32 30 30 30
 	GSM SIM CARD 32K, Vodafone
