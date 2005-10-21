@@ -1,13 +1,13 @@
-.TH ATR_ANALYSIS "1p" "August 2002" "Version: 1.1" "User Commands"
+.TH ATR_ANALYSIS "1p" "October 2005" "Version: 1.3" "User Commands"
 .SH NAME
 ATR_analysis \- analyse a smart card ATR
 .SH SYNOPSIS
 .B ATR_analysis
-.BI [ ATRstring ]
+.RI [ ATRstring ]
 .SH DESCRIPTION
 .B ATR_analysis
-is used to parse the ATR (answer to reset) sent by a smart card.
-
+is used to parse the ATR (Answer To Reset) sent by a smart card.
+.P
 The command also tries to find the card model using an ATR database
 stored in a text file
 .IR smartcard_list.txt .
@@ -15,13 +15,12 @@ stored in a text file
 The
 .I smartcard_list.txt
 file is searched in 
-.I .
-,
-.I /usr/local/pcsc
+.IR ./ ,
+.I /usr/local/pcsc/
 and
-.I /usr/lib/pcsc
+.I /usr/share/pcsc/
 directories.
-
+.P
 Exemple:
  $ ATR_analysis '3B A7 00 40 18 80 65 A2 08 01 01 52'
  ATR: 3B A7 00 40 18 80 65 A2 08 01 01 52
@@ -32,11 +31,11 @@ Exemple:
  -----
    TC(2) = 18 --> Work waiting time: 960 x 24 x (Fi/F)
  + Historical bytes: 80 65 A2 08 01 01 52
-
+ 
  Possibly identified card:
  3B A7 00 40 18 80 65 A2 08 01 01 52
         Gemplus GPK8000
-
+.P
 .SH BUGS
 Maybe many bugs since I am not a ISO 7816 expert.
 .SH FILES
