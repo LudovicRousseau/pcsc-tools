@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.147 2005-10-28 19:29:39 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.148 2005-10-28 19:31:53 rousseau Exp $
 #
 
 # syntax:
@@ -70,6 +70,9 @@
 
 3B 15 94 C3 02 08 16 01
 	GSM-SIM EMT (Estonia)
+
+3B 16 94 71 01 01 00 27 00
+	Cingular GSM SIM Card
 
 3B 16 94 81 10 06 01 81 2F
 	Schlumberger Cyberflex Access Augmented Crypto
