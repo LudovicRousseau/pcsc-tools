@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.146 2005-10-20 22:28:02 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.147 2005-10-28 19:29:39 rousseau Exp $
 #
 
 # syntax:
@@ -610,6 +610,10 @@
 
 3B AA 00 40 14 47 47 32 47 54 35 53 34 38 30
 	GSM-SIM Libertel (900MHz)
+
+3B AA 00 40 80 53 4F 80 53 45 03 04 11 AA A3
+	"open platform" ATMEGA "new Generation"
+	http://www.masterixweb-italy.com/new/images/articoli/atmega.jpg
 
 3B AB 00 81 31 40 45 80 31 C0 65 08 06 80 00 00 00 00 84
 	Reloadable Visa Cash card (Schlumberger), Bank of America
