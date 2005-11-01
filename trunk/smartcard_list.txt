@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.148 2005-10-28 19:31:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.149 2005-11-01 12:13:18 rousseau Exp $
 #
 
 # syntax:
@@ -85,6 +85,9 @@
 
 3B 17 94 18 02 01 25 01 41 93
 	AT&T Wireless GSM SIM Card
+
+3B 17 94 89 01 02 01 02 41 87
+	Vodafone/Omnitel 16K GSM SIM
 
 3B 19 14 55 90 01 01 01 00 05 08 B0
 	Schlumberger Multiflex 8k
