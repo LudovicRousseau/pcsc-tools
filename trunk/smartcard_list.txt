@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.149 2005-11-01 12:13:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.150 2005-11-09 20:30:37 rousseau Exp $
 #
 
 # syntax:
@@ -327,6 +327,9 @@
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
+
+3B 6D 00 00 00 31 C0 71 D6 64 34 C7 02 00 84 90 00
+	Cybelys card (Thalys fidelity card)
 
 3B 6D 00 00 00 31 C0 71 D6 64 38 D0 02 00 84 90 00
 	EMV Visa Electron (Oberthur)
