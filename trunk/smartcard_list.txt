@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.150 2005-11-09 20:30:37 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.151 2005-11-10 17:27:12 rousseau Exp $
 #
 
 # syntax:
@@ -254,6 +254,10 @@
 
 3B 66 00 FF 4A 43 4F 50 30 33
 	IBM JCOP 30
+
+3B 67 00 00 00 00 00 00 00 90 00
+	Axa Bank (Belgium) Mastercard Gold / Axa Bank Belgium
+	MisterCash & Proton card
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
