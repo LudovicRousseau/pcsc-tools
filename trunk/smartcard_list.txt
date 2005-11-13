@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.151 2005-11-10 17:27:12 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.152 2005-11-13 13:58:20 rousseau Exp $
 #
 
 # syntax:
@@ -657,6 +657,9 @@
 	Giesecke & Devrient Starcos 2.3
 	Deutsche Bank WebSign (RSA-Card)
 
+3B B9 94 00 40 14 47 47 33 4E 48 38 36 34 30
+	GSM-SIM card of the Austrian mobile phone provider One, http://www.one.at
+
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
 	 Cryptokarte with RSA-Controller, T=1 Protocol
@@ -669,6 +672,7 @@
 
 3B BA 94 00 40 14 47 47 33 52 53 37 31 36 53 30
 	GSM-SIM Viag Interkom E2 Loop (1800MHz)
+	GSM-SIM card of the Austrian A1, http://www.a1.net/privat/home
 
 3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66
 	Telesec TCOS 2 (SLE66P)
