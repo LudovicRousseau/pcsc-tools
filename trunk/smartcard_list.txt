@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.152 2005-11-13 13:58:20 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.153 2005-11-17 12:53:06 rousseau Exp $
 #
 
 # syntax:
@@ -753,6 +753,7 @@
 
 3B E2 00 FF C1 10 31 FE 55 C8 02 9C
 	Aladdin eToken PRO (USB token)
+	Siemens CardOS M4.0
 
 3B E3 00 FF 91 81 71 26 44 00 01 13 20 2D
 	Metrebus Card
@@ -877,6 +878,15 @@
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
 	Siemens CardOS M 4.01 (SLE66CX320P)
+
+3B F2 18 00 02 C1 0A 31 FE 58 C8 08 74
+	Siemens CardOS V4.3B
+
+3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
+	Siemens CardOS V4.3
+
+3B F2 18 00 02 C1 0A 31 FE 58 C8 09 75
+	 Siemens CardOS V4.2B
 
 3B F2 18 00 FF C1 0A 31 FE 55 C8 06 8A
 	Siemens CardOS M 4.2 (SLE66CX642P)
