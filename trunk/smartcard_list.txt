@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.153 2005-11-17 12:53:06 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.154 2005-11-23 20:02:46 rousseau Exp $
 #
 
 # syntax:
@@ -217,12 +217,16 @@
 
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
+	Mobistar SIM - Belgium (Gemplus)
 
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
+
+3B 3F 94 00 80 69 AF 03 07 06 67 09 97 0A 0E 83 3E 9F 16
+	BASE SIM - Belgium (Gemplus)
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
@@ -258,12 +262,14 @@
 3B 67 00 00 00 00 00 00 00 90 00
 	Axa Bank (Belgium) Mastercard Gold / Axa Bank Belgium
 	MisterCash & Proton card
+	VISA Card (emitted by Bank Card Company - Belgium)
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
 
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
+	Bank Card (ING - Belgium)
 
 3B 67 00 00 85 20 36 30 78 90 00
 	Belgium Fortis Bank
@@ -659,6 +665,7 @@
 
 3B B9 94 00 40 14 47 47 33 4E 48 38 36 34 30
 	GSM-SIM card of the Austrian mobile phone provider One, http://www.one.at
+	Proximus SIM - Belgium (SetCOS?)
 
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
@@ -899,6 +906,9 @@
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 88 00 00 00 8D
 	Contactless Mifare 1k or 4k
+
+3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 32 30 0E
+	IBM JCOP20
 
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
 	IBM JCOP BIO31
