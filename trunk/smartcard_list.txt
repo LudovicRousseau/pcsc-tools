@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.156 2005-12-18 17:17:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.157 2006-01-01 21:48:35 rousseau Exp $
 #
 
 # syntax:
@@ -178,6 +178,10 @@
 
 3B 27 00 80 65 A2 8C 3B 27 00
 	GPK 4000, RSA 1024 bits Sign, Unwrap 256 bits
+
+3B 29 00 24 93 01 00 00 00 00 01 A9
+	Telephone chipcard for the Vienna University of Technology
+	http://nic.tuwien.ac.at/telefonie/chipkarte/
 
 3B 29 00 80 72 A4 45 64 00 00 D0 15
 	Moeda Electronica Bradesco (Gemplus MPCOS?) (Brasilia)
