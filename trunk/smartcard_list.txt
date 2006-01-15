@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.157 2006-01-01 21:48:35 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.158 2006-01-15 10:31:42 rousseau Exp $
 #
 
 # syntax:
@@ -649,6 +649,9 @@
 
 3B B2 11 00 10 80 00 02
 	AT88SC0204C (Atmel memory card)
+
+3B B2 11 00 10 80 00 08
+	Smart VR Card - GD Burti
 
 3B B7 11 00 81 31 90 43 A5 .. .. .. .. .. .. ..
 	Siemens CardOS/M V1.4 (SLE44C80S)
