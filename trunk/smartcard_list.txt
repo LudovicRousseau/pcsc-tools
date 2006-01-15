@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.158 2006-01-15 10:31:42 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.159 2006-01-15 10:33:17 rousseau Exp $
 #
 
 # syntax:
@@ -1134,5 +1134,8 @@
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42 30 36 4E
 	Telewest Broadband (Nagravision)
+
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 30 31 14
+	TVA Digital - Nagra Vision ID TV-01
 
 # do not delete
