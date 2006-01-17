@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.159 2006-01-15 10:33:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.160 2006-01-17 19:41:46 rousseau Exp $
 #
 
 # syntax:
@@ -1053,10 +1053,10 @@
 	Bank Nederlandse Gemeenten, BNG Data Services
 
 3F 65 25 .. .. 04 6C 90 .0
-	Carte Bancaire (french banking card)
+	Carte Bancaire (French banking card)
 
 3F 65 25 00 2[2,C] 09 [F,6]9 90 00
-	Sesam Vitale (french health card)
+	Sesam Vitale (French health card)
 
 3F 65 25 00 2B 09 62 90 00
 	Coinamatic SmartyCity smartcard
@@ -1080,7 +1080,7 @@
 	Pay-TV card from Casema Cable Television, Netherland
 
 3F 67 25 00 2A 20 00 0F 68 90 00
-	Carte Grand Voyageur (SNCF : french train company)
+	Carte Grand Voyageur (SNCF: French train company)
 
 3F 67 25 00 2A 20 00 40 68 9F 00
 	Swiss Cash card
