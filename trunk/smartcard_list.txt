@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.160 2006-01-17 19:41:46 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.161 2006-01-24 16:14:22 rousseau Exp $
 #
 
 # syntax:
@@ -136,6 +136,9 @@
 
 3B 23 00 35 13 FF
 	Schlumberger MicroPayflex
+
+3B 23 00 35 41 80
+	PayflexHID (idenfitied by Sun Ray Services)
 
 3B 24 00 .. .. .. 45
 	Conax
