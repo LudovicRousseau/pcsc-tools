@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.161 2006-01-24 16:14:22 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.162 2006-01-31 21:58:47 rousseau Exp $
 #
 
 # syntax:
@@ -300,6 +300,9 @@
 
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
+
+3B 68 00 00 9D 08 01 05 01 56 49 53
+	MasterCard Card - CartaSi (Italian Credit Card)
 
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
