@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.163 2006-02-05 16:50:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.164 2006-02-20 19:19:18 rousseau Exp $
 #
 
 # syntax:
@@ -337,6 +337,10 @@
 
 3B 6B 00 00 80 65 B0 83 01 03 74 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK
+
+3B 6B 00 00 80 65 B0 83 01 04 74 83 00 90 00
+	Gemplus GXP3 64V2N
+	U.S. Department of Defense Common Access Card (DoD CAC)
 
 3B 6B .. FF 80 62 .. A2 56 46 69 6E 45 49 44
 	JCOP20 v2.x
