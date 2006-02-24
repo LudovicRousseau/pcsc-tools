@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.164 2006-02-20 19:19:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.165 2006-02-24 10:29:36 rousseau Exp $
 #
 
 # syntax:
@@ -709,6 +709,9 @@
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 56 32 30 30 30
 	GSM SIM CARD 32K, Vodafone
+
+3B BC 94 00 40 14 47 47 33 49 35 43 41 43 31 30 30 30
+	Siemens SIM card
 
 3B BC 94 00 40 14 47 47 33 53 30 35 31 53 31 30 31 30
 	GSM SIM (Tele2, Estonia)
