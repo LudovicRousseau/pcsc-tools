@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.165 2006-02-24 10:29:36 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.166 2006-03-04 19:41:22 rousseau Exp $
 #
 
 # syntax:
@@ -191,6 +191,9 @@
 
 3B 29 00 80 72 A4 45 64 00 FF 00 10
 	MPCOS-3DES 8K (Gemplus)
+
+3B 2A 00 80 65 A0 58 04 01 62 72 D6 43
+	Gemplus GemCombiXplore MPCOS Pro
 
 3B 2A 00 80 65 A2 01 00 00 00 72 D6 41
 	MPCOS_EMV_1B
