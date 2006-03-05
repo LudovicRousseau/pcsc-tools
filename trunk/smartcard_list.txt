@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.166 2006-03-04 19:41:22 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.167 2006-03-05 17:48:19 rousseau Exp $
 #
 
 # syntax:
@@ -403,6 +403,9 @@
 
 3B 6F 00 00 80 31 E0 6B 04 06 03 04 40 55 55 55 55 55 55
 	Blue American Express Card
+
+3B 6F 00 00 80 31 E0 6B 04 20 05 02 30 55 55 55 55 55 55
+	Buypass card for Norsk Tipping (http://norsk-tipping.no)
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 24 22 0E E7 82 90 00
 	Navigo (contact mode)
