@@ -1,0 +1,423 @@
+#!/usr/bin/perl
+
+#    ATR_analysis
+#    Copyright (C) 2000-2005  Ludovic Rousseau, Christophe Levantis
+#
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+# $Id: ATR_analysis,v 1.20 2006-03-07 19:48:48 rousseau Exp $
+
+# For more information about the ATR see ISO 7816-3 1997, pages 12 and up
+#
+# TS	initial character
+# T0	format character, Y1 | K
+#		interfaces characters
+# TA(1)	global, codes  FI and DI
+# TB(1)	global, codes II and PI
+# TC(1)	global, codes N
+# TD(1)	codes Y(2) and T
+# TA(2)	global, codes specific mode
+# TB(2)	global, codes PI2
+# TC(2)	specific
+# TD(2)	codes Y(3) and T
+# TA(3)	TA(i), TB(i), TC(i) (i>2)
+# 		- specific after T!=15
+# 		- global after T=15
+# TD(i)	codes Y(i+1) and T
+# T1	historical bytes
+# 		max 15 characters
+# TK
+# TCK	check character
+
+use strict;
+use warnings;
+use Getopt::Std;
+
+# file containing the smart card models
+my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt");
+
+our ($opt_v, $opt_h);
+my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line);
+my ($Y1, $K, @object, $nb_bytes, $mpcard);
+
+# tables
+%TS = (0x3B, "Direct Convention", 0x3F, "Inverse Convention");
+@Fi = (372, 372, 558, 744, 1116, 1488, 1860, "RFU", "RFU", 512, 768, 1024,
+	1536, 2048, "RFU", "RFU");
+@Di = ("RFU", 1, 2, 4, 8, 16, 32, "RFU", 12, 20, "RFU", "RFU", "RFU",
+	"RFU", "RFU", "RFU");
+
+@XI = ("not supported", "state L", "state H", "no preference");
+@UI = ("A only (5V)", "B only (3V)", "A and B", "RFU");
+
+# prorotypes
+sub analyse_TA();
+sub analyse_TB();
+sub analyse_TC();
+sub analyse_TD();
+sub find_card($@);
+
+# globals init
+$T = 0;
+
+$value = 0;
+$counter = 1;
+
+getopts("vh");
+
+if ($opt_v)
+{
+	print "Version: 1.3, (c) 2002-2005, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "This software is free software (GNU General Public License)\n";
+	exit;
+}
+
+# 1_ 1 argument then input = ATR else smart card
+if ($opt_h or ($#ARGV == -1))
+{
+	print "Usage: $0 [-v] [-h] ATR_string\n";
+	print "  Ex: $0 3B A7 00 40 18 80 65 A2 08 01 01 52\n";
+	exit;
+}
+
+# 1_ get the ATR
+$atr = join " ", @ARGV;
+if (substr ($atr, 2, 1) ne " ")
+{
+	# "3BA7004018" -> "3B A7 00 40 18"
+	$atr =~ s/(..)/$1 /g;
+	$atr =~ s/ *$//;
+}
+
+print "ATR: $atr\n";
+
+# 2_ Split in bytes of the lines
+@object = split(/\s/, $atr);
+$nb_bytes=$#object+1;
+#print $nb_bytes;
+
+# 3_ Analysis
+
+# Analysis of TS:
+$value=hex(shift(@object));
+if (defined $TS{$value})
+{
+	printf "+ TS = %02X --> %s\n", $value, $TS{$value};
+	$mpcard = 1;
+}
+else
+{
+	printf "+ TS = %02X --> UNDEFINED\n", $value;
+	# this is NOT a microprocessor card
+	$mpcard = 0;
+}
+
+exit if ($#object < 0);
+
+# Analysis of T0:
+$value = hex(shift(@object));
+$Y1 = $value >> 4;
+$K = $value % 16;
+printf "+ T0 = %02X, Y(1): %04b, K: %d (historical bytes)\n", $value, $Y1, $K;
+
+exit if ($#object < 0);
+analyse_TA() if ($Y1 & 0x1);
+
+exit if ($#object < 0);
+analyse_TB() if ($Y1 & 0x2);
+
+exit if ($#object < 0);
+analyse_TC() if ($Y1 & 0x4);
+
+exit if ($#object < 0);
+analyse_TD() if ($Y1 & 0x8);
+
+# the rest are historical bytes
+print "+ Historical bytes: @object\n";
+
+if (! $mpcard)
+{
+	print "Your card is not a microprocessor card. It seems to be memory card.\n";
+	exit;
+}
+
+# find the corresponding card type
+find_card($atr, @SMARTCARD_LIST);
+
+######## Sub functions
+
+#  _____  _    
+# |_   _|/ \   
+#   | | / _ \  
+#   | |/ ___ \ 
+#   |_/_/   \_\
+#
+sub analyse_TA()
+{
+	$value = hex(shift(@object));
+	printf ("  TA($counter) = %02X --> ", $value);
+
+	# TA1 Analysis
+	if ($counter == 1)
+	{ 
+		my $F = $value >> 4;
+		my $D = $value % 16;
+
+		$value=$Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU");
+
+		printf "Fi=%s, Di=%s, %.3f cycles/ETU", $Fi[$F], $Di[$D], $value;
+	}
+	
+	# TA2 Analysis - TA2 is the specific mode byte
+	if ($counter==2)
+	{ 
+		my $F=$value >> 4;
+		my $D=$value % 16;
+		
+		printf ("Protocol to be used in spec mode: T=%s", $D);
+		if ($F & 0x8)
+		{
+			print " - Unable to change";
+		}
+		else
+		{
+			print " - Capable to change";
+		}
+
+		if ($F & 0x1)
+		{
+			print " - implicity defined";
+		}
+		else
+		{
+			print " - defined by interface bytes";
+		}
+	}   
+
+	# TA3 Analysis
+	if ($counter>=3)
+	{
+	    if ($T==1)
+	    {
+	    	printf ("IFSC: %s", $value);
+	    }
+	    else
+	    {         #### T <> 1
+		    my $F=$value >> 6;
+		    my $D=$value % 64;
+		    my $Class="(3G) ";
+
+		    $Class=$Class."A 5V " if ($D & 0x1);
+		    $Class=$Class."B 3V " if ($D & 0x2);
+		    $Class=$Class."C 1.8V " if ($D & 0x4);
+		    $Class=$Class."D RFU " if ($D & 0x8);
+		    $Class=$Class."E RFU" if ($D & 0x10);
+
+		    printf ("Clock stop: %s - Class accepted by the card: %s", $XI[$F],$Class); 
+	    }
+	}
+	print "\n";
+} # analyse_TA()
+
+#  _____ ____  
+# |_   _| __ ) 
+#   | | |  _ \ 
+#   | | | |_) |
+#   |_| |____/ 
+#
+sub analyse_TB()
+{
+	$value=hex(shift(@object));
+	printf ("  TB($counter) = %02X --> ", $value);
+
+	my $I = $value >> 5;
+	my $PI = $value % 32;
+
+	if ($counter == 1)
+	{
+		print "Programming Param P: $PI Volts, I: $I milliamperes";
+	}
+
+	if ($counter == 2)
+	{
+		print "Programming param PI2 (PI1 should be ignored): ";
+		if (($value>49)||($value<251))
+		{
+			print "$value (dV)";
+		}
+		else
+		{
+			print "$value is RFU";
+		}
+	}
+
+	if ($counter >= 3)
+	{
+	    if ($T == 1)
+	    {
+		    my $BWI=$value >> 4;
+		    my $CWI=$value % 16;
+		    
+		    printf ("Block Waiting Integer: %s - Character Waiting Integer: %s", $BWI, $CWI);
+	    }
+	}
+	print "\n";
+} # analyse_TB()
+
+#  _____ ____ 
+# |_   _/ ___|
+#   | || |    
+#   | || |___ 
+#   |_| \____|
+#
+sub analyse_TC()
+{
+	$value=hex(shift(@object));
+	printf ("  TC($counter) = %02X --> ", $value);
+
+
+	if ($counter == 1)
+	{
+		print "Extra guard time: $value";
+	}
+
+	if ($counter == 2)
+	{
+		printf ("Work waiting time: 960 x %d x (Fi/F)", $value);
+	}
+
+	if ($counter >= 3)
+	{
+		if ($T==1)
+		{
+			printf ("Error detection code: ");
+			if ($value==1)
+			{
+				print "CRC";
+			}
+			elsif ($value==0)
+			{
+				print "LRC";
+			}
+			else
+			{
+				print "RFU";
+			}
+		}
+	}
+	print "\n";
+} # analyse_TC()
+
+#  _____ ____  
+# |_   _|  _ \ 
+#   | | | | | |
+#   | | | |_| |
+#   |_| |____/ 
+#
+sub analyse_TD()
+{
+	my $str='';
+
+	$value = hex(shift(@object));
+	
+	my $Y = $value >> 4;
+	$T=$value % 16;
+
+	if ($T == 15)
+	{
+	 	$str=" - Global interface bytes following";
+	}
+	printf ("  TD($counter) = %02X --> Y(i+1) = %04b, Protocol T = $T$str\n", $value, $Y);
+
+	$counter++;
+	print "-----\n";
+
+	exit if ($#object < 0);
+	analyse_TA() if ($Y & 0x1);
+
+	exit if ($#object < 0);
+	analyse_TB() if ($Y & 0x2);
+
+	exit if ($#object < 0);
+	analyse_TC() if ($Y & 0x4);
+
+	exit if ($#object < 0);
+	analyse_TD() if ($Y & 0x8);
+} # analyse_TD()
+
+# _____ _           _                     _ 
+#|  ___(_)_ __   __| |   ___ __ _ _ __ __| |
+#| |_  | | '_ \ / _` |  / __/ _` | '__/ _` |
+#|  _| | | | | | (_| | | (_| (_| | | | (_| |
+#|_|   |_|_| |_|\__,_|  \___\__,_|_|  \__,_|
+#
+sub find_card($@)
+{
+	my $atr = shift;
+	my @files = @_;
+
+	my ($line, $found, $f, $file);
+
+	foreach (@files)
+	{
+		if (-e "$_")
+		{
+			$file = $_;
+			last;
+		}
+	}
+
+	$found = 0;
+	print "\nPossibly identified card (using $file):\n";
+	open FILE, "< $file" or die "Can't open $file: $!\n";
+	while ($line = <FILE>)
+	{
+		next if ($line =~ m/^#/);	# comment
+		next if ($line =~ m/^$/);	# empty line
+		next if ($line =~ m/^\t/);	# description
+
+		chomp $line;
+
+		if ($atr =~ m/^$line$/i)
+		{
+			# print the card ATR if a regular expression was used
+			print "$atr\n" if (uc $line ne uc $atr);
+
+			print "$line\n";	# print the matching ATR
+
+			$found = 1;
+			# print until a line do not start by a tabulation
+			while (($line = <FILE>) =~ m/^\t/)
+			{
+				print $line;	# print the card description
+			}
+		}
+	}
+	close FILE;
+
+	if ((! $found) && ($atr =~ m/^[3B|3F]/))
+	{
+		print "\tNONE\n\n";
+		print "Your card is not present in the database.\n";
+		print "You can get the latest version of the database from\n";
+		print "  http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt\n";
+		print "or use: wget http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output-document=$files[0]\n\n";
+		print "If your ATR is still not in the latest version then please send a mail\n";
+		print "to <ludovic.rousseau\@free.fr> containing:\n";
+		print "- your ATR\n";
+		print "- a card description\n";
+	}
+} # find_card($)
+
