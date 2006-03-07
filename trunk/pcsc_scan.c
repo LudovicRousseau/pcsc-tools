@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.17 2005-08-02 20:39:10 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.18 2006-03-07 20:16:01 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -64,6 +64,10 @@ int main(int argc, char *argv[])
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int opt;
 	int analyse_atr = TRUE;
+	char *blue = "";
+	char *red = "";
+	char *magenta = "";
+	char *color_end = "";
 
 	printf("PC/SC device scanner\n");
 	printf("V " VERSION " (c) 2001-2004, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
@@ -96,6 +100,33 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
+	/* check if terminal supports color */
+	{
+		const char *terms[] = { "linux", "xterm", "xterm-color", "Eterm", "rxvt", "rxvt-unicode" };
+		char *term;
+
+		term = getenv("TERM");
+		if (term)
+		{
+			int i;
+
+			/* for each known color terminal */
+			for (i = 0; i < sizeof(terms) / sizeof(terms[0]); i++)
+			{
+				/* we found a supported term? */
+				if (0 == strcmp(terms[i], term))
+				{
+					blue = "\33[34m";
+					red = "\33[31m";
+					magenta = "\33[35m";
+					color_end = "\33[0m";
+					break;
+				}
+			}
+		}
+
+	}
+
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	if (rv != SCARD_S_SUCCESS)
 	{
@@ -116,7 +147,7 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-	printf("Scanning present readers\n");
+	printf("%sScanning present readers%s\n", magenta, color_end);
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_S_SUCCESS)
 	{
@@ -153,7 +184,7 @@ get_readers:
 
 	if (nbReaders == 0)
 	{
-		printf("Waiting for the first reader...");
+		printf("%sWaiting for the first reader...%s", red, color_end);
 		fflush(stdout);
 		while ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
 			== SCARD_S_SUCCESS) && (dwReaders == dwReadersOld))
@@ -175,7 +206,7 @@ get_readers:
 	ptr = mszReaders;
 	while (*ptr != '\0')
 	{
-		printf("%d: %s\n", nbReaders, ptr);
+		printf("%s%d: %s%s\n", blue, nbReaders, ptr, color_end);
 		readers[nbReaders] = ptr;
 		ptr += strlen(ptr)+1;
 		nbReaders++;
@@ -236,11 +267,12 @@ get_readers:
 			t = time(NULL);
 
 			/* Specify the current reader's number and name */
-			printf("\n%s Reader %d (%s)\n", ctime(&t), current_reader,
-				rgReaderStates_t[current_reader].szReader);
+			printf("\n%s Reader %d: %s%s%s\n", ctime(&t), current_reader,
+				magenta, rgReaderStates_t[current_reader].szReader,
+				color_end);
 
 			/* Dump the full current state */
-			printf("\tCard state: ");
+			printf("  Card state: %s", magenta);
 
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_IGNORE)
@@ -281,12 +313,12 @@ get_readers:
 				SCARD_STATE_MUTE)
 				printf("Unresponsive card, ");
 
-			printf("\n");
+			printf("%s\n", color_end);
 
 			/* Also dump the ATR if available */
 			if (rgReaderStates_t[current_reader].cbAtr > 0)
 			{
-				printf("\tATR: ");
+				printf("  ATR: ");
 
 				if (rgReaderStates_t[current_reader].cbAtr)
 				{
@@ -299,7 +331,7 @@ get_readers:
 				else
 					atr[0] = '\0';
 
-				printf("%s\n\n", atr);
+				printf("%s%s%s\n\n", magenta, atr, color_end);
 
 				if (analyse_atr)
 				{
