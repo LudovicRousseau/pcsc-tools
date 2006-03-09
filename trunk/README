@@ -111,6 +111,12 @@ Licences:
 History:
 ========
 
+1.4.3 - 9 Mar 2006, Ludovic ROUSSEAU
+    - the glibc do not accept double free() anymore and stops the
+      process instead "*** glibc detected *** double free or corruption
+      (fasttop): 0x0804b070 ***". So be sure not to call free() a second
+      time on the same pointer.
+
 1.4.2 - 7 Mar 2006, Ludovic ROUSSEAU
     - 58 new ATR in smartcard_list.txt
     - pcsc_scan: add color output support
@@ -217,6 +223,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.26 2006-03-07 20:20:05 rousseau Exp $
+$Id: README,v 1.27 2006-03-09 13:51:09 rousseau Exp $
 
  vim:ts=8
