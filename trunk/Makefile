@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.15 2004-06-13 21:01:23 rousseau Exp $
+# $Id: Makefile,v 1.16 2006-03-09 12:17:40 rousseau Exp $
 
 # PC/SC Lite libraries and headers.
 PCSC_CFLAGS ?= `pkg-config libpcsclite --cflags`
@@ -30,8 +30,8 @@ install: all
 
 	install $(BIN_SCRIPT) $(DESTDIR)/bin/
 
-	install -d $(DESTDIR)/pcsc
-	install -m 644 smartcard_list.txt $(DESTDIR)/pcsc
+	install -d $(DESTDIR)/share/pcsc
+	install -m 644 smartcard_list.txt $(DESTDIR)/share/pcsc
 
 	install -d $(DESTDIR)/share/man/man1/
 	install -m 644 $(MAN) $(DESTDIR)/share/man/man1/
