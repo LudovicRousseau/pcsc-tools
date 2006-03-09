@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.19 2006-03-07 20:25:57 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.20 2006-03-09 13:47:06 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -357,9 +357,9 @@ get_readers:
 	}
 
 	/* free memory possibly allocated */
-	if (NULL == readers)
+	if (NULL != readers)
 		free(readers);
-	if (NULL == rgReaderStates_t)
+	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
 
 	return 0;
