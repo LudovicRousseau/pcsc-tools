@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.38 2006-03-11 16:21:47 rousseau Exp $
+# $Id: gscriptor,v 1.39 2006-03-11 16:32:32 rousseau Exp $
 
 use strict;
 use warnings;
@@ -397,7 +397,7 @@ sub ReaderConfig {
 	$rdbT01->signal_connect ('toggled', $subProtocol);
 	$rdbRAW->signal_connect('toggled', $subProtocol);
 
-	my $btnOK = Gtk2::Button->new ("OK");
+	my $btnOK = Gtk2::Button->new_from_stock("gtk-ok");
 	$btnOK->signal_connect( "clicked", sub {
 		$hConfig{'reader'} = @readers_list[$cboReaders->get_active()];
 		$hConfig{'reader'} = "" if (! defined $hConfig{'reader'});
@@ -406,7 +406,7 @@ sub ReaderConfig {
 	});
 	$btnOK->can_default(1);
 
-	my $btnCancel = Gtk2::Button->new ("Cancel");
+	my $btnCancel = Gtk2::Button->new_from_stock("gtk-cancel");
 	$btnCancel->signal_connect( "clicked", sub {
 		$dlgReaderConfig->destroy();
 	});
@@ -453,7 +453,8 @@ sub ReaderConfig {
 		}
 	}
 
-	$dlgReaderConfig->action_area->pack_start($hbxButtonBox, TRUE, TRUE, 0 );
+	$dlgReaderConfig->action_area->pack_start($hbxButtonBox, TRUE, TRUE, 0);
+	$dlgReaderConfig->vbox->set_spacing(6);
 	$dlgReaderConfig->vbox->add ($hbxReaderBox);
 	$dlgReaderConfig->vbox->add (new Gtk2::HSeparator());
 	$dlgReaderConfig->vbox->add ($hbxStatusBox);
