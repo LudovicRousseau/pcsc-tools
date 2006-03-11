@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.37 2006-03-11 14:30:28 rousseau Exp $
+# $Id: gscriptor,v 1.38 2006-03-11 16:21:47 rousseau Exp $
 
 use strict;
 use warnings;
@@ -306,7 +306,7 @@ $wndMain->show_all();
 
 if (exists $hConfig{'script'}) {
 	unless (ReadScriptFile ($hConfig{'script'})) {
-		MessageBox ("Can not open $hConfig{'script'}: $!", ['OK']);
+		MessageBox ("Can not open $hConfig{'script'}: $!", "error", ['OK']);
 		delete $hConfig{'script'};
 	}
 }
@@ -319,20 +319,25 @@ exit;
 
 sub MessageBox {
 	my $strMessage = shift;
-	my $strTitle = shift unless ref ($_[0]);
+	my $icon_text = shift;
 	my @ButtonDescr = @_;
 
 	my $refCurButtonDescr;
 	my $last_button;
 
 	# Choose a nice title to our message box
-	$strTitle = $strAppName unless $strTitle;
 	@ButtonDescr = ["OK"] unless @ButtonDescr;
 
 	my $dlgDialog = Gtk2::Dialog->new;
 	my $hbxButtonBox = Gtk2::HButtonBox->new;
-	my $hbxTextBox = Gtk2::HBox->new (FALSE, 3);
+	my $hbxTextBox = Gtk2::HBox->new (FALSE, 0);
+	my $hbox = Gtk2::HBox->new (FALSE, 12);
 
+	$dlgDialog->vbox->add ($hbox);
+	$hbox->set_border_width(12);
+	my $icon = Gtk2::Image->new_from_stock("gtk-dialog-" . $icon_text, "GTK_ICON_SIZE_DIALOG");
+	$hbox->add ($icon);
+	
 	# build up all the buttons and associate callbacks
 	foreach $refCurButtonDescr (reverse @ButtonDescr) {
 		croak ("invalid button name") unless scalar ($$refCurButtonDescr[0]);
@@ -350,22 +355,21 @@ sub MessageBox {
 		# A mouse click on the button triggers a call to its embedded
 		# callback then destroys the dialog box
 		$btnTmpButton->signal_connect ("clicked", sub { &{$$refCurButtonDescr[1]}; $dlgDialog->destroy(); });
-		$hbxButtonBox->pack_end($btnTmpButton, FALSE, FALSE, 10);
+		$hbxButtonBox->pack_end($btnTmpButton, FALSE, FALSE, 12);
 
 		$last_button = $btnTmpButton;
 	}
 
-	$dlgDialog->action_area->pack_start($hbxButtonBox, 1, 1, 0 );
+	$dlgDialog->action_area->pack_start($hbxButtonBox, 1, 1, 0);
 	my $label = Gtk2::Label->new($strMessage);
-	$hbxTextBox->pack_start($label, FALSE, FALSE, 30);
-	$dlgDialog->vbox->add ($hbxTextBox);
+	$hbxTextBox->pack_start($label, FALSE, FALSE, 0);
+	$hbox->add ($hbxTextBox);
 
 	# the last button is the default one
 	$last_button->grab_default();
 
 	# Finally show up everything
 	$dlgDialog->set_default_size (0, 0);
-	$dlgDialog->set_title ($strTitle);
 	$dlgDialog->set_modal(1);
 	$dlgDialog->show_all();
 }
@@ -534,6 +538,7 @@ sub NewScriptFile {
 		# that actually erase the script
 		MessageBox(
 			"The current work will be lost!\nAre you sure you want to continue?",
+			"question",
 			["OK", sub { EraseCurrentScript(); } ],
 			["CANCEL"]
 		);
@@ -563,9 +568,9 @@ sub SaveAsScriptFile {
 		my $file = $file_dialog->get_filename();
 
 		if (-d $file) {
-			MessageBox ("Can't open $file: file is a directory", ['OK']);
+			MessageBox ("Can't open $file: file is a directory", "error", ['OK']);
 		} else {
-			MessageBox ("Can't open $file: $!", ['OK']) unless WriteScriptFile ($file);
+			MessageBox ("Can't open $file: $!", "error", ['OK']) unless WriteScriptFile ($file);
 		}
 		$file_dialog->destroy();
 	});
@@ -581,6 +586,7 @@ sub LoadScriptFile {
 	if ($txtScript->get_buffer->get_char_count()) {
 		MessageBox(
 			"The current work will be lost!\nAre you sure you want to continue?",
+			"question",
 			["OK", \&LoadScript],
 			["CANCEL"]
 		);
@@ -595,9 +601,9 @@ sub LoadScript {
 		my $file = $file_dialog->get_filename();
 
 		if (-d $file) {
-			MessageBox ("Can't open $file: file is a directory", ['OK']);
+			MessageBox ("Can't open $file: file is a directory", "error", ['OK']);
 		} else {
-			MessageBox ("Can't open $file: $!", ['OK']) unless ReadScriptFile ($file);
+			MessageBox ("Can't open $file: $!", "error", ['OK']) unless ReadScriptFile ($file);
 		}
 		$file_dialog->destroy();
 	});
@@ -661,6 +667,7 @@ sub ConnectDefaultReader {
 		if (defined $hCard->{hCard}) {
 			MessageBox (
 				"The card is already connected...\nDo you want to reconnect?",
+				"question",
 				['OK', \&ReconnectDefaultReader],
 				['CANCEL']
 			);
@@ -669,11 +676,11 @@ sub ConnectDefaultReader {
 			if (defined $hCard->{hCard}) {
 				$txtStatus->set_text ("Connected to '$hConfig{'reader'}'");
 			} else {
-				MessageBox ("Can not connect to the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", ['OK'])
+				MessageBox ("Can not connect to the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", "error", ['OK'])
 			};
 		}
 	} else {
-		MessageBox ("No default reader has been configured.\nPlease make sure you have configured a reader first.", ['OK']);
+		MessageBox ("No default reader has been configured.\nPlease make sure you have configured a reader first.", "error", ['OK']);
 	}
 }
 
@@ -683,12 +690,13 @@ sub ReconnectDefaultReader {
 		if (defined $hCard->{hCard}) {
 			$txtStatus->set_text ("Connected to '$hConfig{'reader'}'");
 		} else {
-			MessageBox ("Can not reconnect to the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", ['OK'])
+			MessageBox ("Can not reconnect to the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", "error", ['OK'])
 		};
 	} else {
 		# we just propose to connect but do not call Reconnect()
 		# afterwards that would be quite useless
 		MessageBox ("The Chipcard::PCSC:Card object is not connected...\n Do you want to connect?",
+		"question",
 		['OK', sub {ConnectDefaultReader();}],
 		['CANCEL']);
 	}
@@ -698,12 +706,12 @@ sub DisconnectDefaultReader {
 	if (defined $hCard->{hCard}) {
 		$hCard->Disconnect($Chipcard::PCSC::SCARD_UNPOWER_CARD);
 		if (defined $hCard->{hCard}) {
-			MessageBox ("Can not disconnect from the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", ['OK']);
+			MessageBox ("Can not disconnect from the reader named '$hConfig{'reader'}':\n$Chipcard::PCSC::errno", "error", ['OK']);
 		} else {
 			$txtStatus->set_text ("not connected");
 		};
 	} else {
-		MessageBox ("The Chipcard::PCSC::Card object is not connected!", ['OK']);
+		MessageBox ("The Chipcard::PCSC::Card object is not connected!", "error", ['OK']);
 	}
 }
 
@@ -761,12 +769,13 @@ sub DefaultReaderStatus {
 			} else {
 				$MessageString .= "not available";
 			}
-			MessageBox ($MessageString, ['OK']);
+			MessageBox ($MessageString, "info", ['OK']);
 		} else {
-			MessageBox ("Can not retrieve reader status:\n$Chipcard::PCSC::errno", ['OK'])
+			MessageBox ("Can not retrieve reader status:\n$Chipcard::PCSC::errno", "error", ['OK'])
 		}
 	} else {
 		MessageBox ("The reader is not connected...\n Do you want to connect?",
+		"question",
 		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {DefaultReaderStatus();}}],
 		['CANCEL']);
 	}
@@ -818,7 +827,7 @@ sub RunScript {
 				push @ResultStruct, $raCurrentResult;
 				push @ResultStruct, Chipcard::PCSC::Card::ISO7816Error(substr Chipcard::PCSC::array_to_ascii($raCurrentResult), -5), "\n\n";
 			} else {
-				MessageBox ("Transmit failed: $Chipcard::PCSC::errno\nStopping script execution", ['OK']);
+				MessageBox ("Transmit failed: $Chipcard::PCSC::errno\nStopping script execution", "error", ['OK']);
 				push @ResultStruct, "\nErrors During Script Execution: $Chipcard::PCSC::errno\n";
 				last;
 			}
@@ -826,6 +835,7 @@ sub RunScript {
 		push @ResultStruct, "Script was executed without error...\n";
 	} else {
 		MessageBox ("The Chipcard::PCSC::Card object is not connected!\nDo you want to connect?",
+		"question",
 		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {RunScript();}}],
 		['CANCEL']);
 	}
@@ -847,7 +857,7 @@ and debugged & improved by Ludovic ROUSSEAU, (C) 2001-2006.
 $strAppName is (was) a small application written in Perl.
 It basically demonstrates how easy it is to develop a
 quick working prototype that uses smartcards in Perl.
-",
+", "info",
 ['OK']
 );
 }
