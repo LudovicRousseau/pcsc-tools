@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.33 2005-05-29 13:43:59 rousseau Exp $
+# $Id: gscriptor,v 1.34 2006-03-11 14:13:47 rousseau Exp $
 
 use strict;
 use warnings;
@@ -330,7 +330,7 @@ sub MessageBox {
 	@ButtonDescr = ["OK"] unless @ButtonDescr;
 
 	my $dlgDialog = Gtk2::Dialog->new;
-	my $hbxButtonBox = Gtk2::HBox->new (FALSE, 3);
+	my $hbxButtonBox = Gtk2::HButtonBox->new;
 	my $hbxTextBox = Gtk2::HBox->new (FALSE, 3);
 
 	# build up all the buttons and associate callbacks
