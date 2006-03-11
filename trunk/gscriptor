@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.36 2006-03-11 14:18:01 rousseau Exp $
+# $Id: gscriptor,v 1.37 2006-03-11 14:30:28 rousseau Exp $
 
 use strict;
 use warnings;
@@ -341,7 +341,10 @@ sub MessageBox {
 			unless ref ($$refCurButtonDescr[1]);
 
 		# Each button is constructed from its label
-		my $btnTmpButton = Gtk2::Button->new($$refCurButtonDescr[0]);
+		my $btnTmpButton;
+		$btnTmpButton = Gtk2::Button->new_from_stock("gtk-ok") if ($$refCurButtonDescr[0] =~ m/OK/);
+		$btnTmpButton = Gtk2::Button->new_from_stock("gtk-cancel") if ($$refCurButtonDescr[0] =~ m/CANCEL/);
+		$btnTmpButton = Gtk2::Button->new($$refCurButtonDescr[0]) unless defined $btnTmpButton;
 		$btnTmpButton->can_default(1);
 
 		# A mouse click on the button triggers a call to its embedded
