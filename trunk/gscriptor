@@ -2,7 +2,7 @@
 
 #    gscriptor: GTK interface to send APDU commands to a smart card
 #    Copyright (C) 2001   Lionel Victor, Ludovic Rousseau
-#             2002-2005   Ludovic Rousseau
+#             2002-2006   Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.35 2006-03-11 14:16:04 rousseau Exp $
+# $Id: gscriptor,v 1.36 2006-03-11 14:18:01 rousseau Exp $
 
 use strict;
 use warnings;
@@ -839,7 +839,7 @@ sub CloseAppWindow {
 sub Help {
 MessageBox ("
 $strAppName is coded by Lionel VICTOR, (C) 2001.
-and debugged & improved by Ludovic ROUSSEAU, (C) 2001-2005.
+and debugged & improved by Ludovic ROUSSEAU, (C) 2001-2006.
 
 $strAppName is (was) a small application written in Perl.
 It basically demonstrates how easy it is to develop a
