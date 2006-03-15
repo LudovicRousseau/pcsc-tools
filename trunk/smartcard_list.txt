@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.168 2006-03-07 19:41:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.169 2006-03-15 20:22:17 rousseau Exp $
 #
 
 # syntax:
@@ -999,6 +999,9 @@
 
 3B FF 11 00 02 40 64 80 69 A2 07 01 03 57 00 00 FF 00 83 00 90 00
 	Gemplus GemXpresso
+
+3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
+	Datakey DCOS model 330 (DKCCOS 6.0 token)
 
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 54 00 04 23 05 02 A5
 	Maestrocard/Geldkarte (Stadtsparkasse Haltern, Germany)
