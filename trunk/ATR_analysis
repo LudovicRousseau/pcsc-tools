@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.21 2006-03-17 13:57:08 rousseau Exp $
+# $Id: ATR_analysis,v 1.22 2006-03-17 14:00:04 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -72,7 +72,6 @@ sub find_card($@);
 # globals init
 $T = 0;
 
-$value = 0;
 $counter = 1;
 
 getopts("vh");
@@ -109,7 +108,7 @@ print "ATR: $atr\n";
 # 3_ Analysis
 
 # Analysis of TS:
-$value=hex(shift(@object));
+$value = hex(shift(@object));
 if (defined $TS{$value})
 {
 	printf "+ TS = %02X --> %s\n", $value, $TS{$value};
@@ -173,16 +172,16 @@ sub analyse_TA()
 		my $F = $value >> 4;
 		my $D = $value % 16;
 
-		$value=$Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU");
+		$value = $Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU");
 
 		printf "Fi=%s, Di=%s, %.3f cycles/ETU", $Fi[$F], $Di[$D], $value;
 	}
 	
 	# TA2 Analysis - TA2 is the specific mode byte
-	if ($counter==2)
+	if ($counter == 2)
 	{ 
-		my $F=$value >> 4;
-		my $D=$value % 16;
+		my $F = $value >> 4;
+		my $D = $value % 16;
 		
 		printf ("Protocol to be used in spec mode: T=%s", $D);
 		if ($F & 0x8)
@@ -205,23 +204,23 @@ sub analyse_TA()
 	}   
 
 	# TA3 Analysis
-	if ($counter>=3)
+	if ($counter >= 3)
 	{
-	    if ($T==1)
+	    if ($T == 1)
 	    {
 	    	printf ("IFSC: %s", $value);
 	    }
 	    else
 	    {         #### T <> 1
-		    my $F=$value >> 6;
-		    my $D=$value % 64;
-		    my $Class="(3G) ";
+		    my $F = $value >> 6;
+		    my $D = $value % 64;
+		    my $Class = "(3G) ";
 
-		    $Class=$Class."A 5V " if ($D & 0x1);
-		    $Class=$Class."B 3V " if ($D & 0x2);
-		    $Class=$Class."C 1.8V " if ($D & 0x4);
-		    $Class=$Class."D RFU " if ($D & 0x8);
-		    $Class=$Class."E RFU" if ($D & 0x10);
+		    $Class = $Class."A 5V " if ($D & 0x1);
+		    $Class = $Class."B 3V " if ($D & 0x2);
+		    $Class = $Class."C 1.8V " if ($D & 0x4);
+		    $Class = $Class."D RFU " if ($D & 0x8);
+		    $Class = $Class."E RFU" if ($D & 0x10);
 
 		    printf ("Clock stop: %s - Class accepted by the card: %s", $XI[$F],$Class); 
 	    }
@@ -237,7 +236,7 @@ sub analyse_TA()
 #
 sub analyse_TB()
 {
-	$value=hex(shift(@object));
+	$value = hex(shift(@object));
 	printf ("  TB($counter) = %02X --> ", $value);
 
 	my $I = $value >> 5;
@@ -265,8 +264,8 @@ sub analyse_TB()
 	{
 	    if ($T == 1)
 	    {
-		    my $BWI=$value >> 4;
-		    my $CWI=$value % 16;
+		    my $BWI = $value >> 4;
+		    my $CWI = $value % 16;
 		    
 		    printf ("Block Waiting Integer: %s - Character Waiting Integer: %s", $BWI, $CWI);
 	    }
@@ -282,7 +281,7 @@ sub analyse_TB()
 #
 sub analyse_TC()
 {
-	$value=hex(shift(@object));
+	$value = hex(shift(@object));
 	printf ("  TC($counter) = %02X --> ", $value);
 
 
@@ -298,14 +297,14 @@ sub analyse_TC()
 
 	if ($counter >= 3)
 	{
-		if ($T==1)
+		if ($T == 1)
 		{
 			printf ("Error detection code: ");
-			if ($value==1)
+			if ($value == 1)
 			{
 				print "CRC";
 			}
-			elsif ($value==0)
+			elsif ($value == 0)
 			{
 				print "LRC";
 			}
@@ -326,16 +325,16 @@ sub analyse_TC()
 #
 sub analyse_TD()
 {
-	my $str='';
+	my $str = '';
 
 	$value = hex(shift(@object));
 	
 	my $Y = $value >> 4;
-	$T=$value % 16;
+	$T = $value % 16;
 
 	if ($T == 15)
 	{
-	 	$str=" - Global interface bytes following";
+	 	$str = " - Global interface bytes following";
 	}
 	printf ("  TD($counter) = %02X --> Y(i+1) = %04b, Protocol T = $T$str\n", $value, $Y);
 
