@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.20 2006-03-07 19:48:48 rousseau Exp $
+# $Id: ATR_analysis,v 1.21 2006-03-17 13:57:08 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -50,7 +50,7 @@ my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartc
 
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line);
-my ($Y1, $K, @object, $nb_bytes, $mpcard);
+my ($Y1, $K, @object, $mpcard);
 
 # tables
 %TS = (0x3B, "Direct Convention", 0x3F, "Inverse Convention");
@@ -105,8 +105,6 @@ print "ATR: $atr\n";
 
 # 2_ Split in bytes of the lines
 @object = split(/\s/, $atr);
-$nb_bytes=$#object+1;
-#print $nb_bytes;
 
 # 3_ Analysis
 
