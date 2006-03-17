@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 
 #    ATR_analysis
-#    Copyright (C) 2000-2005  Ludovic Rousseau, Christophe Levantis
+#    Copyright (C) 2000-2006  Ludovic Rousseau, Christophe Levantis
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.22 2006-03-17 14:00:04 rousseau Exp $
+# $Id: ATR_analysis,v 1.23 2006-03-17 14:00:44 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -78,7 +78,7 @@ getopts("vh");
 
 if ($opt_v)
 {
-	print "Version: 1.3, (c) 2002-2005, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "Version: 1.4, (c) 2002-2006, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
 	print "This software is free software (GNU General Public License)\n";
 	exit;
 }
