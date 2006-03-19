@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.169 2006-03-15 20:22:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.170 2006-03-19 08:46:58 rousseau Exp $
 #
 
 # syntax:
@@ -623,6 +623,9 @@
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 04 A5 83 0F 90 00 88
+	Cingular "64Ksmartchip" GSM SIM
 
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
