@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.23 2006-03-17 14:00:44 rousseau Exp $
+# $Id: ATR_analysis,v 1.24 2006-03-21 19:45:42 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -49,7 +49,7 @@ use Getopt::Std;
 my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt");
 
 our ($opt_v, $opt_h);
-my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line);
+my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);
 my ($Y1, $K, @object, $mpcard);
 
 # tables
@@ -141,8 +141,34 @@ analyse_TC() if ($Y1 & 0x4);
 exit if ($#object < 0);
 analyse_TD() if ($Y1 & 0x8);
 
+# TCK is present?
+if ($#object == $K)
+{
+	# expected TCK
+	my $tck_e = hex($object[-1]);
+	$#object--;
+
+	# calculated TCK
+	my $tck_c = 0;
+
+	my @object = split(/\s/, $atr);
+	shift @object;	# do not use TS
+	map { $tck_c ^= hex $_ } @object;
+	$TCK = sprintf "%02X ", $tck_e;
+	if ($tck_c == 0)
+	{
+	 	$TCK .= "(correct checksum)";
+	}
+	else
+	{
+	 	$TCK .= sprintf "WRONG CHECKSUM, expected %02X", $tck_e ^ $tck_c;
+	}
+}
+
 # the rest are historical bytes
 print "+ Historical bytes: @object\n";
+
+print "+ TCK = $TCK\n" if (defined $TCK);
 
 if (! $mpcard)
 {
@@ -375,6 +401,9 @@ sub find_card($@)
 			last;
 		}
 	}
+
+	# no valid file found
+	return if (!defined $file);
 
 	$found = 0;
 	print "\nPossibly identified card (using $file):\n";
