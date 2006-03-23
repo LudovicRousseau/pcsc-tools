@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.170 2006-03-19 08:46:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.171 2006-03-23 12:12:25 rousseau Exp $
 #
 
 # syntax:
@@ -363,6 +363,9 @@
 3B 6D 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90 00
 	HSBC Visa/MasterCard credit card
 	Barclay Card MasterCard
+
+3B 6D 00 00 00 31 C0 71 D6 64 58 D7 01 00 84 90 00
+	UK Nationwide Bank Visa Delta
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
