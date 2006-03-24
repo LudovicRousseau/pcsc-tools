@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.171 2006-03-23 12:12:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.172 2006-03-24 13:38:24 rousseau Exp $
 #
 
 # syntax:
@@ -237,6 +237,9 @@
 
 3B 3F 94 00 80 69 AF 03 07 06 67 09 97 0A 0E 83 3E 9F 16
 	BASE SIM - Belgium (Gemplus)
+
+3B 3F 94 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
+	GSM-SIM Telefonica Movistar, prepaid (Spain)
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
