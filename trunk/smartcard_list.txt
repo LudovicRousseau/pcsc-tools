@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.172 2006-03-24 13:38:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.173 2006-03-31 11:59:10 rousseau Exp $
 #
 
 # syntax:
@@ -964,6 +964,10 @@
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
+
+3B FA 98 00 FF C1 10 31 FE 55 C8 03 53 41 47 5F 50 4B 49 32 77
+	Siemens corporate ID card (access to the building / rooms etc,
+	stores PKI private keys/certificates)
 
 3B FB 13 00 FF 81 31 80 75 5A 43 36 2E 35 20 52 45 56 20 43 64
 	ZeitControl BasicCard 6.5, multiapplication with 30 kByte EEPROM
