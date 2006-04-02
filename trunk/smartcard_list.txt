@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.173 2006-03-31 11:59:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.174 2006-04-02 14:46:23 rousseau Exp $
 #
 
 # syntax:
@@ -106,6 +106,9 @@
 
 3B 1F 11 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
 	GSM-SIM Saunalahti (from 2004)
+
+3B 1F 11 00 6A 31 36 46 49 53 45 13 8C 02 FF 07 90 00
+	GSM-SIM card - Telenor Mobil - http://www.telenor.com/
 
 3B 1F 11 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
 	GSM SIM card - Tele2 Estonia - http://www.tele2.ee
