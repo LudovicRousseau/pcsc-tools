@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.174 2006-04-02 14:46:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.175 2006-04-07 12:57:59 rousseau Exp $
 #
 
 # syntax:
@@ -209,6 +209,10 @@
 
 3B 2A 00 80 65 A2 01 .. .. .. 72 D6 43
 	Gemplus MPCOS EMV 4 Byte sectors
+
+3B 2F 00 80 69 10 80 00 01 A1 0A 01 01 59 83 0E 90 00
+	Belgium Dexia (Axion) Bank Card
+	Proton/Bancontact Mister Cash/Maestro
 
 3B 32 15 00 06 80
 	Schlumberger Multiflex 8k
