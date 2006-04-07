@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.175 2006-04-07 12:57:59 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.176 2006-04-07 13:00:06 rousseau Exp $
 #
 
 # syntax:
@@ -112,6 +112,9 @@
 
 3B 1F 11 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
 	GSM SIM card - Tele2 Estonia - http://www.tele2.ee
+
+3B 1F 11 80 6A 32 37 46 49 53 45 12 8C 00 FF 07 90 00
+	Setec Test card, SetCOS 3.7.2, rel 1.3
 
 3B 1F 11 80 6A 32 37 46 49 53 45 12 8C 02 FF 07 90 00
 	GSM-SIM DNA Finland (from 2001)
@@ -950,6 +953,9 @@
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
+
+3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
+	Contactless Mifare Ultralight
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 08 00 00 00 0D
 	Contactless Mifare
