@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.176 2006-04-07 13:00:06 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.177 2006-04-07 13:01:50 rousseau Exp $
 #
 
 # syntax:
@@ -840,6 +840,9 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 30/31bio (contact interface)
+
+3B E9 00 00 81 21 45 56 49 53 5F 49 4E 46 20 06 78
+	VISA card, issued by the Austrian "Raiffeisen" bank (http://www.raiffeisen.at/
 
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 A7
 	IBM JCOP v2.2 41
