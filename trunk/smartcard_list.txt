@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.177 2006-04-07 13:01:50 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.178 2006-04-19 17:35:39 rousseau Exp $
 #
 
 # syntax:
@@ -1067,6 +1067,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 27 80 03 25 05 00 84
 	Volksbank VR-BankCard (GeldKarte)
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 10 31 80 8F
+	Carta Regionale dei Servizi - Regione Lombardia
 
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	D-Trust Signature Card (www.d-trust.net):
