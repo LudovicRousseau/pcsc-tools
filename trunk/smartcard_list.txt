@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.179 2006-04-19 18:29:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.180 2006-04-21 18:47:48 rousseau Exp $
 #
 
 # syntax:
@@ -762,6 +762,9 @@
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 24 68 30 00 00 00 00 AB
 	Austrian BankCard  (Maestro + Quick) (New Version, since 02/2005,
 	with Digital-Signature etc.)
+
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 93 66 23 00 00 03 E8 E4
+	Austrian Maestro BankCard +Quick Buergerkarte
 
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
