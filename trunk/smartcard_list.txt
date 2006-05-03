@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.180 2006-04-21 18:47:48 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.181 2006-05-03 17:47:34 rousseau Exp $
 #
 
 # syntax:
@@ -733,6 +733,9 @@
 
 3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66
 	Telesec TCOS 2 (SLE66P)
+
+3B BA 96 00 81 31 86 5D 00 64 05 7B 02 03 31 80 90 00 7D
+	TeleSec NetKey Card
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 53 32 30 30 30
 	GSM-SIM Era-PL
