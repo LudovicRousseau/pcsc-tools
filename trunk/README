@@ -13,8 +13,8 @@ The tools provided are:
     For example:
 
      PC/SC device scanner
-     V 1.2.0 (c) 2001-2002, Ludovic Rousseau <ludovic.rousseau@free.fr>
-     PC/SC lite version: 1.1.2
+     V 1.4.5 (c) 2001-2006, Ludovic Rousseau <ludovic.rousseau@free.fr>
+     PC/SC lite version: 1.3.1
      0: GemPC410 0 0
      1: GemPC430 0 0
      
@@ -33,6 +33,23 @@ The tools provided are:
        TB(1) = 00 --> Programming Param P: 0, I: 0
        TC(1) = FF --> Extra guard time: 255
      + Historical bytes: 00 31 80 71 8E 64 48 D5 02 00 82 90 00
+       Category indicator byte: 00 (compact TLV data object)
+         Tag: 3, len: 1 (card service data byte)
+           Card service data byte: 80
+             - Application selection: by full DF name
+             - EF.DIR and EF.ATR access services: by GET RECORD(s) command
+             - Card with MF
+         Tag: 7, len: 1 (card capabilities)
+           Selection methods: 8E
+             - DF selection by full DF name
+             - Implicit DF selection
+             - Short EF identifier supported
+             - Record number supported
+         Tag: 6, len: 4 (pre-issuing data)
+           Data: 48 D5 02 00
+         Mandatory status indicator (3 last bytes)
+           LCS (life card cycle): 82 (Proprietary)
+           SW: 9000 (Normal processing.)
      
      Possibly identified card:
      3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
@@ -50,6 +67,7 @@ The tools provided are:
     This code was originally written by Christophe in August 2000 for a
     Perl wrapper using "TLP driver" (and not PC/SC) to access the
     smartcard.
+
 
 - smartcard_list.txt (Ludovic Rousseau)
     This list contains ATR of some cards. The list is used by
@@ -91,7 +109,7 @@ Licences:
 =========
 
     pcsc-tools
-    Copyright (C) 2001-2005  Lionel VICTOR, Ludovic ROUSSEAU
+    Copyright (C) 2001-2006  Lionel VICTOR, Ludovic ROUSSEAU
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -232,6 +250,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.29 2006-05-08 15:00:59 rousseau Exp $
+$Id: README,v 1.30 2006-05-08 15:11:26 rousseau Exp $
 
  vim:ts=8
