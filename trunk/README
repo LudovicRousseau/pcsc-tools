@@ -111,6 +111,10 @@ Licences:
 History:
 ========
 
+1.4.5 - 8 May 2006, Ludovic ROUSSEAU
+    - 9 new ATR
+    - improve ATR_analysis: add code to parse the historical bytes
+
 1.4.4 - 25 Mar 2006, Ludovic ROUSSEAU
     - 4 new ATR
     - improve gscriptor GUI: add icons in the dialog boxes, use button boxes
@@ -228,6 +232,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.28 2006-03-25 17:27:22 rousseau Exp $
+$Id: README,v 1.29 2006-05-08 15:00:59 rousseau Exp $
 
  vim:ts=8
