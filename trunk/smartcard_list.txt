@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.183 2006-05-12 12:38:14 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.184 2006-05-17 20:29:53 rousseau Exp $
 #
 
 # syntax:
@@ -104,11 +104,15 @@
 3B 19 94 31 02 05 10 45 98 01 02 4E
 	GSM-SIM EMT (Estonia)
 
+3B 1F 11 00 67 42 41 46 49 53 45 53 52 66 FF 81 90 00
+	Finnish student id card
+
 3B 1F 11 00 67 80 42 46 49 53 45 10 52 66 FF 81 90 00
 	Nokia branded SC (Setec)
 
 3B 1F 11 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
 	GSM-SIM Saunalahti (from 2004)
+	Finnish cell phone operator "Sonera" SIM card (from 2002)
 
 3B 1F 11 00 6A 31 36 46 49 53 45 13 8C 02 FF 07 90 00
 	GSM-SIM card - Telenor Mobil - http://www.telenor.com/
@@ -248,6 +252,9 @@
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
 
+3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
+	Finnish SIM card from "Radiolinja" now "Elisa"
+
 3B 3F 94 00 80 69 AF 03 07 06 67 09 97 0A 0E 83 3E 9F 16
 	BASE SIM - Belgium (Gemplus)
 
@@ -265,6 +272,9 @@
 
 3B 64 00 00 80 62 0. 51
 	Setec SetCOS 5.1.0 EMV
+
+3B 64 00 FF 80 62 02 A2
+	VISA credit card
 
 3B 64 .. FF 80 62 .. A2
 	JCOP20
@@ -983,6 +993,9 @@
 
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
 	IBM JCOP BIO31
+
+3B F7 11 00 01 40 96 70 70 07 0E 6C B6 D6 90 00
+	M-II (a.k.a. M-2, a.k.a. Platinum Card), AT90SC6464C based
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
