@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.184 2006-05-17 20:29:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.185 2006-05-26 20:10:16 rousseau Exp $
 #
 
 # syntax:
@@ -611,6 +611,9 @@
 3B 95 94 40 FF 63 01 01 02 01
 	Schlumberger Cryptoflex 16Ko
 
+3B 95 95 40 FF AE 01 03 00 00
+	Axalto - Cyberflex 64K
+
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
 
@@ -622,6 +625,9 @@
 
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
+
+3B 99 94 00 91 99 93 12 00 01 16 02 00
+	ORGA test systems - GSM Phase 2+ Test SIM
 
 3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 34 99 05 D0
 	GSM-SIM EMT "Diil", prepaid (Estonia)
