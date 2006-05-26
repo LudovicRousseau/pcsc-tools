@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.16 2006-05-25 20:34:38 rousseau Exp $
+# $Id: scriptor,v 1.17 2006-05-26 14:34:14 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -104,9 +104,11 @@ if ($ARGV[0]) {
 *OUT_FILEHANDLE = *STDOUT;
 
 my $cmd;
+my $match = ".. " x 24;
+print $match;
 while (<IN_FILEHANDLE>) {
 	my $tmp_value;
-	my ($SendData, $RecvData);
+	my ($SendData, $RecvData, $sw);
 
 	last if /exit/i;
 	next if /^\s*$/;
@@ -149,6 +151,8 @@ while (<IN_FILEHANDLE>) {
 	$RecvData = $hCard->Transmit($SendData);
 	die ("Can't get info: $Chipcard::PCSC::errno\n") unless defined $RecvData;
 	my $res = Chipcard::PCSC::array_to_ascii($RecvData);
+	$sw = Chipcard::PCSC::Card::ISO7816Error(substr($res, -5));
+	$res =~ s/($match)/$1\n/g;
 	print OUT_FILEHANDLE "< $res : " .  Chipcard::PCSC::Card::ISO7816Error(substr($res, -5)) . "\n";
 
 	# empty the command
