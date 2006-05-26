@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.39 2006-03-11 16:32:32 rousseau Exp $
+# $Id: gscriptor,v 1.40 2006-05-26 20:37:04 rousseau Exp $
 
 use strict;
 use warnings;
@@ -634,8 +634,17 @@ sub RefreshResult {
 		if (ref $tmpLine) {
 			$tmp_text = "";
 			if ($rdbHex->get_active) {
-				$tmp_text .= sprintf ("%02X ", $_) for (@$tmpLine) ;
+				my $c = 0;
+				for (@$tmpLine) {
+					$tmp_text .= sprintf ("%02X ", $_);
+					if ($c++ == 16)
+					{
+						$tmp_text .= "\n";
+						$c = 0;
+					}
+				}
 			} else {
+				my $c = 0;
 				foreach $tmp_value (@$tmpLine) {
 					# TODO: enhance filtering of non-printable chars
 					# TODO: how can we use array_to_ascii here??? maybe
@@ -645,6 +654,11 @@ sub RefreshResult {
 						$tmp_text .= chr ($tmp_value);
 					} else {
 						$tmp_text .= ".";
+					}
+					if ($c++ == 32)
+					{
+						$tmp_text .= "\n";
+						$c = 0;
 					}
 				}
 			}
@@ -789,6 +803,7 @@ sub RunScript {
 		my @tmpCommandArray = split /\n/, $textbuffer->get_text($textbuffer->get_start_iter, $textbuffer->get_end_iter, 1);
 		my $raCurrentResult;
 		my $nIndex;
+		my $cmd;
 
 		push @ResultStruct, "Beginning script execution...\n\n";
 		foreach $_ (@tmpCommandArray) {
@@ -814,8 +829,19 @@ sub RunScript {
 			# if the command does not contains spaces (00A4030000) we expand it
 			s/(..)/$1 /g if (! m/ /);
 
+			# continue if line ends in \
+			if (m/\\$/)
+			{
+				chop;   # remove the \
+				s/ *$/ /;   # replace any spaces by ONE space
+				$cmd .= $_;
+				next;   # read next line
+			}
+
+			$cmd .= $_;
+
 			# Extract bytes from the ascii string
-			$raCurrentCommand = Chipcard::PCSC::ascii_to_array($_);
+			$raCurrentCommand = Chipcard::PCSC::ascii_to_array($cmd);
 
 			# push them in the Display structure
 			push @ResultStruct, "Sending: ";
