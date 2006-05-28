@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.185 2006-05-26 20:10:16 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.186 2006-05-28 18:47:36 rousseau Exp $
 #
 
 # syntax:
@@ -333,6 +333,11 @@
 3B 68 00 00 9D 08 01 05 01 56 49 53
 	MasterCard Card - CartaSi (Italian Credit Card)
 
+3B 68 00 00 A1 02 02 01 01 56 49 53
+	UK NatWest Business MasterCard
+	UK Barclaycard VISA
+	UK NatWest Platinum MasterCard
+
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
 	370-4328-01 (31091)
@@ -354,6 +359,7 @@
 
 3B 6A 00 00 80 66 A1 09 02 01 63 0E 90 00
 	Danish Visa/Dankort
+	UK MBNA MasterCard
 
 3B 6B 00 00 00 31 80 64 2D A0 02 0C 8C 61 27
 	SmartEMV prototype
@@ -390,8 +396,13 @@
 	HSBC Visa/MasterCard credit card
 	Barclay Card MasterCard
 
+3B 6D 00 00 00 31 C0 71 D6 64 4E D8 01 01 84 90 00
+	UK Capital One Platinum MasterCard
+
 3B 6D 00 00 00 31 C0 71 D6 64 58 D7 01 00 84 90 00
 	UK Nationwide Bank Visa Delta
+	UK First Direct Maestro
+	UK Halifax Platinum Visa
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
@@ -408,6 +419,9 @@
 
 3B 6E 00 00 00 31 80 71 86 65 47 44 23 01 02 83 90 00
 	Nat West Master Card
+
+3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
+	UK NatWest ServiceCard 100 Maestro
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
