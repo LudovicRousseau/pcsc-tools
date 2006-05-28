@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/pcsc-tools.html
 #
-# $Id: smartcard_list.txt,v 1.186 2006-05-28 18:47:36 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.187 2006-05-28 20:15:42 rousseau Exp $
 #
 
 # syntax:
@@ -251,6 +251,9 @@
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
+
+3B 3F 94 00 80 65 AF 03 12 01 79 73 32 21 1B 83 0F 90 00
+	UK O2 GSM SIM (2G Online Prepay Maldives)
 
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
@@ -1119,6 +1122,9 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 10 31 80 8F
 	Carta Regionale dei Servizi - Regione Lombardia
 
+3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
+	UK NatWest BT PayToView Mondex
+
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	D-Trust Signature Card (www.d-trust.net):
 	- Citizencard of the People of Ulm in Germany (Bürgerkarte)
@@ -1213,6 +1219,9 @@
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
 
+3F 6C 00 00 3C A0 30 A7 58 00 00 01 01 8C 90 00
+	Rendezvous Series 7 (D2-Mac satellite TV card)
+
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gemplus GemXpresso 211PK or 211PK-IS
 
@@ -1225,8 +1234,23 @@
 3F 7E 11 25 05 40 B0 08 00 00 4D 59 00 00 00 53 4B 0B 07
 	BSkyB Series 11 (DSS satellite TV card)
 
+3F 7F 11 25 05 40 B0 0F 69 FF 4D 59 00 00 00 53 4B 0C 06 00
+	Sky Series 12 (DSS satellite TV card)
+
+3F 7E 11 25 09 40 B0 01 00 00 4D 59 00 00 03 53 4B 0A 01
+	Sky Series 10 (DSS satellite TV card)
+
+3F 7E 11 25 05 40 B0 08 00 00 4D 59 00 00 00 53 4B 0B 08
+	Sky Series 11 (DSS satellite TV card)
+
+3F 7F 13 25 03 33 B0 06 69 FF 4A 50 D0 00 00 53 59 00 00 00
+	Sky 2005/6 (DSS satellite TV card)
+
 3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
 	DSS/DTV HU
+
+3F 7F 13 25 03 40 B0 0B 69 4C 4A 50 C0 00 00 53 59 00 00 00
+	Sky Digital (DSS satellite TV card)
 
 3F 78 13 25 03 40 B0 20 FF FF 4A 50 00
 	DSS/DTV P4
