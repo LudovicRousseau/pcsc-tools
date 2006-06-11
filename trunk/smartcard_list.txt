@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.190 2006-06-06 19:56:02 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.191 2006-06-11 10:35:10 rousseau Exp $
 #
 
 # syntax:
@@ -1119,8 +1119,14 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 04 50 02 80 00 08 90 09 70 00 05 00 2A
 	Landesbank baden-W�rttemberg Geldkarte
 
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 58 45 00 06 15 8C
+	Stadtsparkasse München electronic cash card / Geldkarte
+
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 05 50 03 10 05 00 43
 	HBCI-Karte (Bordesholmer Sparkasse, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 19 10 04 20 05 00 28
+	Stadtsparkasse München HBCI card / Geldkarte
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 27 80 03 25 05 00 84
 	Volksbank VR-BankCard (GeldKarte)
