@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.191 2006-06-11 10:35:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.192 2006-06-11 10:39:05 rousseau Exp $
 #
 
 # syntax:
@@ -352,7 +352,7 @@
 	Sample card given to all attendees of the CTST 2004 SmartCard Conference
 
 3B 69 00 FF 53 6D 40 72 74 43 61 66 65
-	G&D (Giesecke&Devrient) Sm@rtCafé
+	G&D (Giesecke&Devrient) Sm@rtCafÃ©
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
@@ -460,7 +460,7 @@
 	Navigo (contact mode)
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 24 2E C1 0D 82 90 00
-	passe Navigo, carte intégrale RATP (French metro in Paris)
+	passe Navigo, carte intÃ©grale RATP (French metro in Paris)
 
 3B 6F 00 00 80 5A 0A 01 03 20 03 11 24 34 A3 C7 82 90 00
 	Navigo Imagine R ((French metro in Paris)
@@ -826,7 +826,7 @@
 
 3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
 	A-Trust: trust-sign (Old Version, ca. 2002) for Digital Signature etc.
-	A-Trust: a-sign-premium (ca. 2004) "Bürgerkarte" ("Citizen-Card")
+	A-Trust: a-sign-premium (ca. 2004) "BÃ¼rgerkarte" ("Citizen-Card")
 	for Identifikation, Digital Signature etc.
 	("should be" Starcos 2.3)
 
@@ -899,8 +899,8 @@
 	GCOS-MDK
 
 3B EA 00 FF 81 31 FE 45 54 55 42 2D 43 4B 01 03 01 00 7B
-	Technische Universität Berlin - Campus Karte
-	Maybe Sm@rtCafé Expert 2.0 (Giesecke & Devrient)
+	Technische UniversitÃ¤t Berlin - Campus Karte
+	Maybe Sm@rtCafÃ© Expert 2.0 (Giesecke & Devrient)
 	or GemXpresso 211 PK (Gemplus)
 	Includes a Mifare-Chip (1 KB - Memory-Chip)
 
@@ -964,7 +964,7 @@
 3B EF 00 FF 81 31 66 45 49 42 4D 20 4D 46 43 34 30 30 32 30 38 33 31 A1
 	IBM MFC 4.1 file system smart card
 	Card from the book "Smart Card Application Development Using Java"
-	authors: Uwe Hansmann, Martin. S. Nicklous, Thomas Schäck, Achim Schneider, Frank Seliger
+	authors: Uwe Hansmann, Martin. S. Nicklous, Thomas SchÃ¤ck, Achim Schneider, Frank Seliger
 
 3B EF 00 FF 81 31 66 45 65 63 20 20 49 42 4D 20 33 2E 31 20 20 20 20
 	IBM eCash
@@ -1117,7 +1117,7 @@
 	GeldKarte v3 (Germany)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 04 50 02 80 00 08 90 09 70 00 05 00 2A
-	Landesbank baden-Württemberg Geldkarte
+	Landesbank baden-WÃ¼rttemberg Geldkarte
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 58 45 00 06 15 8C
 	Stadtsparkasse MÃ¼nchen electronic cash card / Geldkarte
@@ -1139,7 +1139,7 @@
 
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	D-Trust Signature Card (www.d-trust.net):
-	- Citizencard of the People of Ulm in Germany (Bürgerkarte)
+	- Citizencard of the People of Ulm in Germany (BÃ¼rgerkarte)
 	- Qualified Electronic Signature Card (Qualifizierte Signaturkarte)
 
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
