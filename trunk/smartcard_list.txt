@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.192 2006-06-11 10:39:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.193 2006-06-28 17:42:10 rousseau Exp $
 #
 
 # syntax:
@@ -545,6 +545,9 @@
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
+
+3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
+	WG10
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
