@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.194 2006-08-08 20:58:20 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.195 2006-08-10 21:43:58 rousseau Exp $
 #
 
 # syntax:
@@ -1133,6 +1133,12 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 27 80 03 25 05 00 84
 	Volksbank VR-BankCard (GeldKarte)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 16 50 05 17 06 13 B2
+	FinTS (BBBank Karlsruhe, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 1A 01 41 02 50 00 10 52 09 05 67 05 10 21
+	Maestro/Geldkarte (BBBank Karlsruhe, Germany)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 01 01 43 4E 53 10 31 80 9F
 	Carta Nazionale dei Servizi - InfoCamere
