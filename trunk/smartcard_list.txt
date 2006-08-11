@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.195 2006-08-10 21:43:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.196 2006-08-11 12:04:06 rousseau Exp $
 #
 
 # syntax:
@@ -266,6 +266,9 @@
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
+
+3B 3F 95 00 80 65 AF 03 14 01 8A 73 32 21 1B 83 0F 90 00
+	SIM Vodafone 64k
 
 3B 3F 95 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
 	AT&T Wireless GSM SIM Card
