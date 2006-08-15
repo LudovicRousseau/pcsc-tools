@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.21 2006-03-09 13:48:19 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.22 2006-08-15 10:58:11 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -325,6 +325,9 @@ get_readers:
 
 			printf("%s\n", color_end);
 
+			/* force display */
+			fflush(stdout);
+
 			/* Also dump the ATR if available */
 			if (rgReaderStates_t[current_reader].cbAtr > 0)
 			{
@@ -342,6 +345,9 @@ get_readers:
 					atr[0] = '\0';
 
 				printf("%s%s%s\n\n", magenta, atr, color_end);
+
+				/* force display */
+				fflush(stdout);
 
 				if (analyse_atr)
 				{
