@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.197 2006-08-20 19:16:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.198 2006-08-20 19:18:06 rousseau Exp $
 #
 
 # syntax:
@@ -651,6 +651,9 @@
 
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
+
+3B 9A 96 00 92 03 49 93 16 00 01 21 01 00
+	GSM-SIM card of the Austrian provider Yesss! (http://www.yesss.at)
 
 3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 34 99 05 D0
 	GSM-SIM EMT "Diil", prepaid (Estonia)
