@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.196 2006-08-11 12:04:06 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.197 2006-08-20 19:16:26 rousseau Exp $
 #
 
 # syntax:
@@ -927,6 +927,9 @@
 3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
 	Certification Authority
+
+3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
+	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
 
 3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 32 2E 33 BD
 	ZeitControl BasicCard Enhanced 2.3
