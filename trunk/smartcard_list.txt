@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.200 2006-08-30 16:46:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.201 2006-09-08 19:37:35 rousseau Exp $
 #
 
 # syntax:
@@ -1139,6 +1139,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 58 45 00 06 15 8C
 	Stadtsparkasse München electronic cash card / Geldkarte
+
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 74 32 00 06 15 D7
+	German HBCI-Banking Card with 'Geldkarte' from the bank "Sparkasse Marburg-Biedenkopf"
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 92 61 00 06 15 62
 	Geldkarte (Frankfurter Sparkasse, Germany)
