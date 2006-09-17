@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.201 2006-09-08 19:37:35 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.202 2006-09-17 14:34:06 rousseau Exp $
 #
 
 # syntax:
@@ -467,6 +467,9 @@
 
 3B 6F 00 00 80 5A 0A 01 03 20 03 11 24 34 A3 C7 82 90 00
 	Navigo Imagine R ((French metro in Paris)
+
+3B 6F 00 FF 52 53 41 53 65 63 75 72 49 44 28 52 29 31 30
+	RSA SecurID SID800 token
 
 3B 6F 00 FF 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 02
 	Giesecke & Devrient SmartCafe Expert 2.0
