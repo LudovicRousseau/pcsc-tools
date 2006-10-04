@@ -129,6 +129,12 @@ Licences:
 History:
 ========
 
+1.4.7 - 4 October 2006, Ludovic ROUSSEAU
+    - 10 new ATR
+    - pcsc_scan.c: add a couple of fflush(stdout); to force the display
+      so that redirection works. Thanks to Johannes Becker for the bug
+      report
+
 1.4.6 - 12 August 2006, Ludovic ROUSSEAU
     - 28 new ATRs in smartcard_list.txt
     - scriptor/gscriptor: allow multi-lines input and wrap long output.
@@ -256,6 +262,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.31 2006-08-12 19:48:00 rousseau Exp $
+$Id: README,v 1.32 2006-10-04 20:35:02 rousseau Exp $
 
  vim:ts=8
