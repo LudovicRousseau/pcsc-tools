@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.205 2006-10-01 12:13:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.206 2006-10-07 15:37:05 rousseau Exp $
 #
 
 # syntax:
@@ -1035,6 +1035,9 @@
 3B F5 91 00 FF 91 81 71 FE 40 00 41 08 00 00 00 0D
 	Contactless Mifare
 
+3B F5 91 00 FF 91 81 71 FE 40 00 41 18 00 00 00 1D
+	Contactless Mifare 4k
+
 3B F5 91 00 FF 91 81 71 FE 40 00 41 88 00 00 00 8D
 	Contactless Mifare 1k or 4k
 
@@ -1172,6 +1175,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 16 50 05 17 06 13 B2
 	FinTS (BBBank Karlsruhe, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 46 50 01 08 05 30 27
+	HBCI-Karte (Sparkasse Altmark-West, Salzwedel, Germany)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 1A 01 41 02 50 00 10 52 09 05 67 05 10 21
 	Maestro/Geldkarte (BBBank Karlsruhe, Germany)
