@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.207 2006-10-08 10:18:31 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.208 2006-10-10 17:10:41 rousseau Exp $
 #
 
 # syntax:
@@ -633,6 +633,10 @@
 
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
+	Philips MIFARE Standard (1 Kbytes EEPROM)
+	http://www.nxp.com/products/identification/mifare/classic/
 
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
