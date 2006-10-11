@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.208 2006-10-10 17:10:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.209 2006-10-11 17:15:30 rousseau Exp $
 #
 
 # syntax:
@@ -513,6 +513,9 @@
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
+
+3B 7B 18 00 00 00 31 C0 64 77 E3 03 00 82 90 00
+	Oberthur Cosmopolic 64K v5.2 D
 
 3B 7B 94 00 00 80 62 11 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
