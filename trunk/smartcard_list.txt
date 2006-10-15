@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.209 2006-10-11 17:15:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.210 2006-10-15 16:01:19 rousseau Exp $
 #
 
 # syntax:
@@ -458,6 +458,10 @@
 
 3B 6F 00 00 80 31 E0 6B 04 06 03 04 40 55 55 55 55 55 55
 	Blue American Express Card
+
+3B 6F 00 00 80 31 E0 6B 04 06 05 02 17 55 55 55 55 55 55
+	Marx Software Security - Cryptoken M2048, MULTOS, Infineon SLE66CX, 64kByte
+	http://www.marx.com/en/
 
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 30 55 55 55 55 55 55
 	Buypass card for Norsk Tipping (http://norsk-tipping.no)
