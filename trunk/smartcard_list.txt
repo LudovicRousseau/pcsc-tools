@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.210 2006-10-15 16:01:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.211 2006-10-17 17:39:10 rousseau Exp $
 #
 
 # syntax:
@@ -1132,6 +1132,10 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 39 00 04 02 05 02 E9
+	German "Geldkarte" supplied by the Deutsche Bank in Karlsruhe,
+	Baden-Württemberg, Germany.
 
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 54 00 04 23 05 02 A5
 	Maestrocard/Geldkarte (Stadtsparkasse Haltern, Germany)
