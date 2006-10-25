@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.22 2006-08-15 10:58:11 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.23 2006-10-25 16:08:10 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -159,6 +159,7 @@ get_readers:
 	if (rv != SCARD_S_SUCCESS)
 	{
 		printf("SCardListReader: %lX\n", rv);
+		exit(-1);
 	}
 	dwReadersOld = dwReaders;
 
