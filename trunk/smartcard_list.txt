@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.211 2006-10-17 17:39:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.212 2006-10-28 14:44:10 rousseau Exp $
 #
 
 # syntax:
@@ -480,6 +480,10 @@
 
 3B 6F 00 00 80 5A 08 03 04 00 02 00 23 65 4A 4C 82 90 00
 	RATP NaviGo Travel Card pass from Ile-de-France
+
+3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
+	Fábrica Nacional de Moneda y Timbre FNMT WG10
+	http://www.fnmt.es/es/html/tage/fichaTarjeta/fp1_ta_01.asp
 
 3B 6F 00 FF 52 53 41 53 65 63 75 72 49 44 28 52 29 31 30
 	RSA SecurID SID800 token
