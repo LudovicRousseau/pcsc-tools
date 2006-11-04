@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.212 2006-10-28 14:44:10 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.213 2006-11-04 14:24:02 rousseau Exp $
 #
 
 # syntax:
@@ -559,6 +559,9 @@
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
 
+3B 7F 11 00 00 00 6A 43 45 52 45 53 02 2C 34 02 00 03 90 00
+	FNMT-CERES ST (Fábrica Nacional de Moneda y Timbre)
+
 3B 7F 11 00 00 80 31 C0 52 21 57 64 02 18 19 53 83 83 90 00
 	banking card (www.caixacatalunya.com)
 	student id of Universitat  Autonoma de Barcelona
@@ -962,7 +965,12 @@
 
 3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
-	Certification Authority
+	Certification Authority (Fábrica Nacional de Moneda y Timbre)
+	FNMT-Ceres Siemens Infineon SLE 19
+
+3B EF 00 00 40 14 80 25 43 45 52 45 53 57 05 60 01 02 03 90 00
+	FNMT-Ceres Siemens Infineon SLE 20
+	Fábrica Nacional de Moneda y Timbre
 
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
