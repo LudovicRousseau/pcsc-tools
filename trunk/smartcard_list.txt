@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.213 2006-11-04 14:24:02 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.214 2006-11-08 19:44:23 rousseau Exp $
 #
 
 # syntax:
@@ -1231,6 +1231,9 @@
 
 3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
 	Giesecke & Devrient STARSIM
+
+3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
+	Giesecke & Devrient - UniverSIM Pegasus
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
