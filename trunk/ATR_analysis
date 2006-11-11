@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.28 2006-11-11 12:40:56 rousseau Exp $
+# $Id: ATR_analysis,v 1.29 2006-11-11 12:49:04 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -331,6 +331,7 @@ sub analyse_TC()
 	if ($counter == 1)
 	{
 		print "Extra guard time: $value";
+		print " (special value)" if ($value == 255);
 	}
 
 	if ($counter == 2)
