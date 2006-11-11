@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.27 2006-11-11 12:31:49 rousseau Exp $
+# $Id: ATR_analysis,v 1.28 2006-11-11 12:40:56 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -280,7 +280,14 @@ sub analyse_TB()
 
 	if ($counter == 1)
 	{
-		print "Programming Param P: $PI Volts, I: $I milliamperes";
+		if ($PI == 0)
+		{
+			print "VPP is not electrically connected";
+		}
+		else
+		{
+			print "Programming Param P: $PI Volts, I: $I milliamperes";
+		}
 	}
 
 	if ($counter == 2)
