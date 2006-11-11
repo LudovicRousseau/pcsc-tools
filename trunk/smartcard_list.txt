@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.214 2006-11-08 19:44:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.215 2006-11-11 10:44:17 rousseau Exp $
 #
 
 # syntax:
@@ -1069,6 +1069,9 @@
 
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 32 30 0E
 	IBM JCOP20
+
+3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 30 0F
+	Philips P8RF5016 running IBM JCOP 30 (contact interface)
 
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
 	IBM JCOP BIO31
