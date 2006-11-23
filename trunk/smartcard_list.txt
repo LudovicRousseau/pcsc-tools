@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.216 2006-11-15 21:00:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.217 2006-11-23 19:31:32 rousseau Exp $
 #
 
 # syntax:
@@ -241,6 +241,9 @@
 
 3B 3B 11 00 80 69 AF 03 0C 01 6F 83 0[0,1] 90 00
 	GemXplore'Xpresso V3 64K
+
+3B 3B 94 00 4F 34 10 20 01 04 C0 33 33 90 00
+	SIM card from the italian operator WIND
 
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
