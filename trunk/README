@@ -129,6 +129,18 @@ Licences:
 History:
 ========
 
+1.4.8 - 26 Novembre 2006, Ludovic ROUSSEAU
+    - 14 new ATR
+    - pcsc_scan: cleanly fail (instead of looping forever) if the pcscd
+      daemon just dies
+    - ATR_analysis:
+      . add test for TC1=255
+      . add case TB1=0: VPP is not electrically connected
+      . add the communication speed according to TA1 and a clock at
+        3.5712 MHz
+      . use %g instead of %.3f to display the cycles/ETU value to have
+        31 instead of 31.000
+
 1.4.7 - 4 October 2006, Ludovic ROUSSEAU
     - 10 new ATR
     - pcsc_scan.c: add a couple of fflush(stdout); to force the display
@@ -262,6 +274,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.32 2006-10-04 20:35:02 rousseau Exp $
+$Id: README,v 1.33 2006-11-26 14:49:50 rousseau Exp $
 
  vim:ts=8
