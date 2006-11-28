@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.217 2006-11-23 19:31:32 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.218 2006-11-28 19:45:15 rousseau Exp $
 #
 
 # syntax:
@@ -888,6 +888,9 @@
 
 3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
 	NEC V-WAY64 v2.1
+
+3B DE 18 FF C0 80 B1 FE 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 2B
+	Estonian Identity Card (EstEID v1.0 2006 cold)
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
