@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.218 2006-11-28 19:45:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.219 2006-12-05 20:00:30 rousseau Exp $
 #
 
 # syntax:
@@ -936,6 +936,9 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 30/31bio (contact interface)
+
+3B E9 00 00 81 21 45 45 4D 56 5F 41 54 52 20 06 6C
+	VISA card, issued by HVB Bank Czech Republic (http://www.hvb.cz)
 
 3B E9 00 00 81 21 45 56 49 53 5F 49 4E 46 20 06 78
 	VISA card, issued by the Austrian "Raiffeisen" bank (http://www.raiffeisen.at/
