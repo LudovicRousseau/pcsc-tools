@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.219 2006-12-05 20:00:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.220 2006-12-12 12:35:54 rousseau Exp $
 #
 
 # syntax:
@@ -558,6 +558,9 @@
 
 3B 7D 94 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	GXP Pro R3.2 64K, GemSafe applet MPCOS v1.11
+
+3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
+	GemXpresso R4 64k
 
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
