@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.29 2006-11-11 12:49:04 rousseau Exp $
+# $Id: ATR_analysis,v 1.30 2006-12-17 20:48:05 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -175,6 +175,10 @@ if ($#object == $K)
 
 # the rest are historical bytes
 print "+ Historical bytes: @object\n";
+if ($#object+1 < $K)
+{
+	print " ERROR! ATR is truncated: " . ($K - $#object -1) . " byte(s) is/are missing\n";
+}
 analyse_histrorical_bytes();
 
 print "+ TCK = $TCK\n" if (defined $TCK);
