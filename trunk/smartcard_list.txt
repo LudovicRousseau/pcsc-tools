@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.222 2006-12-13 13:17:29 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.223 2006-12-24 15:15:44 rousseau Exp $
 #
 
 # syntax:
@@ -664,6 +664,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	Mifare card with 4k EEPROM
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
+	Contactless Mifare Ultralight
+
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
 
@@ -900,6 +903,9 @@
 
 3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
 	NEC V-WAY64 v2.1
+
+3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
+	Mifare Desfire SAM Module
 
 3B DE 18 FF C0 80 B1 FE 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 2B
 	Estonian Identity Card (EstEID v1.0 2006 cold)
