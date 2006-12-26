@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.223 2006-12-24 15:15:44 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.224 2006-12-26 13:11:52 rousseau Exp $
 #
 
 # syntax:
@@ -1261,6 +1261,9 @@
 	D-Trust Signature Card (www.d-trust.net):
 	- Citizencard of the People of Ulm in Germany (Bürgerkarte)
 	- Qualified Electronic Signature Card (Qualifizierte Signaturkarte)
+
+3B FF 94 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1C
+	Giesecke & Devrient - UniverSIM Pegasus
 
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
 	Vodafone 64 KB SIM with Javacard
