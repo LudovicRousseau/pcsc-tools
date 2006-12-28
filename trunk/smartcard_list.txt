@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.224 2006-12-26 13:11:52 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.225 2006-12-28 08:06:30 rousseau Exp $
 #
 
 # syntax:
@@ -1324,6 +1324,9 @@
 
 3F 65 25 08 33 04 20 90 00
 	D-Trust card
+
+3F 65 35 10 02 04 6C 90 00
+	Postcard (Switzerland)
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
