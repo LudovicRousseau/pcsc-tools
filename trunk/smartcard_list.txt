@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.225 2006-12-28 08:06:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.226 2006-12-30 11:00:08 rousseau Exp $
 #
 
 # syntax:
@@ -311,6 +311,9 @@
 	Axa Bank (Belgium) Mastercard Gold / Axa Bank Belgium
 	MisterCash & Proton card
 	VISA Card (emitted by Bank Card Company - Belgium)
+
+3B 67 00 00 00 31 80 71 86 90 00
+	Swiss ZKB-Bancomat-Card
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
