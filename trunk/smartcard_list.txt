@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.226 2006-12-30 11:00:08 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.227 2007-01-03 17:56:36 rousseau Exp $
 #
 
 # syntax:
@@ -1255,6 +1255,9 @@
 	Carta Nazionale dei Servizi - InfoCamere
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 10 31 80 8F
+	Carta Regionale dei Servizi - Regione Lombardia
+
+3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
