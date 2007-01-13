@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.228 2007-01-11 10:58:31 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.229 2007-01-13 21:19:10 rousseau Exp $
 #
 
 # syntax:
@@ -901,6 +901,9 @@
 	("should be" Starcos 2.3)
 
 3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
+
+3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 / NetKey 3.0
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
