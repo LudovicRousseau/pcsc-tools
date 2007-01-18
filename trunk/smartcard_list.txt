@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.231 2007-01-17 20:52:34 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.232 2007-01-18 17:38:13 rousseau Exp $
 #
 
 # syntax:
@@ -913,6 +913,9 @@
 
 3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
 	NEC V-WAY64 v2.1
+
+3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
+	Oberthur CS PIV End Point v1.08 FIPS201 Certified
 
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
