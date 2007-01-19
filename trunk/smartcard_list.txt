@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.232 2007-01-18 17:38:13 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.233 2007-01-19 14:29:50 rousseau Exp $
 #
 
 # syntax:
@@ -877,6 +877,9 @@
 
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
+
+3B BE 18 00 00 41 05 10 00 00 00 00 00 00 00 00 00 90 00
+	ACS ACOS5 "ACOS5-32-G" http://www.acs.com.hk/acos5.asp
 
 3B BD 18 00 81 31 FE 45 80 51 02 67 04 14 B1 01 01 02 00 81 05 3D
 	Austrian "e-Card" (=Health Card), BRANDNEW (since 06/2005)
