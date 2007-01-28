@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.234 2007-01-23 17:04:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.235 2007-01-28 17:13:19 rousseau Exp $
 #
 
 # syntax:
@@ -1035,6 +1035,9 @@
 
 3B EF 00 FF 81 31 42 45 .* 38
 	UNI-Card
+
+3B EF 00 FF 81 31 42 45 65 63 03 02 03 02 80 00 22 40 48 95 96 00 20 28
+	Scard Sparkasse Detmold, Deutschland BLZ 47650130
 
 3B EF 00 FF 81 31 50 45 42 61 73 69 63 43 61 72 64 20 5A 43 31 2E 31 CC
 	ZeitControl BasicCard Compact 1.1
