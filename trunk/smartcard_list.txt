@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.235 2007-01-28 17:13:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.236 2007-02-16 13:06:55 rousseau Exp $
 #
 
 # syntax:
@@ -718,6 +718,9 @@
 
 3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 34 99 05 D0
 	GSM-SIM EMT "Diil", prepaid (Estonia)
+
+3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 00 04 08
+	XPlusTV & INXCT Access Card-9 (FIRECrypt)
 
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec (http://www.miotec.fi) smartcard running Miocos 2.0 on an Atmel AT90SC646
