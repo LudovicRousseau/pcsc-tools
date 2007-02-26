@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.236 2007-02-16 13:06:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.237 2007-02-26 16:48:46 rousseau Exp $
 #
 
 # syntax:
@@ -437,6 +437,9 @@
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
+
+3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
+	VISA card, issued by the ANWB, the Dutch national Automobile club
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
