@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.238 2007-03-06 17:09:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.239 2007-03-06 19:58:35 rousseau Exp $
 #
 
 # syntax:
@@ -81,7 +81,7 @@
 	Cingular GSM SIM Card
 
 3B 16 94 71 01 01 05 02 00
-	GSM SIM Bouyges Telecom
+	GSM SIM Bouygues Telecom
 
 3B 16 94 81 10 06 01 81 2F
 	Schlumberger Cyberflex Access Augmented Crypto
