@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.239 2007-03-06 19:58:35 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.240 2007-03-21 17:33:34 rousseau Exp $
 #
 
 # syntax:
@@ -427,6 +427,9 @@
 
 3B 6D 00 00 80 31 80 65 B0 43 01 00 77 83 00 90 00
 	Gemplus GemXpresso Lite
+
+3B 6D 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
+	 DeutscheBank Identification card
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
