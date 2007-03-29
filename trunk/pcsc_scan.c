@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.24 2007-01-20 15:46:21 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.25 2007-03-29 19:17:33 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -130,7 +130,7 @@ int main(int argc, char *argv[])
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	if (rv != SCARD_S_SUCCESS)
 	{
-		printf("SCardEstablishContext: Cannot Connect to Resource Manager %lX\n", rv);
+		printf("SCardEstablishContext: Cannot Connect to Resource Manager: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
 		return 1;
 	}
 
@@ -158,7 +158,7 @@ get_readers:
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_S_SUCCESS)
 	{
-		printf("SCardListReader: %lX\n", rv);
+		printf("SCardListReader: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
 		exit(-1);
 	}
 	dwReadersOld = dwReaders;
@@ -180,7 +180,7 @@ get_readers:
 	rv = SCardListReaders(hContext, NULL, mszReaders, &dwReaders);
 	if (rv != SCARD_S_SUCCESS)
 	{
-		printf("SCardListReader: %lX\n", rv);
+		printf("SCardListReader: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
 	}
 
 	/* Extract readers from the null separated string and get the total
@@ -364,13 +364,13 @@ get_readers:
 	} /* while */
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
-	printf("SCardGetStatusChange: %lX\n", rv);
+	printf("SCardGetStatusChange: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
 	
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
 	if (rv != SCARD_S_SUCCESS)
 	{
-		printf("SCardReleaseContext: %lX\n", rv);
+		printf("SCardReleaseContext: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
 	}
 
 	/* free memory possibly allocated */
