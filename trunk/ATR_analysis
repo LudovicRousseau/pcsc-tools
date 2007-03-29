@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.30 2006-12-17 20:48:05 rousseau Exp $
+# $Id: ATR_analysis,v 1.31 2007-03-29 19:15:02 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -47,7 +47,7 @@ use Getopt::Std;
 use Chipcard::PCSC::Card;
 
 # file containing the smart card models
-my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt");
+my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt", "/usr/local/share/pcsc/smartcard_list.txt");
 
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);
