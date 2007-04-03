@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.31 2007-03-29 19:15:02 rousseau Exp $
+# $Id: ATR_analysis,v 1.32 2007-04-03 20:21:46 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -62,6 +62,9 @@ my ($Y1, $K, @object, $mpcard, $hb_category);
 
 @XI = ("not supported", "state L", "state H", "no preference");
 @UI = ("A only (5V)", "B only (3V)", "A and B", "RFU");
+
+my $COLOR_START="\033[35m";	# magenta
+my $COLOR_END="\033[0m\n";	# default (black)
 
 # prorotypes
 sub analyse_TA();
@@ -205,6 +208,8 @@ sub analyse_TA()
 	$value = hex(shift(@object));
 	printf ("  TA($counter) = %02X --> ", $value);
 
+	print $COLOR_START;
+
 	# TA1 Analysis
 	if ($counter == 1)
 	{ 
@@ -265,7 +270,7 @@ sub analyse_TA()
 		    printf ("Clock stop: %s - Class accepted by the card: %s", $XI[$F],$Class); 
 	    }
 	}
-	print "\n";
+	print $COLOR_END;
 } # analyse_TA()
 
 #  _____ ____  
@@ -281,6 +286,8 @@ sub analyse_TB()
 
 	my $I = $value >> 5;
 	my $PI = $value % 32;
+
+	print $COLOR_START;
 
 	if ($counter == 1)
 	{
@@ -317,7 +324,7 @@ sub analyse_TB()
 		    printf ("Block Waiting Integer: %s - Character Waiting Integer: %s", $BWI, $CWI);
 	    }
 	}
-	print "\n";
+	print $COLOR_END;
 } # analyse_TB()
 
 #  _____ ____ 
@@ -331,6 +338,7 @@ sub analyse_TC()
 	$value = hex(shift(@object));
 	printf ("  TC($counter) = %02X --> ", $value);
 
+	print $COLOR_START;
 
 	if ($counter == 1)
 	{
@@ -362,7 +370,7 @@ sub analyse_TC()
 			}
 		}
 	}
-	print "\n";
+	print $COLOR_END;
 } # analyse_TC()
 
 #  _____ ____  
@@ -384,7 +392,7 @@ sub analyse_TD()
 	{
 	 	$str = " - Global interface bytes following";
 	}
-	printf ("  TD($counter) = %02X --> Y(i+1) = %04b, Protocol T = $T$str\n", $value, $Y);
+	printf ("  TD($counter) = %02X --> Y(i+1) = %04b,$COLOR_START Protocol T = $T$str $COLOR_END", $value, $Y);
 
 	$counter++;
 	print "-----\n";
