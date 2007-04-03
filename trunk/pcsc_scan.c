@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.25 2007-03-29 19:17:33 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.26 2007-04-03 20:24:10 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -283,7 +283,7 @@ get_readers:
 				color_end);
 
 			/* Dump the full current state */
-			printf("  Card state: %s", magenta);
+			printf("  Card state: %s", red);
 
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_IGNORE)
