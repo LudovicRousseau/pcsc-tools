@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.32 2007-04-03 20:21:46 rousseau Exp $
+# $Id: ATR_analysis,v 1.33 2007-04-03 20:23:58 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -219,7 +219,7 @@ sub analyse_TA()
 		$value = $Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU");
 
 		printf "Fi=%s, Di=%s, %g cycles/ETU", $Fi[$F], $Di[$D], $value;
-		printf " (%d bytes/s at 3.57 MHz)", 3571200/$value;
+		printf " (%d bits/s at 3.57 MHz)", 3571200/$value;
 	}
 	
 	# TA2 Analysis - TA2 is the specific mode byte
