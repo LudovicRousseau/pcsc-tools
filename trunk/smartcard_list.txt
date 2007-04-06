@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.240 2007-03-21 17:33:34 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.241 2007-04-06 19:13:30 rousseau Exp $
 #
 
 # syntax:
@@ -91,6 +91,9 @@
 
 3B 17 13 9C 12 02 01 01 07 40
 	Schlumberger Cyberflex Access Developer 32k
+
+3B 17 94 18 01 01 02 01 41 49
+	white SFR SIM card
 
 3B 17 94 18 02 01 25 01 41 93
 	AT&T Wireless GSM SIM Card
@@ -266,6 +269,9 @@
 
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
+
+3B 3F 94 00 80 69 AF 03 07 06 67 00 00 0A 0E 83 3E 9F 16
+	SFR SIM card (red Gemplus Répertoire)
 
 3B 3F 94 00 80 69 AF 03 07 06 67 09 97 0A 0E 83 3E 9F 16
 	BASE SIM - Belgium (Gemplus)
