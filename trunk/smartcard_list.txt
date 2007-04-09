@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.242 2007-04-06 20:42:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.243 2007-04-09 15:18:41 rousseau Exp $
 #
 
 # syntax:
@@ -260,6 +260,10 @@
 
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
+
+3B 3C 94 00 4C 31 25 A7 20 1B 00 15 83 83 90 00
+	GSM-SIM (900MHz) card of the carrier vodafone for their cellular
+	network (phase 2+ with 3V)
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
@@ -673,6 +677,10 @@
 3B 8A 00 91 01 00 16 00 01 20 01 00 96
 	GSM-SIM T-D1 prepaid (Xtra)
 
+3B 8A 00 91 01 00 16 00 01 20 02 00 96
+	GSM-SIM (900MHz) card of the carrier t-mobile for their cellular
+	network (phase 2+ with 3V)
+
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
 
@@ -989,6 +997,15 @@
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 30/31bio (contact interface)
 
+3B E7 00 00 91 81 31 FE 41 01 10 30 01 00 90 80 49
+	"FirmenTicket" from the "Rheinbahn" for the "VRR"
+	its a ticket corporates can buy for their employees. so its called
+	"FirmenTicket". "Rheinbahn" is the local service operator for the
+	mass traffic in and around duesseldorf/germany. "VRR" is traffic
+	network spanning over at least a big part of north rhine westphalia
+	(Verkehrsverbund Rhein-Ruhr)
+	(http://www.vrr.de/de/tickets_und_tarife/vielfahrer/firmenticket/index.php)
+
 3B E9 00 00 81 21 45 45 4D 56 5F 41 54 52 20 06 6C
 	VISA card, issued by HVB Bank Czech Republic (http://www.hvb.cz)
 
@@ -1065,6 +1082,10 @@
 
 3B EF 00 FF 81 31 50 45 65 63 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 	Geldkarte v2
+
+3B EF 00 FF 81 31 50 45 65 63 08 0B 40 02 80 00 08 15 20 03 36 04 00 7E
+	old banking card (electronic-card / Maestro / Geldkarte) of the
+	Stadt-Sparkasse Duesseldorf (like the above, but old - around 2002).
 
 3B EF 00 FF 81 31 52 45 4D 46 43 20 49 42 4D 20 34 30 48 39 36 30 31 FB
 	IBM MFC 3.5 file system smart card
@@ -1270,6 +1291,16 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 92 61 00 06 15 62
 	Geldkarte (Frankfurter Sparkasse, Germany)
 
+3B FF 18 00 FF 81 31 FE 45 65 63 11 03 50 02 80 00 08 27 70 02 06 05 01 8A
+	 old banking card (electronic-card / Maestro / Geldkarte) of the
+	 "Volksbank Gelderland eG" (around 2003)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 05 40 02 50 00 10 55 10 03 03 05 00 43
+	belongs to a banking card (electronic-card / Maestro / Geldkarte).
+	the bank calls it "VR-BankCard". the banks name is "Volksbank
+	Gelderland eG" and is part of the "Volksbanken und Raiffeisenbanken"
+	(http://www.vb-gelderland.de/html/5/2394/rubrik/1282.html)
+
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 05 50 03 10 05 00 43
 	HBCI-Karte (Bordesholmer Sparkasse, Germany)
 
@@ -1296,6 +1327,12 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 46 50 01 08 05 30 27
 	HBCI-Karte (Sparkasse Altmark-West, Salzwedel, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 40 50 03 18 06 20 D4
+	banking card (electronic-card / Maestro / Geldkarte). the bank+calls
+	it "S-Card" or "Sparkassen-Card". the banks name is "Stadtsparkasse
+	Duesseldorf" and is part of the "Sparkassen-Finanzgruppe" (a finance
+	group, network of local banks).
 
 3B FF 18 00 FF 81 31 FE 45 65 63 1A 01 41 02 50 00 10 52 09 05 67 05 10 21
 	Maestro/Geldkarte (BBBank Karlsruhe, Germany)
@@ -1340,6 +1377,11 @@
 
 3F 2F 00 80 59 AF 02 01 01 30 00 00 0A 0E 83 06 9F 12
 	Gemplus GemXplore
+
+3F 2F 00 80 59 AF 02 01 02 30 00 0C 0A 0E 83 1E 9F 16
+	GSM-SIM (900MHz) card of the carrier "Mannesmann Mobilfunk" for
+	their network "D2-Privat" - now known as Vodafone Mobilfunk
+	(http://www.vodafone.de/).
 
 3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
 	GSM-SIM e-plus (1800MHz)
