@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.243 2007-04-09 15:18:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.244 2007-04-13 08:43:03 rousseau Exp $
 #
 
 # syntax:
@@ -1122,20 +1122,20 @@
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
 
-3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
-	Siemens CardOS M 4.01 (SLE66CX320P)
+3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
+	Siemens CardOS V4.3
 
 3B F2 18 00 02 C1 0A 31 FE 58 C8 08 74
 	Siemens CardOS V4.3B
 
-3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
-	Siemens CardOS V4.3
-
 3B F2 18 00 02 C1 0A 31 FE 58 C8 09 75
-	 Siemens CardOS V4.2B
+	Siemens CardOS V4.2B
 
 3B F2 18 00 FF C1 0A 31 FE 55 C8 06 8A
 	Siemens CardOS M 4.2 (SLE66CX642P)
+
+3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
+	Siemens CardOS M 4.01 (SLE66CX320P)
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
