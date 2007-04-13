@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.244 2007-04-13 08:43:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.245 2007-04-13 09:18:16 rousseau Exp $
 #
 
 # syntax:
@@ -213,6 +213,7 @@
 
 3B 29 00 80 72 A4 45 64 00 FF 00 10
 	MPCOS-3DES 8K (Gemplus)
+	MBNA Europe Platinum Plus Mastercard
 
 3B 2A 00 80 65 A0 58 04 01 62 72 D6 43
 	Gemplus GemCombiXplore MPCOS Pro
