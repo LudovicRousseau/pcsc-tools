@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.245 2007-04-13 09:18:16 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.246 2007-05-01 19:33:51 rousseau Exp $
 #
 
 # syntax:
@@ -325,6 +325,9 @@
 	Axa Bank (Belgium) Mastercard Gold / Axa Bank Belgium
 	MisterCash & Proton card
 	VISA Card (emitted by Bank Card Company - Belgium)
+
+3B 67 00 00 00 00 20 00 00 90 00
+	BankID card from Sparebank1
 
 3B 67 00 00 00 31 80 71 86 90 00
 	Swiss ZKB-Bancomat-Card
@@ -904,6 +907,9 @@
 
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
+
+3B BE 18 00 00 41 05 .. 00 00 00 00 00 00 00 00 00 90 00
+	Advanced Card Systems (ACS) ACOS5 Cryptographic Smart Card
 
 3B BE 18 00 00 41 05 10 00 00 00 00 00 00 00 00 00 90 00
 	ACS ACOS5 "ACOS5-32-G" http://www.acs.com.hk/acos5.asp
