@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.246 2007-05-01 19:33:51 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.247 2007-05-02 19:10:12 rousseau Exp $
 #
 
 # syntax:
@@ -214,6 +214,7 @@
 3B 29 00 80 72 A4 45 64 00 FF 00 10
 	MPCOS-3DES 8K (Gemplus)
 	MBNA Europe Platinum Plus Mastercard
+	MasterCard Card - Worldcard - Yapıkredi / Turkey
 
 3B 2A 00 80 65 A0 58 04 01 62 72 D6 43
 	Gemplus GemCombiXplore MPCOS Pro
@@ -226,6 +227,9 @@
 
 3B 2A 00 80 65 A2 01 .. .. .. 72 D6 41
 	Gemplus MPCOS EMV 1 Byte sectors
+
+3B 2A 00 80 65 A2 01 02 01 31 72 D6 43
+	MPCOS-EMV 64K Functional Sample
 
 3B 2A 00 80 65 A2 01 .. .. .. 72 D6 43
 	Gemplus MPCOS EMV 4 Byte sectors
@@ -362,6 +366,16 @@
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
+3B 68 00 00 9D 08 01 02 01 56 49 53
+	Visa Card - bonus - DenizBank / Turkey
+
+3B 68 00 00 9D 08 01 03 01 4F 54 53
+	MasterCard Card - bonus - Garanti Bank / Turkey
+
+3B 68 00 00 9D 08 01 03 01 56 49 53
+	MasterCard Card - bonus - Garanti Bank / Turkey
+	MasterCard Card - bonus plus (paypass) - Garanti Bank / Turkey
+
 3B 68 00 00 9D 08 01 05 01 56 49 53
 	MasterCard Card - CartaSi (Italian Credit Card)
 
@@ -369,6 +383,7 @@
 	UK NatWest Business MasterCard
 	UK Barclaycard VISA
 	UK NatWest Platinum MasterCard
+	Visa Card - DenizBank / Turkey
 
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
@@ -392,12 +407,16 @@
 3B 6A 00 00 80 66 A1 09 02 01 63 0E 90 00
 	Danish Visa/Dankort
 	UK MBNA MasterCard
+	Visa Card - Worldcard - YapıKredi / Turkey
 
 3B 6B 00 00 00 31 80 64 2D A0 02 0C 8C 61 27
 	SmartEMV prototype
 
 3B 6B 00 00 00 31 80 64 43 B0 02 00 8C 61 27
 	Bull Odyssey 1.2 (Javacard 2.0)
+
+3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
+	Visa Card - Worldcard - YapıKredi / Turkey
 
 3B 6B 00 00 80 65 B0 83 01 01 74 83 00 90 00
 	GemXpresso Pro R3 with 64K EEPROM
@@ -448,6 +467,9 @@
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
+3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 83 90 00
+	MasterCard Card - bonus YKM - Garanti Bank / Turkey
+
 3B 6E 00 00 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00
 	Australian ANZ First Visa Card from the ANZ
 	(Australia and New Zealand) Bank
@@ -455,11 +477,17 @@
 3B 6E 00 00 00 31 80 71 86 65 47 44 23 01 02 83 90 00
 	Nat West Master Card
 
+3B 6E 00 00 00 31 80 71 86 65 47 44 24 01 81 83 90 00
+	MasterCard Card - Maximum - IS Bank / Turkey
+	Visa Card - Axess - Akbank / Turkey
+
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
+	Visa Card - bonus - Garanti Bank / Turkey
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
+	Visa Card - Maximum - Oyak Bank / Turkey
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
@@ -1018,6 +1046,7 @@
 
 3B E9 00 00 81 21 45 56 49 53 5F 49 4E 46 20 06 78
 	VISA card, issued by the Austrian "Raiffeisen" bank (http://www.raiffeisen.at/
+	Visa Card - Maximum - Oyak Bank / Turkey
 
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 A7
 	IBM JCOP v2.2 41
@@ -1180,6 +1209,9 @@
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
 
+3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
+	Giesecke & Devrient Sm@rtCafé Expert 3.0
+
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
@@ -1258,6 +1290,9 @@
 
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
+
+3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
+	Giesecke & Devrient Sm@rtCafé Expert 2.0
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 00 26 00 04 10 09
 	Maestrocard/Geldkarte (Postbank, Germany)
