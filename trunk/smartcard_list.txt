@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.247 2007-05-02 19:10:12 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.248 2007-05-04 14:12:05 rousseau Exp $
 #
 
 # syntax:
@@ -803,6 +803,9 @@
 3B 9F 94 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 18
 	SetCOS 4.3.0 32K RSA
 	Instant EID IP2
+
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 8D
+	GSM-SIM EMT (Estonia, WPKI eID support)
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
