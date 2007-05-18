@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.248 2007-05-04 14:12:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.249 2007-05-18 19:07:25 rousseau Exp $
 #
 
 # syntax:
@@ -1215,6 +1215,9 @@
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
 
+3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
+	ePass 2000
+
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
@@ -1387,6 +1390,9 @@
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 10 31 80 8F
 	Carta Regionale dei Servizi - Regione Lombardia
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 11 31 80 8E
+	Infocamere CNS
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
