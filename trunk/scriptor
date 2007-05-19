@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.18 2006-05-26 14:35:05 rousseau Exp $
+# $Id: scriptor,v 1.19 2007-05-19 13:15:01 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -33,6 +33,7 @@ my $hContext = new Chipcard::PCSC();
 my $hCard;
 my @out_buffer;
 my $in_buffer;
+my $echo;
 
 die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless defined $hContext;
 
@@ -96,9 +97,11 @@ if ($hCard->{dwProtocol} == $Chipcard::PCSC::SCARD_PROTOCOL_T0) {
 if ($ARGV[0]) {
 	open (IN_FILEHANDLE, "<$ARGV[0]") or die ("Can't open $ARGV[0]: $!\n");
 	print STDERR "Using given file: $ARGV[0]\n";
+	$echo=1;
 } else {
 	*IN_FILEHANDLE = *STDIN;
 	print STDERR "Reading commands from STDIN\n";
+	$echo=0;
 }
 
 *OUT_FILEHANDLE = *STDOUT;
@@ -109,6 +112,7 @@ while (<IN_FILEHANDLE>) {
 	my $tmp_value;
 	my ($SendData, $RecvData, $sw);
 
+	print if ($echo);
 	last if /exit/i;
 	next if /^\s*$/;
 	next if /^#/;
