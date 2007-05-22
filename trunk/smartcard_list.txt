@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.249 2007-05-18 19:07:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.250 2007-05-22 18:55:26 rousseau Exp $
 #
 
 # syntax:
@@ -1561,5 +1561,8 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 43 33 65
 	Brazilian NET Digital (Cable TV provider) - Nagra Vision "NASP110 RevA01"
+
+3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42 30 44 3C
+	NagraVision card for Virgin Media in the UK
 
 # do not delete
