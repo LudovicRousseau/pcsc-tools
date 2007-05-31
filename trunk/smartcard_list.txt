@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.251 2007-05-27 16:36:08 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.252 2007-05-31 06:59:13 rousseau Exp $
 #
 
 # syntax:
@@ -700,6 +700,10 @@
 3B 89 00 91 26 91 06 00 01 22 01 00
 	BT Cellnet SIM
 
+3B 89 80 01 4D 54 43 4F 53 73 01 02 01 3F
+	Contactless MTCOS
+	http://www.masktech.de/
+
 3B 89 40 14 47 47 32 36 4D 35 32 38 30
 	GSM-SIM e-plus (1800MHz)
 
@@ -728,6 +732,9 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	Contactless Mifare Ultralight
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 14 00 00 00 00 77
+	Philips ICode
 
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
@@ -1320,6 +1327,10 @@
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 05 29 00 04 10 03
 	Geldkarte/HBCI(DDV-1) (Stadtsparkasse Vorpommern, Germany)
 
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 13 82 00 04 10 BE
+	Bremer Karte ("Geldkarte und BSAG-Kundenkarte in einem.")
+	http://www.bsag.de/4911.php
+
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 14 06 00 04 10 3D
 	Geldkarte/HBCI(DDV-1) (Staedtische Sparkasse Offenbach, Germany)
 
@@ -1362,6 +1373,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 19 10 04 20 05 00 28
 	Stadtsparkasse München HBCI card / Geldkarte
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 25 60 05 12 05 00 57
+	Geldkarte/HBCI(DDV-1) (Stadtsparkasse Vorpommern, Germany)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 27 30 02 16 05 00 06
 	GeldKarte from Sparkasse bank
@@ -1424,6 +1438,9 @@
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
+
+3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 33 48 61 32 41 47 D6
+	GSM SIM (issued by e-plus, Germany)
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
