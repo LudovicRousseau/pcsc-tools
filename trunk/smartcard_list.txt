@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.252 2007-05-31 06:59:13 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.253 2007-05-31 16:41:13 rousseau Exp $
 #
 
 # syntax:
@@ -434,6 +434,10 @@
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
 
+3B 6D 00 00 00 31 C0 71 D6 64 11 22 33 01 83 90 00
+	UK Barclaycard VISA
+	UK Halifax Platinum VISA
+
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
 
@@ -485,9 +489,15 @@
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
 
+3B 6E 00 00 00 31 C0 71 86 65 01 78 01 27 34 83 90 00
+	UK NatWest ServiceCard 100 Maestro
+
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
 	Visa Card - Maximum - Oyak Bank / Turkey
+
+3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 11 A0 83 90 00
+	UK CapitalOne Platinum Mastercard
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
