@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.253 2007-05-31 16:41:13 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.254 2007-06-01 12:23:18 rousseau Exp $
 #
 
 # syntax:
@@ -709,6 +709,12 @@
 
 3B 89 00 91 26 91 06 00 01 22 01 00
 	BT Cellnet SIM
+
+3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
+	German Passport (issued Nov 2006)
+
+3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
+	German Passport (issued Apr 2007)
 
 3B 89 80 01 4D 54 43 4F 53 73 01 02 01 3F
 	Contactless MTCOS
