@@ -1,0 +1,86 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH SCRIPTOR 1p "octobre 17, 2003"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+scriptor \- Perl script to send commands to a smart card
+.SH SYNOPSIS
+.B scriptor
+.RI [ -h ]
+.RI [ -r\ reader ]
+.RI [ -p\ protocol ]
+.RI [ file ]
+.SH DESCRIPTION
+This manual page documents briefly the
+.B scriptor
+command.
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBscriptor\fP is a program that sends commands to a smart card using a
+batch file or stdin.
+.SH OPTIONS
+A description of options is included below.
+.TP
+.B \-h
+Show summary of options.
+.TP
+.B \-r reader
+Use the indicated reader. By default the first PC/SC reader is used.
+.TP
+.B \-p protocol
+Use the indicated protocol. Accepted values are T=0 and T=1. By default
+T=0 is used.
+.TP
+.B file
+Use the file instead of stdin to read commands (APDUs)
+
+The commands are of the form:
+ CLA INS P1 P2 Lc [data] [le]
+ reset
+ # comment
+
+Example:
+
+ # reset the card
+ reset
+ 
+ # Select MF 3F00
+ A0 A4 00 00 02 3F 00
+ 
+ # Get Reponse
+ # 17 is the value of second SW from the previous command
+ A0 C0 00 00 17
+ 
+ # Select DF Telecom (7F10)
+ A0 A4 00 00 02 7F 10
+ 
+ # Get Response
+ A0 C0 00 00 17
+ 
+ # Select EF_ADN (6F3A) (Abbreviated Dialing Numbers)
+ A0 A4 00 00 02 6F 3A
+ 
+ # Get Reponse
+ A0 C0 00 00 0F
+.SH SEE ALSO
+.BR pcscd (8), gscriptor (1)
+.br
+.SH AUTHOR
+This manual page was written by Ludovic Rousseau <rousseau@debian.org>,
+for the Debian GNU/Linux system (but may be used by others).
+
