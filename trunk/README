@@ -135,7 +135,7 @@ History:
       readable error message
     - ATR_analysis: add colors
     - scriptor:  echo the lines read from a file (commands, comments and
-      emtpy lines)
+      empty lines)
 
 1.4.8 - 26 Novembre 2006, Ludovic ROUSSEAU
     - 14 new ATR
@@ -282,6 +282,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.34 2007-06-01 13:02:20 rousseau Exp $
+$Id: README,v 1.35 2007-06-01 14:08:59 rousseau Exp $
 
  vim:ts=8
