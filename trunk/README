@@ -129,6 +129,14 @@ Licences:
 History:
 ========
 
+1.4.9 - 1 June 2007, Ludovic ROUSSEAU
+    - 69 new ATR
+    - pcsc_scan.c: use pcsc_stringify_error() to display a human
+      readable error message
+    - ATR_analysis: add colors
+    - scriptor:  echo the lines read from a file (commands, comments and
+      emtpy lines)
+
 1.4.8 - 26 Novembre 2006, Ludovic ROUSSEAU
     - 14 new ATR
     - pcsc_scan: cleanly fail (instead of looping forever) if the pcscd
@@ -274,6 +282,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.33 2006-11-26 14:49:50 rousseau Exp $
+$Id: README,v 1.34 2007-06-01 13:02:20 rousseau Exp $
 
  vim:ts=8
