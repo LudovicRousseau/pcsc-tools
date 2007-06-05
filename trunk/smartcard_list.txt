@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.254 2007-06-01 12:23:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.255 2007-06-05 20:16:50 rousseau Exp $
 #
 
 # syntax:
@@ -259,6 +259,9 @@
 3B 3B 94 00 4F 34 10 20 01 04 C0 33 33 90 00
 	SIM card from the italian operator WIND
 
+3B 3B 94 00 67 37 10 00 00 39 60 33 33 90 00
+	Avea GSM / Turkey
+
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
 	Mobistar SIM - Belgium (Gemplus)
@@ -269,6 +272,9 @@
 3B 3C 94 00 4C 31 25 A7 20 1B 00 15 83 83 90 00
 	GSM-SIM (900MHz) card of the carrier vodafone for their cellular
 	network (phase 2+ with 3V)
+
+3B 3D 94 00 01 0F 00 36 00 00 86 60 18 04 00 01 07
+	Vodafone GSM / Turkey
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
