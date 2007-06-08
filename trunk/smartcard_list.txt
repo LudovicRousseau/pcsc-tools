@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.255 2007-06-05 20:16:50 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.256 2007-06-08 12:39:17 rousseau Exp $
 #
 
 # syntax:
@@ -718,9 +718,13 @@
 
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
+	United Kingdom e-Passport
 
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
+
+3B 89 80 01 4A 43 4F 50 34 31 56 32 32 4D
+	New Zealand e-Passport
 
 3B 89 80 01 4D 54 43 4F 53 73 01 02 01 3F
 	Contactless MTCOS
@@ -748,6 +752,7 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
 	Philips MIFARE Standard (1 Kbytes EEPROM)
 	http://www.nxp.com/products/identification/mifare/classic/
+	RFID - ISO 14443 Type A - Transport for London Oyster
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	Mifare card with 4k EEPROM
@@ -755,8 +760,18 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	Contactless Mifare Ultralight
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 00 00 00 00 00 63
+	RFID - ISO 15693 - EM Microelectronic-Marin SA
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 12 00 00 00 00 71
+	RFID - ISO 15693 - Texas Instrument
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0A 00 1C 00 00 00 00 7E
+	RFID - HID iCLASS 16K CL
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 14 00 00 00 00 77
 	Philips ICode
+	RFID - ISO 15693 - Philips Semiconductors
 
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
