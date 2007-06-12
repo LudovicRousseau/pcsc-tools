@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.256 2007-06-08 12:39:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.257 2007-06-12 18:44:35 rousseau Exp $
 #
 
 # syntax:
@@ -327,6 +327,9 @@
 
 3B 65 00 00 9C 1[0,1] 01 01 03
 	Schlumberger Cyberflex Palmera
+
+3B 66 00 00 31 4B 01 01 00 80
+	VISA credit card (Skandiabanken)
 
 3B 66 00 FF 4A 43 4F 50 30 33
 	IBM JCOP 30
