@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.257 2007-06-12 18:44:35 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.258 2007-06-16 08:05:41 rousseau Exp $
 #
 
 # syntax:
@@ -302,6 +302,9 @@
 
 3B 3F 95 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
 	AT&T Wireless GSM SIM Card
+
+3B 57 18 02 93 02 01 01 01 90 00
+	 Easyflex FastOS 2.0 / Schlumberger
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
