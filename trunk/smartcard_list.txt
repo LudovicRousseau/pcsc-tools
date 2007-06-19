@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.258 2007-06-16 08:05:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.259 2007-06-19 15:41:46 rousseau Exp $
 #
 
 # syntax:
@@ -641,6 +641,9 @@
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
 
+3B 7D 96 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
+	 Gemplus X-Presso Pro 64k
+
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
 
@@ -1030,6 +1033,9 @@
 
 3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
 	NEC V-WAY64 v2.1
+
+3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
+	CAC (Common Access Card)
 
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
