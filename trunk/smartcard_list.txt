@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.259 2007-06-19 15:41:46 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.260 2007-06-20 19:12:35 rousseau Exp $
 #
 
 # syntax:
@@ -802,6 +802,9 @@
 
 3B 95 95 40 FF AE 01 03 00 00
 	Axalto - Cyberflex 64K
+
+3B 95 95 40 FF D0 00 1A 01 01
+	Cyberflex Access 64k (v3)
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
