@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.261 2007-06-20 19:14:39 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.262 2007-06-26 16:58:30 rousseau Exp $
 #
 
 # syntax:
@@ -299,6 +299,9 @@
 
 3B 3F 95 00 80 65 AF 03 14 01 8A 73 32 21 1B 83 0F 90 00
 	SIM Vodafone 64k
+
+3F 96 18 80 01 80 51 00 61 10 30 9F
+	Atmel/Athena T0 Inverse Convention PC/SC Compliance Test Card No. 2
 
 3B 3F 95 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
 	AT&T Wireless GSM SIM Card
@@ -1031,6 +1034,9 @@
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
 
+3B D6 18 00 80 B1 80 6D 1F 03 80 51 00 61 10 30 9E
+	Atmel/Athena T0 PC/SC Compliance Test Card No. 1
+
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto, http://www.athena-scs.com/product.asp?pid=8
 
@@ -1048,6 +1054,9 @@
 
 3B DE 18 FF C0 80 B1 FE 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 2B
 	Estonian Identity Card (EstEID v1.0 2006 cold)
+
+3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
+	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -1147,6 +1156,9 @@
 3B EF 00 00 40 14 80 25 43 45 52 45 53 57 05 60 01 02 03 90 00
 	FNMT-Ceres Siemens Infineon SLE 20
 	Fábrica Nacional de Moneda y Timbre
+
+3B EF 00 00 81 31 20 49 00 5C 50 43 54 10 27 F8 D2 76 00 00 38 33 00 4D
+	Infineon Technologies PC/SC Compliance Test Card V1.0
 
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
