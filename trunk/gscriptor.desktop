@@ -3,6 +3,5 @@ Name=Gscriptor
 Comment=Send commands to smart cards
 Exec=gscriptor
 Terminal=false
-Encoding=UTF-8
 Type=Application
 Categories=Utility;GTK;
