@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.262 2007-06-26 16:58:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.263 2007-07-31 19:05:49 rousseau Exp $
 #
 
 # syntax:
@@ -513,6 +513,9 @@
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 11 A0 83 90 00
 	UK CapitalOne Platinum Mastercard
+
+3B 6E 00 00 00 31 C0 71 D6 65 A3 03 01 80 00 83 90 00
+	UK First Direct (HSBC) Maestro / Cirrus
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
@@ -1250,6 +1253,9 @@
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
 
+3B F4 18 00 FF 81 31 80 55 00 31 80 00 C7
+	Identity card of Italian Republic
+
 3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
 	Contactless Mifare Ultralight
 
@@ -1379,6 +1385,10 @@
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
 
+3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
+	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
+	Carta Nazionale dei Servizi (Italia) http://cartaservizi.regione.fvg.it/
+
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
 
@@ -1418,6 +1428,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 58 45 00 06 15 8C
 	Stadtsparkasse München electronic cash card / Geldkarte
+
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 73 07 00 06 15 E5
+	Sparkasse Acchen HBCI Geld Karte
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 74 32 00 06 15 D7
 	German HBCI-Banking Card with 'Geldkarte' from the bank "Sparkasse Marburg-Biedenkopf"
@@ -1599,6 +1612,9 @@
 
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
+
+3F 6C 00 00 3C A0 30 9E 61 00 00 01 00 04 90 00
+	Gemplus - British Gas - Gascard
 
 3F 6C 00 00 3C A0 30 A7 58 00 00 01 01 8C 90 00
 	Rendezvous Series 7 (D2-Mac satellite TV card)
