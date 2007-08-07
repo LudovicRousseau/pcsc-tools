@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.263 2007-07-31 19:05:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.264 2007-08-07 17:15:17 rousseau Exp $
 #
 
 # syntax:
@@ -1469,6 +1469,12 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 06 60 03 04 06 13 87
 	Geldkarte (Volksbank Offenburg, Germany)
 
+3B FF 18 00 FF 81 31 .. 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
+	Geldkarte (generic ATR)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 20 90 03 09 06 13 5C
+	Geldkarte [ec, Maestro] (1822 direkt Frankfurter Sparkasse, Germany)
+
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 43 50 01 17 06 13 E3
 	EC-Card of Sparkasse Pforzheim Calw
 
@@ -1483,6 +1489,9 @@
 	it "S-Card" or "Sparkassen-Card". the banks name is "Stadtsparkasse
 	Duesseldorf" and is part of the "Sparkassen-Finanzgruppe" (a finance
 	group, network of local banks).
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 56 00 03 18 06 20 92
+	Geldkarte [ec, Maestro] (Sparkasse Langen-Seligenstadt, Germany)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 1A 01 41 02 50 00 10 52 09 05 67 05 10 21
 	Maestro/Geldkarte (BBBank Karlsruhe, Germany)
