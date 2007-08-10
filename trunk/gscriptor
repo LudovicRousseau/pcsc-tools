@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.41 2007-08-10 21:02:43 rousseau Exp $
+# $Id: gscriptor,v 1.42 2007-08-10 21:08:30 rousseau Exp $
 
 use strict;
 use warnings;
@@ -864,8 +864,8 @@ sub RunScript {
 	} else {
 		MessageBox ("The Chipcard::PCSC::Card object is not connected!\nDo you want to connect?",
 		"question",
-		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {RunScript();}}],
-		['CANCEL']);
+		['CANCEL'],
+		['OK', sub {ConnectDefaultReader(); if (defined $hCard->{hCard}) {RunScript();}}]);
 	}
 	RefreshResult();
 }
