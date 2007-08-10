@@ -18,7 +18,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: scriptor,v 1.19 2007-05-19 13:15:01 rousseau Exp $
+# $Id: scriptor,v 1.20 2007-08-10 21:03:14 rousseau Exp $
 
 use Getopt::Std;
 use Chipcard::PCSC;
@@ -156,7 +156,7 @@ while (<IN_FILEHANDLE>) {
 	my $res = Chipcard::PCSC::array_to_ascii($RecvData);
 	$sw = Chipcard::PCSC::Card::ISO7816Error(substr($res, -5));
 	$res =~ s/($match)/$1\n/g;
-	print OUT_FILEHANDLE "< $res : " .  Chipcard::PCSC::Card::ISO7816Error(substr($res, -5)) . "\n";
+	print OUT_FILEHANDLE "< $res : $sw\n";
 
 	# empty the command
 	$cmd = "";
