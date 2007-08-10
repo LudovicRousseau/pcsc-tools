@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.40 2006-05-26 20:37:04 rousseau Exp $
+# $Id: gscriptor,v 1.41 2007-08-10 21:02:43 rousseau Exp $
 
 use strict;
 use warnings;
@@ -842,6 +842,7 @@ sub RunScript {
 
 			# Extract bytes from the ascii string
 			$raCurrentCommand = Chipcard::PCSC::ascii_to_array($cmd);
+			$cmd = "";
 
 			# push them in the Display structure
 			push @ResultStruct, "Sending: ";
