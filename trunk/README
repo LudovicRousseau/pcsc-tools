@@ -129,6 +129,12 @@ Licences:
 History:
 ========
 
+1.4.10 - 10 August 2007, Ludovic ROUSSEAU
+    - 25 new ATR
+    - scriptor: correctly display the ISO7816 error code even when the
+      line is splitted
+    - gscriptor: the line continuation feature was broken
+
 1.4.9 - 1 June 2007, Ludovic ROUSSEAU
     - 69 new ATR
     - pcsc_scan.c: use pcsc_stringify_error() to display a human
@@ -282,6 +288,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.35 2007-06-01 14:08:59 rousseau Exp $
+$Id: README,v 1.36 2007-08-10 21:25:04 rousseau Exp $
 
  vim:ts=8
