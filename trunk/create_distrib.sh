@@ -1,8 +1,11 @@
 #/bin/sh -e
 
-# $Id: create_distrib.sh,v 1.4 2002-10-15 17:06:29 rousseau Exp $
+# $Id: create_distrib.sh,v 1.5 2007-08-10 21:23:24 rousseau Exp $
 
 # $Log: not supported by cvs2svn $
+# Revision 1.4  2002-10-15 17:06:29  rousseau
+# add 'make clean' before creating the archive
+#
 # Revision 1.3  2001/10/18 07:22:51  rousseau
 # updated with the version of pcsc-perl
 #
@@ -21,7 +24,7 @@ dir=$(basename $(pwd))
 
 echo -e "Using $dir as directory name\n"
 
-rv=$(echo $dir | sed -e 's/.*-[0-9]\.[0-9]\.[0-9]/ok/')
+rv=$(echo $dir | sed -e 's/.*-[0-9]\.[0-9]\+\.[0-9]\+/ok/')
 if [ $rv != "ok" ]
 then
 	echo "ERROR: The directory name should be in the form foo-bar-x.y.z"
