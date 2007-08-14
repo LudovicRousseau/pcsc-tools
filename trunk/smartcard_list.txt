@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.264 2007-08-07 17:15:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.265 2007-08-14 15:55:53 rousseau Exp $
 #
 
 # syntax:
@@ -485,6 +485,9 @@
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
+
+3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 80 90 00
+	MasterCard Card - bonus plus (paypass) - Garanti Bank / Turkey
 
 3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 83 90 00
 	MasterCard Card - bonus YKM - Garanti Bank / Turkey
@@ -1510,6 +1513,9 @@
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
+
+3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 02 32 41 00
+	Turkcell SIMPlus64 / Turkey
 
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	D-Trust Signature Card (www.d-trust.net):
