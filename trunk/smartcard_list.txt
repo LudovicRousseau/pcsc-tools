@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.266 2007-08-21 19:06:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.267 2007-08-21 19:09:17 rousseau Exp $
 #
 
 # syntax:
@@ -52,6 +52,7 @@
 
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
+	Bahn BKK (Deutsche Bahn AG - Insurance Company)
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
@@ -1426,6 +1427,9 @@
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 08 65 07 64 00 0D 91 04 90 00 06 16 0E
+	German Railway's (Deutsche Bahn AG) "Konzernausweis"
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 04 50 02 80 00 08 90 09 70 00 05 00 2A
 	Landesbank baden-Württemberg Geldkarte
