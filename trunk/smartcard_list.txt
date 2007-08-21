@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.265 2007-08-14 15:55:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.266 2007-08-21 19:06:23 rousseau Exp $
 #
 
 # syntax:
@@ -48,6 +48,7 @@
 
 3B 04 49 32 43 2E
 	German Health Insurance Card
+	"LogCard" from concept2.com (a indoor rower manufacturer)
 
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
@@ -766,6 +767,9 @@
 
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport
+
+3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
+	SafeNet IKey4000
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
 	Philips MIFARE Standard (1 Kbytes EEPROM)
