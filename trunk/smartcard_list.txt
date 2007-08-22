@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.267 2007-08-21 19:09:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.268 2007-08-22 13:33:16 rousseau Exp $
 #
 
 # syntax:
@@ -854,6 +854,9 @@
 	Hutchison/3 3G USIM
 	J+ SWIM WIB UMTS SIM Test card
 	  http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
+
+3B 9D 95 80 1F C3 80 31 E0 52 4B 54 62 11 03 73 FE 21 1B 8F
+	KT WiBro UICC (2.3 GHz mobile WiMAX in South Korea)
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
