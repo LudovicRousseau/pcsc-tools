@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.269 2007-08-22 14:43:53 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.270 2007-08-28 19:12:26 rousseau Exp $
 #
 
 # syntax:
@@ -931,8 +931,41 @@
 3B B0 11 00 81 31 90 73 F2
 	SamOS 2.7
 
+3B B2 11 00 10 80 00 01
+	Atmel memory card AT88SC0104C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
 3B B2 11 00 10 80 00 02
-	AT88SC0204C (Atmel memory card)
+	Atmel memory card AT88SC0204C (Atmel memory card)
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B2 11 00 10 80 00 04
+	Atmel memory card AT88SC0404C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B2 11 00 10 80 00 08
+	Atmel memory card AT88SC0808C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B2 11 00 10 80 00 16
+	Atmel memory card AT88SC1616C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B3 11 00 00 00 00 32
+	Atmel memory card AT88SC3216C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B3 11 00 00 00 00 64
+	Atmel memory card AT88SC6416C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B3 11 00 00 00 01 28
+	Atmel memory card AT88SC12816C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+
+3B B3 11 00 00 00 02 56
+	Atmel memory card AT88SC25616C
+	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
 
 3B B2 11 00 10 80 00 08
 	Smart VR Card - GD Burti
