@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.270 2007-08-28 19:12:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.271 2007-08-30 18:55:24 rousseau Exp $
 #
 
 # syntax:
@@ -338,6 +338,9 @@
 
 3B 66 00 00 31 4B 01 01 00 80
 	VISA credit card (Skandiabanken)
+
+3B 66 00 FF 4A 43 4F 50 33 30
+	JCOP30 "OP-DI 16k VISA v2 (JCOP30) ORGA"
 
 3B 66 00 FF 4A 43 4F 50 30 33
 	IBM JCOP 30
@@ -1350,6 +1353,9 @@
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
+
+3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 34 31 56
+	JCOP41 V221
 
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
