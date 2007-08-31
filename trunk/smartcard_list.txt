@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.271 2007-08-30 18:55:24 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.272 2007-08-31 16:16:03 rousseau Exp $
 #
 
 # syntax:
@@ -324,7 +324,7 @@
 	JCOP20
 
 3B 65 00 00 29 05 01 02 01
-	ActivCard (Schlumberger) CyberFlex 64K V1
+	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
 
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
@@ -332,9 +332,16 @@
 3B 65 00 00 9C 02 02 07 02
 	US Department of Defense, TEST Common Access Card (CAC)
 	Schlumberger Cyberflex Access #2
+	Axalto Cyberflex Access 32K V2 
 
 3B 65 00 00 9C 1[0,1] 01 01 03
 	Schlumberger Cyberflex Palmera
+
+3B 66 00 00 00 9C 11 01 01 03
+	 Axalto Cyberflex Access 32K V4 SM 1.3
+
+3B 66 00 00 00 9C 11 01 03 01
+	Axalto Cyberflex Access 64K V1 Bio SM 3.1
 
 3B 66 00 00 31 4B 01 01 00 80
 	VISA credit card (Skandiabanken)
@@ -442,11 +449,14 @@
 	GemXpresso Pro R3 with 64K EEPROM
 
 3B 6B 00 00 80 65 B0 83 01 03 74 83 00 90 00
-	Gemplus GemXpresso PRO 64 PK
+	Gemplus GemXpresso PRO 64K R3 v1
 
 3B 6B 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GXP3 64V2N
 	U.S. Department of Defense Common Access Card (DoD CAC)
+
+3B 6B 00 FF 33 00 00 09 FA 10 00 80 01 FF FF
+	 Atmel 6464C PRO 64K
 
 3B 6B .. FF 80 62 .. A2 56 46 69 6E 45 49 44
 	JCOP20 v2.x
@@ -589,6 +599,7 @@
 
 3B 75 12 00 00 29 05 01 04 01
 	CAC Cryptographic Service Provider
+	Axalto Cyberflex Access 64K V1 SM 4.1
 
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
@@ -626,6 +637,9 @@
 
 3B 7B 94 00 00 80 65 B0 83 01 0[1,3] 74 83 00 90 00
 	Gemplus GemXpresso Pro R3 (E64 PK)
+
+3B 7B 95 00 00 80 65 B0 83 01 04 74 83 00 90 00
+	Gemplus GemXpresso Pro 64K R3 FIPS v2
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00 
 	Oberthur Galactic V2
@@ -676,13 +690,13 @@
 	http://www.runningserver.com/?page=runningserver.content.download.ecos
 
 3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
-	DoD CAC, Oberthur CosmopolIC V4
+	DoD CAC, Oberthur CosmopolIC 32K V4
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3 (32k)
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 04 00 82 90 00
-	Oberthur CosmopolIC
+	Oberthur CosmopolIC 32K v4 Fast ATR
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
@@ -729,6 +743,12 @@
 
 3B 86 40 20 68 01 01 02 04 AC
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
+
+3B 85 40 FF 63 01 01 03 01
+	 Axalto Cryptoflex 16K
+
+3B 85 40 FE 68 01 01 02 04
+	  Axalto CryptoFlex 8K
 
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
@@ -816,6 +836,9 @@
 
 3B 95 94 40 FF 63 01 01 02 01
 	Schlumberger Cryptoflex 16Ko
+
+3B 95 95 40 FF AE 01 01 02 03
+	Axalto Cyberflex Access 64K v2a SM 2.3
 
 3B 95 95 40 FF AE 01 03 00 00
 	Axalto - Cyberflex 64K
@@ -1084,6 +1107,9 @@
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
+
+3B D5 95 04 00 AE 01 02 01 01
+	Axalto Cyberflex Access 64K v2b SM 1.1
 
 3B D6 18 00 80 B1 80 6D 1F 03 80 51 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1
@@ -1426,6 +1452,9 @@
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
 
+3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 77
+	Giesecke & Devrient SmartCafe Expert 32K v2.0 #2 
+
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 39 00 04 02 05 02 E9
 	German "Geldkarte" supplied by the Deutsche Bank in Karlsruhe,
 	Baden-Württemberg, Germany.
@@ -1442,6 +1471,9 @@
 
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
+
+3B FF 18 00 FF 80 31 FE 45 53 6D 40 72 74 43 61 66 65 45 78 70 65 72 74 65
+	Giesecke & Devrient SmartCafe 32K v1
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 00 26 00 04 10 09
 	Maestrocard/Geldkarte (Postbank, Germany)
@@ -1687,6 +1719,9 @@
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gemplus GemXpresso 211PK or 211PK-IS
+
+3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 92 00 90 00
+	Gemplus GemXpresso 32K
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
