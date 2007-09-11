@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.273 2007-09-11 20:01:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.274 2007-09-11 20:15:28 rousseau Exp $
 #
 
 # syntax:
@@ -49,6 +49,10 @@
 3B 04 49 32 43 2E
 	German Health Insurance Card
 	"LogCard" from concept2.com (a indoor rower manufacturer)
+	I2C card
+
+3B 04 92 23 10 91
+	Siemens SLE 4432/42 card
 
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
@@ -141,6 +145,7 @@
 	GSM-SIM DNA Finland (from 2001)
 
 3B 1F 11 80 6A 80 34 46 49 53 45 53 94 36 FF 07 90 00
+	SetCOS 3.4.0c
 	RSA SecurID 3100
 
 3B 1F 94 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
@@ -700,6 +705,7 @@
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 04 00 82 90 00
 	Oberthur CosmopolIC 32K v4 Fast ATR
+	Oberthur Authentic
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
@@ -756,8 +762,14 @@
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
 
+3B 86 80 01 4A 43 4F 50 33 31 13
+	JCOP BIO 31 Contactless Card
+
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
+
+3B 88 81 31 20 55 00 57 69 6E 43 61 72 64 29
+	SmartCard for Windows 1.0
 
 3B 89 00 91 26 91 06 00 01 22 01 00
 	BT Cellnet SIM
@@ -765,6 +777,9 @@
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
+
+3B 89 40 14 47 47 32 36 4D 35 32 38 30
+	GSM-SIM e-plus (1800MHz)
 
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
@@ -776,8 +791,14 @@
 	Contactless MTCOS
 	http://www.masktech.de/
 
-3B 89 40 14 47 47 32 36 4D 35 32 38 30
-	GSM-SIM e-plus (1800MHz)
+3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
+	SPK 2.5 D1
+
+3B 8A 80 01 00 64 05 5C 02 03 31 80 90 00 16
+	T-System Contactless Netkey Card
+
+3B 8A 80 01 00 64 05 76 02 03 31 80 90 00 3C
+	T-System Contactless TCOS Min
 
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
@@ -791,6 +812,9 @@
 
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
+
+3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
+	ISO 14443B Type T = CL Infineon Card
 
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport
@@ -876,6 +900,9 @@
 3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 00 04 08
 	XPlusTV & INXCT Access Card-9 (FIRECrypt)
 
+3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
+	MioCOS 1.0
+
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec (http://www.miotec.fi) smartcard running Miocos 2.0 on an Atmel AT90SC646
 
@@ -895,16 +922,19 @@
 
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
 	Setec / FINEID
+	SETEC Instant EID
 
 3B 9F 94 40 1E 00 67 16 43 46 49 53 45 10 52 66 FF 81 90 00
-	RSA SecurID 3100 or SETEC or a Utimaco Safeware Smartcard
+	RSA SecurID 3100 or Utimaco Safeware Smartcard
+	SetCOS 4.3.1 Revision Unknown
 
 3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 90 00
-	SLE66CX160S running SETCOS 4.3.1
+	SLE66CX160S running SETCOS 4.3.1 Revision A
 
 3B 9F 94 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 18
 	SetCOS 4.3.0 32K RSA
 	Instant EID IP2
+	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 8D
 	GSM-SIM EMT (Estonia, WPKI eID support)
@@ -914,6 +944,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 04 A5 83 0F 90 00 88
 	Cingular "64Ksmartchip" GSM SIM
+
+3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
+	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
 
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
@@ -1008,12 +1041,19 @@
 3B B7 18 00 81 31 FE 65 53 50 4B 32 34 90 00 5A
 	Giesecke & Devrient Starcos 2.4
 
+3B B7 18 00 C0 3E 31 FE 65 53 50 4B 32 34 90 00 25
+	G&D STARCOS SPK 2.4
+
 3B B7 94 00 81 31 FE 65 53 50 4B 32 32 90 00 D0
 	Giesecke & Devrient STARCOS SPK2.2
 
 3B B7 94 00 81 31 FE 65 53 50 4B 32 33 90 00 D1
 	Giesecke & Devrient Starcos 2.3
 	Deutsche Bank WebSign (RSA-Card)
+	G&D StarSign Token
+
+3B B8 13 00 81 31 20 5D 00 57 69 6E 43 61 72 64 02
+	SmartCard for Windows 1.1
 
 3B B9 94 00 40 14 47 47 33 4E 48 38 36 34 30
 	GSM-SIM card of the Austrian mobile phone provider One, http://www.one.at
@@ -1021,9 +1061,11 @@
 
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
+	TCOS 2.0 (on CR80S)
 	 Cryptokarte with RSA-Controller, T=1 Protocol
 
 3B BA 14 00 81 31 86 5D 00 64 05 14 02 02 31 80 90 00 91
+	TCOS 2.0 (on CX160S)
 	Telesec TCOS 2 (SLE66)
 
 3B BA 94 00 40 14
@@ -1035,6 +1077,8 @@
 
 3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66
 	Telesec TCOS 2 (SLE66P)
+	TCOS 2.0 (on CX320P)
+	TeleSec Netkey Card
 
 3B BA 96 00 81 31 86 5D 00 64 05 7B 02 03 31 80 90 00 7D
 	TeleSec NetKey Card
@@ -1171,6 +1215,7 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 32 30 06
 	IBM JCOP 20/16
+	IBM JCOP20 with MIFARE
 	or Datakey Smart Card Model 330J
 	(http://www.datakey.com/products/smart_cards/products_sc_330j.shtml)
 
@@ -1248,6 +1293,9 @@
 
 3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 BC
 	Electronic Purse (Elton Senegal)
+
+3B EF 00 FF 81 31 50 45 65 63 0D 24 20 02 80 00 05 08 33 56 10 01 02 43
+	German ec card
 
 3B EF 00 FF 81 31 20 75 42 61 73 69 63 43 61 72 64 20 5A 43 33 2E 33 8C
 	ZeitControl BasicCard Enhanced 3.3
@@ -1353,6 +1401,7 @@
 
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
 	IBM JCOP BIO31
+	IBM JCOP BIO31 Java card
 
 3B F7 11 00 01 40 96 54 30 04 0E 6C B6 D6 90 00
 	PIC16F876-04/SP (PICCard2) or
@@ -1454,6 +1503,9 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 08 76
+	SmartCafe Expert Java
 
 3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 77
 	Giesecke & Devrient SmartCafe Expert 32K v2.0 #2 
