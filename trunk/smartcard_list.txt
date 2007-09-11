@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.272 2007-08-31 16:16:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.273 2007-09-11 20:01:07 rousseau Exp $
 #
 
 # syntax:
@@ -90,6 +90,9 @@
 
 3B 16 94 81 10 06 01 81 3F
 	Schlumberger Cyberflex Access Crypto
+
+3B 16 96 41 73 74 72 69 64
+	Gemalto .NET v2.0
 
 3B 17 13 9C 12 02 01 01 07 40
 	Schlumberger Cyberflex Access Developer 32k
