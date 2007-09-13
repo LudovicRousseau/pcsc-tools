@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.274 2007-09-11 20:15:28 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.275 2007-09-13 20:06:12 rousseau Exp $
 #
 
 # syntax:
@@ -580,20 +580,9 @@
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 30 55 55 55 55 55 55
 	Buypass card for Norsk Tipping (http://norsk-tipping.no)
 
-3B 6F 00 00 80 5A 08 03 03 00 00 00 24 22 0E E7 82 90 00
-	Navigo (contact mode)
-
-3B 6F 00 00 80 5A 08 03 03 00 00 00 24 2A 4A 09 82 90 00
-	Navigo (contact mode)
-
-3B 6F 00 00 80 5A 08 03 03 00 00 00 24 2E C1 0D 82 90 00
-	passe Navigo, carte intégrale RATP (French metro in Paris)
-
-3B 6F 00 00 80 5A 0A 01 03 20 03 11 24 34 A3 C7 82 90 00
-	Navigo Imagine R ((French metro in Paris)
-
-3B 6F 00 00 80 5A 08 03 04 00 02 00 23 65 4A 4C 82 90 00
-	RATP NaviGo Travel Card pass from Ile-de-France
+3B 6F 00 00 80 5A .. 0[1-5] .. .. .. .. .. .. .. .. 82 90 00
+	Card supporting a Calypso application Rev 1
+	Typically: French "Navigo" transport card
 
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
