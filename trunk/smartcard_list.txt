@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.276 2007-09-16 13:14:50 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.277 2007-09-16 13:18:01 rousseau Exp $
 #
 
 # syntax:
@@ -566,6 +566,12 @@
 
 3B 6F 00 00 00 67 2. 43 46 49 53 45 12 52 66 FF 81 90 00
 	Setec SetCOS 4.3.2
+
+3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
+	Bancomer Mexican Bank
+
+3B 6F 00 00 80 31 C0 52 16 B9 64 05 66 80 32 83 83 90 00
+	Banorte Mexican Bank
 
 3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
 	Norsk-Tipping (Buypass) Monodex card
