@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.275 2007-09-13 20:06:12 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.276 2007-09-16 13:14:50 rousseau Exp $
 #
 
 # syntax:
@@ -579,6 +579,18 @@
 
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 30 55 55 55 55 55 55
 	Buypass card for Norsk Tipping (http://norsk-tipping.no)
+
+3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
+	Multos Developer Sample
+	
+3B 6F 00 00 80 31 E0 6B 84 06 0E 02 02 55 55 55 55 55 55
+	Multos Developer Sample
+
+3B 6F 00 00 80 31 E0 6B 84 20 05 02 39 55 55 55 55 55 55
+	Multos 14D (2-0-10) 64K Developer Card
+
+3B 6F 00 00 80 31 E0 6B 84 20 05 02 42 55 55 55 55 55 55
+	Multos 14Dc(6-0-13) 64K Dual-Interface Developer Card
 
 3B 6F 00 00 80 5A .. 0[1-5] .. .. .. .. .. .. .. .. 82 90 00
 	Card supporting a Calypso application Rev 1
