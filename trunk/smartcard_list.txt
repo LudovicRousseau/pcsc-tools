@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.279 2007-09-21 07:22:40 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.280 2007-09-30 12:38:43 rousseau Exp $
 #
 
 # syntax:
@@ -532,6 +532,7 @@
 
 3B 6E 00 00 00 31 C0 71 86 65 01 78 01 27 34 83 90 00
 	UK NatWest ServiceCard 100 Maestro
+	Visa Card - Gold - CARDFINANS  / Turkey
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
