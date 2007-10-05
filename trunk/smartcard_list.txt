@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.281 2007-10-05 14:51:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.282 2007-10-05 16:29:17 rousseau Exp $
 #
 
 # syntax:
@@ -317,7 +317,7 @@
 	AT&T Wireless GSM SIM Card
 
 3B 57 18 02 93 02 01 01 01 90 00
-	 Easyflex FastOS 2.0 / Schlumberger
+	Easyflex FastOS 2.0 / Schlumberger
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
@@ -346,7 +346,7 @@
 	Schlumberger Cyberflex Palmera
 
 3B 66 00 00 00 9C 11 01 01 03
-	 Axalto Cyberflex Access 32K V4 SM 1.3
+	Axalto Cyberflex Access 32K V4 SM 1.3
 
 3B 66 00 00 00 9C 11 01 03 01
 	Axalto Cyberflex Access 64K V1 Bio SM 3.1
@@ -467,7 +467,7 @@
 	U.S. Department of Defense Common Access Card (DoD CAC)
 
 3B 6B 00 FF 33 00 00 09 FA 10 00 80 01 FF FF
-	 Atmel 6464C PRO 64K
+	Atmel 6464C PRO 64K
 
 3B 6B .. FF 80 62 .. A2 56 46 69 6E 45 49 44
 	JCOP20 v2.x
@@ -507,7 +507,7 @@
 	Gemplus GemXpresso Lite
 
 3B 6D 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
-	 DeutscheBank Identification card
+	DeutscheBank Identification card
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
@@ -689,7 +689,7 @@
 	GemXpresso R4 64k
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
-	 Gemplus X-Presso Pro 64k
+	Gemplus X-Presso Pro 64k
 
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
@@ -765,10 +765,10 @@
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
 
 3B 85 40 FF 63 01 01 03 01
-	 Axalto Cryptoflex 16K
+	Axalto Cryptoflex 16K
 
 3B 85 40 FE 68 01 01 02 04
-	  Axalto CryptoFlex 8K
+	Axalto CryptoFlex 8K
 
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
@@ -920,7 +920,7 @@
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	Hutchison/3 3G USIM
 	J+ SWIM WIB UMTS SIM Test card
-	  http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
+	http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
 
 3B 9D 95 80 1F C3 80 31 E0 52 4B 54 62 11 03 73 FE 21 1B 8F
 	KT WiBro UICC (2.3 GHz mobile WiMAX in South Korea)
@@ -1076,7 +1076,7 @@
 3B BA 13 00 81 31 86 5D 00 64 05 0A 02 01 31 80 90 00 8B
 	Telesec TCOS 2 (SLE44)
 	TCOS 2.0 (on CR80S)
-	 Cryptokarte with RSA-Controller, T=1 Protocol
+	Cryptokarte with RSA-Controller, T=1 Protocol
 
 3B BA 14 00 81 31 86 5D 00 64 05 14 02 02 31 80 90 00 91
 	TCOS 2.0 (on CX160S)
@@ -1594,8 +1594,8 @@
 	Geldkarte (Frankfurter Sparkasse, Germany)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 03 50 02 80 00 08 27 70 02 06 05 01 8A
-	 old banking card (electronic-card / Maestro / Geldkarte) of the
-	 "Volksbank Gelderland eG" (around 2003)
+	old banking card (electronic-card / Maestro / Geldkarte) of the
+	"Volksbank Gelderland eG" (around 2003)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 05 40 02 50 00 10 55 10 03 03 05 00 43
 	belongs to a banking card (electronic-card / Maestro / Geldkarte).
