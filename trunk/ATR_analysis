@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.36 2007-10-05 16:28:00 rousseau Exp $
+# $Id: ATR_analysis,v 1.37 2007-10-05 16:39:44 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -64,6 +64,7 @@ my ($Y1, $K, @object, $mpcard, $hb_category);
 @UI = ("A only (5V)", "B only (3V)", "A and B", "RFU");
 
 my $COLOR_START="\033[35m";	# magenta
+my $COLOR_BLUE="\033[34m";	# blue
 my $COLOR_END="\033[0m\n";	# default (black)
 
 # prorotypes
@@ -457,7 +458,9 @@ sub find_card($@)
 			# print until a line do not start by a tabulation
 			while (($line = <FILE>) =~ m/^\t/)
 			{
-				print $line;	# print the card description
+				chomp $line;
+				# print the card description
+				print $COLOR_BLUE . $line . $COLOR_END;
 			}
 		}
 	}
