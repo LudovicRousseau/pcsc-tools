@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 #    ATR_analysis
 #    Copyright (C) 2000-2006  Ludovic Rousseau, Christophe Levantis
@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.35 2007-06-01 12:32:35 rousseau Exp $
+# $Id: ATR_analysis,v 1.36 2007-10-05 16:28:00 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
