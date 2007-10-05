@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.280 2007-09-30 12:38:43 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.281 2007-10-05 14:51:18 rousseau Exp $
 #
 
 # syntax:
@@ -426,6 +426,9 @@
 
 3B 69 00 00 24 94 01 03 01 00 01 00 A9
 	Schlumberger MicroPayflex S card
+
+3B 69 00 00 4A 43 4F 50 33 31 56 32 32
+	Visa Europe Sample Card / Axalto
 
 3B 69 00 00 50 01 01 04 01 00 01 01 A9
 	Sample card given to all attendees of the CTST 2004 SmartCard Conference
