@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 
 #    gscriptor: GTK interface to send APDU commands to a smart card
 #    Copyright (C) 2001   Lionel Victor, Ludovic Rousseau
@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.42 2007-08-10 21:08:30 rousseau Exp $
+# $Id: gscriptor,v 1.43 2007-10-06 09:07:45 rousseau Exp $
 
 use strict;
 use warnings;
