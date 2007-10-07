@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.284 2007-10-07 07:44:20 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.285 2007-10-07 07:44:50 rousseau Exp $
 #
 
 # syntax:
@@ -340,7 +340,7 @@
 3B 65 00 00 9C 02 02 07 02
 	US Department of Defense, TEST Common Access Card (CAC)
 	Schlumberger Cyberflex Access #2
-	Axalto Cyberflex Access 32K V2 
+	Axalto Cyberflex Access 32K V2
 
 3B 65 00 00 9C 1[0,1] 01 01 03
 	Schlumberger Cyberflex Palmera
@@ -592,7 +592,7 @@
 
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
-	
+
 3B 6F 00 00 80 31 E0 6B 84 06 0E 02 02 55 55 55 55 55 55
 	Multos Developer Sample
 
@@ -663,7 +663,7 @@
 3B 7B 95 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GemXpresso Pro 64K R3 FIPS v2
 
-3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00 
+3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
 
 3B 7D 11 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
@@ -1525,7 +1525,7 @@
 	SmartCafe Expert Java
 
 3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 77
-	Giesecke & Devrient SmartCafe Expert 32K v2.0 #2 
+	Giesecke & Devrient SmartCafe Expert 32K v2.0 #2
 
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 39 00 04 02 05 02 E9
 	German "Geldkarte" supplied by the Deutsche Bank in Karlsruhe,
