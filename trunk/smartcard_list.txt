@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.287 2007-10-23 19:49:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.288 2007-10-24 15:55:45 rousseau Exp $
 #
 
 # syntax:
@@ -1407,6 +1407,9 @@
 
 3B F4 18 00 FF 81 31 80 55 00 31 80 00 C7
 	Identity card of Italian Republic
+
+3B F4 98 00 FF C1 10 31 FE 55 4D 34 63 76 B4
+	Eutron Digipass 860 (reader + card token)
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
 	Contactless Mifare Ultralight
