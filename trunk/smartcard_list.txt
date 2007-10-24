@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.288 2007-10-24 15:55:45 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.289 2007-10-24 15:56:47 rousseau Exp $
 #
 
 # syntax:
@@ -1404,6 +1404,9 @@
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
+
+3B F4 18 00 02 C1 0A 31 FE 58 56 34 63 76 C5
+	Eutron CryptoIdentity (reader + card token)
 
 3B F4 18 00 FF 81 31 80 55 00 31 80 00 C7
 	Identity card of Italian Republic
