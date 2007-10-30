@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.17 2007-10-07 07:40:49 rousseau Exp $
+# $Id: Makefile,v 1.18 2007-10-30 22:35:57 rousseau Exp $
 
 # PC/SC Lite libraries and headers.
 PCSC_CFLAGS ?= `pkg-config libpcsclite --cflags`
@@ -8,13 +8,13 @@ PCSC_LDLIBS ?= `pkg-config libpcsclite --libs`
 DESTDIR ?= /usr/local
 
 VERSION=`echo \`pwd\` | sed s/.*tools-//`
-#CFLAGS=-Wall -O2 -g -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
-#LDLIBS=$(PCSC_LDLIBS)
+CFLAGS=-Wall -O2 -g -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
+LDLIBS=$(PCSC_LDLIBS)
 # On xBSD systems use
 #LDLIBS=-lc_r $(PCSC_LDLIBS)
 # on MacOSX
-CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\" -framework PCSC
-LDLIBS=-framework PCSC
+#CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\" -framework PCSC
+#LDLIBS=-framework PCSC
 
 BIN=pcsc_scan
 BIN_SCRIPT=ATR_analysis gscriptor scriptor
