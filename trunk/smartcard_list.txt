@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.289 2007-10-24 15:56:47 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.290 2007-10-30 21:12:54 rousseau Exp $
 #
 
 # syntax:
@@ -380,6 +380,9 @@
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
 	Bank Card (ING - Belgium)
+
+3B 67 00 00 7D 20 40 34 3B 90 00
+	Nordea Visa Sweden
 
 3B 67 00 00 85 20 36 30 78 90 00
 	Belgium Fortis Bank
