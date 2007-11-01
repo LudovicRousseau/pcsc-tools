@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.290 2007-10-30 21:12:54 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.291 2007-11-01 15:50:23 rousseau Exp $
 #
 
 # syntax:
@@ -1428,6 +1428,9 @@
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 88 00 00 00 8D
 	Contactless Mifare 1k or 4k
+
+3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 00 81 86
+	American Express Blue RFID
 
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 32 30 0E
 	IBM JCOP20
