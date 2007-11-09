@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.291 2007-11-01 15:50:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.292 2007-11-09 20:39:48 rousseau Exp $
 #
 
 # syntax:
@@ -1678,6 +1678,9 @@
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 01 01 43 4E 53 10 31 80 9F
 	Carta Nazionale dei Servizi - InfoCamere
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 01 01 44 53 44 10 31 80 92
+	Postcom S.P.A. (digital certificate)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 10 31 80 8F
 	Carta Regionale dei Servizi - Regione Lombardia
