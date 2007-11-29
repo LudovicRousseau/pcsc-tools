@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.293 2007-11-28 12:42:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.294 2007-11-29 19:38:05 rousseau Exp $
 #
 
 # syntax:
@@ -1398,6 +1398,9 @@
 
 3B F2 18 00 02 C1 0A 31 FE 58 C8 09 75
 	Siemens CardOS V4.2B
+
+3B F2 18 00 02 C1 0A 31 FE 58 C8 0B 77
+	CardOS V4.2C (SLE66CX360PE dual interface)
 
 3B F2 18 00 FF C1 0A 31 FE 55 C8 06 8A
 	Siemens CardOS M 4.2 (SLE66CX642P)
