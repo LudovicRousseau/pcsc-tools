@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.294 2007-11-29 19:38:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.295 2007-12-04 21:12:59 rousseau Exp $
 #
 
 # syntax:
@@ -344,6 +344,7 @@
 	US Department of Defense, TEST Common Access Card (CAC)
 	Schlumberger Cyberflex Access #2
 	Axalto Cyberflex Access 32K V2
+	Sun Microsystems employee card
 
 3B 65 00 00 9C 1[0,1] 01 01 03
 	Schlumberger Cyberflex Palmera
@@ -438,6 +439,10 @@
 
 3B 69 00 00 50 01 01 04 01 00 01 01 A9
 	Sample card given to all attendees of the CTST 2004 SmartCard Conference
+
+3B 69 00 00 56 49 53 5F 49 4E 46 20 06
+	VISA credit card (Ceska Sporitelna)
+	Maestro credit card (Ceska Sporitelna)
 
 3B 69 00 FF 53 6D 40 72 74 43 61 66 65
 	G&D (Giesecke&Devrient) Sm@rtCafé
