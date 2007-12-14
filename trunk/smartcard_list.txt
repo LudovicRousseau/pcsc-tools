@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.296 2007-12-08 14:31:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.297 2007-12-14 10:02:38 rousseau Exp $
 #
 
 # syntax:
@@ -457,6 +457,9 @@
 	Danish Visa/Dankort
 	UK MBNA MasterCard
 	Visa Card - Worldcard - YapıKredi / Turkey
+
+3B 6A 00 FF 41 42 43 44 32 45 46 47 48 49
+	Austria card - JCOP 31/36K
 
 3B 6B 00 00 00 31 80 64 2D A0 02 0C 8C 61 27
 	SmartEMV prototype
@@ -1509,6 +1512,9 @@
 
 3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 02 00 82 90 00 76
 	Oberthur ID-One Cosmo
+
+3B FB 96 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 0F 90 00 E2
+	Elektroniczna Legitymacja Studencka - Polish Student's ID Issued in Poznan in 2007
 
 3B FB 98 00 FF C1 10 31 FE 55 00 64 05 20 47 03 31 80 00 90 00 F3
 	Gemplus GemGate 32K
