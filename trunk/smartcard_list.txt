@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.297 2007-12-14 10:02:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.298 2007-12-15 13:44:38 rousseau Exp $
 #
 
 # syntax:
@@ -1604,6 +1604,9 @@
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 14 06 00 04 10 3D
 	Geldkarte/HBCI(DDV-1) (Staedtische Sparkasse Offenbach, Germany)
+
+3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 14 44 00 04 10 7F
+	Geldkarte/HBCI (Kreissparkasse Ebersberg, Deutschland)
 
 3B FF 18 00 FF 81 31 3C 45 65 63 0D 02 31 02 50 00 10 90 55 70 00 04 10 0A
 	EC-Card from DKB (Deutsche Kreditbank AG)
