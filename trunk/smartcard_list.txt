@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.298 2007-12-15 13:44:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.299 2007-12-30 20:42:23 rousseau Exp $
 #
 
 # syntax:
@@ -60,6 +60,11 @@
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
+
+3B 06 81 24 80 80 90 00
+	10€ credit card for TV & telephone in Jerez de la
+	Frontera hospital's rooms. The maker can be found at www.isernsa.com
+	(ISERN Medical Telecomunications)
 
 3B 06 A2 13 10 91 90 00
 	C3P2K SAMPLE CARD (C3PO, S.L)
