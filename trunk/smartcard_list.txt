@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.299 2007-12-30 20:42:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.300 2008-01-05 11:13:30 rousseau Exp $
 #
 
 # syntax:
@@ -1504,7 +1504,7 @@
 	stores PKI private keys/certificates)
 
 3B FA 98 00 FF C1 10 31 FE 55 C8 04 53 41 47 5F 50 4B 49 32 70
-	Siemens Belgium Corporate Card
+	Siemens Corporate Card (Belgium , Germany)
 
 3B FB 13 00 FF 81 31 80 75 5A 43 36 2E 35 20 52 45 56 20 43 64
 	ZeitControl BasicCard 6.5, multiapplication with 30 kByte EEPROM
