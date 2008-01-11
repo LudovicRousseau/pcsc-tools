@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.300 2008-01-05 11:13:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.301 2008-01-11 12:24:49 rousseau Exp $
 #
 
 # syntax:
@@ -912,6 +912,9 @@
 
 3B 95 95 40 FF D0 00 1A 01 01
 	Cyberflex Access 64k (v3)
+
+3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
+	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (hot reset)
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
