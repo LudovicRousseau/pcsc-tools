@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.301 2008-01-11 12:24:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.302 2008-01-13 13:47:35 rousseau Exp $
 #
 
 # syntax:
@@ -283,6 +283,9 @@
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
 	Mobistar SIM - Belgium (Gemplus)
+
+3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
+	meteor ireland http://www.meteor.ie
 
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
@@ -963,6 +966,9 @@
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
+	3 ireland http://www.three.ie
+
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
 	Setec / FINEID
 	SETEC Instant EID
@@ -978,6 +984,9 @@
 	SetCOS 4.3.0 32K RSA
 	Instant EID IP2
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
+
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 05 01 04 00 00 99
+	T-Mobile Nederlands http://www.tmobile.nl
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 8D
 	GSM-SIM EMT (Estonia, WPKI eID support)
