@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.303 2008-01-20 14:27:34 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.304 2008-01-26 12:20:40 rousseau Exp $
 #
 
 # syntax:
@@ -550,6 +550,9 @@
 3B 6E 00 00 00 31 80 71 86 65 47 44 24 01 81 83 90 00
 	MasterCard Card - Maximum - IS Bank / Turkey
 	Visa Card - Axess - Akbank / Turkey
+
+3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
+	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
