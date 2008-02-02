@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.304 2008-01-26 12:20:40 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.305 2008-02-02 12:22:30 rousseau Exp $
 #
 
 # syntax:
@@ -602,6 +602,9 @@
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
 
+3B 6F 00 00 80 31 C0 52 13 2F 64 02 19 08 32 83 83 90 00
+	Cajamadrid-UCM (Madrid, Spain) Cash/Visa Electron
+
 3B 6F 00 00 80 31 C0 52 16 B9 64 05 66 80 32 83 83 90 00
 	Banorte Mexican Bank
 
@@ -759,7 +762,7 @@
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
 	WG10
 
-3B 7F 38 00 00 00 6A 44 4E 49 65 20 02 4C 34 01 13 03 90 00
+3B 7F 38 00 00 00 6A 44 4E 49 65 [1,2]0 02 4C 34 01 13 03 90 00
 	DNI electronico (Spanish electronic ID card)
 	http://www.dnielectronico.es
 
