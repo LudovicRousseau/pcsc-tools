@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.27 2007-06-01 13:13:41 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.28 2008-02-02 15:51:00 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 	char *color_end = "";
 
 	printf("PC/SC device scanner\n");
-	printf("V " VERSION " (c) 2001-2007, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
+	printf("V " VERSION " (c) 2001-2008, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 	printf("Compiled with PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
 
 	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
@@ -156,7 +156,7 @@ get_readers:
 	 */
 	printf("%sScanning present readers%s\n", magenta, color_end);
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
-	if (rv != SCARD_S_SUCCESS)
+	if ((rv != SCARD_S_SUCCESS) && (rv != SCARD_E_NO_READERS_AVAILABLE))
 	{
 		printf("SCardListReader: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
 		exit(-1);
@@ -197,9 +197,14 @@ get_readers:
 	{
 		printf("%sWaiting for the first reader...%s", red, color_end);
 		fflush(stdout);
-		while ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
-			== SCARD_S_SUCCESS) && (dwReaders == dwReadersOld))
+		rv = SCARD_S_SUCCESS;
+		while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
+		{
+			rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
+			if (SCARD_E_NO_READERS_AVAILABLE == rv)
+				rv = SCARD_S_SUCCESS;
 			sleep(1);
+		}
 		printf("found one\n");
 		goto get_readers;
 	}
