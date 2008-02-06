@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.305 2008-02-02 12:22:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.306 2008-02-06 07:53:41 rousseau Exp $
 #
 
 # syntax:
@@ -389,6 +389,7 @@
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
 	Bank Card (ING - Belgium)
+	Schipol Group Privium biometric card (Amsterdam Airport entry system)
 
 3B 67 00 00 7D 20 40 34 3B 90 00
 	Nordea Visa Sweden
@@ -925,6 +926,9 @@
 
 3B 95 95 40 FF D0 00 1A 01 01
 	Cyberflex Access 64k (v3)
+
+3B 95 95 40 FF D0 00 31 01 01
+	Cyberflex Access E-gate V3
 
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (hot reset)
