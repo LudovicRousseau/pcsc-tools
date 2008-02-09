@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.307 2008-02-09 09:25:29 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.308 2008-02-09 14:33:56 rousseau Exp $
 #
 
 # syntax:
@@ -1023,6 +1023,7 @@
 
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
+	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
 
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
