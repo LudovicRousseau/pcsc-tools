@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.306 2008-02-06 07:53:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.307 2008-02-09 09:25:29 rousseau Exp $
 #
 
 # syntax:
@@ -302,6 +302,9 @@
 
 3B 3F 94 00 80 65 AF 03 12 01 79 73 32 21 1B 83 0F 90 00
 	UK O2 GSM SIM (2G Online Prepay Maldives)
+
+3F 3D 11 00 80 67 28 50 04 02 20 00 00 83 8E 90 00
+	GSM SIM card of the Austrian provider A1
 
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
@@ -723,6 +726,10 @@
 
 3B 7D 94 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	GXP Pro R3.2 64K, GemSafe applet MPCOS v1.11
+
+3B 7D 95 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
+	Gemalto's Classic TPC HM CC Mifare 1K White PVC
+	(Old name GemSafeXpresso 64K)
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
