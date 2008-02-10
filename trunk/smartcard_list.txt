@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.308 2008-02-09 14:33:56 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.309 2008-02-10 16:20:40 rousseau Exp $
 #
 
 # syntax:
@@ -958,6 +958,9 @@
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
 
+3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
+	GSM SIM Bite.lv prepaid "Toxic"; 2008
+
 3B 9A 96 00 92 03 49 93 16 00 01 21 01 00
 	GSM-SIM card of the Austrian provider Yesss! (http://www.yesss.at)
 
@@ -1151,6 +1154,7 @@
 3B BA 94 00 40 14 47 47 33 52 53 37 31 36 53 30
 	GSM-SIM Viag Interkom E2 Loop (1800MHz)
 	GSM-SIM card of the Austrian A1, http://www.a1.net/privat/home
+	GSM SIM Radiolinja Estonia; 2005
 
 3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66
 	Telesec TCOS 2 (SLE66P)
@@ -1176,6 +1180,7 @@
 
 3B BC 94 00 40 14 47 47 33 53 30 35 31 53 31 30 31 30
 	GSM SIM (Tele2, Estonia)
+	GSM SIM Elisa Estonia; 2007
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 01 90 00
 	ACS (Advanced Card System) ACOS-1
@@ -1584,6 +1589,9 @@
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	Estonian Identity Card (EstEID v1.0 cold)
+
+3B FE 96 00 FF C0 0A 31 FE 4D 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 9B
+	Estonian Identity Card (EstEID v1.0 compatible)
 
 3B FF 11 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D0
 	Datakey 32K PKI Smart Card Model 330
