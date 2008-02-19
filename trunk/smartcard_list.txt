@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.309 2008-02-10 16:20:40 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.310 2008-02-19 12:42:39 rousseau Exp $
 #
 
 # syntax:
@@ -1553,6 +1553,9 @@
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
 	ZeitControl BasicCard Professional 5.4 Revision A
+
+3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 48 AC
+	ZeitControl BasicCard Professional 5.4
 
 3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 02 00 82 90 00 76
 	Oberthur ID-One Cosmo
