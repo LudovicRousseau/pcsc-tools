@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.310 2008-02-19 12:42:39 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.311 2008-02-22 13:16:03 rousseau Exp $
 #
 
 # syntax:
@@ -255,6 +255,9 @@
 3B 2F 00 80 69 10 80 00 01 A1 0A 01 01 59 83 0E 90 00
 	Belgium Dexia (Axion) Bank Card
 	Proton/Bancontact Mister Cash/Maestro
+
+3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06
+	GSM SIM MobilCom (Gemplus)
 
 3B 32 15 00 06 80
 	Schlumberger Multiflex 8k
@@ -1161,6 +1164,9 @@
 	TCOS 2.0 (on CX320P)
 	TeleSec Netkey Card
 
+3B BA 96 00 81 31 86 5D 00 64 05 60 02 03 31 80 90 00 66 70 01 04 05 30 C9
+	TeleSec Netkey E4 Card
+
 3B BA 96 00 81 31 86 5D 00 64 05 7B 02 03 31 80 90 00 7D
 	TeleSec NetKey Card
 	Deutsche Post card (tcos)
@@ -1733,6 +1739,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 46 50 01 08 05 30 27
 	HBCI-Karte (Sparkasse Altmark-West, Salzwedel, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 84 70 01 04 05  30 C9
+	HBCI Card (1822 direkt Frankfurter Sparkasse, Germany) Geldkarte [ec, Maestro]
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 40 50 03 18 06 20 D4
 	banking card (electronic-card / Maestro / Geldkarte). the bank+calls
