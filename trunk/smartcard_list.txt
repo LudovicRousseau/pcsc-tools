@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.311 2008-02-22 13:16:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.312 2008-02-24 08:38:27 rousseau Exp $
 #
 
 # syntax:
@@ -618,6 +618,9 @@
 3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
 	Norsk-Tipping (Buypass) Monodex card
 
+3B 6F 00 00 80 31 E0 6B 04 03 03 04 05 55 55 55 55 55 55
+	Blue American Express Card
+
 3B 6F 00 00 80 31 E0 6B 04 06 03 04 40 55 55 55 55 55 55
 	Blue American Express Card
 
@@ -1123,6 +1126,9 @@
 
 3B B7 18 00 C0 3E 31 FE 65 53 50 4B 32 34 90 00 25
 	G&D STARCOS SPK 2.4
+
+3B B7 94 00 81 31 FE 55 53 50 4B 32 32 90 00 E0
+	Dresdner Bank (a German Bank) Key-Card for InternetBanking
 
 3B B7 94 00 81 31 FE 65 53 50 4B 32 32 90 00 D0
 	Giesecke & Devrient STARCOS SPK2.2
