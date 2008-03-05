@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.313 2008-02-27 10:23:21 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.314 2008-03-05 12:22:43 rousseau Exp $
 #
 
 # syntax:
@@ -1213,6 +1213,9 @@
 
 3B BE 11 00 00 41 01 38 01 00 03 00 00 00 00 00 02 90 00
 	ACOS2 test card from ACS reading off a ACR38U
+
+3B BE 11 00 00 41 01 38 4D 80 0A 80 50 52 4F 56 00 90 00
+	ACS (Advanced Card System) ACOS-3
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 21 00 93 42 00 00 00 00 01
 	Austrian BankCard (Old Version - ca. 2004)
