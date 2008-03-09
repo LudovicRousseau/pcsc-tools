@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.315 2008-03-05 12:39:08 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.316 2008-03-09 15:17:28 rousseau Exp $
 #
 
 # syntax:
@@ -669,6 +669,10 @@
 
 3B 6F 00 FF 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 02
 	Giesecke & Devrient SmartCafe Expert 2.0
+
+3B 6F 00 FF 00 56 72 75 54 6F 6B 6E 73 30 20 00 00 90 00
+	ruToken-S (USB token)
+	http://www.rutoken.ru/products/rutoken/rutoken-s/
 
 3B 75 12 00 00 29 05 01 04 01
 	CAC Cryptographic Service Provider
