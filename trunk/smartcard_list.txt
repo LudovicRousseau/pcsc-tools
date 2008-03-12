@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.317 2008-03-12 09:52:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.318 2008-03-12 14:36:02 rousseau Exp $
 #
 
 # syntax:
@@ -243,6 +243,9 @@
 3B 2A 00 80 65 A2 01 00 00 00 72 D6 43
 	MPCOS_EMV_4B
 
+3B 2A 00 80 65 A2 01 01 01 3D 72 D6 43
+	GEMPLUS Logico Secure SmartCard for Citrix Metaframe
+
 3B 2A 00 80 65 A2 01 .. .. .. 72 D6 41
 	Gemplus MPCOS EMV 1 Byte sectors
 
@@ -320,6 +323,9 @@
 
 3B 3F 94 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
 	GSM-SIM Telefonica Movistar, prepaid (Spain)
+
+3B 3F 94 00 80 69 AF 03 0F 07 A4 00 00 06 0E 83 3E 9F 16
+	SIM Card PRO from the austrian telecom "A1"
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
@@ -894,6 +900,9 @@
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
 
+3B 8A 00 92 02 03 91 08 00 01 01 04 00
+	32K SIM Card from the austrian telecom "ONE"
+
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
 
@@ -1227,12 +1236,18 @@
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 21 00 93 42 00 00 00 00 01
 	Austrian BankCard (Old Version - ca. 2004)
 
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 22 00 25 54 00 00 00 00 A2
+	Austrian BankCard from before 2006
+
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 24 68 30 00 00 00 00 AB
 	Austrian BankCard  (Maestro + Quick) (New Version, since 02/2005,
 	with Digital-Signature etc.)
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 93 66 23 00 00 03 E8 E4
 	Austrian Maestro BankCard +Quick Buergerkarte
+
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 36 54 31 86 00 00 00 00 24
+	Austrian BankCard from 2008
 
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
@@ -1406,6 +1421,9 @@
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
 
+3B EF 00 00 81 31 FE 65 00 5C 50 43 53 D1 91 47 D2 76 00 00 38 33 00 70
+	Siemens/Infineon Sicrypt S26381-F252-V1 GS:03
+
 3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 32 2E 33 BD
 	ZeitControl BasicCard Enhanced 2.3
 
@@ -1499,6 +1517,9 @@
 3B F2 98 00 FF C1 10 31 FE 55 C8 04 12
 	CardOS M4.01a (SLE66CX322P)
 
+3B F3 96 00 FF C0 0A 31 FE 4D 80 31 E0 83
+	MARX Cryptoken (supported by RaakSign)
+
 3B F4 18 00 02 C1 0A 31 FE 58 56 34 63 76 C5
 	Eutron CryptoIdentity (reader + card token)
 
@@ -1569,6 +1590,7 @@
 	OpenPGP
 
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 62
+	JCOP41
 	HID Crescendo C700 http://www.hidcorp.com/
 	Should be compatible to RAAK http://www.raaktechnologies.com/
 
