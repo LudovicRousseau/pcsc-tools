@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.316 2008-03-09 15:17:28 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.317 2008-03-12 09:52:58 rousseau Exp $
 #
 
 # syntax:
@@ -1567,6 +1567,10 @@
 
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
+
+3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 62
+	HID Crescendo C700 http://www.hidcorp.com/
+	Should be compatible to RAAK http://www.raaktechnologies.com/
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
