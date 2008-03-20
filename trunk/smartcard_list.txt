@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.319 2008-03-12 14:49:19 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.320 2008-03-20 19:31:55 rousseau Exp $
 #
 
 # syntax:
@@ -642,6 +642,10 @@
 
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 30 55 55 55 55 55 55
 	Buypass card for Norsk Tipping (http://norsk-tipping.no)
+
+3B 6F 00 00 80 31 E0 6B 04 20 05 02 47 55 55 55 55 55 55
+	"Norsk-Tipping (Buypass) Monodex card"
+	bought from http://buypass.no and used to access norwegian state services at http://altinn.no
 
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55
 	Norsk Tipping online player card <http://www.norsk-tipping.no/>
