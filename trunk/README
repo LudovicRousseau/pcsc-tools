@@ -129,6 +129,10 @@ Licences:
 History:
 ========
 
+1.4.13 - 23 March 2008, Ludovic ROUSSEAU
+    - 29 new ATR
+    - avoid a bug when the last reader is removed
+
 1.4.12 - 2 February 2008, Ludovic ROUSSEAU
     - 18 new ATR
     - handle SCARD_E_NO_READERS_AVAILABLE when no reader is found
@@ -297,6 +301,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.38 2008-02-02 15:56:08 rousseau Exp $
+$Id: README,v 1.39 2008-03-23 17:05:20 rousseau Exp $
 
  vim:ts=8
