@@ -1,6 +1,6 @@
 /*
     Scan and print all the PC/SC devices available
-    Copyright (C) 2001-2007  Ludovic Rousseau <ludovic.rousseau@free.fr>
+    Copyright (C) 2001-2008  Ludovic Rousseau <ludovic.rousseau@free.fr>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.29 2008-03-23 13:33:13 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.30 2008-03-23 17:05:20 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
