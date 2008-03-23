@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.28 2008-02-02 15:51:00 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.29 2008-03-23 13:33:13 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -177,6 +177,7 @@ get_readers:
 		return 1;
 	}
 
+	*mszReaders = '\0';
 	rv = SCardListReaders(hContext, NULL, mszReaders, &dwReaders);
 	if (rv != SCARD_S_SUCCESS)
 	{
