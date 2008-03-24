@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.321 2008-03-24 16:04:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.322 2008-03-24 19:14:21 rousseau Exp $
 #
 
 # syntax:
@@ -431,6 +431,9 @@
 
 3B 68 00 00 56 53 44 43 4C 43 31 30
 	VISA (Estonian), made by www.trueb.ch
+
+3B 68 00 00 80 66 45 46 01 38 18 03
+	FNMT WG108k
 
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
