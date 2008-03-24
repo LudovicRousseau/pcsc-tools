@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.320 2008-03-20 19:31:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.321 2008-03-24 16:04:38 rousseau Exp $
 #
 
 # syntax:
@@ -261,6 +261,9 @@
 
 3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06
 	GSM SIM MobilCom (Gemplus)
+
+3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06 9F 16
+	MobilCom-Karte
 
 3B 32 15 00 06 80
 	Schlumberger Multiflex 8k
@@ -516,6 +519,9 @@
 3B 6D 00 00 00 31 C0 71 D6 64 11 22 33 01 83 90 00
 	UK Barclaycard VISA
 	UK Halifax Platinum VISA
+	First Direct (bank) Maestro card
+	First Direct Gold VISA
+	Egg (bank) VISA
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -989,6 +995,9 @@
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
 
+3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06 9F 16
+	SuperSIM
+
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
 
@@ -1409,6 +1418,9 @@
 	Global Platform v2.0.1 specifications.
 	JCCOS operating system applet (Java-based Cryptographic Card
 	Operating System)
+
+3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
+	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
 
 3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
