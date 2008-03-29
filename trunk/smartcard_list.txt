@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.322 2008-03-24 19:14:21 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.323 2008-03-29 13:05:00 rousseau Exp $
 #
 
 # syntax:
@@ -1249,18 +1249,36 @@
 3B BE 11 00 00 41 01 38 4D 80 0A 80 50 52 4F 56 00 90 00
 	ACS (Advanced Card System) ACOS-3
 
+3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
+	MasterCard credit card
+
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 00 00 00 00 00 00 00 00 F1
+	a.sign premium signature card
+
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 21 00 93 42 00 00 00 00 01
 	Austrian BankCard (Old Version - ca. 2004)
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 22 00 25 54 00 00 00 00 A2
 	Austrian BankCard from before 2006
 
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 09 60 16 00 00 02 3A 90
+	Austrian Maestro bank card
+
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 24 68 30 00 00 00 00 AB
 	Austrian BankCard  (Maestro + Quick) (New Version, since 02/2005,
 	with Digital-Signature etc.)
 
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 27 27 27 00 00 00 00 F0
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 30 51 39 00 00 00 00 8F
+	Austrian student card (with Quick electronic purse)
+
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 93 66 23 00 00 03 E8 E4
 	Austrian Maestro BankCard +Quick Buergerkarte
+
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 95 75 49 00 00 01 F3 82
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 30 26 58 77 00 00 03 0C C7
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 32 07 79 97 00 00 01 CA E1
+	Austrian Maestro bank card
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 36 54 31 86 00 00 00 00 24
 	Austrian BankCard from 2008
@@ -1277,6 +1295,9 @@
 3B BD 18 00 81 31 FE 45 80 51 02 67 04 14 B1 01 01 02 00 81 05 3D
 	Austrian "e-Card" (=Health Card), BRANDNEW (since 06/2005)
 	special Version of Starcos 3.1
+
+3B BD 18 00 81 31 FE 45 80 51 02 67 05 18 B1 02 02 02 01 81 05 31
+	Austrian health insurance card "e-card"
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
 	Giesecke&Devrient SmartCafe 1.1
@@ -1395,6 +1416,9 @@
 
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 A7
 	IBM JCOP v2.2 41
+
+3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
+	Visa credit card
 
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
