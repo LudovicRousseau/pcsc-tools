@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.323 2008-03-29 13:05:00 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.324 2008-03-29 13:05:42 rousseau Exp $
 #
 
 # syntax:
@@ -1270,6 +1270,7 @@
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 27 27 27 00 00 00 00 F0
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 30 51 39 00 00 00 00 8F
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 89 51 61 00 00 00 00 6E
 	Austrian student card (with Quick electronic purse)
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 93 66 23 00 00 03 E8 E4
