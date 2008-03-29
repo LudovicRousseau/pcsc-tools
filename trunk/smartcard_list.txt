@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.324 2008-03-29 13:05:42 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.325 2008-03-29 15:05:12 rousseau Exp $
 #
 
 # syntax:
@@ -998,14 +998,14 @@
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
 
-3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06 9F 16
-	SuperSIM
-
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
 
 3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
 	GSM SIM Bite.lv prepaid "Toxic"; 2008
+
+3B 9A 94 00 92 02 75 93 11 00 01 02 02 00
+	SuperSIM
 
 3B 9A 96 00 92 03 49 93 16 00 01 21 01 00
 	GSM-SIM card of the Austrian provider Yesss! (http://www.yesss.at)
