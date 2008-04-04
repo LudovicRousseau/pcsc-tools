@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.326 2008-04-01 18:47:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.327 2008-04-04 13:48:05 rousseau Exp $
 #
 
 # syntax:
@@ -1648,6 +1648,7 @@
 	JCOP41
 	HID Crescendo C700 http://www.hidcorp.com/
 	Should be compatible to RAAK http://www.raaktechnologies.com/
+	Marx CrypToken MX2048-JCOP USB Token
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
