@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.327 2008-04-04 13:48:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.328 2008-04-20 12:29:04 rousseau Exp $
 #
 
 # syntax:
@@ -1622,6 +1622,9 @@
 
 3B F7 11 00 01 40 96 70 70 17 0E 6C B6 D6
 	Canal Satellite card (VERSION 7.1  SYSTEM / SECA2)
+
+3B F7 11 00 01 40 96 70 71 09 0E 6C B6 D6
+	Carte pour décodeur télé de Neuf Telecom TV
 
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
