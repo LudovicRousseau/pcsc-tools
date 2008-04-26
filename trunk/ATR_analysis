@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.37 2007-10-05 16:39:44 rousseau Exp $
+# $Id: ATR_analysis,v 1.38 2008-04-26 13:34:21 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -105,6 +105,7 @@ if ($opt_h or ($#ARGV == -1))
 
 # 1_ get the ATR
 $atr = join " ", @ARGV;
+$atr =~ s/://g;
 if (substr ($atr, 2, 1) ne " ")
 {
 	# "3BA7004018" -> "3B A7 00 40 18"
