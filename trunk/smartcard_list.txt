@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.329 2008-05-07 18:57:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.330 2008-05-07 18:58:51 rousseau Exp $
 #
 
 # syntax:
@@ -697,6 +697,9 @@
 3B 75 12 00 00 29 05 01 04 01
 	CAC Cryptographic Service Provider
 	Axalto Cyberflex Access 64K V1 SM 4.1
+
+3B 75 13 00 00 43 09 EA 90 00
+	Vitale 2 (french health card)
 
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
