@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.328 2008-04-20 12:29:04 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.329 2008-05-07 18:57:17 rousseau Exp $
 #
 
 # syntax:
@@ -767,6 +767,12 @@
 3B 7D 94 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	GXP Pro R3.2 64K, GemSafe applet MPCOS v1.11
 
+3B 7D 94 00 00 80 31 80 65 B0 83 11 00 AC 83 00 90 00
+	GemCombiXpresso R4 72K
+
+3B 7D 94 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
+	GemXpresso R4 72K
+
 3B 7D 95 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	Gemalto's Classic TPC HM CC Mifare 1K White PVC
 	(Old name GemSafeXpresso 64K)
@@ -904,6 +910,9 @@
 3B 8A 80 01 4A 43 4F 50 34 31 56 32 32 31 7F
 	NXP JCOP 41 v2.2.1 72k RFID I/F
 
+3B 8A 80 01 80 65 A2 01 01 01 3D 72 D6 43 97
+	Gemplus GemXpresso Pro R3 E32 PK (combi)
+
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
@@ -952,6 +961,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 14 00 00 00 00 77
 	Philips ICode
 	RFID - ISO 15693 - Philips Semiconductors
+
+3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
+	GemCombiXpresso R4 72K (contactless interface)
 
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
