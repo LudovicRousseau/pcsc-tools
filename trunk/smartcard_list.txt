@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.330 2008-05-07 18:58:51 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.331 2008-05-07 19:02:11 rousseau Exp $
 #
 
 # syntax:
@@ -2066,6 +2066,9 @@
 
 3F 78 13 25 03 40 B0 20 FF FF 4A 50 00
 	DSS/DTV P4
+
+3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
+	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 30 48
 	DSS/DISH ROM10
