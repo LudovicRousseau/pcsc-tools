@@ -130,9 +130,16 @@ Licences:
 History:
 ========
 
+1.4.14 - 11 May 2008, Ludovic ROUSSEAU
+    - 24 new ATR
+    - gscriptor, scriptor: use SCARD_SHARE_SHARED instead of
+      SCARD_SHARE_EXCLUSIVE to not lock the card
+    - ATR_analysis: add support for ATR with : as byte separator (ATR
+      reported by "opensc-tool --atr" for example)
+
 1.4.13 - 23 March 2008, Ludovic ROUSSEAU
     - 29 new ATR
-    - avoid a bug when the last reader is removed
+    - pcsc_scan: avoid a bug when the last reader is removed
 
 1.4.12 - 2 February 2008, Ludovic ROUSSEAU
     - 18 new ATR
@@ -302,6 +309,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.40 2008-05-11 13:30:55 rousseau Exp $
+$Id: README,v 1.41 2008-05-11 13:33:53 rousseau Exp $
 
  vim:ts=8
