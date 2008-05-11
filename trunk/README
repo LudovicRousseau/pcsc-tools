@@ -109,7 +109,8 @@ Licences:
 =========
 
     pcsc-tools
-    Copyright (C) 2001-2006  Lionel VICTOR, Ludovic ROUSSEAU
+    Copyright (C) 2001       Lionel VICTOR
+    Copyright (C) 2001-2008  Ludovic ROUSSEAU
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -301,6 +302,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.39 2008-03-23 17:05:20 rousseau Exp $
+$Id: README,v 1.40 2008-05-11 13:30:55 rousseau Exp $
 
  vim:ts=8
