@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.332 2008-05-21 06:45:21 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.333 2008-05-21 12:26:49 rousseau Exp $
 #
 
 # syntax:
@@ -1653,6 +1653,10 @@
 
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
+
+3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 32 A8
+	JCOP31 / 72B1 V2.2
+	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
 
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
