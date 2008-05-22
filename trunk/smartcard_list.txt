@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.333 2008-05-21 12:26:49 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.334 2008-05-22 16:03:58 rousseau Exp $
 #
 
 # syntax:
@@ -194,6 +194,9 @@
 
 3B 26 00 11 06 23 03 90 00
 	Tarjeta de la Seguridad Social (Spanish Social Insurance Card)
+
+3B 26 00 31 08 6C 03 90 00
+	VISA ELECTRON from Caixa Catalunya bank card (www.caixacatalunya.es) for students in UPC university of Barcelona (Spain) (www.upc.es)
 
 3B 27 00 80 65 A2 .. 01 01 37
 	Gemplus GemSAFE Smart Card (4K)
@@ -1301,11 +1304,15 @@
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 95 75 49 00 00 01 F3 82
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 30 26 58 77 00 00 03 0C C7
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 32 04 95 84 00 00 00 00 D6
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 32 07 79 97 00 00 01 CA E1
 	Austrian Maestro bank card
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 36 54 31 86 00 00 00 00 24
 	Austrian BankCard from 2008
+
+3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 01 69 71 85 00 00 00 00 77
+	Austrian "easybank" branded Mastercard, issued 2007
 
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
