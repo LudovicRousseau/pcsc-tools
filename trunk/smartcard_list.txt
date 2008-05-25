@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.334 2008-05-22 16:03:58 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.335 2008-05-25 15:09:19 rousseau Exp $
 #
 
 # syntax:
@@ -523,11 +523,13 @@
 	Datacard Group Aptura Development Card V1.1b
 
 3B 6D 00 00 00 31 C0 71 D6 64 11 22 33 01 83 90 00
-	UK Barclaycard VISA
-	UK Halifax Platinum VISA
+	Egg (bank) VISA
 	First Direct (bank) Maestro card
 	First Direct Gold VISA
-	Egg (bank) VISA
+	UK Barclaycard Platinum VISA
+	UK Barclaycard VISA
+	UK Halifax Platinum VISA
+	UK HSBC MasterCard
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -578,6 +580,9 @@
 3B 6E 00 00 00 31 80 71 86 65 47 44 24 01 81 83 90 00
 	MasterCard Card - Maximum - IS Bank / Turkey
 	Visa Card - Axess - Akbank / Turkey
+
+3B 6E 00 00 00 31 C0 65 77 B2 01 03 47 71 D6 8C 61 31
+	UK Barclaycard Business VISA
 
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
 	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
@@ -1651,6 +1656,9 @@
 
 3B F7 11 00 01 40 96 70 70 17 0E 6C B6 D6
 	Canal Satellite card (VERSION 7.1  SYSTEM / SECA2)
+
+3B F7 11 00 01 40 96 70 70 67 0E 6C B6 D6
+	UK TopUp TV
 
 3B F7 11 00 01 40 96 70 71 09 0E 6C B6 D6
 	Carte pour décodeur télé de Neuf Telecom TV
