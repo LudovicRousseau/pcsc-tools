@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.336 2008-05-27 16:34:06 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.337 2008-05-27 16:35:52 rousseau Exp $
 #
 
 # syntax:
@@ -1360,6 +1360,9 @@
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
+
+3B D5 18 00 81 31 3A 7D 80 73 C8 21 10 30
+	Aladdin eToken NG-Flash with 256MB of flash memory
 
 3B D5 95 04 00 AE 01 02 01 01
 	Axalto Cyberflex Access 64K v2b SM 1.1
