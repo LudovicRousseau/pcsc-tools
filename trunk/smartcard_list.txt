@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.337 2008-05-27 16:35:52 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.338 2008-06-17 08:12:47 rousseau Exp $
 #
 
 # syntax:
@@ -188,6 +188,9 @@
 
 3B 26 00 00 26 40 00 90 00
 	Schlumberger, purse?
+
+3B 26 00 11 01 6D 03
+	OLD CajaMadrid Visa Cash, ID card for Universidad Autónoma de Madrid, Madrid (about 1998)
 
 3B 26 00 11 04 5C 03 90 00
 	Caixa Abierta (Barcelona, Spain) Cash/Visa Electron
