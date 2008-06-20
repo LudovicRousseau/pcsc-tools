@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.338 2008-06-17 08:12:47 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.339 2008-06-20 18:30:04 rousseau Exp $
 #
 
 # syntax:
@@ -314,6 +314,9 @@
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
+
+3B 3F 94 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
+	GSM SIM Card (GEMPLUS), issued by Orange Switzerland (Prepaid)
 
 3B 3F 94 00 80 65 AF 03 12 01 79 73 32 21 1B 83 0F 90 00
 	UK O2 GSM SIM (2G Online Prepay Maldives)
@@ -1505,6 +1508,9 @@
 
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
+
+3B EF 00 00 81 31 FC 45 80 31 80 65 11 11 23 10 02 53 41 43 45 81 04 12
+	VISA card issued by UBS, Switzerland
 
 3B EF 00 00 81 31 FE 65 00 5C 50 43 53 D1 91 47 D2 76 00 00 38 33 00 70
 	Siemens/Infineon Sicrypt S26381-F252-V1 GS:03
