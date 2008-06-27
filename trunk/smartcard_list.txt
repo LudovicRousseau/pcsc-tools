@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.339 2008-06-20 18:30:04 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.340 2008-06-27 10:13:17 rousseau Exp $
 #
 
 # syntax:
@@ -496,6 +496,7 @@
 	Danish Visa/Dankort
 	UK MBNA MasterCard
 	Visa Card - Worldcard - YapıKredi / Turkey
+	VISA - Lloyds TSB DEBIT
 
 3B 6A 00 FF 41 42 43 44 32 45 46 47 48 49
 	Austria card - JCOP 31/36K
@@ -607,7 +608,8 @@
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
-	Visa Card - Maximum - Oyak Bank / Turkey
+	VISA Card - Maximum - Oyak Bank / Turkey
+	VISA - Barclays Premier
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 11 A0 83 90 00
 	UK CapitalOne Platinum Mastercard
@@ -653,6 +655,9 @@
 
 3B 6F 00 00 80 31 E0 5B 59 54 4C 00 00 00 00 00 00 02 00
 	Turkish Armed Force - Daily Social Facility Usage Card
+
+3B 6F 00 00 80 31 E0 6B 01 03 05 02 E0 55 55 55 55 55 55
+	American Express Gold Credit Card
 
 3B 6F 00 00 80 31 E0 6B 04 03 03 04 05 55 55 55 55 55 55
 	Blue American Express Card
