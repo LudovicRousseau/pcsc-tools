@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.340 2008-06-27 10:13:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.341 2008-07-04 23:10:34 rousseau Exp $
 #
 
 # syntax:
@@ -1153,6 +1153,9 @@
 
 3B AB 00 81 31 40 45 80 31 C0 65 08 06 80 00 00 00 00 84
 	Reloadable Visa Cash card (Schlumberger), Bank of America
+
+3B AC 00 40 2A 00 12 25 00 64 80 00 03 10 00 90 00
+	Sesam Vitale card CPS (Carte Profesionnel de Santé)
 
 3B AD 00 40 FF 80 31 80 65 B0 05 01 01 5E 83 00 90 00
 	Dallas Semiconductor iButton
