@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.341 2008-07-04 23:10:34 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.342 2008-07-28 08:24:37 rousseau Exp $
 #
 
 # syntax:
@@ -570,6 +570,9 @@
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
+
+3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 05
+	Giesecke & Devrient CardToken 350 (ICCD)
 
 3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 80 90 00
 	MasterCard Card - bonus plus (paypass) - Garanti Bank / Turkey
