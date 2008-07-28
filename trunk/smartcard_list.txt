@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.342 2008-07-28 08:24:37 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.343 2008-07-28 08:29:51 rousseau Exp $
 #
 
 # syntax:
@@ -126,6 +126,9 @@
 
 3B 19 94 31 02 05 10 45 98 01 02 4E
 	GSM-SIM EMT (Estonia)
+
+3B 1C 94 43 48 49 50 44 52 49 56 45 30 30 31
+	SCM Chipdrive MyKey MasterKey 24k
 
 3B 1F 11 00 67 42 41 46 49 53 45 53 52 66 FF 81 90 00
 	Finnish student id card
