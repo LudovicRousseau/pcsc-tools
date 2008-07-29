@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.344 2008-07-28 08:33:32 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.345 2008-07-29 15:51:17 rousseau Exp $
 #
 
 # syntax:
@@ -298,6 +298,9 @@
 3B 3B 94 00 67 37 10 00 00 39 60 33 33 90 00
 	Avea GSM / Turkey
 
+3B 3B 94 00 69 3C 10 30 01 3E 40 33 00 90 00
+	UK Vodafone GSM SIM
+
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
 	Mobistar SIM - Belgium (Gemplus)
@@ -353,6 +356,7 @@
 
 3B 3F 95 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
 	AT&T Wireless GSM SIM Card
+	UK Virgin Mobile GSM SIM
 
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
@@ -374,6 +378,7 @@
 
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
+	UK Lloyds TSB Visa Debit (issued 2003, Gemplus)
 
 3B 65 00 00 9C 02 02 07 02
 	US Department of Defense, TEST Common Access Card (CAC)
@@ -503,6 +508,7 @@
 	UK MBNA MasterCard
 	Visa Card - Worldcard - YapıKredi / Turkey
 	VISA - Lloyds TSB DEBIT
+	UK Halifax Visa Debit
 
 3B 6A 00 FF 41 42 43 44 32 45 46 47 48 49
 	Austria card - JCOP 31/36K
@@ -564,6 +570,13 @@
 	UK Nationwide Bank Visa Delta
 	UK First Direct Maestro
 	UK Halifax Platinum Visa
+	UK Co-operative Bank Visa Debit (produced 2003-2004)
+
+3B 6D 00 00 00 31 80 64 2D A0 04 0C 71 96 8C 61 29
+	UK Co-operative Bank Visa Debit (produced 2002)
+
+3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
+	UK Co-operative Bank Visa Debit (produced 2006)
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
@@ -606,6 +619,7 @@
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
+	UK Royal Bank of Scotland Highline Maestro Debit
 
 3B 6E 00 00 00 31 C0 71 86 65 01 78 01 27 34 83 90 00
 	UK NatWest ServiceCard 100 Maestro
@@ -1087,6 +1101,9 @@
 3B 9D 95 80 1F C3 80 31 E0 52 4B 54 62 11 03 73 FE 21 1B 8F
 	KT WiBro UICC (2.3 GHz mobile WiMAX in South Korea)
 
+3B 9D 95 80 1F C3 80 63 AF 03 A0 73 1A 21 1B 83 0F 90 00 F4
+	Greece TIM GSM SIM
+
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
@@ -1095,6 +1112,7 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
 	3 ireland http://www.three.ie
+	UK '3' network GSM-3G SIM
 
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
 	Setec / FINEID
@@ -1609,6 +1627,9 @@
 
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
+
+3B EF 00 FF 81 31 FF 65 49 42 4D 20 4D 46 43 39 32 32 39 32 38 39 30 17
+	IBM MFC 4.22 (University of Cambridge smartchip card)
 
 3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
 	Siemens CardOS V4.3
