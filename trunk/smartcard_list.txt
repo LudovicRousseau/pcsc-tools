@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.345 2008-07-29 15:51:17 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.346 2008-07-30 16:43:15 rousseau Exp $
 #
 
 # syntax:
@@ -105,6 +105,9 @@
 
 3B 17 13 9C 12 02 01 01 07 40
 	Schlumberger Cyberflex Access Developer 32k
+
+3B 17 94 18 01 01 01 01 41 93
+	T-Mobile SIM card
 
 3B 17 94 18 01 01 02 01 41 49
 	white SFR SIM card
