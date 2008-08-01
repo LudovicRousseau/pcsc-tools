@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.346 2008-07-30 16:43:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.347 2008-08-01 21:27:08 rousseau Exp $
 #
 
 # syntax:
@@ -824,6 +824,9 @@
 3B 7D 95 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	Gemalto's Classic TPC HM CC Mifare 1K White PVC
 	(Old name GemSafeXpresso 64K)
+
+3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
+	CAC card (GEMALTO GCX4 72K DI)
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
