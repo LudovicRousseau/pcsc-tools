@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.347 2008-08-01 21:27:08 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.348 2008-08-06 18:37:34 rousseau Exp $
 #
 
 # syntax:
@@ -612,6 +612,10 @@
 3B 6E 00 00 00 31 80 71 86 65 47 44 24 01 81 83 90 00
 	MasterCard Card - Maximum - IS Bank / Turkey
 	Visa Card - Axess - Akbank / Turkey
+
+3B 6E 00 00 00 31 C0 65 76 B4 01 01 60 71 D6 8C 61 1F
+	MasterCard Silver from Viseca Card Services SA
+	http://www.viseca.ch/html/en/kreditkarten/produkte_neutrale_karten.php
 
 3B 6E 00 00 00 31 C0 65 77 B2 01 03 47 71 D6 8C 61 31
 	UK Barclaycard Business VISA
