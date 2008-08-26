@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.350 2008-08-17 11:10:18 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.351 2008-08-26 16:08:29 rousseau Exp $
 #
 
 # syntax:
@@ -53,6 +53,9 @@
 
 3B 04 92 23 10 91
 	Siemens SLE 4432/42 card
+
+3B 04 99 FF FF 20
+	used for parkimeters/Parkings in Madrid
 
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
@@ -1776,6 +1779,10 @@
 3B FA 98 00 FF C1 10 31 FE 55 C8 04 53 41 47 5F 50 4B 49 32 70
 	Siemens Corporate Card (Belgium , Germany)
 
+3B FB 11 00 00 40 78 80 59 53 50 59 52 55 53 AE 02 02
+	Rosetta® Series II Smart Card manufactured by Spyrus
+	http://spyrus.com/products/rosetta_smart_usb.asp
+
 3B FB 13 00 FF 81 31 80 75 5A 43 36 2E 35 20 52 45 56 20 43 64
 	ZeitControl BasicCard 6.5, multiapplication with 30 kByte EEPROM
 
@@ -1820,6 +1827,10 @@
 
 3B FE 91 00 FF 91 81 71 FE 40 00 41 28 00 01 80 81 00 73 C8 40 00 00 90 00 4D
 	Philips SmartMX chip (IBMs JCOP OS)
+
+3B FE 91 00 FF 91 81 71 FE 40 00 41 28 00 11 33 B0 4A 43 4F 50 33 31 56 32 C4
+	JCOP31 72K
+	dual interface functionality, 1K Mifare emulation.
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	Estonian Identity Card (EstEID v1.0 cold)
