@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.39 2008-05-21 06:42:37 rousseau Exp $
+# $Id: ATR_analysis,v 1.40 2008-08-29 17:35:45 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -184,6 +184,12 @@ print "+ Historical bytes: @object\n";
 if ($#object+1 < $K)
 {
 	print " ERROR! ATR is truncated: " . ($K - $#object -1) . " byte(s) is/are missing\n";
+}
+if ($#object+1 > $K)
+{
+	my $extra = -($K - $#object -1);
+	print " ERROR! ATR is too long: " . $extra . " extra byte(s). Truncating.\n";
+	splice @object, $K;
 }
 analyse_histrorical_bytes();
 
