@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.351 2008-08-26 16:08:29 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.352 2008-09-03 07:57:40 rousseau Exp $
 #
 
 # syntax:
@@ -787,6 +787,9 @@
 
 3B 7B 18 00 00 00 31 C0 64 77 E3 03 00 82 90 00
 	Oberthur Cosmopolic 64K v5.2 D
+
+3B 7B 18 00 00 00 31 C0 64 77 E9 10 00 01 90 00
+	Oberthur Card Systems: Cosmo 64 RSA V5.4 (ISK Key Set: 404142 .. 4E4F)
 
 3B 7B 94 00 00 80 62 11 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
