@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.31 2008-09-07 11:42:16 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.32 2008-09-07 11:48:34 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,9 +41,20 @@
 
 /* command used to parse (on screen) the ATR */
 #define ATR_PARSER "ATR_analysis"
+
 #ifndef SCARD_E_NO_READERS_AVAILABLE
 #define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
 #endif
+
+#ifdef __APPLE__
+/* DWORD is uint32_t */
+#define DWORD_FORMAT "(0x%08X)"
+#else
+/* DWORD is unsigned long */
+#define DWORD_FORMAT "(0x%08lX)"
+#endif
+
+#define LOG(cmd, rc) printf(cmd ": %s " DWORD_FORMAT "\n", pcsc_stringify_error(rv), rv)
 
 void usage(void)
 {
@@ -127,13 +138,12 @@ int main(int argc, char *argv[])
 				}
 			}
 		}
-
 	}
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	if (rv != SCARD_S_SUCCESS)
 	{
-		printf("SCardEstablishContext: Cannot Connect to Resource Manager: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
+		LOG("SCardEstablishContext", rv);
 		return 1;
 	}
 
@@ -161,7 +171,7 @@ get_readers:
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if ((rv != SCARD_S_SUCCESS) && (rv != SCARD_E_NO_READERS_AVAILABLE))
 	{
-		printf("SCardListReader: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
+		LOG("SCardListReader", rv);
 		exit(-1);
 	}
 	dwReadersOld = dwReaders;
@@ -184,7 +194,8 @@ get_readers:
 	rv = SCardListReaders(hContext, NULL, mszReaders, &dwReaders);
 	if (rv != SCARD_S_SUCCESS)
 	{
-		printf("SCardListReader: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
+		LOG("SCardListReader", rv);
+		exit(-1);
 	}
 
 	/* Extract readers from the null separated string and get the total
@@ -373,14 +384,12 @@ get_readers:
 	} /* while */
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
-	printf("SCardGetStatusChange: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
+	LOG("SCardGetStatusChange", rv);
 	
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
 	if (rv != SCARD_S_SUCCESS)
-	{
-		printf("SCardReleaseContext: %s (0x%lX)\n", pcsc_stringify_error(rv), rv);
-	}
+		LOG("SCardReleaseContext", rv);
 
 	/* free memory possibly allocated */
 	if (NULL != readers)
