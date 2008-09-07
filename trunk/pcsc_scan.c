@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.30 2008-03-23 17:05:20 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.31 2008-09-07 11:42:16 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -41,6 +41,9 @@
 
 /* command used to parse (on screen) the ATR */
 #define ATR_PARSER "ATR_analysis"
+#ifndef SCARD_E_NO_READERS_AVAILABLE
+#define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
+#endif
 
 void usage(void)
 {
