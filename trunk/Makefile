@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.18 2007-10-30 22:35:57 rousseau Exp $
+# $Id: Makefile,v 1.19 2008-09-07 11:42:16 rousseau Exp $
 
 # PC/SC Lite libraries and headers.
 PCSC_CFLAGS ?= `pkg-config libpcsclite --cflags`
@@ -13,7 +13,7 @@ LDLIBS=$(PCSC_LDLIBS)
 # On xBSD systems use
 #LDLIBS=-lc_r $(PCSC_LDLIBS)
 # on MacOSX
-#CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\" -framework PCSC
+#CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\"
 #LDLIBS=-framework PCSC
 
 BIN=pcsc_scan
