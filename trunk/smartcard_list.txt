@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.352 2008-09-03 07:57:40 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.353 2008-09-09 19:10:31 rousseau Exp $
 #
 
 # syntax:
@@ -1785,6 +1785,9 @@
 3B FB 11 00 00 40 78 80 59 53 50 59 52 55 53 AE 02 02
 	Rosetta® Series II Smart Card manufactured by Spyrus
 	http://spyrus.com/products/rosetta_smart_usb.asp
+
+3B FB 11 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 00 90 00 6A
+	OCS ID-One Cosmo Card USB Token
 
 3B FB 13 00 FF 81 31 80 75 5A 43 36 2E 35 20 52 45 56 20 43 64
 	ZeitControl BasicCard 6.5, multiapplication with 30 kByte EEPROM
