@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.353 2008-09-09 19:10:31 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.354 2008-09-13 10:04:50 rousseau Exp $
 #
 
 # syntax:
@@ -1111,6 +1111,9 @@
 
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec (http://www.miotec.fi) smartcard running Miocos 2.0 on an Atmel AT90SC646
+
+3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
+	Vodafone Ireland SIM card
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	Hutchison/3 3G USIM
