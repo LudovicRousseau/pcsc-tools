@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.354 2008-09-13 10:04:50 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.355 2008-09-21 14:02:26 rousseau Exp $
 #
 
 # syntax:
@@ -1527,6 +1527,9 @@
 
 3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
 	Visa credit card
+
+3B E9 00 FF C1 10 31 FE 55 00 64 05 00 C8 02 31 80 00 47
+	Identity card of Italian Republic
 
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
