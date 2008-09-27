@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.356 2008-09-24 11:37:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.357 2008-09-27 15:55:01 rousseau Exp $
 #
 
 # syntax:
@@ -1835,6 +1835,10 @@
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
+
+3B FD 18 00 FF 80 B1 FE 45 1F 07 80 73 00 21 13 57 4A 54 48 61 31 47 00 5F
+	Activkey Sim
+	http://www.actividentity.com/products/activkey_usb_tokens__home.php
 
 3B FD 94 00 00 81 31 20 43 80 31 80 65 B0 83 02 04 7E 83 00 90 00 B6
 	GXPPRo-R3.x STD PTS T=1
