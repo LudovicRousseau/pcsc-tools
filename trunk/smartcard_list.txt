@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.357 2008-09-27 15:55:01 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.358 2008-09-30 18:56:15 rousseau Exp $
 #
 
 # syntax:
@@ -381,6 +381,9 @@
 
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
+
+3B 65 00 00 43 04 6C 90 00
+	Carte Bancaire (French banking card) (hot reset)
 
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
