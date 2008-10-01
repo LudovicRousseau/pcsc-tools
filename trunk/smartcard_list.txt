@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.358 2008-09-30 18:56:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.359 2008-10-01 21:24:36 rousseau Exp $
 #
 
 # syntax:
@@ -1896,6 +1896,10 @@
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
 	Carta Nazionale dei Servizi (Italia) http://cartaservizi.regione.fvg.it/
+
+3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 21 01 43 4E 53 10 31 80 59
+	CNS - Carta Nazionale dei Servizi (Italia)
+	PA emittente: Regione Autonoma della Sardegna
 
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
