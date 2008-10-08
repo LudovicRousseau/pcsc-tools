@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.359 2008-10-01 21:24:36 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.360 2008-10-08 11:38:32 rousseau Exp $
 #
 
 # syntax:
@@ -715,6 +715,9 @@
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55
 	Norsk Tipping online player card <http://www.norsk-tipping.no/>
 	Norwegian government controlled betting company
+
+3B 6F 00 00 80 31 E0 6B 05 08 05 02 83 55 55 55 55 55 55
+	Bank of Montreal debit card
 
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
