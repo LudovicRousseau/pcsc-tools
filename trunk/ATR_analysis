@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.40 2008-08-29 17:35:45 rousseau Exp $
+# $Id: ATR_analysis,v 1.41 2008-10-08 18:57:27 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -484,7 +484,7 @@ sub find_card($@)
 		print "If your ATR is still not in the latest version then please send a mail\n";
 		print "to <ludovic.rousseau\@free.fr> containing:\n";
 		print "- your ATR\n";
-		print "- a card description\n";
+		print "- a card description (in english)\n";
 	}
 } # find_card($)
 
