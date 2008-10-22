@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.361 2008-10-08 18:53:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.362 2008-10-22 12:47:07 rousseau Exp $
 #
 
 # syntax:
@@ -1226,6 +1226,9 @@
 3B AC 00 40 2A 00 12 25 00 64 80 00 03 10 00 90 00
 	Sesam Vitale card CPS (Carte Profesionnel de Santé)
 
+3B AC 00 40 2A 00 12 25 00 64 80 82 02 12 00 90 00
+	Sesam Vitale card CPS (Carte Profesionnel de Santé)
+	
 3B AD 00 40 FF 80 31 80 65 B0 05 01 01 5E 83 00 90 00
 	Dallas Semiconductor iButton
 	JIB
