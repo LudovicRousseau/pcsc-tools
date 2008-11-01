@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.32 2008-09-07 11:48:34 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.33 2008-11-01 17:58:25 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -167,7 +167,7 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-	printf("%sScanning present readers%s\n", magenta, color_end);
+	printf("%sScanning present readers...%s\n", red, color_end);
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if ((rv != SCARD_S_SUCCESS) && (rv != SCARD_E_NO_READERS_AVAILABLE))
 	{

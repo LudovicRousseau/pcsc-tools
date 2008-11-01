@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.362 2008-10-22 12:47:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.363 2008-11-01 17:58:25 rousseau Exp $
 #
 
 # syntax:
@@ -77,6 +77,9 @@
 
 3B 0A 20 62 0C 01 4F 53 45 99 14 AA
 	GSM-SIM BEN (1800MHz)
+
+3B 0F 00 65 46 53 05 16 05 71 DF 00 00 00 45 50 53
+	ePass3000
 
 3B 0F 80 6A 16 32 46 49 53 45 53 8C E0 FF 07 90 00
 	GSM-SIM Sonera (from 1998)
