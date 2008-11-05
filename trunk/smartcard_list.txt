@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.363 2008-11-01 17:58:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.364 2008-11-05 12:11:18 rousseau Exp $
 #
 
 # syntax:
@@ -844,6 +844,10 @@
 	Gemalto's Classic TPC HM CC Mifare 1K White PVC
 	(Old name GemSafeXpresso 64K)
 
+3B 7D 95 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
+	Portuguese identity card
+	http://www.cartaodecidadao.pt
+
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
 
@@ -852,6 +856,11 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	Gemplus X-Presso Pro 64k
+
+3B 7D 96 00 00 80 31 80 65 B0 83 11 C0 C8 83 00 90 00
+	TOP IM GX4 from Gemalto (was GemXpresso R4)
+	Java Card 2.2.1
+	Global Platform 2.1.1 (amendment A)
 
 3B 7D 96 00 00 80 31 80 65 B0 93 11 D0 A9 83 00 90 00
 	Gemalto Classic TPC (Trusted PKI Card) IM
@@ -1675,6 +1684,9 @@
 
 3B EF 00 FF 81 31 FF 65 49 42 4D 20 4D 46 43 39 32 32 39 32 38 39 30 17
 	IBM MFC 4.22 (University of Cambridge smartchip card)
+
+3B F0 12 00 FF 91 81 B1 7C 45 1F 03 99
+	Japanese Chijou Digital B-CAS Card (pay TV)
 
 3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
 	Siemens CardOS V4.3
