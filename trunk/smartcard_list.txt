@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.365 2008-11-05 14:59:03 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.366 2008-11-09 15:39:13 rousseau Exp $
 #
 
 # syntax:
@@ -1051,6 +1051,7 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 FF 88 00 00 00 00 1C
 	Infineon Mifare SLE 66R35
+	http://www.infineon.com/cms/en/product/channel.html?channel=ff80808112ab681d0112ab69686e01ee
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 00 00 00 00 00 63
 	RFID - ISO 15693 - EM Microelectronic-Marin SA
