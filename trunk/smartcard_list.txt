@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.366 2008-11-09 15:39:13 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.367 2008-11-15 16:20:33 rousseau Exp $
 #
 
 # syntax:
@@ -1429,6 +1429,10 @@
 
 3B BE 18 00 00 41 05 10 00 00 00 00 00 00 00 00 00 90 00
 	ACS ACOS5 "ACOS5-32-G" http://www.acs.com.hk/acos5.asp
+
+3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
+	SAM inside the Tikitag reader from Alcatel-Lucent
+	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
 
 3B BD 18 00 81 31 FE 45 80 51 02 67 04 14 B1 01 01 02 00 81 05 3D
 	Austrian "e-Card" (=Health Card), BRANDNEW (since 06/2005)
