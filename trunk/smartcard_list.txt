@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.368 2008-11-18 19:42:39 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.369 2008-11-18 19:58:38 rousseau Exp $
 #
 
 # syntax:
@@ -387,6 +387,9 @@
 
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
+
+3B 65 00 00 41 56 49 4F 4E
+	RBC (Royal Bank of Canada) Avion Visa
 
 3B 65 00 00 43 04 6C 90 00
 	Carte Bancaire (French banking card) (hot reset)
