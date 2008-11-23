@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.369 2008-11-18 19:58:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.370 2008-11-23 08:52:16 rousseau Exp $
 #
 
 # syntax:
@@ -2092,6 +2092,9 @@
 
 3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
 	Giesecke & Devrient STARSIM
+
+3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
+	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
