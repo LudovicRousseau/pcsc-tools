@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.370 2008-11-23 08:52:16 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.371 2008-11-28 12:13:33 rousseau Exp $
 #
 
 # syntax:
@@ -1105,6 +1105,9 @@
 
 3B 95 95 40 FF D0 00 31 01 01
 	Cyberflex Access E-gate V3
+
+3B 95 95 40 FF D0 00 54 01 31
+	Portuguese identity card, http://www.cartaodecidadao.pt
 
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
