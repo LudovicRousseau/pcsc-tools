@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.371 2008-11-28 12:13:33 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.372 2008-11-29 13:36:52 rousseau Exp $
 #
 
 # syntax:
@@ -1126,6 +1126,9 @@
 
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
+
+3B 9A 94 00 91 01 00 17 00 01 26 06 00 96
+	T D1 GSM card
 
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
