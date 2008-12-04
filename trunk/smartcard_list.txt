@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.372 2008-11-29 13:36:52 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.373 2008-12-04 20:35:33 rousseau Exp $
 #
 
 # syntax:
@@ -1165,8 +1165,14 @@
 3B 9D 95 80 1F C3 80 31 E0 52 4B 54 62 11 03 73 FE 21 1B 8F
 	KT WiBro UICC (2.3 GHz mobile WiMAX in South Korea)
 
+3B 9D 95 80 1F C3 80 31 E0 73 FE 21 1B 65 D0 00 57 02 62 30
+	Gemalto NFC enabled (acquired through the Simagine contest)
+
 3B 9D 95 80 1F C3 80 63 AF 03 A0 73 1A 21 1B 83 0F 90 00 F4
 	Greece TIM GSM SIM
+
+3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
+	GemXplore Generation 3G
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
@@ -1205,6 +1211,10 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 04 A5 83 0F 90 00 88
 	Cingular "64Ksmartchip" GSM SIM
+	Telia GSM/3G (Swedish operator)
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
+	Tre (Swedish operator)
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
@@ -1215,6 +1225,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6D
+	GemXplore 3G v2.2
 
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
