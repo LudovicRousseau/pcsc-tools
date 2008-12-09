@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.373 2008-12-04 20:35:33 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.374 2008-12-09 19:54:13 rousseau Exp $
 #
 
 # syntax:
@@ -329,6 +329,9 @@
 
 3B 3D 94 00 01 0F 00 36 00 00 86 60 18 04 00 01 07
 	Vodafone GSM / Turkey
+
+3B 3D 94 00 24 0E 00 96 00 00 86 60 31 B5 00 06 07
+	GSM SIM Tele2 Estonia; 2008
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
@@ -1361,6 +1364,9 @@
 3B BA 94 00 40 14
 	GG3RS732S0 ?
 
+3B BA 94 00 40 14 47 47 33 52 53 37 31 36 53 20
+	GSM SIM Elisa Estonia
+
 3B BA 94 00 40 14 47 47 33 52 53 37 31 36 53 30
 	GSM-SIM Viag Interkom E2 Loop (1800MHz)
 	GSM-SIM card of the Austrian A1, http://www.a1.net/privat/home
@@ -2159,6 +2165,9 @@
 3F 65 25 .. .. 04 6C 90 .0
 	Carte Bancaire (French banking card)
 
+3F 65 25 00 A4 09 6A 90 00
+	Sesam Vitale (French health card)
+	
 3F 65 25 00 2[2,C] 09 [F,6]9 90 00
 	Sesam Vitale (French health card)
 
