@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.374 2008-12-09 19:54:13 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.375 2008-12-12 12:50:56 rousseau Exp $
 #
 
 # syntax:
@@ -836,6 +836,9 @@
 3B 7D 94 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
 	Gem e-Seal
 	(GemSafeXpresso 32k R3.2?)
+
+3B 7D 94 00 00 57 44 53 63 96 86 93 00 9D F7 10 00 9D
+	China Mobile SIM card
 
 3B 7D 94 00 00 80 31 80 65 B0 83 01 01 90 83 00 90 00
 	GemSafeXpresso 16k R3.2
