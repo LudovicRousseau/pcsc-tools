@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.376 2008-12-12 21:41:48 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.377 2008-12-16 16:45:41 rousseau Exp $
 #
 
 # syntax:
@@ -466,6 +466,9 @@
 
 3B 67 25 00 62 24 33 03 ..
 	Bull TB1000 ? (SAM for ATM in Luxemburg)
+
+3B 68 00 00 00 73 C8 40 00 00 90 00
+	Barclaycard Visa Wave & Pay - Chip I/F
 
 3B 68 00 00 56 53 44 43 4C 43 31 30
 	VISA (Estonian), made by www.trueb.ch
@@ -975,6 +978,7 @@
 
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
+	Barclaycard Visa Wave & Pay - RFID I/F
 
 3B 88 80 01 00 73 C8 40 13 00 90 00 71
 	Nokia 6131 NFC phone
