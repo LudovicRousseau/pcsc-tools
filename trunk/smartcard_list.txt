@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.377 2008-12-16 16:45:41 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.378 2008-12-28 19:34:50 rousseau Exp $
 #
 
 # syntax:
@@ -2104,6 +2104,9 @@
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 11 31 80 8E
 	Infocamere CNS
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 11 01 43 4E 53 11 31 80 8C
+	Universita' Degli Studi di Torino (Infocert)
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
