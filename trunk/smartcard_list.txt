@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.378 2008-12-28 19:34:50 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.379 2008-12-28 19:36:52 rousseau Exp $
 #
 
 # syntax:
@@ -676,6 +676,9 @@
 
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.5 multos)
+
+3B 6E 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
+	Opencard, new card in Prague, Czech Republic (transport card)
 
 3B 6E 00 00 80 31 80 65 B0 03 01 01 5E 83 00 00 90 00
 	FirstUSA Visa
