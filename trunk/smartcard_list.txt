@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.380 2008-12-29 13:35:32 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.381 2008-12-30 10:30:33 rousseau Exp $
 #
 
 # syntax:
@@ -971,6 +971,9 @@
 3B 85 40 FE 68 01 01 02 04
 	Axalto CryptoFlex 8K
 
+3B 85 80 01 4A 4D 52 54 44 41
+    JMRTD - Java Machine Readable Travel Document (ePassport emulator - http://jmrtd.org/)
+
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
 
@@ -1057,6 +1060,12 @@
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
+
+3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 33 36 76
+    RFIDIOt JCOP 36K Blank (http://rfidiot.org)
+
+3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 37 32 76
+    RFIDIOt JCOP 72K Blank (http://rfidiot.org)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
 	Philips MIFARE Standard (1 Kbytes EEPROM)
