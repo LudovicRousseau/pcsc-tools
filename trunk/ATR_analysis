@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.44 2008-12-31 14:40:15 rousseau Exp $
+# $Id: ATR_analysis,v 1.45 2008-12-31 15:05:58 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -50,13 +50,15 @@ use Chipcard::PCSC::Card;
 my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt", "/usr/local/share/pcsc/smartcard_list.txt");
 
 our ($opt_v, $opt_h);
-my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);
+my ($atr, %TS, @Fi, @FMax, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);
 my ($Y1, $K, @object, $mpcard, $hb_category);
 
 # tables
 %TS = (0x3B, "Direct Convention", 0x3F, "Inverse Convention");
 @Fi = (372, 372, 558, 744, 1116, 1488, 1860, "RFU", "RFU", 512, 768, 1024,
 	1536, 2048, "RFU", "RFU");
+@FMax = (4, 5, 6, 8, 12, 16, 20, "RFU", "RFU", 5, 7.5, 10, 15, 20, "RFU",
+	"RFU");
 @Di = ("RFU", 1, 2, 4, 8, 16, 32, 64, 12, 20, "RFU", "RFU", "RFU",
 	"RFU", "RFU", "RFU");
 
@@ -225,11 +227,15 @@ sub analyse_TA()
 		my $F = $value >> 4;
 		my $D = $value % 16;
 
-		$value = -1;
-		$value = $Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU" and $Fi[$F] ne "RFU");
+		printf "Fi=%s, Di=%s", $Fi[$F], $Di[$D];
+		if ($Di[$D] ne "RFU" and $Fi[$F] ne "RFU")
+		{
+			$value = $Fi[$F]/$Di[$D];
 
-		printf "Fi=%s, Di=%s, %g cycles/ETU", $Fi[$F], $Di[$D], $value;
-		printf " (%d bits/s at 4 MHz)", 4000000/$value;
+			printf ", %g cycles/ETU\n", $Fi[$F], $Di[$D], $value;
+			printf "    %d bits/s at 4 MHz", 4000000/$value;
+			printf ", fMax for Fi = %d Mhz => %d bits/s", $FMax[$F], $FMax[$F]*1000000/$value;
+		}
 	}
 	
 	# TA2 Analysis - TA2 is the specific mode byte
