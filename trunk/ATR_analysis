@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.41 2008-10-08 18:57:27 rousseau Exp $
+# $Id: ATR_analysis,v 1.42 2008-12-31 13:58:31 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -57,7 +57,7 @@ my ($Y1, $K, @object, $mpcard, $hb_category);
 %TS = (0x3B, "Direct Convention", 0x3F, "Inverse Convention");
 @Fi = (372, 372, 558, 744, 1116, 1488, 1860, "RFU", "RFU", 512, 768, 1024,
 	1536, 2048, "RFU", "RFU");
-@Di = ("RFU", 1, 2, 4, 8, 16, 32, "RFU", 12, 20, "RFU", "RFU", "RFU",
+@Di = ("RFU", 1, 2, 4, 8, 16, 32, 64, 12, 20, "RFU", "RFU", "RFU",
 	"RFU", "RFU", "RFU");
 
 @XI = ("not supported", "state L", "state H", "no preference");
@@ -90,7 +90,7 @@ getopts("vh");
 
 if ($opt_v)
 {
-	print "Version: 1.5, (c) 2002-2006, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "Version: 1.6, (c) 2002-2009, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
 	print "This software is free software (GNU General Public License)\n";
 	exit;
 }
