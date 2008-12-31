@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.43 2008-12-31 14:35:45 rousseau Exp $
+# $Id: ATR_analysis,v 1.44 2008-12-31 14:40:15 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -225,7 +225,8 @@ sub analyse_TA()
 		my $F = $value >> 4;
 		my $D = $value % 16;
 
-		$value = $Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU");
+		$value = -1;
+		$value = $Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU" and $Fi[$F] ne "RFU");
 
 		printf "Fi=%s, Di=%s, %g cycles/ETU", $Fi[$F], $Di[$D], $value;
 		printf " (%d bits/s at 4 MHz)", 4000000/$value;
