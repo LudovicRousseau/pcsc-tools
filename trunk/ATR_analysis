@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.45 2008-12-31 15:05:58 rousseau Exp $
+# $Id: ATR_analysis,v 1.46 2008-12-31 15:17:40 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -232,7 +232,7 @@ sub analyse_TA()
 		{
 			$value = $Fi[$F]/$Di[$D];
 
-			printf ", %g cycles/ETU\n", $Fi[$F], $Di[$D], $value;
+			printf ", %g cycles/ETU\n", $value;
 			printf "    %d bits/s at 4 MHz", 4000000/$value;
 			printf ", fMax for Fi = %d Mhz => %d bits/s", $FMax[$F], $FMax[$F]*1000000/$value;
 		}
