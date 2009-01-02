@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.382 2008-12-30 20:03:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.383 2009-01-02 07:02:38 rousseau Exp $
 #
 
 # syntax:
@@ -2298,6 +2298,9 @@
 
 3F 78 13 25 03 40 B0 20 FF FF 4A 50 00
 	DSS/DTV P4
+
+3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
+	Sky Italia (satellite card, NDS3)
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
