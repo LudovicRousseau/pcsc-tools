@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.38 2009-01-03 15:44:41 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.39 2009-01-03 16:16:14 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -76,6 +76,7 @@ int main(int argc, char *argv[])
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE_A *rgReaderStates_t = NULL;
 	DWORD dwReaders, dwReadersOld;
+	DWORD timeout;
 	LPSTR mszReaders = NULL;
 	char *ptr, **readers = NULL;
 	int nbReaders, i;
@@ -232,7 +233,7 @@ get_readers:
 	}
 
 	/* allocate the readers table */
-	readers = calloc(nbReaders, sizeof(char *));
+	readers = calloc(nbReaders+1, sizeof(char *));
 	if (NULL == readers)
 	{
 		printf("Not enough memory for readers table\n");
@@ -266,17 +267,30 @@ get_readers:
 		rgReaderStates_t[i].szReader = readers[i];
 		rgReaderStates_t[i].dwCurrentState = SCARD_STATE_UNAWARE;
 	}
+	rgReaderStates_t[nbReaders].szReader = "\\\\?PnP?\\Notification";
+	rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
 
 	/* Wait endlessly for all events in the list of readers
 	 * We only stop in case of an error
 	 */
-	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
+#ifdef PNP
+	timeout = INFINITE;
+#else
+	timeout = TIMEOUT;
+#endif
+	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders+1);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
+#ifdef PNP
+		if (rgReaderStates_t[nbReaders].dwEventState &
+			SCARD_STATE_CHANGED)
+			goto get_readers;
+#else
 		/* A new reader appeared? */
 		if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
 			== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
 				goto get_readers;
+#endif
 
 		/* Now we have an event, check all the readers in the list to see what
 		 * happened */
@@ -387,7 +401,8 @@ get_readers:
 
 		} /* for */
 
-		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
+		rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t,
+			nbReaders+1);
 	} /* while */
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
