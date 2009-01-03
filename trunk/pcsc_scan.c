@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.34 2009-01-03 14:45:13 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.35 2009-01-03 14:54:28 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,6 +35,11 @@
 #ifndef TRUE
 #define TRUE 1
 #define FALSE 0
+#endif
+
+/* use "\\?PnP?\Notification" mechanism when possible */
+#ifndef __APPLE__
+#define PNP
 #endif
 
 #define TIMEOUT 1000	/* 1 second timeout */
@@ -195,8 +200,22 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv)
 	{
+#ifdef PNP
+		SCARD_READERSTATE_A rgReaderStates[1];
+#endif
 		printf("%sWaiting for the first reader...%s", red, color_end);
 		fflush(stdout);
+#ifdef PNP
+		rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
+		rgReaderStates[0].dwCurrentState = SCARD_STATE_EMPTY;
+
+		rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates, 1);
+		if (rv != SCARD_S_SUCCESS)
+		{
+			LOG("SCardGetStatusChange", rv);
+			exit(-1);
+		}
+#else
 		rv = SCARD_S_SUCCESS;
 		while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
 		{
@@ -205,6 +224,7 @@ get_readers:
 				rv = SCARD_S_SUCCESS;
 			sleep(1);
 		}
+#endif
 		printf("found one\n");
 		goto get_readers;
 	}
