@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.39 2009-01-03 16:16:14 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.40 2009-01-03 16:31:15 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -275,10 +275,11 @@ get_readers:
 	 */
 #ifdef PNP
 	timeout = INFINITE;
+	nbReaders++;
 #else
 	timeout = TIMEOUT;
 #endif
-	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders+1);
+	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
 #ifdef PNP
@@ -402,7 +403,7 @@ get_readers:
 		} /* for */
 
 		rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t,
-			nbReaders+1);
+			nbReaders);
 	} /* while */
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
