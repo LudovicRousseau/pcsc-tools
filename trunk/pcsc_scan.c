@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.36 2009-01-03 15:10:07 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.37 2009-01-03 15:44:02 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,15 +51,15 @@
 #define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
 #endif
 
-static void test_rv(const char *fct, LONG rv, SCARDCONTEXT hContext)
-{
-	if (rv != SCARD_S_SUCCESS)
-	{
-		printf("%s: %s\n", fct, pcsc_stringify_error(rv));
-		(void)SCardReleaseContext(hContext);
-		exit(-1);
-	}
-}
+#define test_rv(fct, rv, hContext) \
+do { \
+	if (rv != SCARD_S_SUCCESS) \
+	{ \
+		printf("%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end); \
+		(void)SCardReleaseContext(hContext); \
+		exit(-1); \
+	} \
+} while(0)
 
 void usage(void)
 {
