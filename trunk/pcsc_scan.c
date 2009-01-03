@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.33 2008-11-01 17:58:25 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.34 2009-01-03 14:45:13 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -192,23 +192,8 @@ get_readers:
 
 	*mszReaders = '\0';
 	rv = SCardListReaders(hContext, NULL, mszReaders, &dwReaders);
-	if (rv != SCARD_S_SUCCESS)
-	{
-		LOG("SCardListReader", rv);
-		exit(-1);
-	}
 
-	/* Extract readers from the null separated string and get the total
-	 * number of readers */
-	nbReaders = 0;
-	ptr = mszReaders;
-	while (*ptr != '\0')
-	{
-		ptr += strlen(ptr)+1;
-		nbReaders++;
-	}
-
-	if (nbReaders == 0)
+	if (SCARD_E_NO_READERS_AVAILABLE == rv)
 	{
 		printf("%sWaiting for the first reader...%s", red, color_end);
 		fflush(stdout);
@@ -222,6 +207,22 @@ get_readers:
 		}
 		printf("found one\n");
 		goto get_readers;
+	}
+	else
+		if (rv != SCARD_S_SUCCESS)
+		{
+			LOG("SCardListReader", rv);
+			exit(-1);
+		}
+
+	/* Extract readers from the null separated string and get the total
+	 * number of readers */
+	nbReaders = 0;
+	ptr = mszReaders;
+	while (*ptr != '\0')
+	{
+		ptr += strlen(ptr)+1;
+		nbReaders++;
 	}
 
 	/* allocate the readers table */
