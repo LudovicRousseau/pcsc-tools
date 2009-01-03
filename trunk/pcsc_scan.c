@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.40 2009-01-03 16:31:15 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.41 2009-01-03 16:35:44 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -193,7 +193,17 @@ get_readers:
 	*mszReaders = '\0';
 	rv = SCardListReaders(hContext, NULL, mszReaders, &dwReaders);
 
-	if (SCARD_E_NO_READERS_AVAILABLE == rv)
+	/* Extract readers from the null separated string and get the total
+	 * number of readers */
+	nbReaders = 0;
+	ptr = mszReaders;
+	while (*ptr != '\0')
+	{
+		ptr += strlen(ptr)+1;
+		nbReaders++;
+	}
+
+	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
 #ifdef PNP
 		SCARD_READERSTATE_A rgReaderStates[1];
@@ -221,16 +231,6 @@ get_readers:
 	}
 	else
 		test_rv("SCardListReader", rv, hContext);
-
-	/* Extract readers from the null separated string and get the total
-	 * number of readers */
-	nbReaders = 0;
-	ptr = mszReaders;
-	while (*ptr != '\0')
-	{
-		ptr += strlen(ptr)+1;
-		nbReaders++;
-	}
 
 	/* allocate the readers table */
 	readers = calloc(nbReaders+1, sizeof(char *));
