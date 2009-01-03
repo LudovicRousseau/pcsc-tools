@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.35 2009-01-03 14:54:28 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.36 2009-01-03 15:10:07 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -51,15 +51,15 @@
 #define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
 #endif
 
-#ifdef __APPLE__
-/* DWORD is uint32_t */
-#define DWORD_FORMAT "(0x%08X)"
-#else
-/* DWORD is unsigned long */
-#define DWORD_FORMAT "(0x%08lX)"
-#endif
-
-#define LOG(cmd, rc) printf(cmd ": %s " DWORD_FORMAT "\n", pcsc_stringify_error(rv), rv)
+static void test_rv(const char *fct, LONG rv, SCARDCONTEXT hContext)
+{
+	if (rv != SCARD_S_SUCCESS)
+	{
+		printf("%s: %s\n", fct, pcsc_stringify_error(rv));
+		(void)SCardReleaseContext(hContext);
+		exit(-1);
+	}
+}
 
 void usage(void)
 {
@@ -146,11 +146,7 @@ int main(int argc, char *argv[])
 	}
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
-	if (rv != SCARD_S_SUCCESS)
-	{
-		LOG("SCardEstablishContext", rv);
-		return 1;
-	}
+	test_rv("SCardEstablishContext", rv, hContext);
 
 get_readers:
 	/* free memory possibly allocated in a previous loop */
@@ -174,11 +170,9 @@ get_readers:
 	 */
 	printf("%sScanning present readers...%s\n", red, color_end);
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
-	if ((rv != SCARD_S_SUCCESS) && (rv != SCARD_E_NO_READERS_AVAILABLE))
-	{
-		LOG("SCardListReader", rv);
-		exit(-1);
-	}
+	if (rv != SCARD_E_NO_READERS_AVAILABLE)
+		test_rv("SCardListReaders", rv, hContext);
+
 	dwReadersOld = dwReaders;
 
 	/* if non NULL we came back so free first */
@@ -210,11 +204,7 @@ get_readers:
 		rgReaderStates[0].dwCurrentState = SCARD_STATE_EMPTY;
 
 		rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates, 1);
-		if (rv != SCARD_S_SUCCESS)
-		{
-			LOG("SCardGetStatusChange", rv);
-			exit(-1);
-		}
+		test_rv("SCardGetStatusChange", rv, hContext);
 #else
 		rv = SCARD_S_SUCCESS;
 		while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
@@ -229,11 +219,7 @@ get_readers:
 		goto get_readers;
 	}
 	else
-		if (rv != SCARD_S_SUCCESS)
-		{
-			LOG("SCardListReader", rv);
-			exit(-1);
-		}
+		test_rv("SCardListReader", rv, hContext);
 
 	/* Extract readers from the null separated string and get the total
 	 * number of readers */
@@ -405,12 +391,11 @@ get_readers:
 	} /* while */
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
-	LOG("SCardGetStatusChange", rv);
+	test_rv("SCardGetStatusChange", rv, hContext);
 	
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
-	if (rv != SCARD_S_SUCCESS)
-		LOG("SCardReleaseContext", rv);
+	test_rv("SCardReleaseContext", rv, hContext);
 
 	/* free memory possibly allocated */
 	if (NULL != readers)
