@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.383 2009-01-02 07:02:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.384 2009-01-03 19:16:05 rousseau Exp $
 #
 
 # syntax:
@@ -362,6 +362,9 @@
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 00 90 00
 	Gemplus GemXpresso PRO 64 PK SIM
+
+3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
+	Vodafone Italia SIM 64K
 
 3B 3F 95 00 80 65 AF 03 14 01 8A 73 32 21 1B 83 0F 90 00
 	SIM Vodafone 64k
@@ -2301,6 +2304,9 @@
 
 3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
 	Sky Italia (satellite card, NDS3)
+
+3F FF 13 25 03 10 80 33 B0 0E 69 FF 4A 50 70 00 00 49 54 02 00 00
+	Sky entitlement card
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
