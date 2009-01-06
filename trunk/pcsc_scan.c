@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.41 2009-01-03 16:35:44 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.42 2009-01-06 21:03:04 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -75,7 +75,7 @@ int main(int argc, char *argv[])
 	LONG rv;
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE_A *rgReaderStates_t = NULL;
-	DWORD dwReaders, dwReadersOld;
+	DWORD dwReaders = 0, dwReadersOld;
 	DWORD timeout;
 	LPSTR mszReaders = NULL;
 	char *ptr, **readers = NULL;
