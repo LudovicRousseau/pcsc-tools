@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.42 2009-01-06 21:03:04 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.43 2009-01-06 21:04:13 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -212,7 +212,7 @@ get_readers:
 		fflush(stdout);
 #ifdef PNP
 		rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
-		rgReaderStates[0].dwCurrentState = SCARD_STATE_EMPTY;
+		rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
 
 		rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates, 1);
 		test_rv("SCardGetStatusChange", rv, hContext);
