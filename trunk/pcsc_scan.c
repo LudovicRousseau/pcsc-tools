@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.43 2009-01-06 21:04:13 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.44 2009-01-06 21:05:41 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -252,7 +252,7 @@ get_readers:
 	}
 
 	/* allocate the ReaderStates table */
-	rgReaderStates_t = calloc(nbReaders, sizeof(* rgReaderStates_t));
+	rgReaderStates_t = calloc(nbReaders+1, sizeof(* rgReaderStates_t));
 	if (NULL == rgReaderStates_t)
 	{
 		printf("Not enough memory for readers states\n");
