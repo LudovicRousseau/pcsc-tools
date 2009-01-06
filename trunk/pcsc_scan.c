@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.44 2009-01-06 21:05:41 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.45 2009-01-06 21:06:48 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -283,7 +283,7 @@ get_readers:
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
 #ifdef PNP
-		if (rgReaderStates_t[nbReaders].dwEventState &
+		if (rgReaderStates_t[nbReaders-1].dwEventState &
 			SCARD_STATE_CHANGED)
 			goto get_readers;
 #else
