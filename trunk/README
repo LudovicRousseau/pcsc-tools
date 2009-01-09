@@ -130,6 +130,16 @@ Licences:
 History:
 ========
 
+1.4.15 - 9 January 2009, Ludovic ROUSSEAU
+    - 68 new ATR
+    - ATR_analysis:
+     . truncate the ATR if extra bytes are present (like on Leopard with
+     an ATR padded with 0 up to 33 bytes)
+     . add value for Di=7 (7816-3:2006 page 19)
+     . check if Fi is RFU when calculating baud rate
+     . display the max frequency associated with Fi
+    - pcsc_scan.c: use "\\?PnP?\Notification" mechanism when possible
+
 1.4.14 - 11 May 2008, Ludovic ROUSSEAU
     - 24 new ATR
     - gscriptor, scriptor: use SCARD_SHARE_SHARED instead of
@@ -309,6 +319,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.41 2008-05-11 13:33:53 rousseau Exp $
+$Id: README,v 1.42 2009-01-09 08:26:25 rousseau Exp $
 
  vim:ts=8
