@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.384 2009-01-03 19:16:05 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.385 2009-01-14 12:30:59 rousseau Exp $
 #
 
 # syntax:
@@ -567,6 +567,9 @@
 
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
+
+3B 6C 00 02 36 61 86 38 4B 8C 13 04 62 03 59 8A
+	Nagravision, Swiss mode
 
 3B 6D 00 00 00 31 C0 71 D6 64 11 22 33 01 83 90 00
 	Egg (bank) VISA
