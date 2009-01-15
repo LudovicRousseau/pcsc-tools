@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.45 2009-01-06 21:06:48 rousseau Exp $ */
+/* $Id: pcsc_scan.c,v 1.46 2009-01-15 20:08:51 rousseau Exp $ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -35,11 +35,6 @@
 #ifndef TRUE
 #define TRUE 1
 #define FALSE 0
-#endif
-
-/* use "\\?PnP?\Notification" mechanism when possible */
-#ifndef __APPLE__
-#define PNP
 #endif
 
 #define TIMEOUT 1000	/* 1 second timeout */
@@ -75,6 +70,7 @@ int main(int argc, char *argv[])
 	LONG rv;
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE_A *rgReaderStates_t = NULL;
+	SCARD_READERSTATE_A rgReaderStates[1];
 	DWORD dwReaders = 0, dwReadersOld;
 	DWORD timeout;
 	LPSTR mszReaders = NULL;
@@ -88,6 +84,7 @@ int main(int argc, char *argv[])
 	char *red = "";
 	char *magenta = "";
 	char *color_end = "";
+	int pnp = TRUE;
 
 	printf("PC/SC device scanner\n");
 	printf("V " VERSION " (c) 2001-2009, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
@@ -149,6 +146,16 @@ int main(int argc, char *argv[])
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
 
+	rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
+	rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
+
+	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
+	if (rgReaderStates[0].dwEventState && SCARD_STATE_UNKNOWN)
+	{
+		printf("PnP reader name not supported. Using polling.\n");
+		pnp = FALSE;
+	}
+
 get_readers:
 	/* free memory possibly allocated in a previous loop */
 	if (NULL != readers)
@@ -205,27 +212,28 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
-#ifdef PNP
-		SCARD_READERSTATE_A rgReaderStates[1];
-#endif
 		printf("%sWaiting for the first reader...%s", red, color_end);
 		fflush(stdout);
-#ifdef PNP
-		rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
-		rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
 
-		rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates, 1);
-		test_rv("SCardGetStatusChange", rv, hContext);
-#else
-		rv = SCARD_S_SUCCESS;
-		while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
+		if (pnp)
 		{
-			rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
-			if (SCARD_E_NO_READERS_AVAILABLE == rv)
-				rv = SCARD_S_SUCCESS;
-			sleep(1);
+			rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
+			rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
+
+			rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates, 1);
+			test_rv("SCardGetStatusChange", rv, hContext);
 		}
-#endif
+		else
+		{
+			rv = SCARD_S_SUCCESS;
+			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
+			{
+				rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
+				if (SCARD_E_NO_READERS_AVAILABLE == rv)
+					rv = SCARD_S_SUCCESS;
+				sleep(1);
+			}
+		}
 		printf("found one\n");
 		goto get_readers;
 	}
@@ -273,25 +281,29 @@ get_readers:
 	/* Wait endlessly for all events in the list of readers
 	 * We only stop in case of an error
 	 */
-#ifdef PNP
-	timeout = INFINITE;
-	nbReaders++;
-#else
-	timeout = TIMEOUT;
-#endif
+	if (pnp)
+	{
+		timeout = INFINITE;
+		nbReaders++;
+	}
+	else
+		timeout = TIMEOUT;
 	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
-#ifdef PNP
-		if (rgReaderStates_t[nbReaders-1].dwEventState &
-			SCARD_STATE_CHANGED)
-			goto get_readers;
-#else
-		/* A new reader appeared? */
-		if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
-			== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
+		if (pnp)
+		{
+			if (rgReaderStates_t[nbReaders-1].dwEventState &
+					SCARD_STATE_CHANGED)
 				goto get_readers;
-#endif
+		}
+		else
+		{
+			/* A new reader appeared? */
+			if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
+						== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
+				goto get_readers;
+		}
 
 		/* Now we have an event, check all the readers in the list to see what
 		 * happened */
@@ -399,7 +411,6 @@ get_readers:
 						perror(atr_command);
 				}
 			}
-
 		} /* for */
 
 		rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t,
