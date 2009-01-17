@@ -17,7 +17,7 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
-# $Id: ATR_analysis,v 1.48 2008-12-31 20:08:07 rousseau Exp $
+# $Id: ATR_analysis,v 1.49 2009-01-17 02:55:30 rousseau Exp $
 
 # For more information about the ATR see ISO 7816-3 1997, pages 12 and up
 #
@@ -487,7 +487,15 @@ sub find_card($@)
 		print "Your card is not present in the database.\n";
 		print "You can get the latest version of the database from\n";
 		print "  http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt\n";
-		print "or use: wget http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output-document=$files[0]\n\n";
+		if ($^O =~ "darwin")
+		{
+			print "or use: curl http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output $files[0]\n\n";
+
+		}
+		else
+		{
+			print "or use: wget http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output-document=$files[0]\n\n";
+		}
 		print "If your ATR is still not in the latest version then please send a mail\n";
 		print "to <ludovic.rousseau\@free.fr> containing:\n";
 		print "- your ATR\n";
