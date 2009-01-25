@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.389 2009-01-24 13:49:29 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.390 2009-01-25 19:53:36 rousseau Exp $
 #
 
 # syntax:
@@ -767,6 +767,11 @@
 3B 6F 00 00 80 5A 29 13 09 10 11 33 01 B7 33 E7 82 90 00
 	MOBIB card: Brussels (Belgium) public transportation ticketing system
 	CD21-8k
+
+3B 6F 00 00 80 5A 29 13 09 10 11 33 01 BE E9 21 82 90 00
+	MOBIB (reseau transport en commun Bruxelles (Belgique)
+	http://www.uclouvain.be/sites/security/mobib.html
+	Calypso application similar to French NAVIGO
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
 	carte transport bus/tram "atout.tag" semitag grenoble
