@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.390 2009-01-25 19:53:36 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.391 2009-01-27 21:31:23 rousseau Exp $
 #
 
 # syntax:
@@ -295,6 +295,9 @@
 3B 37 11 00 46 4C 4F 4D 41 90 00
 	SLE 4428
 
+3B 37 13 00 80 62 11 04 82 90 00
+	Swiss UBS Maestro/CASH Bank Card 
+
 3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
 
@@ -457,6 +460,9 @@
 	Belgium Fortis Bank
 	Belgium Keytrade Bank
 	Belgium Post Bank
+
+3B 67 00 00 85 22 16 31 78 90 00
+	Swiss UBS Ebanking Chipcard
 
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
@@ -1070,6 +1076,9 @@
 
 3B 8A 00 92 02 03 91 08 00 01 01 04 00
 	32K SIM Card from the austrian telecom "ONE"
+
+3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
+	Mobib (Brussels public transportation card)
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
