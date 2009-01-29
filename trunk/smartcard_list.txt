@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.391 2009-01-27 21:31:23 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.392 2009-01-29 06:38:21 rousseau Exp $
 #
 
 # syntax:
@@ -610,6 +610,9 @@
 
 3B 6D 00 00 00 31 80 64 2D A0 04 0C 71 96 8C 61 29
 	UK Co-operative Bank Visa Debit (produced 2002)
+
+3B 6D 00 00 00 31 80 71 96 64 33 D1 01 00 82 90 00
+	DeLaRue GalactIC JavaCard
 
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
