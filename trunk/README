@@ -319,6 +319,6 @@ History:
 
 1.0.1 - 18 Oct 2001, Ludovic ROUSSEAU
 
-$Id: README,v 1.42 2009-01-09 08:26:25 rousseau Exp $
+$Id: README,v 1.43 2009-02-06 16:36:30 rousseau Exp $
 
- vim:ts=8
+ vim:ts=8:
