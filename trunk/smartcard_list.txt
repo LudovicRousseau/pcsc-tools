@@ -1,6 +1,6 @@
 #
 #    smartcard_list.txt
-#    Copyright (C) 2002-2008  Ludovic Rousseau
+#    Copyright (C) 2002-2009  Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.396 2009-02-11 15:55:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.397 2009-02-11 15:56:25 rousseau Exp $
 #
 
 # syntax:
