@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.395 2009-02-06 16:36:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.396 2009-02-11 15:55:15 rousseau Exp $
 #
 
 # syntax:
@@ -470,6 +470,9 @@
 3B 67 00 00 A5 20 40 10 1F 90 00
 	Swedish eLegitimation (eID) from Nordea Bank http://www.elegitimation.se/
 
+3B 67 00 00 C1 30 40 01 0B 90 00
+	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
+
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
 
@@ -484,6 +487,9 @@
 
 3B 68 00 00 80 66 45 46 01 38 18 03
 	FNMT WG108k
+
+3B 68 00 00 80 66 A2 06 01 01 64 00
+	Visa card issued by Czech's "Komercni banka" (Gemplus brand on chip)
 
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
@@ -883,6 +889,8 @@
 
 3B 7D 94 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	GXP Pro R3.2 64K, GemSafe applet MPCOS v1.11
+	card issued by Czech National Bank
+	dual card: chip used for electronic certificates (czech commercial bank use such card to sign money transfer orders sent to national clearing central)
 
 3B 7D 94 00 00 80 31 80 65 B0 83 11 00 AC 83 00 90 00
 	GemCombiXpresso R4 72K
@@ -928,6 +936,10 @@
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
+
+3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
+	"OpenCard" - card issued by Prague local authority
+	dual card: chip used for electronic certificates
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
@@ -1005,6 +1017,10 @@
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator - http://jmrtd.org/)
 
+3B 86 80 01 06 75 77 81 02 80 00
+	"OpenCard" - card issued by Prague local authority
+	dual card: RFID (1k Mirfare) used for parkimeters and as public traffic ticket
+	
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
 
@@ -1105,6 +1121,7 @@
 	Philips MIFARE Standard (1 Kbytes EEPROM)
 	http://www.nxp.com/products/identification/mifare/classic/
 	RFID - ISO 14443 Type A - Transport for London Oyster
+	ACOS5/1k Mirfare
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	Mifare card with 4k EEPROM
@@ -1517,6 +1534,7 @@
 
 3B BE 18 00 00 41 05 10 00 00 00 00 00 00 00 00 00 90 00
 	ACS ACOS5 "ACOS5-32-G" http://www.acs.com.hk/acos5.asp
+	dual card
 
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
