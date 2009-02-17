@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.398 2009-02-11 19:05:32 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.399 2009-02-17 19:36:46 rousseau Exp $
 #
 
 # syntax:
@@ -2401,6 +2401,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 30 31 14
 	TVA Digital - Nagra Vision ID TV-01
+
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 32 32 15
+	UM01 card from German Unitymedia cable TV provider
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 43 33 65
 	Brazilian NET Digital (Cable TV provider) - Nagra Vision "NASP110 RevA01"
