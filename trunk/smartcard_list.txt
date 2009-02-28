@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.400 2009-02-18 13:10:30 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.401 2009-02-28 15:28:45 rousseau Exp $
 #
 
 # syntax:
@@ -2403,5 +2403,8 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 43 33 65
 	Brazilian NET Digital (Cable TV provider) - Nagra Vision "NASP110 RevA01"
+
+3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 34 20 52 65 76 34 30 31 6D
+	Italian Mediaset Premium pay per view encrypted digital video broadcasting smartcard
 
 # do not delete
