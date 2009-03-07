@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.401 2009-02-28 15:28:45 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.402 2009-03-07 10:48:15 rousseau Exp $
 #
 
 # syntax:
@@ -680,6 +680,9 @@
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
 	UK NatWest Cashcard - Maestro / SOLO
+
+3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
+	MasterCard hostet by Deutsche Bank, Germany
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
