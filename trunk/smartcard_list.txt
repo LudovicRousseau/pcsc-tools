@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.402 2009-03-07 10:48:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.403 2009-03-10 19:41:07 rousseau Exp $
 #
 
 # syntax:
@@ -296,7 +296,7 @@
 	SLE 4428
 
 3B 37 13 00 80 62 11 04 82 90 00
-	Swiss UBS Maestro/CASH Bank Card 
+	Swiss UBS Maestro/CASH Bank Card
 
 3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
@@ -1022,7 +1022,7 @@
 3B 86 80 01 06 75 77 81 02 80 00
 	"OpenCard" - card issued by Prague local authority
 	dual card: RFID (1k Mirfare) used for parkimeters and as public traffic ticket
-	
+
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
 
@@ -1103,6 +1103,9 @@
 
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
+
+3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
+	Czech Republic e-Passport (issued Feb 2009)
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
@@ -1348,7 +1351,7 @@
 
 3B AC 00 40 2A 00 12 25 00 64 80 82 02 12 00 90 00
 	Sesam Vitale card CPS (Carte Profesionnel de Santé)
-	
+
 3B AD 00 40 FF 80 31 80 65 B0 05 01 01 5E 83 00 90 00
 	Dallas Semiconductor iButton
 	JIB
@@ -1910,7 +1913,7 @@
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
 
-3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 32 A9 
+3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 32 A9
 	NXP JCOP 21 V2.2 36K
 
 3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 32 A8
@@ -1935,7 +1938,7 @@
 3B FA 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 9D
 	NXP JCOP 41 v2.2.1 72k SmartCard I/F
 
-3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 65 
+3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 65
 	TrubDemax healthcare card
 
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 62
@@ -2265,7 +2268,7 @@
 
 3F 65 25 00 A4 09 6A 90 00
 	Sesam Vitale (French health card)
-	
+
 3F 65 25 00 2[2,C] 09 [F,6]9 90 00
 	Sesam Vitale (French health card)
 
