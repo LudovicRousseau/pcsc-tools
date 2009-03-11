@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.403 2009-03-10 19:41:07 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.404 2009-03-11 12:58:15 rousseau Exp $
 #
 
 # syntax:
@@ -1103,6 +1103,9 @@
 
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
+
+3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
+	Nokia 6212 phone seen as NFC device
 
 3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
 	Czech Republic e-Passport (issued Feb 2009)
