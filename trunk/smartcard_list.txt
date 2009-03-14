@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.404 2009-03-11 12:58:15 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.405 2009-03-14 12:26:36 rousseau Exp $
 #
 
 # syntax:
@@ -469,6 +469,9 @@
 
 3B 67 00 00 A5 20 40 10 1F 90 00
 	Swedish eLegitimation (eID) from Nordea Bank http://www.elegitimation.se/
+
+3B 67 00 00 A6 40 40 00 09 90 00
+	Visa card issued by Norway bank DNBNor
 
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
