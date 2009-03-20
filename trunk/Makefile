@@ -1,24 +1,24 @@
-# $Id: Makefile,v 1.19 2008-09-07 11:42:16 rousseau Exp $
+# $Id: Makefile,v 1.20 2009-03-20 14:04:23 rousseau Exp $
 
 # PC/SC Lite libraries and headers.
-PCSC_CFLAGS ?= `pkg-config libpcsclite --cflags`
-PCSC_LDLIBS ?= `pkg-config libpcsclite --libs`
+PCSC_CFLAGS ?= $(shell pkg-config libpcsclite --cflags)
+PCSC_LDLIBS ?= $(shell pkg-config libpcsclite --libs)
 
 # by default install in /usr/local
 DESTDIR ?= /usr/local
 
-VERSION=`echo \`pwd\` | sed s/.*tools-//`
-CFLAGS=-Wall -O2 -g -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
-LDLIBS=$(PCSC_LDLIBS)
+VERSION := $(shell pwd | sed s/.*tools-//)
+CFLAGS := -Wall -O2 -g -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
+LDLIBS := $(PCSC_LDLIBS)
 # On xBSD systems use
-#LDLIBS=-lc_r $(PCSC_LDLIBS)
+#LDLIBS = -lc_r $(PCSC_LDLIBS)
 # on MacOSX
-#CFLAGS=-Wall -O2 -DVERSION=\"$(VERSION)\"
-#LDLIBS=-framework PCSC
+#CFLAGS = -Wall -O2 -DVERSION=\"$(VERSION)\"
+#LDLIBS = -framework PCSC
 
-BIN=pcsc_scan
-BIN_SCRIPT=ATR_analysis gscriptor scriptor
-MAN=pcsc_scan.1.gz gscriptor.1p.gz scriptor.1p.gz ATR_analysis.1p.gz
+BIN = pcsc_scan
+BIN_SCRIPT = ATR_analysis gscriptor scriptor
+MAN = pcsc_scan.1.gz gscriptor.1p.gz scriptor.1p.gz ATR_analysis.1p.gz
 
 all: $(BIN) $(MAN)
 
