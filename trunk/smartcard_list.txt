@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.405 2009-03-14 12:26:36 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.406 2009-03-25 20:04:25 rousseau Exp $
 #
 
 # syntax:
@@ -945,6 +945,9 @@
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	"OpenCard" - card issued by Prague local authority
 	dual card: chip used for electronic certificates
+
+3B 7F 13 00 00 80 31 C0 52 0B BB 64 05 66 98 36 83 83 90 00
+	VISA OUROCARD Banco do Brasil S.A.
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
