@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.406 2009-03-25 20:04:25 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.407 2009-03-31 20:31:26 rousseau Exp $
 #
 
 # syntax:
@@ -485,6 +485,14 @@
 3B 68 00 00 00 73 C8 40 00 00 90 00
 	Barclaycard Visa Wave & Pay - Chip I/F
 
+3B 68 00 00 00 73 C8 40 10 00 90 00
+	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
+	http://www.islandsrot.is/
+
+3B 68 00 00 01 02 10 96 00 00 90 00
+	Italian BancoPostaClick Postamat Card (Poste Italiane) -
+	MasterCard debit card
+
 3B 68 00 00 56 53 44 43 4C 43 31 30
 	VISA (Estonian), made by www.trueb.ch
 
@@ -554,6 +562,9 @@
 	Visa Card - Worldcard - YapıKredi / Turkey
 	VISA - Lloyds TSB DEBIT
 	UK Halifax Visa Debit
+
+3B 6A 00 00 80 66 A2 0A 01 01 8B 0E 90 00
+	CAP-EMV demo card
 
 3B 6A 00 FF 41 42 43 44 32 45 46 47 48 49
 	Austria card - JCOP 31/36K
