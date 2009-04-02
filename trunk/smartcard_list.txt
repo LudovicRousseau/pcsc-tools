@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.407 2009-03-31 20:31:26 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.408 2009-04-02 15:54:32 rousseau Exp $
 #
 
 # syntax:
@@ -791,6 +791,9 @@
 
 3B 6F 00 00 80 31 E0 6B 84 20 05 02 42 55 55 55 55 55 55
 	Multos 14Dc(6-0-13) 64K Dual-Interface Developer Card
+
+3B 6F 00 00 80 5A 08 06 08 20 02 00 92 35 1E 52 82 90 00
+	Public transport card of Lisbon (www.carris.pt)
 
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 16 D1 BD 82 90 00
 	"OPUS Card" Montreal's transit system by oberthur cardsystems
