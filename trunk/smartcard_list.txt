@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.409 2009-04-04 11:23:51 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.410 2009-04-04 15:59:56 rousseau Exp $
 #
 
 # syntax:
@@ -1275,6 +1275,9 @@
 
 3B 9D 95 80 1F C3 80 73 1A 21 1B 63 AF 07 A7 83 0F 90 00 F7
 	GemXplore 3G
+
+3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 30
+	"La7 Cartapiù" for DVB-T decoders, IRDETO access
 
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
