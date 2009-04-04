@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.408 2009-04-02 15:54:32 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.409 2009-04-04 11:23:51 rousseau Exp $
 #
 
 # syntax:
@@ -2366,6 +2366,9 @@
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 92 00 90 00
 	Gemplus GemXpresso 32K
+
+3F 77 18 00 00 C2 47 40 00 68 90 00
+	Viacces card: SRG SSR idèe suisse
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
