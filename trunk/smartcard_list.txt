@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.410 2009-04-04 15:59:56 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.411 2009-04-08 07:08:38 rousseau Exp $
 #
 
 # syntax:
@@ -643,6 +643,9 @@
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
 
+3B 6D 00 00 80 31 80 65 B0 07 02 02 89 83 00 90 00
+	JCOP30 contact interface
+
 3B 6D 00 00 80 31 80 65 B0 43 01 00 77 83 00 90 00
 	Gemplus GemXpresso Lite
 
@@ -705,6 +708,9 @@
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 11 A0 83 90 00
 	UK CapitalOne Platinum Mastercard
+
+3B 6E 00 00 00 31 C0 71 D6 65 94 E8 03 40 00 83 90 00
+	First Direct UK VISA Debit
 
 3B 6E 00 00 00 31 C0 71 D6 65 A3 03 01 80 00 83 90 00
 	UK First Direct (HSBC) Maestro / Cirrus
@@ -1126,6 +1132,9 @@
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
+
+3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
+	JCOP30 contactless interface
 
 3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
 	Czech Republic e-Passport (issued Feb 2009)
