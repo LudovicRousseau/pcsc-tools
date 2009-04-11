@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.411 2009-04-08 07:08:38 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.412 2009-04-11 16:30:12 rousseau Exp $
 #
 
 # syntax:
@@ -1319,6 +1319,9 @@
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 05 01 04 00 00 99
 	T-Mobile Nederlands http://www.tmobile.nl
+
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 31 05 00 00 3A
+	T-MOBILE CZ GSM card
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 8D
 	GSM-SIM EMT (Estonia, WPKI eID support)
