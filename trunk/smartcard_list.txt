@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.415 2009-04-17 09:01:43 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.416 2009-04-17 15:25:30 rousseau Exp $
 #
 
 # syntax:
@@ -968,7 +968,8 @@
 	http://www.runningserver.com/?page=runningserver.content.download.ecos
 
 3B 7F 14 00 00 80 41 00 57 4A 2D 49 44 4D 36 34 83 7F 90 00
-	Electronic CPF in Brazil (Cadastro de Pessoas Físicas = Social Security Number)
+	Electronic CPF in Brazil (Cadastro de Pessoas Físicas)
+	http://pt.wikipedia.org/wiki/E-CPF
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3 (32k)
