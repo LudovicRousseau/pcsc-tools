@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.412 2009-04-11 16:30:12 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.413 2009-04-17 07:57:31 rousseau Exp $
 #
 
 # syntax:
@@ -972,6 +972,9 @@
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
 	http://www.runningserver.com/?page=runningserver.content.download.ecos
+
+3B 7F 14 00 00 80 41 00 57 4A 2D 49 44 4D 36 34 83 7F 90 00
+	Electronic CPF in Brazil (Cadastro de Pessoas Físicas = Social Security Number)
 
 3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
 	DoD CAC, Oberthur CosmopolIC 32K V4
