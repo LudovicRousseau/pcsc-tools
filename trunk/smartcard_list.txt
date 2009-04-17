@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.413 2009-04-17 07:57:31 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.414 2009-04-17 07:58:18 rousseau Exp $
 #
 
 # syntax:
@@ -952,19 +952,22 @@
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
 
-3B 7F 11 00 00 00 6A 43 45 52 45 53 02 2C 34 02 00 03 90 00
-	FNMT-CERES ST (Fábrica Nacional de Moneda y Timbre)
-
-3B 7F 11 00 00 80 31 C0 52 21 57 64 02 18 19 53 83 83 90 00
-	banking card (www.caixacatalunya.com)
-	student id of Universitat  Autonoma de Barcelona
-
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
 
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	"OpenCard" - card issued by Prague local authority
 	dual card: chip used for electronic certificates
+
+3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
+	DoD CAC, Oberthur CosmopolIC 32K V4
+
+3B 7F 11 00 00 00 6A 43 45 52 45 53 02 2C 34 02 00 03 90 00
+	FNMT-CERES ST (Fábrica Nacional de Moneda y Timbre)
+
+3B 7F 11 00 00 80 31 C0 52 21 57 64 02 18 19 53 83 83 90 00
+	banking card (www.caixacatalunya.com)
+	student id of Universitat  Autonoma de Barcelona
 
 3B 7F 13 00 00 80 31 C0 52 0B BB 64 05 66 98 36 83 83 90 00
 	VISA OUROCARD Banco do Brasil S.A.
@@ -975,9 +978,6 @@
 
 3B 7F 14 00 00 80 41 00 57 4A 2D 49 44 4D 36 34 83 7F 90 00
 	Electronic CPF in Brazil (Cadastro de Pessoas Físicas = Social Security Number)
-
-3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
-	DoD CAC, Oberthur CosmopolIC 32K V4
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3 (32k)
