@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.417 2009-04-19 13:55:08 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.418 2009-04-23 06:51:13 rousseau Exp $
 #
 
 # syntax:
@@ -123,6 +123,9 @@
 
 3B 17 94 18 02 01 25 01 41 93
 	AT&T Wireless GSM SIM Card
+
+3B 17 94 20 05 01 10 01 41 FF 
+	CLARO SIM card (ex CTI Movil)
 
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
