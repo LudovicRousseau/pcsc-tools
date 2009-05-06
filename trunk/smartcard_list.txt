@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.419 2009-04-29 12:59:55 rousseau Exp $
+# $Id: smartcard_list.txt,v 1.420 2009-05-06 12:48:55 rousseau Exp $
 #
 
 # syntax:
@@ -63,6 +63,7 @@
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
+	Schlumberger Cryptoflex ActivCard
 
 3B 06 81 24 80 80 90 00
 	10€ credit card for TV & telephone in Jerez de la
@@ -102,6 +103,9 @@
 
 3B 16 94 71 01 01 05 02 00
 	GSM SIM Bouygues Telecom
+
+3B 16 94 81 10 06 01 .. ..
+	Schlumberger Cyberflex Access 16K
 
 3B 16 94 81 10 06 01 81 2F
 	Schlumberger Cyberflex Access Augmented Crypto
@@ -166,6 +170,9 @@
 
 3B 1F 11 80 6A 32 37 46 49 53 45 12 8C 02 FF 07 90 00
 	GSM-SIM DNA Finland (from 2001)
+
+3B 1F 11 80 6A 80 34 46 49 53 45 53 94 00 FF 07 .. ..
+	Setec SetCos 3.4
 
 3B 1F 11 80 6A 80 34 46 49 53 45 53 94 36 FF 07 90 00
 	SetCOS 3.4.0c
@@ -711,6 +718,9 @@
 	UK Capital One Platinum MasterCard
 	HSBC Commercial Card Visa
 
+3B 6E 00 00 00 62 16 43 .. 41 56 41 4E 54 10 81 .. ..
+	Setec SetCos 4.3.0
+
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
 
@@ -1187,6 +1197,9 @@
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
 
+3B 95 .. 40 FF 62 01 01 .. ..
+	Schlumberger Cryptoflex e-gate
+
 3B 95 15 40 .. 68 01 02 .. ..
 	Schlumberger CryptoFlex 8k v2
 
@@ -1299,7 +1312,7 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
-3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 90 00
+3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 .. ..
 	SLE66CX160S running SETCOS 4.3.1 Revision A
 
 3B 9F 94 40 1E 00 67 11 43 46 49 53 45 10 52 66 FF 81 90 00
@@ -1503,6 +1516,7 @@
 
 3B BB 18 00 C0 10 31 FE 45 80 67 04 12 B0 03 03 00 00 81 05 3C
 	Philips Smart MX
+	Szczecin University of Technology in Poland student identity card (Elektroniczna Legitymacja Studencka = student identity card)
 
 3B BB 18 00 C0 3E 31 FE 65 47 26 44 20 54 53 4D 20 31 2E 30 B7
 	Italian Tachograph Driver Card
