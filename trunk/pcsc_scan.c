@@ -17,7 +17,7 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307 USA
 */
 
-/* $Id: pcsc_scan.c,v 1.46 2009-01-15 20:08:51 rousseau Exp $ */
+/* $Id$ */
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,4 +1,4 @@
-# $Id: Makefile,v 1.20 2009-03-20 14:04:23 rousseau Exp $
+# $Id$
 
 # PC/SC Lite libraries and headers.
 PCSC_CFLAGS ?= $(shell pkg-config libpcsclite --cflags)

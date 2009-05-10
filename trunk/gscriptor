@@ -21,7 +21,7 @@
 # gscriptor uses libgtk-perl, please make sure it is correctly installed
 # on your system
 
-# $Id: gscriptor,v 1.46 2008-11-23 13:16:16 rousseau Exp $
+# $Id$
 
 use strict;
 use warnings;

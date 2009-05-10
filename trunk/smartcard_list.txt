@@ -24,7 +24,7 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id: smartcard_list.txt,v 1.420 2009-05-06 12:48:55 rousseau Exp $
+# $Id$
 #
 
 # syntax:

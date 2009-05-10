@@ -1,6 +1,6 @@
 #/bin/sh -e
 
-# $Id: create_distrib.sh,v 1.5 2007-08-10 21:23:24 rousseau Exp $
+# $Id$
 
 # $Log: not supported by cvs2svn $
 # Revision 1.4  2002-10-15 17:06:29  rousseau
