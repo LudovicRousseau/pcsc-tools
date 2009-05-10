@@ -1,0 +1,27 @@
+.TH ATR_ANALYSIS "1" "June 2002" "Version: 1.0" "User Commands"
+.SH NAME
+ATR_analysis \- analyse a smart card ATR
+.SH SYNOPSIS
+.B ATR_analysis
+.BI [ ATRstring ]
+.SH DESCRIPTION
+.B ATR_analysis
+is used to parse the ATR (answer to reset) sent by a smart card.
+
+Exemple:
+ $ ATR_analysis '3B A7 00 40 18 80 65 A2 08 01 01 52'
+ ATR: 3B A7 00 40 18 80 65 A2 08 01 01 52
+ + TS = 3B --> Direct Convention
+ + T0 = A7, Y(1): 1010, K: 7 (historical bytes)
+   TB(1) = 00 --> Programming Param P: 0, I: 0
+   TD(1) = 40 --> Y(i+1) = 0100, Protocol T = 0
+ -----
+   TC(2) = 18 --> Work waiting time: 960 x 24 x (Fi/F)
+ + Historical bytes: 80 65 A2 08 01 01 52
+
+.SH BUGS
+Maybe many bugs since I am not a ISO 7816 expert.
+.SH "SEE ALSO"
+.BR pcscd "(1), " pcsc_scan (1)
+.SH AUTHOR
+Ludovic Rousseau <ludovic.rousseau@free.fr>

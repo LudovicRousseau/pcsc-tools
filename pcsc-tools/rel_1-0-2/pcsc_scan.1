@@ -1,0 +1,64 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH PCSC_SCAN 1 "octobre 19, 2001"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+pcsc_scan \- regularly scans every PC/SC readers connected to the host
+.SH SYNOPSIS
+.B pcsc_scan
+.SH DESCRIPTION
+This manual page documents briefly the
+.B pcsc_scan
+command.
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBpcsc_scan\fP is a program that regularly scans every PC/SC readers
+connected to the host
+
+When \fBpcsc_scan\fP is started it asks \fBpcscd\fP the list of
+available smart card readers. The list is printed. A sequence number is
+printed before each reader.
+
+Example:
+ PC/SC device scanner
+ V 1.0.1 (c) 2001, Ludovic Rousseau
+ PCSC lite version: 1.0.0G
+ 0: GemPC410 0 0
+ 1: GemPC430 0 0
+
+When a card is inserted in any reader some information is printed:
+.TP
+date and time
+Fri Oct 19 19:03:18 2001
+.TP
+reader name
+Reader 0 (GemPC410 0 0)
+.TP
+card state and occured event
+Card state: State has changed, Card inserted,
+.TP
+ATR in case of card insertion
+ATR: 3B 82 00 86 1E
+
+.SH OPTIONS
+none
+.SH SEE ALSO
+.BR pcscd (1),
+.SH AUTHOR
+This manual page was written by Ludovic Rousseau <rousseau@debian.org>,
+for the Debian GNU/Linux system (but may be used by others).

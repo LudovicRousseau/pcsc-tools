@@ -1,0 +1,830 @@
+#!/usr/bin/env perl
+
+#    ATR_analysis
+#    Copyright (C) 2000-2006  Ludovic Rousseau, Christophe Levantis
+#
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+# $Id: ATR_analysis,v 1.38 2008-04-26 13:34:21 rousseau Exp $
+
+# For more information about the ATR see ISO 7816-3 1997, pages 12 and up
+#
+# TS	initial character
+# T0	format character, Y1 | K
+#		interfaces characters
+# TA(1)	global, codes  FI and DI
+# TB(1)	global, codes II and PI
+# TC(1)	global, codes N
+# TD(1)	codes Y(2) and T
+# TA(2)	global, codes specific mode
+# TB(2)	global, codes PI2
+# TC(2)	specific
+# TD(2)	codes Y(3) and T
+# TA(3)	TA(i), TB(i), TC(i) (i>2)
+# 		- specific after T!=15
+# 		- global after T=15
+# TD(i)	codes Y(i+1) and T
+# T1	historical bytes
+# 		max 15 characters
+# TK
+# TCK	check character
+
+use strict;
+use warnings;
+use Getopt::Std;
+use Chipcard::PCSC::Card;
+
+# file containing the smart card models
+my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt", "/usr/local/share/pcsc/smartcard_list.txt");
+
+our ($opt_v, $opt_h);
+my ($atr, %TS, @Fi, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);
+my ($Y1, $K, @object, $mpcard, $hb_category);
+
+# tables
+%TS = (0x3B, "Direct Convention", 0x3F, "Inverse Convention");
+@Fi = (372, 372, 558, 744, 1116, 1488, 1860, "RFU", "RFU", 512, 768, 1024,
+	1536, 2048, "RFU", "RFU");
+@Di = ("RFU", 1, 2, 4, 8, 16, 32, "RFU", 12, 20, "RFU", "RFU", "RFU",
+	"RFU", "RFU", "RFU");
+
+@XI = ("not supported", "state L", "state H", "no preference");
+@UI = ("A only (5V)", "B only (3V)", "A and B", "RFU");
+
+my $COLOR_START="\033[35m";	# magenta
+my $COLOR_BLUE="\033[34m";	# blue
+my $COLOR_END="\033[0m\n";	# default (black)
+
+# prorotypes
+sub analyse_TA();
+sub analyse_TB();
+sub analyse_TC();
+sub analyse_TD();
+sub find_card($@);
+sub analyse_histrorical_bytes();
+sub compact_tlv();
+sub lcs($);
+sub sm($);
+sub dc($);
+sub cc($);
+sub cs($);
+
+# globals init
+$T = 0;
+
+$counter = 1;
+
+getopts("vh");
+
+if ($opt_v)
+{
+	print "Version: 1.5, (c) 2002-2006, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "This software is free software (GNU General Public License)\n";
+	exit;
+}
+
+# 1_ 1 argument then input = ATR else smart card
+if ($opt_h or ($#ARGV == -1))
+{
+	print "Usage: $0 [-v] [-h] ATR_string\n";
+	print "  Ex: $0 3B A7 00 40 18 80 65 A2 08 01 01 52\n";
+	exit;
+}
+
+# 1_ get the ATR
+$atr = join " ", @ARGV;
+$atr =~ s/://g;
+if (substr ($atr, 2, 1) ne " ")
+{
+	# "3BA7004018" -> "3B A7 00 40 18"
+	$atr =~ s/(..)/$1 /g;
+	$atr =~ s/ *$//;
+}
+
+print "ATR: $atr\n";
+
+# 2_ Split in bytes of the lines
+@object = split(/\s/, $atr);
+
+# 3_ Analysis
+
+# Analysis of TS:
+$value = hex(shift(@object));
+if (defined $TS{$value})
+{
+	printf "+ TS = %02X --> %s\n", $value, $TS{$value};
+	$mpcard = 1;
+}
+else
+{
+	printf "+ TS = %02X --> UNDEFINED\n", $value;
+	# this is NOT a microprocessor card
+	$mpcard = 0;
+}
+
+exit if ($#object < 0);
+
+# Analysis of T0:
+$value = hex(shift(@object));
+$Y1 = $value >> 4;
+$K = $value % 16;
+printf "+ T0 = %02X, Y(1): %04b, K: %d (historical bytes)\n", $value, $Y1, $K;
+
+exit if ($#object < 0);
+analyse_TA() if ($Y1 & 0x1);
+
+exit if ($#object < 0);
+analyse_TB() if ($Y1 & 0x2);
+
+exit if ($#object < 0);
+analyse_TC() if ($Y1 & 0x4);
+
+exit if ($#object < 0);
+analyse_TD() if ($Y1 & 0x8);
+
+# TCK is present?
+if ($#object == $K)
+{
+	# expected TCK
+	my $tck_e = hex($object[-1]);
+	$#object--;
+
+	# calculated TCK
+	my $tck_c = 0;
+
+	my @object = split(/\s/, $atr);
+	shift @object;	# do not use TS
+	map { $tck_c ^= hex $_ } @object;
+	$TCK = sprintf "%02X ", $tck_e;
+	if ($tck_c == 0)
+	{
+	 	$TCK .= "(correct checksum)";
+	}
+	else
+	{
+	 	$TCK .= sprintf "WRONG CHECKSUM, expected %02X", $tck_e ^ $tck_c;
+	}
+}
+
+# the rest are historical bytes
+print "+ Historical bytes: @object\n";
+if ($#object+1 < $K)
+{
+	print " ERROR! ATR is truncated: " . ($K - $#object -1) . " byte(s) is/are missing\n";
+}
+analyse_histrorical_bytes();
+
+print "+ TCK = $TCK\n" if (defined $TCK);
+
+if (! $mpcard)
+{
+	print "Your card is not a microprocessor card. It seems to be memory card.\n";
+	exit;
+}
+
+# find the corresponding card type
+find_card($atr, @SMARTCARD_LIST);
+
+######## Sub functions
+
+#  _____  _    
+# |_   _|/ \   
+#   | | / _ \  
+#   | |/ ___ \ 
+#   |_/_/   \_\
+#
+sub analyse_TA()
+{
+	$value = hex(shift(@object));
+	printf ("  TA($counter) = %02X --> ", $value);
+
+	print $COLOR_START;
+
+	# TA1 Analysis
+	if ($counter == 1)
+	{ 
+		my $F = $value >> 4;
+		my $D = $value % 16;
+
+		$value = $Fi[$F]/$Di[$D] if ($Di[$D] ne "RFU");
+
+		printf "Fi=%s, Di=%s, %g cycles/ETU", $Fi[$F], $Di[$D], $value;
+		printf " (%d bits/s at 3.57 MHz)", 3571200/$value;
+	}
+	
+	# TA2 Analysis - TA2 is the specific mode byte
+	if ($counter == 2)
+	{ 
+		my $F = $value >> 4;
+		my $D = $value % 16;
+		
+		printf ("Protocol to be used in spec mode: T=%s", $D);
+		if ($F & 0x8)
+		{
+			print " - Unable to change";
+		}
+		else
+		{
+			print " - Capable to change";
+		}
+
+		if ($F & 0x1)
+		{
+			print " - implicity defined";
+		}
+		else
+		{
+			print " - defined by interface bytes";
+		}
+	}   
+
+	# TA3 Analysis
+	if ($counter >= 3)
+	{
+	    if ($T == 1)
+	    {
+	    	printf ("IFSC: %s", $value);
+	    }
+	    else
+	    {         #### T <> 1
+		    my $F = $value >> 6;
+		    my $D = $value % 64;
+		    my $Class = "(3G) ";
+
+		    $Class = $Class."A 5V " if ($D & 0x1);
+		    $Class = $Class."B 3V " if ($D & 0x2);
+		    $Class = $Class."C 1.8V " if ($D & 0x4);
+		    $Class = $Class."D RFU " if ($D & 0x8);
+		    $Class = $Class."E RFU" if ($D & 0x10);
+
+		    printf ("Clock stop: %s - Class accepted by the card: %s", $XI[$F],$Class); 
+	    }
+	}
+	print $COLOR_END;
+} # analyse_TA()
+
+#  _____ ____  
+# |_   _| __ ) 
+#   | | |  _ \ 
+#   | | | |_) |
+#   |_| |____/ 
+#
+sub analyse_TB()
+{
+	$value = hex(shift(@object));
+	printf ("  TB($counter) = %02X --> ", $value);
+
+	my $I = $value >> 5;
+	my $PI = $value % 32;
+
+	print $COLOR_START;
+
+	if ($counter == 1)
+	{
+		if ($PI == 0)
+		{
+			print "VPP is not electrically connected";
+		}
+		else
+		{
+			print "Programming Param P: $PI Volts, I: $I milliamperes";
+		}
+	}
+
+	if ($counter == 2)
+	{
+		print "Programming param PI2 (PI1 should be ignored): ";
+		if (($value>49)||($value<251))
+		{
+			print "$value (dV)";
+		}
+		else
+		{
+			print "$value is RFU";
+		}
+	}
+
+	if ($counter >= 3)
+	{
+	    if ($T == 1)
+	    {
+		    my $BWI = $value >> 4;
+		    my $CWI = $value % 16;
+		    
+		    printf ("Block Waiting Integer: %s - Character Waiting Integer: %s", $BWI, $CWI);
+	    }
+	}
+	print $COLOR_END;
+} # analyse_TB()
+
+#  _____ ____ 
+# |_   _/ ___|
+#   | || |    
+#   | || |___ 
+#   |_| \____|
+#
+sub analyse_TC()
+{
+	$value = hex(shift(@object));
+	printf ("  TC($counter) = %02X --> ", $value);
+
+	print $COLOR_START;
+
+	if ($counter == 1)
+	{
+		print "Extra guard time: $value";
+		print " (special value)" if ($value == 255);
+	}
+
+	if ($counter == 2)
+	{
+		printf ("Work waiting time: 960 x %d x (Fi/F)", $value);
+	}
+
+	if ($counter >= 3)
+	{
+		if ($T == 1)
+		{
+			printf ("Error detection code: ");
+			if ($value == 1)
+			{
+				print "CRC";
+			}
+			elsif ($value == 0)
+			{
+				print "LRC";
+			}
+			else
+			{
+				print "RFU";
+			}
+		}
+	}
+	print $COLOR_END;
+} # analyse_TC()
+
+#  _____ ____  
+# |_   _|  _ \ 
+#   | | | | | |
+#   | | | |_| |
+#   |_| |____/ 
+#
+sub analyse_TD()
+{
+	my $str = '';
+
+	$value = hex(shift(@object));
+	
+	my $Y = $value >> 4;
+	$T = $value % 16;
+
+	if ($T == 15)
+	{
+	 	$str = " - Global interface bytes following";
+	}
+	printf ("  TD($counter) = %02X --> Y(i+1) = %04b,$COLOR_START Protocol T = $T$str $COLOR_END", $value, $Y);
+
+	$counter++;
+	print "-----\n";
+
+	exit if ($#object < 0);
+	analyse_TA() if ($Y & 0x1);
+
+	exit if ($#object < 0);
+	analyse_TB() if ($Y & 0x2);
+
+	exit if ($#object < 0);
+	analyse_TC() if ($Y & 0x4);
+
+	exit if ($#object < 0);
+	analyse_TD() if ($Y & 0x8);
+} # analyse_TD()
+
+# _____ _           _                     _ 
+#|  ___(_)_ __   __| |   ___ __ _ _ __ __| |
+#| |_  | | '_ \ / _` |  / __/ _` | '__/ _` |
+#|  _| | | | | | (_| | | (_| (_| | | | (_| |
+#|_|   |_|_| |_|\__,_|  \___\__,_|_|  \__,_|
+#
+sub find_card($@)
+{
+	my $atr = shift;
+	my @files = @_;
+
+	my ($line, $found, $f, $file);
+
+	foreach (@files)
+	{
+		if (-e "$_")
+		{
+			$file = $_;
+			last;
+		}
+	}
+
+	# no valid file found
+	return if (!defined $file);
+
+	$found = 0;
+	print "\nPossibly identified card (using $file):\n";
+	open FILE, "< $file" or die "Can't open $file: $!\n";
+	while ($line = <FILE>)
+	{
+		next if ($line =~ m/^#/);	# comment
+		next if ($line =~ m/^$/);	# empty line
+		next if ($line =~ m/^\t/);	# description
+
+		chomp $line;
+
+		if ($atr =~ m/^$line$/i)
+		{
+			# print the card ATR if a regular expression was used
+			print "$atr\n" if (uc $line ne uc $atr);
+
+			print "$line\n";	# print the matching ATR
+
+			$found = 1;
+			# print until a line do not start by a tabulation
+			while (($line = <FILE>) =~ m/^\t/)
+			{
+				chomp $line;
+				# print the card description
+				print $COLOR_BLUE . $line . $COLOR_END;
+			}
+		}
+	}
+	close FILE;
+
+	if ((! $found) && ($atr =~ m/^[3B|3F]/))
+	{
+		print "\tNONE\n\n";
+		print "Your card is not present in the database.\n";
+		print "You can get the latest version of the database from\n";
+		print "  http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt\n";
+		print "or use: wget http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output-document=$files[0]\n\n";
+		print "If your ATR is still not in the latest version then please send a mail\n";
+		print "to <ludovic.rousseau\@free.fr> containing:\n";
+		print "- your ATR\n";
+		print "- a card description\n";
+	}
+} # find_card($)
+
+sub analyse_histrorical_bytes()
+{
+	$hb_category = shift @object;
+
+	# return if we have NO historical bytes
+	return unless $hb_category;
+
+	print "  Category indicator byte: $hb_category";
+
+	for ($hb_category)
+	{
+		/00/ && do
+		{
+			print " (compact TLV data object)\n";
+
+			if (scalar @object < 3)
+			{
+				print "    Error in the ATR: expecting 3 bytes and got " . scalar @object ."\n";
+				last;
+			}
+
+			# get the 3 last bytes
+			my @status = splice @object, -3, 3;
+
+			compact_tlv() while (@object);
+
+			my $lcs = shift @status;
+			my $sw1 = shift @status;
+			my $sw2 = shift @status;
+			print "    Mandatory status indicator (3 last bytes)\n";
+			print "      LCS (life card cycle): $lcs (" .  lcs($lcs) . ")\n";
+			print "      SW: $sw1$sw2 (" . Chipcard::PCSC::Card::ISO7816Error("$sw1 $sw2") . ")\n";
+			last;
+		};
+
+		/80/ && do
+		{ 
+			print " (compact TLV data object)\n";
+			compact_tlv() while (@object);
+			last;
+		};
+
+		/10/ && do
+		{
+			print " (next byte is the DIR data reference)\n";
+			my $data_ref = shift @object;
+			print "   DIR data reference: $data_ref\n";
+			last;
+		};
+
+		/81|82|83|84|85|86|87|88|89|8A|8B|8C|8D|8E|8F/ && do
+		{
+			print " (Reserved for futur use)\n";
+			last;
+		};
+
+		print " (proprietary format)\n";
+	}
+} # analyse_histrorical_bytes()
+
+sub compact_tlv()
+{
+	my $tlv = shift @object;
+
+	# the TLV _may_ be present
+	return unless $tlv;
+
+	my ($tag, $len);
+	$tlv =~ /(.)(.)/;
+	$tag = $1;
+	$len = $2;
+
+	print "    Tag: $tag, len: $len";
+	for ($tag)
+	{
+		/1/ && do
+		{
+			print " (country code, ISO 3166-1)\n";
+			print "      Country code: " . (join ' ', splice @object, 0, hex $len) . "\n";
+			last;
+		};
+
+		/2/ && do
+		{
+			print " (issuer identification number, ISO 7812-1)\n";
+			print "      Issuer identification number: " . (join ' ', splice @object, 0, hex $len) . "\n";
+			last;
+		};
+
+		/3/ && do
+		{
+			my $cs = shift @object;
+			print " (card service data byte)\n";
+			if (! defined $cs)
+			{
+				print "      Error in the ATR: expecting 1 byte and got 0\n";
+				last;
+			}
+			print "      Card service data byte: $cs\n";
+			cs($cs);
+			last;
+		};
+
+		/4/ && do
+		{
+			print " (initial access data)\n";
+			print "      Initial access data: " . (join ' ', splice @object, 0, hex $len) . "\n";
+			last;
+		};
+
+		/5/ && do
+		{
+			print " (card issuer's data)\n";
+			print "      Card issuer data: " . (join ' ', splice @object, 0, hex $len) . "\n";
+			last;
+		};
+
+		/6/ && do
+		{
+			print " (pre-issuing data)\n";
+			print "      Data: " . join(' ', splice @object, 0, hex $len) .  "\n";
+			last;
+		};
+
+		/7/ && do
+		{
+			print " (card capabilities)\n";
+			for ($len)
+			{
+				/1/ && do
+				{
+					my $sm = shift @object;
+					print "      Selection methods: $sm\n";
+					sm($sm);
+					last;
+				};
+
+				/2/ && do
+				{
+					my $sm = shift @object;
+					my $dc = shift @object;
+					print "      Selection methods: $sm\n";
+					sm($sm);
+					print "      Data coding byte: $dc\n";
+					dc($dc);
+					last;
+				};
+
+				/3/ && do
+				{
+					my $sm = shift @object;
+					my $dc = shift @object;
+					my $cc = shift @object;
+					print "      Selection methods: $sm\n";
+					sm($sm);
+					print "      Data coding byte: $dc\n";
+					dc($dc);
+					print "      Command chaining, length fields and logical channels: $cc\n";
+					cc($cc);
+					last;
+				};
+
+				print "      wrong ATR\n";
+			}
+			last;
+		};
+
+		/8/ && do
+		{
+			print " (status indicator)\n";
+			for ($len)
+			{
+				/1/ && do 
+				{
+					my $lcs = shift @object;
+					print "      LCS (life card cycle): $lcs\n";
+					last;
+				};
+
+				/2/ && do
+				{
+					my $sw1 = shift @object;
+					my $sw2 = shift @object;
+					print "      SW: $sw1$sw2\n";
+					last;
+				};
+
+				/3/ && do
+				{
+					my $lcs = shift @object;
+					my $sw1 = shift @object;
+					my $sw2 = shift @object;
+					print "      LCS (life card cycle): $lcs (" .  lcs($lcs) . ")\n";
+					print "      SW: $sw1$sw2 (" . Chipcard::PCSC::Card::ISO7816Error("$sw1 $sw2") . ")\n";
+					last;
+				};
+			}
+			last;
+		};
+
+		/F/ && do
+		{
+			print " (application identifier)\n";
+			print "      Application identifier: " . (join ' ', splice @object, 0, hex $len) . "\n";
+			last;
+		};
+
+		print " (unknown)\n";
+		print "      Value: " . (join ' ', splice @object, 0, hex $len) . "\n" if ($len > 0);
+	}
+} # compact_tlv()
+
+# see table 13 -- Life cycle status byte, page 21 of ISO 7816-4
+sub lcs($)
+{
+	my $lcs = shift;
+
+	return "Proprietary" if (hex $lcs > 15);
+
+	# get the LSB nibble
+	$lcs = substr $lcs, -1, 1;
+	for ($lcs)
+	{
+		/0/ && do { return "No information given"; last; };
+		/1/ && do { return "Creation state"; last; };
+		/3/ && do { return "Initialisation state"; last; };
+		/[4|6]/ && do { return "Operational state (deactivated)"; last; };
+		/[5|7]/ && do { return "Operational state (activated)"; last; };
+		/C|D|E|F]/ && do { return "Termination state"; last; };
+		return "unknown";
+	}
+} # lcs()
+
+# see table 86 -- First software function table (selection methods),
+# page 60 of ISO 7816-4
+sub sm($)
+{
+	# convert in a list of 0 or 1
+	my @sm = split //, unpack ("B32", pack ("N", hex shift));
+
+	# remove the 24 first bits
+	splice @sm, 0, 24;
+
+	print "        - DF selection by full DF name\n" if shift @sm;
+	print "        - DF selection by partial DF name\n" if shift @sm;
+	print "        - DF selection by path\n" if shift @sm;
+	print "        - DF selection by file identifier\n" if shift @sm;
+	print "        - Implicit DF selection\n" if shift @sm;
+	print "        - Short EF identifier supported\n" if shift @sm;
+	print "        - Record number supported\n" if shift @sm;
+	print "        - Record identifier supported\n" if shift @sm;
+} # sm
+
+# see table 87 -- Second software function table (data coding byte),
+# page 60 of ISO 7816-4
+sub dc($)
+{
+	# convert in a list of 0 or 1
+	my @dc = split //, unpack ("B32", pack ("N", hex shift));
+
+	# remove the 24 first bits
+	splice @dc, 0, 24;
+
+	print "        - EF of TLV structure supported\n" if shift @dc;
+
+	print "        - Behaviour of write functions: ";
+	my $v = shift(@dc)*2 + shift(@dc);
+	for ($v)
+	{
+		/0/ && do { print "one-time write\n"; last; };
+		/1/ && do { print "proprietary\n"; last; };
+		/2/ && do { print "write OR\n"; last; };
+		/3/ && do { print "write AND\n"; last; };
+	}
+
+	print "        - Value 'FF' for the first byte of BER-TLV tag fields: ";
+	print "in" unless shift @dc;
+	print "valid\n";
+
+	print "        - Data unit in quartets: ";
+	$v = shift(@dc)*8 + shift(@dc)*4 + shift(@dc)*2 + shift(@dc);
+	print 2**$v . "\n";
+
+} # dc
+
+# see table 88 -- Third software function table (command chaining,
+# length fields and logical channels), page 61 of ISO 7816-4
+sub cc($)
+{
+	# convert in a list of 0 or 1
+	my @cc = split //, unpack ("B32", pack ("N", hex shift));
+
+	# remove the 24 first bits
+	splice @cc, 0, 24;
+
+	print "        - Command chaining\n" if shift @cc;
+	print "        - Extended Lc and Le fields\n" if shift @cc;
+	print "        - RFU (should not happen)\n" if shift @cc;
+
+	print "        - Logical channel number assignment: ";
+	my $v = shift(@cc)*2 + shift(@cc);
+	for ($v)
+	{
+		/0/ && do { print "No logical channel\n"; last; };
+		/1/ && do { print "by the interface device\n"; last; };
+		/2/ && do { print "by the card\n"; last; };
+		/3/ && do { print "by the interface device and card\n"; last; };
+	}
+
+	$v = shift(@cc)*4 + shift(@cc)*2 + shift(@cc) +1;
+	print "        - Maximum number of logical channels: $v\n";
+} # cc
+
+# see table 85 -- Card service data byte, page 59 of ISO 7816-4
+sub cs($)
+{
+	# convert in a list of 0 or 1
+	my @cs = split //, unpack ("B32", pack ("N", hex shift));
+
+	# remove the 24 first bits
+	splice @cs, 0, 24;
+
+	print "        - Application selection: by full DF name\n" if shift @cs;
+	print "        - Application selection: by partial DF name\n" if shift @cs;
+	print "        - BER-TLV data objects available in EF.DIR\n" if shift @cs;
+	print "        - BER-TLV data objects available in EF.ATR\n" if shift @cs;
+
+	my $v = shift(@cs)*4 + shift(@cs)*2 + shift(@cs);
+	print "        - EF.DIR and EF.ATR access services: ";
+	for ($v)
+	{
+		/4/ && do { print "by READ BINARY command\n"; last; };
+		/0/ && do { print "by GET RECORD(s) command\n"; last; };
+		/2/ && do { print "by GET DATA command\n"; last; };
+		print "reverved for future use\n";
+	}
+
+	if (shift @cs)
+	{
+		printf "        - Card without MF\n";
+	}
+	else
+	{
+		printf "        - Card with MF\n";
+	}
+} # cs
+

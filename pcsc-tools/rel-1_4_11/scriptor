@@ -1,0 +1,171 @@
+#!/usr/bin/env perl
+
+#    scriptor.pl: text interface to send APDU commands to a smart card
+#    Copyright (C) 2001  Lionel Victor
+#             2002-2003  Ludovic Rousseau
+#
+#    This program is free software; you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation; either version 2 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program; if not, write to the Free Software
+#    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+# $Id: scriptor,v 1.21 2007-10-06 09:07:45 rousseau Exp $
+
+use Getopt::Std;
+use Chipcard::PCSC;
+use Chipcard::PCSC::Card;
+
+use strict;
+use warnings;
+
+my %options;
+
+my $hContext = new Chipcard::PCSC();
+my $hCard;
+my @out_buffer;
+my $in_buffer;
+my $echo;
+
+die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless defined $hContext;
+
+getopt ("r:p:" , \%options);
+
+if ($options{h}) {
+	print "Usage: $0 [-h] [-r reader] [-p protocol] [file]\n";
+	print "          -h: this help\n";
+	print "   -r reader: specify to use the PCSC smart card reader named reader\n";
+	print "              By defaults the first one found is used so you\n";
+	print "              don't have to specify anything if you just have\n";
+	print "              one reader\n";
+	print " -p protocol: protocol to use among T=0 and T=1.\n";
+	print "              Default is to let pcsc-lite choose the protocol\n";
+	print "        file: file containing APDUs\n";
+	exit (0);
+}
+
+# protocol option
+if ($options{p}) {
+	if ($options{p} =~ m/T=0/) {
+		print STDERR "Trying T=0 protocol\n";
+		$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T0;
+	} else {
+		if ($options{p} =~ m/T=1/) {
+			print STDERR "Trying T=1 protocol\n";
+			$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T1;
+		} else {
+			die "unknown protocol: $options{p}\n";
+		}
+	}
+} else {
+	$options{p} = $Chipcard::PCSC::SCARD_PROTOCOL_T0 | $Chipcard::PCSC::SCARD_PROTOCOL_T1;
+}
+
+# reader option
+if ($options{r}) {
+	print STDERR "Using given card reader: $options{r}\n";
+} else {
+	my @readers_list = $hContext->ListReaders ();
+	die ("Can't get readers list\n") unless defined $readers_list[0];
+	print STDERR "No reader given: using $readers_list[0]\n";
+	$options{r} = $readers_list[0];
+}
+
+$hCard = new Chipcard::PCSC::Card ($hContext, $options{r}, $Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE, $options{p});
+die ("Can't allocate Chipcard::PCSC::Card object: $Chipcard::PCSC::errno\n") unless defined $hCard;
+
+if ($hCard->{dwProtocol} == $Chipcard::PCSC::SCARD_PROTOCOL_T0) {
+	print "Using T=0 protocol\n";
+} else {
+	if ($hCard->{dwProtocol} == $Chipcard::PCSC::SCARD_PROTOCOL_T1) {
+		print "Using T=1 protocol\n";
+	}
+	else {
+		print "Using an unknown protocol (not T=0 or T=1)\n";
+	}
+}
+
+# file option
+if ($ARGV[0]) {
+	open (IN_FILEHANDLE, "<$ARGV[0]") or die ("Can't open $ARGV[0]: $!\n");
+	print STDERR "Using given file: $ARGV[0]\n";
+	$echo=1;
+} else {
+	*IN_FILEHANDLE = *STDIN;
+	print STDERR "Reading commands from STDIN\n";
+	$echo=0;
+}
+
+*OUT_FILEHANDLE = *STDOUT;
+
+my $cmd;
+my $match = ".. " x 24;
+while (<IN_FILEHANDLE>) {
+	my $tmp_value;
+	my ($SendData, $RecvData, $sw);
+
+	print if ($echo);
+	last if /exit/i;
+	next if /^\s*$/;
+	next if /^#/;
+
+	if (/reset/i) {
+		print OUT_FILEHANDLE "> RESET\n";
+		if (defined $hCard->Reconnect ($Chipcard::PCSC::SCARD_SHARE_EXCLUSIVE,
+		                   $options{p},
+						   $Chipcard::PCSC::SCARD_RESET_CARD)) {
+			my @s = $hCard->Status();
+			print OUT_FILEHANDLE "< OK: ";
+			print map { sprintf ("%02X ", $_) } @{$s[3]};
+			print OUT_FILEHANDLE "\n";
+		} else {
+			print OUT_FILEHANDLE "< KO: $Chipcard::PCSC::errno\n";
+		}
+		next;
+	}
+	chomp;
+
+	# if the command does not contains spaces (00A4030000) we expand it
+	s/(..)/$1 /g if (! m/ /);
+
+	# continue if line ends in \
+	if (m/\\$/)
+	{
+		chop;	# remove the \
+		s/ *$/ /;	# replace any spaces by ONE space
+		$cmd .= $_;
+		next;	# read next line
+	}
+
+	$cmd .= $_;
+
+	# convert in an array (internal format)
+	$SendData = Chipcard::PCSC::ascii_to_array($cmd);
+
+	print OUT_FILEHANDLE "> $cmd\n";
+	$RecvData = $hCard->Transmit($SendData);
+	die ("Can't get info: $Chipcard::PCSC::errno\n") unless defined $RecvData;
+	my $res = Chipcard::PCSC::array_to_ascii($RecvData);
+	$sw = Chipcard::PCSC::Card::ISO7816Error(substr($res, -5));
+	$res =~ s/($match)/$1\n/g;
+	print OUT_FILEHANDLE "< $res : $sw\n";
+
+	# empty the command
+	$cmd = "";
+}
+
+close (IN_FILEHANDLE);
+$hCard->Disconnect($Chipcard::PCSC::SCARD_LEAVE_CARD);
+$hCard = undef;
+$hContext = undef;
+
+# End of File
+
