@@ -718,14 +718,14 @@
 	UK Capital One Platinum MasterCard
 	HSBC Commercial Card Visa
 
-3B 6E 00 00 00 62 16 43 .. 41 56 41 4E 54 10 81 .. ..
-	Setec SetCos 4.3.0
-
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
 
 3B 6E 00 00 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 5.1.0 EMV + AVANT
+
+3B 6E 00 00 00 62 16 43 .. 41 56 41 4E 54 10 81 .. ..
+	Setec SetCos 4.3.0
 
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.5 multos)
@@ -2274,6 +2274,9 @@
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 33 48 61 32 41 47 D6
 	GSM SIM (issued by e-plus, Germany)
+
+3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 55 48 60 32 41 00 F6
+	GSM SIM from O2 Germany (UMTS ready) from 2005
 
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
