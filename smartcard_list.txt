@@ -1234,6 +1234,12 @@
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
 
+3B 97 11 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5F
+	carte d'atelier permettant de paramétrer certains éléments du chronotachygraphe numérique
+
+3B 97 13 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5D
+	carte de conducteur ou d'entreprise, éditée par Chronoservices ("filiale de l'imprimerie nationale"). Lié à l'introduction du chronotachygraphe numérique
+
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
 
