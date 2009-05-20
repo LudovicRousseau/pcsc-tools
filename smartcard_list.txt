@@ -2448,6 +2448,9 @@
 3F 96 18 80 01 80 51 00 61 10 30 9F
 	Atmel/Athena T0 Inverse Convention PC/SC Compliance Test Card No. 2
 
+3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
+	Sky Digital (DSS satellite TV card) 2009 issue
+
 3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
 	Sky Italia (satellite card, NDS3)
 
