@@ -677,6 +677,10 @@
 	MasterCard Card - Maximum - IS Bank / Turkey
 	Visa Card - Axess - Akbank / Turkey
 
+3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 31
+	UK BARCLAYS VISA Connect Debit card. 
+	The chip is used for the Chip&PIN application common for all UK-issued cards: http://www.chipandpin.co.uk/
+
 3B 6E 00 00 00 31 C0 65 76 B4 01 01 60 71 D6 8C 61 1F
 	MasterCard Silver from Viseca Card Services SA
 	http://www.viseca.ch/html/en/kreditkarten/produkte_neutrale_karten.php
@@ -904,6 +908,9 @@
 3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 01 00 81 90 00
 	DOD-CAC
 
+3B 7D 13 00 00 4D 44 57 2D 49 41 53 2D 43 41 52 44 32
+	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Sagem
+
 3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
 	Oberthur 64k v4/2.1.1
 
@@ -963,6 +970,9 @@
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	"OpenCard" - card issued by Prague local authority
 	dual card: chip used for electronic certificates
+
+3B 7E 95 00 00 80 31 80 73 34 11 80 82 90 00 00 00 00 00
+	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Gemalto
 
 3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
 	DoD CAC, Oberthur CosmopolIC 32K V4
@@ -2287,6 +2297,12 @@
 
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
+
+3B FF 96 00 FF 81 31 FE 45 65 63 19 01 50 02 80 00 0F 00 2B 00 46 50 11 72
+	Sparkasse Bremen Germany HBCI DDV
+
+3B FF 96 00 FF 81 31 FE 45 65 63 19 01 50 02 80 00 0F 00 2F 00 25 50 11 15
+	German Postbank Giro card with electronic cash, Maestro, GeldKarte features
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
