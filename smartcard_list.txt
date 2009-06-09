@@ -2236,7 +2236,7 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 46 50 01 08 05 30 27
 	HBCI-Karte (Sparkasse Altmark-West, Salzwedel, Germany)
 
-3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 84 70 01 04 05  30 C9
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 84 70 01 04 05 30 C9
 	HBCI Card (1822 direkt Frankfurter Sparkasse, Germany) Geldkarte [ec, Maestro]
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 40 50 03 18 06 20 D4
