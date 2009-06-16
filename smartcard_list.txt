@@ -1989,6 +1989,10 @@
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
 
+3B F9 18 00 00 81 31 FE 45 39 35 32 38 35 30 31 33 31 DA
+	JCOP31 / 72B1 V2.2 (4096 RSA key support)
+	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
+
 3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 32 A9
 	NXP JCOP 21 V2.2 36K
 
