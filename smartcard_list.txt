@@ -40,6 +40,27 @@
 3B 02 53 01
 	Gemplus GemClub Memo
 
+3B 04 07 3C 85 92
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
+3B 04 07 3C 85 9A
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
+3B 04 07 3C 89 10
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
+3B 04 07 3C 89 18
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
+3B 04 07 3C 89 92
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
+3B 04 07 3C 89 9A
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
+3B 04 07 3C 8C 10
+	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+
 3B 04 41 11 77 81
 	Sample Mifare DESFire contactless smartcard from Phillips
 
@@ -57,9 +78,16 @@
 3B 04 99 FF FF 20
 	used for parkimeters/Parkings in Madrid
 
+3B 04 99 FF FF 90
+	Madrid prepaid parking card
+
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
 	Bahn BKK (Deutsche Bahn AG - Insurance Company)
+	NH Hotels World fidelization card
+
+3B 04 C9 D0 F1 40
+	Cuban prepaid phone card provided by ETECSA
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
@@ -828,6 +856,9 @@
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
 	http://www.fnmt.es/es/html/tage/fichaTarjeta/fp1_ta_01.asp
+
+3B 6F 00 00 80 66 A2 03 02 02 3D 07 53 02 31 10 82 90 00
+	Spanish University's electronic purse (provided by Banco Santander)
 
 3B 6F 00 FF 00 56 72 75 54 6F 6B 6E 73 30 20 00 00 90 00
 	ruToken-S (USB token)
