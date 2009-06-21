@@ -41,25 +41,25 @@
 	Gemplus GemClub Memo
 
 3B 04 07 3C 85 92
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 07 3C 85 9A
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 07 3C 89 10
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 07 3C 89 18
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 07 3C 89 92
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 07 3C 89 9A
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 07 3C 8C 10
-	Spanish Prepaid phone cards (old, pesetas) provided by Telefonica)
+	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
 3B 04 41 11 77 81
 	Sample Mifare DESFire contactless smartcard from Phillips
@@ -75,11 +75,8 @@
 3B 04 92 23 10 91
 	Siemens SLE 4432/42 card
 
-3B 04 99 FF FF 20
-	used for parkimeters/Parkings in Madrid
-
 3B 04 99 FF FF 90
-	Madrid prepaid parking card
+	Madrid prepaid parkimeters parking card
 
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
@@ -858,7 +855,7 @@
 	http://www.fnmt.es/es/html/tage/fichaTarjeta/fp1_ta_01.asp
 
 3B 6F 00 00 80 66 A2 03 02 02 3D 07 53 02 31 10 82 90 00
-	Spanish University's electronic purse (provided by Banco Santander)
+	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
 
 3B 6F 00 FF 00 56 72 75 54 6F 6B 6E 73 30 20 00 00 90 00
 	ruToken-S (USB token)
@@ -1040,7 +1037,7 @@
 	WG10
 
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 03 10 03 90 00
-	Used card Aragón governement (Aragón - España)
+	Used card Aragón government (Aragón - España)
 
 3B 7F 38 00 00 00 6A 44 4E 49 65 [1,2]0 02 4C 34 01 13 03 90 00
 	DNI electronico (Spanish electronic ID card)
