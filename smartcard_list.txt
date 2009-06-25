@@ -1033,8 +1033,14 @@
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
 
+3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 02 ...03 90 00
+	Ceres ST v2
+
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
 	WG10
+
+3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 03 .. 03 90 00
+	Ceres ST v3
 
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 03 10 03 90 00
 	Used card Aragón government (Aragón - España)
@@ -1809,12 +1815,12 @@
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
 
-3B EF 00 00 40 14 80 25 43 45 52 45 53 57 01 16 01 01 03 90 00
+3B EF .. 00 40 14 80 25 43 45 52 45 53 57 .. .. 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
 	Certification Authority (Fábrica Nacional de Moneda y Timbre)
 	FNMT-Ceres Siemens Infineon SLE 19
 
-3B EF 00 00 40 14 80 25 43 45 52 45 53 57 05 60 01 02 03 90 00
+3B EF .. 00 40 14 80 25 43 45 52 45 53 57 .. .. 01 02 03 90 00
 	FNMT-Ceres Siemens Infineon SLE 20
 	Fábrica Nacional de Moneda y Timbre
 
