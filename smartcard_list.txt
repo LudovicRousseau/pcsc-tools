@@ -1002,6 +1002,12 @@
 3B 7E 95 00 00 80 31 80 73 34 11 80 82 90 00 00 00 00 00
 	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Gemalto
 
+3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 02 ...03 90 00
+	Ceres ST v2
+
+3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 03 .. 03 90 00
+	Ceres ST v3
+
 3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
 	DoD CAC, Oberthur CosmopolIC 32K V4
 
@@ -1033,14 +1039,8 @@
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
 
-3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 02 ...03 90 00
-	Ceres ST v2
-
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
 	WG10
-
-3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 03 .. 03 90 00
-	Ceres ST v3
 
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 03 10 03 90 00
 	Used card Aragón government (Aragón - España)
@@ -1163,6 +1163,9 @@
 
 3B 8A 00 92 02 03 91 08 00 01 01 04 00
 	32K SIM Card from the austrian telecom "ONE"
+
+3B 8A 01 4A 43 4F 50 34 31 56 32 32 31 FF
+	JCOP41
 
 3B 8A 80 01 00 64 05 5C 02 03 31 80 90 00 16
 	T-System Contactless Netkey Card
