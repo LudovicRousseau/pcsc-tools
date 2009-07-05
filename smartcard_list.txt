@@ -839,6 +839,9 @@
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
 	carte transport bus/tram "atout.tag" semitag grenoble
 
+3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 48 EA 82 90 00
+	french public transport card (www.cts-strasbourg.fr)
+
 3B 6F 00 00 80 5A 08 06 08 20 02 00 92 35 1E 52 82 90 00
 	Public transport card of Lisbon (www.carris.pt)
 
