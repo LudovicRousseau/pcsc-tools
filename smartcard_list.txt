@@ -376,6 +376,7 @@
 
 3B 3F 94 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
 	GSM SIM Card (GEMPLUS), issued by Orange Switzerland (Prepaid)
+	Italian Vodafone 64k SIM
 
 3B 3F 94 00 80 65 AF 03 12 01 79 73 32 21 1B 83 0F 90 00
 	UK O2 GSM SIM (2G Online Prepay Maldives)
@@ -1225,6 +1226,11 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	Contactless Mifare Ultralight
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 F0 04 00 00 00 00 9F
+	NFC FORUM TYPE 1 TAG
+	www.inovision-group.com/topaz
+	ISO/IEC 14443A - 96 Bytes read/write NFC/RFID IC mandated by NFC Forum as the Type 1 NFC Forum Tag Format.
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 FF 88 00 00 00 00 1C
 	Infineon Mifare SLE 66R35
 	http://www.infineon.com/cms/en/product/channel.html?channel=ff80808112ab681d0112ab69686e01ee
@@ -1356,6 +1362,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
 	3 ireland http://www.three.ie
 	UK '3' network GSM-3G SIM
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
+	United Mobile SIM
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
@@ -1698,6 +1707,9 @@
 
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto, http://www.athena-scs.com/product.asp?pid=8
+
+3B DA 18 FF 81 B1 FE 75 1F 03 00 31 C5 73 C0 01 40 00 90 00 0C
+	GnuPG card V2
 
 3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
 	NEC V-WAY64 v2.1
