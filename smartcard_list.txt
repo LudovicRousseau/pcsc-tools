@@ -724,7 +724,7 @@
 
 3B 6E 00 00 00 31 C0 71 86 65 01 78 01 27 34 83 90 00
 	UK NatWest ServiceCard 100 Maestro
-	Visa Card - Gold - CARDFINANS  / Turkey
+	Visa Card - Gold - CARDFINANS / Turkey
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
@@ -1024,7 +1024,7 @@
 
 3B 7F 11 00 00 80 31 C0 52 21 57 64 02 18 19 53 83 83 90 00
 	banking card (www.caixacatalunya.com)
-	student id of Universitat  Autonoma de Barcelona
+	student id of Universitat Autonoma de Barcelona
 
 3B 7F 13 00 00 80 31 C0 52 0B BB 64 05 66 98 36 83 83 90 00
 	VISA OUROCARD Banco do Brasil S.A.
@@ -1651,7 +1651,7 @@
 	Austrian Maestro bank card
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 24 68 30 00 00 00 00 AB
-	Austrian BankCard  (Maestro + Quick) (New Version, since 02/2005,
+	Austrian BankCard (Maestro + Quick) (New Version, since 02/2005,
 	with Digital-Signature etc.)
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 27 27 27 00 00 00 00 F0
@@ -2024,7 +2024,7 @@
 	TopUp TV NagraVision viewing card
 
 3B F7 11 00 01 40 96 70 70 17 0E 6C B6 D6
-	Canal Satellite card (VERSION 7.1  SYSTEM / SECA2)
+	Canal Satellite card (VERSION 7.1 SYSTEM / SECA2)
 
 3B F7 11 00 01 40 96 70 70 37 0E 6C B6 D6
 	Carte pour decodeur cable numérique (fourni par www.voo.be et
