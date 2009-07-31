@@ -861,6 +861,11 @@
 3B 6F 00 00 80 66 A2 03 02 02 3D 07 53 02 31 10 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
 
+3B 6F 00 00 80 66 B0 07 01 01 77 07 53 02 31 10 82 90 00
+	UPC.edu (Universitat Politècnica de Catalunya)
+	https://www.upc.edu/identitatdigital
+	http://www.univers.upc.edu/comunitatupc/NOUCARNETUPC
+
 3B 6F 00 00 80 66 B0 07 01 01 77 07 53 02 31 24 82 90 00
 	Santander 4B Maestro
 	University of Santiago de Compostela. Spain
