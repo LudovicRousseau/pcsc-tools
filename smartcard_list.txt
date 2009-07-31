@@ -1703,6 +1703,9 @@
 3B D5 18 00 81 31 3A 7D 80 73 C8 21 10 30
 	Aladdin eToken NG-Flash with 256MB of flash memory
 
+3B D5 18 00 81 31 FE 7D 80 73 C8 21 10 F4
+	Bank of Lithuania Identification card
+
 3B D5 95 04 00 AE 01 02 01 01
 	Axalto Cyberflex Access 64K v2b SM 1.1
 
