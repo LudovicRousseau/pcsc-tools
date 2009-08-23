@@ -2349,6 +2349,9 @@
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
 
+3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 09 01 11 01 43 4E 53 10 31 80 00
+	Carta regionale dei servizi - Regione Sicilia
+
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
 
