@@ -327,6 +327,9 @@
 3B 32 15 00 06 95
 	Schlumberger Multiflex 8k DES
 
+3B 34 94 00 30 42 30 30
+	Conax card: ComHem sweden
+
 3B 37 11 00 46 4C 4F 4D 41 90 00
 	SLE 4428
 
@@ -479,6 +482,9 @@
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
 	Bank Card (ING - Belgium)
 	Schipol Group Privium biometric card (Amsterdam Airport entry system)
+
+3B 67 00 00 7C 20 40 34 2B 90 00
+	Swedbank Visa card
 
 3B 67 00 00 7D 20 40 34 3B 90 00
 	Nordea Visa Sweden
@@ -716,6 +722,9 @@
 
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
 	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
+
+3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 37
+	Swedbank MasterCard card
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
