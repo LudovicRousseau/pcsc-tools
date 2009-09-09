@@ -2603,6 +2603,9 @@
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 43 33 65
 	Brazilian NET Digital (Cable TV provider) - Nagra Vision "NASP110 RevA01"
 
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 30 32 16
+	Polsat Nagra3
+
 3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 34 20 52 65 76 34 30 31 6D
 	Italian Mediaset Premium pay per view encrypted digital video broadcasting smartcard
 
