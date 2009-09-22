@@ -1071,6 +1071,9 @@
 	DNI electronico (Spanish electronic ID card)
 	http://www.dnielectronico.es
 
+3B 80 80 01 01
+	Latvian e-Pasport
+
 3B 81 1F 00 CC 52
 	eToken R2 2242
 
@@ -1132,6 +1135,9 @@
 
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
+
+3B 88 80 01 00 00 00 00 B3 71 71 00 BA
+	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
 
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
@@ -2361,6 +2367,9 @@
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 09 01 11 01 43 4E 53 10 31 80 00
 	Carta regionale dei servizi - Regione Sicilia
 	http://www.regione.sicilia.it/crs/index.asp
+
+3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 0A 01 11 01 43 4E 53 10 31 80 03
+	Carta Regionale dei Servizi - Regione Lombardia
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
