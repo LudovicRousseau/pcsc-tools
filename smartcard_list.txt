@@ -2618,4 +2618,7 @@
 3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 34 20 52 65 76 34 30 31 6D
 	Italian Mediaset Premium pay per view encrypted digital video broadcasting smartcard
 
+3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
+	"TIVU SAT" from ITALY www.tivu.tv
+
 # do not delete
