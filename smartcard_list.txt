@@ -1661,6 +1661,9 @@
 	SAM inside the Tikitag reader from Alcatel-Lucent
 	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
 
+3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 29 83 81 90 00 47
+	128 kBVodafone Italy SIM Card
+
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
 
