@@ -512,6 +512,9 @@
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
 
+3B 67 00 00 C4 30 40 01 0B 90 00 
+	MasterCard issued by Czech's "Ceskoslovenska obchodni banka"
+
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
 
@@ -760,6 +763,7 @@
 	UK First Direct (HSBC) Maestro / Cirrus
 	UK Capital One Platinum MasterCard
 	HSBC Commercial Card Visa
+	VISA issued by Czech's "Komercni banka" (member of Societe General group)
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
