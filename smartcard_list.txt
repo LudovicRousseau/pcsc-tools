@@ -412,6 +412,9 @@
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
 
+3B 5E 11 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
+	Estonian eID
+
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
