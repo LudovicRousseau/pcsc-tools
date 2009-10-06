@@ -2090,6 +2090,9 @@
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
 
+3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
+	Banrisul bank
+
 3B F9 18 00 00 81 31 FE 45 39 35 32 38 35 30 31 33 31 DA
 	JCOP31 / 72B1 V2.2 (4096 RSA key support)
 	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
