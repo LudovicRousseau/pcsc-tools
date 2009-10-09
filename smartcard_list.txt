@@ -926,6 +926,9 @@
 3B 76 98 00 00 00 9C 11 01 01 02
 	CyberFlex Access 32
 
+3B 78 12 00 00 65 C4 05 00 8F F1 90 00
+	Digitürk Cryptoworks
+
 3B 78 12 00 00 A0 C4 06 00 8F F1 90 00
 	Cryptoworks/Nagravision decoding card
 
