@@ -929,6 +929,9 @@
 3B 78 12 00 00 65 C4 05 00 8F F1 90 00
 	Digitürk Cryptoworks
 
+3B 78 12 00 00 A0 C4 03 07 8F F1 90 00
+	IRDETO-Smartcard for crytoworks for austrian television (ORF), DVB-s
+	
 3B 78 12 00 00 A0 C4 06 00 8F F1 90 00
 	Cryptoworks/Nagravision decoding card
 
@@ -1718,6 +1721,10 @@
 
 3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 01 69 71 85 00 00 00 00 77
 	Austrian "easybank" branded Mastercard, issued 2007
+
+3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 02 08 20 51 00 00 00 00 90
+	austrian combined card of a mastercard and ÖBB Vorteilscard (Austrian Federal Railways) 
+	http://www.oebb.at/pv/de/Servicebox/VORTEILScard/Bezahlen_mit_der_VORTEILScard/VORTEILScard_MasterCard.jsp
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
 	Giesecke&Devrient SmartCafe 1.1
