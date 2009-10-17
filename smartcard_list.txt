@@ -1059,6 +1059,9 @@
 	banking card (www.caixacatalunya.com)
 	student id of Universitat Autonoma de Barcelona
 
+3B 7F 11 00 00 80 31 C0 52 35 31 64 05 66 61 52 83 83 90 00
+	Oberthur Manufactured VISA Banking card (www.caixaterrassa.cat)
+
 3B 7F 13 00 00 80 31 C0 52 0B BB 64 05 66 98 36 83 83 90 00
 	VISA OUROCARD Banco do Brasil S.A.
 
