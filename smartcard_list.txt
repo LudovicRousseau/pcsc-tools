@@ -2179,6 +2179,9 @@
 3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 02 00 82 90 00 76
 	Oberthur ID-One Cosmo
 
+3B FB 96 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 01 90 00 EC
+	Oberthur ID-ONE v5.4
+
 3B FB 96 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 0F 90 00 E2
 	Elektroniczna Legitymacja Studencka - Polish Student's ID Issued in Poznan in 2007
 
