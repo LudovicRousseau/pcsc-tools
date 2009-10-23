@@ -1427,6 +1427,9 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 34 99 
+	Nova Greece package on satellite 13E Hotbird
+
 3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 .. ..
 	SLE66CX160S running SETCOS 4.3.1 Revision A
 
