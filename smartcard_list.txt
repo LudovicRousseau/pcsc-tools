@@ -2572,6 +2572,9 @@
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 92 00 90 00
 	Gemplus GemXpresso 32K
 
+3F 77 18 00 00 C2 14 00 C1 68 90 00
+	Viaccess Sexview
+
 3F 77 18 00 00 C2 47 40 00 68 90 00
 	Viacces card: SRG SSR idèe suisse
 
