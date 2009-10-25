@@ -813,6 +813,9 @@
 3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
 	Norsk-Tipping (Buypass) Monodex card
 
+3B 6F 00 00 80 31 E0 5B 54 57 44 00 00 00 00 00 00 02 00
+	MasterCard credit card for Far Eastern Bank, Taiwan
+
 3B 6F 00 00 80 31 E0 5B 59 54 4C 00 00 00 00 00 00 02 00
 	Turkish Armed Force - Daily Social Facility Usage Card
 
@@ -1830,6 +1833,7 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 31 30 05
 	IBM JCOP 10/16
+	Rental card for Blockbuster, Taiwan
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 32 30 06
 	IBM JCOP 20/16
@@ -2066,6 +2070,16 @@
 
 3B F7 11 00 00 81 71 FE 42 00 00 63 95 01 01 90 00 CC
 	ATM Card for Mega International Commercial Bank, Taiwan
+	ATM card for HSBC Direct, Taiwan
+	ATM card for TaChong Bank, Taiwan
+	ATM card for Chunghwa Post, Taiwan
+	VISA card for Taipei Fubon Bank, Taiwan
+
+3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 02 90 00 FF
+	VISA card for Taipei Fubon Bank, Taiwan
+
+3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 05 90 00 F8
+	ATM card for Chunghwa Post, Taiwan
 
 3B F7 11 00 01 40 96 54 30 04 0E 6C B6 D6 90 00
 	PIC16F876-04/SP (PICCard2) or
@@ -2099,6 +2113,9 @@
 
 3B F7 11 00 01 40 96 70 71 09 0E 6C B6 D6
 	Carte pour décodeur télé de Neuf Telecom TV
+
+3B F7 18 00 00 81 71 80 42 00 00 63 95 0A 01 90 00 B0
+	7-Eleven icash card, Taiwan
 
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
@@ -2202,6 +2219,9 @@
 	 Max numero dei tentativi PIN: 3
 	 Pin: da 5 a 8 digit
 	 Unblocked by tool CARDOS API 2.2
+
+3B FD 13 00 00 81 31 FE 45 4A 43 4F 50 32 31 76 32 33 31 47 44 54 E1
+	National Health Insurance Card, Taiwan
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
@@ -2307,6 +2327,9 @@
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
+
+3B FF 18 00 FF 81 31 FE 45 54 48 43 43 31 30 54 45 43 4F 47 44 49 4E 31 26
+	National Health Insurance Card, Taiwan
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 04 50 02 80 00 08 90 09 70 00 05 00 2A
 	Landesbank baden-Württemberg Geldkarte
