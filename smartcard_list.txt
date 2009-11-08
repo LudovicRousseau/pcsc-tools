@@ -1650,6 +1650,7 @@
 3B BB 18 00 C0 10 31 FE 45 80 67 04 12 B0 03 03 00 00 81 05 3C
 	Philips Smart MX
 	Szczecin University of Technology in Poland student identity card (Elektroniczna Legitymacja Studencka = student identity card)
+	CSOB bank, Czech Republic
 
 3B BB 18 00 C0 3E 31 FE 65 47 26 44 20 54 53 4D 20 31 2E 30 B7
 	Italian Tachograph Driver Card
