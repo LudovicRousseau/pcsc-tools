@@ -515,11 +515,15 @@
 3B 67 00 00 A6 40 40 00 09 90 00
 	Visa card issued by Norway bank DNBNor
 
+3B 67 00 00 AB 40 40 26 09 90 00
+	Swedish VISA credit card (Volvofinans)
+
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
 
 3B 67 00 00 C4 30 40 01 0B 90 00 
 	MasterCard issued by Czech's "Ceskoslovenska obchodni banka"
+	Swedish Maestro bank card (Handelsbanken)
 
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
