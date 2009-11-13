@@ -1078,6 +1078,9 @@
 3B 7F 13 00 00 80 31 C0 52 0B BB 64 05 66 98 36 83 83 90 00
 	VISA OUROCARD Banco do Brasil S.A.
 
+3B 7F 13 00 00 80 31 C0 52 0D 1E 64 05 66 94 61 83 83 90 00
+	Universitat Politecnica de Valencia ID Visa Electron Card, http://www.upv.es
+
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
 	http://www.runningserver.com/?page=runningserver.content.download.ecos
