@@ -1028,6 +1028,9 @@
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
 
+3B 7D 96 00 00 80 31 80 65 B0 83 11 40 C8 83 00 90 00
+	ING BusinessOnLine Bank eToken / Poland
+
 3B 7D 96 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	Gemplus X-Presso Pro 64k
 
