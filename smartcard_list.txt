@@ -760,6 +760,7 @@
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
+	Maestro card by Caja de Burgos, Spain
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
@@ -771,6 +772,7 @@
 
 3B 6E 00 00 00 31 C0 71 D6 65 94 E8 03 40 00 83 90 00
 	First Direct UK VISA Debit
+	"Net+ Mastercard card" from netpluscards.com, Neteller
 
 3B 6E 00 00 00 31 C0 71 D6 65 A3 03 01 80 00 83 90 00
 	UK First Direct (HSBC) Maestro / Cirrus
