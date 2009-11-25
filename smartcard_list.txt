@@ -521,7 +521,7 @@
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
 
-3B 67 00 00 C4 30 40 01 0B 90 00 
+3B 67 00 00 C4 30 40 01 0B 90 00
 	MasterCard issued by Czech's "Ceskoslovenska obchodni banka"
 	Swedish Maestro bank card (Handelsbanken)
 
@@ -726,7 +726,7 @@
 	Visa Card - Axess - Akbank / Turkey
 
 3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 31
-	UK BARCLAYS VISA Connect Debit card. 
+	UK BARCLAYS VISA Connect Debit card.
 	The chip is used for the Chip&PIN application common for all UK-issued cards: http://www.chipandpin.co.uk/
 
 3B 6E 00 00 00 31 C0 65 76 B4 01 01 60 71 D6 8C 61 1F
@@ -752,7 +752,7 @@
 	Visa Card - Gold - CARDFINANS / Turkey
 
 3B 6E 00 00 00 31 C0 71 86 65 01 BB 01 13 3B 83 90 00
-	NatWest Servicecard 100 - Maestro ATM 
+	NatWest Servicecard 100 - Maestro ATM
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
@@ -894,7 +894,7 @@
 
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 24 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
-	
+
 3B 6F 00 00 80 66 A2 03 02 02 3D 07 53 02 31 10 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
 
@@ -950,7 +950,7 @@
 
 3B 78 12 00 00 A0 C4 03 07 8F F1 90 00
 	IRDETO-Smartcard for crytoworks for austrian television (ORF), DVB-s
-	
+
 3B 78 12 00 00 A0 C4 06 00 8F F1 90 00
 	Cryptoworks/Nagravision decoding card
 
@@ -1452,7 +1452,7 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
-3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 34 99 
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 34 99
 	Nova Greece package on satellite 13E Hotbird
 
 3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 .. ..
@@ -1767,7 +1767,7 @@
 	Austrian "easybank" branded Mastercard, issued 2007
 
 3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 02 08 20 51 00 00 00 00 90
-	austrian combined card of a mastercard and ÖBB Vorteilscard (Austrian Federal Railways) 
+	austrian combined card of a mastercard and ÖBB Vorteilscard (Austrian Federal Railways)
 	http://www.oebb.at/pv/de/Servicebox/VORTEILScard/Bezahlen_mit_der_VORTEILScard/VORTEILScard_MasterCard.jsp
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
@@ -2680,7 +2680,7 @@
 
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 53 35 00 00 00
 	Stream TV (IP television) decoder card, provided by stream.ru ISP in Moscow
-	
+
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
 
