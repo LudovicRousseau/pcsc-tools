@@ -1374,6 +1374,9 @@
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
 
+3B 98 94 00 93 91 14 01 0A 06 06 06
+	Orange Spain 64k Sim card
+
 3B 98 94 40 0A A5 03 01 01 01 AD 13 10
 	Belgium Electronic ID card
 
@@ -1512,6 +1515,11 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6D
 	GemXplore 3G v2.2
+
+3B 9F 96 81 B1 FE 45 1F 07 00 64 05 1E B2 00 31 B0 73 96 21 DB 05 90 00 5C
+	SignTrust (www.signtrust.de)
+	Infinion SLE66CX680PE with Starcos 3.2
+	http://www.deutschepost.de/dpag?xmlFile=link1015459_49595
 
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
