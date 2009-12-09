@@ -1081,6 +1081,9 @@
 3B 7F 11 00 00 80 31 C0 52 35 31 64 05 66 61 52 83 83 90 00
 	Oberthur Manufactured VISA Banking card (www.caixaterrassa.cat)
 
+3B 7F 13 00 00 80 31 C0 52 05 6E 64 02 53 04 36 83 83 90 00
+	Mastercard from Banc Sabadell in Spain
+
 3B 7F 13 00 00 80 31 C0 52 08 49 64 05 66 99 36 83 83 90 00
 	Spanish bank called BBVA
 
@@ -1089,6 +1092,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 0D 1E 64 05 66 94 61 83 83 90 00
 	Universitat Politecnica de Valencia ID Visa Electron Card, http://www.upv.es
+
+3B 7F 13 00 00 80 31 C0 52 15 54 64 05 66 98 36 83 83 90 00
+	VISA Card from Banc Sabadell in Spain
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
