@@ -1951,8 +1951,7 @@
 	http://www.hmk.de/downloads/datakey/Model_330J_Smart_Card.pdf
 	Model 330J JavaCard v2.1.1
 	Global Platform v2.0.1 specifications.
-	JCCOS operating system applet (Java-based Cryptographic Card
-	Operating System)
+	JCCOS operating system applet (Java-based Cryptographic Card Operating System)
 
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
