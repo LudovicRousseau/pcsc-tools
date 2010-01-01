@@ -1052,6 +1052,9 @@
 	Gemalto Classic TPC (Trusted PKI Card) IM
 	Classic TPC IM (PKCS#15): 12 x RSA key containers (standard profile)
 
+3B 7D 96 00 00 80 31 80 65 B0 A3 11 00 C8 83 00 00 00
+	Handelsbanken BankID card (Swedish bank authentication)
+
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
 
