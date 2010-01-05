@@ -807,6 +807,9 @@
 3B 6E 00 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 warm)
 
+3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00 
+	spanish MAESTRO debit card, from Unicaja bank
+
 3B 6F 00 00 00 67 2. 43 46 49 53 45 12 52 66 FF 81 90 00
 	Setec SetCOS 4.3.2
 
@@ -1527,6 +1530,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
 	Tre (Swedish operator)
 
+3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
+	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
+
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AF
 	 GSM, Vodafone (Germany)
 
@@ -1758,6 +1764,9 @@
 	ACS ACOS5 "ACOS5-32-G" http://www.acs.com.hk/acos5.asp
 	dual card
 
+3B BE 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
+	touchatag SAM card
+
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
 	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
@@ -1947,6 +1956,9 @@
 3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
 	Visa credit card
 	MasterCard credit card
+
+3B E9 00 00 81 31 FE 45 4A 43 4F 50 31 30 56 32 32 A3
+	ORGA Open Platform DES 16k V2.0 / JCOP10
 
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 A7
 	IBM JCOP v2.2 41
@@ -2523,6 +2535,9 @@
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
+
+3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 01 31 41 00
+	O2 Loop SIM card
 
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 02 32 41 00
 	Turkcell SIMPlus64 / Turkey
