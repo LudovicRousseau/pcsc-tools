@@ -1776,39 +1776,10 @@
 
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
+	http://www.quick.at/
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 00 00 00 00 00 00 00 00 F1
 	a.sign premium signature card
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 21 00 93 42 00 00 00 00 01
-	Austrian BankCard (Old Version - ca. 2004)
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 22 00 25 54 00 00 00 00 A2
-	Austrian BankCard from before 2006
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 09 60 16 00 00 02 3A 90
-	Austrian Maestro bank card
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 24 68 30 00 00 00 00 AB
-	Austrian BankCard (Maestro + Quick) (New Version, since 02/2005,
-	with Digital-Signature etc.)
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 27 27 27 00 00 00 00 F0
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 30 51 39 00 00 00 00 8F
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 26 89 51 61 00 00 00 00 6E
-	Austrian student card (with Quick electronic purse)
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 93 66 23 00 00 03 E8 E4
-	Austrian Maestro BankCard +Quick Buergerkarte
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 28 95 75 49 00 00 01 F3 82
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 30 26 58 77 00 00 03 0C C7
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 32 04 95 84 00 00 00 00 D6
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 32 07 79 97 00 00 01 CA E1
-	Austrian Maestro bank card
-
-3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 36 54 31 86 00 00 00 00 24
-	Austrian BankCard from 2008
 
 3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 01 69 71 85 00 00 00 00 77
 	Austrian "easybank" branded Mastercard, issued 2007
