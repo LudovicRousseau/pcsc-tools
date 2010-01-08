@@ -2406,6 +2406,20 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 05 28 00 0D 90 81 06 00 06 15 58
 	Geldkarte/HBCI (Frankfurter Sparkasse, Germany)
 
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D .. .. .. .. 06 15 ..
+	Giesecke & Devrient GmbH
+	ROM Mask=ecD6.3
+	Init-Table=SDP2G3F0.E_2 (BES0), SWP2G3H0.E_1 (CS0)
+	Signaturerstellungseinheit ZKA TUVIT.93125.TU.12.2005 Banking Signature Card, v6.32, Type 3
+	TUVIT.93125.TU.12.2005
+
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D .. .. .. .. 06 15 ..
+	Giesecke & Devrient GmbH
+	ROM Mask=SDP2G330.E_1 (BES0), SWP2G370.E_1 (CS0)
+	Init-Table=ecD6.3
+	Signaturerstellungseinheit ZKA TUVIT.09397.TU.03.2005 Banking Signature Card, v6.31 NP, Type 3
+	TUVIT.09397.TU.03.2005
+
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 58 45 00 06 15 8C
 	Stadtsparkasse München electronic cash card / Geldkarte
 
@@ -2417,6 +2431,13 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D 90 92 61 00 06 15 62
 	Geldkarte (Frankfurter Sparkasse, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 08 65 07 64 00 0D .. .. .. .. 06 16 ..
+	Giesecke & Devrient GmbH
+	ROM Mask=ecD6.5
+	Init-Table=SWP3G5J0.E_1 (CS0)
+	Signaturerstellungseinheit ZKA Banking Signature Card, v6.51
+	TUVIT.93129.TU.03.2006
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 08 65 07 64 00 0D 91 04 90 00 06 16 0E
 	German Railway's (Deutsche Bahn AG) "Konzernausweis"
@@ -2430,6 +2451,13 @@
 	the bank calls it "VR-BankCard". the banks name is "Volksbank
 	Gelderland eG" and is part of the "Volksbanken und Raiffeisenbanken"
 	(http://www.vb-gelderland.de/html/5/2394/rubrik/1282.html)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 .. .. .. .. 05 00 ..
+	Gemplus-mids GmbH,
+	ROM Mask=ZKA 322 V5A,
+	Init-Table=SWI1P070.E_0 (CS0),SDI1P080.E_1 (BES0),
+	Signaturerstellungseinheit ZKASignaturkarte v5.02, 
+	TUVIT.09385.TU.09.2004
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 05 50 03 10 05 00 43
 	HBCI-Karte (Bordesholmer Sparkasse, Germany)
@@ -2449,6 +2477,13 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 28 50 01 11 05 00 6D
 	HBCI Bancing Card of Sparkasse Pforzheim
 
+3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 .. .. .. .. 06 13 ..
+	Giesecke & Devrient GmbH
+	ROM Mask=ecD6.2,
+	Init-Table=SDI1G280.E_1 (BES0),
+	Signaturerstellungseinheit ZKA Banking Signature Card, v6.2b NP & 6.2f NP, Type 3
+	TUVIT.09395.TU.01.2005
+
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 06 60 03 04 06 13 87
 	Geldkarte (Volksbank Offenburg, Germany)
 
@@ -2461,11 +2496,32 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 43 50 01 17 06 13 E3
 	EC-Card of Sparkasse Pforzheim Calw
 
+3B FF 18 00 FF 81 31 FE 45 65 63 11 07 64 02 80 00 11 .. .. .. .. 06 19 ..
+	Giesecke & Devrient GmbH
+	ROM Mask=ecD6.4
+	Init-Table=SDI2G4G0.E_4 (BES0), SWI2G4H0.E_2 (CS0)
+	Signaturerstellungseinheit ZKA 17.01.2006 Banking Signature Card, v6.4
+	TUVIT.93123.TU.01.2006
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 .. .. .. .. 05 30 ..
+	Gemalto
+	ROM Mask=ZKA 680 V5A
+	Init-Table=SSI3P3M6E_1 (MS0)
+	Massen-Signaturerstellungseinheit ZKA Banking Signature Card, Version 5.11M
+	TUVIT.93148.TU.06.2007
+
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 46 50 01 08 05 30 27
 	HBCI-Karte (Sparkasse Altmark-West, Salzwedel, Germany)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 84 70 01 04 05 30 C9
 	HBCI Card (1822 direkt Frankfurter Sparkasse, Germany) Geldkarte [ec, Maestro]
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 .. .. .. .. 06 20 ..
+	Giesecke & Devrient GmbH
+	ROM Mask=ecD6.6
+	Init-Table=SDI3G6G0.E_3 (BES0), SSI3G6M0.E_2 (S0), SWI3G6H0.E_3 (CS0)
+	Signaturerstellungseinheit ZKA Banking Signature Card, Version 6.6
+	TUVIT.93130.TU.05.2006 - 2. Nachbestätigung
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 40 50 03 18 06 20 D4
 	banking card (electronic-card / Maestro / Geldkarte). the bank+calls
@@ -2475,6 +2531,13 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 08 66 02 80 00 11 56 00 03 18 06 20 92
 	Geldkarte [ec, Maestro] (Sparkasse Langen-Seligenstadt, Germany)
+
+3B FF 18 00 FF 81 31 FE 45 65 63 19 01 50 02 80 00 0F .. .. .. .. 05 12 ..
+	SAGEM ORGA GmbH
+	ROM Mask=SecV1.5.3
+	Init-Table=SDR0O1G0.A_B (BES0), SWR0O1H0.A_5 (CS0)
+	Signaturerstellungseinheit ZKA SECCOS Sig v1.5.3
+	BSI.02076.TE.12.2006
 
 3B FF 18 00 FF 81 31 FE 45 65 63 1A 01 41 02 50 00 10 52 09 05 67 05 10 21
 	Maestro/Geldkarte (BBBank Karlsruhe, Germany)
