@@ -1601,6 +1601,7 @@
 3B AD 00 40 FF 80 31 80 65 B0 05 01 01 5E 83 00 90 00
 	Dallas Semiconductor iButton
 	JIB
+	Gemplus GemXpresso 2.11PK
 
 3B B0 11 00 81 31 90 73 F2
 	SamOS 2.7
@@ -2697,6 +2698,9 @@
 
 3F 67 25 00 2A 20 00 40 68 9F 00
 	Swiss Cash card
+
+3F 67 25 00 2A 20 00 41 68 90 00
+	ChipKnip
 
 3F 67 25 00 2A 20 00 4[0,1] 68 90 00
 	Dutch ChipKnip, Proton
