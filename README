@@ -130,6 +130,14 @@ Licences:
 History:
 ========
 
+1.4.16 - 12 January 2009, Ludovic ROUSSEAU
+    - 153 new ATR
+    - pcsc_scan.c: check for PnP support at run time instead of using a
+      #define
+    - ATR_analysis: use curl instead of wget on Darwin
+    - gscriptor: ReaderConfig(): escape metacharacters []() in
+      the reader name when using reader name as a pattern matching
+
 1.4.15 - 9 January 2009, Ludovic ROUSSEAU
     - 68 new ATR
     - ATR_analysis:
