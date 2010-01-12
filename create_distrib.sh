@@ -44,7 +44,7 @@ echo "done"
 
 # generate Changelog
 echo -n "generating changelog..."
-svn2cl --reparagraph --include-rev --group-by-day
+svn2cl --reparagraph --include-rev --group-by-day --output=Changelog
 echo "done"
 
 present_files=$(tempfile)
