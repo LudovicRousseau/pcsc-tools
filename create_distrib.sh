@@ -53,7 +53,7 @@ diff_result=$(tempfile)
 
 # find files present
 # remove ^debian and ^create_distrib.sh
-find -type f | grep -v CVS | cut -c 3- | grep -v ^create_distrib.sh | sort > $present_files
+find -type f | grep -v .svn | cut -c 3- | grep -v ^create_distrib.sh | sort > $present_files
 cat MANIFEST | sort > $manifest_files
 
 # diff the two lists
