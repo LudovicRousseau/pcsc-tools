@@ -446,6 +446,13 @@ sub ReaderConfig {
 	{
 		my $i = 0;
 		my $reader = $hConfig {'reader'};
+
+		# escape metacharacters
+		$reader =~ s/\[/\\\[/g;
+		$reader =~ s/\]/\\\]/g;
+		$reader =~ s/\(/\\\[/g;
+		$reader =~ s/\)/\\\)/g;
+
 		for (@readers_list)
 		{
 			$cboReaders->set_active($i) if (m/$reader/);
