@@ -43,7 +43,9 @@ make clean &> /dev/null
 echo "done"
 
 # generate Changelog
-rcs2log > Changelog
+echo -n "generating changelog..."
+svn2cl --reparagraph --include-rev --group-by-day
+echo "done"
 
 present_files=$(tempfile)
 manifest_files=$(tempfile)
