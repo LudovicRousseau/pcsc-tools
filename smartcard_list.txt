@@ -463,6 +463,7 @@
 
 3B 66 00 00 66 44 01 01 03 B1
 	Carte etudiant Paris 1 moneo BNP Paribas france (Oberthur)
+	Carte Monéo Caise d'épargne Crouse de Lyon
 
 3B 66 00 00 D0 00 47 44 00 80
 	VISA credit card (RBC Royal Bank)
@@ -930,6 +931,9 @@
 
 3B 75 13 00 00 43 09 EA 90 00
 	Vitale 2 (french health card)
+
+3B 75 13 00 00 44 09 EA 90 00
+	Carte vital (Nouvelle version avec photo)
 
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
@@ -2681,6 +2685,7 @@
 
 3F 65 25 08 63 04 6C 90 00
 	CB visa La Poste France (Oberthur)
+	CB Master Carte du Crédit Mutuel
 
 3F 65 25 08 65 04 6C 90 00
 	CB visa Boursorama France (Axalto)
