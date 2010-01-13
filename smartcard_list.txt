@@ -1533,8 +1533,9 @@
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 
-3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 81 61 10 C6
+3B 9F 95 81 31 FE 9F 00 65 46 53 05 .. 06 71 DF 00 00 00 .. .. .. ..
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
+	FTCOS/PK-01C
 
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AF
 	 GSM, Vodafone (Germany)
