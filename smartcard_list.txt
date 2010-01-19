@@ -1020,7 +1020,7 @@
 
 3B 7D 94 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
 	Gem e-Seal
-	(GemSafeXpresso 32k R3.2?)
+	(GemSafeXpresso 32k R3.2)
 
 3B 7D 94 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	GXP Pro R3.2 64K, GemSafe applet MPCOS v1.11
@@ -1854,6 +1854,9 @@
 
 3B DB 18 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 4F
 	Oberthur ID-One Cosmo 64K V5.2
+
+3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
+	Oberthur Cosmo V7 64K Dual/128K
 
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	CAC (Common Access Card)
