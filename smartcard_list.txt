@@ -878,6 +878,9 @@
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
 	carte transport bus/tram "atout.tag" semitag grenoble
 
+3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 3E DC 82 90 00
+	CTS (Compagnie des Transports Strasbourgeois) to hold transportation tickets
+	
 3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 48 EA 82 90 00
 	french public transport card (www.cts-strasbourg.fr)
 
@@ -1534,12 +1537,12 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
 	Tre (Swedish operator)
 
-3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
-	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
-
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 .. 06 71 DF 00 00 00 .. .. .. ..
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 	FTCOS/PK-01C
+
+3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
+	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AF
 	 GSM, Vodafone (Germany)
