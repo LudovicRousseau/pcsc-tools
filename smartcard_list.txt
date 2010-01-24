@@ -808,7 +808,7 @@
 3B 6E 00 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 warm)
 
-3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00 
+3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00
 	spanish MAESTRO debit card, from Unicaja bank
 
 3B 6F 00 00 00 67 2. 43 46 49 53 45 12 52 66 FF 81 90 00
@@ -1168,6 +1168,9 @@
 3B 83 00 12 10 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
+3B 84 80 01 04 38 33 B1 BB
+	Dutch passport
+
 3B 85 00 12 02 01 00 96
 	GSM-SIM Victorvox D1 (900MHz)
 
@@ -1300,6 +1303,9 @@
 
 3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
 	JCOP30 contactless interface
+
+3B 8E 80 01 0E 78 33 C4 02 00 64 04 15 01 02 00 90 FF 95
+	Spanish Passport
 
 3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
 	Czech Republic e-Passport (issued Feb 2009)
@@ -2478,7 +2484,7 @@
 	Gemplus-mids GmbH,
 	ROM Mask=ZKA 322 V5A,
 	Init-Table=SWI1P070.E_0 (CS0),SDI1P080.E_1 (BES0),
-	Signaturerstellungseinheit ZKASignaturkarte v5.02, 
+	Signaturerstellungseinheit ZKASignaturkarte v5.02,
 	TUVIT.09385.TU.09.2004
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 40 02 50 00 10 05 50 03 10 05 00 43
