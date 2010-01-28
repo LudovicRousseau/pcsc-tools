@@ -1220,6 +1220,9 @@
 3B 88 80 01 00 00 00 00 B3 71 71 00 BA
 	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
 
+3B 88 80 01 00 00 01 07 01 72 90 00 EC
+	Belgian passport
+
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
 	Barclaycard Visa Wave & Pay - RFID I/F
