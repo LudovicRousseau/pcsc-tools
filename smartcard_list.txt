@@ -1483,6 +1483,9 @@
 	3 ireland http://www.three.ie
 	UK '3' network GSM-3G SIM
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 49 00 00 00 4A
+	Rogers 3G SIM card
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
 	United Mobile SIM
 
