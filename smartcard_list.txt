@@ -817,6 +817,9 @@
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
 
+3B 6F 00 00 80 31 C0 52 07 6F 64 02 19 04 32 83 83 90 00
+	Credit Card IXE Banco, México
+
 3B 6F 00 00 80 31 C0 52 13 2F 64 02 19 08 32 83 83 90 00
 	Cajamadrid-UCM (Madrid, Spain) Cash/Visa Electron
 
@@ -1114,6 +1117,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 15 54 64 05 66 98 36 83 83 90 00
 	VISA Card from Banc Sabadell in Spain
+
+3B 7F 13 00 00 80 31 C0 52 17 B4 64 05 66 98 36 83 83 90 00
+	Credit Card Banorte International, México
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
