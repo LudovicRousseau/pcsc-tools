@@ -885,7 +885,7 @@
 	Typically: French "Navigo" transport card
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
-	carte transport bus/tram "atout.tag" semitag grenoble
+	transport bus/tram "atout.tag" semitag grenoble
 
 3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 3E DC 82 90 00
 	CTS (Compagnie des Transports Strasbourgeois) to hold transportation tickets
@@ -1421,16 +1421,16 @@
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
 
 3B 97 11 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5F
-	carte chronotachygraphe numérique : conducteur, entreprise, contrôleur et atelier, 2006-2010
-	fabriquée par l'Imprimerie Nationale, distribuée par Chronoservices
+	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2006-2010
+	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
 3B 97 13 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5D
-	carte chronotachygraphe numérique : conducteur, entreprise, contrôleur et atelier, 2005-2006
-	fabriquée par l'Imprimerie Nationale, distribuée par Chronoservices
+	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2005-2006
+	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
-	carte chronotachygraphe numérique : conducteur, entreprise, contrôleur et atelier, 2010-2015
-	fabriquée par l'Imprimerie Nationale, distribuée par Chronoservices
+	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2010-2015
+	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
