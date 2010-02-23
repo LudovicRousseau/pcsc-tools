@@ -1078,6 +1078,9 @@
 	Java Card 2.2.1
 	Global Platform 2.1.1 (amendment A)
 
+3B 7D 96 00 00 80 31 80 65 B0 83 11 D0 A9 83 00 90 00
+	GemSafe V2 (2.04, GemP15-1)
+
 3B 7D 96 00 00 80 31 80 65 B0 93 11 D0 A9 83 00 90 00
 	Gemalto Classic TPC (Trusted PKI Card) IM
 	Classic TPC IM (PKCS#15): 12 x RSA key containers (standard profile)
@@ -2857,14 +2860,14 @@
 3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
 	Sky Italia (satellite card, NDS3)
 
+3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
+	DirecTV card
+
 3F FF 13 25 03 10 80 33 B0 0E 69 FF 4A 50 70 00 00 49 54 02 00 00
 	Sky entitlement card
 
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 53 35 00 00 00
 	Stream TV (IP television) decoder card, provided by stream.ru ISP in Moscow
-
-3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
-	DirecTV card
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
