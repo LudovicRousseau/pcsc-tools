@@ -703,6 +703,10 @@
 3B 6D 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
 	DeutscheBank Identification card
 
+3B 6D 00 00 80 31 80 65 B0 83 11 40 C8 83 00 90 00
+	Gemalto TOP IM
+	(Old name GemSafeXpresso 64)
+	
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
@@ -1030,6 +1034,7 @@
 3B 7D 94 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
 	Gem e-Seal
 	(GemSafeXpresso 32k R3.2)
+	Gemalto Classic TPC - IS
 
 3B 7D 94 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
 	GXP Pro R3.2 64K, GemSafe applet MPCOS v1.11
@@ -1049,6 +1054,9 @@
 3B 7D 95 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	Portuguese identity card
 	http://www.cartaodecidadao.pt
+
+3B 7D 96 00 00 80 31 80 31 80 65 B0 83 11 40 C8 83 00 90 00
+	Gemalto Classic TPC - IM
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
@@ -1656,6 +1664,7 @@
 3B B2 11 00 10 80 00 01
 	Atmel memory card AT88SC0104C
 	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+	Plug'n'Print
 
 3B B2 11 00 10 80 00 02
 	Atmel memory card AT88SC0204C (Atmel memory card)
@@ -2727,6 +2736,9 @@
 3F 65 25 08 22 04 68 90 00
 	France Telecom card (ex Pastel card)
 
+3F 65 25 08 23 04 68 90 00
+	France Telecom card
+
 3F 65 25 08 33 04 20 90 00
 	D-Trust card
 
@@ -2850,6 +2862,9 @@
 
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 53 35 00 00 00
 	Stream TV (IP television) decoder card, provided by stream.ru ISP in Moscow
+
+3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
+	DirecTV card
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
