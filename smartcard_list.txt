@@ -706,7 +706,7 @@
 3B 6D 00 00 80 31 80 65 B0 83 11 40 C8 83 00 90 00
 	Gemalto TOP IM
 	(Old name GemSafeXpresso 64)
-	
+
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
@@ -893,7 +893,7 @@
 
 3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 3E DC 82 90 00
 	CTS (Compagnie des Transports Strasbourgeois) to hold transportation tickets
-	
+
 3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 48 EA 82 90 00
 	french public transport card (www.cts-strasbourg.fr)
 
@@ -1057,6 +1057,9 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
+
+3B 7D 96 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
+	GEMALTO Clasic TPC IM CC
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 17 D6 83 00 90 00
 	DoD CAC card issued Jan 14, 2010
@@ -1576,8 +1579,8 @@
 	Net10 prepaid SIM marked TF64SIMC4 supplied by TracFone which is a US subsidiary of América Móvil.
 	It supplies service via the Cingular/AT&T GSM network.
 
-3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 07 A7 83 0F 90 00 89 
-	SIM NRJ Mobile 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 07 A7 83 0F 90 00 89
+	SIM NRJ Mobile
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
 	Tre (Swedish operator)
