@@ -1055,11 +1055,11 @@
 	Portuguese identity card
 	http://www.cartaodecidadao.pt
 
-3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
-	CAC card (GEMALTO GCX4 72K DI)
-
 3B 7D 96 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
 	GEMALTO Clasic TPC IM CC
+
+3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
+	CAC card (GEMALTO GCX4 72K DI)
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 17 D6 83 00 90 00
 	DoD CAC card issued Jan 14, 2010
@@ -1874,6 +1874,9 @@
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
+
+3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
+	Siemens Card CardOS M4.4
 
 3B D5 18 00 81 31 3A 7D 80 73 C8 21 10 30
 	Aladdin eToken NG-Flash with 256MB of flash memory
