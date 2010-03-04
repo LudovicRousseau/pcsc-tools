@@ -1172,12 +1172,13 @@
 
 3B 80 80 01 01
 	Latvian e-Pasport
+	RFID - ISO 14443 Type B
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
 
 3B 81 80 01 80 80
-	Mifare DESFire
+	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
 
 3B 82 00 55 22
 	GSM-SIM TELE2 Smart (Estonia, prepaid)
@@ -1238,6 +1239,9 @@
 3B 86 80 01 4A 43 4F 50 33 31 13
 	JCOP BIO 31 Contactless Card
 
+3B 87 80 01 C1 05 2F 2F 01 BC D6 A9
+	RFID - ISO 14443 Type A -  NXP Mifare Plus
+
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
 
@@ -1255,6 +1259,9 @@
 	Nokia 6131 NFC phone
 	http://wiki.forum.nokia.com/index.php/Nokia_6131_NFC_-_FAQs
 	Giesecke & Devrient’s (G&D) Sm@rtCafé Expert 3.1
+
+3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
+	RFID - ISO 14443 Type A -  NXP JCOP
 
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
@@ -1357,12 +1364,13 @@
 	http://www.nxp.com/products/identification/mifare/classic/
 	RFID - ISO 14443 Type A - Transport for London Oyster
 	ACOS5/1k Mirfare
+	RFID - ISO 14443 Type A - NXP Mifare card with 1k EEPROM
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
-	Mifare card with 4k EEPROM
+	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
-	Contactless Mifare Ultralight
+	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 F0 04 00 00 00 00 9F
 	NFC FORUM TYPE 1 TAG
@@ -1378,6 +1386,9 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 00 00 00 00 00 63
 	RFID - ISO 15693 - EM Microelectronic-Marin SA
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 0E 00 00 00 00 6D
+	RFID - ISO 15693 - Infineon
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 12 00 00 00 00 71
 	RFID - ISO 15693 - Texas Instrument
