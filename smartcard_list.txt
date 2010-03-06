@@ -2156,6 +2156,9 @@
 3B F0 12 00 FF 91 81 B1 7C 45 1F 03 99
 	Japanese Chijou Digital B-CAS Card (pay TV)
 
+3B F0 12 00 FF 91 81 B1 EF 45 1F 03 0A
+	Japanese Digital CATV C-CAS card
+
 3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
 	Siemens CardOS V4.3
 
