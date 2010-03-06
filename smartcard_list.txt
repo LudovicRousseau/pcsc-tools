@@ -289,6 +289,7 @@
 	MPCOS-3DES 8K (Gemplus)
 	MBNA Europe Platinum Plus Mastercard
 	MasterCard Card - Worldcard - Yapıkredi / Turkey
+	Portugal BPI Visa Electron
 
 3B 2A 00 80 65 A0 58 04 01 62 72 D6 43
 	Gemplus GemCombiXplore MPCOS Pro
@@ -429,6 +430,9 @@
 
 3B 65 00 00 20 63 CB 63 00
 	Bank card from Societe Générale (Oberthur)
+
+3B 65 00 00 20 63 CB AB 80
+	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
@@ -765,6 +769,7 @@
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
 	UK NatWest Cashcard - Maestro / SOLO
+	Portugal Santander Totta Visa Electron "JÁ KÁ KONTA"
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
@@ -2422,6 +2427,9 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 01 01 01 65
+	Portugal Santander Totta Universitários "Associação Academica de Coimbra"
 
 3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 08 76
 	SmartCafe Expert Java
