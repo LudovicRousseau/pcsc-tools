@@ -1119,6 +1119,10 @@
 3B 7F 11 00 00 00 6A 43 45 52 45 53 02 2C 34 02 00 03 90 00
 	FNMT-CERES ST (Fábrica Nacional de Moneda y Timbre)
 
+3B 7F 11 00 00 80 31 C0 52 14 1E 64 02 18 19 53 83 83 90 00
+	Advantis card
+	http://www.sermepa.es/ingles/familiaadvantis.htm
+
 3B 7F 11 00 00 80 31 C0 52 21 57 64 02 18 19 53 83 83 90 00
 	banking card (www.caixacatalunya.com)
 	student id of Universitat Autonoma de Barcelona
