@@ -911,8 +911,8 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 16 D1 BD 82 90 00
 	"OPUS Card" Montreal's transit system by oberthur cardsystems
 
-3B 6F 00 00 80 5A 29 13 09 10 11 33 .. .. .. .. 82 90 00
-	MOBIB (reseau transport en commun Bruxelles (Belgique)
+3B 6F 00 00 80 5A 29 13 09 10 11 3[3,5] .. .. .. .. 82 90 00
+	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
 	Calypso application similar to French NAVIGO
 
