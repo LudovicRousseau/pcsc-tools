@@ -1605,6 +1605,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
 	Tre (Swedish operator)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
+	2degrees mobile SIM card (from http://www.2degreesmobile.co.nz/)
+
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 .. 06 71 DF 00 00 00 .. .. .. ..
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 	FTCOS/PK-01C
@@ -1932,6 +1935,9 @@
 
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	CAC (Common Access Card)
+
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
+	Oberthur Cosmo V7 debug card (SDK)
 
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
@@ -2748,6 +2754,9 @@
 3F 3D 11 00 80 67 28 50 04 02 20 00 00 83 8E 90 00
 	GSM SIM card of the Austrian provider A1
 
+3F 3E 11 00 46 52 45 43 43 49 41 52 4F 53 53 41 90 00
+	Fidelity card from then Italian train company ”CartaFreccia Trenitalia”
+	
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
 
