@@ -1368,6 +1368,10 @@
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 37 32 76
 	RFIDIOt JCOP 72K Blank (http://rfidiot.org)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 6B
+	buss/train pass for use with Skånetrafiken (www.skanetrafiken.se) busses and trains.
+	specialized Mifare Ultralight card
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
 	Philips MIFARE Standard (1 Kbytes EEPROM)
 	http://www.nxp.com/products/identification/mifare/classic/
@@ -2756,7 +2760,7 @@
 
 3F 3E 11 00 46 52 45 43 43 49 41 52 4F 53 53 41 90 00
 	Fidelity card from then Italian train company ”CartaFreccia Trenitalia”
-	
+
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
 
