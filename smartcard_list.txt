@@ -707,6 +707,11 @@
 3B 6D 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
 	DeutscheBank Identification card
 
+3B 6D 00 00 80 31 80 65 B0 83 02 04 7E 83 00 90 00
+	LuxTrusr card
+	https://www.luxtrust.lu/solutions/comp/cartech2
+	https://www.luxtrust.lu/faq/middleware/middleware
+
 3B 6D 00 00 80 31 80 65 B0 83 11 40 C8 83 00 90 00
 	Gemalto TOP IM
 	(Old name GemSafeXpresso 64)
