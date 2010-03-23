@@ -1482,6 +1482,9 @@
 3B 98 94 40 0A A5 03 01 01 01 AD 13 10
 	Belgium Electronic ID card
 
+3B 98 96 00 80 31 C0 72 F7 41 81 07
+	Activ Rutoken Magistra
+
 3B 99 94 00 91 08 91 06 00 01 06 06 00
 	GSM-SIM Orange-UK (1800)
 
