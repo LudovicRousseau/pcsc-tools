@@ -1373,6 +1373,9 @@
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 37 32 76
 	RFIDIOt JCOP 72K Blank (http://rfidiot.org)
 
+3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 37 32 72 24
+	RFIDIOt JCOP 72K RANDOM_UID Blank (http://rfidiot.org) 
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 6B
 	buss/train pass for use with Skånetrafiken (www.skanetrafiken.se) busses and trains.
 	specialized Mifare Ultralight card
