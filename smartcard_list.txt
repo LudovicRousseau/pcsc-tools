@@ -1197,6 +1197,10 @@
 3B 82 00 55 22
 	GSM-SIM TELE2 Smart (Estonia, prepaid)
 
+# cf SCL3711 Reference Manual:
+3B 82 80 01 02 44 ..
+	RFID - NFC Forum tag type 1 (Topaz)
+
 3B 82 81 31 76 43 C0 02 C5
 	CardOS/M2 V2.01(SLE44CxxS)
 
@@ -1343,6 +1347,9 @@
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
 
+3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
+	RFID - NFC Forum tag type 3 (FeliCa)
+
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
@@ -1374,7 +1381,175 @@
 	RFIDIOt JCOP 72K Blank (http://rfidiot.org)
 
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 37 32 72 24
-	RFIDIOt JCOP 72K RANDOM_UID Blank (http://rfidiot.org) 
+	RFIDIOt JCOP 72K RANDOM_UID Blank (http://rfidiot.org)
+
+# Cf PCSC standard, Part 3, Chapter 3.1.3.2.3.2, and Part 3 Supplemental
+# Document
+# http://www.pcscworkgroup.com/specifications/specdownload.php
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 01 00 00 00 00 ..
+	Mifare Standard 1K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 02 00 00 00 00 ..
+	Mifare Standard 4K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 03 00 00 00 00 ..
+	Mifare Ultralight (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 04 00 00 00 00 ..
+	SLE55R_XXXX (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 06 00 00 00 00 ..
+	SR176 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 07 00 00 00 00 ..
+	SRI X4K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 08 00 00 00 00 ..
+	AT88RF020 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 09 00 00 00 00 ..
+	AT88SC0204CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 0A 00 00 00 00 ..
+	AT88SC0808CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 0B 00 00 00 00 ..
+	AT88SC1616CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 0C 00 00 00 00 ..
+	AT88SC3216CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 0D 00 00 00 00 ..
+	AT88SC6416CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 0E 00 00 00 00 ..
+	SRF55V10P (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 0F 00 00 00 00 ..
+	SRF55V02P (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 10 00 00 00 00 ..
+	SRF55V10S (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 11 00 00 00 00 ..
+	SRF55V02S (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 12 00 00 00 00 ..
+	TAG_IT (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 13 00 00 00 00 ..
+	LRI512 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 14 00 00 00 00 ..
+	ICODESLI (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 15 00 00 00 00 ..
+	TEMPSENS (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 16 00 00 00 00 ..
+	I.CODE1 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 17 00 00 00 00 ..
+	PicoPass 2K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 18 00 00 00 00 ..
+	PicoPass 2KS (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 19 00 00 00 00 ..
+	PicoPass 16K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 1A 00 00 00 00 ..
+	PicoPass 16Ks (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 1B 00 00 00 00 ..
+	PicoPass 16K(8x2) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 1C 00 00 00 00 ..
+	PicoPass 16KS(8x2) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 1D 00 00 00 00 ..
+	PicoPass 32KS(16+16) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 1E 00 00 00 00 ..
+	PicoPass 32KS(16+8x2) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 1F 00 00 00 00 ..
+	PicoPass 32KS(8x2+16) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 20 00 00 00 00 ..
+	PicoPass 32KS(8x2+8x2) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 21 00 00 00 00 ..
+	LRI64 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 22 00 00 00 00 ..
+	I.CODE UID (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 23 00 00 00 00 ..
+	I.CODE EPC (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 24 00 00 00 00 ..
+	LRI12 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 25 00 00 00 00 ..
+	LRI128 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 26 00 00 00 00 ..
+	Mifare Mini (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 27 00 00 00 00 ..
+	my-d move (SLE 66R01P) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 28 00 00 00 00 ..
+	my-d NFC (SLE 66RxxP) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 29 00 00 00 00 ..
+	my-d proximity 2 (SLE 66RxxS) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 2A 00 00 00 00 ..
+	my-d proximity enhanced (SLE 55RxxE) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 2B 00 00 00 00 ..
+	my-d light (SRF 55V01P) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 2C 00 00 00 00 ..
+	PJM Stack Tag (SRF 66V10ST) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 2D 00 00 00 00 ..
+	PJM Item Tag (SRF 66V10IT) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 2E 00 00 00 00 ..
+	PJM Light (SRF 66V01ST) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 2F 00 00 00 00 ..
+	Jewel Tag (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 30 00 00 00 00 ..
+	Topaz NFC Tag (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 31 00 00 00 00 ..
+	AT88SC0104CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 32 00 00 00 00 ..
+	AT88SC0404CRF (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 33 00 00 00 00 ..
+	AT88RF01C (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 34 00 00 00 00 ..
+	AT88RF04C (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 35 00 00 00 00 ..
+	i-Code SL2 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 01 .. .. 00 00 00 00 ..
+	RFID - ISO 14443 Type A Part 1 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 02 .. .. 00 00 00 00 ..
+	RFID - ISO 14443 Type A Part 2 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 .. .. 00 00 00 00 ..
+	RFID - ISO 14443 Type A Part 3 (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 6B
 	buss/train pass for use with Skånetrafiken (www.skanetrafiken.se) busses and trains.
@@ -1402,8 +1577,26 @@
 	Infineon Mifare SLE 66R35
 	http://www.infineon.com/cms/en/product/channel.html?channel=ff80808112ab681d0112ab69686e01ee
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 05 .. .. 00 00 00 00 ..
+	RFID - ISO 14443 Type B Part 1 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 06 .. .. 00 00 00 00 ..
+	RFID - ISO 14443 Type B Part 2 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 .. .. 00 00 00 00 ..
+	RFID - ISO 14443 Type B Part 3 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 09 .. .. 00 00 00 00 ..
+	RFID - ISO 15693 Part 1 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0A .. .. 00 00 00 00 ..
+	RFID - ISO 15693 Part 2 (as per PCSC std part3)
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0A 00 1C 00 00 00 00 7E
 	RFID - HID iCLASS 16K CL
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B .. .. 00 00 00 00 ..
+	RFID - ISO 15693 Part 3 (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 00 00 00 00 00 63
 	RFID - ISO 15693 - EM Microelectronic-Marin SA
@@ -1417,6 +1610,21 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0B 00 14 00 00 00 00 77
 	Philips ICode
 	RFID - ISO 15693 - Philips Semiconductors
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0C .. .. 00 00 00 00 ..
+	RFID - ISO 15693 Part 4 (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0D .. .. 00 00 00 00 ..
+	Contact (7816-10) I2C (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0E .. .. 00 00 00 00 ..
+	Contact (7816-10) Extended I2C (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0F .. .. 00 00 00 00 ..
+	Contact (7816-10) 2WBP (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 10 .. .. 00 00 00 00 ..
+	Contact (7816-10) 3WBP (as per PCSC std part3)
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	GemCombiXpresso R4 72K (contactless interface)
