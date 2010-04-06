@@ -431,6 +431,9 @@
 3B 65 00 00 20 63 CB 63 00
 	Bank card from Societe Générale (Oberthur)
 
+3B 65 00 00 20 63 CB 68 00
+	VISA credit card (Skandiabanken)
+
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
