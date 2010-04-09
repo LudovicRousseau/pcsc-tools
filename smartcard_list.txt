@@ -2534,6 +2534,18 @@
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
 
+3B F9 98 00 FF C1 10 31 FE 55 41 4D 20 43 4D 44 31 31 30 83
+	Service card of the Ministry of Defense of Italy - Military Aviation
+
+3B F9 98 00 FF C1 10 31 FE 55 45 49 20 43 4D 44 31 31 30 83
+	Service card of the Ministry of Defense of Italy - Italian Army
+
+3B F9 98 00 FF C1 10 31 FE 55 4D 4D 20 43 4D 44 31 31 30 8F
+	Service card of the Ministry of Defense of Italy - Navy
+
+3B F9 98 00 FF C1 10 31 FE 55 50 43 20 43 4D 44 31 31 30 9C
+	Service card of the Ministry of Defense of Italy - Civil personnel
+
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
 
