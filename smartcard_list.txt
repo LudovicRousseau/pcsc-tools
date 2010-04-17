@@ -3146,6 +3146,9 @@
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
 
+3F FF 11 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 11
+	PayTV card from Sky Deutschland (www.sky.de), Encryption: NDS V13 by Videoguard, Distribution Standard: DVB-S
+
 3F FF 13 25 03 10 80 33 B0 0E 69 FF 4A 50 70 00 00 49 54 02 00 00
 	Sky entitlement card
 
@@ -3154,6 +3157,9 @@
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
+
+3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
+	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 30 48
 	DSS/DISH ROM10
