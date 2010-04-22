@@ -2318,6 +2318,9 @@
 3B EF 00 00 81 31 FE 65 00 5C 50 43 53 D1 91 47 D2 76 00 00 38 33 00 70
 	Siemens/Infineon Sicrypt S26381-F252-V1 GS:03
 
+3B EF 00 00 81 31 FE 67 00 5C 49 43 4D DB C9 7E D2 76 00 00 38 33 00 1E
+	Infineon SICRYPT CardModule Card
+
 3B EF 00 FF 81 31 .. 45 65 63
 	 Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
 
