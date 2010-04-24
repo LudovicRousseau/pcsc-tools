@@ -2178,6 +2178,9 @@
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 48 00 00 00 01 49
 	Fly Clear card
 
+3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
+	Austrian "e-card" (State Health Insurance Card) (running StarcOS?)
+
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
 
@@ -2249,6 +2252,7 @@
 3B E9 00 00 81 21 45 56 49 53 5F 49 4E 46 20 06 78
 	VISA card, issued by the Austrian "Raiffeisen" bank (http://www.raiffeisen.at/
 	Visa Card - Maximum - Oyak Bank / Turkey
+	VISA, issued by Austrian bank "Erste Bank"
 
 3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
 	Visa credit card
@@ -3147,6 +3151,9 @@
 3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
 	Sky Digital (DSS satellite TV card) 2009 issue
 
+3F FD 13 25 02 50 80 0F 33 B0 08 FF FF 4A 50 90 00 00 47 4C 01
+	NDS VideoGuard card - Sky Brasil GL39 Blue
+
 3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
 	Sky Italia (satellite card, NDS3)
 
@@ -3155,6 +3162,9 @@
 
 3F FF 11 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 11
 	PayTV card from Sky Deutschland (www.sky.de), Encryption: NDS V13 by Videoguard, Distribution Standard: DVB-S
+
+3F FF 13 25 02 50 80 0F 54 B0 03 FF FF 4A 50 80 00 00 00 00 47 4C 05
+	NDS VideoGuard card - Sky Brasil GL54 Red
 
 3F FF 13 25 03 10 80 33 B0 0E 69 FF 4A 50 70 00 00 49 54 02 00 00
 	Sky entitlement card
