@@ -1144,6 +1144,9 @@
 3B 7F 13 00 00 80 31 C0 52 08 49 64 05 66 99 36 83 83 90 00
 	Spanish bank called BBVA
 
+3B 7F 13 00 00 80 31 C0 52 0B 71 64 05 66 98 36 83 83 90 00
+	OuroCard VISA International - Banco do Brasil
+
 3B 7F 13 00 00 80 31 C0 52 0B BB 64 05 66 98 36 83 83 90 00
 	VISA OUROCARD Banco do Brasil S.A.
 
