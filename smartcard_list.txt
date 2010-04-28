@@ -1094,6 +1094,8 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 D0 A9 83 00 90 00
 	GemSafe V2 (2.04, GemP15-1)
+	Gemplus GemXpresso Pro R3 E32PK
+	Gemalto TOP IM GX4
 
 3B 7D 96 00 00 80 31 80 65 B0 93 11 D0 A9 83 00 90 00
 	Gemalto Classic TPC (Trusted PKI Card) IM
