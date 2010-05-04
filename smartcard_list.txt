@@ -2183,6 +2183,10 @@
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 48 00 00 00 01 49
 	Fly Clear card
 
+3B DB 96 00 81 B1 FE 45 1F 83 80 F9 A0 00 00 03 08 00 00 10 00 98
+	Oberthur Cosmo v7 128K with PIV applet
+	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
+
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" (State Health Insurance Card) (running StarcOS?)
 
@@ -2194,6 +2198,10 @@
 
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
+
+3B DF 18 FF 81 31 FE 45 80 59 01 80 48 49 44 43 37 30 30 73 00 01 1B 33
+	Crescendo C700 + MiFare 4K
+	http://www.smartcardfocus.com/shop/ilp/id~265/p/index.shtml
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
