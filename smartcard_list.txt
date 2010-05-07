@@ -1011,6 +1011,9 @@
 3B 7B 18 00 00 00 31 C0 64 77 E9 10 00 01 90 00
 	Oberthur Card Systems: Cosmo 64 RSA V5.4 (ISK Key Set: 404142 .. 4E4F)
 
+3B 7B 18 00 00 00 31 E8 54 27 E6 00 00 01 90 00
+	Oberthur ID-One COSMO 64k v.5
+
 3B 7B 94 00 00 80 62 11 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
 
