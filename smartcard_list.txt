@@ -2591,6 +2591,11 @@
 3B FA 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 9D
 	NXP JCOP 41 v2.2.1 72k SmartCard I/F
 
+3B FA 18 00 02 C1 0A 31 FE 58 4B 53 77 69 73 73 53 69 67 6E 89
+	SuisseId card (used for qualified signatures)
+	http://postsuisseid.ch/de/suisseid
+	http://www.suisseid.ch/
+
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 65
 	TrubDemax healthcare card
 	JCOP 21 / 72k
