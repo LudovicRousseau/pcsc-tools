@@ -1792,6 +1792,12 @@
 3B 9F 13 81 B1 80 37 1F 03 80 31 F8 69 4D 54 43 4F 53 70 02 01 02 81 07 86
 	Swiss Health Insurance Card
 
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 03 83 95 00 80 55
+	Nagravision Betacrypt
+
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 03 84 55 6D FF 80
+	Nagravision Betacrypt
+
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
