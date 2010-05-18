@@ -1266,6 +1266,7 @@
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
 
 3B 86 80 01 06 75 77 81 02 80 00
+	NXP Mifare DESFire EV1 8K / MF3ICD81
 	"OpenCard" - card issued by Prague local authority
 	dual card: RFID (1k Mirfare) used for parkimeters and as public traffic ticket
 
