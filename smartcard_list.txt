@@ -3239,6 +3239,9 @@
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 32 32 15
 	UM01 card from German Unitymedia cable TV provider
 
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 34 35 14
+	Telenet N.V. HDTV Decoder Card Belgium
+
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 43 33 65
 	Brazilian NET Digital (Cable TV provider) - Nagra Vision "NASP110 RevA01"
 
