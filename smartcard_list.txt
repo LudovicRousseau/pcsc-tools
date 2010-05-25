@@ -1149,6 +1149,9 @@
 3B 7F 13 00 00 80 31 C0 52 08 49 64 05 66 99 36 83 83 90 00
 	Spanish bank called BBVA
 
+3B 7F 13 00 00 80 31 C0 52 08 4B 64 05 66 94 61 83 83 90 00 
+	Visa Electron Card from a Spanish bank called "Caja de Ingenieros"
+
 3B 7F 13 00 00 80 31 C0 52 0A A6 64 02 B3 02 37 83 83 90 00
 	Credit card Visa Classic by "La Caixa" (Spain)
 
