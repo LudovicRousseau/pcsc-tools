@@ -359,6 +359,12 @@
 	Gemplus GemXplore Xpresso V3 B1P
 	Mobistar SIM - Belgium (Gemplus)
 
+3B 3B 94 00 9B 44 20 10 4D 04 20 00 33 90 00
+	SIM card for 063 network of Telekom Srbije, the Serbian state-owned telephone company.
+
+3B 3B 94 00 9B 44 20 10 4D 05 00 00 33 90 00
+	SIM card for 066 network Telekom Srbije, the Serbian state-owned telephone company.
+
 3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
 	meteor ireland http://www.meteor.ie
 
@@ -3262,6 +3268,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 43 34 63
 	HD+ card used by the satelite company astra for decryption of the HDTV channels of RTL, VOX, Sat1 and ProSieben. Nagravision V3 is used for the encryption.
+
+3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
+	Spanish pay TV card for GOLTV
 
 3F FF 95 00 FF 91 81 71 FF 47 00 44 4E 41 53 50 53 30 31 20 44 73 68 36 30 39 16
 	PayTV card for DishNetwork Sat receiver http://www.dishnetwork.com/
