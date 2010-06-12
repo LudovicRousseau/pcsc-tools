@@ -761,6 +761,7 @@
 
 3B 6E 00 00 00 31 C0 65 77 B2 01 03 47 71 D6 8C 61 31
 	UK Barclaycard Business VISA
+	Nationwide Building Society (UK) Visa Debit and Credit Cards
 
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
 	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
