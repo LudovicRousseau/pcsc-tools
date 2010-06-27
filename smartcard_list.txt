@@ -441,7 +441,7 @@
 	VISA credit card (Skandiabanken)
 
 3B 65 00 00 20 63 CB 68 80
-	Capital One MasterCard Platinum 
+	Capital One MasterCard Platinum
 
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
@@ -1159,7 +1159,7 @@
 3B 7F 13 00 00 80 31 C0 52 08 49 64 05 66 99 36 83 83 90 00
 	Spanish bank called BBVA
 
-3B 7F 13 00 00 80 31 C0 52 08 4B 64 05 66 94 61 83 83 90 00 
+3B 7F 13 00 00 80 31 C0 52 08 4B 64 05 66 94 61 83 83 90 00
 	Visa Electron Card from a Spanish bank called "Caja de Ingenieros"
 
 3B 7F 13 00 00 80 31 C0 52 0A A6 64 02 B3 02 37 83 83 90 00
@@ -1204,10 +1204,10 @@
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 03 10 03 90 00
 	Used card Aragón government (Aragón - España)
 
-3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 03 20 03 90 00 
+3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 03 20 03 90 00
 	TiDcarm (Region de Murcia)
-	(Government of the Autonomous region of Murcia, Spain). http://www.carm.es 
-	
+	(Government of the Autonomous region of Murcia, Spain). http://www.carm.es
+
 3B 7F 38 00 00 00 6A 44 4E 49 65 00 02 4C 34 01 13 0F 65 81
 	DNI (Documento Nacional de Identidad), Spanish ID Card
 
@@ -1242,7 +1242,7 @@
 3B 83 00 12 10 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
-3B 84 80 01 00 00 90 00 95 
+3B 84 80 01 00 00 90 00 95
 	German (test) passport issued in january 2010
 
 3B 84 80 01 04 38 33 B1 BB
