@@ -1388,6 +1388,9 @@
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
+3B 8C 80 01 80 91 E1 65 D0 00 43 00 00 82 90 00 19
+	French passport (issued in late 2008)
+
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
 
@@ -1660,6 +1663,11 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 10 .. .. 00 00 00 00 ..
 	Contact (7816-10) 3WBP (as per PCSC std part3)
+
+3B 8F 80 01 80 5A 08 03 03 00 00 00 01 52 43 21 82 90 00 FF
+	Carte Mode Pass (Used in Clermont-Ferrand, France, to store personal
+	information and T2C subscription.  T2C is the public transport
+	company of Clermont-Ferrand: http://www.t2c.fr/)
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	GemCombiXpresso R4 72K (contactless interface)
