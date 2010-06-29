@@ -437,6 +437,9 @@
 3B 65 00 00 20 63 CB 63 00
 	Bank card from Societe Générale (Oberthur)
 
+3B 65 00 00 20 63 CB 66 80
+	Crédit Agricole (french bank) MasterCard
+
 3B 65 00 00 20 63 CB 68 00
 	VISA credit card (Skandiabanken)
 
