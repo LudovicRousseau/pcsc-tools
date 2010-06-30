@@ -1973,7 +1973,7 @@
 
 3B B2 11 00 10 80 00 02
 	Atmel memory card AT88SC0204C (Atmel memory card)
-	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+	http://www.atmel.com/dyn/resources/prod_documents/doc5211.pdf
 
 3B B2 11 00 10 80 00 04
 	Atmel memory card AT88SC0404C
