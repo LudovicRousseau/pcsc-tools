@@ -1253,6 +1253,9 @@
 3B 84 80 01 00 00 90 00 95
 	German (test) passport issued in january 2010
 
+3B 84 80 01 01 10 00 09 1D
+	snapper (www.snapper.co.nz) prepaid 14443A cards
+
 3B 84 80 01 04 38 33 B1 BB
 	Dutch passport
 
