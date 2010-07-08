@@ -850,6 +850,9 @@
 3B 6F 00 00 00 67 2. 43 46 49 53 45 12 52 66 FF 81 90 00
 	Setec SetCOS 4.3.2
 
+3B 6F 00 00 00 68 2C 42 05 02 46 49 53 45 31 C8 07 90 00
+	VISA card, issued by Swedbank Latvia
+
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
 
