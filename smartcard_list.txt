@@ -90,6 +90,10 @@
 	Certinomis card (electronic certificates)
 	Schlumberger Cryptoflex ActivCard
 
+3B 06 01 02 10 .. .. ..
+	ISOProx II Card:
+    http://www.hidglobal.com/documents/isoprox_ds_en.pdf
+
 3B 06 81 24 80 80 90 00
 	10€ credit card for TV & telephone in Jerez de la
 	Frontera hospital's rooms. The maker can be found at www.isernsa.com
@@ -354,6 +358,9 @@
 
 3B 3B 94 00 69 3C 10 30 01 3E 40 33 00 90 00
 	UK Vodafone GSM SIM
+
+3B 3B 94 00 6A 38 20 00 00 09 E0 33 33 90 00
+	virgin mobile (french) SIM card
 
 3B 3B 94 00 80 65 AF 03 0D 01 74 83 0F 90 00
 	Gemplus GemXplore Xpresso V3 B1P
@@ -775,6 +782,9 @@
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 37
 	Swedbank MasterCard card
 
+3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 33
+	Travelex Cash Passport - Prepaid MasterCard Currency Card
+
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
@@ -958,7 +968,7 @@
 	http://www.univers.upc.edu/comunitatupc/NOUCARNETUPC
 
 	Universitat Ramon Llull (URL)
-	http://www.url.edu/cont/url/carnet.php 
+	http://www.url.edu/cont/url/carnet.php
 
 3B 6F 00 00 80 66 B0 07 01 01 77 07 53 02 31 24 82 90 00
 	Santander 4B Maestro
@@ -1004,6 +1014,9 @@
 
 3B 76 98 00 00 00 9C 11 01 01 02
 	CyberFlex Access 32
+
+3B 78 12 00 00 54 C4 03 00 8F F1 90 00
+	 Skylink irdeto from Towercom a.s. company
 
 3B 78 12 00 00 65 C4 05 00 8F F1 90 00
 	Digitürk Cryptoworks
@@ -1768,7 +1781,7 @@
 3B 9A 94 00 91 01 00 17 00 01 26 06 00 96
 	T D1 GSM card
 
-3B 9A 94 00 92 02 75 93 11 00 01 02 02 00
+3B 9A 94 00 92 02 75 93 11 00 01 02 02 .0
 	SuperSIM
 
 3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
@@ -2160,6 +2173,9 @@
 3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 02 08 20 51 00 00 00 00 90
 	austrian combined card of a mastercard and ÖBB Vorteilscard (Austrian Federal Railways)
 	http://www.oebb.at/pv/de/Servicebox/VORTEILScard/Bezahlen_mit_der_VORTEILScard/VORTEILScard_MasterCard.jsp
+
+3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 02 55 91 33 00 00 00 00 1E
+	Mastercard (Paylife Austria)
 
 3B BF 11 00 C0 10 31 FE 44 53 4D 40 52 54 20 43 41 46 45 20 31 2E 31 43 C1
 	Giesecke&Devrient SmartCafe 1.1
