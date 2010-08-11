@@ -1900,6 +1900,7 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 06 A6 83 0F 90 00 89
 	Net10 prepaid SIM marked TF64SIMC4 supplied by TracFone which is a US subsidiary of América Móvil.
 	It supplies service via the Cingular/AT&T GSM network.
+	German prepaid SIM card, issued by Simyo
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 07 A7 83 0F 90 00 89
 	SIM NRJ Mobile
@@ -2268,6 +2269,10 @@
 
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
+
+3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 81 01 11 01 43 4E 53 10 31 80 E8
+	Italian healtcare card (TS) National Service Card (CNS)
+	Tuscany TS-CNS http://www.regione.toscana.it/cartasanitaria
 
 3B DF 18 FF 81 31 FE 45 80 59 01 80 48 49 44 43 37 30 30 73 00 01 1B 33
 	Crescendo C700 + MiFare 4K
@@ -3014,6 +3019,10 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 11 31 80 8E
 	Infocamere CNS
 
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 43 4E 53 10 31 80 9D
+	Aruba CNS for Regione Toscana (IT)
+	http://www.regione.toscana.it
+	
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 11 01 43 4E 53 11 31 80 8C
 	Universita' Degli Studi di Torino (Infocert)
 
