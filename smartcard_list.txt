@@ -801,6 +801,7 @@
 	UK NatWest Business MasterCard
 	UK NatWest Cashcard - Maestro / SOLO
 	Portugal Santander Totta Visa Electron "JÁ KÁ KONTA"
+	Australia ANZ Visa card
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
