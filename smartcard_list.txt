@@ -601,6 +601,9 @@
 	UK NatWest Platinum MasterCard
 	Visa Card - DenizBank / Turkey
 
+3B 68 00 FF 56 43 41 52 44 6E 73 73
+	NSSVirtual Smart Card for qemu
+
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
 	370-4328-01 (31091)
