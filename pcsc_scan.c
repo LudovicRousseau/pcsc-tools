@@ -69,8 +69,8 @@ int main(int argc, char *argv[])
 	int current_reader;
 	LONG rv;
 	SCARDCONTEXT hContext;
-	SCARD_READERSTATE_A *rgReaderStates_t = NULL;
-	SCARD_READERSTATE_A rgReaderStates[1];
+	SCARD_READERSTATE *rgReaderStates_t = NULL;
+	SCARD_READERSTATE rgReaderStates[1];
 	DWORD dwReaders = 0, dwReadersOld;
 	DWORD timeout;
 	LPSTR mszReaders = NULL;
