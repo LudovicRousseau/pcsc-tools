@@ -130,7 +130,11 @@ Licences:
 History:
 ========
 
-1.4.16 - 12 January 2009, Ludovic ROUSSEAU
+1.4.17 - 18 August 2010, Ludovic ROUSSEAU
+    - 153 new ATRs
+    - Allow to build with pcsc-lite >= 1.6.2
+
+1.4.16 - 12 January 2010, Ludovic ROUSSEAU
     - 153 new ATR
     - pcsc_scan.c: check for PnP support at run time instead of using a
       #define
