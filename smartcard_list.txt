@@ -92,7 +92,7 @@
 
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
-    http://www.hidglobal.com/documents/isoprox_ds_en.pdf
+	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
 
 3B 06 81 24 80 80 90 00
 	10€ credit card for TV & telephone in Jerez de la
@@ -1408,6 +1408,9 @@
 
 3B 8A 80 01 80 65 A2 01 01 01 3D 72 D6 43 97
 	Gemplus GemXpresso Pro R3 E32 PK (combi)
+
+3B 8B 01 52 75 74 6F 6B 65 6E 20 44 53 20 C1
+	Rutoken ECP (DS)
 
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
