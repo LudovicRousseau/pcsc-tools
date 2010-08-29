@@ -2288,6 +2288,9 @@
 	Crescendo C700 + MiFare 4K
 	http://www.smartcardfocus.com/shop/ilp/id~265/p/index.shtml
 
+3B DF 18 FF 81 F1 FE 43 00 1F 03 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 98
+	Mifare SAM AV2
+
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
 
