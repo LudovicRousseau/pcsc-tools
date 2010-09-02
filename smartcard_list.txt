@@ -1440,6 +1440,9 @@
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
 
+3B 8E 80 01 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 1D
+	barclaycard Platinum contact/contactless (wave)
+
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport
 
@@ -1633,6 +1636,7 @@
 	RFID - ISO 14443 Type A - Transport for London Oyster
 	ACOS5/1k Mirfare
 	RFID - ISO 14443 Type A - NXP Mifare card with 1k EEPROM
+	vivotech ViVOcard Contactless Test Card
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
