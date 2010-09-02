@@ -150,7 +150,7 @@ int main(int argc, char *argv[])
 	rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
 
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
-	if (rgReaderStates[0].dwEventState && SCARD_STATE_UNKNOWN)
+	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
 		printf("PnP reader name not supported. Using polling.\n");
 		pnp = FALSE;
