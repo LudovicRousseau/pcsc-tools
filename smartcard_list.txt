@@ -2279,7 +2279,8 @@
 	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
 
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
-	Austrian "e-card" (State Health Insurance Card) (running StarcOS?)
+	Austrian "e-card" G3 (State Health Insurance Card)
+	(running StarCOS 3.4 by Giesecke & Devrient)
 
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
