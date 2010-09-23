@@ -1061,7 +1061,7 @@
 3B 7B 18 00 00 00 31 E8 54 27 E6 00 00 01 90 00
 	Oberthur ID-One COSMO 64k v.5
 
-3B 7B 94 00 00 80 62 11 51 56 46 69 6E 45 49 44
+3B 7B 94 00 00 80 62 1[1,2] 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
 
 3B 7B 94 00 00 80 65 B0 83 01 0[1,3] 74 83 00 90 00
