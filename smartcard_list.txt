@@ -163,6 +163,9 @@
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
 
+3B 18 94 53 0D 06 77 24 07 FF 02
+	GSM SIM Tele2 Estonia, prepaid (Telecommunication)
+
 3B 19 14 55 90 01 01 01 00 05 08 B0
 	Schlumberger Multiflex 8k
 
@@ -3058,7 +3061,7 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 43 4E 53 10 31 80 9D
 	Aruba CNS for Regione Toscana (IT)
 	http://www.regione.toscana.it
-	
+
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 11 01 43 4E 53 11 31 80 8C
 	Infocert 1205* smart card
 	Universita' Degli Studi di Torino (Infocert)
