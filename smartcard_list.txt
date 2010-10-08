@@ -645,6 +645,9 @@
 3B 6A 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	GemSafe Xpresso 16k
 
+3B 6A 00 00 80 65 A2 01 03 01 8D 72 D6 43
+	American Express Blue Card
+
 3B 6A 00 00 80 66 A1 09 02 01 63 0E 90 00
 	Danish Visa/Dankort
 	UK MBNA MasterCard
@@ -814,6 +817,7 @@
 	UK NatWest Cashcard - Maestro / SOLO
 	Portugal Santander Totta Visa Electron "JÁ KÁ KONTA"
 	Australia ANZ Visa card
+	Portugal Millennium BCP VISA Electron debit Card 
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
@@ -839,6 +843,7 @@
 	UK Capital One Platinum MasterCard
 	HSBC Commercial Card Visa
 	VISA issued by Czech's "Komercni banka" (member of Societe General group)
+	Portugal Caixa Geral de Depositos debit card 
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
@@ -1163,6 +1168,9 @@
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
 
+3B 7E 13 00 00 00 31 C0 71 C6 65 01 B4 01 04 40 83 90 00
+	Portugal Millennium BCP MAESTRO debit Card
+	
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
 
