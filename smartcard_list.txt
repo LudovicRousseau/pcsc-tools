@@ -630,6 +630,9 @@
 	VISA credit card (Ceska Sporitelna)
 	Maestro credit card (Ceska Sporitelna)
 
+3B 69 00 00 80 31 E0 55 42 45 52 47 53
+	Banrisul Bank
+
 3B 69 00 FF 00 64 4A 10 04 32 05 90 00
 	NXP JCOP 20 V2.1 16K
 
