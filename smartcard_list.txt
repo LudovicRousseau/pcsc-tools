@@ -814,6 +814,7 @@
 
 3B 6E 00 00 00 31 C0 71 86 65 01 BB 01 13 3B 83 90 00
 	NatWest Servicecard 100 - Maestro ATM
+	NatWest Visa Debit
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
