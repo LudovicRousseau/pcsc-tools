@@ -2269,6 +2269,10 @@
 3B D5 95 04 00 AE 01 02 01 01
 	Axalto Cyberflex Access 64K v2b SM 1.1
 
+3B D5 95 FF 80 91 FE 1F C3 80 73 C8 21 13 85
+	Athena IDProtect - Cryptographic Java Card
+	http://www.athena-scs.com/product.asp?pid=32
+
 3B D6 18 00 80 B1 80 6D 1F 03 80 51 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1
 
