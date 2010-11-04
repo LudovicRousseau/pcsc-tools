@@ -430,7 +430,7 @@
 	Easyflex FastOS 2.0 / Schlumberger
 
 3B 5E 11 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
-	Estonian eID
+	Estonian Identity Card (EstEID v1.0 2006 warm)
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
@@ -859,7 +859,7 @@
 	Setec SetCos 4.3.0
 
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
-	Estonian Identity Card (EstEID v1.5 multos)
+	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
 
 3B 6E 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	Opencard, new card in Prague, Czech Republic (transport card)
@@ -2834,7 +2834,7 @@
 	Estonian Identity Card (EstEID v1.0 cold)
 
 3B FE 96 00 FF C0 0A 31 FE 4D 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 9B
-	Estonian Identity Card (EstEID v1.0 compatible)
+	Estonian Identity Card (EstEID v1.1 compatible)
 	http://www.id.ee/?id=11019&&langchange=1
 
 3B FF .. 00 FF 81 31 .. 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
