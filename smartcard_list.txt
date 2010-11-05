@@ -762,6 +762,9 @@
 3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 0[1,5]
 	Giesecke & Devrient CardToken 350 (ICCD)
 
+3B 6D 00 FF 80 73 00 21 13 57 4A 54 48 61 31 47 00
+	ActiveKey SIM
+
 3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 80 90 00
 	MasterCard Card - bonus plus (paypass) - Garanti Bank / Turkey
 
