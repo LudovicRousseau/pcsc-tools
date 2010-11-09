@@ -114,6 +114,9 @@
 3B 0F 00 65 46 53 05 16 05 71 DF 00 00 00 80 6A 82
 	Feitian ePass3000, OpenSC formatted
 
+3B 0F 80 22 15 E1 5A 00 20 00 30 21 03 31 21 03 00
+	RSA SecurID SID800 token
+
 3B 0F 80 6A 16 32 46 49 53 45 53 8C E0 FF 07 90 00
 	GSM-SIM Sonera (from 1998)
 
@@ -393,6 +396,9 @@
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
+
+3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 13 12 72 F7 41 05
+	SCOSTA (transport)
 
 3B 3F 94 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
 	GSM SIM Card (GEMPLUS), issued by Orange Switzerland (Prepaid)
@@ -1048,6 +1054,9 @@
 
 3B 78 12 00 00 65 C4 05 00 8F F1 90 00
 	Digitürk Cryptoworks
+
+3B 78 12 00 00 65 C4 05 05 8F F1 90 00
+	Turkie Digiturk Cryptoworks
 
 3B 78 12 00 00 A0 C4 03 07 8F F1 90 00
 	IRDETO-Smartcard for crytoworks for austrian television (ORF), DVB-s
@@ -2185,6 +2194,10 @@
 
 3B BD 18 00 81 31 FE 45 80 51 02 67 05 18 B1 02 02 02 01 81 05 31
 	Austrian health insurance card "e-card"
+
+3B BD 18 00 81 31 FE 45 80 51 03 67 04 14 B1 01 01 02 00 81 05 3C
+	Austrian Health insurance card "eCard" (HealthCare)
+	http://www.chipkarte.at
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 01 90 00
 	ACS (Advanced Card System) ACOS-1
