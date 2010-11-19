@@ -3363,6 +3363,9 @@
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 53 35 00 00 00
 	Stream TV (IP television) decoder card, provided by stream.ru ISP in Moscow
 
+3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 54 38 00 00 00
+	Stream TV (IP television) decoder card, provided by aon (Telekom Austria) TV card, contains Incorporated NDS Videoguard (TM) security system
+
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
 
