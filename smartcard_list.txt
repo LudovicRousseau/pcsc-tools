@@ -1900,6 +1900,9 @@
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 30
 	"La7 Cartapiù" for DVB-T decoders, IRDETO access
 
+3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37
+	dahlia Tv Italian Provider
+
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
 
@@ -3435,5 +3438,8 @@
 
 3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
 	"TIVU SAT" from ITALY www.tivu.tv
+
+3F FF 95 00 FF FE 91 81 71 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
+	Nagra 3 Digital Plus Spain
 
 # do not delete
