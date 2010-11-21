@@ -6,6 +6,9 @@ pp = pprint.PrettyPrinter(indent=4)
 
 ATRs = list()
 for l in file("smartcard_list.txt").readlines():
+    if l.endswith(" \n") or l.endswith("\t\n"):
+        print "Trailing space in:", l
+
 	if l == "\n" or l.startswith("#") or l.startswith("\t"):
 		continue
 	ATRs.append(l.strip())
