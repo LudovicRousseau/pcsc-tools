@@ -3423,6 +3423,9 @@
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 43 34 63
 	HD+ card used by the satelite company astra for decryption of the HDTV channels of RTL, VOX, Sat1 and ProSieben. Nagravision V3 is used for the encryption.
 
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
+	Nagra 3 Digital Plus Spain
+
 3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 36 20 52 65 76 36 31 32 6E
 	Mediaset Premium card (Italian Digital Terrestrial Television Pay Per ViEw)
 
@@ -3438,8 +3441,5 @@
 
 3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
 	"TIVU SAT" from ITALY www.tivu.tv
-
-3F FF 95 00 FF FE 91 81 71 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
-	Nagra 3 Digital Plus Spain
 
 # do not delete
