@@ -2334,6 +2334,9 @@
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	CAC (Common Access Card)
 
+3B DB 96 00 80 1F 03 00 31 C0 64 B0 F3 10 00 07 90 00 80
+	DoD CAC, Oberthur ID One 128 v5.5 Dual
+
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
 	Oberthur Cosmo V7 debug card (SDK)
 
