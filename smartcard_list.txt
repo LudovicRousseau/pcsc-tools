@@ -2217,6 +2217,9 @@
 	Austrian Health insurance card "eCard" (HealthCare)
 	http://www.chipkarte.at
 
+3B BE 11 00 00 41 01 10 20 38 00 00 00 00 00 00 00 00 00
+	ACOS2
+
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 01 90 00
 	ACS (Advanced Card System) ACOS-1
 
