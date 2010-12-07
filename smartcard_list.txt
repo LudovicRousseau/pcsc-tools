@@ -1374,6 +1374,9 @@
 3B 86 80 01 4A 43 4F 50 33 31 13
 	JCOP BIO 31 Contactless Card
 
+3B 86 80 01 44 49 20 30 32 4D 65
+	Lufthansa Miles & More Gold MasterCard PayPass
+
 3B 87 80 01 C1 05 2F 2F 01 BC D6 A9
 	RFID - ISO 14443 Type A -  NXP Mifare Plus
 
@@ -1398,6 +1401,9 @@
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A -  NXP JCOP
 
+3B 88 80 01 C9 12 07 52 02 00 81 10 14
+	electronic Tickes from the german Transport Association VGN (Verkehrsgemeinschaft Niederrhein)
+
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
 
@@ -1412,6 +1418,11 @@
 
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
+
+3B 89 80 01 45 4D 56 20 30 33 20 20 06 73
+	Lufthansa Miles & More Gold MasterCard PayPass (old one)
+	Found a reference pointing to NXP
+	http://www.usingrfid.com/news/read.asp?lc=l17607hx1500zk
 
 3B 89 80 01 4A 43 4F 50 33 31 56 32 32 4A
 	JCOP 31 v22 72K (with Mifare 1K emulation) - RFID I/F
@@ -3327,6 +3338,12 @@
 
 3F 77 18 00 00 C2 47 40 00 68 90 00
 	Viacces card: SRG SSR idèe suisse
+
+3F 77 18 00 00 C2 7A 42 02 68 90 00
+	SCT (Via Access)
+
+3F 77 18 00 00 C2 7A 43 02 68 90 00
+	DORCEL (Via Access)
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
