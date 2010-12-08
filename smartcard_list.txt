@@ -1429,6 +1429,7 @@
 
 3B 89 80 01 4A 43 4F 50 34 31 56 32 32 4D
 	New Zealand e-Passport
+	Philips Semiconductor JCOP41V22
 
 3B 89 80 01 4D 54 43 4F 53 73 01 02 01 3F
 	Contactless MTCOS
