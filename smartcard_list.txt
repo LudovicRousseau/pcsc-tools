@@ -1479,6 +1479,10 @@
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
 
+3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
+	TouchandTravel Touchpoint NFC-Card.
+	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
+
 3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
 	RFID - NFC Forum tag type 3 (FeliCa)
 
