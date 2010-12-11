@@ -1,6 +1,6 @@
 /*
     Scan and print all the PC/SC devices available
-    Copyright (C) 2001-2009  Ludovic Rousseau <ludovic.rousseau@free.fr>
+    Copyright (C) 2001-2010  Ludovic Rousseau <ludovic.rousseau@free.fr>
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 	int pnp = TRUE;
 
 	printf("PC/SC device scanner\n");
-	printf("V " VERSION " (c) 2001-2009, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
+	printf("V " VERSION " (c) 2001-2010, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 	printf("Compiled with PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
 
 	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
