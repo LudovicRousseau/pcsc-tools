@@ -1296,6 +1296,7 @@
 
 3B 80 80 01 01
 	Latvian e-Pasport
+	Bulgarian e-Pasport
 	RFID - ISO 14443 Type B
 
 3B 81 1F 00 CC 52
@@ -1861,6 +1862,9 @@
 
 3B 9A 94 00 92 02 75 93 11 00 01 02 02 .0
 	SuperSIM
+
+3B 9A 96 00 92 01 48 93 17 00 02 12 04 00
+	SIM Card Carrefour Mobile (Belgium)
 
 3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
 	GSM SIM Bite.lv prepaid "Toxic"; 2008
