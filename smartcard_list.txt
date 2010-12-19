@@ -353,6 +353,9 @@
 3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
 
+3B 3B 11 00 67 AF 10 30 07 00 C0 33 33 90 00
+	Mobicarte Orange
+
 3B 3B 11 00 80 65 AF 03 0C 01 6F 83 0F 90 00
 	Gemplus GemX{plore,presso} V3-B1
 
@@ -1968,6 +1971,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 49 05 0C 86 98 60 18 CC
 	China Unicom USIM 128K 6131H
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 06 81 01 00 82 90 00 45
+	Mobicarte Orange
 
 3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 A9
 	GSM-SIM Elisa (Estonia, WPKI eID support)
