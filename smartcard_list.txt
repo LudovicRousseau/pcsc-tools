@@ -1153,6 +1153,9 @@
 	Gemalto's Classic TPC HM CC Mifare 1K White PVC
 	(Old name GemSafeXpresso 64K)
 
+3B 7D 95 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
+	Portuguese ID card
+
 3B 7D 95 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	Portuguese identity card
 	http://www.cartaodecidadao.pt
