@@ -108,6 +108,9 @@
 3B 0A 20 62 0C 01 4F 53 45 99 14 AA
 	GSM-SIM BEN (1800MHz)
 
+3B 0E BC E1 CA AF C2 DF BC AD BC D3 C3 DC BF A8
+	German "Versichertenkarte" Healthcare card
+
 3B 0F 00 65 46 53 05 16 05 71 DF 00 00 00 45 50 53
 	Feitian ePass3000, Feitian formatted
 
@@ -1482,6 +1485,9 @@
 3B 8B 01 52 75 74 6F 6B 65 6E 20 44 53 20 C1
 	Rutoken ECP (DS)
 
+3B 8B 01 52 75 74 6F 6B 65 6E 20 45 43 50 A0
+	Rutoken ECP
+
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
@@ -2673,6 +2679,10 @@
 3B F4 98 00 FF C1 10 31 FE 55 4D 34 63 76 B4
 	Eutron Digipass 860 (reader + card token)
 
+3B F5 18 00 00 81 31 FE 45 4D 79 45 49 44 9A
+	Aventra ActiveSecurity MyEID
+	http://www.aventra.fi/pdf/ActiveSecurity%20MyEID%20Tokens%20white%20paper%20(2p)%20EN.pdf
+
 3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
 	Contactless Mifare Ultralight
 
@@ -2817,6 +2827,18 @@
 	HID Crescendo C700 http://www.hidcorp.com/
 	Should be compatible to RAAK http://www.raaktechnologies.com/
 	Marx CrypToken MX2048-JCOP USB Token
+
+3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 34 31 56 32 33 31 63
+	JCOP41 V2.3.1 Dual Interface, Mifare emulation, 72K (NXP SmartMX P5CT072)
+	JCOP (Java Card OpenPlatform) is a Java smart card distributed and developed by NXP.
+	The JCOP 41 v2.3.1. is an USB-smart card and can be used not only with standard smart card reader, but also with simple USB-connectors. The JCOP card is connected as ICCD card and can be used with such ICCD standard drivers.
+	JCOP 41 is a Dual-Interface Smart Card, that means, the card can also be contacted with a contactless card reader. For building access systems, this card is also be able to emulate Mifare Classic 1k/4k.
+	JCOP 41 v2.3.1 is compliant to JavaCard Standard 2.2.1. and GlobalPlattform 2.1.1. Their cryptographic features supports RSA up to 2432 bit, 'Eliptic curves' - ECC GF(2n), AES and 3DES.
+
+More information is available here:
+
+http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
+
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
@@ -3309,6 +3331,10 @@
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
+
+3F 67 25 00 21 20 00 0F 68 90 00
+	Smart Builder "your kit for PC/SC applications" and Bull
+	http://www.cp8.bull.net/
 
 3F 67 25 00 21 20 00 0F 78 90 00
 	Bank Nederlandse Gemeenten, BNG Data Services
