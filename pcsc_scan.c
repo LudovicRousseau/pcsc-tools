@@ -399,13 +399,15 @@ get_readers:
 				else
 					atr[0] = '\0';
 
-				printf("%s%s%s\n\n", magenta, atr, color_end);
+				printf("%s%s%s\n", magenta, atr, color_end);
 
 				/* force display */
 				fflush(stdout);
 
 				if (analyse_atr)
 				{
+					printf("\n");
+
 					sprintf(atr_command, ATR_PARSER " '%s'", atr);
 					if (system(atr_command))
 						perror(atr_command);
