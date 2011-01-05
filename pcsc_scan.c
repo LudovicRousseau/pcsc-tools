@@ -293,6 +293,8 @@ get_readers:
 	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
+		time_t t;
+
 		if (pnp)
 		{
 			if (rgReaderStates_t[nbReaders-1].dwEventState &
@@ -307,12 +309,14 @@ get_readers:
 				goto get_readers;
 		}
 
+		/* Timestamp the event as we get notified */
+		t = time(NULL);
+		printf("\n%s", ctime(&t));
+
 		/* Now we have an event, check all the readers in the list to see what
 		 * happened */
 		for (current_reader=0; current_reader < nbReaders; current_reader++)
 		{
-			time_t t;
-
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_CHANGED)
 			{
@@ -330,11 +334,8 @@ get_readers:
 			 * above.
 			 */
 
-			/* Timestamp the event as we get notified */
-			t = time(NULL);
-
 			/* Specify the current reader's number and name */
-			printf("\n%s Reader %d: %s%s%s\n", ctime(&t), current_reader,
+			printf("Reader %d: %s%s%s\n", current_reader,
 				magenta, rgReaderStates_t[current_reader].szReader,
 				color_end);
 
