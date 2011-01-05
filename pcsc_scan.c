@@ -303,7 +303,7 @@ get_readers:
 		{
 			/* A new reader appeared? */
 			if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
-						== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
+				== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
 				goto get_readers;
 		}
 
