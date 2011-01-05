@@ -152,8 +152,14 @@ int main(int argc, char *argv[])
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
 	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
-		printf("PnP reader name not supported. Using polling.\n");
+		timeout = TIMEOUT;
+		printf("%sPlug'n play reader name not supported. Using polling every %ld ms.%s\n", magenta, timeout, color_end);
 		pnp = FALSE;
+	}
+	else
+	{
+		timeout = INFINITE;
+		printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
 	}
 
 get_readers:
@@ -282,12 +288,8 @@ get_readers:
 	 * We only stop in case of an error
 	 */
 	if (pnp)
-	{
-		timeout = INFINITE;
 		nbReaders++;
-	}
-	else
-		timeout = TIMEOUT;
+
 	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
