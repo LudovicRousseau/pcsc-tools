@@ -393,6 +393,9 @@
 3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
 	meteor ireland http://www.meteor.ie
 
+3B 3C 94 00 42 31 11 A2 12 02 09 51 83 80 90 00
+	Omnitel IT 16K GSM SIM card 
+
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
 
