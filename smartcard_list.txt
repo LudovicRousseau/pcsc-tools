@@ -394,7 +394,7 @@
 	meteor ireland http://www.meteor.ie
 
 3B 3C 94 00 42 31 11 A2 12 02 09 51 83 80 90 00
-	Omnitel IT 16K GSM SIM card 
+	Omnitel IT 16K GSM SIM card
 
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
@@ -1389,6 +1389,10 @@
 
 3B 86 80 01 44 49 20 30 32 4D 65
 	Lufthansa Miles & More Gold MasterCard PayPass
+
+3B 87 80 01 80 31 80 73 96 12 80 40
+	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
+	http://www.vrsinfo.de/englisch/the-vrs/vrs-about-us.html
 
 3B 87 80 01 C1 05 2F 2F 01 BC D6 A9
 	RFID - ISO 14443 Type A -  NXP Mifare Plus
