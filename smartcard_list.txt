@@ -480,6 +480,9 @@
 3B 65 00 00 20 63 CB 68 80
 	Capital One MasterCard Platinum
 
+3B 65 00 00 20 63 CB 6A 00
+	CB Visa La Banque Postale (Gemalto)
+
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
