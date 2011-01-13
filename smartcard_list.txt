@@ -90,6 +90,10 @@
 	Certinomis card (electronic certificates)
 	Schlumberger Cryptoflex ActivCard
 
+3B 06 00 10 01 D6 C5 46
+	HID ProxKey II FOB
+	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
+	
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
 	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
