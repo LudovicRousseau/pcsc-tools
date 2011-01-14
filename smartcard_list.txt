@@ -1314,8 +1314,7 @@
 	http://www.dnielectronico.es
 
 3B 80 80 01 01
-	Latvian e-Pasport
-	Bulgarian e-Pasport
+	Latvian, Bulgarian, US e-Pasport
 	RFID - ISO 14443 Type B
 
 3B 81 1F 00 CC 52
