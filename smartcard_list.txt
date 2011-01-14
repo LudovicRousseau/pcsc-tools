@@ -93,7 +93,7 @@
 3B 06 00 10 01 D6 C5 46
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
-	
+
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
 	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
@@ -1520,6 +1520,9 @@
 
 3B 8C 80 01 80 91 E1 65 D0 00 43 00 00 82 90 00 19
 	French passport (issued in late 2008)
+
+3B 8C 80 01 80 91 E1 65 D0 00 46 00 00 82 90 00 1C
+	US passport
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
