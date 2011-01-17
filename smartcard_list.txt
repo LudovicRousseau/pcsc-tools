@@ -2877,6 +2877,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FA 98 00 FF C1 10 31 FE 55 C8 04 53 41 47 5F 50 4B 49 32 70
 	Siemens Corporate Card (Belgium , Germany)
 
+3B FB 11 00 00 40 28 80 59 53 50 59 52 55 53 AE 00 02
+	Spyrus Rosetta Basic
+
 3B FB 11 00 00 40 78 80 59 53 50 59 52 55 53 AE 02 02
 	Rosetta® Series II Smart Card manufactured by Spyrus
 	http://spyrus.com/products/rosetta_smart_usb.asp
