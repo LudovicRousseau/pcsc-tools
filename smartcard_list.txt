@@ -861,6 +861,10 @@
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 31 37 83 90 00
 	Electron VISA Credit Card (BANK OF Cyprus)
 
+3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
+	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
+	http://www.ingdirect.es/tarjetas-ing/
+
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
 	VISA Card - Maximum - Oyak Bank / Turkey
@@ -2952,6 +2956,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
+
+3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 0F 90 00 EF
+	iEstonian Identity Card (EstEID 3.0 (18.01.2011) warm)
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 01 90 00 E1
 	Estonian Identity Card (EstEID 3.0 "JavaCard" warm)
