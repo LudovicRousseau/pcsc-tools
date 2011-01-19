@@ -701,6 +701,10 @@
 3B 6B 00 00 00 31 80 64 43 B0 02 00 8C 61 27
 	Bull Odyssey 1.2 (Javacard 2.0)
 
+3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
+	Entropia Universe Gold card
+	http://account.entropiauniverse.com/account/security/
+
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
 
