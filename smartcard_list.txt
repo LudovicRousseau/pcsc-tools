@@ -1233,6 +1233,9 @@
 3B 7E 94 00 00 80 31 80 66 47 50 91 45 03 13 83 0F 90 00
 	JTOP Trusted Logic
 
+3B 7E 94 00 00 80 31 80 66 47 50 A4 45 05 11 83 0F 90 00
+	JTOP Trusted Logic
+
 3B 7E 95 00 00 80 31 80 73 34 11 80 82 90 00 00 00 00 00
 	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Gemalto
 
