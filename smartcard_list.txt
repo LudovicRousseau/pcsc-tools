@@ -2442,6 +2442,11 @@
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
 
+3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 80 01 11 01 43 4E 53 10 31 80 E9
+	Provider: Actalis S.p.A.
+	code: AT00006181
+	website: http://www.actalis.it
+
 3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 81 01 11 01 43 4E 53 10 31 80 E8
 	Italian healtcare card (TS) National Service Card (CNS)
 	Tuscany TS-CNS http://www.regione.toscana.it/cartasanitaria
