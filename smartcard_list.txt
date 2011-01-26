@@ -909,6 +909,9 @@
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
 
+3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
+	UK "Barclaycard Gold VISA" with RFID
+
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
 
@@ -1954,7 +1957,7 @@
 	Rogers 3G SIM card
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 7A 00 00 00 79
-	Symio SIM Card, Spanish Mobile Company
+	Simyo SIM Card, Spanish Mobile Company
 
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
