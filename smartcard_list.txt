@@ -1826,6 +1826,9 @@
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
 
+3B 91 94 80 1F 03 23 BA
+	China black(COS) SIM, does not support clock stop
+
 3B 95 .. 40 FF 62 01 01 .. ..
 	Schlumberger Cryptoflex e-gate
 
@@ -1886,6 +1889,10 @@
 
 3B 98 94 40 0A A5 03 01 01 01 AD 13 10
 	Belgium Electronic ID card
+
+3B 98 95 40 FF D0 00 48 01 01 AD 13 21
+	Belgian Eid virtual test card
+	 https://env.dev.eid.belgium.be/prepcard.php
 
 3B 98 96 00 80 31 C0 72 F7 41 81 07
 	Activ Rutoken Magistra
