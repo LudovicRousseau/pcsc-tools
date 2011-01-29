@@ -3502,6 +3502,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3F 7F 13 25 03 40 B0 0B 69 4C 4A 50 C0 00 00 53 59 00 00 00
 	Sky Digital (DSS satellite TV card)
 
+3F 7F 13 25 05 40 B0 11 69 FF 4A 50 00 00 00 47 54 00 0C 00
+	YES DBS Israel Videoguard 090C,090D
+
 3F 96 18 80 01 80 51 00 61 10 30 9F
 	Atmel/Athena T0 Inverse Convention PC/SC Compliance Test Card No. 2
 
