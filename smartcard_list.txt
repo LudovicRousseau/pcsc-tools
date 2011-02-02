@@ -1480,6 +1480,9 @@
 	Contactless MTCOS
 	http://www.masktech.de/
 
+3B 89 80 01 4D 54 43 4F 53 73 02 01 04 3A
+	Biometric passport of Czech republic
+
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
 
