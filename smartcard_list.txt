@@ -1114,6 +1114,10 @@
 3B 7A 13 00 00 00 09 A5 05 01 00 B7 01 A6 01
 	"cleyris" authentication card. monpass.santé from Mutuelle Générale
 
+3B 7A 18 00 00 73 66 74 65 20 63 64 31 34 34
+	Republic Slovenia e-Gov, Ministry of Public Administration
+	SIGOV-CA, Slovenian Governmental Certification Authority
+
 3B 7A 18 00 FF 4A 43 4F 50 32 31 56 32 33 31
 	JCOP21 18K
 
@@ -1227,6 +1231,10 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 A3 11 00 C8 83 00 00 00
 	Handelsbanken BankID card (Swedish bank authentication)
+
+3B 7D 96 00 00 80 31 80 65 B0 A3 11 00 C8 83 00 90 00
+	Swedish eID (Telia IP5a)
+	http://www.telia.se/privat/katalog/VisaProdukt.do?productRef=/privat/produkter_tjanster/bredband/tjanster/sakerhetstjanster/teliae-legitimation.1537014385.product
 
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
