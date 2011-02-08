@@ -896,6 +896,9 @@
 	Portugal Caixa Geral de Depositos debit card
 	The co-operative bank VISA Debit
 
+3B 6E 00 00 00 31 C0 71 D6 65 CE 0B 01 40 00 83 90 00
+	Nationwide InvestDirect  (bank)
+
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
 
@@ -2099,6 +2102,9 @@
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 
+3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 AA
+	Elisa UICC (Telecommunication)
+
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AF
 	 GSM, Vodafone (Germany)
 
@@ -3300,6 +3306,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 02 32 41 00
 	Turkcell SIMPlus64 / Turkey
 
+3B FF 94 00 00 C0 0A B1 FE 49 1F 43 80 31 E0 73 F6 21 13 57 34 36 43 41 32 30 20 68
+	Sonera UICC (Telecommunication)
+
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	D-Trust Signature Card (www.d-trust.net):
 	- Citizencard of the People of Ulm in Germany (Bürgerkarte)
@@ -3354,6 +3363,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3F 2F 00 80 69 AF 02 04 01 36 00 02 0A 0E 83 3E 9F 16
 	GSM-SIM D2 CallYa (900MHz)
+
+3F 2F 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
+	Nokia SIM Ph2 16K Ver2.0
 
 3F 2F 00 80 69 AF 03 07 03 52 00 00 0A 0E 83 3E 9F 16
 	GemXplore 98 V1 16K
