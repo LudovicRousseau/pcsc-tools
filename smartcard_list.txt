@@ -342,6 +342,9 @@
 3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06 9F 16
 	MobilCom-Karte
 
+3B 2F 00 80 69 AF 03 07 06 68 00 05 0A 0E 83 3E 9F 16
+	KPN @ Mobile SIM card
+
 3B 32 15 00 06 80
 	Schlumberger Multiflex 8k
 
