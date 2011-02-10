@@ -170,6 +170,9 @@
 3B 17 94 18 02 01 25 01 41 93
 	AT&T Wireless GSM SIM Card
 
+3B 17 94 20 01 01 0A 02 41 43
+	KPN SIM card
+
 3B 17 94 20 05 01 10 01 41 FF
 	CLARO SIM card (ex CTI Movil)
 
@@ -461,6 +464,9 @@
 	AT&T Wireless GSM SIM Card
 	UK Virgin Mobile GSM SIM
 
+3B 3F 95 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16 
+	"SIMYO" SIM card (KPN)
+
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
 
@@ -560,11 +566,12 @@
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	Postbank Chippas (chipknip) Netherlands
+	Rabobank bankcard (dutch)
 
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
 	Bank Card (ING - Belgium)
-	Schipol Group Privium biometric card (Amsterdam Airport entry system)
+	Schiphol Group Privium biometric card (Amsterdam Airport entry system)
 
 3B 67 00 00 7C 20 40 34 2B 90 00
 	Swedbank Visa card
@@ -1358,6 +1365,9 @@
 
 3B 81 80 01 80 80
 	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
+
+3B 82 00 55 19
+	GSM card 'Hi' (KPN brand)
 
 3B 82 00 55 22
 	GSM-SIM TELE2 Smart (Estonia, prepaid)
@@ -3627,6 +3637,11 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 36 20 52 65 76 36 31 32 6E
 	Mediaset Premium card (Italian Digital Terrestrial Television Pay Per ViEw)
 
+3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 36 30 31 20 52 65 76 4D 30 35 12
+	name: Mediaset Premium
+	trasmission type: Terrestrial
+	Corporation: Mediaset by  R.T.I. (Reti Televisive Italiane)
+
 3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
 	Spanish pay TV card for GOLTV
 
@@ -3636,6 +3651,11 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 34 20 52 65 76 34 30 31 6D
 	Italian Mediaset Premium pay per view encrypted digital video broadcasting smartcard
+
+3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 35 20 52 65 76 35 30 30 6C
+	name: Mediaset Premium
+	trasmission type: Terrestrial
+	Corporation: Mediaset by  R.T.I. (Reti Televisive Italiane)
 
 3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
 	"TIVU SAT" from ITALY www.tivu.tv
