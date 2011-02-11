@@ -464,7 +464,7 @@
 	AT&T Wireless GSM SIM Card
 	UK Virgin Mobile GSM SIM
 
-3B 3F 95 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16 
+3B 3F 95 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16
 	"SIMYO" SIM card (KPN)
 
 3B 57 18 02 93 02 01 01 01 90 00
@@ -2518,6 +2518,9 @@
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
+
+3B E0 00 FF 81 31 FE 45 14
+	"JUKICARD", digitally sign tax documents in Japan
 
 3B E2 00 00 40 20 49 ..
 	Schlumberger Cryptoflex 4k
