@@ -3562,6 +3562,11 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
 	Sky Italia (satellite card, NDS3)
 
+3F FD 13 25 02 50 80 0F 54 B0 04 69 FF 4A 50 D0 80 00 49 54 03
+	SKY Italia payTV
+	[videoguard2-reader] type: VideoGuard Sky Italia (09CD), caid: 09CD
+	[videoguard2-reader] serial: xxxxxxxx, BoxID: xxxxxxxx, baseyear: 1997
+
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
 
