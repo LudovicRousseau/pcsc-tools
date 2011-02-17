@@ -194,6 +194,9 @@
 3B 19 94 31 02 05 10 45 98 01 02 4E
 	GSM-SIM EMT (Estonia)
 
+3B 1B 94 80 69 07 05 21 11 00 80 00 00 00
+	Aircel SIM (Telecommunication)
+
 3B 1C 94 43 48 49 50 44 52 49 56 45 30 30 31
 	SCM Chipdrive MyKey MasterKey 24k
 
@@ -3042,6 +3045,10 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FE 91 00 FF 91 81 71 FE 40 00 41 28 00 11 33 B0 4A 43 4F 50 33 31 56 32 C4
 	JCOP31 72K
 	dual interface functionality, 1K Mifare emulation.
+
+3B FE 94 00 00 80 1F 42 80 31 80 66 47 50 20 45 83 01 83 01 90 00 02
+	TATA Docomo UICC (Telecommunication)
+	http://www.tatadocomo.com/
 
 3B FE 94 00 FF 80 B1 FA 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 43
 	Estonian Identity Card (EstEID v1.0 cold)
