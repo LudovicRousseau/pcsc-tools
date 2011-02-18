@@ -130,6 +130,9 @@
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
 
+3B 15 11 12 CA 07 14 CF
+	PlatformaHD (Russia) DRE Crypt 4AE1:14
+
 3B 15 13 80 53 41 52 03
 	Eutron CryptoIdentity (ATMEL AT903232C - 6464C Cryptographic
 	processors, 64KB EEPROM, RSA 2048)
@@ -2317,6 +2320,7 @@
 3B BB 18 00 C0 3E 31 FE 65 47 26 44 20 54 53 4D 20 31 2E 30 B7
 	Italian Tachograph Driver Card
 
+
 3B BC 94 00 40 14 47 47 33 48 33 35 58 53 32 30 30 30
 	GSM-SIM Era-PL
 	T-Mobile GSM SIM Card
@@ -2326,6 +2330,9 @@
 
 3B BC 94 00 40 14 47 47 33 49 35 43 41 43 31 30 30 30
 	Siemens SIM card
+
+3B BC 94 00 40 14 47 47 33 49 42 31 42 43 31 30 30 20
+	Telenor SIM (Telecommunication)
 
 3B BC 94 00 40 14 47 47 33 53 30 35 31 53 31 30 31 30
 	GSM SIM (Tele2, Estonia)
