@@ -960,6 +960,9 @@
 3B 6F 00 00 80 31 C0 52 07 6F 64 02 19 04 32 83 83 90 00
 	Credit Card IXE Banco, México
 
+3B 6F 00 00 80 31 C0 52 0A 47 64 02 B3 02 37 83 83 90 00
+	Visa debit card issued by the Spanish bank "tubancaja"
+
 3B 6F 00 00 80 31 C0 52 13 2F 64 02 19 08 32 83 83 90 00
 	Cajamadrid-UCM (Madrid, Spain) Cash/Visa Electron
 
@@ -1047,6 +1050,9 @@
 
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 24 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
+
+3B 6F 00 00 80 66 57 59 01 00 08 03 53 07 61 14 82 90 00
+	E-money Vitrasa Card - Public transport in Vigo
 
 3B 6F 00 00 80 66 A2 03 02 02 3D 07 53 02 31 10 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
@@ -2466,6 +2472,9 @@
 3B D8 96 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 5B
 	Swiss LAMal health insurance card
 
+3B D9 94 00 00 4D 4D 41 52 33 31 34 90 00
+	Vodafone Spain 64kb SIM card. GSM/3G networks
+
 3B DA 18 FF 81 B1 FE 75 1F 03 00 31 C5 73 C0 01 40 00 90 00 0C
 	GnuPG card V2
 
@@ -2765,6 +2774,10 @@
 
 3B F0 12 00 FF 91 81 B1 EF 45 1F 03 0A
 	Japanese Digital CATV C-CAS card
+
+3B F2 18 00 00 C1 0A 31 FE 55 C8 06 75
+	HID iCLASS P16K C4H
+	proximity card used for both door locks and keystore
 
 3B F2 18 00 02 C1 0A 31 FE 55 C8 07 76
 	Siemens CardOS V4.3
