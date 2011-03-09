@@ -2324,6 +2324,10 @@
 	TeleSec NetKey Card
 	Deutsche Post card (tcos)
 
+3B BB 18 00 C0 10 31 FE 45 80 67 04 12 B0 03 03 00 00 81 01 38
+	Giesecke & Devrient Star Sign Card, STARCOS 3.0 DI, 72 KB, RSA2048 bit
+	Giesecke & Devrient Smartc@fe Expert 32K v2.0
+
 3B BB 18 00 C0 10 31 FE 45 80 67 04 12 B0 03 03 00 00 81 05 3C
 	Philips Smart MX
 	Szczecin University of Technology in Poland student identity card (Elektroniczna Legitymacja Studencka = student identity card)
