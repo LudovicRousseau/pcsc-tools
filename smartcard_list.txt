@@ -375,6 +375,9 @@
 3B 37 13 00 80 62 11 04 82 90 00
 	Swiss UBS Maestro/CASH Bank Card
 
+3B 37 13 00 80 62 21 13 82 90 00
+	Swiss UBS Maestro/CASH Bank Card
+
 3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
 
@@ -2605,6 +2608,9 @@
 
 3B E6 00 00 81 21 45 32 4B 01 01 01 01 7A
 	Axalto Cyberflex Palmera V5
+
+3B E6 00 FF 81 31 FE 45 44 49 20 30 32 56 6B
+	VISA credit card (DKB)
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 30 33 07
 	IBM JCOP 30/16
