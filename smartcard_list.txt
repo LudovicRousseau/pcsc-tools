@@ -3371,6 +3371,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 11 01 43 4E 53 11 31 80 8E
 	Infocamere CNS
 
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 00 01 11 01 43 4E 53 11 31 80 8F
+	Card description: Multiservice Card - CMCC - Arma Carabinieri (Carta Multiservizi)
+
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 43 4E 53 10 31 80 9D
 	Aruba CNS for Regione Toscana (IT)
 	http://www.regione.toscana.it
