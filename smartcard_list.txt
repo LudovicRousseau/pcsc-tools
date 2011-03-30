@@ -606,6 +606,9 @@
 3B 67 00 00 85 22 16 31 78 90 00
 	Swiss UBS Ebanking Chipcard
 
+3B 67 00 00 85 22 16 31 78 9F 00
+	UBS Token Card (bank)
+
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
 
@@ -893,10 +896,12 @@
 	Portugal Santander Totta Visa Electron "JÁ KÁ KONTA"
 	Australia ANZ Visa card
 	Portugal Millennium BCP VISA Electron debit Card
+	Visa Credit Card issued by Spain Openbank (www.openbank.es)
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
 	Maestro card by Caja de Burgos, Spain
+	MasterCard Debit Card issued by Spain Openbank (www.openbank.es)
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 31 37 83 90 00
 	Electron VISA Credit Card (BANK OF Cyprus)
@@ -904,6 +909,7 @@
 3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
 	http://www.ingdirect.es/tarjetas-ing/
+	Visa Credit Card issued by Spain Cetelem for PayPal (www.paypal.es/cetelem)
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
@@ -1351,6 +1357,12 @@
 
 3B 7F 13 00 00 80 31 C0 52 17 B4 64 05 66 98 36 83 83 90 00
 	Credit Card Banorte International, México
+
+3B 7F 13 00 00 80 31 C0 52 34 D6 64 05 66 94 61 83 83 90 00
+	Visa Credit Card issued by Spain Obsidiana (www.obsidiana.com)
+
+3B 7F 13 00 00 80 31 C0 52 35 0D 64 02 61 18 63 83 83 90 00
+	Visa Credit Card issued by Spain Caja Madrid (www.cajamadrid.es)
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
