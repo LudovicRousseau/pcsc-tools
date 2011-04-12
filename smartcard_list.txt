@@ -515,6 +515,7 @@
 
 3B 65 00 00 20 63 CB 68 00
 	VISA credit card (Skandiabanken)
+	VISA credit card (Banque Populaire)
 
 3B 65 00 00 20 63 CB 68 80
 	Capital One MasterCard Platinum
@@ -1142,6 +1143,9 @@
 
 3B 78 12 00 00 65 C4 05 05 8F F1 90 00
 	Turkie Digiturk Cryptoworks
+
+3B 78 12 00 00 A0 C4 03 06 8F F1 90 00
+	ORF Digital (Irdeto/Cryptoworks) (pay tv)
 
 3B 78 12 00 00 A0 C4 03 07 8F F1 90 00
 	IRDETO-Smartcard for crytoworks for austrian television (ORF), DVB-s
