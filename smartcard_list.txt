@@ -1356,6 +1356,9 @@
 3B 7F 13 00 00 80 31 C0 52 0D 1E 64 05 66 94 61 83 83 90 00
 	Universitat Politecnica de Valencia ID Visa Electron Card, http://www.upv.es
 
+3B 7F 13 00 00 80 31 C0 52 14 D5 64 05 66 96 61 83 83 90 00
+	Visa Electron Debit Card issued by Spain Caja Madrid (www.cajamadrid.es)
+
 3B 7F 13 00 00 80 31 C0 52 15 54 64 05 66 98 36 83 83 90 00
 	VISA Card from Banc Sabadell in Spain
 
