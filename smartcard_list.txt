@@ -1025,6 +1025,9 @@
 3B 6F 00 00 80 31 E0 6B 05 08 05 02 83 55 55 55 55 55 55
 	Bank of Montreal debit card
 
+3B 6F 00 00 80 31 E0 6B 05 12 05 02 87 55 55 55 55 55 55
+	American Express Platinum
+
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
 
@@ -2095,6 +2098,9 @@
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
+
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37 9A
+	irdeto2 www.digiturk.com.tr (Pay TV)
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 34 99
 	Nova Greece package on satellite 13E Hotbird
