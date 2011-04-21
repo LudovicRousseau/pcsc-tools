@@ -65,6 +65,9 @@
 	T.P.G. - CART@BONUS 20CHF (Transport)
 	http://www.tpg.ch/fr/titres-de-transport/moyens-de-paiement/carte-prepayee-cartabonus.php
 
+3B 04 17 3C CC E0
+	prepaid payphone card, issued by Telefónica Comunicaciones Públicas (http://www.cabitel.es)
+
 3B 04 41 11 77 81
 	Sample Mifare DESFire contactless smartcard from Phillips
 
