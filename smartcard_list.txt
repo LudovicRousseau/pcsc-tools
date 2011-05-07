@@ -959,6 +959,10 @@
 3B 6E 00 00 80 31 80 65 B0 03 02 01 5E 83 00 00 90 00
 	Gemplus GemXpresso 211is
 
+3B 6E 00 00 80 31 80 66 B0 07 03 00 AC 01 83 00 90 00
+	e-payment card with topup system, propreteary by local bank
+	http://www.klikbca.com/individual/silver/product.html?s=69
+
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
 
@@ -974,8 +978,12 @@
 3B 6F 00 00 00 67 2. 43 46 49 53 45 12 52 66 FF 81 90 00
 	Setec SetCOS 4.3.2
 
+3B 6F 00 00 00 68 2B 42 05 02 46 49 53 45 31 C8 07 90 00
+	MAESTRO card, issued by Swedbank Estonia
+
 3B 6F 00 00 00 68 2C 42 05 02 46 49 53 45 31 C8 07 90 00
 	VISA card, issued by Swedbank Latvia
+	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
 
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
@@ -1411,6 +1419,9 @@
 3B 7F 38 00 00 00 6A 44 4E 49 65 [1,2]0 02 4C 34 01 13 03 90 00
 	DNI electronico (Spanish electronic ID card)
 	http://www.dnielectronico.es
+
+3B 7F 96 00 00 00 31 B8 64 40 70 14 10 73 94 01 80 82 90 00
+	IAS/ECC Gemalto (eID)
 
 3B 80 80 01 01
 	Latvian, Bulgarian, US e-Pasport
@@ -2691,6 +2702,7 @@
 	VISA card, issued by the Austrian "Raiffeisen" bank (http://www.raiffeisen.at/
 	Visa Card - Maximum - Oyak Bank / Turkey
 	VISA, issued by Austrian bank "Erste Bank"
+	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
 
 3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
 	Visa credit card
@@ -2738,6 +2750,9 @@
 	Model 330J JavaCard v2.1.1
 	Global Platform v2.0.1 specifications.
 	JCCOS operating system applet (Java-based Cryptographic Card Operating System)
+
+3B ED 00 00 81 31 20 43 80 31 80 65 B0 83 02 04 7E 83 00 90 00 32
+	Latvian Digital Signature Card (warm) (http://www.eme.lv/)
 
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
@@ -3136,9 +3151,13 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3B FD 94 00 00 81 31 20 43 80 31 80 65 B0 83 02 04 7E 83 00 90 00 B6
 	GXPPRo-R3.x STD PTS T=1
+	Latvian Digital Signature Card (cold) (http://www.eme.lv/)
 
 3B FD 94 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 11 E0
 	MTCOS Light, http://www.masktech.de/products/mtcoslight/index.html
+
+3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
+	Croatian Health Care card
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
