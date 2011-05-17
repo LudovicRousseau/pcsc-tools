@@ -3166,6 +3166,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FD 94 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 11 E0
 	MTCOS Light, http://www.masktech.de/products/mtcoslight/index.html
 
+3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 00 C8 83 00 90 00 15
+	Gemalto TOP IM GX4 MSA081, T=1 (PKI)
+
 3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
 	Croatian Health Care card
 
@@ -3213,6 +3216,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3B FF 11 00 02 40 64 80 69 A2 07 01 03 57 00 00 FF 00 83 00 90 00
 	Gemplus GemXpresso
+
+3B FF 13 00 00 81 31 FE 45 4F 57 4F 4B 31 30 2D 4A 32 31 38 30 32 34 31 A1
+	OWOK (One Web, One Key) login card, http://www.reiner-sct.com/owok/
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
