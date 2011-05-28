@@ -891,6 +891,9 @@
 3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 33
 	Travelex Cash Passport - Prepaid MasterCard Currency Card
 
+3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
+	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
+
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
@@ -981,6 +984,12 @@
 
 3B 6E 00 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 warm)
+
+3B 6F 00 00 00 66 4D 45 31 61 03 01 53 08 61 04 F0 90 00
+	Spanish University of Murcia smart ID card - Old version (M.Mar OS) - Also used by many others spanish universities
+
+3B 6F 00 00 00 66 4D 45 31 B1 03 01 53 08 61 04 F0 90 00
+	Spanish UCAM University smart ID card - (M.Mar OS) - Also used by many others spanish universities
 
 3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00
 	spanish MAESTRO debit card, from Unicaja bank
@@ -1282,6 +1291,7 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 17 D6 83 00 90 00
 	DoD CAC card issued Jan 14, 2010
+	GEMALTO TOPDLGX4 144
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
@@ -2491,6 +2501,7 @@
 
 3B BE 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	touchatag SAM card
+	Spanish University of Murcia smart ID card - Old version with CajaMurcia Banking card integrated (Maestro card) (M.Mar OS) - Also used by many others spanish universities
 
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
