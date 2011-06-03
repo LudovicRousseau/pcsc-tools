@@ -888,6 +888,9 @@
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 37
 	Swedbank MasterCard card
 
+3B 6E 00 00 00 31 C0 65 BC D0 02 01 06 71 D6 8C 61 33
+	Lloyds TSB Visa Debit
+
 3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 33
 	Travelex Cash Passport - Prepaid MasterCard Currency Card
 
