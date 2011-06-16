@@ -2890,6 +2890,9 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
 
+3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
+	Credit card (Germany, Postbank AG): VISA
+
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
 
