@@ -979,6 +979,9 @@
 	e-payment card with topup system, propreteary by local bank
 	http://www.klikbca.com/individual/silver/product.html?s=69
 
+3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
+	Barclaycard Platinum VISA
+
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
 
