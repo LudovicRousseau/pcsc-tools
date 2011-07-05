@@ -1486,8 +1486,14 @@
 3B 84 80 01 00 00 90 00 95
 	German (test) passport issued in january 2010
 
+3B 84 80 01 01 10 00 06 12
+	Snapper New Zealand (Type A)
+
 3B 84 80 01 01 10 00 09 1D
 	snapper (www.snapper.co.nz) prepaid 14443A cards
+
+3B 84 80 01 01 11 20 03 36 90 00
+	TMES Total Mobility (Wellington City Council, New Zealand)
 
 3B 84 80 01 04 38 33 B1 BB
 	Dutch passport
@@ -1634,6 +1640,9 @@
 
 3B 8A 80 01 00 64 05 76 02 03 31 80 90 00 3C
 	T-System Contactless TCOS Min
+
+3B 8A 80 01 4A 43 4F 50 33 31 56 32 33 32 7A
+	Snapper New Zealand (JCOP)
 
 3B 8A 80 01 4A 43 4F 50 34 31 56 32 32 31 7F
 	NXP JCOP 41 v2.2.1 72k RFID I/F
