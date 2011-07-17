@@ -1099,6 +1099,9 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 16 D1 BD 82 90 00
 	"OPUS Card" Montreal's transit system by oberthur cardsystems
 
+3B 6F 00 00 80 5A 08 06 08 20 02 23 92 1B 4B 59 82 90 00
+	"OPUS Card" Quebec's Bus system.
+
 3B 6F 00 00 80 5A 29 13 09 10 11 3[3,5] .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
@@ -2127,6 +2130,9 @@
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37
 	dahlia Tv Italian Provider
+
+3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 36 2E 30
+	skylink, Pay TV, http://www.skylink.cz
 
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
