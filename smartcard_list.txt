@@ -447,6 +447,9 @@
 3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 13 12 72 F7 41 05
 	SCOSTA (transport)
 
+3B 3F 11 00 80 69 AF 03 37 00 12 00 00 00 0E 83 18 9F 16
+	Reliance SIM (Prepaid), Telecommunication
+
 3B 3F 94 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
 	GSM SIM Card (GEMPLUS), issued by Orange Switzerland (Prepaid)
 	Italian Vodafone 64k SIM
@@ -794,6 +797,9 @@
 	UK Barclaycard VISA
 	UK Halifax Platinum VISA
 	UK HSBC MasterCard
+
+3B 6D 00 00 00 31 C0 71 D6 64 19 16 01 00 84 90 00
+	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -1581,6 +1587,9 @@
 
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
+
+3B 88 80 01 E1 F3 5E 13 77 83 D5 00 77
+	ePerso - German ID card (issued 2011)
 
 3B 88 81 31 20 55 00 57 69 6E 43 61 72 64 29
 	SmartCard for Windows 1.0
@@ -2636,6 +2645,7 @@
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 18 01 00 0F 90 00 52
 	Serbian Car registration ID card
+	http://blog.goranrakic.com/archives/2011/07/citanje_saobracajne_dozvole_sa_cipom.html
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
 	Oberthur Cosmo V7 debug card (SDK)
