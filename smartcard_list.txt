@@ -1507,6 +1507,9 @@
 3B 84 80 01 04 38 33 B1 BB
 	Dutch passport
 
+3B 84 80 01 47 77 F4 00 C1
+	True Money Touch Sim (Thailand)
+
 3B 85 00 12 02 01 00 96
 	GSM-SIM Victorvox D1 (900MHz)
 
