@@ -1215,6 +1215,9 @@
 	Republic Slovenia e-Gov, Ministry of Public Administration
 	SIGOV-CA, Slovenian Governmental Certification Authority
 
+3B 7A 18 00 00 73 66 74 65 2D 63 64 30 38 30
+	HYPOnet online banking card / Croatia
+
 3B 7A 18 00 FF 4A 43 4F 50 32 31 56 32 33 31
 	JCOP21 18K
 
