@@ -274,6 +274,8 @@
 
 3B 24 00 30 42 30 30
 	ComHem Digital-TV smartcard (Sweden)
+	TNK Telewizja Na Kartę (Poland) - Conditional access system : Conax (Norway)
+	http://telewizjanakarte.pl/
 
 3B 24 00 80 72 94 43
 	MPCOS-3DES 64K \ EMV Filter (Gemplus)
@@ -668,6 +670,12 @@
 
 3B 68 00 00 80 66 45 46 01 38 18 03
 	FNMT WG108k
+
+3B 68 00 00 80 66 57 59 01 00 08 03
+	Spanish ULPGC student id card (http://www.ulpgc.es/)
+	E-Money capability
+	Alliance With La Caja de Canarias Bank
+	Manufactured by GyD IBÉRICA (http://www.gi-de.com)
 
 3B 68 00 00 80 66 A2 06 01 01 64 00
 	Visa card issued by Czech's "Komercni banka" (Gemplus brand on chip)
