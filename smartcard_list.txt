@@ -1482,6 +1482,7 @@
 
 3B 81 80 01 80 80
 	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
+	"Reiner LoginCard" (or "OWOK", how they name it, https://cardlogin.reiner-sct.com/) - they have been distributed by a german computer magazine ("Computer BILD")
 
 3B 82 00 55 19
 	GSM card 'Hi' (KPN brand)
@@ -2239,6 +2240,9 @@
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 64 06 90 61 00 82 90 00 31
 	3G SIM card from AT&T USA
+
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 64 9B 4D 01 11 82 90 00 00
+	Singular (now AT&T) 3G GSM SIM Card
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
@@ -3562,6 +3566,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3B FF 94 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1C
 	Giesecke & Devrient - UniverSIM Pegasus
+
+3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
+	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
 
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
 	Vodafone 64 KB SIM with Javacard
