@@ -424,7 +424,7 @@ get_readers:
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
 	test_rv("SCardGetStatusChange", rv, hContext);
-	
+
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
 	test_rv("SCardReleaseContext", rv, hContext);
