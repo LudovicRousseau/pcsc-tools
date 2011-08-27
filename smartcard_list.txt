@@ -2837,6 +2837,9 @@
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
 
+3B EE 00 00 81 31 FE 45 80 31 80 66 40 90 93 06 0F 17 83 0F 90 00 F3
+	IC card for the National Health Insurance, Taiwan
+
 3B EF .. 00 40 14 80 25 43 45 52 45 53 57 .. .. 01 01 03 90 00
 	Electronic Identification Card from the FNMT, the Spanish Official
 	Certification Authority (Fábrica Nacional de Moneda y Timbre)
