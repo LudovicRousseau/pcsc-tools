@@ -924,6 +924,9 @@
 	NatWest Servicecard 100 - Maestro ATM
 	NatWest Visa Debit
 
+3B 6E 00 00 00 31 C0 71 86 65 02 02 04 04 41 83 90 00
+	CIBC Visa Platinum (CIBC is a Canadian Imperial Bank of Commerce)
+
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
 	UK NatWest Cashcard - Maestro / SOLO
@@ -931,6 +934,7 @@
 	Australia ANZ Visa card
 	Portugal Millennium BCP VISA Electron debit Card
 	Visa Credit Card issued by Spain Openbank (www.openbank.es)
+	CIBC Debit Card (CIBC is a Canadian Imperial Bank of Commerce)
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
