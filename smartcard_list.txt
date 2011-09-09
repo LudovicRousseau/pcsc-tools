@@ -248,6 +248,10 @@
 3B 1F 94 00 6A 01 38 46 49 53 45 10 8C 02 FF 07 90 00
 	GSM-SIM Saunalahti (from 2004)
 
+3B 1F 94 80 31 00 73 12 21 13 57 4A 33 05 30 32 34 00
+	Tron - MVNO Malaysia SIM Card (Giesecke & Devrient SIM)
+	http://www.tron.my
+
 3B 1F 94 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
 	GSM-SIM Sonera (from 2002)
 
@@ -608,6 +612,10 @@
 	Bank Card (ING - Belgium)
 	Schiphol Group Privium biometric card (Amsterdam Airport entry system)
 
+3B 67 00 00 73 20 00 6C 68 90 00
+	Malaysia Citizen Identity Card (MyKad)
+	http://www.jpn.gov.my/en/identitycard
+
 3B 67 00 00 7C 20 40 34 2B 90 00
 	Swedbank Visa card
 
@@ -637,6 +645,10 @@
 3B 67 00 00 A6 40 40 00 09 90 00
 	Visa card issued by Norway bank DNBNor
 
+3B 67 00 00 A8 10 42 20 1F 90 00
+	MyKad- Identification Card for Malaysians
+	http://en.wikipedia.org/wiki/MyKad
+
 3B 67 00 00 AB 40 40 26 09 90 00
 	Swedish VISA credit card (Volvofinans)
 
@@ -659,6 +671,9 @@
 3B 68 00 00 00 73 C8 40 10 00 90 00
 	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
 	http://www.islandsrot.is/
+
+3B 68 00 00 00 73 C8 40 11 00 90 00
+	Woolworths Everyday Money prepaid Mastercard
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -701,6 +716,9 @@
 	UK Barclaycard VISA
 	UK NatWest Platinum MasterCard
 	Visa Card - DenizBank / Turkey
+
+3B 68 00 00 FF 29 23 00 07 68 90 00
+	Politecnico di Milano student card
 
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
@@ -911,8 +929,14 @@
 3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 33
 	Travelex Cash Passport - Prepaid MasterCard Currency Card
 
+3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 22
+	Visa debit card
+
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
+
+3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 39
+	Paypal Italy prepaid Mastercard
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
@@ -929,6 +953,8 @@
 
 3B 6E 00 00 00 31 C0 71 86 65 02 02 04 04 41 83 90 00
 	CIBC Visa Platinum (CIBC is a Canadian Imperial Bank of Commerce)
+	ING Direct (Italy) Gold Visa credit card
+	ING Direct (Italy) Bancomat V PAY debit card
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
@@ -1085,6 +1111,7 @@
 3B 6F 00 00 80 31 E0 6B 05 12 05 02 87 55 55 55 55 55 55
 	American Express Platinum
 	American Express Gold Credit
+	Blu American Express
 
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
@@ -1585,6 +1612,9 @@
 
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
+
+3B 88 80 01 00 00 00 00 00 00 00 00 09
+	Personalausweis (German Identity Card) (eID)
 
 3B 88 80 01 00 00 00 00 B3 71 71 00 BA
 	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
@@ -2816,6 +2846,9 @@
 3B EA 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 49 00 FE
 	UBS VISA Gold Card
 
+3B EA 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 33 32 90
+	NAB VISA Debit card
+
 3B EA 00 FF 81 31 20 75 00 64 05 14 01 02 31 00 90 00 27
 	GCOS-MDK
 
@@ -3335,9 +3368,14 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
 	Carta Nazionale dei Servizi (Italia) http://cartaservizi.regione.fvg.it/
 
+3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 12 02 48 50 43 10 31 80 6C
+	Carta del Professionista Sanitario - CNS - Provincia autonoma di Trento
+	Professional Health card, Autonomous Province of Trento
+
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 21 01 43 4E 53 10 31 80 59
 	CNS - Carta Nazionale dei Servizi (Italia)
 	PA emittente: Regione Autonoma della Sardegna
+	Carta del Servizio Sanitario Regionale - Emilia Romagna
 
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
@@ -3822,6 +3860,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
+
+3F FF 11 25 03 10 80 41 B0 06 69 FF 4A 50 70 00 00 41 5A 01 00 11
+	Astro (Pay TV) http://www.astro.com.my
 
 3F FF 11 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 11
 	PayTV card from Sky Deutschland (www.sky.de), Encryption: NDS V13 by Videoguard, Distribution Standard: DVB-S
