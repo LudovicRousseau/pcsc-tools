@@ -1041,6 +1041,9 @@
 3B 6E 00 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 warm)
 
+3B 6E 00 FF 47 44 2D 47 50 2D 33 32 56 34 2D 44 45 53
+	Mastercard Ourocard Platinum from Banco do Brasil
+
 3B 6F 00 00 00 66 4D 45 31 61 03 01 53 08 61 04 F0 90 00
 	Spanish University of Murcia smart ID card - Old version (M.Mar OS) - Also used by many others spanish universities
 
@@ -1453,6 +1456,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 0D 1E 64 05 66 94 61 83 83 90 00
 	Universitat Politecnica de Valencia ID Visa Electron Card, http://www.upv.es
+
+3B 7F 13 00 00 80 31 C0 52 13 0B 64 02 B3 02 37 83 83 90 00
+	Visa Ourocard Platinum from Banco do Brasil
 
 3B 7F 13 00 00 80 31 C0 52 14 D5 64 05 66 96 61 83 83 90 00
 	Visa Electron Debit Card issued by Spain Caja Madrid (www.cajamadrid.es)
