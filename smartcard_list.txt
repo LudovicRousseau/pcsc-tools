@@ -3900,6 +3900,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
 
+3F FF 95 00 FF 91 81 71 64 47 00 44 4E 41 53 50 30 30 33 20 52 65 76 33 32 33 FF
+	Satellite TV Card "Via Digital" (Nagra)
+
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 30 20 52 65 76 41 32 30 48
 	DSS/DISH ROM10
 
