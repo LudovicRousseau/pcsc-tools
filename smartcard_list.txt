@@ -1699,6 +1699,9 @@
 	GSM-SIM (900MHz) card of the carrier t-mobile for their cellular
 	network (phase 2+ with 3V)
 
+3B 8A 00 91 91 00 17 00 01 07 02 00 96
+	GSM-SIM T-Mobile Austria
+
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
 
