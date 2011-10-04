@@ -1962,7 +1962,7 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
 	Philips MIFARE Standard (1 Kbytes EEPROM)
-	http://www.nxp.com/products/identification/mifare/classic/
+	http://www.nxp.com/#/pip/pip=[pfp=41863]|pp=[t=pfp,i=41863]
 	RFID - ISO 14443 Type A - Transport for London Oyster
 	ACOS5/1k Mirfare
 	RFID - ISO 14443 Type A - NXP Mifare card with 1k EEPROM
