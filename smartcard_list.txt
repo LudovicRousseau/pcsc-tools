@@ -754,6 +754,7 @@
 
 3B 69 00 00 AC 04 00 00 04 B1 8C 61 21
 	Student card for Université numérique Paris Île-de-France
+	http://unpidf.univ-paris1.fr/la-carte-multiservice-etudiant-de-paris-et-d-ile-de-france-1775.kjsp?RH=unr-carte&RF=unr-carte
 
 3B 69 00 FF 00 64 4A 10 04 32 05 90 00
 	NXP JCOP 20 V2.1 16K
