@@ -1260,6 +1260,9 @@
 3B 78 12 00 00 A0 C4 06 07 8F F1 90 00
 	Skylink CZ/SK - Cryptoworks
 
+3B 78 13 00 00 00 73 C8 40 10 00 90 00
+	credit/debit card from issued by Finnish credit authority Luottokunta Oy
+
 3B 7A 11 00 02 48 4F 53 54 06 03 19 02 90 00
 	Swedish bankcard with Mastercard from ICA-banken
 
