@@ -2700,7 +2700,7 @@
 	Swiss LAMal health insurance card
 
 3B D9 18 00 C0 09 10 FE 54 59 46 4F 4E 45 00 00 00
-	Tyfone’s SideTap Card (NFC payments)
+	Tyfone's SideTap Card (NFC payments)
 
 3B D9 94 00 00 4D 4D 41 52 33 31 34 90 00
 	Vodafone Spain 64kb SIM card. GSM/3G networks
