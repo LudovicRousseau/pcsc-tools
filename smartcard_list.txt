@@ -2699,6 +2699,9 @@
 3B D8 96 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 5B
 	Swiss LAMal health insurance card
 
+3B D9 18 00 C0 09 10 FE 54 59 46 4F 4E 45 00 00 00
+	Tyfone’s SideTap Card (NFC payments)
+
 3B D9 94 00 00 4D 4D 41 52 33 31 34 90 00
 	Vodafone Spain 64kb SIM card. GSM/3G networks
 
@@ -2774,6 +2777,9 @@
 
 3B DF 18 FF 81 F1 FE 43 00 1F 03 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 98
 	Mifare SAM AV2
+
+3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 3B
+	NXP SAM AV2 module
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -3725,6 +3731,10 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3F 65 25 00 2B 09 62 90 00
 	Coinamatic SmartyCity smartcard
+
+3F 65 25 00 2B 09 69 90 00
+	Municipal parking meter card for the City of St. John's, NL, Canada.
+	The city's web site is: http://www.stjohns.ca/index.jsp
 
 3F 65 25 00 2B 09 EB 90 00
 	Bull Scot 5
