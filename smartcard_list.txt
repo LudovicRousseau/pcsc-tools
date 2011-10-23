@@ -573,6 +573,9 @@
 3B 66 00 00 00 9C 11 01 03 01
 	Axalto Cyberflex Access 64K V1 Bio SM 3.1
 
+3B 66 00 00 05 12 01 01 01 B1
+	Lyon1 student card (Moneo compatible)
+
 3B 66 00 00 31 4B 01 01 00 80
 	VISA credit card (Skandiabanken)
 
@@ -2384,6 +2387,9 @@
 	SignTrust (www.signtrust.de)
 	Infinion SLE66CX680PE with Starcos 3.2
 	http://www.deutschepost.de/dpag?xmlFile=link1015459_49595
+
+3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
+	Gemalto Speed Enhancement 97 (Telecommunication)
 
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
