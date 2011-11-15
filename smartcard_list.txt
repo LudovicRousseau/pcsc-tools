@@ -1982,6 +1982,7 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 6B
 	buss/train pass for use with Skånetrafiken (www.skanetrafiken.se) busses and trains.
+	public libary of Düsseldorf, http://www.duesseldorf.de/stadtbuechereien/
 	specialized Mifare Ultralight card
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
@@ -2686,6 +2687,30 @@
 
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
+
+3B BF .. 00 81 31 FE 5D 00 64 04 28 03 02 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 release 2 on Philips P5CD080
+
+3B BF .. 00 81 31 FE 5D 00 64 04 0F 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Philips P5CD036
+
+3B BF .. 00 81 31 FE 5D 00 64 04 15 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Philips P5CD072
+
+3B BF .. 00 81 31 FE 5D 00 64 04 11 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Philips P5CT072
+
+3B BF .. 00 81 31 FE 5D 00 64 05 91 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CX680PE
+
+3B BF .. 00 81 31 FE 5D 00 64 05 6D 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CX642P
+
+3B BF .. 00 81 31 FE 5D 00 64 05 8A 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CLX640P
+
+3B BF .. 00 81 31 FE 5D 00 64 05 89 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CLX641P
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
