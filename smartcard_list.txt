@@ -899,6 +899,9 @@
 3B 6D 00 FF 80 73 00 21 13 57 4A 54 48 61 31 47 00
 	ActiveKey SIM
 
+3B 6D 00 FF 80 73 00 21 13 57 4A 54 48 61 31 48 00
+	Spanish Medical College Card
+
 3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 80 90 00
 	MasterCard Card - bonus plus (paypass) - Garanti Bank / Turkey
 
@@ -2930,6 +2933,7 @@
 
 3B EA 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 49 00 FE
 	UBS VISA Gold Card
+	MasterCard from lhv.ee
 
 3B EA 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 33 32 90
 	NAB VISA Debit card
