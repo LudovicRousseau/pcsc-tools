@@ -9,9 +9,13 @@ for l in file("smartcard_list.txt").readlines():
     if l.endswith(" \n") or l.endswith("\t\n"):
         print "Trailing space in:", l
 
-	if l == "\n" or l.startswith("#") or l.startswith("\t"):
-		continue
-	ATRs.append(l.strip())
+    if l == "\n":
+        continue
+
+    if l.startswith("#") or l.startswith("\t"):
+        continue
+
+    ATRs.append(l.strip())
 #	if l.startswith("\t"):
 #		ATRs.append([atr, l.strip()])
 #	else:
@@ -24,4 +28,4 @@ sorted_ATRs.sort()
 #pp.pprint(sorted_ATRs)
 
 for l in difflib.context_diff(ATRs, sorted_ATRs):
-	print l
+    print l
