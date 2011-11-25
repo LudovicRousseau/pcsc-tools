@@ -952,11 +952,11 @@
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 22
 	Visa debit card
 
-3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
-	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
-
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 39
 	Paypal Italy prepaid Mastercard
+
+3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
+	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
@@ -1630,14 +1630,14 @@
 	"OpenCard" - card issued by Prague local authority
 	dual card: RFID (1k Mirfare) used for parkimeters and as public traffic ticket
 
+3B 86 80 01 44 49 20 30 32 4D 65
+	Lufthansa Miles & More Gold MasterCard PayPass
+
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
 
 3B 86 80 01 4A 43 4F 50 33 31 13
 	JCOP BIO 31 Contactless Card
-
-3B 86 80 01 44 49 20 30 32 4D 65
-	Lufthansa Miles & More Gold MasterCard PayPass
 
 3B 87 80 01 80 31 80 73 96 12 80 40
 	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
@@ -2138,6 +2138,9 @@
 3B 98 94 80 1F C2 32 2E 31 30 31 14 01 40 28
 	CMCC operator UICC (Telecommunication)
 
+3B 98 95 00 93 94 04 04 03 03 03 03
+	T-Mobile MVNO SIM card
+
 3B 98 95 40 FF D0 00 48 01 01 AD 13 21
 	Belgian Eid virtual test card
 	 https://env.dev.eid.belgium.be/prepcard.php
@@ -2268,11 +2271,11 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 33 9E
 	red dragoncard chid 0604- Austar provider (pay tv)
 
-3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37 9A
-	irdeto2 www.digiturk.com.tr (Pay TV)
-
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 34 99
 	Nova Greece package on satellite 13E Hotbird
+
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37 9A
+	irdeto2 www.digiturk.com.tr (Pay TV)
 
 3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 .. ..
 	SLE66CX160S running SETCOS 4.3.1 Revision A
@@ -2385,6 +2388,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
+	Claro operator SIM
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
@@ -2651,6 +2657,30 @@
 3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 29 83 81 90 00 47
 	128 kBVodafone Italy SIM Card
 
+3B BF .. 00 81 31 FE 5D 00 64 04 0F 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Philips P5CD036
+
+3B BF .. 00 81 31 FE 5D 00 64 04 11 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Philips P5CT072
+
+3B BF .. 00 81 31 FE 5D 00 64 04 15 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Philips P5CD072
+
+3B BF .. 00 81 31 FE 5D 00 64 04 28 03 02 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 release 2 on Philips P5CD080
+
+3B BF .. 00 81 31 FE 5D 00 64 05 6D 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CX642P
+
+3B BF .. 00 81 31 FE 5D 00 64 05 89 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CLX641P
+
+3B BF .. 00 81 31 FE 5D 00 64 05 8A 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CLX640P
+
+3B BF .. 00 81 31 FE 5D 00 64 05 91 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
+	TCOS 3.0 on Infineon SLE 66CX680PE
+
 3B BF 11 00 81 31 .. 45 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse
 	http://www.quick.at/
@@ -2690,30 +2720,6 @@
 
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
-
-3B BF .. 00 81 31 FE 5D 00 64 04 28 03 02 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 release 2 on Philips P5CD080
-
-3B BF .. 00 81 31 FE 5D 00 64 04 0F 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Philips P5CD036
-
-3B BF .. 00 81 31 FE 5D 00 64 04 15 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Philips P5CD072
-
-3B BF .. 00 81 31 FE 5D 00 64 04 11 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Philips P5CT072
-
-3B BF .. 00 81 31 FE 5D 00 64 05 91 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Infineon SLE 66CX680PE
-
-3B BF .. 00 81 31 FE 5D 00 64 05 6D 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Infineon SLE 66CX642P
-
-3B BF .. 00 81 31 FE 5D 00 64 05 8A 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Infineon SLE 66CLX640P
-
-3B BF .. 00 81 31 FE 5D 00 64 05 89 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
-	TCOS 3.0 on Infineon SLE 66CLX641P
 
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
@@ -3260,6 +3266,9 @@
 3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 34 31 56
 	JCOP41 V221
 
+3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 33 31 97
+	JCOP41 /72K (eID)
+
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
 
@@ -3288,10 +3297,8 @@
 	JCOP 41 is a Dual-Interface Smart Card, that means, the card can also be contacted with a contactless card reader. For building access systems, this card is also be able to emulate Mifare Classic 1k/4k.
 	JCOP 41 v2.3.1 is compliant to JavaCard Standard 2.2.1. and GlobalPlattform 2.1.1. Their cryptographic features supports RSA up to 2432 bit, 'Eliptic curves' - ECC GF(2n), AES and 3DES.
 
-More information is available here:
-
-http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
-
+	More information is available here:
+	http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
@@ -3360,6 +3367,9 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
 
+3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
+	Croatian Health Care card
+
 3B FD 18 00 FF 80 B1 FE 45 1F 07 80 73 00 21 13 57 4A 54 48 61 31 47 00 5F
 	Activkey Sim
 	http://www.actividentity.com/products/activkey_usb_tokens__home.php
@@ -3380,17 +3390,14 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 00 C8 83 00 90 00 15
 	Gemalto TOP IM GX4 MSA081, T=1 (PKI)
 
-3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
-	Croatian Health Care card
-
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
 
-3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 0F 90 00 EF
-	iEstonian Identity Card (EstEID 3.0 (18.01.2011) warm)
-
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 01 90 00 E1
 	Estonian Identity Card (EstEID 3.0 "JavaCard" warm)
+
+3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 0F 90 00 EF
+	iEstonian Identity Card (EstEID 3.0 (18.01.2011) warm)
 
 3B FE 91 00 FF 91 81 71 FE 40 00 41 28 00 01 80 81 00 73 C8 40 00 00 90 00 4D
 	Philips SmartMX chip (IBMs JCOP OS)
@@ -3670,12 +3677,12 @@ http://www.nxp.com/documents/short_data_sheet/P5Cx009_P5Cx072_FAM_SDS.pdf
 	Aruba CNS for Regione Toscana (IT)
 	http://www.regione.toscana.it
 
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 44 53 44 10 31 80 90
+	Postecert (www.postecert.it) to legally sign documents
+
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 11 01 43 4E 53 11 31 80 8C
 	Infocert 1205* smart card
 	Universita' Degli Studi di Torino (Infocert)
-
-3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 44 53 44 10 31 80 90
-	Postecert (www.postecert.it) to legally sign documents
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
