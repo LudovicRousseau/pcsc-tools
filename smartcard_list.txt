@@ -1489,6 +1489,11 @@
 3B 7F 13 00 00 80 31 C0 52 15 54 64 05 66 98 36 83 83 90 00
 	VISA Card from Banc Sabadell in Spain
 
+3B 7F 13 00 00 80 31 C0 52 15 CB 64 05 66 96 61 83 83 90 00
+	Bank, Spanish group BANKIA (www.bankia.es)
+	Visa, Servired
+	Manufactured by Saetic (http://www.saetic.es/)
+
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
 
