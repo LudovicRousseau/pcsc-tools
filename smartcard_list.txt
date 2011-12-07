@@ -729,6 +729,9 @@
 3B 68 00 00 FF 29 23 00 07 68 90 00
 	Politecnico di Milano student card
 
+3B 68 00 FF 00 73 C8 40 00 00 90 00
+	Visa credit card for Bank of Taiwan
+
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
 
@@ -2171,6 +2174,10 @@
 3B 9A 94 00 92 02 75 93 11 00 01 02 02 .0
 	SuperSIM
 
+3B 9A 96 00 92 01 36 93 17 00 02 04 03 00
+	GSM-SIM EMT "Simpel" (prepaid, Estonia)
+	https://www.emt.ee/web/simpel
+
 3B 9A 96 00 92 01 48 93 17 00 02 12 04 00
 	SIM Card Carrefour Mobile (Belgium)
 
@@ -2876,6 +2883,9 @@
 	Atac is the public transport company of the city of Rome.)
 	http://www.atac.roma.it/smart/smart.asp?A=2&S=22&PR=4&LNG=2
 
+3B E5 00 00 81 31 FE 45 D0 00 37 00 80 89
+	ATM card for Standard Chartered, Taiwan
+
 3B E6 00 00 81 21 45 32 4B 01 01 01 01 7A
 	Axalto Cyberflex Palmera V5
 
@@ -2912,6 +2922,9 @@
 	network spanning over at least a big part of north rhine westphalia
 	(Verkehrsverbund Rhein-Ruhr)
 	(http://www.vrr.de/de/tickets_und_tarife/vielfahrer/firmenticket/index.php)
+
+3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
+	Visa credit card for Standard Chartered, Taiwan
 
 3B E9 00 00 81 21 45 45 4D 56 5F 41 54 52 20 06 6C
 	VISA card, issued by HVB Bank Czech Republic (http://www.hvb.cz) or austrian BankAustria
