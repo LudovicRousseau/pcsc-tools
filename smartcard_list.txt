@@ -683,6 +683,7 @@
 
 3B 68 00 00 00 73 C8 40 11 00 90 00
 	Woolworths Everyday Money prepaid Mastercard
+	Nordea (Finnish bank) Visa Electron
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -1231,7 +1232,7 @@
 
 3B 75 13 00 00 45 09 EA 90 00
 	Carte Vitale 2 (French health card)
-	
+
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
 
@@ -2409,6 +2410,11 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 54 61 00 82 90 00 F3
+	Aero2 (Poland) - A 900Mhz HSPA+ and 2500Mhz LTE wholesale telecom operator
+	USIM providing toll-free access to the Internet ("Bezpłatny Dostęp do Internetu" service)
+	http://aero2.pl/bdi.html
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6D
 	GemXplore 3G v2.2
