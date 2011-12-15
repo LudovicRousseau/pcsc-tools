@@ -959,6 +959,9 @@
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 39
 	Paypal Italy prepaid Mastercard
 
+3B 6E 00 00 00 31 C0 65 D3 C2 02 00 05 71 D6 8C 61 39
+	Italian Bancomat (Cassa di Risparmio di Rimini) (bank card)
+
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
 
@@ -3467,8 +3470,9 @@
 3B FF 11 00 02 40 64 80 69 A2 07 01 03 57 00 00 FF 00 83 00 90 00
 	Gemplus GemXpresso
 
-3B FF 13 00 00 81 31 FE 45 4F 57 4F 4B 31 30 2D 4A 32 31 38 30 32 34 31 A1
+3B FF 13 00 00 81 31 FE 45 4F 57 4F 4B 31 30 2D 4A .. .. .. .. .. .. .. ..
 	OWOK (One Web, One Key) login card, http://www.reiner-sct.com/owok/
+	Reiner SCT loginCard https://cardlogin.reiner-sct.com/
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
