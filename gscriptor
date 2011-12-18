@@ -644,7 +644,7 @@ sub RefreshResult {
 				my $c = 0;
 				for (@$tmpLine) {
 					$tmp_text .= sprintf ("%02X ", $_);
-					if ($c++ == 16)
+					if (++$c == 16)
 					{
 						$tmp_text .= "\n";
 						$c = 0;
