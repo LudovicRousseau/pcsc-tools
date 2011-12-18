@@ -107,7 +107,7 @@ if ($ARGV[0]) {
 *OUT_FILEHANDLE = *STDOUT;
 
 my $cmd;
-my $match = ".. " x 24;
+my $match = ".. " x 16;
 while (<IN_FILEHANDLE>) {
 	my $tmp_value;
 	my ($SendData, $RecvData, $sw);
