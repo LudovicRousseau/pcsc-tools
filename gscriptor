@@ -657,7 +657,7 @@ sub RefreshResult {
 					# TODO: how can we use array_to_ascii here??? maybe
 					# enhence the function so it can directly receive
 					# ranges of chars to ignore optionally?
-					if (($tmp_value > 0x20) && ($tmp_value < 0x80)) {
+					if (($tmp_value >= 0x20) && ($tmp_value < 0x80)) {
 						$tmp_text .= chr ($tmp_value);
 					} else {
 						$tmp_text .= ".";
