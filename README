@@ -130,6 +130,13 @@ Licences:
 History:
 ========
 
+1.4.18 - 18 December 2011, Ludovic ROUSSEAU
+    - gscriptor: Display hex dumps in lines of 16 bytes instead of 17
+    - gscriptor: Display bytes of value 0x20 as ' ' instead of '.'
+    - scriptor: Display lines of 16 bytes instead of 24
+    - 223 new ATRs
+    - pcsc_scan: Correctly detect reader Plug and Play support
+
 1.4.17 - 18 August 2010, Ludovic ROUSSEAU
     - 153 new ATRs
     - Allow to build with pcsc-lite >= 1.6.2
