@@ -171,6 +171,10 @@
 3B 16 94 81 10 06 01 81 3F
 	Schlumberger Cyberflex Access Crypto
 
+3B 16 95 D0 00 45 F7 01 00
+	Telefónica O2 Czech Republic, a.s. - O2 sim card - 173285 / SIM64ND.GO0
+	http://www.o2.cz
+
 3B 16 96 41 73 74 72 69 64
 	Gemalto .NET v2.0
 
@@ -1286,6 +1290,9 @@
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
 
+3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
+	amazon.de / LBB VISA Card
+
 3B 7A 11 00 02 48 4F 53 54 06 03 19 02 90 00
 	Swedish bankcard with Mastercard from ICA-banken
 
@@ -1426,6 +1433,9 @@
 
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
+
+3B 7E 13 00 00 00 31 C0 71 C6 65 01 B0 01 04 40 83 90 00
+	BahnCard / Commerzbank MasterCard Credit Card
 
 3B 7E 13 00 00 00 31 C0 71 C6 65 01 B4 01 04 40 83 90 00
 	Portugal Millennium BCP MAESTRO debit Card
