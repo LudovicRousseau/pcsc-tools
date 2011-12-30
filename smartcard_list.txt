@@ -945,6 +945,9 @@
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
 	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
 
+3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 37
+	Italian Bancomat (Romagna Est Banca di Credito Cooperativo) (bank card)
+
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 37
 	Swedbank MasterCard card
 
@@ -986,6 +989,7 @@
 	CIBC Visa Platinum (CIBC is a Canadian Imperial Bank of Commerce)
 	ING Direct (Italy) Gold Visa credit card
 	ING Direct (Italy) Bancomat V PAY debit card
+	HSBC Canada (Interac/Cirrus/The Exchange) Debit Card: http://www.hsbc.ca
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
@@ -1320,6 +1324,9 @@
 
 3B 7B 18 00 00 00 31 C0 64 77 E9 10 00 01 90 00
 	Oberthur Card Systems: Cosmo 64 RSA V5.4 (ISK Key Set: 404142 .. 4E4F)
+
+3B 7B 18 00 00 00 31 C0 64 C6 FC 10 00 07 90 00
+	Sberbank of the RUSSIAN federation
 
 3B 7B 18 00 00 00 31 E8 54 27 E6 00 00 01 90 00
 	Oberthur ID-One COSMO 64k v.5
@@ -2260,6 +2267,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
 	United Mobile SIM
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0C 72 00 12
+	Orange Austria GSM/3G SIM: "Mobiles Internet"
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
@@ -3745,6 +3755,11 @@
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
+
+3B FF 94 00 00 00 43 4D 42 5F 55 42 53 69 67 6E 30 30 30 32 15
+	UBS Access Card used for online banking with UBS in Switzerland.
+	It resides in a calculator like token, that is used for a challenge
+	response when logging in.
 
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 01 31 41 00
 	O2 Loop SIM card
