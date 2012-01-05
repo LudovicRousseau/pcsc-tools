@@ -948,6 +948,10 @@
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 37
 	Italian Bancomat (Romagna Est Banca di Credito Cooperativo) (bank card)
 
+3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 35
+	MasterCard Classic, issued by Avangard Bank (Russia)
+	http://avangard.ru/
+
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 37
 	Swedbank MasterCard card
 
@@ -3283,6 +3287,10 @@
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
 
+3B F8 18 00 FF 81 31 FE 45 4A 43 4F 50 76 32 34 31 43
+	VIVOtech SAM
+	NXP JCOP V241
+
 3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
 	Banrisul bank
 
@@ -3311,6 +3319,9 @@
 
 3B F9 98 00 FF C1 10 31 FE 55 50 43 20 43 4D 44 31 31 30 9C
 	Service card of the Ministry of Defense of Italy - Civil personnel
+
+3B FA 11 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 56 00 E0
+	MyWireCard 2go Prepaid VISA Card
 
 3B FA 11 00 02 40 60 43 C6 02 F8 03 03 00 00 90 00
 	DeLaRue DX(?)
