@@ -1,6 +1,6 @@
 #
 #    smartcard_list.txt
-#    Copyright (C) 2002-2011  Ludovic Rousseau
+#    Copyright (C) 2002-2012  Ludovic Rousseau
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -438,6 +438,9 @@
 3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
 	meteor ireland http://www.meteor.ie
 
+3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 82 90 00
+	Orange Mobicarte (SIM card old generation)
+
 3B 3C 94 00 42 31 11 A2 12 02 09 51 83 80 90 00
 	Omnitel IT 16K GSM SIM card
 
@@ -466,6 +469,7 @@
 3B 3F 94 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
 	GSM SIM Card (GEMPLUS), issued by Orange Switzerland (Prepaid)
 	Italian Vodafone 64k SIM
+	GSM SIM T-Mobile NL
 
 3B 3F 94 00 80 65 AF 03 12 01 79 73 32 21 00 83 0F 90 00
 	O2 (UK) SIM
@@ -494,6 +498,9 @@
 
 3B 3F 95 00 80 65 AF 03 12 01 6F 73 32 21 1B 83 0F 90 00
 	Vodafone Italia SIM 64K
+
+3B 3F 95 00 80 65 AF 03 12 01 79 73 32 21 00 83 0F 90 00
+	GSM SIM Orange NL
 
 3B 3F 95 00 80 65 AF 03 14 01 8A 73 32 21 1B 83 0F 90 00
 	SIM Vodafone 64k
@@ -545,6 +552,7 @@
 
 3B 65 00 00 20 63 CB 6A 00
 	CB Visa La Banque Postale (Gemalto)
+	CB Visa BNP Paribas (France)
 
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
@@ -586,6 +594,10 @@
 3B 66 00 00 66 44 01 01 03 B1
 	Carte etudiant Paris 1 moneo BNP Paribas france (Oberthur)
 	Carte Monéo Caise d'épargne Crouse de Lyon
+
+3B 66 00 00 90 D1 02 01 10 B1 3B 02 14 50
+	Card "Bordeaux Ma Ville" (yellow)
+	http://www.bordeaux.fr/ebx/portals/ebx.portal?_nfpb=true&_pageLabel=pgPresStand8&classofcontent=presentationStandard&id=57733
 
 3B 66 00 00 90 D1 02 01 40 B1
 	Student card from Paris Diderot University (with Moneo)
@@ -964,6 +976,9 @@
 3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 33
 	Travelex Cash Passport - Prepaid MasterCard Currency Card
 
+3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 35
+	MasterCard Card, issues by Rabobank in the Netherlands
+
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 22
 	Visa debit card
 
@@ -1011,6 +1026,9 @@
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 31 37 83 90 00
 	Electron VISA Credit Card (BANK OF Cyprus)
+
+3B 6E 00 00 00 31 C0 71 C6 65 71 0C 04 35 36 83 90 00
+	NatWest VISA Business Debit
 
 3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
@@ -1525,6 +1543,11 @@
 	Visa, Servired
 	Manufactured by Saetic (http://www.saetic.es/)
 
+3B 7F 13 00 00 80 31 C0 52 16 20 64 05 66 96 61 83 83 90 00
+	Bank, Spanish BBVA (http://www.bbva.com/)
+	Visa, Servired
+	Manufactured by Oberthur (http://www.oberthur.com/)
+
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
 
@@ -1688,6 +1711,10 @@
 3B 88 80 01 00 00 00 00 00 00 00 00 09
 	Personalausweis (German Identity Card) (eID)
 
+3B 88 80 01 00 00 00 00 00 71 71 00 09
+	OPUS Public Transport card (Montreal, Quebec, Canada) - Oberthur based
+	http://carteopus.info/
+
 3B 88 80 01 00 00 00 00 B3 71 71 00 BA
 	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
 
@@ -1798,6 +1825,9 @@
 3B 8B 01 52 75 74 6F 6B 65 6E 20 45 43 50 A0
 	Rutoken ECP
 
+3B 8B 80 01 00 31 C0 64 B0 FC 10 00 00 90 00 53
+	Thai Passport 2010, 2011
+
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
@@ -1838,6 +1868,7 @@
 
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport
+	Thai Passport 2005
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
@@ -2031,9 +2062,11 @@
 	ACOS5/1k Mirfare
 	RFID - ISO 14443 Type A - NXP Mifare card with 1k EEPROM
 	vivotech ViVOcard Contactless Test Card
+	Bangkok BTS Sky SmartPass
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
+	Bangkok Airport Link
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
@@ -2042,6 +2075,12 @@
 	NFC FORUM TYPE 1 TAG
 	www.inovision-group.com/topaz
 	ISO/IEC 14443A - 96 Bytes read/write NFC/RFID IC mandated by NFC Forum as the Type 1 NFC Forum Tag Format.
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 F0 11 00 00 00 00 8A
+	Bangkok Metro (MRT)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 FF 40 00 00 00 00 D4
+	Nokia N9
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 FF 88 00 00 00 00 1C
 	Infineon Mifare SLE 66R35
@@ -2199,7 +2238,7 @@
 3B 9A 94 00 91 01 00 17 00 01 26 06 00 96
 	T D1 GSM card
 
-3B 9A 94 00 92 02 75 93 11 00 01 02 02 .0
+3B 9A 94 00 92 02 75 93 11 00 01 02 02 ..
 	SuperSIM
 
 3B 9A 96 00 92 01 36 93 17 00 02 04 03 00
@@ -2349,6 +2388,9 @@
 	SIM card O2 (UK, Pay-As-You-Go)
 	Tesco Mobile (UK) SIM
 
+3B 9F 95 80 1F 43 80 31 E0 73 F6 21 13 57 4A 43 05 21 31 41 00 3A
+	GSM SIM AT&T US
+
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 03 01 02 00 00 99
 	T-Mobile (UK) SIM
 	Fresh Mobile (UK) SIM
@@ -2399,6 +2441,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
 	Tre (Swedish operator)
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 89
+	GSM SIM Vodafone NL postpaid
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card (from http://www.2degreesmobile.co.nz/)
@@ -2651,6 +2696,9 @@
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 56 32 30 30 30
 	GSM SIM CARD 32K, Vodafone
+
+3B BC 94 00 40 14 47 47 33 49 35 39 42 43 32 30 30 30
+	GSM SIM Vodafona NL prepaid
 
 3B BC 94 00 40 14 47 47 33 49 35 43 41 43 31 30 30 30
 	Siemens SIM card
@@ -2958,6 +3006,9 @@
 	network spanning over at least a big part of north rhine westphalia
 	(Verkehrsverbund Rhein-Ruhr)
 	(http://www.vrr.de/de/tickets_und_tarife/vielfahrer/firmenticket/index.php)
+
+3B E7 00 FF 81 31 FE 45 44 30 38 2E 30 20 36 57
+	EMV (MasterCard) card, issued by Raiffeisen Bank in Russia
 
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
