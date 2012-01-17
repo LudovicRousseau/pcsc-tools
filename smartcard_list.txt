@@ -724,6 +724,9 @@
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
 
+3B 68 00 00 9D 03 02 01 01 56 49 53
+	Visa Card - SberBank / Russia
+
 3B 68 00 00 9D 08 01 02 01 56 49 53
 	Visa Card - bonus - DenizBank / Turkey
 
@@ -910,6 +913,9 @@
 	Gemalto TOP IM
 	(Old name GemSafeXpresso 64)
 
+3B 6D 00 00 80 67 A1 11 01 01 64 08 55 83 0E 90 00
+	Italian Intesa SanPaolo Maestro
+
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
@@ -985,6 +991,9 @@
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 39
 	Paypal Italy prepaid Mastercard
 
+3B 6E 00 00 00 31 C0 65 D3 C2 02 00 05 71 D6 8C 61 35
+	Italian Intesa SanPaolo VISA
+
 3B 6E 00 00 00 31 C0 65 D3 C2 02 00 05 71 D6 8C 61 39
 	Italian Bancomat (Cassa di Risparmio di Rimini) (bank card)
 
@@ -1045,6 +1054,7 @@
 
 3B 6E 00 00 00 31 C0 71 D6 65 94 E8 03 40 00 83 90 00
 	First Direct UK VISA Debit
+	Italian Cariparma Maestro
 	"Net+ Mastercard card" from netpluscards.com, Neteller
 
 3B 6E 00 00 00 31 C0 71 D6 65 A3 03 01 80 00 83 90 00
@@ -1683,6 +1693,9 @@
 
 3B 86 40 20 68 01 01 02 04 AC
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
+
+3B 86 80 01 00 04 9A EE 00 CA BD
+	ASK CPL 528
 
 3B 86 80 01 06 75 77 81 02 80 00
 	NXP Mifare DESFire EV1 8K / MF3ICD81
@@ -2477,6 +2490,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 03 04 04 04 4F
+	GSM-SIM EMT (3G modem 2011, Estonia)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
 	Claro operator SIM
 
@@ -2927,6 +2943,7 @@
 
 3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 81 01 11 01 43 4E 53 10 31 80 E8
 	Italian healtcare card (TS) National Service Card (CNS)
+	Carta Regionale dei Servizi - Regione Lombardia
 	Tuscany TS-CNS http://www.regione.toscana.it/cartasanitaria
 
 3B DF 18 FF 81 31 FE 45 80 59 01 80 48 49 44 43 37 30 30 73 00 01 1B 33
