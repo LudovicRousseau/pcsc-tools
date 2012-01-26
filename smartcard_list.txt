@@ -591,6 +591,10 @@
 3B 66 00 00 31 4B 01 01 00 80
 	VISA credit card (Skandiabanken)
 
+3B 66 00 00 32 D0 00 30 02 01
+	Kazakhstan Kazkom Onlinebank (Homebank) PKI client key-card
+	(https://www.homebank.kz/)
+
 3B 66 00 00 66 44 01 01 03 B1
 	Carte etudiant Paris 1 moneo BNP Paribas france (Oberthur)
 	Carte Monéo Caise d'épargne Crouse de Lyon
@@ -754,6 +758,9 @@
 
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
+
+3B 69 00 00 24 94 01 00 00 00 00 01 A9
+	Kazakhstan Helios gas station debit card (http://helios.kz/)
 
 3B 69 00 00 24 94 01 02 01 00 01 01 A9
 	Chipcard from SUN to be used in SunRay's
@@ -945,6 +952,9 @@
 	MasterCard Card - Maximum - IS Bank / Turkey
 	Visa Card - Axess - Akbank / Turkey
 
+3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 2C
+	Kazakhstan Centrcredit bank VISA electron card (http://www.bcc.kz/en/)
+
 3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 31
 	UK BARCLAYS VISA Connect Debit card.
 	The chip is used for the Chip&PIN application common for all UK-issued cards: http://www.chipandpin.co.uk/
@@ -965,6 +975,9 @@
 
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 37
 	Italian Bancomat (Romagna Est Banca di Credito Cooperativo) (bank card)
+
+3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 2C
+	Kazakhstan Kazkom bank VISA electron card (http://en.kkb.kz/)
 
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 35
 	MasterCard Classic, issued by Avangard Bank (Russia)
@@ -1328,6 +1341,9 @@
 
 3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
 	amazon.de / LBB VISA Card
+
+3B 79 98 00 00 50 01 01 04 01 00 01 01 A9
+	Gemalto PayFlex used in Aristocrat System 7000 Casino Management System (South Africa only)
 
 3B 7A 11 00 02 48 4F 53 54 06 03 19 02 90 00
 	Swedish bankcard with Mastercard from ICA-banken
@@ -1748,6 +1764,9 @@
 
 3B 88 80 01 C9 12 07 52 02 00 81 10 14
 	electronic Tickes from the german Transport Association VGN (Verkehrsgemeinschaft Niederrhein)
+
+3B 88 80 01 E1 F3 5E 11 77 83 95 00 35
+	French biometric ePassport issued in 2012
 
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
@@ -2468,7 +2487,7 @@
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 
-3B 9F 95 81 31 FE 9F 00 66 46 53 05 01 00 11 71 DF 00 00 03 6A 82 F8
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 01 00 11 71 DF 00 00 03 .. .. ..
 	Feitian ePass2003 token
 
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 AA
@@ -3865,6 +3884,9 @@
 
 3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
 	Giesecke & Devrient STARSIM
+
+3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 20 07 33 41 41 1F
+	Swisscom 3G SIM card
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 33 48 61 32 41 47 D6
 	GSM SIM (issued by e-plus, Germany)
