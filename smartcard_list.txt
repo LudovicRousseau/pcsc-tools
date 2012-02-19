@@ -40,6 +40,9 @@
 3B 02 53 01
 	Gemplus GemClub Memo
 
+3B 04 00 00 00 00
+	Laundromat payment card
+
 3B 04 07 3C 85 92
 	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
@@ -554,6 +557,9 @@
 	CB Visa La Banque Postale (Gemalto)
 	CB Visa BNP Paribas (France)
 
+3B 65 00 00 20 63 CB 6A 80
+	Mastercard EMV Debit Card
+
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
@@ -1051,6 +1057,7 @@
 
 3B 6E 00 00 00 31 C0 71 C6 65 71 0C 04 35 36 83 90 00
 	NatWest VISA Business Debit
+	VISA Debit Card (NatWest / ING DiBa)
 
 3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
@@ -1379,6 +1386,11 @@
 3B 7B 18 00 00 00 31 E8 54 27 E6 00 00 01 90 00
 	Oberthur ID-One COSMO 64k v.5
 
+3B 7B 18 00 00 80 62 01 54 56 46 69 6E 45 49 44
+	FineID identity card for organizations
+	http://fineid.fi/default.aspx?id=491
+	http://www.opensc-project.org/opensc/wiki/FinnishEid
+
 3B 7B 94 00 00 80 62 1[1,2] 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
 
@@ -1454,6 +1466,7 @@
 3B 7D 96 00 00 80 31 80 65 B0 83 11 17 D6 83 00 90 00
 	DoD CAC card issued Jan 14, 2010
 	GEMALTO TOPDLGX4 144
+	Geneva Conventions Identification Card
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
@@ -1576,6 +1589,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
+
+3B 7F 13 00 00 80 31 C0 52 17 A0 64 02 B3 02 37 83 83 90 00
+	Credit card Visa Classic by "La Caixa" (Spain)
 
 3B 7F 13 00 00 80 31 C0 52 17 B4 64 05 66 98 36 83 83 90 00
 	Credit Card Banorte International, México
@@ -2321,6 +2337,9 @@
 	J+ SWIM WIB UMTS SIM Test card
 	http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
 
+3B 9E 95 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 29 F4 01 00 DB
+	Vodafone (UK) Pay As You Talk SIM
+
 3B 9E 95 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 49 00 00 00 4E
 	UK O2 Unlimited Prepay GSM/UMTS USIM
 
@@ -2357,6 +2376,9 @@
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 36 2E 30
 	skylink, Pay TV, http://www.skylink.cz
+
+3B 9F 11 80 1F C3 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 74
+	Cingular SIM
 
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
@@ -3048,6 +3070,9 @@
 
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
+
+3B E8 00 00 81 31 FE 45 00 73 C8 40 00 00 90 00 88
+	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
 
 3B E9 00 00 81 21 45 45 4D 56 5F 41 54 52 20 06 6C
 	VISA card, issued by HVB Bank Czech Republic (http://www.hvb.cz) or austrian BankAustria
@@ -4145,7 +4170,7 @@
 	Stream TV (IP television) decoder card, provided by aon (Telekom Austria) TV card, contains Incorporated NDS Videoguard (TM) security system
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
-	Norweigan DVB-C provider Get (www.get.no). NDS Videoguard security card.
+	Norwegian DVB-C provider Get (www.get.no). NDS Videoguard security card.
 
 3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 48 01 00 00
 	"D-Smart" NDS from Turkie
