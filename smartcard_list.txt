@@ -935,6 +935,10 @@
 	Gemalto TOP IM
 	(Old name GemSafeXpresso 64)
 
+3B 6D 00 00 80 31 80 65 B0 87 27 01 BC 83 08 90 00
+	Kazcommertsbank (http://en.kkb.kz/page/WhoWeAre)
+	one of the biggest banks in Republic of Kazakhstan
+
 3B 6D 00 00 80 67 A1 11 01 01 64 08 55 83 0E 90 00
 	Italian Intesa SanPaolo Maestro
 
@@ -1933,6 +1937,9 @@
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
 
+3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
+	Contactless CPS v3 Card (Carte de Professionnel de Santé)
+
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 33 36 76
 	RFIDIOt JCOP 36K Blank (http://rfidiot.org)
 
@@ -2550,6 +2557,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 03 04 04 04 4F
 	GSM-SIM EMT (3G modem 2011, Estonia)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 01 07 02 02 02 4C
+	Orange Mobicarte (France)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
 	Claro operator SIM
@@ -3673,6 +3683,9 @@
 	PA emittente: Regione Autonoma della Sardegna
 	Carta del Servizio Sanitario Regionale - Emilia Romagna
 
+3B FF 18 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 DD
+	DataKey 400 (DK400)
+
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
 
@@ -3933,6 +3946,9 @@
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 20 07 33 41 41 1F
 	Swisscom 3G SIM card
+
+3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 33 48 57 31 41 41 E5
+	MTNL 3G USIM (India)
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 33 48 61 32 41 47 D6
 	GSM SIM (issued by e-plus, Germany)
