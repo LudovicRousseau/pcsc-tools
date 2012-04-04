@@ -159,6 +159,9 @@
 3B 15 94 C3 02 08 16 01
 	GSM-SIM EMT (Estonia)
 
+3B 16 18 AF 01 02 02 02 00
+	SIM Virgin Mobile (Australia)
+
 3B 16 94 71 01 01 00 27 00
 	Cingular GSM SIM Card
 
@@ -225,6 +228,10 @@
 
 3B 1B 94 80 69 07 05 21 11 00 80 00 00 00
 	Aircel SIM (Telecommunication)
+
+3B 1B 96 05 43 43 32 52 53 05 12 10 90 00
+	ChipCity CC32RS512 factory boot loader
+	(this is a flash based CPU card with a factory-default bootloader)
 
 3B 1C 94 43 48 49 50 44 52 49 56 45 30 30 31
 	SCM Chipdrive MyKey MasterKey 24k
@@ -460,6 +467,9 @@
 3B 3D 94 00 01 0F 00 36 00 00 86 60 18 04 00 01 07
 	Vodafone GSM / Turkey
 
+3B 3D 94 00 23 18 02 56 00 00 86 60 5B 1B 00 00 0F
+	GSM SIM, TMN (Moche prepaid, Portugal)
+
 3B 3D 94 00 24 0E 00 96 00 00 86 60 31 B5 00 06 07
 	GSM SIM Tele2 Estonia; 2008
 
@@ -520,6 +530,9 @@
 
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
+
+3B 5B 96 00 00 31 C0 64 C6 FC 10 00 01 90 00
+	Banking card (Oberthur C.S. 06 18710-04-10)
 
 3B 5E 11 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 2006 warm)
@@ -1491,6 +1504,12 @@
 	ING BusinessOnLine Bank eToken / Poland
 	Gemalto Classic TPC - IM
 
+3B 7D 96 00 00 80 31 80 65 B0 83 11 48 C8 83 00 90 00
+	http://support.gemalto.com/index.php?id=usb_shell_token_v2gempckey
+
+	the card is .NET gemalto card I think
+	http://support.gemalto.com/index.php?id=dot_net_solutions
+
 3B 7D 96 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	Gemplus X-Presso Pro 64k
 
@@ -2290,6 +2309,9 @@
 3B 98 96 00 80 31 C0 72 F7 41 81 07
 	Activ Rutoken Magistra
 
+3B 99 18 00 11 88 22 33 44 55 66 77 60
+	sysmocom sysmoSIM-GR1
+
 3B 99 94 00 91 08 91 06 00 01 06 06 00
 	GSM-SIM Orange-UK (1800)
 
@@ -2499,6 +2521,9 @@
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C2
+	sysmocom sysmoUSIM-GR1
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BE
 	Telenet N.V. Walk & Talk SIM Card Belgium
@@ -2967,6 +2992,9 @@
 
 3B DB 96 00 80 1F 03 00 31 C0 64 B0 F3 10 00 07 90 00 80
 	DoD CAC, Oberthur ID One 128 v5.5 Dual
+
+3B DB 96 00 80 1F 03 00 31 C0 64 B0 F3 10 00 0F 90 00 88
+	US Department of Veterans Affairs PIV
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 18 01 00 0F 90 00 52
 	Serbian Car registration ID card
