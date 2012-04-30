@@ -583,6 +583,10 @@
 3B 65 00 00 20 63 CB 6A 80
 	Mastercard EMV Debit Card
 
+3B 65 00 00 20 63 CB A1 80
+	bpaid: bpost prepaid Mastercard
+	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
+
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
@@ -741,9 +745,13 @@
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
 	MasterCard debit card
 	mbna PLATINUM MasterCard
+	Flash (Banca Fideuram) Italy prepaid Mastercard
 
 3B 68 00 00 56 53 44 43 4C 43 31 30
 	VISA (Estonian), made by www.trueb.ch
+
+3B 68 00 00 80 62 00 3C 83 00 90 00
+	Italian PostePay prepaid VISA-Electron
 
 3B 68 00 00 80 66 45 46 01 38 18 03
 	FNMT WG108k
@@ -784,6 +792,7 @@
 
 3B 68 00 00 FF 29 23 00 07 68 90 00
 	Politecnico di Milano student card
+	"Le Chiavi della Città" SienaCard MINIpay Card
 
 3B 68 00 FF 00 73 C8 40 00 00 90 00
 	Visa credit card for Bank of Taiwan
@@ -1006,8 +1015,12 @@
 	UK Barclaycard Business VISA
 	Nationwide Building Society (UK) Visa Debit and Credit Cards
 
+3B 6E 00 00 00 31 C0 65 77 B2 01 03 47 71 D6 8C 61 37
+	Italian Soldintasca Sanpaolo prepaid VISA-Electron
+
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
 	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
+	Italian Banca Fideuram Bancomat Card
 
 3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 37
 	Italian Bancomat (Romagna Est Banca di Credito Cooperativo) (bank card)
@@ -1764,6 +1777,10 @@
 3B 85 40 FF 63 01 01 03 01
 	Axalto Cryptoflex 16K
 
+3B 85 80 01 20 63 CB A1 80 AD
+	bpaid: bpost prepaid Mastercard (contactless)
+	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
+
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator - http://jmrtd.org/)
 
@@ -1864,6 +1881,7 @@
 
 3B 89 80 01 4D 54 43 4F 53 73 02 01 04 3A
 	Biometric passport of Czech republic
+	Biometric passport of Libya
 
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
@@ -2573,7 +2591,7 @@
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 30 06 71 DF 00 00 00 80 6A 82 5E
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 
-3B 9F 95 81 31 FE 9F 00 66 46 53 05 01 00 11 71 DF 00 00 03 .. .. ..
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 01 00 11 71 DF 00 00 .. .. .. ..
 	Feitian ePass2003 token
 
 3B 9F 96 40 0A 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55
@@ -3649,6 +3667,10 @@
 3B FD 18 00 FF 80 B1 FE 45 1F 07 80 73 00 21 13 57 4A 54 48 61 31 4A 00 52
 	e-CPF issued by AASP (Lawyers Association of São Paulo, Brazil)
 
+3B FD 91 00 FF 91 81 71 FE 40 00 41 20 00 41 00 81 80 31 C0 73 D6 21 C0 D8
+	Sparkasse Hanau - German contactless GeldKarte (PPSE, girogo)
+	https://www.geldkarte.de/_www/en/pub/geldkarte/service_navigation/about_us.php
+
 3B FD 94 00 00 81 31 20 43 80 31 80 65 B0 83 02 04 7E 83 00 90 00 B6
 	GXPPRo-R3.x STD PTS T=1
 	Latvian Digital Signature Card (cold) (http://www.eme.lv/)
@@ -4179,6 +4201,9 @@
 
 3F 77 18 00 00 C2 47 40 00 68 90 00
 	Viacces card: SRG SSR idèe suisse
+
+3F 77 18 00 00 C2 7A 41 02 68 90 00
+	Viacces card: SRG SSR idée suisse
 
 3F 77 18 00 00 C2 7A 42 02 68 90 00
 	SCT (Via Access)
