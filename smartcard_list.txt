@@ -208,6 +208,9 @@
 3B 17 94 80 65 D0 01 6C F2 BE
 	CMCC sim cards with TD-SCDMA support
 
+3B 17 94 80 65 D0 01 8B F2 08
+	China SIM card
+
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
 
@@ -468,6 +471,9 @@
 	GSM-SIM (900MHz) card of the carrier vodafone for their cellular
 	network (phase 2+ with 3V)
 
+3B 3C 94 00 63 31 12 F0 00 00 46 40 83 83 90 00
+	Old russian "beeline" sim
+
 3B 3D 94 00 01 0F 00 36 00 00 86 60 18 04 00 01 07
 	Vodafone GSM / Turkey
 
@@ -582,6 +588,7 @@
 
 3B 65 00 00 20 63 CB 6A 80
 	Mastercard EMV Debit Card
+	Crédit Agricole (french bank) Gold Mastercard
 
 3B 65 00 00 20 63 CB A1 80
 	bpaid: bpost prepaid Mastercard
@@ -913,6 +920,7 @@
 
 3B 6D 00 00 00 31 C0 71 D6 64 19 16 01 00 84 90 00
 	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
+	Capital One (UK) MasterCard
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -1217,6 +1225,9 @@
 3B 6F 00 00 80 31 E0 6B 01 03 05 02 E0 55 55 55 55 55 55
 	American Express Gold Credit Card
 
+3B 6F 00 00 80 31 E0 6B 02 01 02 07 01 55 55 55 55 55 55
+	Brazilian state bank: Caixa Econômica Federal debit card
+
 3B 6F 00 00 80 31 E0 6B 04 03 03 04 05 55 55 55 55 55 55
 	Blue American Express Card
 
@@ -1237,6 +1248,10 @@
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55
 	Norsk Tipping online player card <http://www.norsk-tipping.no/>
 	Norwegian government controlled betting company
+
+3B 6F 00 00 80 31 E0 6B 04 21 05 02 61 55 55 55 55 55 55
+	NORSK TIPPING NORWAY
+	http://www.norsk-tipping.no/
 
 3B 6F 00 00 80 31 E0 6B 05 08 05 02 83 55 55 55 55 55 55
 	Bank of Montreal debit card
@@ -1562,6 +1577,10 @@
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
+
+3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 81 01 17
+	Česká Spořitelna SERVIS24 certificate card
+	http://smallhacks.wordpress.com/2012/05/04/exploring-servis24-certificate-card-from-the-ceska-sporitelna-bank/
 
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	"OpenCard" - card issued by Prague local authority
@@ -3045,6 +3064,9 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
 	Oberthur Cosmo V7 debug card (SDK)
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C3 08 01 00 0F 90 00 9B
+	SIM Aruba (Italian provider)
+
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
 
@@ -3065,6 +3087,9 @@
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" G3 (State Health Insurance Card)
 	(running StarCOS 3.4 by Giesecke & Devrient)
+
+3B DD 97 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C8
+	German "eGK" (State Health Insurance Card)
 
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
