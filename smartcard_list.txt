@@ -547,6 +547,9 @@
 3B 5E 11 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 2006 warm)
 
+3B 5F 95 00 80 73 00 01 00 59 43 4C 5A 1B 00 11 40 90 00
+	SCM Chipdrive MyKey SC
+
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
@@ -1521,6 +1524,9 @@
 3B 7D 96 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
 	GEMALTO Clasic TPC IM CC
 
+3B 7D 96 00 00 80 31 80 65 B0 83 11 11 AC 83 00 90 00
+	GEMALTO WM GX4 72 DHS TSA
+
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
 
@@ -1803,6 +1809,9 @@
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator - http://jmrtd.org/)
 
+3B 85 80 01 4D 79 45 49 44 78
+	MyEID
+
 3B 86 40 20 68 01 01 02 04 AC
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
 
@@ -1854,6 +1863,9 @@
 	Nokia 6131 NFC phone
 	http://wiki.forum.nokia.com/index.php/Nokia_6131_NFC_-_FAQs
 	Giesecke & Devrient’s (G&D) Sm@rtCafé Expert 3.1
+
+3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
+	Ideal v 1.4 (Transport)
 
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A -  NXP JCOP
@@ -2900,6 +2912,9 @@
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 02 90 00
 	ACS (Advanced Card System) ACOS-1 8K
+
+3B BE 11 00 00 41 01 38 00 00 05 00 00 00 00 00 02 90 00
+	ACS (Advanced Card System) ACOS2
 
 3B BE 11 00 00 41 01 38 01 00 03 00 00 00 00 00 02 90 00
 	ACOS2 test card from ACS reading off a ACR38U
@@ -4376,6 +4391,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 30 34 10
 	Nagra 3 Card - Telefonica Brazil Green
+
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 30 36 12
+	UM02 card from German Unitymedia cable TV provider
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 43 34 63
 	HD+ card used by the satelite company astra for decryption of the HDTV channels of RTL, VOX, Sat1 and ProSieben. Nagravision V3 is used for the encryption.
