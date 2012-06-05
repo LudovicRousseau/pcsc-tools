@@ -593,6 +593,9 @@
 	Mastercard EMV Debit Card
 	Crédit Agricole (french bank) Gold Mastercard
 
+3B 65 00 00 20 63 CB A0 80
+	Carrefour, MasterCard credit card, Pass Banque, Oberthur
+
 3B 65 00 00 20 63 CB A1 80
 	bpaid: bpost prepaid Mastercard
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
@@ -3082,6 +3085,10 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C3 08 01 00 0F 90 00 9B
 	SIM Aruba (Italian provider)
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 0F 90 00 7A
+	Guatemalan ID Card
+	http://www.renap.gob.gt/
+
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
 
@@ -3214,6 +3221,9 @@
 
 3B E8 00 00 81 31 FE 45 00 73 C8 40 00 00 90 00 88
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
+
+3B E8 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
+	NXP JCOP v2.4.x (see hist bytes for more info)
 
 3B E9 00 00 81 21 45 45 4D 56 5F 41 54 52 20 06 6C
 	VISA card, issued by HVB Bank Czech Republic (http://www.hvb.cz) or austrian BankAustria
@@ -3523,6 +3533,9 @@
 3B F7 11 00 01 40 96 70 71 09 0E 6C B6 D6
 	Carte pour décodeur télé de Neuf Telecom TV
 
+3B F7 13 00 00 81 31 FE 45 4A 43 4F 50 32 34 .. ..
+	NXP JCOP v2.4.x (see hist bytes for more info)
+
 3B F7 18 00 00 80 31 FE 45 73 66 74 65 2D 6E 66 C4
 	SmartCafe Expert 3.2 72K
 
@@ -3532,8 +3545,8 @@
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
 
-3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B7
-	JCOP31 v2.4.1r3 (PKI)
+3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
+	NXP JCOP v2.4.x (see hist bytes for more info)
 
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
@@ -3547,6 +3560,12 @@
 3B F8 18 00 FF 81 31 FE 45 4A 43 4F 50 76 32 34 31 43
 	VIVOtech SAM
 	NXP JCOP V241
+
+3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 32 34 .. .. .. ..
+	NXP JCOP v2.4.x (see hist bytes for more info)
+
+3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 34 A2
+	JCOP41 v2.4
 
 3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
 	Banrisul bank
@@ -3587,6 +3606,9 @@
 	Dexa Systems Crossfire Card (PKI)
 	http://www.dexasystems.com/products-services/products/dexa-smartcards-credential-tokens-peripherals
 
+3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 3. 3. 56 32 33 32 ..
+	JCOPxx/yy v2.3.2 (see hist bytes for more info)
+
 3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 91
 	NXP JCOP 21 V2.3.1 36K
 
@@ -3595,6 +3617,9 @@
 
 3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 33 31 97
 	JCOP41 /72K (eID)
+
+3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. .. .. ..
+	NXP JCOP v2.4.x (see hist bytes for more info)
 
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
@@ -3647,6 +3672,9 @@
 3B FB 11 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 00 90 00 6A
 	OCS ID-One Cosmo Card USB Token
 
+3B FB 13 00 00 81 31 FE 45 4A 43 4F 50 53 3. 3. 56 32 33 32 ..
+	JCOP-Sxx/yy v2.3.2 (see hist bytes for more info)
+
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
 
@@ -3658,6 +3686,9 @@
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 48 AC
 	ZeitControl BasicCard Professional 5.4
+
+3B FB 91 00 FF 91 81 71 FE 40 00 41 20 00 01 00 81 20 63 CB A0 80 03
+	Carrefour, MasterCard credit card, Pass Banque, Oberthur - contactless/PayPass
 
 3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 02 00 82 90 00 76
 	Oberthur ID-One Cosmo
