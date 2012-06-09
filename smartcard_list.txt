@@ -168,6 +168,9 @@
 3B 16 94 71 01 01 05 02 00
 	GSM SIM Bouygues Telecom
 
+3B 16 94 71 01 01 06 02 00
+	SFR GSM SIM Card
+
 3B 16 94 81 10 06 01 .. ..
 	Schlumberger Cyberflex Access 16K
 
@@ -429,6 +432,9 @@
 
 3B 3B 11 00 80 69 AF 03 0C 01 6F 83 0[0,1] 90 00
 	GemXplore'Xpresso V3 64K
+
+3B 3B 11 00 91 41 10 10 10 5B A0 00 33 90 00
+	Pannon SIM card (Hungary)
 
 3B 3B 94 00 4F 34 10 20 01 04 C0 33 33 90 00
 	SIM card from the italian operator WIND
@@ -1510,6 +1516,9 @@
 3B 7D 94 00 00 80 31 80 65 B0 83 11 00 AC 83 00 90 00
 	GemCombiXpresso R4 72K
 
+3B 7D 94 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
+	personal identity card (ID card) of Republic of Lithuania
+
 3B 7D 94 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	GemXpresso R4 72K
 
@@ -2588,6 +2597,7 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C2
 	sysmocom sysmoUSIM-GR1
+	http://sysmocom.de/
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
@@ -2628,8 +2638,15 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 01 00 11 71 DF 00 00 .. .. .. ..
 	Feitian ePass2003 token
 
+3B 9F 95 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DD
+	Telenor SIM card (Norway)
+
 3B 9F 96 40 0A 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55
 	BuyPass identification card. It can also possibly be used to hold e-currency.
+
+3B 9F 96 40 0A 80 31 E0 6B 04 21 05 02 61 55 55 55 55 55 55
+	altinn - Buypass
+	Electronic ID card for login to the altinn.no service
 
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 AA
 	Elisa UICC (Telecommunication)
@@ -2670,8 +2687,14 @@
 	USIM providing toll-free access to the Internet ("Bezpłatny Dostęp do Internetu" service)
 	http://aero2.pl/bdi.html
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 12 00 82 90 00 D2
+	Free Mobile SIM Card
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6D
 	GemXplore 3G v2.2
+
+3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
+	Telenor SIM card (Norway)
 
 3B 9F 96 81 31 FE 45 80 67 55 45 4B 41 45 12 12 31 80 73 B3 A1 80 EA
 	AKiS v1.2 on nxp chip
@@ -2692,6 +2715,9 @@
 	SignTrust (www.signtrust.de)
 	Infinion SLE66CX680PE with Starcos 3.2
 	http://www.deutschepost.de/dpag?xmlFile=link1015459_49595
+
+3B 9F 96 C0 0A 1F C3 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DA
+	SIM SFR Pro (French Mobile Operator)
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
@@ -2887,6 +2913,9 @@
 
 3B BC 94 00 40 14 47 47 33 49 35 43 41 43 31 30 30 30
 	Siemens SIM card
+
+3B BC 94 00 40 14 47 47 33 49 37 31 39 43 32 30 30 20
+	Telenor SIM card (Norway)
 
 3B BC 94 00 40 14 47 47 33 49 42 31 42 43 31 30 30 20
 	Telenor SIM (Telecommunication)
@@ -4108,6 +4137,9 @@
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 F6 21 13 57 4A 55 48 60 32 41 00 F6
 	GSM SIM from O2 Germany (UMTS ready) from 2005
+
+3B FF 95 00 FF C0 0A 1F 47 80 31 E0 73 F6 21 13 57 4A 33 20 0B 31 41 41 D5
+	Telenor SIM card (Norway)
 
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
