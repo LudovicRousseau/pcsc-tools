@@ -368,6 +368,7 @@
 	MBNA Europe Platinum Plus Mastercard
 	MasterCard Card - Worldcard - Yapıkredi / Turkey
 	Portugal BPI Visa Electron
+	Italian UniCreditCard (VISA or MasterCard) credit card
 
 3B 2A 00 80 65 A0 58 04 01 62 72 D6 43
 	Gemplus GemCombiXplore MPCOS Pro
@@ -436,8 +437,8 @@
 3B 3B 11 00 91 41 10 10 10 5B A0 00 33 90 00
 	Pannon SIM card (Hungary)
 
-3B 3B 94 00 4F 34 10 20 01 04 C0 33 33 90 00
-	SIM card from the italian operator WIND
+3B 3B 94 00 4F 34 10 20 01 0. .0 33 33 90 00
+	Wind (Italy) GSM SIM card
 
 3B 3B 94 00 67 37 10 00 00 39 60 33 33 90 00
 	Avea GSM / Turkey
@@ -464,6 +465,9 @@
 3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
 	meteor ireland http://www.meteor.ie
 
+3B 3B 96 00 40 22 51 00 00 42 00 33 33 90 00
+	Wind (Italy) 128K GSM SIM card
+
 3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 82 90 00
 	Orange Mobicarte (SIM card old generation)
 
@@ -488,6 +492,9 @@
 
 3B 3D 94 00 24 0E 00 96 00 00 86 60 31 B5 00 06 07
 	GSM SIM Tele2 Estonia; 2008
+
+3B 3E 94 00 80 31 00 73 FE 21 13 62 00 31 83 81 90 00
+	Vodafone (Italy) 64kB GSM SIM card
 
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
@@ -929,6 +936,7 @@
 	UK Barclaycard VISA
 	UK Halifax Platinum VISA
 	UK HSBC MasterCard
+	Italian UniCreditCard (VISA or MasterCard) credit card
 
 3B 6D 00 00 00 31 C0 71 D6 64 19 16 01 00 84 90 00
 	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
@@ -1038,12 +1046,8 @@
 3B 6E 00 00 00 31 C0 65 77 B2 01 03 47 71 D6 8C 61 37
 	Italian Soldintasca Sanpaolo prepaid VISA-Electron
 
-3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 33
-	Italian Cassa di Risparmio di Padova e Rovigo (San Paolo IMI group) Bancomat Card
-	Italian Banca Fideuram Bancomat Card
-
-3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 37
-	Italian Bancomat (Romagna Est Banca di Credito Cooperativo) (bank card)
+3B 6E 00 00 00 31 C0 65 77 B3 01 00 70 71 D6 8C 61 ..
+	Italian Bancomat (debit card)
 
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 2C
 	Kazakhstan Kazkom bank VISA electron card (http://en.kkb.kz/)
@@ -1082,6 +1086,9 @@
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
 
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
+	Italian UniCreditCard (VISA or MasterCard) credit card
+
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
@@ -1100,6 +1107,7 @@
 	ING Direct (Italy) Gold Visa credit card
 	ING Direct (Italy) Bancomat V PAY debit card
 	HSBC Canada (Interac/Cirrus/The Exchange) Debit Card: http://www.hsbc.ca
+	UniCredit (Italy) Bancomat Maestro debit card
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
 	UK NatWest Business MasterCard
@@ -1139,6 +1147,7 @@
 	First Direct UK VISA Debit
 	Italian Cariparma Maestro
 	"Net+ Mastercard card" from netpluscards.com, Neteller
+	Italian UniCreditCard (VISA) credit card
 
 3B 6E 00 00 00 31 C0 71 D6 65 A3 03 01 80 00 83 90 00
 	UK First Direct (HSBC) Maestro / Cirrus
@@ -1269,9 +1278,7 @@
 	Bank of Montreal debit card
 
 3B 6F 00 00 80 31 E0 6B 05 12 05 02 87 55 55 55 55 55 55
-	American Express Platinum
-	American Express Gold Credit
-	Blu American Express
+	American Express credit card
 
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
@@ -1735,8 +1742,8 @@
 	IAS/ECC Gemalto (eID)
 
 3B 80 80 01 01
-	Latvian, Bulgarian, US e-Pasport
 	RFID - ISO 14443 Type B
+	Electronic Passport
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
@@ -1860,6 +1867,9 @@
 3B 88 80 01 00 00 00 00 00 71 71 00 09
 	OPUS Public Transport card (Montreal, Quebec, Canada) - Oberthur based
 	http://carteopus.info/
+
+3B 88 80 01 00 00 00 00 00 81 91 10 09
+	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
 
 3B 88 80 01 00 00 00 00 B3 71 71 00 BA
 	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
@@ -2227,6 +2237,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 FF 00 00 00 00 94
+	ACTV (Italy) prepaid transport ticket
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 F0 04 00 00 00 00 9F
 	NFC FORUM TYPE 1 TAG
 	www.inovision-group.com/topaz
@@ -2449,7 +2462,7 @@
 	Vodafone Ireland SIM card
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
-	Hutchison/3 3G USIM
+	H3G (?) UMTS USIM card
 	J+ SWIM WIB UMTS SIM Test card
 	http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
 
@@ -2460,8 +2473,10 @@
 	UK O2 Unlimited Prepay GSM/UMTS USIM
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
-	3 ireland http://www.three.ie
-	UK '3' network GSM-3G SIM
+	H3G (Ireland, UK) UMTS USIM card
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 C4 00 00 EF
+	H3G (Italy) UMTS USIM card
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 49 00 00 00 4A
 	Rogers 3G SIM card
@@ -2610,17 +2625,17 @@
 	Telia GSM/3G (Swedish operator)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 06 A6 83 0F 90 00 89
-	Net10 prepaid SIM marked TF64SIMC4 supplied by TracFone which is a US subsidiary of América Móvil.
-	It supplies service via the Cingular/AT&T GSM network.
-	German prepaid SIM card, issued by Simyo
+	TracFone (US) Net10 GSM SIM card
+	Simyo (Germany) GSM SIM card
+	H3G (Italy) UMTS USIM card
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 07 A7 83 0F 90 00 89
 	SIM NRJ Mobile
-	Hutchison 3G UK Ltd. UMTS USIM
+	H3G (UK) UMTS USIM card
 	Orange UK GSM/UMTS SIM
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 08 A8 83 0F 90 00 89
-	Tre (Swedish operator)
+	H3G (Sweden) UMTS USIM card
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 89
 	GSM SIM Vodafone NL postpaid
@@ -2664,7 +2679,9 @@
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
 
-3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 52 00 40 83 07 90 00 D8
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 0. 90 00 ..
+	TIM (Italy) 128KB GSM SIM
+	H3G (Italy) UMTS USIM
 	Vodafone (UK) SIM
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
@@ -2718,6 +2735,9 @@
 
 3B 9F 96 C0 0A 1F C3 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DA
 	SIM SFR Pro (French Mobile Operator)
+
+3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DE
+	H3G (Italy) UMTS USIM card
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
@@ -2969,8 +2989,9 @@
 	SAM inside the Tikitag reader from Alcatel-Lucent
 	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
 
-3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 29 83 81 90 00 47
-	128 kBVodafone Italy SIM Card
+3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 .. 83 81 90 00 ..
+	Vodafone (Italy) 128 kB GSM SIM card
+	TIM (Italy) 128 kB GSM SIM card
 
 3B BF .. 00 81 31 FE 5D 00 64 04 0F 03 .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 on Philips P5CD036
@@ -4109,6 +4130,9 @@
 3B FF 94 00 00 C0 0A B1 FE 49 1F 43 80 31 E0 73 F6 21 13 57 34 36 43 41 32 30 20 68
 	Sonera UICC (Telecommunication)
 
+3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FE 05 22 31 80 00 90 00 1E
+	Alice Business card (to be used in the modem supplied by an Italian provider)
+
 3B FF 94 00 FF 80 B1 FE 45 1F 03 00 68 D2 76 00 00 28 FF 05 1E 31 80 00 90 00 23
 	D-Trust Signature Card (www.d-trust.net):
 	- Citizencard of the People of Ulm in Germany (Bürgerkarte)
@@ -4192,7 +4216,7 @@
 	GSM SIM card of the Austrian provider A1
 
 3F 3E 11 00 46 52 45 43 43 49 41 52 4F 53 53 41 90 00
-	Fidelity card from then Italian train company ”CartaFreccia Trenitalia”
+	Trenitalia (Italy) fidelity card "CartaFreccia" (Smartcard)
 
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
