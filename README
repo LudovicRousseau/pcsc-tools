@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.4.19 - 13 June 2012, Ludovic ROUSSEAU
+    - ATR_analysis: use XDG_CACHE_HOME env variable
+      The smartcard_list.txt file is now searched in ~/.cache/ by default
+
 1.4.18 - 18 December 2011, Ludovic ROUSSEAU
     - gscriptor: Display hex dumps in lines of 16 bytes instead of 17
     - gscriptor: Display bytes of value 0x20 as ' ' instead of '.'
