@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 #    ATR_analysis
-#    Copyright (C) 2000-2009  Ludovic Rousseau, Christophe Levantis
+#    Copyright (C) 2000-2012  Ludovic Rousseau, Christophe Levantis
 #
 #    This program is free software; you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -102,7 +102,7 @@ getopts("vh");
 
 if ($opt_v)
 {
-	print "Version: 1.6, (c) 2002-2009, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "Version: 1.7, (c) 2002-2012, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
 	print "This software is free software (GNU General Public License)\n";
 	exit;
 }
