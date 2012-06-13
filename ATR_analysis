@@ -46,8 +46,18 @@ use warnings;
 use Getopt::Std;
 use Chipcard::PCSC::Card;
 
+# default value for XDG_CACHE_HOME
+# http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+my $Cache = "$ENV{HOME}/.cache";
+
+# check if XDG_CACHE_HOME env variable is set
+if (exists($ENV{XDG_CACHE_HOME}))
+{
+	$Cache = "$ENV{XDG_CACHE_HOME}";
+}
+
 # file containing the smart card models
-my @SMARTCARD_LIST = ( "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt", "/usr/local/share/pcsc/smartcard_list.txt");
+my @SMARTCARD_LIST = ( "$Cache/smartcard_list.txt", "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt", "/usr/local/share/pcsc/smartcard_list.txt");
 
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @FMax, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);
