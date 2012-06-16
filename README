@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.4.20 - 16 June 2012, Ludovic ROUSSEAU
+    - Makefile: Add arguments to CFLAGS instead of overwritting them
+    - 3 new ATRs
+
 1.4.19 - 13 June 2012, Ludovic ROUSSEAU
     - ATR_analysis: use XDG_CACHE_HOME env variable
       The smartcard_list.txt file is now searched in ~/.cache/ by default
