@@ -393,11 +393,13 @@ get_readers:
 
 				if (rgReaderStates_t[current_reader].cbAtr)
 				{
-					for (i=0; i<rgReaderStates_t[current_reader].cbAtr; i++)
-						sprintf(&atr[i*3], "%02X ",
-							rgReaderStates_t[current_reader].rgbAtr[i]);
+					unsigned int j;
 
-					atr[i*3-1] = '\0';
+					for (j=0; j<rgReaderStates_t[current_reader].cbAtr; j++)
+						sprintf(&atr[j*3], "%02X ",
+							rgReaderStates_t[current_reader].rgbAtr[j]);
+
+					atr[j*3-1] = '\0';
 				}
 				else
 					atr[0] = '\0';
