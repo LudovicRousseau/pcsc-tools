@@ -8,7 +8,7 @@ PCSC_LDLIBS ?= $(shell pkg-config libpcsclite --libs)
 DESTDIR ?= /usr/local
 
 VERSION := $(shell pwd | sed s/.*tools-//)
-CFLAGS := -Wall -O2 -g -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
+CFLAGS := $(CFLAGS) -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
 LDLIBS := $(PCSC_LDLIBS)
 # On xBSD systems use
 #LDLIBS = -lc_r $(PCSC_LDLIBS)
