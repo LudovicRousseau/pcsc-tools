@@ -80,10 +80,10 @@ int main(int argc, char *argv[])
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int opt;
 	int analyse_atr = TRUE;
-	char *blue = "";
-	char *red = "";
-	char *magenta = "";
-	char *color_end = "";
+	const char *blue = "";
+	const char *red = "";
+	const char *magenta = "";
+	const char *color_end = "";
 	int pnp = TRUE;
 
 	printf("PC/SC device scanner\n");
