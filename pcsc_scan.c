@@ -56,7 +56,7 @@ do { \
 	} \
 } while(0)
 
-void usage(void)
+static void usage(void)
 {
 	printf("usage: pcsc_scan [-n] [-V] [-h]\n");
 	printf("  -n : no ATR analysis\n");
