@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
 		term = getenv("TERM");
 		if (term)
 		{
-			int j;
+			size_t j;
 
 			/* for each known color terminal */
 			for (j = 0; j < sizeof(terms) / sizeof(terms[0]); j++)
