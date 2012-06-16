@@ -125,13 +125,13 @@ int main(int argc, char *argv[])
 		term = getenv("TERM");
 		if (term)
 		{
-			int i;
+			int j;
 
 			/* for each known color terminal */
-			for (i = 0; i < sizeof(terms) / sizeof(terms[0]); i++)
+			for (j = 0; j < sizeof(terms) / sizeof(terms[0]); j++)
 			{
 				/* we found a supported term? */
-				if (0 == strcmp(terms[i], term))
+				if (0 == strcmp(terms[j], term))
 				{
 					blue = "\33[34m";
 					red = "\33[31m";
