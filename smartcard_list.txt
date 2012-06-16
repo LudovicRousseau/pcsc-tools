@@ -493,6 +493,9 @@
 3B 3D 94 00 24 0E 00 96 00 00 86 60 31 B5 00 06 07
 	GSM SIM Tele2 Estonia; 2008
 
+3B 3D 94 00 44 4D 54 11 00 06 06 17 62 11 00 30 00
+	China Unicom SIM card
+
 3B 3E 94 00 80 31 00 73 FE 21 13 62 00 31 83 81 90 00
 	Vodafone (Italy) 64kB GSM SIM card
 
@@ -2431,6 +2434,9 @@
 	runnig STARCOS 3.4 and prouced by Giesecke & Devrient GmbH
 	http://www.gi-de.com/deu/de/products_and_solutions/products/tachograph_cards/Fahrtenschreiberkarten-5890.jsp
 
+3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 27 11 02 4C
+	SIM TELE2 Sweden
+
 3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 34 99 05 D0
 	GSM-SIM EMT "Diil", prepaid (Estonia)
 
@@ -2988,6 +2994,10 @@
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
 	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
+
+3B BE 96 00 00 41 05 20 00 00 00 00 00 00 00 00 00 90 00
+	CryptoMate64 USB Cryptographic token
+	http://www.acs.com.hk/index.php?pid=product&prod_sections=0&id=CRYPTOMATE64
 
 3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 .. 83 81 90 00 ..
 	Vodafone (Italy) 128 kB GSM SIM card
