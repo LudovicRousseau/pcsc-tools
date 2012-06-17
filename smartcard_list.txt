@@ -368,7 +368,7 @@
 	MBNA Europe Platinum Plus Mastercard
 	MasterCard Card - Worldcard - Yapıkredi / Turkey
 	Portugal BPI Visa Electron
-	Italian UniCreditCard (VISA or MasterCard) credit card
+	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
 3B 2A 00 80 65 A0 58 04 01 62 72 D6 43
 	Gemplus GemCombiXplore MPCOS Pro
@@ -939,7 +939,7 @@
 	UK Barclaycard VISA
 	UK Halifax Platinum VISA
 	UK HSBC MasterCard
-	Italian UniCreditCard (VISA or MasterCard) credit card
+	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
 3B 6D 00 00 00 31 C0 71 D6 64 19 16 01 00 84 90 00
 	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
@@ -1090,7 +1090,7 @@
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
 
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
-	Italian UniCreditCard (VISA or MasterCard) credit card
+	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
@@ -1106,20 +1106,22 @@
 	NatWest Visa Debit
 
 3B 6E 00 00 00 31 C0 71 86 65 02 02 04 04 41 83 90 00
-	CIBC Visa Platinum (CIBC is a Canadian Imperial Bank of Commerce)
-	ING Direct (Italy) Gold Visa credit card
-	ING Direct (Italy) Bancomat V PAY debit card
-	HSBC Canada (Interac/Cirrus/The Exchange) Debit Card: http://www.hsbc.ca
-	UniCredit (Italy) Bancomat Maestro debit card
+	CIBC (Canada) "Platinum" (VISA) credit card
+	ING Direct (Italy) "Gold" (VISA) credit card
+	ING Direct (Italy) "Bancomat" (V PAY) debit card
+	HSBC (Canada) (Interac/Cirrus/The Exchange) debit card
+	UniCredit (Italy) "Bancomat" (Maestro) debit card
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 37 83 90 00
-	UK NatWest Business MasterCard
-	UK NatWest Cashcard - Maestro / SOLO
-	Portugal Santander Totta Visa Electron "JÁ KÁ KONTA"
-	Australia ANZ Visa card
-	Portugal Millennium BCP VISA Electron debit Card
-	Visa Credit Card issued by Spain Openbank (www.openbank.es)
-	CIBC Debit Card (CIBC is a Canadian Imperial Bank of Commerce)
+	NatWest (UK) "Business" (MasterCard) credit card
+	NatWest (UK) (Maestro) debit card
+	Santander Totta (Portugal) "JÁ KÁ KONTA" (VISA Electron) debit card
+	ANZ (Australia) (VISA) credit card
+	Millennium BCP (Portugal) (VISA Electron) debit card
+	OpenBank (Spain) (VISA) credit card
+	CIBC (Canada) debit card
+	UniCredit (Italy) "Genius Card" (MasterCard) debit card
+	UniCredit (Italy) "UniCreditCard Click" (MasterCard) debit card
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
@@ -1128,6 +1130,9 @@
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 31 37 83 90 00
 	Electron VISA Credit Card (BANK OF Cyprus)
+
+3B 6E 00 00 00 31 C0 71 C6 65 42 2C 01 35 35 83 90 00
+	UniCredit (Italy) "UniCreditCard Classic" (VISA) credit card
 
 3B 6E 00 00 00 31 C0 71 C6 65 71 0C 04 35 36 83 90 00
 	NatWest VISA Business Debit
@@ -1150,7 +1155,7 @@
 	First Direct UK VISA Debit
 	Italian Cariparma Maestro
 	"Net+ Mastercard card" from netpluscards.com, Neteller
-	Italian UniCreditCard (VISA) credit card
+	UCFIN (Italy) "UniCreditCard Free" (VISA) credit card
 
 3B 6E 00 00 00 31 C0 71 D6 65 A3 03 01 80 00 83 90 00
 	UK First Direct (HSBC) Maestro / Cirrus
@@ -1297,7 +1302,8 @@
 
 3B 6F 00 00 80 5A .. 0[1-5] .. .. .. .. .. .. .. .. 82 90 00
 	Card supporting a Calypso application Rev 1
-	Typically: French "Navigo" transport card
+	Navigo (France) transport card
+	ACTV (Italy) transport card
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
 	transport bus/tram "atout.tag" semitag grenoble
@@ -1870,6 +1876,7 @@
 3B 88 80 01 00 00 00 00 00 71 71 00 09
 	OPUS Public Transport card (Montreal, Quebec, Canada) - Oberthur based
 	http://carteopus.info/
+	ACTV (Italy) transport card (RFID)
 
 3B 88 80 01 00 00 00 00 00 81 91 10 09
 	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
@@ -2622,6 +2629,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5C
+	AT&T (US) GSM SIM
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BE
 	Telenet N.V. Walk & Talk SIM Card Belgium
@@ -4391,21 +4401,16 @@
 	Atmel/Athena T0 Inverse Convention PC/SC Compliance Test Card No. 2
 
 3F EF 00 FF 81 31 .. 45 65 63
-	 Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
+	Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
 
 3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
 	Sky Digital (DSS satellite TV card) 2009 issue
 
+3F FD 13 25 02 50 80 0F .. B0 .. 69 FF 4A 50 D0 80 00 49 54 03
+	Sky (Italy) VideoGuard CAM card
+
 3F FD 13 25 02 50 80 0F 33 B0 08 FF FF 4A 50 90 00 00 47 4C 01
-	NDS VideoGuard card - Sky Brasil GL39 Blue
-
-3F FD 13 25 02 50 80 0F 33 B0 13 69 FF 4A 50 D0 80 00 49 54 03
-	Sky Italia (satellite card, NDS3)
-
-3F FD 13 25 02 50 80 0F 54 B0 04 69 FF 4A 50 D0 80 00 49 54 03
-	SKY Italia payTV
-	[videoguard2-reader] type: VideoGuard Sky Italia (09CD), caid: 09CD
-	[videoguard2-reader] serial: xxxxxxxx, BoxID: xxxxxxxx, baseyear: 1997
+	Sky (Brasil) VideoGuard CAM card
 
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
@@ -4414,10 +4419,10 @@
 	Astro (Pay TV) http://www.astro.com.my
 
 3F FF 11 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 11
-	PayTV card from Sky Deutschland (www.sky.de), Encryption: NDS V13 by Videoguard, Distribution Standard: DVB-S
+	Sky (Germany) VideoGuard CAM card (www.sky.de)
 
 3F FF 13 25 02 50 80 0F 54 B0 03 FF FF 4A 50 80 00 00 00 00 47 4C 05
-	NDS VideoGuard card - Sky Brasil GL54 Red
+	Sky (Brasil) VideoGuard CAM card
 
 3F FF 13 25 03 10 80 33 B0 0E 69 FF 4A 50 70 00 00 49 54 02 00 00
 	Sky entitlement card
@@ -4439,6 +4444,12 @@
 
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
+
+3F FF 95 00 FF 91 81 71 .. 47 00 .. 4. 4. .. .. 3. 3. 3. 20 .. 65 7. .. .. .. ..
+	Nagravision TV CAM card — http://en.wikipedia.org/wiki/Nagravision
+
+3F FF 95 00 FF 91 81 71 .. 47 00 4E 43 4D 45 44 3. 30 3. 20 52 65 76 .. 3. 3. ..
+	Mediaset Premium (Italy) CAM card
 
 3F FF 95 00 FF 91 81 71 64 47 00 44 4E 41 53 50 30 30 33 20 52 65 76 33 32 33 FF
 	Satellite TV Card "Via Digital" (Nagra)
@@ -4464,9 +4475,6 @@
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 30 30 30 28
 	NagraVision (VG04) for Virgin Media (UK)
 	NagraVision 3 for DigiTV (Romania) http://www.rcs-rds.ro/televiziune-digi-tv/satelit
-
-3F FF 95 00 FF 91 81 71 A0 47 00 4E 43 4D 45 44 30 30 31 20 52 65 76 30 30 32 30
-	Mediaset Premiun from Italy
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 30 31 14
 	TVA Digital - Nagra Vision ID TV-01
@@ -4498,14 +4506,6 @@
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
 	Nagra 3 Digital Plus Spain
 
-3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 36 20 52 65 76 36 31 32 6E
-	Mediaset Premium card (Italian Digital Terrestrial Television Pay Per ViEw)
-
-3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 36 30 31 20 52 65 76 4D 30 35 12
-	name: Mediaset Premium
-	trasmission type: Terrestrial
-	Corporation: Mediaset by  R.T.I. (Reti Televisive Italiane)
-
 3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
 	Spanish pay TV card for GOLTV
 
@@ -4513,15 +4513,7 @@
 	PayTV card for DishNetwork Sat receiver http://www.dishnetwork.com/
 	Cards were obsoleted in nationwide system update in 2009.
 
-3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 34 20 52 65 76 34 30 31 6D
-	Italian Mediaset Premium pay per view encrypted digital video broadcasting smartcard
-
-3F FF 95 00 FF 91 81 71 FF 47 00 4E 43 4D 45 44 30 30 35 20 52 65 76 35 30 30 6C
-	name: Mediaset Premium
-	trasmission type: Terrestrial
-	Corporation: Mediaset by  R.T.I. (Reti Televisive Italiane)
-
 3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
-	"TIVU SAT" from ITALY www.tivu.tv
+	Tivu' Sat (Italy) CAM card www.tivu.tv
 
 # do not delete
