@@ -747,6 +747,10 @@
 3B 67 00 00 AB 40 40 26 09 90 00
 	Swedish VISA credit card (Volvofinans)
 
+3B 67 00 00 AB 40 40 27 0B 90 00
+	Sparebanken Vest, Norway (spv.no). Visa credit card and national
+	debit card [BankAxept] + Gemalto Todos authentication
+
 3B 67 00 00 B3 40 40 00 3B 90 00
 	Handelsbanken BankID card (Swedish bank authentication issued 2011)
 
@@ -772,10 +776,13 @@
 
 3B 68 00 00 00 73 C8 40 11 00 90 00
 	Woolworths Everyday Money prepaid Mastercard
-	Nordea (Finnish bank) Visa Electron
+	Nordea Bank Norway Visa + national debet card [BankAxept]
 
 3B 68 00 00 00 73 C8 40 12 00 90 00
 	Brazilian "e-CPF" card
+
+3B 68 00 00 00 73 C8 40 13 00 90 00
+	MASTERCARD issued by MLP (Marschollek, Lautenschläger and Partner)
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -928,6 +935,10 @@
 
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
+
+3B 6C 00 00 42 6C 75 6C 6F 67 6F 6E 20 34 4B 42
+	eID Blutronics Blulogon 4K
+	http://shop.blutronics.com/Prodotti.asp
 
 3B 6C 00 02 36 61 86 38 4B 8C 13 04 62 03 59 8A
 	Nagravision, Swiss mode
@@ -1187,6 +1198,18 @@
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
 
+3B 6E 00 00 62 6C 75 63 61 72 64 20 32 4B 42 2F 76 34
+	eID Blutronics Blucard 2K
+	http://blucard.blutronics.com
+
+3B 6E 00 00 62 6C 75 63 61 72 64 20 34 4B 42 2F 76 34
+	eID Blutronics Blucard 4K
+	http://blucard.blutronics.com
+
+3B 6E 00 00 62 6C 75 63 61 72 64 20 38 4B 42 2F 76 34
+	 eID Blutronics Blucard 8K
+	http://blucard.blutronics.com
+
 3B 6E 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	Opencard, new card in Prague, Czech Republic (transport card)
 
@@ -1233,6 +1256,10 @@
 3B 6F 00 00 00 68 2C 42 05 02 46 49 53 45 31 C8 07 90 00
 	VISA card, issued by Swedbank Latvia
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
+
+3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
+	eID Blutronics Blucard 16K
+	http://blucard.blutronics.com
 
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
@@ -3225,7 +3252,7 @@
 	website: http://www.actalis.it
 
 3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 81 01 11 01 43 4E 53 10 31 80 E8
-	Italian healtcare card (TS) National Service Card (CNS)
+	Italian healthcare card (TS) National Service Card (CNS)
 	Carta Regionale dei Servizi - Regione Lombardia
 	Tuscany TS-CNS http://www.regione.toscana.it/cartasanitaria
 
@@ -4165,7 +4192,7 @@
 	Carta Regionale dei Servizi - Regione Lombardia
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 0C 01 11 01 43 4E 53 10 31 80 05
-	Healtcare card (TS-CNS) - Provincia Autonoma di Trento
+	Healthcare card (TS-CNS) - Provincia Autonoma di Trento
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
