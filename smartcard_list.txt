@@ -475,6 +475,9 @@
 3B 3B 96 00 40 22 51 00 00 42 00 33 33 90 00
 	Wind (Italy) 128K GSM SIM card
 
+3B 3B 96 00 40 54 01 00 00 0A C0 33 33 90 00
+	Wind (Italy) 64K prepaid GSM SIM card
+
 3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 82 90 00
 	Orange Mobicarte (SIM card old generation)
 
@@ -1155,6 +1158,7 @@
 3B 6E 00 00 00 31 C0 71 C6 65 71 0C 04 35 36 83 90 00
 	NatWest VISA Business Debit
 	VISA Debit Card (NatWest / ING DiBa)
+	Komercni Banka, A.S., Visa Debit, Czech Republic
 
 3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
@@ -1657,6 +1661,9 @@
 	"OpenCard" - card issued by Prague local authority
 	dual card: chip used for electronic certificates
 
+3B 7E 94 00 00 80 25 D2 03 10 01 00 56 00 00 00 01 01 00
+	Personal identity card (ID card) of Czech Republic
+
 3B 7E 94 00 00 80 31 80 66 47 50 91 45 03 13 83 0F 90 00
 	JTOP Trusted Logic
 
@@ -2030,6 +2037,9 @@
 3B 8A 80 01 4A 43 4F 50 34 31 56 32 32 31 7F
 	NXP JCOP 41 v2.2.1 72k RFID I/F
 
+3B 8A 80 01 80 31 B8 73 84 01 E0 82 90 00 06
+	German ID Card - Personalausweis
+
 3B 8A 80 01 80 31 F8 73 F7 41 E0 82 90 00 75
 	ePerso - German ID card
 
@@ -2076,6 +2086,10 @@
 
 3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
 	Czech Republic e-Passport (issued Feb 2009)
+
+3B 8E 80 01 13 78 80 80 02 46 49 4F 4D 4B 5F 30 30 31 4E
+	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contactless chip)
+	note the ASCII string 'FIOK_001N' embedded in ATR
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
@@ -2368,6 +2382,9 @@
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	GemCombiXpresso R4 72K (contactless interface)
+
+3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 90 00 A6
+	GEMALTO WM GX4 72 DHS TSA (contactless interface)
 
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
@@ -2669,6 +2686,9 @@
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
+
+3B 9F 95 80 1F C7 80 31 A0 73 BE 21 13 67 D0 02 04 09 01 00 00 05
+	T-Mobile SIM card issued in Germany 2012
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C2
 	sysmocom sysmoUSIM-GR1
@@ -3220,6 +3240,9 @@
 	Oberthur Cosmo v7 128K with PIV applet
 	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
 
+3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 38
+	Athena IDProtect Smart Card Logon Card
+
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 08 00 07 90 00 FE
 	Oberthur Cosmo v7 IAS ECC
 
@@ -3336,6 +3359,7 @@
 
 3B E7 00 FF 81 31 FE 45 44 30 38 2E 30 20 36 57
 	EMV (MasterCard) card, issued by Raiffeisen Bank in Russia
+	"Deutsche Kreditbank AG" Visa Card produced by AustriaCard GNC
 
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
@@ -3441,6 +3465,10 @@
 
 3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 53 44 41 30 30 35 31 00 E4
 	Visa (Sampo Estonia, 2010)
+
+3B EF 00 00 81 31 FE 45 46 49 4F 4D 4B 5F 30 30 31 20 30 31 30 41 00 9C
+	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contact chip)
+	note the ASCII string ' FIOMK_001 010A' embedded in ATR
 
 3B EF 00 00 81 31 FE 65 00 5C 50 43 53 D1 91 47 D2 76 00 00 38 33 00 70
 	Siemens/Infineon Sicrypt S26381-F252-V1 GS:03
@@ -4054,6 +4082,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 08 65 07 64 00 0D 91 04 90 00 06 16 0E
 	German Railway's (Deutsche Bahn AG) "Konzernausweis"
+
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 0C 76 07 64 00 0D 95 81 20 00 07 30 0F
+	Master Card Credit Card issued by WGZ bank (all german volksbank institutes use them)
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 03 50 02 80 00 08 27 70 02 06 05 01 8A
 	old banking card (electronic-card / Maestro / Geldkarte) of the
