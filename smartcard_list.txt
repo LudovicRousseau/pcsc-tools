@@ -1098,6 +1098,9 @@
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 22
 	Visa debit card
 
+3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 33
+	SberBank Silver Debit Card (VISA)
+
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 39
 	Paypal Italy prepaid Mastercard
 
@@ -1186,9 +1189,11 @@
 	VISA issued by Czech's "Komercni banka" (member of Societe General group)
 	Portugal Caixa Geral de Depositos debit card
 	The co-operative bank VISA Debit
+	SberBank Silver Debit Card (VISA)
 
 3B 6E 00 00 00 31 C0 71 D6 65 CE 0B 01 40 00 83 90 00
-	Nationwide InvestDirect  (bank)
+	Nationwide InvestDirect (bank)
+	SberBank Gold Credit Card (VISA)
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
@@ -1913,7 +1918,7 @@
 	https://www.geldkarte.de/_www/en/pub/geldkarte/service_navigation/about_us.php
 
 3B 87 80 01 C1 05 2F 2F 01 BC D6 A9
-	RFID - ISO 14443 Type A -  NXP Mifare Plus
+	RFID - ISO 14443 Type A - NXP Mifare Plus
 
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
@@ -1948,7 +1953,7 @@
 	Ideal v 1.4 (Transport)
 
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
-	RFID - ISO 14443 Type A -  NXP JCOP
+	RFID - ISO 14443 Type A - NXP JCOP
 
 3B 88 80 01 C9 12 07 52 02 00 81 10 14
 	electronic Tickes from the german Transport Association VGN (Verkehrsgemeinschaft Niederrhein)
@@ -2377,7 +2382,7 @@
 
 3B 8F 80 01 80 5A 08 03 03 00 00 00 01 52 43 21 82 90 00 FF
 	Carte Mode Pass (Used in Clermont-Ferrand, France, to store personal
-	information and T2C subscription.  T2C is the public transport
+	information and T2C subscription. T2C is the public transport
 	company of Clermont-Ferrand: http://www.t2c.fr/)
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
@@ -2552,6 +2557,10 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
 	H3G (Ireland, UK) UMTS USIM card
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 26 1C 01 00 38
+	GSM-SIM Telefonica Movistar, contract (Spain)
+	http://www.movistar.es/
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 C4 00 00 EF
 	H3G (Italy) UMTS USIM card
 
@@ -2592,7 +2601,7 @@
 	GemXplore Generation 3G
 
 3B 9F 13 81 31 FE 45 80 67 55 45 4B 41 45 12 61 31 80 73 B3 A1 80 1C
-	UKiS 1.2.1  on YITAL chip
+	UKiS 1.2.1 on YITAL chip
 
 3B 9F 13 81 31 FE 45 80 67 55 45 4B 41 45 12 64 31 80 73 B3 A1 80 19
 	UKiS 1.2.1 on HNEC chip
@@ -2681,6 +2690,9 @@
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 64 06 90 61 00 82 90 00 31
 	3G SIM card from AT&T USA
 
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 64 06 90 62 00 82 90 00 32
+	AT&T GoPhone SIM Card
+
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 64 9B 4D 01 11 82 90 00 00
 	Singular (now AT&T) 3G GSM SIM Card
 
@@ -2696,6 +2708,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 36 00 82
+	TELUS 3G SIM Card
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5C
 	AT&T (US) GSM SIM
@@ -2827,6 +2842,9 @@
 
 3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
 	Gemalto Speed Enhancement 97 (Telecommunication)
+
+3B 9F D6 80 B1 A0 59 1F C7 53 4C 45 38 38 5F 50 53 4C 5F 56 30 2E 35 30 01
+	Infineon SLE88CFX4000P
 
 3B A7 00 40 .. 80 65 A2 08 .. .. ..
 	Gemplus GemSAFE Smart Card (8K)
@@ -3161,6 +3179,7 @@
 
 3B D5 18 00 81 31 FE 7D 80 73 C8 21 10 F4
 	Bank of Lithuania Identification card
+	Aladdin PRO/Java card http://www.aladdin-rd.ru/catalog/etoken/java/
 
 3B D5 18 FF 80 91 FE 1F C3 80 73 C8 21 13 08
 	Athena IDProtect (JavaCard 2.2.2)
@@ -3249,6 +3268,9 @@
 3B DD 18 00 81 31 FE 45 90 4C 41 54 56 49 41 2D 65 49 44 90 00 8C
 	Identity card (eID) Republic of Latvia
 	http://www.pmlp.gov.lv/lv/pakalpojumi/passes/eid.html
+
+3B DD 18 FF C0 80 B1 FE 45 1F C3 00 68 D2 76 00 00 28 04 04 11 00 90 00 C9
+	Russian Federation driver card for the digital tachograph
 
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" G3 (State Health Insurance Card)
@@ -3460,6 +3482,9 @@
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 11 23 10 02 53 41 43 45 81 04 12
 	VISA card issued by UBS, Switzerland
 
+3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 44 44 41 30 30 35 35 00 F7
+	Master Card (emitted by bank Nordea - Lithuania)
+
 3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 53 44 41 30 30 34 30 00 E4
 	VISA (Danske Bank Eesti / www.sampopank.ee)
 
@@ -3564,7 +3589,7 @@
 	Japanese Digital CATV C-CAS card
 
 3B F0 13 00 00 10 00
-	MasterCard ETEC InterOp 27.  This is an dual-app Maestro/MasterCard Credit EMV test card
+	MasterCard ETEC InterOp 27. This is an dual-app Maestro/MasterCard Credit EMV test card
 
 3B F2 18 00 00 C1 0A 31 FE 55 C8 06 75
 	HID iCLASS P16K C4H
