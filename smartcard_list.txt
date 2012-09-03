@@ -153,6 +153,9 @@
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
 
+3B 15 11 12 CA 07 11 CA
+	DRE Crypt (Pay TV)
+
 3B 15 11 12 CA 07 14 CF
 	PlatformaHD (Russia) DRE Crypt 4AE1:14
 
@@ -702,8 +705,13 @@
 	Swiss ZKB-Bancomat-Card
 
 3B 67 00 00 29 20 00 6F 78 90 00
-	Postbank Chippas (chipknip) Netherlands
+	ING (previously Postbank Chippas) (chipknip) Netherlands
 	Rabobank bankcard (dutch)
+	ASN Bank debit card
+	SNS Bank debit card
+
+3B 67 00 00 29 20 00 6F 78 9A 00
+	ABN AMRO wereldpas
 
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
@@ -1374,6 +1382,9 @@
 	http://www.uclouvain.be/sites/security/mobib.html
 	Calypso application similar to French NAVIGO
 
+3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
+	LBB Berlin, MasterCard (ADAC branding?)
+
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
 	http://www.fnmt.es/es/html/tage/fichaTarjeta/fp1_ta_01.asp
@@ -1476,7 +1487,7 @@
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
 
 3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
-	amazon.de / LBB VISA Card
+	LBB VISA Card
 
 3B 79 98 00 00 50 01 01 04 01 00 01 01 A9
 	Gemalto PayFlex used in Aristocrat System 7000 Casino Management System (South Africa only)
@@ -1754,6 +1765,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 17 B4 64 05 66 98 36 83 83 90 00
 	Credit Card Banorte International, México
+
+3B 7F 13 00 00 80 31 C0 52 18 97 64 02 B3 02 37 83 83 90 00
+	tool-valley (vale-pedagio) from Bradesco
 
 3B 7F 13 00 00 80 31 C0 52 34 D6 64 05 66 94 61 83 83 90 00
 	Visa Credit Card issued by Spain Obsidiana (www.obsidiana.com)
@@ -2569,6 +2583,7 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 7A 00 00 00 79
 	Simyo SIM Card, Spanish Mobile Company
+	Hi SIM
 
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
@@ -2654,6 +2669,9 @@
 
 3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 A9
 	GSM-SIM Elisa (Estonia, WPKI eID support)
+
+3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AC
+	Vodafone SIM (mobile phone)
 
 3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 10 31 41 00 B0
 	SIM card O2 (UK, Pay-As-You-Go)
@@ -3271,6 +3289,9 @@
 
 3B DD 18 FF C0 80 B1 FE 45 1F C3 00 68 D2 76 00 00 28 04 04 11 00 90 00 C9
 	Russian Federation driver card for the digital tachograph
+
+3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C9
+	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
 
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" G3 (State Health Insurance Card)
