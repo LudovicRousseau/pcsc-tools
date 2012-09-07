@@ -397,6 +397,7 @@
 
 3B 2A 00 80 65 A2 01 01 01 3D 72 D6 43
 	GEMPLUS Logico Secure SmartCard for Citrix Metaframe
+	PTTPost Easy Stamp
 
 3B 2A 00 80 65 A2 01 02 01 31 72 D6 43
 	MPCOS-EMV 64K Functional Sample
@@ -771,6 +772,10 @@
 3B 67 00 00 C4 30 40 01 0B 90 00
 	MasterCard issued by Czech's "Ceskoslovenska obchodni banka"
 	Swedish Maestro bank card (Handelsbanken)
+
+3B 67 25 00 29 20 00 6F 78 90 00
+	Albert Heijn klantenkaart (loyalty card)
+	Rabopas (Rabobank)
 
 3B 67 25 00 2A 20 00 4[0,5] 68 90 00
 	Swedish cashcard (proton)
@@ -1712,6 +1717,9 @@
 3B 7F 11 00 00 80 31 C0 52 35 31 64 05 66 61 52 83 83 90 00
 	Oberthur Manufactured VISA Banking card (www.caixaterrassa.cat)
 
+3B 7F 13 00 00 80 31 C0 52 02 71 64 05 62 34 70 83 83 90 00
+	Mastercard Debit Card issued by Caixa d'Enginyers (http://www.caixa-enginyers.com ) - Servired
+
 3B 7F 13 00 00 80 31 C0 52 05 6E 64 02 53 04 36 83 83 90 00
 	Mastercard from Banc Sabadell in Spain
 
@@ -1728,6 +1736,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 0A A6 64 02 B3 02 37 83 83 90 00
 	Credit card Visa Classic by "La Caixa" (Spain)
+
+3B 7F 13 00 00 80 31 C0 52 0A D6 64 05 66 94 61 83 83 90 00
+	Visa Credit Card issued by Caixa d'Enginyers (http://www.caixa-enginyers.com ) - Servired
 
 3B 7F 13 00 00 80 31 C0 52 0B 71 64 05 66 98 36 83 83 90 00
 	OuroCard VISA International - Banco do Brasil
@@ -1843,6 +1854,9 @@
 
 3B 83 00 12 10 96
 	GSM-SIM T-Mobil D1 (900MHz)
+
+3B 84 00 91 18 01 00
+	Proximus 075 Belgacom Mobile SIM
 
 3B 84 80 01 00 00 90 00 95
 	German (test) passport issued in january 2010
@@ -2081,6 +2095,9 @@
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
 	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
+
+3B 8B 81 31 40 34 53 4D 41 52 54 53 43 4F 50 45 31 6D
+	Zeeland kaart (Telecommunication)
 
 3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
 	RFID - NFC Forum tag type 3 (FeliCa)
@@ -3300,6 +3317,9 @@
 3B DD 97 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C8
 	German "eGK" (State Health Insurance Card)
 
+3B DD 97 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 96 21 D0 00 90 C8
+	German public health insurance card ("Gesundheitskarte"), issuer Knappschaft
+
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
 
@@ -4421,7 +4441,7 @@
 3F 65 25 08 65 04 6C 90 00
 	CB visa Boursorama France (Axalto)
 
-3F 65 35 10 02 04 6C 90 00
+3F 65 35 10 0. 04 6C 90 00
 	Postcard (Switzerland)
 
 3F 65 35 64 02 04 6C 90 40
@@ -4442,6 +4462,7 @@
 
 3F 67 25 00 2A 20 00 40 68 9F 00
 	Swiss Cash card
+	Chipknip SNS Bank (banking card)
 
 3F 67 25 00 2A 20 00 41 68 90 00
 	ChipKnip
