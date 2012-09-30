@@ -190,6 +190,9 @@
 3B 16 94 81 10 06 01 81 3F
 	Schlumberger Cyberflex Access Crypto
 
+3B 16 94 D0 01 76 0D 2A 00
+	Peruvian GSM SIM
+
 3B 16 95 D0 00 45 F7 01 00
 	Telefónica O2 Czech Republic, a.s. - O2 sim card - 173285 / SIM64ND.GO0
 	http://www.o2.cz
@@ -580,6 +583,9 @@
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A 1B 00 11 40 90 00
 	SCM Chipdrive MyKey SC
 
+3B 5F 95 00 80 73 00 01 00 59 43 4C 5A 1C 00 11 40 90 00
+	"CardLogic" CLXSU256KF5
+
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
@@ -811,6 +817,10 @@
 
 3B 68 00 00 80 62 00 3C 83 00 90 00
 	Italian PostePay prepaid VISA-Electron
+	PagoBancomat (Debtcard) Maestro - Intesa Sanpaolo Bank / Italy
+
+3B 68 00 00 80 62 00 45 83 00 90 00
+	MasterCard - Intesa Sanpaolo Bank / Italy
 
 3B 68 00 00 80 66 45 46 01 38 18 03
 	FNMT WG108k
@@ -1244,6 +1254,10 @@
 3B 6E 00 00 80 31 80 66 B0 07 03 00 AC 01 83 00 90 00
 	e-payment card with topup system, propreteary by local bank
 	http://www.klikbca.com/individual/silver/product.html?s=69
+
+3B 6E 00 00 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
+	Nordea (a Skandinavian bank) eID card
+	http://linux.fi/wiki/Nordea_eID
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -2573,6 +2587,9 @@
 
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
+
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 02 5F 00 33
+	Vivo Brasil SIM Card
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
@@ -3950,6 +3967,9 @@
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
 
+3B FD 18 00 00 80 31 FE 45 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 DC
+	G&D Sm@Cafe 3.1 (eID)
+
 3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
 	Croatian Health Care card
 
@@ -4549,6 +4569,9 @@
 
 3F 7F 13 25 03 33 B0 06 69 FF 4A 50 D0 00 00 53 59 00 00 00
 	Sky 2005/6 (DSS satellite TV card)
+
+3F 7F 13 25 03 33 B0 11 69 FF 4A 50 50 00 00 49 56 01 00 00
+	Indonesia Videoguard 2 card
 
 3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
 	DSS/DTV HU
