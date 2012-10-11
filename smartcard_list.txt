@@ -193,6 +193,9 @@
 3B 16 94 D0 01 76 0D 2A 00
 	Peruvian GSM SIM
 
+3B 16 94 D0 01 7B 2C 0E 00
+	SIM tunisiana
+
 3B 16 95 D0 00 45 F7 01 00
 	Telefónica O2 Czech Republic, a.s. - O2 sim card - 173285 / SIM64ND.GO0
 	http://www.o2.cz
@@ -614,6 +617,7 @@
 	VISA credit card (Skandiabanken)
 	VISA credit card (Banque Populaire)
 	Banque Postale card (bank)
+	Société Générale (visa / jazz)
 
 3B 65 00 00 20 63 CB 68 00 26
 	VISA Société Générale - Oberthur CS
@@ -681,9 +685,15 @@
 	Carte etudiant Paris 1 moneo BNP Paribas france (Oberthur)
 	Carte Monéo Caise d'épargne Crouse de Lyon
 
+3B 66 00 00 90 D1 02 01 10 B1
+	Moneo card (e-purse)
+
 3B 66 00 00 90 D1 02 01 10 B1 3B 02 14 50
 	Card "Bordeaux Ma Ville" (yellow)
 	http://www.bordeaux.fr/ebx/portals/ebx.portal?_nfpb=true&_pageLabel=pgPresStand8&classofcontent=presentationStandard&id=57733
+
+3B 66 00 00 90 D1 02 01 20 B1
+	Moneo card (e-purse)
 
 3B 66 00 00 90 D1 02 01 40 B1
 	Student card from Paris Diderot University (with Moneo)
@@ -1818,6 +1828,10 @@
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
 
+3B 7F 18 00 00 80 59 49 44 65 61 59 49 44 65 61 6C 5F 31 2E
+	e-CNPJ issued by Fenacon (eID)
+	http://www.fenacon.org.br
+
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
 	WG10
 
@@ -2128,6 +2142,9 @@
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
 
+3B 8D 80 01 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 3F
+	G&D SmartCafe Expert 3.2 80K Dual
+
 3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
 	JCOP30 contactless interface
 
@@ -2140,6 +2157,9 @@
 3B 8E 80 01 13 78 80 80 02 46 49 4F 4D 4B 5F 30 30 31 4E
 	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contactless chip)
 	note the ASCII string 'FIOK_001N' embedded in ATR
+
+3B 8E 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 38 30 5A
+	RFIDIOt G&D SmartCafe 80K
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
@@ -2631,6 +2651,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0C 72 00 12
 	Orange Austria GSM/3G SIM: "Mobiles Internet"
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00
+	SIM Free Mobile
+
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
 
@@ -2700,6 +2723,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 06 81 01 00 82 90 00 45
 	Mobicarte Orange
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 07 56 42 00 82 90 00 D0
+	SIM mobi orange
 
 3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 A9
 	GSM-SIM Elisa (Estonia, WPKI eID support)
