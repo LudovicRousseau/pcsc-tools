@@ -782,6 +782,9 @@
 3B 67 00 00 B3 40 40 00 3B 90 00
 	Handelsbanken BankID card (Swedish bank authentication issued 2011)
 
+3B 67 00 00 B4 40 40 25 0B 90 00
+	Electronic meal check
+
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
 
@@ -1367,6 +1370,9 @@
 
 3B 6F 00 00 80 31 E0 6B 05 12 05 02 87 55 55 55 55 55 55
 	American Express credit card
+
+3B 6F 00 00 80 31 E0 6B 07 14 05 02 8A 55 55 55 55 55 55
+	SolutionsBanking Canada Interac debit card
 
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
@@ -2456,6 +2462,9 @@
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 90 00 A6
 	GEMALTO WM GX4 72 DHS TSA (contactless interface)
 
+3B 90 16 01 87
+	BIFIT USB-Token iBank2key
+
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
 
@@ -2610,6 +2619,9 @@
 
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 02 5F 00 33
 	Vivo Brasil SIM Card
+
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 06 34 00 5C
+	SIM card SFR 250 128ko
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
@@ -2789,6 +2801,10 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 36 00 82
 	TELUS 3G SIM Card
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 AA 83 07 90 00 24
+	2degrees NFC (Telecommunication)
+	http://www.2degreesmobile.co.nz/home
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5C
 	AT&T (US) GSM SIM
@@ -3337,6 +3353,9 @@
 	Oberthur Cosmo v7 128K with PIV applet
 	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
 
+3B DB 96 FF C0 10 31 FE 45 80 67 15 01 B4 03 00 09 00 81 05 21
+	Digital Tachograph Card for Professional Driver
+
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 38
 	Athena IDProtect Smart Card Logon Card
 
@@ -3394,6 +3413,10 @@
 
 3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 3B
 	NXP SAM AV2 module
+
+3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
+	Test PIV Cards available for sale from NIST
+	http://csrc.nist.gov/groups/SNS/piv/testcards.html
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -3941,6 +3964,10 @@
 
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
+
+3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 36 20 52 45 56 20 4D 6A
+	ZeitControl BasicCard ZC5.6 user-programmable smart card
+	http://www.basiccard.com/index.html?overview.htm
 
 3B FB 13 00 FF 81 31 80 75 5A 43 36 2E 35 20 52 45 56 20 43 64
 	ZeitControl BasicCard 6.5, multiapplication with 30 kByte EEPROM
