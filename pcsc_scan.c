@@ -309,9 +309,12 @@ get_readers:
 				goto get_readers;
 		}
 
-		/* Timestamp the event as we get notified */
-		t = time(NULL);
-		printf("\n%s", ctime(&t));
+		if (rv != SCARD_E_TIMEOUT)
+		{
+			/* Timestamp the event as we get notified */
+			t = time(NULL);
+			printf("\n%s", ctime(&t));
+		}
 
 		/* Now we have an event, check all the readers in the list to see what
 		 * happened */
