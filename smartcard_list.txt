@@ -1636,6 +1636,9 @@
 3B 7D 94 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
 	personal identity card (ID card) of Republic of Lithuania
 
+3B 7D 94 00 00 80 31 80 65 B0 83 11 48 C8 83 00 90 00
+	Online banking http://www.getinbank.pl/
+
 3B 7D 94 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
 	GemXpresso R4 72K
 
@@ -1874,6 +1877,7 @@
 3B 81 80 01 80 80
 	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
 	"Reiner LoginCard" (or "OWOK", how they name it, https://cardlogin.reiner-sct.com/) - they have been distributed by a german computer magazine ("Computer BILD")
+	Belgium A-kaart (Antwerp citycard)
 
 3B 82 00 55 19
 	GSM card 'Hi' (KPN brand)
@@ -1956,6 +1960,9 @@
 
 3B 85 80 01 4D 79 45 49 44 78
 	MyEID
+
+3B 85 80 01 80 73 84 21 40 12
+	Dutch Biometric Passport
 
 3B 86 40 20 68 01 01 02 04 AC
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
@@ -2386,6 +2393,7 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
 	Bangkok Airport Link
+	Dutch ov-chipkaart (public transportation)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
@@ -4696,6 +4704,9 @@
 
 3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 4B 01 00 00
 	Pay TV, Viasat Ukraine
+
+3F FF 14 25 03 10 80 41 B0 02 69 FF 4A 50 70 80 00 41 4F 01 00 14
+	Pay TV
 
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
