@@ -130,6 +130,12 @@ Licences:
 History:
 ========
 
+1.4.21 - 5 Dec 2012, Ludovic ROUSSEAU
+    - Do not log the time every second on "old" PC/SC without support of
+      \\?PnP?\Notification like on Mac OS X.
+    - 79 new ATRS
+    - minor fixes
+
 1.4.20 - 16 June 2012, Ludovic ROUSSEAU
     - Makefile: Add arguments to CFLAGS instead of overwritting them
     - 3 new ATRs
