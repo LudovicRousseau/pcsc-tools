@@ -698,6 +698,11 @@
 3B 66 00 00 90 D1 02 01 40 B1
 	Student card from Paris Diderot University (with Moneo)
 
+3B 66 00 00 90 D1 02 01 52 B1
+	Pass Campus Alsace, a mix of a student card, a transport card (Badgeo) and a Moneo
+	http://www.passcampus-alsace.fr/
+	http://www.cts-strasbourg.fr/Tarifs/Carte%C3%A0puceBadgeo/tabid/598/language/fr-FR/Default.aspx
+
 3B 66 00 00 D0 00 47 44 00 80
 	VISA credit card (RBC Royal Bank)
 
@@ -732,6 +737,9 @@
 
 3B 67 00 00 2A 20 00 41 78 90 00
 	Prepaid Chipknip Netherlands
+
+3B 67 00 00 2D 20 16 01 78 90 00
+	CNAMTS and CPAM SSO card (French Health Insurance)
 
 3B 67 00 00 2D 20 36 00 78 90 00
 	Swedish cashcard, http://www.ida.liu.se/~TDDB31/Cashcard.pdf
@@ -794,6 +802,9 @@
 3B 67 00 00 C4 30 40 01 0B 90 00
 	MasterCard issued by Czech's "Ceskoslovenska obchodni banka"
 	Swedish Maestro bank card (Handelsbanken)
+
+3B 67 00 FF C5 00 00 FF FF FF FF 5D
+	Alice Tv italia (Pay TV)
 
 3B 67 25 00 29 20 00 6F 78 90 00
 	Albert Heijn klantenkaart (loyalty card)
@@ -1951,6 +1962,9 @@
 3B 85 40 FF 63 01 01 03 01
 	Axalto Cryptoflex 16K
 
+3B 85 80 01 20 63 CB A0 00 2C
+	Visa card from Banque populaire du nord/Casden
+
 3B 85 80 01 20 63 CB A1 80 AD
 	bpaid: bpost prepaid Mastercard (contactless)
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
@@ -2367,6 +2381,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 35 00 00 00 00 ..
 	i-Code SL2 (as per PCSC std part3)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 00 00 00 00 00 00 00 68
+	NFC/RFID "Android Beam" mode on a Sony Xperia Ion
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 01 .. .. 00 00 00 00 ..
 	RFID - ISO 14443 Type A Part 1 (as per PCSC std part3)
 
@@ -2400,6 +2417,7 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 FF 00 00 00 00 94
 	ACTV (Italy) prepaid transport ticket
+	"NFC Tag" — Sony's "Smart Tags"
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 F0 04 00 00 00 00 9F
 	NFC FORUM TYPE 1 TAG
@@ -3393,6 +3411,9 @@
 
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C9
 	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
+
+3B DD 96 FF 81 B1 FE 45 1F 03 00 64 05 73 10 A6 73 D6 21 C0 00 90 00 53
+	New european health insurance card of the German health insurance "BKK HERKULES"
 
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" G3 (State Health Insurance Card)
@@ -4516,7 +4537,7 @@
 3F 65 25 00 52 09 6A 90 00
 	French carte Vitale
 
-3F 65 25 00 A4 09 6A 90 00
+3F 65 25 00 A[3,4] 09 6A 90 00
 	Sesam Vitale (French health card)
 
 3F 65 25 08 22 04 68 90 00
