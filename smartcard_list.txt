@@ -488,6 +488,9 @@
 3B 3B 96 00 40 54 01 00 00 0A C0 33 33 90 00
 	Wind (Italy) 64K prepaid GSM SIM card
 
+3B 3C 11 00 40 AF 13 F3 12 00 06 87 83 80 90 00
+	SIM GSM Orange Fr
+
 3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 82 90 00
 	Orange Mobicarte (SIM card old generation)
 
@@ -639,6 +642,9 @@
 3B 65 00 00 20 63 CB A1 80
 	bpaid: bpost prepaid Mastercard
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
+
+3B 65 00 00 20 63 CB A3 A0
+	VISA card from Banque Populaire
 
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
@@ -1196,6 +1202,7 @@
 	CIBC (Canada) debit card
 	UniCredit (Italy) "Genius Card" (MasterCard) debit card
 	UniCredit (Italy) "UniCreditCard Click" (MasterCard) debit card
+	VISA Electron debit card from the Spanish branch of ING Direct (bank)
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 03 3A 83 90 00
 	MasterCard hostet by Deutsche Bank, Germany
@@ -1306,6 +1313,10 @@
 
 3B 6F 00 00 00 66 4D 45 31 B1 03 01 53 08 61 04 F0 90 00
 	Spanish UCAM University smart ID card - (M.Mar OS) - Also used by many others spanish universities
+
+3B 6F 00 00 00 66 4D 45 66 80 03 .. 53 06 61 03 F0 90 00
+	Millenium Card (www.coruna.es/millennium) municipal city card for A Coruña, Spain.
+	electronic wallet for paying services like parking meter or public service (bus) transportation.
 
 3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00
 	spanish MAESTRO debit card, from Unicaja bank
@@ -1425,6 +1436,9 @@
 
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 1B 4B 59 82 90 00
 	"OPUS Card" Quebec's Bus system.
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
+	Rav-Kav, Used by Israeli public transportation companies (Transport)
 
 3B 6F 00 00 80 5A 29 13 09 10 11 3[3,5] .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
@@ -1646,6 +1660,7 @@
 
 3B 7D 94 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
 	personal identity card (ID card) of Republic of Lithuania
+	LuxTrust card
 
 3B 7D 94 00 00 80 31 80 65 B0 83 11 48 C8 83 00 90 00
 	Online banking http://www.getinbank.pl/
@@ -2577,6 +2592,9 @@
 3B 98 96 00 80 31 C0 72 F7 41 81 07
 	Activ Rutoken Magistra
 
+3B 98 96 00 93 94 03 07 03 04 04 04
+	SIM card
+
 3B 99 18 00 11 88 22 33 44 55 66 77 60
 	sysmocom sysmoSIM-GR1
 
@@ -2696,6 +2714,9 @@
 	Orange Austria GSM/3G SIM: "Mobiles Internet"
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00
+	SIM Free Mobile
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00 EC
 	SIM Free Mobile
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
