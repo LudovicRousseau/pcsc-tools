@@ -297,6 +297,9 @@
 3B 1F 94 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
 	GSM-SIM Sonera (from 2002)
 
+3B 1F 95 80 31 00 73 12 21 13 57 4A 33 0E 19 32 33 00
+	Latvian GSM Operator BITE
+
 3B 23 00 00 36 41 81
 	Schlumberger Payflex 4k SAM
 
@@ -400,6 +403,9 @@
 
 3B 2A 00 80 65 A2 01 00 00 00 72 D6 43
 	MPCOS_EMV_4B
+
+3B 2A 00 80 65 A2 01 01 01 3C 72 D6 43
+	Estonian bank "SEB" (VISA Electron)
 
 3B 2A 00 80 65 A2 01 01 01 3D 72 D6 43
 	GEMPLUS Logico Secure SmartCard for Citrix Metaframe
@@ -847,6 +853,7 @@
 
 3B 68 00 00 56 53 44 43 4C 43 31 30
 	VISA (Estonian), made by www.trueb.ch
+	Latvian bank "Latvijas Krajbanka" (VISA Electron)
 
 3B 68 00 00 80 62 00 3C 83 00 90 00
 	Italian PostePay prepaid VISA-Electron
@@ -1021,6 +1028,7 @@
 3B 6D 00 00 00 31 C0 71 D6 64 19 16 01 00 84 90 00
 	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
 	Capital One (UK) MasterCard
+	VISA card, issued by Swedbank Latvia
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -2664,6 +2672,9 @@
 3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 06 A6 83 0F 90 00 F3
 	Orange UK GSM/UMTS SIM
 
+3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 09 A9 83 0F 90 00 F3
+	Estonian GSM operator TELE2
+
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
 
@@ -2754,6 +2765,10 @@
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 03 84 55 6D FF 80
 	Nagravision Betacrypt
+
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 03 84 55 FF 80 6D
+	TV smart card Sky Germany BEtacrypt 1702
+	http://providers.wikidot.com/sky-deutschland
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
@@ -3232,6 +3247,9 @@
 3B BE 18 00 00 41 05 10 00 00 00 00 00 00 00 00 00 90 00
 	ACS ACOS5 "ACOS5-32-G" http://www.acs.com.hk/acos5.asp
 	dual card
+
+3B BE 94 00 40 14 47 47 33 53 33 45 48 41 54 4C 39 31 30 00
+	Latvian GSM operator TELE2
 
 3B BE 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	touchatag SAM card
@@ -4788,7 +4806,8 @@
 	TVA Digital - Nagra Vision ID TV-01
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 30 37 12
-	UPC Austria, digital television encryption card
+	UPC Austria/UPC-Cablecom Switzerland, digital television encryption card
+	http://www.upc-cablecom.ch/
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 31 30 20 52 65 76 41 32 32 15
 	UM01 card from German Unitymedia cable TV provider
