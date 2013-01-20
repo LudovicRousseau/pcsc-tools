@@ -91,6 +91,9 @@
 3B 04 99 FF FF 90
 	Madrid prepaid parkimeters parking card
 
+3B 04 9C FF 21 43
+	Hercules laundry stored value card
+
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
 	Bahn BKK (Deutsche Bahn AG - Insurance Company)
@@ -459,6 +462,9 @@
 
 3B 3B 11 00 91 41 10 10 10 5B A0 00 33 90 00
 	Pannon SIM card (Hungary)
+
+3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
+	Slovenian national health insurance card
 
 3B 3B 94 00 4F 34 10 20 01 0. .0 33 33 90 00
 	Wind (Italy) GSM SIM card
@@ -1163,7 +1169,7 @@
 	Visa debit card
 
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 33
-	SberBank Silver Debit Card (VISA)
+	SberBank Silver Debit Card
 
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 39
 	Paypal Italy prepaid Mastercard
@@ -2046,8 +2052,9 @@
 3B 88 80 01 00 00 00 00 00 81 91 10 09
 	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
 
-3B 88 80 01 00 00 00 00 B3 71 71 00 BA
+3B 88 80 01 00 00 00 00 B3 71 71 .0 .A
 	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
+	Belgian MOBIB (transport)
 
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
 	Belgian passport
@@ -2229,6 +2236,9 @@
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport
 	Thai Passport 2005
+
+3B 8E 80 01 80 91 E1 31 C0 64 77 E3 03 00 83 82 90 00 6C
+	Belgian Passport
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
@@ -2675,6 +2685,9 @@
 3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 09 A9 83 0F 90 00 F3
 	Estonian GSM operator TELE2
 
+3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
+	MCI (Mobile Communication Company of Iran) SIM
+
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
 
@@ -2866,6 +2879,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 19 32 33 00 84
+	WIND Mobile SIM Card
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 36 00 82
 	TELUS 3G SIM Card
@@ -3394,6 +3410,10 @@
 
 3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
 	Oberthur Cosmo V7 64K Dual/128K
+
+3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 41 6F
+	ZeitControl BasicCard ZC7.5 user-programmable dual interface smart card
+	http://www.smartcardfocus.com/shop/ilp/id~380/BasicCard_ZC7_5_Dual_Interface/p/index.shtml
 
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	CAC (Common Access Card)
@@ -4165,6 +4185,9 @@
 
 3B FF .. 00 FF 81 31 .. 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ...
+
+3B FF 00 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 00 00 00
+	SafeNet SC650
 
 3B FF 00 FF 81 31 .. 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ...
