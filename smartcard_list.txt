@@ -110,6 +110,10 @@
 	(Shenzhen, China) Mingwah Aohan eKey, eID
 	http://en.mwcard.com/index.php?option=com_k2&view=item&layout=item&id=79&Itemid=439
 
+3B 06 00 00 04 2E CF 4C
+	HID 1346 ProxKey III
+	http://www.hidglobal.com/products/cards-and-credentials/hid-proximity/1346
+
 3B 06 00 10 01 D6 C5 46
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
@@ -206,6 +210,9 @@
 3B 16 96 41 73 74 72 69 64
 	Gemalto .NET v2.0
 
+3B 16 96 D0 00 D4 07 2C 00
+	Vodafone India Postpaid /  Local Operator 3G
+
 3B 17 11 80 65 AF 03 42 00 D8
 	TELE2 SPB SIM Russia
 
@@ -273,6 +280,9 @@
 
 3B 1F 11 00 6A 31 36 46 49 53 45 13 8C 02 FF 07 90 00
 	GSM-SIM card - Telenor Mobil - http://www.telenor.com/
+
+3B 1F 11 00 6A 31 38 46 49 53 45 13 8C 02 FF 07 90 00
+	Latvian GSM operator TELE2 (SIM)
 
 3B 1F 11 80 6A 16 32 46 49 53 45 15 8C E6 FF 07 90 00
 	GSM SIM card - Tele2 Estonia - http://www.tele2.ee
@@ -1005,6 +1015,9 @@
 3B 6B 00 FF 33 00 00 09 FA 10 00 80 01 FF FF
 	Atmel 6464C PRO 64K
 
+3B 6B 00 FF 56 43 41 52 44 5F 4E 53 53
+	NSSVirtual smart card for qemu
+
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
 
@@ -1185,6 +1198,9 @@
 
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
+
+3B 6E 00 00 00 31 C0 65 EC D4 02 00 08 71 D6 8C 61 33
+	Victoria Bank (Republic of Moldova) - Visa Electron
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
@@ -2018,6 +2034,9 @@
 	"OpenCard" - card issued by Prague local authority
 	dual card: RFID (1k Mirfare) used for parkimeters and as public traffic ticket
 
+3B 86 80 01 39 30 43 30 32 31 7E
+	Chase Freedom VISA card
+
 3B 86 80 01 44 49 20 30 32 4D 65
 	Lufthansa Miles & More Gold MasterCard PayPass
 
@@ -2521,6 +2540,10 @@
 	information and T2C subscription. T2C is the public transport
 	company of Clermont-Ferrand: http://www.t2c.fr/)
 
+3B 8F 80 01 80 5A 08 03 03 00 00 00 01 D3 37 72 82 90 00 59
+	French Transport Card Pass'bus (used in Metz, France)
+	http://www.tcrm-metz.fr/
+
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	GemCombiXpresso R4 72K (contactless interface)
 
@@ -2974,6 +2997,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 14 81 00 82 90 00 53
+	SFR operator 3G
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 54 61 00 82 90 00 F3
 	Aero2 (Poland) - A 900Mhz HSPA+ and 2500Mhz LTE wholesale telecom operator
@@ -4154,6 +4180,9 @@
 
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 00 C8 83 00 90 00 15
 	Gemalto TOP IM GX4 MSA081, T=1 (PKI)
+
+3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 48 C8 83 00 90 00
+	Pay TV
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
