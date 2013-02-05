@@ -1075,6 +1075,12 @@
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
 
+3B 6D 00 00 57 44 29 6C 80 86 93 D1 27 1F 13 32 3D
+	SCSTA (Transport)
+
+3B 6D 00 00 57 44 29 6C 80 86 93 D6 03 EE 08 2A 3D
+	SCSTA (Transport)
+
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
 
@@ -1871,6 +1877,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 17 B4 64 05 66 98 36 83 83 90 00
 	Credit Card Banorte International, México
+
+3B 7F 13 00 00 80 31 C0 52 18 80 64 05 66 98 36 83 83 90 00
+	Visa Electron Debit Card issued by "la Caixa"
 
 3B 7F 13 00 00 80 31 C0 52 18 97 64 02 B3 02 37 83 83 90 00
 	tool-valley (vale-pedagio) from Bradesco
@@ -2684,6 +2693,9 @@
 3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 00 04 08
 	XPlusTV & INXCT Access Card-9 (FIRECrypt)
 
+3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 90 05 99
+	FireCrypt, access card 9 (Pay TV)
+
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
 
@@ -3043,6 +3055,9 @@
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
+
+3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
+	"ultra fast card, max speed supported for telecom"? (transport)
 
 3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
 	Gemalto Speed Enhancement 97 (Telecommunication)
@@ -3713,6 +3728,9 @@
 3B EF 00 00 81 31 20 49 00 5C 50 43 54 10 27 F8 D2 76 00 00 38 33 00 4D
 	Infineon Technologies PC/SC Compliance Test Card V1.0
 
+3B EF 00 00 81 31 40 69 00 5C 50 43 53 35 C5 3A D2 76 00 00 38 33 00 0F
+	 Siemens Nixdorf Sicrypt
+
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
 
@@ -4144,6 +4162,9 @@
 	 Max numero dei tentativi PIN: 3
 	 Pin: da 5 a 8 digit
 	 Unblocked by tool CARDOS API 2.2
+
+3B FD 13 00 00 81 31 FE 45 41 37 30 30 36 43 47 20 32 34 32 52 31 D6
+	YubiKey NEO (token)
 
 3B FD 13 00 00 81 31 FE 45 4A 43 4F 50 32 31 76 32 33 31 47 44 54 E1
 	National Health Insurance Card, Taiwan
