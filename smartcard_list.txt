@@ -42,6 +42,8 @@
 
 3B 04 00 00 00 00
 	Laundromat payment card
+	Spanish ID ("DNIe: Documento Nacional de Identidad electrónico).
+	http://www.dnie.es/
 
 3B 04 07 3C 85 92
 	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
@@ -101,6 +103,9 @@
 
 3B 04 C9 D0 F1 40
 	Cuban prepaid phone card provided by ETECSA
+
+3B 04 FF FF FF FF
+	Identity card Universidad del Pais Vasco / Euskal Herriko Unibertsitatea www.ehu.es
 
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
@@ -445,6 +450,9 @@
 
 3B 32 15 00 06 95
 	Schlumberger Multiflex 8k DES
+
+3B 34 00 00 30 42 30 30
+	Conax card: T-Home Hungary
 
 3B 34 94 00 30 42 30 30
 	Conax card: ComHem sweden
@@ -1048,6 +1056,7 @@
 	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
 	Capital One (UK) MasterCard
 	VISA card, issued by Swedbank Latvia
+	MasterCard issued by Swedbank Estonia (manufacturer Oberthur)
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -1299,6 +1308,10 @@
 
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
+
+3B 6E 00 00 57 44 36 13 69 86 93 02 32 12 56 28 25 32
+	Watchdata Brazil CSP v1.0 (Banco do Brasil)
+	http://www.watchdata.com/en/bank/solutions.jsp
 
 3B 6E 00 00 62 6C 75 63 61 72 64 20 32 4B 42 2F 76 34
 	eID Blutronics Blucard 2K
@@ -1591,6 +1604,9 @@
 3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
 	LBB VISA Card
 
+3B 79 94 00 00 59 01 01 0E 01 6B 01 02 A9
+	Vending machine payment card ('Necta' brand)
+
 3B 79 98 00 00 50 01 01 04 01 00 01 01 A9
 	Gemalto PayFlex used in Aristocrat System 7000 Casino Management System (South Africa only)
 
@@ -1775,6 +1791,9 @@
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
 
+3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 00 01 16
+	CryptoPlus CS xg
+
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 81 01 17
 	Česká Spořitelna SERVIS24 certificate card
 	http://smallhacks.wordpress.com/2012/05/04/exploring-servis24-certificate-card-from-the-ceska-sporitelna-bank/
@@ -1850,6 +1869,10 @@
 3B 7F 13 00 00 80 31 C0 52 0D 1E 64 05 66 94 61 83 83 90 00
 	Universitat Politecnica de Valencia ID Visa Electron Card, http://www.upv.es
 
+3B 7F 13 00 00 80 31 C0 52 0D EA 64 05 66 94 61 83 83 90 00
+	Universitat Rovira i Virgili Identification Card
+	This card enables his/her propietary to sign documents and to access to rooms, laboratories and classes.
+
 3B 7F 13 00 00 80 31 C0 52 13 0B 64 02 B3 02 37 83 83 90 00
 	Visa Ourocard Platinum from Banco do Brasil
 
@@ -1889,6 +1912,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 35 0D 64 02 61 18 63 83 83 90 00
 	Visa Credit Card issued by Spain Caja Madrid (www.cajamadrid.es)
+
+3B 7F 13 00 00 80 31 C0 52 36 42 64 05 66 94 61 83 83 90 00
+	Visa debit card issued by Spain Caja Madrid bank
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
@@ -3556,6 +3582,13 @@
 
 3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 3B
 	NXP SAM AV2 module
+
+3B DF 96 00 80 31 FE 45 00 31 B8 64 04 1F EC C1 73 94 01 80 82 90 00 EC
+	Ministry of Interior - France "Agent Card"
+	(Carte Agent du Ministère de l'Intérieur Français)
+
+3B DF 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 82 90 00 DA
+	Finnish identity card given by the City of Helsinki to all members of city council, board and commitees
 
 3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
 	Test PIV Cards available for sale from NIST
