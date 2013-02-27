@@ -359,6 +359,9 @@
 3B 26 00 11 06 23 03 90 00
 	Tarjeta de la Seguridad Social (Spanish Social Insurance Card)
 
+3B 26 00 24 06 01 00 00 80
+	old KPN NetBox card
+
 3B 26 00 31 08 6C 03 90 00
 	VISA ELECTRON from Caixa Catalunya bank card (www.caixacatalunya.es) for students in UPC university of Barcelona (Spain) (www.upc.es)
 
@@ -606,6 +609,9 @@
 
 3B 3F 95 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16
 	"SIMYO" SIM card (KPN)
+
+3B 3F 96 00 80 69 AF 03 3D 00 C6 00 00 00 0E 83 1E 9F 16
+	GSM SIM card of the Austrian provider A1
 
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
@@ -1006,6 +1012,10 @@
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
 	http://account.entropiauniverse.com/account/security/
+
+3B 6B 00 00 42 6C 75 63 61 72 64 20 34 4B 42
+	Blutronics Blucard 4K (Loyalty)
+	http://blucard.blutronics.com
 
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
@@ -1513,9 +1523,11 @@
 3B 6F 00 00 80 66 B0 07 01 01 77 07 53 02 31 10 82 90 00
 	University ID card (issued by Banco Santander Central Hispano)
 	.
+	Universidad Nacional de Educación a Distancia (UNED, Spain)
+	http://www.uned.es/tarjeta
+	.
 	Universitat Politècnica de Catalunya (UPC.edu)
 	https://www.upc.edu/identitatdigital
-	http://www.univers.upc.edu/comunitatupc/NOUCARNETUPC
 	.
 	Universitat Ramon Llull (URL)
 	http://www.url.edu/cont/url/carnet.php
@@ -1579,6 +1591,7 @@
 
 3B 78 12 00 00 54 C4 03 00 8F F1 90 00
 	 Skylink irdeto from Towercom a.s. company
+	 irdeto card for the ORF (Austrian national public television) HD channels
 
 3B 78 12 00 00 65 C4 05 00 8F F1 90 00
 	Digitürk Cryptoworks
@@ -1853,6 +1866,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 08 4B 64 05 66 94 61 83 83 90 00
 	Visa Electron Card from a Spanish bank called "Caja de Ingenieros"
+
+3B 7F 13 00 00 80 31 C0 52 0A 45 64 02 B3 02 37 83 83 90 00
+	Bancaja online (Visa) Card , Entity : Bancaja Bank Spain (Bankia currently)
 
 3B 7F 13 00 00 80 31 C0 52 0A A6 64 02 B3 02 37 83 83 90 00
 	Credit card Visa Classic by "La Caixa" (Spain)
@@ -2188,11 +2204,17 @@
 	GSM-SIM (900MHz) card of the carrier t-mobile for their cellular
 	network (phase 2+ with 3V)
 
+3B 8A 00 91 91 00 16 00 01 03 0[3,4] 00 96
+	GSM-SIM max.mobil (since 2002: T-Mobile Austria)
+
 3B 8A 00 91 91 00 17 00 01 07 02 00 96
 	GSM-SIM T-Mobile Austria
 
 3B 8A 00 91 91 00 17 00 01 07 03 00 96
 	T-Mobile prepaid 2G SIM
+
+3B 8A 00 91 91 00 17 00 01 08 01 00 96
+	GSM-SIM T-Mobile Austria
 
 3B 8A 00 92 01 26 91 07 00 01 93 03 00
 	Kazakhstan driver licence
@@ -2299,6 +2321,9 @@
 
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
+
+3B 8F 80 01 45 50 41 00 00 00 00 60 56 34 84 00 00 00 00 DC
+	Austrian Quick E-purse contactless (http://www.quick.at/)
 
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 33 36 76
 	RFIDIOt JCOP 36K Blank (http://rfidiot.org)
