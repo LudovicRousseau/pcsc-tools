@@ -515,6 +515,9 @@
 3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
 	meteor ireland http://www.meteor.ie
 
+3B 3B 96 00 07 52 51 00 00 A8 FD 33 33 90 00
+	Movistar Costa Rica SIM card
+
 3B 3B 96 00 40 22 51 00 00 42 00 33 33 90 00
 	Wind (Italy) 128K GSM SIM card
 
@@ -678,6 +681,9 @@
 3B 65 00 00 20 63 CB A1 80
 	bpaid: bpost prepaid Mastercard
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
+
+3B 65 00 00 20 63 CB A3 00
+	BNP VISA CARD
 
 3B 65 00 00 20 63 CB A3 A0
 	VISA card from Banque Populaire
@@ -1954,6 +1960,9 @@
 	e-CNPJ issued by Fenacon (eID)
 	http://www.fenacon.org.br
 
+3B 7F 18 00 00 80 59 49 44 65 61 6C 5F 31 2E 34 83 07 90 00
+	Sagem YpsID s3
+
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
 	WG10
 
@@ -2096,6 +2105,9 @@
 
 3B 86 80 01 4A 43 4F 50 33 31 13
 	JCOP BIO 31 Contactless Card
+
+3B 86 81 31 70 34 45 50 41 20 45 4B 08
+	Austrian Quick E-purse "Einreichkarte" (transfer card) (http://www.quick.at/)
 
 3B 87 80 01 80 31 80 73 96 12 80 40
 	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
@@ -2271,6 +2283,9 @@
 
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
+
+3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
+	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
 
 3B 8C 80 01 80 91 E1 65 D0 00 43 00 00 82 90 00 19
 	French passport (issued in late 2008)
@@ -4048,6 +4063,10 @@
 3B F8 18 00 00 81 31 FE 45 00 73 C8 40 13 00 90 00 93
 	Giesecke & Devrient Sm@rtCafé Expert 3.0
 
+3B F8 18 00 00 81 31 FE 45 4A 43 4F 50 56 32 34 31 9C
+	NXP JCOP2.4.1
+	J3A080 80KB T=1 GP2.1.1 JC2.2.2 SCP02
+
 3B F8 18 00 FF 81 31 FE 45 4A 43 4F 50 76 32 34 31 43
 	VIVOtech SAM
 	NXP JCOP V241
@@ -4117,6 +4136,11 @@
 
 3B FA 18 00 00 81 31 FE 45 06 08 60 84 10 01 87 6F 06 02 FE
 	Card used by the Dutch health insurers to give medical personell access to patient insurance information
+
+3B FA 18 00 00 81 31 FE 45 4A 33 41 30 34 30 56 32 34 31 84
+	NXP J3A 40K
+	Java Card v2.2.2 - Global Platform v2.2.1
+	Dual-interface functionality (features 1K Mifare emulation)
 
 3B FA 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 9D
 	NXP JCOP 41 v2.2.1 72k SmartCard I/F
@@ -4232,6 +4256,9 @@
 
 3B FD 18 00 00 80 31 FE 45 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 DC
 	G&D Sm@Cafe 3.1 (eID)
+
+3B FD 18 00 00 81 31 FE 45 53 43 45 36 30 2D 43 43 30 38 31 2D 46 C2
+	Giesecke & Devrient StarSign USB Token
 
 3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
 	Croatian Health Care card
@@ -4494,6 +4521,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 06 62 02 80 00 11 43 50 01 17 06 13 E3
 	EC-Card of Sparkasse Pforzheim Calw
+
+3B FF 18 00 FF 81 31 FE 45 65 63 11 07 51 02 50 00 10 72 80 00 02 06 20 C6
+	Maestro Card Deutsche Kredit Bank (DKB) / Germany
 
 3B FF 18 00 FF 81 31 FE 45 65 63 11 07 64 02 80 00 11 .. .. .. .. 06 19 ..
 	Giesecke & Devrient GmbH
@@ -4951,6 +4981,7 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 30 32 16
 	Polsat Nagra3
+	Brazil - Claro TV Nagra3 Red
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 30 34 10
 	Nagra 3 Card - Telefonica Brazil Green
