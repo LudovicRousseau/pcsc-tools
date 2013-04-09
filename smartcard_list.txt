@@ -107,6 +107,9 @@
 3B 04 FF FF FF FF
 	Identity card Universidad del Pais Vasco / Euskal Herriko Unibertsitatea www.ehu.es
 
+3B 05 00 03 36 66 AE
+	HID (eID)
+
 3B 05 68 01 01 02 05
 	Certinomis card (electronic certificates)
 	Schlumberger Cryptoflex ActivCard
@@ -134,6 +137,9 @@
 
 3B 06 A2 13 10 91 90 00
 	C3P2K SAMPLE CARD (C3PO, S.L)
+
+3B 07 55 4E 4B 4E 4F 57 4E
+	US DOD Smart Card
 
 3B 09 41 04 11 DD 82 2F 00 00 88
 	1k contactless Mifare
@@ -666,6 +672,7 @@
 	VISA credit card (Banque Populaire)
 	Banque Postale card (bank)
 	Société Générale (visa / jazz)
+	HSBC Business VISA
 
 3B 65 00 00 20 63 CB 68 00 26
 	VISA Société Générale - Oberthur CS
@@ -690,6 +697,9 @@
 
 3B 65 00 00 20 63 CB A3 00
 	BNP VISA CARD
+
+3B 65 00 00 20 63 CB A3 20
+	MasterCard Crédit Agricole Anjou-Maine (type Sociétaire)
 
 3B 65 00 00 20 63 CB A3 A0
 	VISA card from Banque Populaire
@@ -785,6 +795,7 @@
 	Rabobank bankcard (dutch)
 	ASN Bank debit card
 	SNS Bank debit card
+	ABN-AMRO Maestro
 
 3B 67 00 00 29 20 00 6F 78 9A 00
 	ABN AMRO wereldpas
@@ -2349,7 +2360,7 @@
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
 
-3B 8F 80 01 45 50 41 00 00 00 00 60 56 34 84 00 00 00 00 DC
+3B 8F 80 01 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
 	Austrian Quick E-purse contactless (http://www.quick.at/)
 
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 33 36 76
@@ -3776,6 +3787,10 @@
 3B EA 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 33 32 90
 	NAB VISA Debit card
 
+3B EA 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 95
+	HID Crescendo C700
+	https://www.hidglobal.com/products/cards-and-credentials/crescendo/c700
+
 3B EA 00 FF 81 31 20 75 00 64 05 14 01 02 31 00 90 00 27
 	GCOS-MDK
 
@@ -4171,6 +4186,10 @@
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 65
 	TrubDemax healthcare card
 	JCOP 21 / 72k
+
+3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 34 31 43 32 30 30 74
+	HID Crescendo C200
+	https://www.hidglobal.com/sites/hidglobal.com/files/resource_files/crescendo-c200-c700-smart-card-ds-en.pdf
 
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 62
 	JCOP41
@@ -4922,6 +4941,9 @@
 
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
+
+3F FD 15 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
+	Sky Germany [NDS|V14] (098C:000000) (Pay TV)
 
 3F FF 11 25 03 10 80 41 B0 06 69 FF 4A 50 70 00 00 41 5A 01 00 11
 	Astro (Pay TV) http://www.astro.com.my
