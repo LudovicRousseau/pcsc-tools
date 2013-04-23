@@ -171,6 +171,9 @@
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
 
+3B 15 11 12 CA 07 00 DB
+	Tricolor TV center card (Pay TV)
+
 3B 15 11 12 CA 07 11 CA
 	DRE Crypt (Pay TV)
 
@@ -535,6 +538,9 @@
 
 3B 3B 96 00 40 54 01 00 00 0A C0 33 33 90 00
 	Wind (Italy) 64K prepaid GSM SIM card
+
+3B 3B 96 00 A7 4C 90 00 00 90 AC 33 33 90 00
+	Brazilian TIM GSM SIM
 
 3B 3C 11 00 40 AF 13 F3 12 00 06 87 83 80 90 00
 	SIM GSM Orange Fr
@@ -1245,6 +1251,9 @@
 3B 6E 00 00 00 31 C0 65 D3 C2 02 00 05 71 D6 8C 61 39
 	Italian Bancomat (Cassa di Risparmio di Rimini) (bank card)
 
+3B 6E 00 00 00 31 C0 65 D3 C3 02 03 01 71 D6 8C 61 3B
+	American Express Platinum from Banco do Brasil
+
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
 
@@ -1576,6 +1585,10 @@
 3B 6F 00 FF 53 46 53 45 2D 43 58 33 32 32 2D 56 18 02 02
 	Giesecke & Devrient SmartCafe Expert 2.0
 
+3B 74 18 00 00 73 66 74 65
+	SafeSign from A.E.T. Europe B.V.
+	Manufactured by Giesecke & Devrient (G&D)
+
 3B 75 12 00 00 29 05 01 04 01
 	CAC Cryptographic Service Provider
 	Axalto Cyberflex Access 64K V1 SM 4.1
@@ -1702,6 +1715,9 @@
 
 3B 7B 95 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GemXpresso Pro 64K R3 FIPS v2
+
+3B 7C 13 00 00 80 64 11 65 01 90 73 00 00 00 81 07
+	Universal Electronic Card  (UEC Russia) (eID)
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
@@ -1920,6 +1936,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 13 0B 64 02 B3 02 37 83 83 90 00
 	Visa Ourocard Platinum from Banco do Brasil
+
+3B 7F 13 00 00 80 31 C0 52 13 66 64 05 66 98 36 83 83 90 00
+	VISA Platinum from Banco do Brasil
 
 3B 7F 13 00 00 80 31 C0 52 14 D5 64 05 66 96 61 83 83 90 00
 	Visa Electron Debit Card issued by Spain Caja Madrid (www.cajamadrid.es)
@@ -2849,6 +2868,9 @@
 	Simyo SIM Card, Spanish Mobile Company
 	Hi SIM
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 81 C8 0D 00 47
+	ESEYE ES4520 Anynet MFF Embedded SIM
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -2881,6 +2903,10 @@
 
 3B 9F 11 80 1F C3 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 74
 	Cingular SIM
+
+3B 9F 11 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 06 A6 83 0F 90 00 0D
+	i-SmartSim GSM phone SIM-lock bypass card
+	http://i-smartsim.com/component/portfolio/7-unlock-sim/7-universal-unlock-sim-f300gold
 
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
@@ -3517,6 +3543,10 @@
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto, http://www.athena-scs.com/product.asp?pid=8
 
+3B D8 18 FF 81 B1 FE 45 1F 03 80 64 04 1A B4 03 81 05 61
+	D-Trust multicard advanced 3.1
+	German public health insurance card ("Gesundheitskarte"), issuer SBK "Siemens Betriebskrankenkasse"
+
 3B D8 96 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 5B
 	Swiss LAMal health insurance card
 
@@ -3602,7 +3632,7 @@
 	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
 
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 05 73 10 A6 73 D6 21 C0 00 90 00 53
-	New european health insurance card of the German health insurance "BKK HERKULES"
+	New european health insurance card of the German health insurance
 
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" G3 (State Health Insurance Card)
@@ -3852,6 +3882,9 @@
 3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 53 44 41 30 30 35 31 00 E4
 	Visa (Sampo Estonia, 2010)
 
+3B EF 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 56 49 20 20 20 20 20 00 C4
+	VfB Stuttgart Fankarte (pay card for the football stadium of the german club VfB Stuttgart)
+
 3B EF 00 00 81 31 FE 45 46 49 4F 4D 4B 5F 30 30 31 20 30 31 30 41 00 9C
 	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contact chip)
 	note the ASCII string ' FIOMK_001 010A' embedded in ATR
@@ -3961,6 +3994,7 @@
 
 3B F2 18 00 02 C1 0A 31 FE 58 C8 08 74
 	Siemens CardOS V4.3B
+	D-Trust multicard 2.1 (may only be the testcard for it)
 
 3B F2 18 00 02 C1 0A 31 FE 58 C8 09 75
 	Siemens CardOS V4.2B
@@ -4271,6 +4305,10 @@
 	Gemplus GemGate 32K
 	distributed by Postecert (www.postecert.it) to legally sign documents
 
+3B FC 13 00 00 81 31 FE 45 59 75 62 69 6B 65 79 4E 45 4F 72 33 B1
+	Yubikey Neo
+	http://www.yubico.com/products/yubikey-hardware/yubikey-neo/
+
 3B FC 98 00 FF C1 10 31 FE 55 C8 03 49 6E 66 6F 63 61 6D 65 72 65 28
 	New Card Infocamere (Italy) series 1402...
 	 http://www.card.infocamere.it/
@@ -4299,6 +4337,9 @@
 
 3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
 	Croatian Health Care card
+
+3B FD 18 00 00 81 31 FE 45 80 31 81 53 47 45 31 73 84 21 C0 81 07 2E
+	Georgian ID Card
 
 3B FD 18 00 FF 80 B1 FE 45 1F 07 80 73 00 21 13 57 4A 54 48 61 31 47 00 5F
 	Activkey Sim
