@@ -224,8 +224,11 @@
 3B 16 96 41 73 74 72 69 64
 	Gemalto .NET v2.0
 
+3B 16 96 BA 00 0E 02 0A 03
+	Vietel (Telecommunication)
+
 3B 16 96 D0 00 D4 07 2C 00
-	Vodafone India Postpaid /  Local Operator 3G
+	Vodafone India Postpaid / Local Operator 3G
 
 3B 17 11 80 65 AF 03 42 00 D8
 	TELE2 SPB SIM Russia
@@ -964,6 +967,7 @@
 
 3B 68 00 FF 00 73 C8 40 00 00 90 00
 	Visa credit card for Bank of Taiwan
+	CommSec Debit MasterCard (Australia)
 
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
@@ -1072,6 +1076,9 @@
 	eID Blutronics Blulogon 4K
 	http://shop.blutronics.com/Prodotti.asp
 
+3B 6C 00 00 80 64 11 65 01 90 73 00 00 00 81 07
+	Universal Electronic Card (UEC Russia) (eID)
+
 3B 6C 00 02 36 61 86 38 4B 8C 13 04 62 03 59 8A
 	Nagravision, Swiss mode
 
@@ -1095,7 +1102,9 @@
 	Eurocard Corporate MasterCard issued by Eurocard AB Sweden
 	Capital One (UK) MasterCard
 	VISA card, issued by Swedbank Latvia
+	VISA issued by Citibank International plc (manufacturer Oberthur)
 	MasterCard issued by Swedbank Estonia (manufacturer Oberthur)
+	Santander Business Visa Debit
 
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
@@ -1149,6 +1158,9 @@
 3B 6D 00 00 80 31 80 65 B0 83 11 40 C8 83 00 90 00
 	Gemalto TOP IM
 	(Old name GemSafeXpresso 64)
+
+3B 6D 00 00 80 31 80 65 B0 86 26 01 08 83 08 90 00
+	RBC Royal Bank VISA (Bank)
 
 3B 6D 00 00 80 31 80 65 B0 87 27 01 BC 83 08 90 00
 	Kazcommertsbank (http://en.kkb.kz/page/WhoWeAre)
@@ -1259,6 +1271,9 @@
 
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
+
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 47
+	Hellenic Bank Visa Electron (Gemalto)
 
 3B 6E 00 00 00 31 C0 65 EC D4 02 00 08 71 D6 8C 61 33
 	Victoria Bank (Republic of Moldova) - Visa Electron
@@ -1434,6 +1449,9 @@
 
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
+
+3B 6F 00 00 80 31 C0 52 07 52 64 02 19 08 32 83 83 90 00
+	Santander (Bank)
 
 3B 6F 00 00 80 31 C0 52 07 6F 64 02 19 04 32 83 83 90 00
 	Credit Card IXE Banco, México
@@ -1687,6 +1705,9 @@
 3B 7A 94 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	Gemplus GemXpresso Pro R3 E32 PK
 
+3B 7A 96 00 00 80 65 A2 01 01 01 3D 72 D6 43
+	AGH University of Science and Technology (Poland) - Student Identity Card (ELS) (eID)
+
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
 
@@ -1717,7 +1738,7 @@
 	Gemplus GemXpresso Pro 64K R3 FIPS v2
 
 3B 7C 13 00 00 80 64 11 65 01 90 73 00 00 00 81 07
-	Universal Electronic Card  (UEC Russia) (eID)
+	Universal Electronic Card (UEC Russia) (eID)
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
@@ -2041,7 +2062,7 @@
 	GSM card 'Hi' (KPN brand)
 
 3B 82 00 55 22
-	GSM-SIM TELE2 Smart (Estonia, prepaid)
+	GSM-SIM TELE2 Smart (Estonia, prepaid or subscription)
 
 # cf SCL3711 Reference Manual:
 3B 82 80 01 02 44 ..
@@ -2826,7 +2847,7 @@
 	Orange UK GSM/UMTS SIM
 
 3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 09 A9 83 0F 90 00 F3
-	Estonian GSM operator TELE2
+	Estonian GSM operator TELE2 (WPKI eID support)
 
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
@@ -2839,6 +2860,9 @@
 
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 06 34 00 5C
 	SIM card SFR 250 128ko
+
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 7A 00 00 00 78
+	GaduAIR (Poland) - Subscriber Identity Module (SIM)
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
@@ -3724,6 +3748,9 @@
 3B E6 00 00 81 21 45 32 4B 01 01 01 01 7A
 	Axalto Cyberflex Palmera V5
 
+3B E6 00 FF 81 31 FE 45 44 49 20 30 32 4D 70
+	Alior Sync (Poland) - MasterCard Debit Card with PayPass (Bank)
+
 3B E6 00 FF 81 31 FE 45 44 49 20 30 32 56 6B
 	VISA credit card (DKB)
 
@@ -3813,6 +3840,7 @@
 3B EA 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 49 00 FE
 	UBS VISA Gold Card
 	MasterCard from lhv.ee
+	Nordea Bank Finland PLC Estonian Branch (ABnote)
 
 3B EA 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 33 32 90
 	NAB VISA Debit card
@@ -4450,6 +4478,9 @@
 	Carta del Professionista Sanitario - CNS - Provincia autonoma di Trento
 	Professional Health card, Autonomous Province of Trento
 
+3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 21 01 43 49 45 10 31 80 48
+	hybrid card for various health services and regional services (access to various organizations and digital signatures)
+
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 21 01 43 4E 53 10 31 80 59
 	CNS - Carta Nazionale dei Servizi (Italia)
 	PA emittente: Regione Autonoma della Sardegna
@@ -4997,6 +5028,9 @@
 
 3F FF 13 25 03 10 80 33 B0 0E 69 FF 4A 50 70 00 00 49 54 02 00 00
 	Sky entitlement card
+
+3F FF 13 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 4E 5A 01 00 00
+	 NDS SKY NZ (Pay TV)
 
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 53 35 00 00 00
 	Stream TV (IP television) decoder card, provided by stream.ru ISP in Moscow
