@@ -697,8 +697,14 @@
 	Mastercard EMV Debit Card
 	Crédit Agricole (french bank) Gold Mastercard
 
+3B 65 00 00 20 63 CB 6B 80
+	Crédit Agricole (french bank) Mastercard
+
 3B 65 00 00 20 63 CB A0 80
 	Carrefour, MasterCard credit card, Pass Banque, Oberthur
+
+3B 65 00 00 20 63 CB A1 00
+	AIB Visa Debit Card, manufcatured by Oberthur
 
 3B 65 00 00 20 63 CB A1 80
 	bpaid: bpost prepaid Mastercard
@@ -1265,6 +1271,9 @@
 
 3B 6E 00 00 00 31 C0 65 D3 C3 02 03 01 71 D6 8C 61 3B
 	American Express Platinum from Banco do Brasil
+
+3B 6E 00 00 00 31 C0 65 E2 C4 02 01 01 71 D6 8C 61 22
+	mastercard (Bank)
 
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
@@ -2133,6 +2142,9 @@
 3B 85 80 01 20 63 CB A0 00 2C
 	Visa card from Banque populaire du nord/Casden
 
+3B 85 80 01 20 63 CB A1 00 2D
+	AIB Visa Debit Card, manufcatured by Oberthur (NFC interface)
+
 3B 85 80 01 20 63 CB A1 80 AD
 	bpaid: bpost prepaid Mastercard (contactless)
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
@@ -2171,6 +2183,9 @@
 
 3B 86 81 31 70 34 45 50 41 20 45 4B 08
 	Austrian Quick E-purse "Einreichkarte" (transfer card) (http://www.quick.at/)
+
+3B 87 80 01 77 43 49 50 02 00 01 28
+	CIPURSE (transport) http://www.osptalliance.org/
 
 3B 87 80 01 80 31 80 73 96 12 80 40
 	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
@@ -3007,6 +3022,9 @@
 3B 9F 95 80 1F 43 80 31 E0 73 F6 21 13 57 4A 43 05 21 31 41 00 3A
 	GSM SIM AT&T US
 
+3B 9F 95 80 1F 47 80 31 E0 73 36 21 13 57 4A 33 0E 10 31 41 00 B4
+	Sonera Easy (Telecommunication) http://www.sonera.fi/
+
 3B 9F 95 80 1F 47 80 31 E0 73 36 21 13 57 4A 33 0E 11 31 41 00 B5
 	Telus 3G SIM Card
 
@@ -3253,6 +3271,10 @@
 3B B0 11 00 81 31 90 73 F2
 	SamOS 2.7
 
+3B B0 36 00 81 31 FE 5D 95
+	 Betacrypt 2 (Comvenient GmbH) Conditional Access Smart Card (Pay TV)
+	 www.comvenient.com
+
 3B B2 11 00 10 80 00 01
 	Atmel memory card AT88SC0104C
 	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
@@ -3373,6 +3395,7 @@
 	Philips Smart MX
 	Szczecin University of Technology in Poland student identity card (Elektroniczna Legitymacja Studencka = student identity card)
 	CSOB bank, Czech Republic
+	CATCert (Agència Catalana de Certificació) catalan government workers identity card
 
 3B BB 18 00 C0 3E 31 FE 65 47 26 44 20 54 53 4D 20 31 2E 30 B7
 	Italian Tachograph Driver Card
@@ -3634,6 +3657,9 @@
 
 3B DB 96 FF C0 10 31 FE 45 80 67 15 01 B4 03 00 09 00 81 05 21
 	Digital Tachograph Card for Professional Driver
+
+3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 06 01 30 04 01 55
+	Athena IDProtect Key Laser
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 06 11 59 00 01 28
 	JaCarta (PKI)
