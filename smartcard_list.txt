@@ -576,6 +576,10 @@
 3B 3D 94 00 44 4D 54 11 00 06 06 17 62 11 00 30 00
 	China Unicom SIM card
 
+3B 3D 95 00 80 67 AF 03 0F 01 7C 06 0E 83 3E 9F 16
+	(Sprint) Nextel USA iDEN SIM card
+	http://www.sprint.com/index_n.html?brand=Nextel
+
 3B 3E 94 00 80 31 00 73 FE 21 13 62 00 31 83 81 90 00
 	Vodafone (Italy) 64kB GSM SIM card
 
@@ -719,6 +723,12 @@
 3B 65 00 00 20 63 CB A3 A0
 	VISA card from Banque Populaire
 
+3B 65 00 00 20 63 CB A7 20
+	ING Direct (French Bank) Gold MasterCard
+
+3B 65 00 00 20 63 CB A8 A0
+	HSBC VISA Card
+
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
@@ -734,6 +744,9 @@
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
 	UK Lloyds TSB Visa Debit (issued 2003, Gemplus)
+
+3B 65 00 00 9C 02 02 01 02
+	Dectel CI692
 
 3B 65 00 00 9C 02 02 07 02
 	US Department of Defense, TEST Common Access Card (CAC)
@@ -906,6 +919,7 @@
 3B 68 00 00 00 73 C8 40 11 00 90 00
 	Woolworths Everyday Money prepaid Mastercard
 	Nordea Bank Norway Visa + national debet card [BankAxept]
+	VISA Classic - Nordlandsbanken (Norway)
 
 3B 68 00 00 00 73 C8 40 12 00 90 00
 	Brazilian "e-CPF" card
@@ -2233,6 +2247,7 @@
 
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A - NXP JCOP
+	NXP J3A081 JavaCard (contactless interface)
 
 3B 88 80 01 C9 12 07 52 02 00 81 10 14
 	electronic Tickes from the german Transport Association VGN (Verkehrsgemeinschaft Niederrhein)
@@ -2395,6 +2410,9 @@
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
+
+3B 8E 80 01 80 31 80 66 B0 07 03 00 AC 01 83 00 90 00 52
+	BCA Flazz Card (Bank) www.bca.com
 
 3B 8E 80 01 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 1D
 	Barclaycard Platinum contact/contactless (wave)
@@ -2939,6 +2957,7 @@
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 36 2E 30
 	skylink, Pay TV, http://www.skylink.cz
+	T-Mobile Czech Republic, Irdeto Satellite TV encryption card
 
 3B 9F 11 80 1F C3 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 74
 	Cingular SIM
@@ -3068,6 +3087,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C2
 	sysmocom sysmoUSIM-GR1
 	http://sysmocom.de/
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 2E 32 34 00
+	SIM card
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
@@ -3402,6 +3424,9 @@
 
 3B BC 18 00 81 31 20 75 5A 43 33 2E 31 32 20 52 45 56 20 41 46
 	ZeitControl BasicCard Enhanced 3.7, http://www.basiccard.com/
+
+3B BC 18 00 81 31 20 75 5A 43 33 2E 31 34 20 52 45 56 20 44 45
+	ZeitControl BasicCard Enhanced 3.14 Rev D, http://www.basiccard.com/
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 53 32 30 30 30
 	GSM-SIM Era-PL
@@ -3776,6 +3801,7 @@
 
 3B E6 00 FF 81 31 FE 45 44 49 20 30 32 4D 70
 	Alior Sync (Poland) - MasterCard Debit Card with PayPass (Bank)
+	MasterCard Contactless Debit Card issued by Raiffeisen Bank in Czech Republic
 
 3B E6 00 FF 81 31 FE 45 44 49 20 30 32 56 6B
 	VISA credit card (DKB)
@@ -3815,6 +3841,7 @@
 	EMV (MasterCard) card, issued by Raiffeisen Bank in Russia
 	"Deutsche Kreditbank AG" Visa Card produced by AustriaCard GNC
 	All cards (MasterCard, Maestro, VISA Electron) issued by Raiffeisen Bank in Romania
+	EMV (MasterCard) Card, issued by Raiffeisen Bank in Czech Republic
 
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
@@ -3837,6 +3864,9 @@
 	Visa Card - Maximum - Oyak Bank / Turkey
 	VISA, issued by Austrian bank "Erste Bank"
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
+
+3B E9 00 00 81 31 FE 45 43 44 32 69 09 00 00 00 00 B7
+	Swiss UBS MasterCard Creditcard
 
 3B E9 00 00 81 31 FE 45 45 4D 56 20 30 33 20 20 06 99
 	Visa credit card
@@ -4188,9 +4218,17 @@
 	NXP JCOP2.4.1
 	J3A080 80KB T=1 GP2.1.1 JC2.2.2 SCP02
 
+3B F8 18 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 BC
+	NXP J2A080 JavaCard
+
+3B F8 18 00 FF 81 31 FE 45 00 73 C8 40 00 00 90 00 7F
+	NXP JCOP 10
+	NXP JCOP 31 (contact interface)
+
 3B F8 18 00 FF 81 31 FE 45 4A 43 4F 50 76 32 34 31 43
 	VIVOtech SAM
 	NXP JCOP V241
+	NXP J3A081 JavaCard (contact interface)
 
 3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 32 34 .. .. .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
