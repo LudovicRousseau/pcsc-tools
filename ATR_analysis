@@ -509,7 +509,7 @@ sub find_card($@)
 		print "If your ATR is still not in the latest version then please send a mail\n";
 		print "to <ludovic.rousseau\@free.fr> containing:\n";
 		print "- your ATR\n";
-		print "- a card description (in english)\n";
+		print "- a description of the smart card (in english)\n";
 	}
 } # find_card($)
 
