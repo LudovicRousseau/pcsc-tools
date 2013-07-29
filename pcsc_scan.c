@@ -280,6 +280,7 @@ get_readers:
 	{
 		rgReaderStates_t[i].szReader = readers[i];
 		rgReaderStates_t[i].dwCurrentState = SCARD_STATE_UNAWARE;
+		rgReaderStates_t[i].cbAtr = sizeof rgReaderStates_t[i].rgbAtr;
 	}
 	rgReaderStates_t[nbReaders].szReader = "\\\\?PnP?\\Notification";
 	rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
