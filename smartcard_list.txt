@@ -224,6 +224,9 @@
 3B 16 96 41 73 74 72 69 64
 	Gemalto .NET v2.0
 
+3B 16 96 41 73 74 72 69 64 3B 02 14 50
+	Gemalto IDPrime v2+ .NET
+
 3B 16 96 BA 00 0E 02 0A 03
 	Vietel (Telecommunication)
 
@@ -1258,6 +1261,7 @@
 
 3B 6E 00 00 00 31 C0 65 BC D0 02 01 06 71 D6 8C 61 33
 	Lloyds TSB Visa Debit
+	Barclays Visa DEBIT
 
 3B 6E 00 00 00 31 C0 65 BC D0 02 01 06 71 D6 8C 61 43
 	S-pankki (Finland) Visa Debit
@@ -1291,6 +1295,9 @@
 
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
+
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 23
+	Visa debit card: mBank - BRE Bank SA
 
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
@@ -1353,6 +1360,7 @@
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
 	http://www.ingdirect.es/tarjetas-ing/
 	Visa Credit Card issued by Spain Cetelem for PayPal (www.paypal.es/cetelem)
+	MasterCard debit card: moneybookers.com card issued by Newcastle Building Society
 
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
@@ -1430,6 +1438,7 @@
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
+	Inteligo debit card
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
@@ -1589,6 +1598,9 @@
 3B 6F 00 00 80 5A 2C 23 C2 10 10 05 .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 
+3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 00 04 2B 82 90 00
+	NMBS/SCNB Mobility card (basically a train subscription) MoBIB
+
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
 
@@ -1598,6 +1610,10 @@
 
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 24 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
+
+3B 6F 00 00 80 66 45 46 01 38 18 03 53 07 61 04 82 90 00
+	Vitrasa Card municipal city card for Vigo, Spain. Electronic wallet for paying bus transportation.
+	http://www.vitrasa.es/php/index.php
 
 3B 6F 00 00 80 66 57 59 01 00 08 03 53 07 61 14 82 90 00
 	E-money Vitrasa Card - Public transport in Vigo
@@ -1696,6 +1712,9 @@
 
 3B 78 12 00 00 A0 C4 06 00 8F F1 90 00
 	Cryptoworks/Nagravision decoding card
+
+3B 78 12 00 00 A0 C4 06 05 8F F1 90 00
+	Satellite cardu, provider: UPC DTH, CAID: 0D02
 
 3B 78 12 00 00 A0 C4 06 07 8F F1 90 00
 	Skylink CZ/SK - Cryptoworks
@@ -1844,6 +1863,9 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 11 AC 83 00 90 00
 	GEMALTO WM GX4 72 DHS TSA
+
+3B 7D 96 00 00 80 31 80 65 B0 83 11 11 E5 83 00 90 00
+	eCPF (Cadastro de Pessoas Físicas) from Imprensa Oficial do Brasil
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
@@ -2954,11 +2976,17 @@
 3B 9E 96 80 1F 83 80 31 E0 73 FE 21 12 66 55 57 4E 41 32 33 91
 	TDC mobile UICC (Telecommunication)
 
+3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EB
+	Lycamobile Pay As You Go SIM
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
 	United Mobile SIM
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0C 72 00 12
 	Orange Austria GSM/3G SIM: "Mobiles Internet"
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 49 0D 00 32
+	UK simcard - O2 unlimited prepay 3G (4DM) USIM (EXT)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00
 	SIM Free Mobile
@@ -3205,6 +3233,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
 	Claro operator SIM
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 40 41 91 83 07 90 00 50
+	giffgaff UK 3G SIM
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
@@ -3897,6 +3928,7 @@
 
 3B E9 00 00 81 31 FE 45 45 4D 56 30 32 5F 34 53 06 80
 	Maestro Card issued by "First Investment Bank" in Bulgaria, http://fibank.bg/
+	Visa Electron card: TATRA BANKA, a.s.
 
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 31 30 56 32 32 A3
 	ORGA Open Platform DES 16k V2.0 / JCOP10
@@ -3942,6 +3974,9 @@
 
 3B EB 00 00 81 31 42 45 4E 4C 43 68 69 70 70 65 72 30 31 0A
 	Dutch Post (Chipper)
+
+3B EC 00 00 40 32 42 4C 55 45 20 44 52 41 47 4F 4E 20 43 00 01
+	Pay TV
 
 3B EC 00 FF 81 31 FE 45 A0 00 00 00 56 33 33 30 4A 33 06 00 A1
 	Datakey model 330J card, www.datakey.com
@@ -5146,6 +5181,9 @@
 
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
+
+3F FF 3F 3F 3F 3F 00 3F 3F FF 3F 3F 3F 3F 3F FF 3F FF 95 3F FF 95 3F FF
+	Premium joker card to see Spanish TDT premium (goltv)
 
 3F FF 95 00 FF 91 81 71 .. 47 00 .. 4. 4. .. .. 3. 3. 3. 20 .. 65 7. .. .. .. ..
 	Nagravision TV CAM card — http://en.wikipedia.org/wiki/Nagravision
