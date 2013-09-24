@@ -521,6 +521,9 @@
 3B 3B 94 00 69 3C 10 30 01 3E 40 33 00 90 00
 	UK Vodafone GSM SIM
 
+3B 3B 94 00 6A 38 20 00 00 00 A0 33 33 90 00
+	Croatia VIPNet Mobile Operator (Telecommunication)
+
 3B 3B 94 00 6A 38 20 00 00 09 E0 33 33 90 00
 	virgin mobile (french) SIM card
 
@@ -1041,6 +1044,10 @@
 
 3B 69 00 FF 00 64 4A 10 04 32 05 90 00
 	NXP JCOP 20 V2.1 16K
+
+3B 69 00 FF 32 33 32 43 53 43 53 33 36
+	CSCS smart card. Must be read using CSCS go smart software.
+	https://download.cscsreader.co.uk/
 
 3B 69 00 FF 4A 43 4F 50 33 31 56 32 32
 	JCOP 31 v22 72K - S/C I/F
@@ -1629,6 +1636,9 @@
 	Vitrasa Card municipal city card for Vigo, Spain. Electronic wallet for paying bus transportation.
 	http://www.vitrasa.es/php/index.php
 
+3B 6F 00 00 80 66 57 59 01 00 08 03 53 07 61 04 82 90 00
+	Green card of City council of Vigo (public transport)
+
 3B 6F 00 00 80 66 57 59 01 00 08 03 53 07 61 14 82 90 00
 	E-money Vitrasa Card - Public transport in Vigo
 
@@ -2023,6 +2033,10 @@
 	Universitat Rovira i Virgili Identification Card
 	This card enables his/her propietary to sign documents and to access to rooms, laboratories and classes.
 
+3B 7F 13 00 00 80 31 C0 52 0E D4 64 05 66 96 61 83 83 90 00
+	BBVA Blue Card (VISA)
+	www.bluebbva.com
+
 3B 7F 13 00 00 80 31 C0 52 13 0B 64 02 B3 02 37 83 83 90 00
 	Visa Ourocard Platinum from Banco do Brasil
 
@@ -2115,8 +2129,9 @@
 	IAS/ECC Gemalto (eID)
 
 3B 80 80 01 01
-	RFID - ISO 14443 Type B
+	ISO 14443 Type B without historical bytes
 	Electronic Passport
+	Spanish passport (2012)
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
@@ -2151,6 +2166,7 @@
 
 3B 84 80 01 00 00 90 00 95
 	German (test) passport issued in january 2010
+	Luxembourg passport (2012)
 
 3B 84 80 01 01 10 00 06 12
 	Snapper New Zealand (Type A)
@@ -2283,7 +2299,7 @@
 	Belgian MOBIB (transport)
 
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
-	Belgian passport
+	Belgian passport (2008-2009)
 
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
@@ -2307,8 +2323,17 @@
 3B 88 80 01 C9 12 07 52 02 00 81 10 14
 	electronic Tickes from the german Transport Association VGN (Verkehrsgemeinschaft Niederrhein)
 
+3B 88 80 01 E1 F3 5E 11 73 81 A5 00 03
+	US passport (2007)
+
+3B 88 80 01 E1 F3 5E 11 77 81 A5 00 07
+	US passport (2012)
+
+3B 88 80 01 E1 F3 5E 11 77 81 C7 20 45
+	French passport (2007-2008)
+
 3B 88 80 01 E1 F3 5E 11 77 83 95 00 35
-	French biometric ePassport issued in 2012
+	French biometric ePassport (issued in 2012)
 
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
@@ -2421,6 +2446,7 @@
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
+	Luxembourg passport (2007)
 
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
@@ -2432,8 +2458,17 @@
 3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
 	RFID - NFC Forum tag type 3 (FeliCa)
 
+3B 8C 80 01 4F 54 49 44 28 94 B3 C0 01 00 90 00 45
+	Belgian passport (2009-2013)
+
+3B 8C 80 01 4F 54 49 44 28 94 F7 C0 00 00 90 00 00
+	French passport (2010-2013)
+
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
+
+3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
+	French passport (2007-2008)
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
@@ -2449,7 +2484,7 @@
 	French passport (issued in late 2008)
 
 3B 8C 80 01 80 91 E1 65 D0 00 46 00 00 82 90 00 1C
-	US passport
+	US passport (2009)
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -2459,6 +2494,9 @@
 
 3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
 	JCOP30 contactless interface
+
+3B 8D 80 01 80 91 E1 65 D0 00 5B 01 03 73 D4 41 40 B6
+	French passport (2010-2011)
 
 3B 8E 80 01 0E 78 33 C4 02 00 64 04 15 01 02 00 90 FF 95
 	Spanish Passport
@@ -2486,11 +2524,11 @@
 	Contactless Barclaycard Visa
 
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
-	Belgian Passport
+	Belgian Passport (2005)
 	Thai Passport 2005
 
 3B 8E 80 01 80 91 E1 31 C0 64 77 E3 03 00 83 82 90 00 6C
-	Belgian Passport
+	Belgian Passport (2006-2007)
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
