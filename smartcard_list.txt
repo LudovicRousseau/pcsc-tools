@@ -105,6 +105,9 @@
 3B 04 C9 D0 F1 40
 	Cuban prepaid phone card provided by ETECSA
 
+3B 04 C9 D5 FD 20
+	Bell Canada LaPuce card - prepaid phone card (Telecommunication)
+
 3B 04 FF FF FF FF
 	Identity card Universidad del Pais Vasco / Euskal Herriko Unibertsitatea www.ehu.es
 
@@ -1483,6 +1486,9 @@
 	Millenium Card (www.coruna.es/millennium) municipal city card for A Coruña, Spain.
 	electronic wallet for paying services like parking meter or public service (bus) transportation.
 
+3B 6F 00 00 00 66 4D 45 66 80 03 14 53 03 61 04 F0 90 00
+	Paypal Prepaid Card (YoUnique Money E.D.E.)
+
 3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00
 	spanish MAESTRO debit card, from Unicaja bank
 
@@ -1811,6 +1817,10 @@
 
 3B 7C 13 00 00 80 64 11 65 01 90 73 00 00 00 81 07
 	Universal Electronic Card (UEC Russia) (eID)
+
+3B 7C 18 00 00 43 52 45 53 43 45 4E 44 4F 38 30 30
+	HID Global Crescendo C800 (PKI)
+	http://www.hidglobal.com/products/cards-and-credentials/crescendo/c800
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
@@ -2151,6 +2161,9 @@
 3B 82 80 01 02 44 ..
 	RFID - NFC Forum tag type 1 (Topaz)
 
+3B 82 80 01 03 02 02
+	Visa Credit Card, issued by TargoBank
+
 3B 82 81 31 76 43 C0 02 C5
 	CardOS/M2 V2.01(SLE44CxxS)
 
@@ -2312,6 +2325,12 @@
 
 3B 88 80 01 04 02 00 20 00 71 C1 40 DF
 	Seoul Citypass+ T-Money Card
+
+3B 88 80 01 1C 2D 94 11 F7 71 85 00 BE
+	CEPAS Card (Adult card issued by EZ-Link) (Transport)
+
+3B 88 80 01 1C F0 E1 11 F7 71 85 00 16
+	CEPAS Card (Concession card issued by Land Transport Authority Singapore) (Transport)
 
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
@@ -3035,6 +3054,9 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 49 00 00 00 4A
 	Rogers 3G SIM card
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 49 00 C0 00 4A
+	Rogers SIM card
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 7A 00 00 00 79
 	Simyo SIM Card, Spanish Mobile Company
@@ -3764,6 +3786,9 @@
 3B D9 94 00 00 4D 4D 41 52 33 31 34 90 00
 	Vodafone Spain 64kb SIM card. GSM/3G networks
 
+3B D9 96 FF 81 31 FE 45 43 52 45 53 43 45 4E 44 4F FF
+	HID Global Crescendo JCOP 21 v2.4.1 R2 64K (PKI)
+
 3B DA 18 FF 81 B1 FE 75 1F 03 00 31 C5 73 C0 01 40 00 90 00 0C
 	GnuPG card V2
 
@@ -3906,6 +3931,10 @@
 
 3B DF 96 FF 81 31 FE 45 5A 01 80 48 49 44 43 31 31 58 58 73 00 01 1B 09
 	HID Crescendo iCLASS Px G8H
+
+3B DF 96 FF 81 31 FE 45 80 59 01 80 50 49 56 43 4C 41 53 73 00 01 1B DE
+	HID Global pivCLASS v1.0 (PKI)
+	http://www.hidglobal.com/products/cards-and-credentials/pivclass/pivclass-smart-card
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -5146,6 +5175,9 @@
 
 3F 6C 00 00 3C A0 30 A7 58 00 00 01 01 8C 90 00
 	Rendezvous Series 7 (D2-Mac satellite TV card)
+
+3F 6C 00 00 3D A0 30 BE 41 00 37 01 00 04 90 00
+	Sberbank (Bank)
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 83 00 90 00
 	Gemplus GemXpresso 211PK or 211PK-IS
