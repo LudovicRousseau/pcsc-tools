@@ -546,6 +546,9 @@
 3B 3B 94 00 A6 39 90 00 00 00 21 83 83 90 00
 	meteor ireland http://www.meteor.ie
 
+3B 3B 95 00 91 38 11 20 01 00 80 33 33 90 00
+	GSM SIM of WIND Italian mobile company
+
 3B 3B 96 00 07 52 51 00 00 A8 FD 33 33 90 00
 	Movistar Costa Rica SIM card
 
@@ -680,6 +683,9 @@
 
 3B 64 00 FF 80 62 02 A2
 	VISA credit card (Nordea bank)
+
+3B 65 00 00 20 63 CB 47 00
+	Orga SmartyPlus DATA STORE issued by MORPHO CARDS PERU
 
 3B 65 00 00 20 63 CB 63 00
 	Bank card from Societe Générale (Oberthur)
@@ -949,6 +955,7 @@
 
 3B 68 00 00 00 73 C8 40 13 00 90 00
 	MASTERCARD issued by MLP (Marschollek, Lautenschläger and Partner)
+	G&D 12696-GDM-10/11 DEBIT CARD issued by BANCO DE CREDITO DEL PERU
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -1213,6 +1220,9 @@
 	Kazcommertsbank (http://en.kkb.kz/page/WhoWeAre)
 	one of the biggest banks in Republic of Kazakhstan
 	Nordea (Finland) + Finnair MasterCard (credit)
+
+3B 6D 00 00 80 31 80 65 B0 89 40 01 F2 83 00 90 00
+	PSAM Card
 
 3B 6D 00 00 80 67 A1 11 01 01 64 08 55 83 0E 90 00
 	Italian Intesa SanPaolo Maestro
@@ -2069,6 +2079,9 @@
 	Visa, Servired
 	Manufactured by Oberthur (http://www.oberthur.com/)
 
+3B 7F 13 00 00 80 31 C0 52 16 43 64 05 69 93 70 83 83 90 00
+	Gemalto Debit Card cwbU1071682A1212  issued by BANCO DE CREDITO DEL PERU
+
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
 
@@ -2150,6 +2163,9 @@
 	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
 	"Reiner LoginCard" (or "OWOK", how they name it, https://cardlogin.reiner-sct.com/) - they have been distributed by a german computer magazine ("Computer BILD")
 	Belgium A-kaart (Antwerp citycard)
+
+3B 82 00 55 18
+	GSM SIM of TIM ITalian mobile company
 
 3B 82 00 55 19
 	GSM card 'Hi' (KPN brand)
@@ -2285,6 +2301,9 @@
 3B 87 80 01 80 31 80 73 96 12 80 40
 	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
 	http://www.vrsinfo.de/englisch/the-vrs/vrs-about-us.html
+
+3B 87 80 01 80 31 C0 73 D6 20 C0 32
+	RFID GeldKarte (girogo)
 
 3B 87 80 01 80 31 C0 73 D6 21 C0 33
 	Sparkasse Hannover - German contactless GeldKarte (RFID, NFC, girogo)
@@ -2466,6 +2485,9 @@
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
 	Luxembourg passport (2007)
+
+3B 8B 80 01 0B 78 80 82 02 44 49 20 30 32 4D 1B
+	Mastercard Debit issued by Raiffeisen bank in Czech Republic
 
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
@@ -2936,6 +2958,7 @@
 
 3B 98 96 00 93 94 03 07 03 04 04 04
 	SIM card
+	GSM SIM of VIP CRoatian mobile company
 
 3B 98 96 00 93 94 03 08 05 03 03 03
 	SIMple Mobile SIM Card
@@ -3857,6 +3880,9 @@
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 38
 	Athena IDProtect Smart Card Logon Card
 
+3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
+	Oberthur National ID Card of Peru issued by RENIEC
+
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 08 00 07 90 00 FE
 	Oberthur Cosmo v7 IAS ECC
 
@@ -4337,6 +4363,9 @@
 	PIC16F84A-04/P + 24LC16B (PICCard1) or
 	Canal + Canal Digital Spain year 2000/2001 or
 	PIC Silver Card 2 (PIC16F876/7 + 24C64)
+
+3B F7 11 00 01 40 96 57 60 14 0E 6C B6 D6
+	old SECA of D+ Italian sat pay tv
 
 3B F7 11 00 01 40 96 58 42 14 0E 6C B6 D6
 	UK on digital (terrestrial digital TV card)
@@ -5265,6 +5294,9 @@
 
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
+
+3F FD 15 25 02 50 80 0F 41 B0 05 69 FF 4A 50 F0 00 00 41 5A 03
+	astro Pay TV Measat 91.5 E Caid: 0910 Provider: 000000
 
 3F FD 15 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
 	Sky Germany [NDS|V14] (098C:000000) (Pay TV)
