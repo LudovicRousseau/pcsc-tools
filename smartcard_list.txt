@@ -608,7 +608,10 @@
 	GSM SIM card Orange J2RE postpaid
 
 3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 13 12 72 F7 41 05
-	SCOSTA (transport)
+	SCOSTA Smart Card Operating System for Transport Application (transport)
+
+3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 28 AA 72 F7 41 05
+	SCOSTA Smart Card Operating System for Transport Application (transport)
 
 3B 3F 11 00 80 69 AF 03 37 00 12 00 00 00 0E 83 18 9F 16
 	Reliance SIM (Prepaid), Telecommunication
@@ -1200,6 +1203,9 @@
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
 
+3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
+	Student college card
+
 3B 6D 00 00 57 44 29 6C 80 86 93 D1 27 1F 13 32 3D
 	SCSTA (Transport)
 
@@ -1410,6 +1416,10 @@
 	Visa Credit Card issued by Spain Cetelem for PayPal (www.paypal.es/cetelem)
 	MasterCard debit card: moneybookers.com card issued by Newcastle Building Society
 
+3B 6E 00 00 00 31 C0 71 D6 65 13 0D 01 81 00 83 90 00
+	Mastercard Black issued by Banco do Brasil (www.bb.com.br)
+	Manufactured by Oberthur (www.oberthur.com)
+
 3B 6E 00 00 00 31 C0 71 D6 65 7D E4 01 10 A0 83 90 00
 	VISA card, issued by the ANWB, the Dutch national Automobile club
 	VISA Card - Maximum - Oyak Bank / Turkey
@@ -1609,6 +1619,9 @@
 3B 6F 00 00 80 31 E0 6B 84 20 05 02 42 55 55 55 55 55 55
 	Multos 14Dc(6-0-13) 64K Dual-Interface Developer Card
 
+3B 6F 00 00 80 54 43 4F 4C 44 00 00 00 00 00 00 82 90 00
+	Valovis Bank Mastercard (www.valovisbank.de)
+
 3B 6F 00 00 80 5A .. 0[1-5] .. .. .. .. .. .. .. .. 82 90 00
 	Card supporting a Calypso application Rev 1
 	Navigo (France) transport card
@@ -1616,6 +1629,9 @@
 
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
 	transport bus/tram "atout.tag" semitag grenoble
+
+3B 6F 00 00 80 5A 08 06 08 20 02 00 .. .. .. .. 82 90 00
+	Lisboa Viva, public transport card of Lisbon (Portugal)
 
 3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 3E DC 82 90 00
 	CTS (Compagnie des Transports Strasbourgeois) to hold transportation tickets
@@ -1625,9 +1641,6 @@
 
 3B 6F 00 00 80 5A 08 06 08 20 02 00 92 35 1E 52 82 90 00
 	Public transport card of Lisbon (www.carris.pt)
-
-3B 6F 00 00 80 5A 08 06 08 20 02 00 92 37 89 73 82 90 00
-	Lisboa Viva subway pass from Portugal
 
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 16 D1 BD 82 90 00
 	"OPUS Card" Montreal's transit system by oberthur cardsystems
@@ -2077,6 +2090,10 @@
 	BBVA Blue Card (VISA)
 	www.bluebbva.com
 
+3B 7F 13 00 00 80 31 C0 52 12 93 64 02 B3 02 70 83 83 90 00
+	Visa Infinite issued by Banco do Brasil (www.bb.com.br)
+	Manufactured by Giesecke & Devrient (G&D www.gi-de.com)
+
 3B 7F 13 00 00 80 31 C0 52 13 0B 64 02 B3 02 37 83 83 90 00
 	Visa Ourocard Platinum from Banco do Brasil
 
@@ -2170,6 +2187,9 @@
 
 3B 7F 96 00 00 00 31 B8 64 40 70 14 10 73 94 01 80 82 90 00
 	IAS/ECC Gemalto (eID)
+
+3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
+	IAS ECC Type 1
 
 3B 80 80 01 01
 	ISO 14443 Type B without historical bytes
@@ -2321,6 +2341,9 @@
 3B 87 80 01 80 31 80 73 96 12 80 40
 	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
 	http://www.vrsinfo.de/englisch/the-vrs/vrs-about-us.html
+
+3B 87 80 01 80 31 B8 73 84 01 E0 19
+	Personalausweis (German Identity Card) (eID)
 
 3B 87 80 01 80 31 C0 73 D6 20 C0 32
 	RFID GeldKarte (girogo)
@@ -3945,6 +3968,9 @@
 3B DE 18 FF C0 80 B1 FE 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 2B
 	Estonian Identity Card (EstEID v1.0 2006 cold)
 
+3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
+	Identity Card in Slovakia with security chip and e-signature
+
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
 
@@ -3967,6 +3993,9 @@
 
 3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 3B
 	NXP SAM AV2 module
+
+3B DF 94 FF C0 80 B1 FE 45 1F 03 00 6A D2 76 00 00 28 04 15 FA 40 04 00 90 00 3B
+	DVLA Company Card (Transport)
 
 3B DF 96 00 80 31 FE 45 00 31 B8 64 04 1F EC C1 73 94 01 80 82 90 00 EC
 	Ministry of Interior - France "Agent Card"
@@ -4777,6 +4806,10 @@
 
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
+
+3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 01 00 39
+	SafeNet SC650 (PKI)
+	http://www.safenet-inc.com/data-protection/authentication/smartcard-650/
 
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
