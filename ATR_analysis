@@ -213,8 +213,63 @@ if (! $mpcard)
 	exit;
 }
 
+# update the ATR list
+sub update_smartcard_list($$)
+{
+	# file to update
+	my $file = shift;
+
+	# URL of the latest list
+	my $url = shift;
+
+	# Has the $file file been modified in the last 10 hours?
+	my $old = `find $file -cmin +600`;
+
+	# old file
+	if ($old)
+	{
+		print "Updating $file using $url\n";
+
+		if ($^O =~ "darwin")
+		{
+			system("curl $url --output $file");
+		}
+		else
+		{
+			system("wget $url --output-document=$file");
+		}
+
+		# did an update
+		return 1;
+	}
+
+	# no change
+	return 0;
+}
+
 # find the corresponding card type
-find_card($atr, @SMARTCARD_LIST);
+if (find_card($atr, @SMARTCARD_LIST))
+{
+	my $file = $SMARTCARD_LIST[0];
+	my $url = "http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt";
+	my $found = 0;
+
+	# update the ATR list
+	if (update_smartcard_list($file, $url))
+	{
+		# try again with an updated list
+		$found = find_card($atr, $file);
+	}
+
+	# still not found?
+	if (! $found)
+	{
+		print "Your card is not present in the database.\n";
+		print "Please submit your unknown card at:\n";
+		$atr =~ s/ //g;
+		print "http://smartcard-atr.appspot.com/parse?ATR=$atr\n";
+	}
+}
 
 ######## Sub functions
 
@@ -494,23 +549,10 @@ sub find_card($@)
 	if ((! $found) && ($atr =~ m/^[3B|3F]/))
 	{
 		print "\tNONE\n\n";
-		print "Your card is not present in the database.\n";
-		print "You can get the latest version of the database from\n";
-		print "  http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt\n";
-		if ($^O =~ "darwin")
-		{
-			print "or use: curl http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output $files[0]\n\n";
-
-		}
-		else
-		{
-			print "or use: wget http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt --output-document=$files[0]\n\n";
-		}
-		print "If your ATR is still not in the latest version then please send a mail\n";
-		print "to <ludovic.rousseau\@free.fr> containing:\n";
-		print "- your ATR\n";
-		print "- a description of the smart card (in english)\n";
+		return 1;
 	}
+
+	return 0;
 } # find_card($)
 
 sub analyse_histrorical_bytes()
