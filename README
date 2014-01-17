@@ -131,10 +131,11 @@ History:
 ========
 
 1.4.22 - 17 January 2014, Ludovic ROUSSEAU
-    - 215 new ATRS
+    - 215 new ATRs
     - Fetch a new ATR file if it was not upgraded in the last 10
-      hours. - Propose to use http://smartcard-atr.appspot.com/parse to
-      submit a new ATR
+      hours.
+    - Propose to use http://smartcard-atr.appspot.com/parse to submit a
+      new ATR
     - minor fixes
 
 1.4.21 - 5 Dec 2012, Ludovic ROUSSEAU
