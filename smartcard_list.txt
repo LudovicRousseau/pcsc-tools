@@ -729,6 +729,7 @@
 3B 65 00 00 20 63 CB 6A 00
 	CB Visa La Banque Postale (Gemalto)
 	CB Visa BNP Paribas (France)
+	CB Visa du Crédit Coopératif
 
 3B 65 00 00 20 63 CB 6A 80
 	Mastercard EMV Debit Card
@@ -758,6 +759,9 @@
 
 3B 65 00 00 20 63 CB A3 A0
 	VISA card from Banque Populaire
+
+3B 65 00 00 20 63 CB A5 20
+	Mastercard international credit card, with Moneo extension
 
 3B 65 00 00 20 63 CB A7 20
 	ING Direct (French Bank) Gold MasterCard
@@ -1552,6 +1556,9 @@
 3B 6F 00 00 80 31 C0 52 0A 47 64 02 B3 02 37 83 83 90 00
 	Visa debit card issued by the Spanish bank "tubancaja"
 
+3B 6F 00 00 80 31 C0 52 11 F4 64 02 B3 02 37 83 83 90 00
+	VISA (Bank)
+
 3B 6F 00 00 80 31 C0 52 13 2F 64 02 19 08 32 83 83 90 00
 	Cajamadrid-UCM (Madrid, Spain) Cash/Visa Electron
 
@@ -2203,6 +2210,7 @@
 	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
 	"Reiner LoginCard" (or "OWOK", how they name it, https://cardlogin.reiner-sct.com/) - they have been distributed by a german computer magazine ("Computer BILD")
 	Belgium A-kaart (Antwerp citycard)
+	Oyster card - Transport for London http://en.wikipedia.org/wiki/Oyster_card
 
 3B 82 00 55 18
 	GSM SIM of TIM ITalian mobile company
@@ -2418,6 +2426,9 @@
 
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
+
+3B 88 80 01 E1 F3 5E 13 77 83 00 00 A2
+	ePerso - German ID card (issued 2013)
 
 3B 88 80 01 E1 F3 5E 13 77 83 D5 00 77
 	ePerso - German ID card (issued 2011)
@@ -2925,6 +2936,9 @@
 3B 91 94 80 1F 03 23 BA
 	China black(COS) SIM, does not support clock stop
 
+3B 94 18 81 B1 80 7D 1F 03 19 C8 00 50 DC
+	GoldKey Security PIV Token
+
 3B 95 .. 40 FF 62 01 01 .. ..
 	Schlumberger Cryptoflex e-gate
 
@@ -3404,6 +3418,7 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 40 41 91 83 07 90 00 50
 	giffgaff UK 3G SIM
+	netzclub sponsored mobile
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
@@ -3415,6 +3430,9 @@
 	Aero2 (Poland) - A 900Mhz HSPA+ and 2500Mhz LTE wholesale telecom operator
 	USIM providing toll-free access to the Internet ("Bezpłatny Dostęp do Internetu" service)
 	http://aero2.pl/bdi.html
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 59 51 00 82 90 00 CE 00 00 00 00 00 00 00 00 00 00
+	Oberthur USIM card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 12 00 82 90 00 D2
 	Free Mobile SIM Card
@@ -3988,6 +4006,9 @@
 	Crescendo C700 + MiFare 4K
 	http://www.smartcardfocus.com/shop/ilp/id~265/p/index.shtml
 
+3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 0C 01 EC C1 73 94 01 80 82 90 00 B3
+	ebee card (https://www.ebeeoffice.ca/ebee-home/public)
+
 3B DF 18 FF 81 F1 FE 43 00 1F 03 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 98
 	Mifare SAM AV2
 
@@ -4102,6 +4123,9 @@
 
 3B E8 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
+
+3B E8 00 FF 81 31 FE 45 43 4C 61 69 72 65 20 36 1A
+	DKB Visa card with PayWave
 
 3B E9 00 00 81 21 45 45 4D 56 5F 41 54 52 20 06 6C
 	VISA card, issued by HVB Bank Czech Republic (http://www.hvb.cz) or austrian BankAustria
@@ -4462,6 +4486,9 @@
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
 
+3B F8 11 20 03 40 FF FF FF FF FF 12 10 90 00
+	G&D (STARCOS SV 1.1)
+
 3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
 
@@ -4498,6 +4525,9 @@
 
 3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
 	Banrisul bank
+
+3B F9 18 00 00 80 31 FE 45 80 57 4E 45 4F 57 41 56 45 7D
+	Neowave Weneo
 
 3B F9 18 00 00 81 31 FE 45 39 35 32 38 35 30 31 33 31 DA
 	JCOP31 / 72B1 V2.2 (4096 RSA key support)
@@ -5471,6 +5501,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
 	Spanish pay TV card for GOLTV
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 32 20 44 73 68 4E 30 39 1F
+	Dish Network ROM552 (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FF 47 00 44 4E 41 53 50 53 30 31 20 44 73 68 36 30 39 16
 	PayTV card for DishNetwork Sat receiver http://www.dishnetwork.com/
