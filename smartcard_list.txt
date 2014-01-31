@@ -607,6 +607,9 @@
 3B 3F 11 00 6F AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
 	GSM SIM card Orange J2RE postpaid
 
+3B 3F 11 00 79 AF 65 03 12 01 80 73 32 21 1B 83 0F 90 00
+	GSM SIM card from Orange (labeled J2RE)
+
 3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 13 12 72 F7 41 05
 	SCOSTA Smart Card Operating System for Transport Application (transport)
 
@@ -1478,7 +1481,7 @@
 	http://blucard.blutronics.com
 
 3B 6E 00 00 62 6C 75 63 61 72 64 20 38 4B 42 2F 76 34
-	 eID Blutronics Blucard 8K
+	eID Blutronics Blucard 8K
 	http://blucard.blutronics.com
 
 3B 6E 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
@@ -1590,6 +1593,10 @@
 	Marx Software Security - Cryptoken M2048, MULTOS, Infineon SLE66CX, 64kByte
 	http://www.marx.com/en/
 
+3B 6F 00 00 80 31 E0 6B 04 06 05 02 25 55 55 55 55 55 55
+	Hong Kong Permanent Identity Card (eID)
+	http://www.gov.hk/en/residents/immigration/idcard/hkic/faq_hkic.htm
+
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 30 55 55 55 55 55 55
 	Buypass card for Norsk Tipping (http://norsk-tipping.no)
 
@@ -1600,6 +1607,10 @@
 3B 6F 00 00 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55
 	Norsk Tipping online player card <http://www.norsk-tipping.no/>
 	Norwegian government controlled betting company
+
+3B 6F 00 00 80 31 E0 6B 04 21 05 02 57 55 55 55 55 55 55
+	GE 28 Degrees MasterCard (Australia) (Bank)
+	http://www.28degreescard.com.au/
 
 3B 6F 00 00 80 31 E0 6B 04 21 05 02 61 55 55 55 55 55 55
 	NORSK TIPPING NORWAY
@@ -1766,7 +1777,7 @@
 	Generic mass produced Motorola smart card
 
 3B 76 13 00 00 80 62 07 41 81 81
-	 TransLink card (discontinued San Francisco Bay Area transit card)
+	TransLink card (discontinued San Francisco Bay Area transit card)
 
 3B 76 98 00 00 00 9C 11 01 01 02
 	CyberFlex Access 32
@@ -1775,8 +1786,8 @@
 	Sattelite bg 23.5 East cryptoworks card
 
 3B 78 12 00 00 54 C4 03 00 8F F1 90 00
-	 Skylink irdeto from Towercom a.s. company
-	 irdeto card for the ORF (Austrian national public television) HD channels
+	Skylink irdeto from Towercom a.s. company
+	irdeto card for the ORF (Austrian national public television) HD channels
 
 3B 78 12 00 00 65 C4 05 00 8F F1 90 00
 	Digitürk Cryptoworks
@@ -2010,6 +2021,9 @@
 
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 00 01 16
 	CryptoPlus CS xg
+
+3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 00 01 19
+	Česká spořitelna personal certificate card
 
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 81 01 17
 	Česká Spořitelna SERVIS24 certificate card
@@ -2976,6 +2990,9 @@
 3B 95 95 40 FF D0 00 54 01 3.
 	Portuguese identity card, http://www.cartaodecidadao.pt
 
+3B 95 96 40 F0 01 13 0A 0A 1D
+	xcrypt (Pay TV)
+
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
 
@@ -3008,7 +3025,7 @@
 
 3B 98 95 40 FF D0 00 48 01 01 AD 13 21
 	Belgian Eid virtual test card
-	 https://env.dev.eid.belgium.be/prepcard.php
+	https://env.dev.eid.belgium.be/prepcard.php
 
 3B 98 96 00 80 31 C0 72 F7 41 81 07
 	Activ Rutoken Magistra
@@ -3285,7 +3302,10 @@
 	T-Mobile Nederlands http://www.tmobile.nl
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 09 01 00 00 06
-	 GSM, T-Mobile (Germany)
+	GSM, T-Mobile (Germany)
+
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 19 01 00 00 16
+	GSM SIM card from congstar (a no-frills service provider of Deutsche Telekom)
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 31 05 00 00 3A
 	T-MOBILE CZ GSM card
@@ -3387,10 +3407,11 @@
 	Elisa UICC (Telecommunication)
 
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AF
-	 GSM, Vodafone (Germany)
+	GSM, Vodafone (Germany)
 
 3B 9F 96 80 1F 47 80 31 E0 73 36 21 13 57 4A 33 0E 0C 31 41 00 AB
 	NATEL SIM-Card swisscom
+	Vodafone Germany Micro-SIM from 2010
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
@@ -3422,6 +3443,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 06 97 82 00 82 90 00 D2
+	MTN IRANCELL In Iran Sim Card (Telecommunication)
+	http://www.irancell.ir/Portal/home/?21744/About%20Irancell
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 14 81 00 82 90 00 53
 	SFR operator 3G
@@ -3540,8 +3565,8 @@
 	SamOS 2.7
 
 3B B0 36 00 81 31 FE 5D 95
-	 Betacrypt 2 (Comvenient GmbH) Conditional Access Smart Card (Pay TV)
-	 www.comvenient.com
+	Betacrypt 2 (Comvenient GmbH) Conditional Access Smart Card (Pay TV)
+	www.comvenient.com
 
 3B B2 11 00 10 80 00 01
 	Atmel memory card AT88SC0104C
@@ -3975,7 +4000,7 @@
 	German public health insurance card ("Gesundheitskarte"), issuer Knappschaft
 
 3B DE 11 00 00 49 43 4F 53 35 33 00 00 00 00 00 00 00 08
-	 MyKID (eID)
+	MyKID (eID)
 
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
@@ -4227,7 +4252,7 @@
 	Infineon Technologies PC/SC Compliance Test Card V1.0
 
 3B EF 00 00 81 31 40 69 00 5C 50 43 53 35 C5 3A D2 76 00 00 38 33 00 0F
-	 Siemens Nixdorf Sicrypt
+	Siemens Nixdorf Sicrypt
 
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
@@ -4258,7 +4283,7 @@
 	Infineon SICRYPT CardModule Card
 
 3B EF 00 FF 81 31 .. 45 65 63
-	 Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
+	Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
 
 3B EF 00 FF 81 31 20 45 42 61 73 69 63 43 61 72 64 20 5A 43 32 2E 33 BD
 	ZeitControl BasicCard Enhanced 2.3
@@ -4703,14 +4728,14 @@
 
 3B FC 98 00 FF C1 10 31 FE 55 C8 03 49 6E 66 6F 63 61 6D 65 72 65 28
 	New Card Infocamere (Italy) series 1402...
-	 http://www.card.infocamere.it/
-	 Siemens Informatica - Siemens M4.01a
-	 chip Infineon SLE66CX322P (CC EAL5)
-	 Memory EEPROM: 32KB
-	 Operating system CARDOS
-	 Max numero dei tentativi PIN: 3
-	 Pin: da 5 a 8 digit
-	 Unblocked by tool CARDOS API 2.2
+	http://www.card.infocamere.it/
+	Siemens Informatica - Siemens M4.01a
+	chip Infineon SLE66CX322P (CC EAL5)
+	Memory EEPROM: 32KB
+	Operating system CARDOS
+	Max numero dei tentativi PIN: 3
+	Pin: da 5 a 8 digit
+	Unblocked by tool CARDOS API 2.2
 
 3B FD 13 00 00 81 31 FE 45 41 37 30 30 36 43 47 20 32 34 32 52 31 D6
 	YubiKey NEO (token)
@@ -5410,7 +5435,7 @@
 	Sky entitlement card
 
 3F FF 13 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 4E 5A 01 00 00
-	 NDS SKY NZ (Pay TV)
+	NDS SKY NZ (Pay TV)
 
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 53 35 00 00 00
 	Stream TV (IP television) decoder card, provided by stream.ru ISP in Moscow
