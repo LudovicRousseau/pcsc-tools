@@ -1265,6 +1265,10 @@
 	one of the biggest banks in Republic of Kazakhstan
 	Nordea (Finland) + Finnair MasterCard (credit)
 
+3B 6D 00 00 80 31 80 65 B0 89 35 01 F1 83 00 90 00
+	Bank of America BankAmericard Travel Visa Chip Card (Gemalto)
+	https://www.bankofamerica.com/credit-cards/products/bankamericard-travel-rewards-credit-card.go
+
 3B 6D 00 00 80 31 80 65 B0 89 40 01 F2 83 00 90 00
 	PSAM Card
 
@@ -2283,6 +2287,9 @@
 3B 83 00 12 10 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
+3B 83 00 43 56 10
+	Comviq 2G SIM
+
 3B 84 00 91 18 01 00
 	Proximus 075 Belgacom Mobile SIM
 
@@ -2355,6 +2362,10 @@
 3B 85 80 01 80 73 84 21 40 12
 	Dutch Biometric Passport
 
+3B 85 C0 FA 21 63 80 63 01 01 05 1B
+	Public Distribution System
+	http://cg.nic.in/pdsonline/corepds/
+
 3B 86 40 20 68 01 01 02 04 AC
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
 
@@ -2421,6 +2432,9 @@
 
 3B 88 80 01 00 00 00 00 00 81 91 10 09
 	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
+
+3B 88 80 01 00 00 00 00 77 83 95 00 00
+	MULTOS (PKI)
 
 3B 88 80 01 00 00 00 00 B3 71 71 .0 .A
 	Public transportation card in Riga, Latvia, called "e-Talons" http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
@@ -3163,6 +3177,10 @@
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 7A 00 00 00 78
 	GaduAIR (Poland) - Subscriber Identity Module (SIM)
 
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6D E8 0C 00 8A
+	Mobile TeleSystems (MTS) GSM SIM
+	http://www.mts.ru/
+
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
 	J+ SWIM WIB UMTS SIM Test card
@@ -3376,6 +3394,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 2E 32 34 00
 	SIM card
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 2F 32 34 00 BE
+	T-Mobile (US) USIM
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
 
@@ -3426,6 +3447,9 @@
 	Feitian PKI (http://www.ftsafe.com/products/PKI-Card.html)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 01 00 11 71 DF 00 00 .. .. .. ..
+	Feitian ePass2003 token
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
 3B 9F 95 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DD
@@ -3887,6 +3911,10 @@
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
 
+3B D2 18 00 81 31 FE 45 01 01 C1
+	Dutch License Plate Card (RDW)
+	https://commons.wikimedia.org/wiki/File:Kentekencard_voorzijde_1_december_2013.jpg
+
 3B D2 18 00 81 31 FE 58 C9 01 14
 	Atos CardOS5 (PKI)
 	http://atos.net/NR/rdonlyres/17C7BDD0-225B-4A58-B9A4-438EA3F3238A/0/74743_20120830_160149_cardos_v5_0__datenblatt_en.pdf
@@ -4275,6 +4303,9 @@
 3B ED 00 00 81 31 20 43 80 31 80 65 B0 83 02 04 7E 83 00 90 00 32
 	Latvian Digital Signature Card (warm) (http://www.eme.lv/)
 
+3B ED 00 00 81 31 80 42 80 31 80 65 B0 87 27 01 BC 83 08 90 00 7D
+	EMV (V PAY) Issued by UniCredit Bulbank Bulgaria
+
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
 
@@ -4586,6 +4617,9 @@
 	VIVOtech SAM
 	NXP JCOP V241
 	NXP J3A081 JavaCard (contact interface)
+
+3B F9 11 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 56 00 AA
+	VISA Card (Bank)
 
 3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 32 34 .. .. .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
@@ -5467,6 +5501,9 @@
 
 3F FD 15 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
 	Sky Germany [NDS|V14] (098C:000000) (Pay TV)
+
+3F FD 15 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 41 4A 03
+	beIN Sports Arabia NDS (09B5:000000) (Pay TV)
 
 3F FF 11 25 03 10 80 41 B0 06 69 FF 4A 50 70 00 00 41 5A 01 00 11
 	Astro (Pay TV) http://www.astro.com.my
