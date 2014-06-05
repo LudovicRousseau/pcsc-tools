@@ -664,6 +664,9 @@
 3B 3F 94 00 80 69 AF 03 07 06 67 09 97 0A 0E 83 3E 9F 16
 	BASE SIM - Belgium (Gemplus)
 
+3B 3F 94 00 80 69 AF 03 07 06 68 00 7F 0A 0E 83 3E 9F 16
+	Debitel Vodafone, de (Telecommunication)
+
 3B 3F 94 00 80 69 AF 03 07 06 68 00 85 0A 0E 83 3E 9F 16
 	O2 (UK) SIM
 
@@ -1878,6 +1881,10 @@
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
 
+3B 79 18 00 00 53 46 2D 34 43 43 2D 30 31
+	SmartCafe Expert 3.2 144K Dual interface card supports specifications ISO 14443A T=CL and ISO 7816 T=1/0. (PKI)
+	http://www.smartcardfocus.com/shop/ilp/id~523/smartcafe-expert-3-2-144k-dual/p/index.shtml
+
 3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
 	LBB VISA Card
 
@@ -2302,6 +2309,10 @@
 3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
 	IAS ECC Type 1
 
+3B 7F 96 00 00 80 31 80 65 B0 84 23 27 E5 12 0F FE 82 90 00
+	Gemalto IDPrime MD 3810 dual interface smartcard ISO 7816, ISO 14443 and NFC (PKI)
+	http://www.smartcardfocus.com/shop/ilp/id~672/gemalto-idprime-md-3810-dual-interface-smartcard/p/index.shtml
+
 3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 0F FE 82 90 00
 	Gemalto IDPrime MD
 
@@ -2444,6 +2455,10 @@
 3B 86 80 01 44 49 20 30 32 4D 65
 	Lufthansa Miles & More Gold MasterCard PayPass
 	Raiffeizen Bank, Russia, MasterCard paypass card
+
+3B 86 80 01 44 49 20 30 32 56 7E
+	DKB VISA paywave (Bank)
+	http://www.visaeurope.com/en/cardholders/visa_paywave.aspx
 
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
@@ -2765,6 +2780,9 @@
 	Contactless Barclaycard Visa
 	MyCiti Transport Card MasterCard PayPass (Cape Town, South Africa)
 
+3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 1C
+	UK Lloyds Bank Gold Visa Debit (Contact & Contactless)
+
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport (2005)
 	Thai Passport 2005
@@ -3072,11 +3090,16 @@
 	French Transport Card Pass'bus (used in Metz, France)
 	http://www.tcrm-metz.fr/
 
+
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	GemCombiXpresso R4 72K (contactless interface)
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 90 00 A6
 	GEMALTO WM GX4 72 DHS TSA (contactless interface)
+
+3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 17 E5 83 00 90 00 E9
+	IDPrime PIV Card v2.0 AES SCP03 (eID)
+	http://www.gemalto.com/products/piv_card/product_brief.html
 
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
@@ -3328,6 +3351,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0C 72 00 12
 	Orange Austria GSM/3G SIM: "Mobiles Internet"
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C C1 0D 00 A1
+	3 (Italian telecommunication provider) 3g sim card 2FF format H3G Italy
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 49 0D 00 32
 	UK simcard - O2 unlimited prepay 3G (4DM) USIM (EXT)
 
@@ -3570,7 +3596,7 @@
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
 
-3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 0. 90 00 ..
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
 	H3G (Italy) UMTS USIM
 	Vodafone (UK) SIM
@@ -3586,6 +3612,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
 	Claro operator SIM
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
+	3 (3g microUSIM) Italian subsidiary H3G
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 40 41 91 83 07 90 00 50
 	giffgaff UK 3G SIM
@@ -3784,6 +3813,10 @@
 
 3B B8 13 00 81 31 20 5D 00 57 69 6E 43 61 72 64 02
 	SmartCard for Windows 1.1
+
+3B B8 13 00 81 31 FA 52 43 48 54 4D 4F 49 43 41 A5
+	citizen digital certificate (PKI)
+	http://moica.nat.gov.tw/
 
 3B B9 18 00 81 31 FE 9E 80 73 FF 61 40 83 00 00 00 DF
 	Serbian Identity Card
