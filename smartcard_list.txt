@@ -2001,6 +2001,9 @@
 3B 7D 94 00 00 57 44 53 96 FA 86 93 03 B7 BF BF 5F 63
 	Airtel India SIM
 
+3B 7D 94 00 00 57 44 53 99 64 86 93 12 03 00 00 63 46
+	Dtac (Telecommunication)
+
 3B 7D 94 00 00 80 31 80 65 B0 83 01 01 90 83 00 90 00
 	GemSafeXpresso 16k R3.2
 
@@ -2550,6 +2553,10 @@
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
 
+3B 88 80 01 43 4C 61 69 72 65 20 36 0F
+	VISA credit card with NFC payment function (Bank)
+	http://www.visa.ca/en/personal/visa-paywave/index.jsp
+
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A - NXP JCOP
 	NXP J3A081 JavaCard (contactless interface)
@@ -2569,6 +2576,10 @@
 
 3B 88 80 01 E1 F3 5E 11 77 81 C7 20 45
 	French passport (2007-2008)
+
+3B 88 80 01 E1 F3 5E 11 77 83 00 00 A0
+	Residence permit (eID)
+	http://de.wikipedia.org/wiki/Aufenthaltstitel
 
 3B 88 80 01 E1 F3 5E 11 77 83 95 00 35
 	French biometric ePassport (issued in 2012)
@@ -3411,6 +3422,9 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 30 9D
+	Irdeto ACS 5.0 One (Pay TV)
+
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 33 9E
 	red dragoncard chid 0604- Austar provider (pay tv)
 
@@ -3578,6 +3592,10 @@
 3B 9F 96 40 0A 80 31 E0 6B 04 21 05 02 61 55 55 55 55 55 55
 	altinn - Buypass
 	Electronic ID card for login to the altinn.no service
+
+3B 9F 96 40 0A 80 31 E0 6B 04 31 05 02 A8 55 55 55 55 55 55
+	Norsk Tipping tippekort (eID)
+	https://www.norsk-tipping.no/bli-nettspiller
 
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 AA
 	Elisa UICC (Telecommunication)
@@ -5423,6 +5441,10 @@
 3B FF 96 00 FF 81 31 FE 45 65 63 19 01 50 02 80 00 0F 00 2F 00 25 50 11 15
 	German Postbank Giro card with electronic cash, Maestro, GeldKarte features
 
+3B FF 96 00 FF 81 31 FE 4D 80 31 E0 6B 04 31 05 02 77 55 55 55 55 55 55 EA
+	IRMA card (eID)
+	http://irmacard.org
+
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
 
@@ -5582,6 +5604,9 @@
 3F 77 18 00 00 C1 14 00 A2 68 90 00
 	Viacess card HRT (Hrvatska Radio Televizija)
 
+3F 77 18 00 00 C1 14 01 A2 68 90 00
+	VIA 2.6 XXX (Pay TV)
+
 3F 77 18 00 00 C2 14 00 C1 68 90 00
 	Viaccess Sexview
 
@@ -5624,8 +5649,14 @@
 3F 7F 11 25 05 40 B0 0F 69 FF 4D 59 00 00 00 53 4B 0C 06 00
 	Sky Series 12 (DSS satellite TV card)
 
+3F 7F 13 25 01 40 B0 10 69 FF 4A 50 01 47 4C 00 00 00 00 00
+	NDS Smartcard (Pay TV)
+
 3F 7F 13 25 02 40 B0 0C 69 FF 4A 50 C0 00 00 52 53 00 00 00
 	Stream Italy NDS 1 (Pay TV)
+
+3F 7F 13 25 02 40 B0 12 69 FF 4A 50 90 54 56 00 00 00 00 00
+	NDS Smartcard (Pay TV)
 
 3F 7F 13 25 03 33 B0 06 69 FF 4A 50 D0 00 00 53 59 00 00 00
 	Sky 2005/6 (DSS satellite TV card)
@@ -5770,6 +5801,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
 	Nagra 3 Digital Plus Spain
+
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 32 34 31 20 44 73 68
+	DISH Network G3 (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 41 20 52 65 76 41 30 31 6C
 	Mediaset Premium (Italy) 2013
