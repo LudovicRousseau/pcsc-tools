@@ -1159,6 +1159,9 @@
 3B 6A 00 FF 4A 43 4F 50 32 31 56 32 33 31
 	JCOP21 v2.3 Standard
 
+3B 6A 00 FF 4A 43 4F 50 34 31 56 32 32 31
+	NHS hospital smartcard login key (HealthCare)
+
 3B 6B .. FF 80 62 .. A2 56 46 69 6E 45 49 44
 	JCOP20 v2.x
 
@@ -1419,6 +1422,10 @@
 	Clydesdal Bank Maestro Card
 	http://www.cbonline.co.uk/personal/current-accounts/debit-card/
 
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 35
+	Knab Bank debit card (Bank)
+	http://knab.nl
+
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
@@ -1572,6 +1579,10 @@
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
+
+3B 6E 00 00 80 31 80 66 B1 A1 11 01 00 F6 83 00 90 00
+	Gemalto Desineo D72 FXR1 (PKI)
+	Gemalto TOP DL V2 (PKI)
 
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
@@ -1751,6 +1762,10 @@
 3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 00 04 2B 82 90 00
 	NMBS/SCNB Mobility card (basically a train subscription) MoBIB
 
+3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 03 42 32 82 90 00
+	MOBIB Card
+	http://www.mobib.be/mobib-card_EN.htm
+
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
 
@@ -1880,6 +1895,9 @@
 
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
+
+3B 78 18 00 00 54 48 20 4E 49 44 20 37
+	Thailand National ID (eID)
 
 3B 79 18 00 00 53 46 2D 34 43 43 2D 30 31
 	SmartCafe Expert 3.2 144K Dual interface card supports specifications ISO 14443A T=CL and ISO 7816 T=1/0. (PKI)
@@ -2312,6 +2330,10 @@
 3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
 	IAS ECC Type 1
 
+3B 7F 96 00 00 00 6A 46 4E 4D 54 03 04 11 43 04 30 03 90 00
+	CERES Spanish SmartCard from the "Fabrica Nacional de Moneda y Timbre" (FNMT) (eID)
+	http://www.cert.fnmt.es/
+
 3B 7F 96 00 00 80 31 80 65 B0 84 23 27 E5 12 0F FE 82 90 00
 	Gemalto IDPrime MD 3810 dual interface smartcard ISO 7816, ISO 14443 and NFC (PKI)
 	http://www.smartcardfocus.com/shop/ilp/id~672/gemalto-idprime-md-3810-dual-interface-smartcard/p/index.shtml
@@ -2508,6 +2530,10 @@
 3B 88 80 01 00 00 00 00 00 00 00 00 09
 	Personalausweis (German Identity Card) (eID)
 
+3B 88 80 01 00 00 00 00 00 41 91 00 D9
+	EffiTIC (Transport)
+	www.effitic.com
+
 3B 88 80 01 00 00 00 00 00 71 71 00 09
 	OPUS Public Transport card (Montreal, Quebec, Canada) - Oberthur based
 	http://carteopus.info/
@@ -2692,6 +2718,10 @@
 3B 8B 01 52 75 74 6F 6B 65 6E 20 45 43 50 A0
 	Rutoken ECP
 
+3B 8B 01 52 75 74 6F 6B 65 6E 44 53 42 54 D7
+	Rutoken ECP Bluetooth (eID)
+	http://www.rutoken.ru
+
 3B 8B 01 52 75 74 6F 6B 65 6E 6C 69 74 65 C2
 	Aktiv Rutoken lite token
 
@@ -2736,6 +2766,9 @@
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
+
+3B 8C 80 01 50 FF FF FF FF FF FF FF 22 00 10 51 C1
+	Printer ribbon tag (Other)
 
 3B 8C 80 01 59 75 62 69 6B 65 79 4E 45 4F 72 33 58
 	Yubikey Neo
@@ -3045,6 +3078,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 .. .. 00 00 00 00 ..
 	RFID - ISO 14443 Type B Part 3 (as per PCSC std part3)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 00 00 00 00 00 00 6F
+	Atmel AT88RF04C CryptoRF
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 09 .. .. 00 00 00 00 ..
 	RFID - ISO 15693 Part 1 (as per PCSC std part3)
 
@@ -3101,6 +3137,8 @@
 	French Transport Card Pass'bus (used in Metz, France)
 	http://www.tcrm-metz.fr/
 
+3B 8F 80 01 80 5A 08 03 04 00 02 00 24 E2 79 78 82 90 00 0C
+	Paris Navigo card 14443 B' (Innovatron - Calypso)
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	GemCombiXpresso R4 72K (contactless interface)
@@ -3208,6 +3246,9 @@
 3B 98 96 00 93 94 03 08 05 03 03 03
 	SIMple Mobile SIM Card
 	http://www.simplemobile.com
+
+3B 98 96 00 93 94 04 02 04 05 05 05
+	Roshan (Afgan Wireless ) SIM (Telecommunication)
 
 3B 99 18 00 11 88 22 33 44 55 66 77 60
 	sysmocom sysmoSIM-GR1
@@ -3347,6 +3388,13 @@
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
+3B 9E 96 00 80 31 C0 65 4D 47 00 00 00 72 F7 41 81 07
+	Russian Magistra (UTF8: Магистра) smart card (eID)
+	http://www.smart-park.ru/index.php/products/smartcards.html
+
+3B 9E 96 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 1D 10 49
+	Maroc Telecom USIM
+
 3B 9E 96 80 1F 83 80 31 E0 73 FE 21 12 66 55 57 4E 41 32 33 91
 	TDC mobile UICC (Telecommunication)
 
@@ -3373,6 +3421,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00 EC
 	SIM Free Mobile
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 8D 5F 10 00 C3
+	eUICC for Gemalto (Telecommunication)
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
