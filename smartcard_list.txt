@@ -215,6 +215,9 @@
 3B 16 18 AF 01 02 02 02 00
 	SIM Virgin Mobile (Australia)
 
+3B 16 94 20 02 01 20 01 0D
+	Rogers SIM Card (phone / cable provider in Canada)
+
 3B 16 94 71 01 01 00 27 00
 	Cingular GSM SIM Card
 
@@ -293,6 +296,10 @@
 
 3B 18 94 53 0D 06 77 24 07 FF 02
 	GSM SIM Tele2 Estonia, prepaid (Telecommunication)
+
+3B 18 94 53 20 07 AD 0A 05 FF 02
+	GSM SIM Beeline Kazakhstan (Telecommunication)
+	http://beeline.kz/
 
 3B 19 14 55 90 01 01 01 00 05 08 B0
 	Schlumberger Multiflex 8k
@@ -816,6 +823,9 @@
 
 3B 65 00 00 20 63 CB A8 A0
 	HSBC VISA Card
+
+3B 65 00 00 20 63 CB A9 A0
+	VISA PREMIER CREDIT CARD (Bank)
 
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
@@ -1572,6 +1582,7 @@
 3B 6E 00 00 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
 	Nordea (a Skandinavian bank) eID card
 	http://linux.fi/wiki/Nordea_eID
+	RBC Royal Bank Client Card (bank in Canada)
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -1766,6 +1777,10 @@
 	MOBIB Card
 	http://www.mobib.be/mobib-card_EN.htm
 
+3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 06 76 A1 82 90 00
+	Belgian eID card (issued in 2014) (eID)
+	http://eid.belgium.be/en/
+
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
 
@@ -1864,6 +1879,9 @@
 
 3B 76 98 00 00 00 9C 11 01 01 02
 	CyberFlex Access 32
+
+3B 77 18 00 00 4B 41 53 41 4B 49 44
+	Identification Kazakhstan Republic (passport)
 
 3B 78 12 00 00 47 C4 03 00 8F F1 90 00
 	Sattelite bg 23.5 East cryptoworks card
@@ -1968,6 +1986,10 @@
 
 3B 7B 95 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GemXpresso Pro 64K R3 FIPS v2
+
+3B 7C 13 00 00 80 64 11 34 01 48 73 F7 41 C0 81 07
+	universal electronic card UEC Rissa (eID)
+	http://www.uecard.ru/for-citizens/
 
 3B 7C 13 00 00 80 64 11 65 01 90 73 00 00 00 81 07
 	Universal Electronic Card (UEC Russia) (eID)
@@ -3284,6 +3306,9 @@
 3B 9A 96 00 92 03 49 93 16 00 01 21 01 00
 	GSM-SIM card of the Austrian provider Yesss! (http://www.yesss.at)
 
+3B 9A 96 40 1E 41 50 54 43 40 29 50 77 85 01
+	Java card Version 2.2.2 S3FS9FX series Java card  (eID)
+
 3B 9A 96 C0 10 31 FE 5D 00 64 05 7B 01 02 31 80 90 00 76
 	German driver card for the digital tachographs (mandatory for trucks above 3.5 tons)
 	runnig STARCOS 3.4 and prouced by Giesecke & Devrient GmbH
@@ -4246,6 +4271,10 @@
 3B DD 18 FF C0 80 B1 FE 45 1F C3 00 68 D2 76 00 00 28 04 04 11 00 90 00 C9
 	Russian Federation driver card for the digital tachograph
 
+3B DD 96 00 80 10 FE 80 31 80 63 01 FF C0 73 B3 21 1B 81 05
+	BIFIT iBank 2 USB Key (Bank)
+	http://bifit.ua
+
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C9
 	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
 
@@ -4279,6 +4308,9 @@
 
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
+
+3B DF 18 00 81 31 FE 7D 00 6B 02 0C 01 82 01 11 01 43 4E 53 10 31 80 FC
+	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
 
 3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 80 01 11 01 43 4E 53 10 31 80 E9
 	Provider: Actalis S.p.A.
@@ -4390,6 +4422,10 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 30/31bio (contact interface)
+
+3B E7 00 00 81 31 FE 42 00 63 95 31 05 90 00 B9
+	Chunghwa Post Co., Ltd. Visa Debit Card (Bank)
+	http://www.post.gov.tw/post/internet/U_english/index.jsp?ID=24030107
 
 3B E7 00 00 91 81 31 FE 41 01 10 30 01 00 90 80 49
 	"FirmenTicket" from the "Rheinbahn" for the "VRR"
