@@ -188,6 +188,10 @@
 3B 0F 80 22 15 E1 5A 00 20 00 31 21 03 31 21 03 00
 	RSA SecurID SID800 token
 
+3B 0F 80 31 E0 6B 05 07 05 02 82 55 55 55 55 55 55
+	Secure Worker Access Consortium Identification (eID)
+	https://www.secureworker.com
+
 3B 0F 80 6A 16 32 46 49 53 45 53 8C E0 FF 07 90 00
 	GSM-SIM Sonera (from 1998)
 
@@ -313,6 +317,9 @@
 
 3B 19 94 31 02 05 10 45 98 01 02 4E
 	GSM-SIM EMT (Estonia)
+
+3B 19 94 33 03 01 31 45 41 06 02 B6
+	BASE Twin simcard (Telecommunication)
 
 3B 1B 94 80 69 06 02 22 11 00 80 08 00 00
 	eID
@@ -834,6 +841,10 @@
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
 
+3B 65 00 00 20 63 CB AD 20
+	bpost bpaid (Bank)
+	http://www.bpost.be/bpaid/
+
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
 
@@ -1075,6 +1086,10 @@
 
 3B 68 00 00 80 66 A2 06 02 01 32 0E
 	Gemplus GemClub 1K
+
+3B 68 00 00 80 66 B0 07 01 01 77 07
+	Técnico Lisboa Student Card (Bank)
+	http://www.tecnico.ulisboa.pt/
 
 3B 68 00 00 9D 03 02 01 01 56 49 53
 	Visa Card - SberBank / Russia
@@ -2389,6 +2404,9 @@
 3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 0F FE 82 90 00
 	Gemalto IDPrime MD
 
+3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
+	Gemalto TOP IM GX4 (Other)
+
 3B 80 80 01 01
 	ISO 14443 Type B without historical bytes
 	Electronic Passport
@@ -2745,6 +2763,9 @@
 
 3B 8A 01 4A 43 4F 50 34 31 56 32 32 31 FF
 	JCOP41
+
+3B 8A 80 01 00 31 C1 73 C8 40 00 00 90 00 90
+	NXP PN65o's Internal Secure Element in card emulation mode. (Other)
 
 3B 8A 80 01 00 64 05 5C 02 03 31 80 90 00 16
 	T-System Contactless Netkey Card
@@ -3758,6 +3779,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
 	Claro operator SIM
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 02 01 01 05 01 05 43
+	CMHK card. China Mobile Hong Kong. (Telecommunication)
+	https://www.hk.chinamobile.com
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
 	3 (3g microUSIM) Italian subsidiary H3G
 
@@ -3827,6 +3852,10 @@
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DE
 	H3G (Italy) UMTS USIM card
 
+3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F3
+	Verizon 4G LTE SIM Card (Telecommunication)
+	http://www.verizonwireless.com/support/information/4gsim.html
+
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
 
@@ -3835,6 +3864,9 @@
 
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
 	"ultra fast card, max speed supported for telecom"? (transport)
+
+3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D6
+	Verizon 4G LTE Micro SIM (Telecommunication)
 
 3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
 	Gemalto Speed Enhancement 97 (Telecommunication)
@@ -4092,6 +4124,9 @@
 3B BE 11 00 00 41 01 38 01 00 03 00 00 00 00 00 02 90 00
 	ACOS2 test card from ACS reading off a ACR38U
 
+3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
+	8 pin (eID)
+
 3B BE 11 00 00 41 01 38 4D 80 0A 80 50 52 4F 56 00 90 00
 	ACS (Advanced Card System) ACOS-3
 
@@ -4291,6 +4326,9 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 0F 90 00 7A
 	Guatemalan ID Card
 	http://www.renap.gob.gt/
+
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 E8 54 27 E6 04 00 0F 90 00 8C
+	Token card from iBRE CompanyNet (mbank) (Bank)
 
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
@@ -4885,6 +4923,9 @@
 
 3B F7 18 00 00 80 31 FE 45 73 66 74 65 2D 6E 66 C4
 	SmartCafe Expert 3.2 72K
+
+3B F7 18 00 00 80 31 FE 45 FE 42 47 52 65 49 44 24
+	Bulgarian eID PKI card pilot on IFX SLE78 jTOP (PKI)
 
 3B F7 18 00 00 81 71 80 42 00 00 63 95 0A 01 90 00 B0
 	7-Eleven icash card, Taiwan
