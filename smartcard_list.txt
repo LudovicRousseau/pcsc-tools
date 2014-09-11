@@ -143,6 +143,9 @@
 	ISOProx II Card:
 	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
 
+3B 06 2A 01 01 01 00 05
+	Driving Licence  (Transport)
+
 3B 06 81 24 80 80 90 00
 	10€ credit card for TV & telephone in Jerez de la
 	Frontera hospital's rooms. The maker can be found at www.isernsa.com
@@ -336,6 +339,10 @@
 
 3B 1D 96 00 23 07 00 00 00 00 00 00 00 00 90 00
 	emulator card prototype from ST
+
+3B 1E 13 00 69 45 4D 43 45 66 32 28 F8 6B 00 90 00
+	ECHS (Ex-servicemen Contributory Health Scheme) Card (HealthCare)
+	http://echs.gov.in/
 
 3B 1F 11 00 67 42 41 46 49 53 45 53 52 66 FF 81 90 00
 	Finnish student id card
@@ -792,6 +799,9 @@
 	Mastercard EMV Debit Card
 	Crédit Agricole (french bank) Gold Mastercard
 
+3B 65 00 00 20 63 CB 6B 00
+	EMV VISA (France)
+
 3B 65 00 00 20 63 CB 6B 80
 	Crédit Agricole (french bank) Mastercard
 
@@ -1004,6 +1014,9 @@
 3B 67 00 00 B1 40 40 33 0B 90 00
 	Sparebank1 VISA card, Norway
 	www.sparebank1.no
+
+3B 67 00 00 B2 40 40 20 0B 90 00
+	Sodexo BASF Antwerpen company card for Belgian "meal cheques"
 
 3B 67 00 00 B3 40 40 00 3B 90 00
 	Handelsbanken BankID card (Swedish bank authentication issued 2011)
@@ -2636,6 +2649,10 @@
 	http://wiki.forum.nokia.com/index.php/Nokia_6131_NFC_-_FAQs
 	Giesecke & Devrient’s (G&D) Sm@rtCafé Expert 3.1
 
+3B 88 80 01 00 DD A6 11 F7 71 85 00 60
+	 "Pyrelis" card, PAU (France) public transport card. (Calypso card). (Transport)
+	 http://www.reseau-idelis.com/930-Billettique-IDELIS.html
+
 3B 88 80 01 04 02 00 20 00 71 C1 40 DF
 	Seoul Citypass+ T-Money Card
 
@@ -3162,6 +3179,10 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 00 00 00 00 00 00 6F
 	Atmel AT88RF04C CryptoRF
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 43 44 60 02 01 E4 EF
+	"Andante" Card, Porto (Portugal) metro card. (ISO14443 B CTS/CTM512B) (Transport)
+	http://www.transportespublicos.pt/en/glossary/andante-ticket-system/
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 09 .. .. 00 00 00 00 ..
 	RFID - ISO 15693 Part 1 (as per PCSC std part3)
@@ -5167,6 +5188,10 @@
 	Gemplus GemGate 32K
 	distributed by Postecert (www.postecert.it) to legally sign documents
 
+3B FC 13 00 00 81 31 FE 15 59 75 62 69 6B 65 79 4E 45 4F 72 33 E1
+	YubiKey NEO (PKI)
+	http://www.yubico.com/
+
 3B FC 13 00 00 81 31 FE 45 59 75 62 69 6B 65 79 4E 45 4F 72 33 B1
 	Yubikey Neo
 	http://www.yubico.com/products/yubikey-hardware/yubikey-neo/
@@ -5212,6 +5237,10 @@
 
 3B FD 18 00 FF 80 B1 FE 45 1F 07 80 73 00 21 13 57 4A 54 48 61 31 4A 00 52
 	e-CPF issued by AASP (Lawyers Association of São Paulo, Brazil)
+
+3B FD 18 00 FF 81 31 FE 45 43 49 42 47 55 5A 49 4A 32 41 30 38 31 58
+	Caregiver card for Dutch Medical System called UZI
+	(Unieke Zorgverlener Identificatie, Caring Unique Identification)
 
 3B FD 91 00 FF 91 81 71 FE 40 00 41 20 00 41 00 81 80 31 C0 73 D6 21 C0 D8
 	Sparkasse Hanau - German contactless GeldKarte (PPSE, girogo)
@@ -5559,6 +5588,9 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 11 01 43 4E 53 11 31 80 8C
 	Infocert 1205* smart card
 	Universita' Degli Studi di Torino (Infocert)
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 01 01 11 01 43 4E 53 11 31 80 9E
+	Service card of the Ministry of Defense of Italy - Navy
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 00 01 50 53 45 10 31 80 94
 	Italian Electronic ID Card (eID)
@@ -5929,6 +5961,9 @@
 
 3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 48 01 00 00
 	"D-Smart" NDS from Turkie
+
+3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 4A 01 00 00
+	Dolce by RomTelecom (Pay TV)
 
 3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 4B 01 00 00
 	Pay TV, Viasat Ukraine
