@@ -130,6 +130,9 @@ Licences:
 History:
 ========
 
+1.4.23 - 13 September 2014, Ludovic ROUSSEAU
+    - 137 new ATRs
+
 1.4.22 - 17 January 2014, Ludovic ROUSSEAU
     - 215 new ATRs
     - Fetch a new ATR file if it was not upgraded in the last 10
