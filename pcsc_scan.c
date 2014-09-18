@@ -282,15 +282,18 @@ get_readers:
 		rgReaderStates_t[i].dwCurrentState = SCARD_STATE_UNAWARE;
 		rgReaderStates_t[i].cbAtr = sizeof rgReaderStates_t[i].rgbAtr;
 	}
-	rgReaderStates_t[nbReaders].szReader = "\\\\?PnP?\\Notification";
-	rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
+
+	/* If Plug and Play is supported by the PC/SC layer */
+	if (pnp)
+	{
+		rgReaderStates_t[nbReaders].szReader = "\\\\?PnP?\\Notification";
+		rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
+		nbReaders++;
+	}
 
 	/* Wait endlessly for all events in the list of readers
 	 * We only stop in case of an error
 	 */
-	if (pnp)
-		nbReaders++;
-
 	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
