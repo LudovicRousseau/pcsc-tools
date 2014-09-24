@@ -337,6 +337,9 @@
 3B 1C 94 43 48 49 50 44 52 49 56 45 30 30 31
 	SCM Chipdrive MyKey MasterKey 24k
 
+3B 1D 11 00 32 04 00 00 00 FF 00 00 00 00 90 00
+	chip ST32F32A (Telecommunication)
+
 3B 1D 96 00 23 07 00 00 00 00 00 00 00 00 90 00
 	emulator card prototype from ST
 
@@ -590,6 +593,9 @@
 	Gemplus GemXplore Xpresso V3 B1P
 	Mobistar SIM - Belgium (Gemplus)
 
+3B 3B 94 00 91 38 11 50 46 97 40 33 33 90 00
+	Leclerc Mobile (French MVNO) SIM card
+
 3B 3B 94 00 9B 44 20 10 4D 04 20 00 33 90 00
 	SIM card for 063 network of Telekom Srbije, the Serbian state-owned telephone company.
 
@@ -746,6 +752,9 @@
 
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A 1C 00 11 40 90 00
 	"CardLogic" CLXSU256KF5
+
+3B 5F 95 00 80 73 00 01 00 59 43 4C 5A C5 06 12 C0 90 00
+	Republic of Liberia Civil Service Identification Card (eID)
 
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
@@ -1778,6 +1787,10 @@
 3B 6F 00 00 80 5A 08 03 03 00 00 00 01 56 64 F6 82 90 00
 	transport bus/tram "atout.tag" semitag grenoble
 
+3B 6F 00 00 80 5A 08 03 03 00 00 00 02 BB 26 7C 82 90 00
+	Twisto
+	http://www.twisto.fr
+
 3B 6F 00 00 80 5A 08 06 08 20 02 00 .. .. .. .. 82 90 00
 	Lisboa Viva, public transport card of Lisbon (Portugal)
 
@@ -1798,6 +1811,10 @@
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
+
+3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
+	ONYGO! pass
+	http://www.region-basse-normandie.fr/pass-onygo
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 14 7C 55 82 90 00
 	Navigo (transport)
@@ -3534,6 +3551,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00 EC
 	SIM Free Mobile
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 5C 0E 00 28
+	SIM card by German mobile phone provider E-Plus for Product "WhatsApp SIM" (Telecommunication)
+	https://www.eplus.de/whatsapp
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 8D 5F 10 00 C3
 	eUICC for Gemalto (Telecommunication)
 
@@ -3831,6 +3852,7 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 12 00 82 90 00 D2
 	Free Mobile SIM Card
+	B&YOU SIM card
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -4172,6 +4194,8 @@
 3B BE 96 00 00 41 05 20 00 00 00 00 00 00 00 00 00 90 00
 	CryptoMate64 USB Cryptographic token
 	http://www.acs.com.hk/index.php?pid=product&prod_sections=0&id=CRYPTOMATE64
+	ACS ACOS5-64
+	http://www.acs.com.hk/en/products/17/acos5-64-cryptographic-smart-card/
 
 3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 .. 83 81 90 00 ..
 	Vodafone (Italy) 128 kB GSM SIM card
@@ -5460,6 +5484,10 @@
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 0C 76 07 64 00 0D 95 81 20 00 07 30 0F
 	Master Card Credit Card issued by WGZ bank (all german volksbank institutes use them)
 
+3B FF 18 00 FF 81 31 FE 45 65 63 0D 0C 76 07 64 00 0D 96 03 61 00 07 30 CF
+	VR-Networld-Card with SECCOS-chip / Volksbank eG Konstanz
+	for Online-Banking (FinTS / HBCI-3.0 + EBICS; RD 01/12 NetWorld)
+
 3B FF 18 00 FF 81 31 FE 45 65 63 11 03 50 02 80 00 08 27 70 02 06 05 01 8A
 	old banking card (electronic-card / Maestro / Geldkarte) of the
 	"Volksbank Gelderland eG" (around 2003)
@@ -5613,6 +5641,9 @@
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
 
+3B FF 91 00 FF 91 81 71 FC 40 00 0A 65 4B 54 50 30 44 32 65 4B 54 50 04 3D 5B 62
+	Indonesian eID (eID)
+
 3B FF 94 00 00 00 43 4D 42 5F 55 42 53 69 67 6E 30 30 30 32 15
 	UBS Access Card used for online banking with UBS in Switzerland.
 	It resides in a calculator like token, that is used for a challenge
@@ -5623,6 +5654,10 @@
 
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 02 32 41 00
 	Turkcell SIMPlus64 / Turkey
+
+3B FF 94 00 00 81 31 80 43 80 31 80 65 B0 85 02 01 F3 12 0F FF 82 90 00 79
+	Serbian Identity Card (eID)
+	Java Card (Sealys MultiApp ID v2.1) supporting Global Platform 2.1.1
 
 3B FF 94 00 00 C0 0A B1 FE 49 1F 43 80 31 E0 73 F6 21 13 57 34 36 43 41 32 30 20 68
 	Sonera UICC (Telecommunication)
@@ -5921,6 +5956,10 @@
 
 3F FD 13 25 02 50 80 0F 33 B0 08 FF FF 4A 50 90 00 00 47 4C 01
 	Sky (Brasil) VideoGuard CAM card
+
+3F FD 13 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
+	Sky Germany V14 NDS card (Pay TV)
+	http://www.wikipedia.org/wiki/Sky_Deutschland
 
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
