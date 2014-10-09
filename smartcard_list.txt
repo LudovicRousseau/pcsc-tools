@@ -1230,6 +1230,9 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 07 90 00
 	American Express Gold Air France - KLM (Bank)
 
+3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
+	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
+
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
 	http://account.entropiauniverse.com/account/security/
@@ -1637,6 +1640,7 @@
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
 	Inteligo debit card
+	VISA issued by ING (Poland)
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
@@ -2028,6 +2032,10 @@
 3B 7B 18 00 00 00 31 C0 64 77 E9 10 00 01 90 00
 	Oberthur Card Systems: Cosmo 64 RSA V5.4 (ISK Key Set: 404142 .. 4E4F)
 
+3B 7B 18 00 00 00 31 C0 64 90 E3 11 00 82 90 00
+	oberthur card in the middle http://postarca.posta.si/downloadfile.aspx?fileid=16918 (eID)
+	http://postarca.posta.si/
+
 3B 7B 18 00 00 00 31 C0 64 C6 FC 10 00 07 90 00
 	Sberbank of the RUSSIAN federation
 
@@ -2416,6 +2424,11 @@
 3B 7F 38 00 00 00 6A 44 4E 49 65 [1,2]0 02 4C 34 01 13 03 90 00
 	DNI electronico (Spanish electronic ID card)
 	http://www.dnielectronico.es
+
+3B 7F 94 00 00 80 31 80 71 90 67 54 45 4D 44 31 2E 30 90 00
+	M.MAR (MEE GVB1.1/11.06) eID
+	Tarjeta Electrónica del Ministerio de Defensa (M.MAR TEMDv1.0)
+	https://www.commoncriteriaportal.org/files/epfiles/2004-03-ST.pdf
 
 3B 7F 96 00 00 00 31 B8 64 40 70 14 10 73 94 01 80 82 90 00
 	IAS/ECC Gemalto (eID)
@@ -2973,6 +2986,10 @@
 # Cf PCSC standard, Part 3, Chapter 3.1.3.2.3.2, and Part 3 Supplemental
 # Document
 # http://www.pcscworkgroup.com/specifications/specdownload.php
+3B 8F 80 01 80 31 80 65 B0 84 23 27 E5 12 0F FE 82 90 00 7E
+	Gemalto IDPrime MD 3810 Blank Card (Other)
+	http://www.gemalto.com/products/IDPrime_MD/index.html
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 01 00 00 00 00 ..
 	Mifare Standard 1K (as per PCSC std part3)
 
@@ -3544,6 +3561,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 49 0D 00 32
 	UK simcard - O2 unlimited prepay 3G (4DM) USIM (EXT)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 60 0E 00 18
+	Walmart Family Mobile (T-Mobile) West Coast (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00
 	SIM Free Mobile
@@ -4387,6 +4407,10 @@
 
 3B DB 96 FF C0 10 31 FE 45 80 67 15 01 B4 03 00 09 00 81 05 21
 	Digital Tachograph Card for Professional Driver
+	olish driver card for digital tachograph
+
+3B DC 18 FF 80 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 39
+	Digital Signature Costa Rica (eID)
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 06 01 30 04 01 55
 	Athena IDProtect Key Laser
@@ -4410,6 +4434,7 @@
 
 3B DD 18 FF C0 80 B1 FE 45 1F C3 00 68 D2 76 00 00 28 04 04 11 00 90 00 C9
 	Russian Federation driver card for the digital tachograph
+	Polish driver card for digital tachograph
 
 3B DD 96 00 80 10 FE 80 31 80 63 01 FF C0 73 B3 21 1B 81 05
 	BIFIT iBank 2 USB Key (Bank)
@@ -4480,6 +4505,9 @@
 3B DF 94 FF C0 80 B1 FE 45 1F 03 00 6A D2 76 00 00 28 04 15 FA 40 04 00 90 00 3B
 	DVLA Company Card (Transport)
 
+3B DF 95 00 80 1F 87 80 31 A0 73 FF 21 00 63 45 B1 05 83 0F 90 00 60
+	FUTURE CARD Normal ISO SIM (Telecommunication)
+
 3B DF 95 FF 80 91 FE 1F C3 80 25 A0 00 00 00 68 53 19 00 01 73 C8 21 13 29
 	CardLogix Credensys-J Contacted Java Card 2.2.1 Global Platform 2.1.1 (Atmel AT90SC12872RCFT)
 	(bank)
@@ -4539,6 +4567,8 @@
 3B E6 00 FF 81 31 FE 45 44 49 20 30 32 4D 70
 	Alior Sync (Poland) - MasterCard Debit Card with PayPass (Bank)
 	MasterCard Contactless Debit Card issued by Raiffeisen Bank in Czech Republic
+	Debit MasterCard with paypass issued by Bank Zachodni WBK (Poland)
+	Debit MasterCard with paypass issued by AliorSync
 
 3B E6 00 FF 81 31 FE 45 44 49 20 30 32 56 6B
 	VISA credit card (DKB)
@@ -4583,6 +4613,10 @@
 	"Deutsche Kreditbank AG" Visa Card produced by AustriaCard GNC
 	All cards (MasterCard, Maestro, VISA Electron) issued by Raiffeisen Bank in Romania
 	EMV (MasterCard) Card, issued by Raiffeisen Bank in Czech Republic
+
+3B E7 00 FF 81 31 FE 45 4D 43 41 20 38 20 36 52
+	Mastercard credit card issued by "PayLife Bank GmbH".
+	Bank number is "5266" - Bawag PSK.
 
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
@@ -4641,6 +4675,9 @@
 
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
+
+3B EA 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 A5
+	GemXpresso Pro R3 32PK (MPCOS, T=1) (warn reset)
 
 3B EA 00 00 81 31 FE 45 00 31 C1 73 C8 40 00 00 90 00 7A
 	Nigerian eID Card (cold reset)
@@ -5893,6 +5930,9 @@
 
 3F 77 18 00 00 C2 7A 44 02 68 90 00
 	XXX Redlight_HD (Viaccess)
+
+3F 77 18 00 00 C2 EB 45 02 6C 90 00
+	facetv (Other)
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
