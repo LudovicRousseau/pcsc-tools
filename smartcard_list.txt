@@ -427,6 +427,9 @@
 3B 24 00 80 72 94 43
 	MPCOS-3DES 64K \ EMV Filter (Gemplus)
 
+3B 24 00 FF FC FC FC
+	Carta Nazionale dei Servizi - Camerica di Commercio di Torino (eID)
+
 3B 26 00 00 26 40 00 90 00
 	Schlumberger, purse?
 
@@ -803,6 +806,7 @@
 	CB Visa La Banque Postale (Gemalto)
 	CB Visa BNP Paribas (France)
 	CB Visa du Crédit Coopératif
+	CB Visa from Banque Calédonienne d'Investissement (BCI)
 
 3B 65 00 00 20 63 CB 6A 80
 	Mastercard EMV Debit Card
@@ -859,6 +863,9 @@
 
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
+
+3B 65 00 00 20 63 CB AB A0
+	Visa card (a blue one) edited by Banque Calédonienne d'Investissement (BCI)
 
 3B 65 00 00 20 63 CB AD 20
 	bpost bpaid (Bank)
@@ -935,6 +942,10 @@
 
 3B 66 00 FF 4A 43 4F 50 30 33
 	IBM JCOP 30
+
+3B 66 00 FF 4A 43 4F 50 32 30
+	UOB Preferred Platinum Visa Card (Bank)
+	http://www.uob.com.sg/personal/cards/credit/preferred_platinum_visa_card.html
 
 3B 66 00 FF 4A 43 4F 50 32 31
 	JCOP 21
@@ -1260,6 +1271,10 @@
 3B 6B 00 FF 56 43 41 52 44 5F 4E 53 53
 	NSSVirtual smart card for qemu
 
+3B 6C 00 00 0F 31 C0 71 D6 64 13 6A 01 00 5D 84
+	MasterCard debit card: skrill.com card issued by Newcastle Building Society (Bank)
+	https://www.skrill.com
+
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
 
@@ -1492,14 +1507,21 @@
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 39
+	Yandex Money MasterCard (Bank)
+	http://money.yandex.ru
+
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 47
 	Hellenic Bank Visa Electron (Gemalto)
 
 3B 6E 00 00 00 31 C0 65 EC D4 02 00 08 71 D6 8C 61 33
 	Victoria Bank (Republic of Moldova) - Visa Electron
 
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
+	Tesco Bank Credit Card (VISA) (Bank)
+
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 37
-	UniCreditCard Free (VISA) credit card (bank)
+	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
@@ -1819,6 +1841,9 @@
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 25 82 88 5F 82 90 00
+	Navigo Découverte (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 14 7C 55 82 90 00
 	Navigo (transport)
@@ -2275,6 +2300,9 @@
 3B 7F 11 00 00 80 31 C0 52 35 31 64 05 66 61 52 83 83 90 00
 	Oberthur Manufactured VISA Banking card (www.caixaterrassa.cat)
 
+3B 7F 11 00 00 80 31 C0 52 3A 65 64 06 96 18 62 83 83 90 00
+	Visa Electron Triodos Bank Card (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 02 71 64 05 62 34 70 83 83 90 00
 	Mastercard Debit Card issued by Caixa d'Enginyers
 	http://www.caixa-enginyers.com
@@ -2653,6 +2681,9 @@
 	http://carteopus.info/
 	ACTV (Italy) transport card (RFID)
 
+3B 88 80 01 00 00 00 00 00 71 81 00 F9
+	Navigo Découverte (RFID interface) (Transport)
+
 3B 88 80 01 00 00 00 00 00 81 91 10 09
 	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
 
@@ -2967,7 +2998,7 @@
 3B 8F 80 01 43 55 32 69 AA 20 20 20 20 20 20 20 20 20 20 E9
 	UBS Access Card (Mobile Online Banking, NFC, Switzerland)
 
-3B 8F 80 01 45 50 41 00 00 00 00 .. .. .. .. 00 00 .. .. ..
+3B 8F 80 01 45 50 41 00 00 00 00 .. .. .. .. 00 .. .. .. ..
 	Austrian Quick E-purse contactless
 	http://www.quick.at/
 
@@ -2982,6 +3013,9 @@
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 37 32 72 24
 	RFIDIOt JCOP 72K RANDOM_UID Blank
 	http://rfidiot.org
+
+3B 8F 80 01 56 69 6E 50 61 79 53 79 73 20 50 75 72 73 65 2F
+	JCOP (Other)
 
 # Cf PCSC standard, Part 3, Chapter 3.1.3.2.3.2, and Part 3 Supplemental
 # Document
@@ -3664,6 +3698,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 07 56 42 00 82 90 00 D0
 	SIM mobi orange
 
+3B 9F 95 80 1F 03 80 31 A0 73 B6 A1 00 67 CF 97 F9 E0 63 68 99 57
+	Telestial OneRate International SIM card  (Telecommunication)
+	http://www.amazon.com/gp/product/B004GV13VY/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
+
 3B 9F 95 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 A9
 	GSM-SIM Elisa (Estonia, WPKI eID support)
 
@@ -3824,6 +3862,9 @@
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
 
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 43 01 00 8C
+	SIM From Tuenti Móvil Spain (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
 	H3G (Italy) UMTS USIM
@@ -3831,6 +3872,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 03 04 03 02 7C
+	Comprion test U(SIM): model 128K/J LTE Test (U)SIM - Mini-UICC, product number Prod. No.: 10432006 (Telecommunication)
+	http://www.comprion.com/en/products/test__u_sims/3g_test_usim_cards
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 03 04 04 04 4F
 	GSM-SIM EMT (3G modem 2011, Estonia)
@@ -4366,6 +4411,10 @@
 	ZeitControl BasicCard ZC7.5 user-programmable dual interface smart card
 	http://www.smartcardfocus.com/shop/ilp/id~380/BasicCard_ZC7_5_Dual_Interface/p/index.shtml
 
+3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 44 6A
+	Smart card BasicCard Professional ZC7.5, ZeitControl cardsystems GmbH
+	http://www.zeitcontrol.de/en/products/chip-cards/processor-chip-cards/basiccard
+
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	CAC (Common Access Card)
 
@@ -4381,6 +4430,9 @@
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
 	Oberthur Cosmo V7 debug card (SDK)
+
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 0F 90 00 0D
+	ID-One PIV (that's the only non-numeric identifying mark) (PKI)
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 BE 1B 01 00 01 90 00 FB
 	Bank card
@@ -4869,6 +4921,10 @@
 3B F0 13 00 00 10 00
 	MasterCard ETEC InterOp 27. This is an dual-app Maestro/MasterCard Credit EMV test card
 
+3B F0 13 00 00 81 31 FE 45 E8
+	Healt care card Romania (HealthCare)
+	http://www.cnas.ro/casmb/national-page/cardul-national-de-asigurari-de-sanatate-2.html
+
 3B F2 18 00 00 C1 0A 31 FE 55 C8 06 75
 	HID iCLASS P16K C4H
 	proximity card used for both door locks and keystore
@@ -5024,6 +5080,10 @@
 3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B7
 	Nigerian eID Card (blank card)
 	Chip is NXP JCOP 2.4.1R3
+
+3B F8 13 00 00 81 31 FE 45 52 41 41 4B 43 32 76 35 CB
+	Raak C2 Smart Card (PKI)
+	http://www.raaktechnologies.com/software-downloads-documentation/
 
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
