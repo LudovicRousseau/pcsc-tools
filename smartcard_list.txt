@@ -293,6 +293,10 @@
 3B 17 94 20 05 01 10 01 41 FF
 	CLARO SIM card (ex CTI Movil)
 
+3B 17 94 21 03 01 0A 02 41 FF
+	Eurotel Praha, spol. s r. o. - O2 SIM card (Telecommunication)
+	http://www.o2.cz/
+
 3B 17 94 80 65 D0 01 6C F2 BE
 	CMCC sim cards with TD-SCDMA support
 
@@ -1517,6 +1521,9 @@
 3B 6E 00 00 00 31 C0 65 EC D4 02 00 08 71 D6 8C 61 33
 	Victoria Bank (Republic of Moldova) - Visa Electron
 
+3B 6E 00 00 00 31 C0 65 F1 D5 02 01 09 71 D6 8C 61 33
+	HALIFAX (Bank)
+
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
 	Tesco Bank Credit Card (VISA) (Bank)
 
@@ -1787,6 +1794,9 @@
 3B 6F 00 00 80 31 E0 6B 05 12 05 02 87 55 55 55 55 55 55
 	American Express credit card
 
+3B 6F 00 00 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55
+	Air Miles American Express card (contact) (Bank)
+
 3B 6F 00 00 80 31 E0 6B 07 14 05 02 8A 55 55 55 55 55 55
 	SolutionsBanking Canada Interac debit card
 
@@ -1841,6 +1851,10 @@
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 25 81 EB A5 82 90 00
+	Navigo Découverte card for Paris and suburbs transportation, no subscription required (Transport)
+	http://www.navigo.fr/le-choix-entre-la-carte-navigo-ou-la-carte-navigo-decouverte.html
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 25 82 88 5F 82 90 00
 	Navigo Découverte (Transport)
@@ -2159,6 +2173,9 @@
 	personal identity card (ID card) of Republic of Lithuania
 	LuxTrust card
 
+3B 7D 94 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
+	GXP4 E72PK Applet V1 T=0 (PKI)
+
 3B 7D 94 00 00 80 31 80 65 B0 83 11 48 C8 83 00 90 00
 	Online banking
 	http://www.getinbank.pl/
@@ -2170,12 +2187,9 @@
 	Gemalto's Classic TPC HM CC Mifare 1K White PVC
 	(Old name GemSafeXpresso 64K)
 
-3B 7D 95 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
-	Portuguese ID card
-
-3B 7D 95 00 00 80 31 80 65 B0 83 11 C0 A9 83 00 90 00
-	Portuguese identity card
-	http://www.cartaodecidadao.pt
+3B 7D 95 00 00 80 31 80 65 B0 83 11 .. .. 83 00 90 00
+	Portuguese ID Card (eID)
+	http://www.cartaodecidadao.pt/
 
 3B 7D 96 00 00 80 31 80 65 B0 83 02 01 F3 83 00 90 00
 	Gemalto IDClassic 340
@@ -2474,6 +2488,10 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 0F FE 82 90 00
 	Gemalto IDPrime MD
+
+3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 FF FE 82 90 00
+	Gemalto TOP IM GX4 (PKI)
+	http://www.cryptotech.com.pl/compl/data/gemalto/pdf/TOP_GX4_Nov08.pdf
 
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
@@ -3023,6 +3041,9 @@
 3B 8F 80 01 80 31 80 65 B0 84 23 27 E5 12 0F FE 82 90 00 7E
 	Gemalto IDPrime MD 3810 Blank Card (Other)
 	http://www.gemalto.com/products/IDPrime_MD/index.html
+
+3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
+	Air Miles American Express card (contactless) (Bank)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 01 00 00 00 00 ..
 	Mifare Standard 1K (as per PCSC std part3)
@@ -3925,6 +3946,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 01 FE
 	Telekom Deutschland GmbH - Xtra Data Karte (3G SIM)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 38 05 DA
+	GTS Czech MVNE SIM for T-Mobile (Telecommunication)
+	http://www.gts.cz/cz-en/solutions/types/wholesale/mvne
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6D
 	GemXplore 3G v2.2
 
@@ -4522,6 +4547,9 @@
 
 3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
 	Identity Card in Slovakia with security chip and e-signature
+
+3B DF 18 00 81 31 FE 58 80 31 B0 52 02 04 64 05 C9 03 AC 73 B7 B1 D4 22
+	Austrian "e-Card" (=Health Card) of the 4th generation. (HealthCare)
 
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
@@ -6050,6 +6078,9 @@
 
 3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
 	Sky Digital (DSS satellite TV card) 2009 issue
+
+3F FD 13 25 02 50 00 0F 33 B0 16 69 FF 4A 50 D0 80 00 53 59 03
+	Sky TV Multiroom (Pay TV)
 
 3F FD 13 25 02 50 80 0F .. B0 .. 69 FF 4A 50 D0 80 00 49 54 03
 	Sky (Italy) VideoGuard CAM card
