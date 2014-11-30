@@ -306,6 +306,10 @@
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
 
+3B 18 11 E8 43 01 10 09 05 07 77
+	Sim Card GSM for provider 3 telecommunication Indonesia (Telecommunication)
+	http://tri.co.id/
+
 3B 18 94 53 0D 06 77 24 07 FF 02
 	GSM SIM Tele2 Estonia, prepaid (Telecommunication)
 
@@ -1279,6 +1283,10 @@
 	MasterCard debit card: skrill.com card issued by Newcastle Building Society (Bank)
 	https://www.skrill.com
 
+3B 6C 00 00 0F 31 C0 71 D6 64 3E 67 01 01 5D 84
+	VISA GOLD Card issued by Swedbank AB, Lithuania (Bank)
+	http://www.swedbank.lt/lt/pages/privatiems/auksine_kredito_kortele
+
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
 
@@ -1788,6 +1796,10 @@
 	NORSK TIPPING NORWAY
 	http://www.norsk-tipping.no/
 
+3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
+	Banamex cuenta perfiles (Bank)
+	http://banamex.com
+
 3B 6F 00 00 80 31 E0 6B 05 08 05 02 83 55 55 55 55 55 55
 	Bank of Montreal debit card
 
@@ -1862,6 +1874,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 14 7C 55 82 90 00
 	Navigo (transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 15 5E E3 82 90 00
+	French "Navigo" transport card (Transport)
+	http://www.navigo.fr/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -1873,8 +1889,15 @@
 3B 6F 00 00 80 5A 2C 23 C2 10 10 05 .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 
+3B 6F 00 00 80 5A 2C 23 C3 00 03 02 02 84 94 EA 82 90 00
+	MOBIB card for DeLijn (public transport operator for the Flemish part of Belgium)
+
 3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 00 04 2B 82 90 00
 	NMBS/SCNB Mobility card (basically a train subscription) MoBIB
+
+3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 02 C0 6C 82 90 00
+	SNCB/NMBS MOBIB Card (Transport)
+	http://www.belgianrail.be/fr/titres-de-transport/mobib.aspx
 
 3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 03 42 32 82 90 00
 	MOBIB Card
@@ -2826,6 +2849,9 @@
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
 
+3B 89 80 01 66 52 57 45 32 50 52 4F 4D 1C
+	This is NFC enabled SIM card. (Telecommunication)
+
 3B 89 80 01 80 67 04 12 B0 03 05 01 02 4C
 	Austrian Passport
 
@@ -2940,6 +2966,10 @@
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
 
+3B 8C 80 01 50 B1 56 D8 BB 00 00 00 11 00 81 85 CC
+	TI rf430cl330h (Other)
+	http://www.ti.com/product/rf430cl330h
+
 3B 8C 80 01 50 FF FF FF FF FF FF FF 22 00 10 51 C1
 	Printer ribbon tag (Other)
 
@@ -2961,6 +2991,9 @@
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
+
+3B 8D 80 01 0D 78 F7 B1 02 4A 43 4F 50 76 32 34 31 6A
+	Electronic Identity For Students at university (eID)
 
 3B 8D 80 01 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 3F
 	G&D SmartCafe Expert 3.2 80K Dual
@@ -3555,6 +3588,9 @@
 3B 9E 95 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 49 00 00 00 4E
 	UK O2 Unlimited Prepay GSM/UMTS USIM
 
+3B 9E 95 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F BD 10 00 31
+	H3G (Three UK) Prepaid USIM (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
 	H3G (Ireland, UK) UMTS USIM card
 
@@ -3570,6 +3606,9 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 49 00 C0 00 4A
 	Rogers SIM card
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 75 02 05 00 71
+	SIM card, provided by brasilian operator "claro" (Telecommunication)
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 7A 00 00 00 79
 	Simyo SIM Card, Spanish Mobile Company
@@ -3591,6 +3630,9 @@
 3B 9E 96 00 80 31 C0 65 4D 47 00 00 00 72 F7 41 81 07
 	Russian Magistra (UTF8: Магистра) smart card (eID)
 	http://www.smart-park.ru/index.php/products/smartcards.html
+
+3B 9E 96 00 80 31 C0 65 4D 53 00 00 00 72 F7 41 81 07
+	Smart-key for bank-client of MDM Bank (RU) with faktura.ru service (Bank)
 
 3B 9E 96 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 1D 10 49
 	Maroc Telecom USIM
@@ -3614,6 +3656,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C C1 0D 00 A1
 	3 (Italian telecommunication provider) 3g sim card 2FF format H3G Italy
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6F F9 0D 00 9A
+	T-Mobile US SIM card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 49 0D 00 32
 	UK simcard - O2 unlimited prepay 3G (4DM) USIM (EXT)
 
@@ -3630,8 +3675,15 @@
 	SIM card by German mobile phone provider E-Plus for Product "WhatsApp SIM" (Telecommunication)
 	https://www.eplus.de/whatsapp
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B AF 0D 00 D8
+	Chunghwa Telecom SIM card (Telecommunication)
+	http://www.cht.com.tw/en/personal/pops.html
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 8D 5F 10 00 C3
 	eUICC for Gemalto (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
+	Lenovo SIM card (Telecommunication)
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
@@ -3742,6 +3794,9 @@
 
 3B 9F 95 80 1F 47 80 31 E0 73 36 21 13 57 4A 33 0E 11 31 41 00 B5
 	Telus 3G SIM Card
+
+3B 9F 95 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 05 2C 32 34 00 3D
+	Subscription SIM card issued by TELE2, Lithuania (Telecommunication)
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 03 01 02 00 00 99
 	T-Mobile (UK) SIM
@@ -3862,6 +3917,10 @@
 	altinn - Buypass
 	Electronic ID card for login to the altinn.no service
 
+3B 9F 96 40 0A 80 31 E0 6B 04 21 05 02 6C 55 55 55 55 55 55
+	Banca Intesa (Bank)
+	http://www.bancaintesa.rs/code/navigate.aspx?Id=677
+
 3B 9F 96 40 0A 80 31 E0 6B 04 31 05 02 A8 55 55 55 55 55 55
 	Norsk Tipping tippekort (eID)
 	https://www.norsk-tipping.no/bli-nettspiller
@@ -3891,8 +3950,14 @@
 	H3G (Italy) UMTS USIM
 	Vodafone (UK) SIM
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00 BD
+	T-Mobile US USIM card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 03 03 01 04 7F
+	T-Mobile US SIM card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 03 04 03 02 7C
 	Comprion test U(SIM): model 128K/J LTE Test (U)SIM - Mini-UICC, product number Prod. No.: 10432006 (Telecommunication)
@@ -3906,6 +3971,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 04 03 05 05 05 4A
 	Claro operator SIM
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 04 02 03 02 47
+	ReadySIM / T-Mobile USA USIM (2013) (Telecommunication)
+	http://www.readysim.com/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 02 01 01 05 01 05 43
 	CMHK card. China Mobile Hong Kong. (Telecommunication)
@@ -4793,6 +4862,9 @@
 3B EC 00 00 40 32 42 4C 55 45 20 44 52 41 47 4F 4E 20 43 00 01
 	Pay TV
 
+3B EC 00 00 40 32 54 49 54 41 4E 49 55 4D 00 13 02 02
+	Titanium 2 Card Pirat Card for Seca 2 / Viaccess 2004 (Pay TV)
+
 3B EC 00 FF 81 31 FE 45 A0 00 00 00 56 33 33 30 4A 33 06 00 A1
 	Datakey model 330J card, www.datakey.com
 	http://www.hmk.de/downloads/datakey/Model_330J_Smart_Card.pdf
@@ -4806,6 +4878,9 @@
 
 3B ED 00 00 81 31 80 42 80 31 80 65 B0 87 27 01 BC 83 08 90 00 7D
 	EMV (V PAY) Issued by UniCredit Bulbank Bulgaria
+
+3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
+	E.SUN Commercial bank debit master card (Bank)
 
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
@@ -5112,6 +5187,9 @@
 3B F8 13 00 00 81 31 FE 45 52 41 41 4B 43 32 76 35 CB
 	Raak C2 Smart Card (PKI)
 	http://www.raaktechnologies.com/software-downloads-documentation/
+
+3B F8 13 00 00 81 31 FE 45 53 6D 61 72 74 41 70 70 F8
+	national Lithuania ID card
 
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
@@ -6103,6 +6181,9 @@
 
 3F FD 15 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 41 4A 03
 	beIN Sports Arabia NDS (09B5:000000) (Pay TV)
+
+3F FD FF 25 02 50 80 0F 54 B0 04 69 FF 4A 50 D0 80 00 49 54 03
+	SKy italia (Pay TV)
 
 3F FF 11 25 03 10 80 41 B0 06 69 FF 4A 50 70 00 00 41 5A 01 00 11
 	Astro (Pay TV)
