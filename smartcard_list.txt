@@ -881,6 +881,7 @@
 3B 65 00 00 20 63 CB AD 20
 	bpost bpaid (Bank)
 	http://www.bpost.be/bpaid/
+	KBC Ireland Mastercard Debit (Bank)
 
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
@@ -1539,6 +1540,10 @@
 3B 6E 00 00 00 31 C0 65 F1 D5 02 01 09 71 D6 8C 61 33
 	HALIFAX (Bank)
 
+3B 6E 00 00 00 31 C0 65 F7 C6 02 00 06 71 D6 8C 61 39
+	"Ticket Restaurant" Edenred España S.A. (Bank)
+	http://www.edenred.es/ticket-restaurant/tarjeta-restaurante
+
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
 	Tesco Bank Credit Card (VISA) (Bank)
 
@@ -1691,6 +1696,10 @@
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
+
+3B 6E 00 00 80 31 80 66 B0 87 0C 01 6E 01 83 00 90 00
+	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard)
+	http://www.observatoriotui.com/home
 
 3B 6E 00 00 80 31 80 66 B1 A1 11 01 00 F6 83 00 90 00
 	Gemalto Desineo D72 FXR1 (PKI)
@@ -2460,6 +2469,13 @@
 3B 7F 13 00 00 80 31 C0 52 18 97 64 02 B3 02 37 83 83 90 00
 	tool-valley (vale-pedagio) from Bradesco
 
+3B 7F 13 00 00 80 31 C0 52 19 1B 64 02 B3 02 70 83 83 90 00
+	La Caixa Visa electron ATM Card (Bank)
+	https://portal3.lacaixa.es/apl/tarjetas/catalogo/catalogo.index_es.html?idImagen=1041,14&filtro=DE
+
+3B 7F 13 00 00 80 31 C0 52 1B F1 64 05 62 17 80 83 83 90 00
+	blueBBVA Visa (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 34 D6 64 05 66 94 61 83 83 90 00
 	Visa Credit Card issued by Spain Obsidiana (www.obsidiana.com)
 
@@ -2654,6 +2670,13 @@
 3B 85 80 01 20 63 CB A1 80 AD
 	bpaid: bpost prepaid Mastercard (contactless)
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
+
+3B 85 80 01 20 63 CB AD 20 01
+	KBC Ireland MasterCard Debit Card (Bank)
+	http://www.kbc.ie/
+
+3B 85 80 01 20 63 CB AD 80 A1
+	VISA Caisse d'Epargne  (Bank)
 
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator
@@ -2984,6 +3007,10 @@
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
 
+3B 8C 80 01 50 38 0E B2 5B 00 00 00 00 B3 71 71 31
+	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
+	http://bip.piemonte.it/
+
 3B 8C 80 01 50 64 E6 5B 00 00 00 00 00 00 81 80 85
 	Chicago CTA Ventra Transit card
 	https://www.ventrachicago.com/
@@ -2994,6 +3021,10 @@
 3B 8C 80 01 50 B1 56 D8 BB 00 00 00 11 00 81 85 CC
 	TI rf430cl330h (Other)
 	http://www.ti.com/product/rf430cl330h
+
+3B 8C 80 01 50 D9 4E 7D 00 00 00 00 00 00 81 80 B6
+	Chicago CTA Ventra Transit card (Transport)
+	https://www.ventrachicago.com/
 
 3B 8C 80 01 50 FF FF FF FF FF FF FF 22 00 10 51 C1
 	Printer ribbon tag (Other)
@@ -3699,6 +3730,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00 EC
 	SIM Free Mobile
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 49 0D 00 3F
+	SUPER start package (Estonia, EMT, 4G) (Telecommunication)
+	https://www.super.ee/en/
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 5C 0E 00 28
 	SIM card by German mobile phone provider E-Plus for Product "WhatsApp SIM" (Telecommunication)
@@ -4973,6 +5008,9 @@
 3B EF 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 56 49 20 20 20 20 20 00 C4
 	VfB Stuttgart Fankarte (pay card for the football stadium of the german club VfB Stuttgart)
 
+3B EF 00 00 81 31 FE 45 44 4C 41 5A 46 54 56 32 44 49 44 31 30 30 FF 06
+	Lufthansa ID Card (eID)
+
 3B EF 00 00 81 31 FE 45 46 49 4F 4D 4B 5F 30 30 31 20 30 31 30 41 00 9C
 	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contact chip)
 	note the ASCII string ' FIOMK_001 010A' embedded in ATR
@@ -5219,6 +5257,10 @@
 
 3B F7 18 00 00 81 71 80 42 00 00 63 95 0A 01 90 00 B0
 	7-Eleven icash card, Taiwan
+
+3B F7 91 00 FF 91 81 71 FE 40 00 0A 02 60 CF 51 04 CB 7F
+	UK Metro Bank Mastercard Debit (Bank)
+	https://www.metrobankonline.co.uk/
 
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
@@ -5476,7 +5518,7 @@
 	Yubikey Neo
 	http://www.yubico.com/products/yubikey-hardware/yubikey-neo/
 
-3B FC 18 00 00 81 31 80 45 90 67 46 4A 00 68 08 06 00 00 00 00 0C
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 00 68 08 0. 00 00 00 00 0.
 	Feitian A22 JavaCard (150K) (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~712/javacos-a22-dual-interface-java-card-150k/p/index.shtml
 	Feitian A40 JavaCard (64K) (JavaCard)
@@ -5549,6 +5591,10 @@
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
+
+3B FE 18 00 00 80 31 FE 45 53 43 45 36 30 2D 43 44 30 38 31 2D 6E 46 A9
+	G&D Sm@rtCafé Expert 6.0 (JavaCard)
+	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 01 90 00 E1
 	Estonian Identity Card (EstEID 3.0 "JavaCard" warm)
