@@ -253,6 +253,9 @@
 3B 16 94 D0 01 7B 2C 0E 00
 	SIM tunisiana
 
+3B 16 95 9B 00 07 01 18 03
+	Thai GSM UICC (Telecommunication)
+
 3B 16 95 D0 00 45 F7 01 00
 	Telefónica O2 Czech Republic, a.s. - O2 sim card - 173285 / SIM64ND.GO0
 	http://www.o2.cz
@@ -262,6 +265,10 @@
 
 3B 16 96 41 73 74 72 69 64 3B 02 14 50
 	Gemalto IDPrime v2+ .NET
+
+3B 16 96 77 00 06 01 04 03
+	AIS One-2-Call GSM UICC (Telecommunication)
+	http://www.ais.co.th
 
 3B 16 96 BA 00 0E 01 06 03
 	Vinaphone Vietnam SIM
@@ -334,6 +341,10 @@
 
 3B 19 94 33 03 01 31 45 41 06 02 B6
 	BASE Twin simcard (Telecommunication)
+
+3B 19 96 80 67 94 16 02 03 01 01 01
+	Movistar Argentina Usim Card (Telecommunication)
+	www.movistar.com.ar
 
 3B 1B 94 80 69 06 02 22 11 00 80 08 00 00
 	eID
@@ -1199,6 +1210,10 @@
 3B 69 00 00 AC 04 00 00 04 B1 8C 61 21
 	Student card for Université numérique Paris Île-de-France
 	http://unpidf.univ-paris1.fr/la-carte-multiservice-etudiant-de-paris-et-d-ile-de-france-1775.kjsp?RH=unr-carte&RF=unr-carte
+
+3B 69 00 00 EB 03 01 06 01 70 01 02 A9
+	Azeriqaz-SOCAR(Azerbaijan) (Other)
+	http://socar.az/socar/en/home
 
 3B 69 00 FF 00 64 4A 10 04 32 05 90 00
 	NXP JCOP 20 V2.1 16K
@@ -3131,6 +3146,10 @@
 	Gemalto IDPrime MD 3810 Blank Card (Other)
 	http://www.gemalto.com/products/IDPrime_MD/index.html
 
+3B 8F 80 01 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00 72
+	Gemalto IDPrime MD 3840
+	http://www.gemalto.com/dwnld/6891_IDPrimeMD3840_Product_Datasheet_May14.pdf
+
 3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
 	Air Miles American Express card (contactless) (Bank)
 
@@ -3410,6 +3429,10 @@
 	Rinkai Suica
 	Octopus, MTR network from Hong Kong, 2014
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 40 00 00 00 00 00 00 28
+	HID Proximity. Used to access buildings. Reference on the card "HID0008P".
+	http://www.hidglobal.com/product-display/cards-and-credentials/hid-proximity
+
 3B 8F 80 01 80 5A 08 03 03 00 00 00 01 52 43 21 82 90 00 FF
 	Carte Mode Pass (Used in Clermont-Ferrand, France, to store personal
 	information and T2C subscription. T2C is the public transport
@@ -3581,6 +3604,9 @@
 	runnig STARCOS 3.4 and prouced by Giesecke & Devrient GmbH
 	http://www.gi-de.com/deu/de/products_and_solutions/products/tachograph_cards/Fahrtenschreiberkarten-5890.jsp
 
+3B 9B 95 80 1F 43 80 31 A0 73 BE 21 00 53 34 50 01 19
+	True Move GSM UICC (Telecommunication)
+
 3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 27 11 02 4C
 	SIM TELE2 Sweden
 
@@ -3710,6 +3736,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
 	United Mobile SIM
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 2B 2D 02 00 04
+	KTF SHOW GE-B1400 WCDMA USIM (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0C 72 00 12
 	Orange Austria GSM/3G SIM: "Mobiles Internet"
 
@@ -3749,6 +3778,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
 	Lenovo SIM card (Telecommunication)
 
+3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
+	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
+
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
 
@@ -3757,6 +3789,9 @@
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37
 	dahlia Tv Italian Provider
+
+3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 38 00
+	irdeto (Pay TV)
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 36 2E 30
 	skylink, Pay TV
@@ -3912,11 +3947,18 @@
 	sysmocom sysmoUSIM-GR1
 	http://sysmocom.de/
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 2C 32 34 00 BD
+	SoftBank (Black UICC) (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 2E 32 34 00
 	SIM card
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 2F 32 34 00 BE
 	T-Mobile (US) USIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 30 32 34 00 A1
+	H2O Wireless GSM UICC (Telecommunication)
+	http://www.h2owirelessnow.com
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
@@ -4418,6 +4460,9 @@
 3B BE 18 00 00 41 05 10 00 00 00 00 00 00 00 00 00 90 00
 	ACS ACOS5 "ACOS5-32-G" dual card
 	http://www.acs.com.hk/acos5.asp
+
+3B BE 94 00 40 14 47 47 33 53 33 45 44 41 54 4C 36 30 31 30
+	SingTel hi! Prepaid GSM SIM UICC (Telecommunication)
 
 3B BE 94 00 40 14 47 47 33 53 33 45 48 41 54 4C 39 31 30 00
 	Latvian GSM operator TELE2
