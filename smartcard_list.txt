@@ -40,6 +40,12 @@
 3B 02 14 50 11
 	Maste visa card (Bank)
 
+3B 02 36 02
+	EMTG56 0.2
+
+3B 02 52 01
+	EMTCG256-3G 0.1
+
 3B 02 53 01
 	Gemplus GemClub Memo
 	SuperShop clubcard
@@ -203,6 +209,15 @@
 
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
+
+3B 12 95 36 06
+	EMTG56 0.6 (sub-version 0.1)
+
+3B 12 95 36 08
+	EMTG56 0.8 (sub-version 0.1)
+
+3B 12 95 36 09
+	EMTG56 0.9 (sub-version 0.1)
 
 3B 15 11 12 CA 07 00 DB
 	Tricolor TV center card (Pay TV)
@@ -2958,6 +2973,9 @@
 3B 8A 80 01 00 64 05 76 02 03 31 80 90 00 3C
 	T-System Contactless TCOS Min
 
+3B 8A 80 01 4A 33 41 30 38 31 56 32 34 31 6B
+	NXP JCOP CJ3A081 (NFC) (JavaCard)
+
 3B 8A 80 01 4A 43 4F 50 33 31 56 32 33 32 7A
 	Snapper New Zealand (JCOP)
 
@@ -3007,6 +3025,10 @@
 3B 8B 81 31 40 34 53 4D 41 52 54 53 43 4F 50 45 31 6D
 	Zeeland kaart (Telecommunication)
 
+3B 8C 01 4D 79 53 6D 61 72 74 4C 6F 67 6F 6E A5
+	EIDVirtual (USB key emulated as a virtual smart card) (PKI)
+	http://www.mysmartlogon.com/eidvirtual/
+
 3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
 	RFID - NFC Forum tag type 3 (FeliCa)
 
@@ -3029,6 +3051,9 @@
 3B 8C 80 01 50 64 E6 5B 00 00 00 00 00 00 81 80 85
 	Chicago CTA Ventra Transit card
 	https://www.ventrachicago.com/
+
+3B 8C 80 01 50 77 3B 2D BD 00 00 00 11 00 81 85 94
+	Texas Instruments Dynamic NFC Interface Transponder (RF430CL330H)
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
@@ -4721,6 +4746,9 @@
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 05 73 10 A6 73 D6 21 C0 00 90 00 53
 	New european health insurance card of the German health insurance
 
+3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 01 03 64 04 1B B4 22 81 05 1B
+	Austrian Motor Vehicle Registration Certificate (Transport)
+
 3B DD 96 FF 81 B1 FE 45 1F 03 80 31 B0 52 02 03 64 04 1B B4 22 81 05 18
 	Austrian "e-card" G3 (State Health Insurance Card)
 	(running StarCOS 3.4 by Giesecke & Devrient)
@@ -5378,6 +5406,10 @@
 	JCOP31 / 72B1 V2.2 (4096 RSA key support)
 	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
 
+3B F9 18 00 00 81 31 FE 45 4A 32 44 30 38 31 5F 50 56 B6
+	NXP J2D081 Java Card 80KB  JCOP 2.4.2 R2 GP 2.2.1 JC 3.0.1 (JavaCard)
+	http://www.javacardsdk.com/Index.aspx?p0=AAT1P0000012&p1=1&p2=1&p3=1&p4=0&p5=1
+
 3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 32 A9
 	NXP JCOP 21 V2.2 36K
 
@@ -5633,6 +5665,10 @@
 
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 48 C8 83 00 90 00
 	Pay TV
+
+3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 29 80 00 00 00 00 00 00 A9
+	DPI Guatemala (eID)
+	http://www.renap.gob.gt/
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
