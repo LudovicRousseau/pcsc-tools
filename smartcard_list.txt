@@ -1283,6 +1283,10 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 07 90 00
 	American Express Gold Air France - KLM (Bank)
 
+3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
+	American Express Chip and Signature Card (Contact) ()
+	https://americanexpress.com/chipandsignature
+
 3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
 	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
 
@@ -1931,6 +1935,10 @@
 	French "Navigo" transport card (Transport)
 	http://www.navigo.fr/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 74 CF DD 82 90 00
+	French "Navigo" transport card (Transport)
+	http://www.navigo.fr/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -2107,6 +2115,10 @@
 3B 79 94 00 00 59 01 01 0E 01 6B 01 02 A9
 	Vending machine payment card ('Necta' brand)
 
+3B 79 95 00 00 54 45 4C 45 4D 10 21 10 10
+	Israeli Identity Card (eID)
+	http://smartid.gov.il/English/Pages/default.aspx
+
 3B 79 98 00 00 50 01 01 04 01 00 01 01 A9
 	Gemalto PayFlex used in Aristocrat System 7000 Casino Management System (South Africa only)
 
@@ -2131,6 +2143,9 @@
 
 3B 7A 18 00 FF 4A 43 4F 50 32 31 56 32 33 31
 	JCOP21 18K
+
+3B 7A 94 00 00 80 65 A2 01 01 01 3D 72 D6 41
+	Personal Identity card (passport)
 
 3B 7A 94 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	Gemplus GemXpresso Pro R3 E32 PK
@@ -2404,6 +2419,9 @@
 3B 7F 13 00 00 80 31 C0 52 05 6E 64 02 53 04 36 83 83 90 00
 	Mastercard from Banc Sabadell in Spain
 
+3B 7F 13 00 00 80 31 C0 52 06 E8 64 05 66 99 36 83 83 90 00
+	HSBC Debit VISA CARD MX (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 07 7D 64 05 66 99 36 83 83 90 00
 	VISA CEPSA (Porque tu vuelves) from Spain
 	http://www.porquetuvuelves.com/
@@ -2558,6 +2576,10 @@
 	DNI electronico (Spanish electronic ID card)
 	http://www.dnielectronico.es
 
+3B 7F 94 00 00 80 25 A0 00 00 00 28 57 80 10 30 01 00 01 00
+	ProID+ (PKI)
+	http://proid.cz
+
 3B 7F 94 00 00 80 31 80 71 90 67 54 45 4D 44 31 2E 30 90 00
 	M.MAR (MEE GVB1.1/11.06) eID
 	Tarjeta Electrónica del Ministerio de Defensa (M.MAR TEMDv1.0)
@@ -2691,6 +2713,9 @@
 3B 85 40 FF 63 01 01 03 01
 	Axalto Cryptoflex 16K
 
+3B 85 80 01 01 A2 13 10 91 35
+	Contact (7816-10) 2WBP (HealthCare)
+
 3B 85 80 01 20 63 CB A0 00 2C
 	Visa card from Banque populaire du nord/Casden
 
@@ -2714,6 +2739,10 @@
 
 3B 85 80 01 4D 79 45 49 44 78
 	MyEID
+
+3B 85 80 01 5A 43 37 2E 35 31
+	BasicCard ZC7.5 32K (Other)
+	http://www.basiccard.com
 
 3B 85 80 01 80 73 84 21 40 12
 	Dutch Biometric Passport
@@ -3099,6 +3128,10 @@
 
 3B 8D 80 01 80 91 E1 65 D0 00 5B 01 03 73 D4 41 40 B6
 	French passport (2010-2011)
+
+3B 8E 80 01 00 51 31 63 1F 59 01 73 9F 20 C0 C0 90 00 17
+	Identity card (eID) Republic of Latvia (eID)
+	http://www.pmlp.gov.lv/en/home/services/personal-certificates-%28eid%29/
 
 3B 8E 80 01 0E 78 33 C4 02 00 64 04 15 01 02 00 90 FF 95
 	Spanish Passport
@@ -3892,6 +3925,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 85 06 86 98 42 18 AB
 	4G LTE blank USIM Green Card (Telecommunication)
 	http://grcard.en.alibaba.com/product/60076835567-209365843/4G_LTE_blank_usim_card_for_4G_network.html
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 83 02 00 00 BA
+	GSM-SIM Beeline RU (Telecommunication)
+	http://beeline.ru
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 06 81 01 00 82 90 00 45
 	Mobicarte Orange
@@ -6492,6 +6529,9 @@
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 35 17
 	New ROM of Nagra PayTV Card DNASP410 (Pay TV)
 	http://en.wikipedia.org/wiki/Nagravision
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 42 60
+	Nagravision Kudelski Generation 7 card  Rom410 MerQ2B   (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 32 20 44 73 68 4E 30 39 1F
 	Dish Network ROM552 (Pay TV)
