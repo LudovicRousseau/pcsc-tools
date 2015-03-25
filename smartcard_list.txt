@@ -357,6 +357,9 @@
 3B 19 94 33 03 01 31 45 41 06 02 B6
 	BASE Twin simcard (Telecommunication)
 
+3B 19 96 80 67 93 27 01 02 02 04 01
+	Orange SIM card (Telecommunication)
+
 3B 19 96 80 67 94 16 02 03 01 01 01
 	Movistar Argentina Usim Card (Telecommunication)
 	www.movistar.com.ar
@@ -909,6 +912,9 @@
 	http://www.bpost.be/bpaid/
 	KBC Ireland Mastercard Debit (Bank)
 
+3B 65 00 00 20 63 CB AE 20
+	MasterCard payment card for French Crédit Agricole bank (Bank)
+
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
 
@@ -1107,6 +1113,7 @@
 
 3B 68 00 00 00 73 C8 40 00 00 90 00
 	Barclaycard Visa Wave & Pay - Chip I/F
+	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
 
 3B 68 00 00 00 73 C8 40 10 00 90 00
 	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
@@ -1242,6 +1249,10 @@
 
 3B 69 00 FF 53 6D 40 72 74 43 61 66 65
 	G&D (Giesecke&Devrient) Sm@rtCafé
+
+3B 6A 00 00 0F 44 31 31 43 52 02 00 25 C3
+	Feitian Java Card D11CR (JavaCard)
+	http://www.ftsafe.com/product/smartcard/javacard
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
@@ -1991,6 +2002,12 @@
 3B 6F 00 00 80 66 A2 03 02 02 3D 07 53 02 31 10 82 90 00
 	Electronic purse of the Universidad Politecnica of Madrid (provided by Banco Santander)
 
+3B 6F 00 00 80 66 B0 07 01 01 07 07 53 02 31 10 82 90 00
+	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard) with WG10  (JavaCard)
+
+3B 6F 00 00 80 66 B0 07 01 01 07 07 53 02 31 24 82 90 00
+	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard)
+
 3B 6F 00 00 80 66 B0 07 01 01 77 07 53 02 31 10 82 90 00
 	University ID card (issued by Banco Santander Central Hispano)
 	.
@@ -2501,6 +2518,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 16 43 64 05 69 93 70 83 83 90 00
 	Gemalto Debit Card cwbU1071682A1212 issued by BANCO DE CREDITO DEL PERU
+
+3B 7F 13 00 00 80 31 C0 52 16 50 64 02 B3 02 70 83 83 90 00
+	Banrisul credit card (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
@@ -3812,6 +3832,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 60 0E 00 18
 	Walmart Family Mobile (T-Mobile) West Coast (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 7B 0E 00 03
+	Bouygues Telecom SIM - 3G (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 97 0D 00
 	SIM Free Mobile
 
@@ -3835,6 +3858,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
 	Lenovo SIM card (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
+	Free Mobile SIM card (Telecommunication)
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -4080,6 +4106,12 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 03 90 00 96
+	Feitian ePass2003 token (PKI)
+
+3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
+	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
+
 3B 9F 95 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DD
 	Telenor SIM card (Norway)
 
@@ -4194,6 +4226,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 26 01 09 00 07 81 05 7F
+	EMT WPKI 2015 (ECC) subscription (Telecommunication)
+	https://www.emt.ee/en/pakkumised/mobiil-id
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 01 FE
 	Telekom Deutschland GmbH - Xtra Data Karte (3G SIM)
@@ -4333,6 +4369,8 @@
 3B B2 11 00 10 80 00 16
 	Atmel memory card AT88SC1616C
 	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+	Rexall (Canada) - Blood Pressure Check card
+	http://www.rexall.ca/services/blood-pressure-tracking
 
 3B B3 11 00 00 00 00 32
 	Atmel memory card AT88SC3216C
@@ -4509,6 +4547,9 @@
 
 3B BE 11 00 00 41 01 38 01 00 03 00 00 00 00 00 02 90 00
 	ACOS2 test card from ACS reading off a ACR38U
+
+3B BE 11 00 00 41 01 38 03 00 04 00 00 00 00 00 01 90 00
+	ACOS 3 from ACS (Other)
 
 3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
 	8 pin (eID)
@@ -4779,6 +4820,9 @@
 
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C9
 	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
+
+3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 0A 02 73 96 21 D0 00 90 00 CA
+	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse, issued 02/15 (HealthCare)
 
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 05 73 10 A6 73 D6 21 C0 00 90 00 53
 	New european health insurance card of the German health insurance
@@ -5507,6 +5551,10 @@
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
 
+3B FA 18 00 00 80 31 FE 45 FE 65 49 44 20 2F 20 50 4B 49 03
+	Estonian Identity Card (EstEID v3.5 (10.2014) cold) (eID)
+	http://id.ee/
+
 3B FA 18 00 00 81 31 FE 45 06 08 60 84 10 01 87 6F 06 02 FE
 	Card used by the Dutch health insurers to give medical personell access to patient insurance information
 
@@ -5631,6 +5679,10 @@
 3B FC 13 00 00 81 31 FE 45 59 75 62 69 6B 65 79 4E 45 4F 72 33 B1
 	Yubikey Neo
 	http://www.yubico.com/products/yubikey-hardware/yubikey-neo/
+
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 00 64 16 06 F2 72 7E 00 E0
+	PIVKey C910 PKI Smart Card (eID)
+	http://pivkey.com/
 
 3B FC 18 00 00 81 31 80 45 90 67 46 4A 00 68 08 0. 00 00 00 00 0.
 	Feitian A22 JavaCard (150K) (JavaCard)
@@ -6035,6 +6087,7 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 43 4E 53 10 31 80 9D
 	Aruba CNS for Regione Toscana (IT)
 	http://www.regione.toscana.it
+	Aruba CNS for Infocamere (the Chambers of Commerce)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 01 01 44 53 44 10 31 80 90
 	Postecert (www.postecert.it) to legally sign documents
