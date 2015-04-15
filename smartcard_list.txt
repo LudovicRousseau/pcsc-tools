@@ -611,6 +611,9 @@
 3B 3B 11 00 91 41 10 10 10 5B A0 00 33 90 00
 	Pannon SIM card (Hungary)
 
+3B 3B 13 00 80 66 12 03 01 03 00 08 82 90 00
+	UBS Switzerland Maestro Debit Card (Bank)
+
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
 
@@ -912,6 +915,9 @@
 	http://www.bpost.be/bpaid/
 	KBC Ireland Mastercard Debit (Bank)
 
+3B 65 00 00 20 63 CB AD 80
+	Santander Debit Card (Bank)
+
 3B 65 00 00 20 63 CB AE 20
 	MasterCard payment card for French Crédit Agricole bank (Bank)
 
@@ -927,6 +933,10 @@
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
 	UK Lloyds TSB Visa Debit (issued 2003, Gemplus)
+
+3B 65 00 00 80 73 C6 01 00
+	NX by Abanca free Mastercard debit card (Bank)
+	http://www.abanca.com/es/cuentas/cuenta-nx/
 
 3B 65 00 00 9C 02 02 01 02
 	Dectel CI692
@@ -1304,6 +1314,12 @@
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
 	http://account.entropiauniverse.com/account/security/
+
+3B 6B 00 00 00 31 C0 64 D0 10 01 00 07 90 00
+	Alfa-Bank (Russia) Master Card (Aeroflot bonus) (Bank)
+
+3B 6B 00 00 00 31 C0 64 BE 1B 01 03 0F 90 00
+	dsafas (Telecommunication)
 
 3B 6B 00 00 42 6C 75 63 61 72 64 20 34 4B 42
 	Blutronics Blucard 4K (Loyalty)
@@ -1733,6 +1749,8 @@
 	Nordea (a Skandinavian bank) eID card
 	http://linux.fi/wiki/Nordea_eID
 	RBC Royal Bank Client Card (bank in Canada)
+	Banco Santander TUI/USC R7
+	Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard) (Bank)
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -2578,6 +2596,10 @@
 3B 7F 18 00 00 80 59 49 44 65 61 6C 5F 31 2E 34 83 07 90 00
 	Sagem YpsID s3
 
+3B 7F 18 00 02 80 41 00 57 53 4F 41 4C 42 49 44 83 7F 90 00
+	Albanian ID Card (eID)
+	https://www.aleat.al/
+
 3B 7F 38 00 00 00 6A 43 45 52 45 53 02 2C 34 02 02 03 90 00
 	WG10
 
@@ -2628,6 +2650,10 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 FF FE 82 90 00
 	Gemalto TOP IM GX4 (PKI)
 	http://www.cryptotech.com.pl/compl/data/gemalto/pdf/TOP_GX4_Nov08.pdf
+
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00
+	Gemalto IDPrime MD 840 (PKI)
+	http://www.gemalto.com/Products/IDPrime_MD/index.html
 
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
@@ -3067,6 +3093,9 @@
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
 	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
+
+3B 8B 80 01 65 4B 54 50 30 44 32 65 4B 54 50 4C
+	NXP smart eID - Indonesia ektp (eID)
 
 3B 8B 80 01 86 88 FF 6F 39 1E 74 3C 20 08 00 D3
 	Chinese ICBC (bank)
@@ -3700,6 +3729,10 @@
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
 
+3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 05 41
+	MTCOS  (eID)
+	http://www.masktech.com/Products/MTCOS-Professional/11/en
+
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec smartcard running Miocos 2.0 on an Atmel AT90SC646
 	http://www.miotec.fi
@@ -3831,6 +3864,7 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 60 0E 00 18
 	Walmart Family Mobile (T-Mobile) West Coast (Telecommunication)
+	T-Mobile US USIM "TM9190" v50.05 (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 77 7B 0E 00 03
 	Bouygues Telecom SIM - 3G (Telecommunication)
@@ -4279,6 +4313,9 @@
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
+
+3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
+	Verizon "4G LTE" USIM (Telecommunication)
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
@@ -5150,6 +5187,9 @@
 3B EF 00 00 81 31 FE 45 41 74 41 43 4F 53 32 2E 34 53 45 20 4C 63 37 C9
 	Maestro Polish Alior debit card (Bank)
 
+3B EF 00 00 81 31 FE 45 43 44 32 69 A9 81 00 00 20 20 20 20 20 20 00 90
+	UBS Switzerland Mastercard credit card (Bank)
+
 3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 44 44 41 30 30 35 35 00 F7
 	Master Card (emitted by bank Nordea - Lithuania)
 
@@ -5383,6 +5423,10 @@
 
 3B F7 11 00 01 40 96 70 70 0A 0E 6C B6 D6
 	TopUp TV NagraVision viewing card
+
+3B F7 11 00 01 40 96 70 70 0A 0E 6C B6 D6 90 00
+	Canal Digitaal (Pay TV)
+	http://webshop.canaldigitaal.nl/nl/smartcards-2
 
 3B F7 11 00 01 40 96 70 70 17 0E 6C B6 D6
 	Canal Satellite card (VERSION 7.1 SYSTEM / SECA2)
@@ -5758,6 +5802,10 @@
 3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 29 80 00 00 00 00 00 00 A9
 	DPI Guatemala (eID)
 	http://www.renap.gob.gt/
+
+3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
+	LOT test card (JavaCard)
+	www.lotgroup.eu
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
