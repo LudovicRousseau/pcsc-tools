@@ -910,6 +910,10 @@
 3B 65 00 00 20 63 CB AB A0
 	Visa card (a blue one) edited by Banque Calédonienne d'Investissement (BCI)
 
+3B 65 00 00 20 63 CB AD 00
+	MasterCard Debit (Bank)
+	http://www.mastercard.com/ae/personal/en/aboutourcards/debit/gold_card.html
+
 3B 65 00 00 20 63 CB AD 20
 	bpost bpaid (Bank)
 	http://www.bpost.be/bpaid/
@@ -1311,15 +1315,18 @@
 3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
 	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
 
+3B 6B 00 00 00 31 C0 64 3F 68 01 03 0F 90 00
+	HSBC Credit Gold Card  from VISA (Bank)
+
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
 	http://account.entropiauniverse.com/account/security/
 
-3B 6B 00 00 00 31 C0 64 D0 10 01 00 07 90 00
-	Alfa-Bank (Russia) Master Card (Aeroflot bonus) (Bank)
-
 3B 6B 00 00 00 31 C0 64 BE 1B 01 03 0F 90 00
 	dsafas (Telecommunication)
+
+3B 6B 00 00 00 31 C0 64 D0 10 01 00 07 90 00
+	Alfa-Bank (Russia) Master Card (Aeroflot bonus) (Bank)
 
 3B 6B 00 00 42 6C 75 63 61 72 64 20 34 4B 42
 	Blutronics Blucard 4K (Loyalty)
@@ -1939,6 +1946,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 1B 4B 59 82 90 00
 	"OPUS Card" Quebec's Bus system.
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 19 C2 4F 82 90 00
+	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
+	http://carteopus.info/
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
 
@@ -1996,6 +2007,10 @@
 3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 06 76 A1 82 90 00
 	Belgian eID card (issued in 2014) (eID)
 	http://eid.belgium.be/en/
+
+3B 6F 00 00 80 5A 2C 23 EA 00 03 05 02 AA E6 CE 82 90 00
+	MOBIB (TEC IT Easy) (Transport)
+	http://www.infotec.be/fr-be/titresettarifs/mobib.aspx
 
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
@@ -2269,6 +2284,9 @@
 
 3B 7D 94 00 00 57 44 53 05 54 86 93 00 15 6A 5F 13 78
 	Idea Indian GSM operator SIM
+
+3B 7D 94 00 00 57 44 53 24 65 86 93 02 10 B7 25 12 97
+	Kyivstar (Telecommunication)
 
 3B 7D 94 00 00 57 44 53 63 96 86 93 00 9D F7 10 00 9D
 	China Mobile SIM card
@@ -2632,6 +2650,10 @@
 
 3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
 	IAS ECC Type 1
+
+3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 77 98 03 11 03 90 00
+	DNI electronico (Spanish electronic ID card) (eID)
+	http://www.dnielectronico.es
 
 3B 7F 96 00 00 00 6A 46 4E 4D 54 03 04 11 43 04 30 03 90 00
 	CERES Spanish SmartCard from the "Fabrica Nacional de Moneda y Timbre" (FNMT) (eID)
@@ -3563,6 +3585,10 @@
 	IDPrime PIV Card v2.0 AES SCP03 (eID)
 	http://www.gemalto.com/products/piv_card/product_brief.html
 
+3B 8F 80 01 80 91 E1 31 80 65 B0 85 02 00 CF 83 00 90 00 C1
+	Gemalto IDCore 3010 CC (JavaCard)
+	http://www.gemalto.com/Products/top_javacard/index.html
+
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
 
@@ -3979,6 +4005,10 @@
 	Instant EID IP2
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C3
+	Sysmocom USIM-GR1 (Telecommunication)
+	http://www.sysmocom.de/products/programmable-sysmousim-gr1-sim-card
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 49 05 0C 86 98 60 18 CC
 	China Unicom USIM 128K 6131H
 
@@ -4180,6 +4210,9 @@
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 01 F0
+	Telekom Sim card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
@@ -4838,7 +4871,7 @@
 	Athena IDProtect Smart Card Logon Card
 
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
-	Oberthur National ID Card of Peru issued by RENIEC
+	National ID Card of Peru issued by RENIEC from Oberthur
 
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 08 00 07 90 00 FE
 	Oberthur Cosmo v7 IAS ECC
@@ -5733,6 +5766,10 @@
 	http://www.smartcardfocus.com/shop/ilp/id~712/javacos-a22-dual-interface-java-card-150k/p/index.shtml
 	Feitian A40 JavaCard (64K) (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~711/javacos-a40-dual-interface-java-card-64k/p/index.shtml
+
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 64 2F 70 C1 72 FE E0 FD
+	Feitian eJavaToken (JavaCard)
+	http://www.ftsafe.com/product/epass/eJavaToken
 
 3B FC 98 00 FF C1 10 31 FE 55 C8 03 49 6E 66 6F 63 61 6D 65 72 65 28
 	New Card Infocamere (Italy) series 1402...
