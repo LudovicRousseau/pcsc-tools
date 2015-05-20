@@ -1366,6 +1366,9 @@
 	eID Blutronics Blulogon 4K
 	http://shop.blutronics.com/Prodotti.asp
 
+3B 6C 00 00 80 64 11 34 01 48 73 F7 41 C0 81 07
+	Universal Electronic Card (UEC Russia) (eID)
+
 3B 6C 00 00 80 64 11 65 01 90 73 00 00 00 81 07
 	Universal Electronic Card (UEC Russia) (eID)
 
@@ -1957,6 +1960,10 @@
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 23 BD 87 EE 82 90 00
+	Navigo pass Calypso standard (Transport)
+	http://www.navigo.fr/
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 25 81 EB A5 82 90 00
 	Navigo Découverte card for Paris and suburbs transportation, no subscription required (Transport)
 	http://www.navigo.fr/le-choix-entre-la-carte-navigo-ou-la-carte-navigo-decouverte.html
@@ -2007,6 +2014,10 @@
 3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 06 76 A1 82 90 00
 	Belgian eID card (issued in 2014) (eID)
 	http://eid.belgium.be/en/
+
+3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 0A 78 9E 82 90 00
+	Mobib NMBS Mobility (Belgian railways) (Transport)
+	http://www.belgianrail.be/en/travel-tickets/mobib/no-mobib.aspx
 
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 02 AA E6 CE 82 90 00
 	MOBIB (TEC IT Easy) (Transport)
@@ -2640,6 +2651,10 @@
 	ProID+ (PKI)
 	http://proid.cz
 
+3B 7F 94 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
+	Gemalto Classic V4
+	Juridic Person's Token (PKI)
+
 3B 7F 94 00 00 80 31 80 71 90 67 54 45 4D 44 31 2E 30 90 00
 	M.MAR (MEE GVB1.1/11.06) eID
 	Tarjeta Electrónica del Ministerio de Defensa (M.MAR TEMDv1.0)
@@ -2654,6 +2669,10 @@
 3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 77 98 03 11 03 90 00
 	DNI electronico (Spanish electronic ID card) (eID)
 	http://www.dnielectronico.es
+
+3B 7F 96 00 00 00 6A 44 4E 49 65 20 01 77 98 03 11 03 90 00
+	Spanish ID card (DNIe) (eID)
+	www.dnielectronico.es/
 
 3B 7F 96 00 00 00 6A 46 4E 4D 54 03 04 11 43 04 30 03 90 00
 	CERES Spanish SmartCard from the "Fabrica Nacional de Moneda y Timbre" (FNMT) (eID)
@@ -3023,6 +3042,9 @@
 
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
+
+3B 89 80 01 66 4A 41 43 4F 53 32 2E 30 16
+	MasterCard, Credit Card by TargoBank, Germany --  (Bank)
 
 3B 89 80 01 66 52 57 45 32 50 52 4F 4D 1C
 	This is NFC enabled SIM card. (Telecommunication)
@@ -3804,6 +3826,9 @@
 	H3G (?) UMTS USIM card
 	J+ SWIM WIB UMTS SIM Test card
 	http://www.exceldata.es/microprocess/j%2Bswinwibusim.html
+
+3B 9E 95 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 29 B6 01 00 99
+	GSM SIM (Telecommunication)
 
 3B 9E 95 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 29 F4 01 00 DB
 	Vodafone (UK) Pay As You Talk SIM
@@ -5193,6 +5218,9 @@
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
 
+3B EE 00 00 81 31 FE 45 80 31 80 66 40 90 93 06 0F 17 83 01 90 00 FD
+	Health insurance (HealthCare)
+
 3B EE 00 00 81 31 FE 45 80 31 80 66 40 90 93 06 0F 17 83 0F 90 00 F3
 	IC card for the National Health Insurance, Taiwan
 
@@ -5720,6 +5748,10 @@
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 48 AC
 	ZeitControl BasicCard Professional 5.4
+
+3B FB 18 00 00 40 78 80 59 53 50 59 52 55 53 0B 04 02
+	SPYRUS Rosetta Series 2 (eID)
+	http://www.spyrus.com/rosetta-hsm/
 
 3B FB 18 00 00 40 78 80 59 53 50 59 52 55 53 AE 04 02
 	Spyrus Rosetta Series II
@@ -6582,6 +6614,9 @@
 
 3F FF 14 25 03 10 80 41 B0 02 69 FF 4A 50 70 80 00 41 4F 01 00 14
 	Pay TV
+
+3F FF 14 25 03 10 80 41 B0 07 69 FF 4A 50 70 80 00 58 45 01 00 14
+	Sat TV (Other)
 
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
