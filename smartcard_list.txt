@@ -331,6 +331,10 @@
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
 
+3B 17 95 80 65 D0 01 7E 0D F0
+	Si.Mobil Slovenia GSM SIM card (Telecommunication)
+	http://www.simobil.si
+
 3B 18 11 E8 43 01 10 09 05 07 77
 	Sim Card GSM for provider 3 telecommunication Indonesia (Telecommunication)
 	http://tri.co.id/
@@ -356,6 +360,9 @@
 
 3B 19 94 33 03 01 31 45 41 06 02 B6
 	BASE Twin simcard (Telecommunication)
+
+3B 19 94 80 67 94 08 01 25 01 01 01
+	Mobiphone (Telecommunication)
 
 3B 19 96 80 67 93 27 01 02 02 04 01
 	Orange SIM card (Telecommunication)
@@ -437,6 +444,9 @@
 
 3B 1F 95 80 31 00 73 12 21 13 57 4A 33 0E 19 32 33 00
 	Latvian GSM Operator BITE
+
+3B 1F 95 80 31 00 73 12 21 13 57 4A 33 0E 1A 32 36 00
+	Telcel Mexico SIM Card (Telecommunication)
 
 3B 23 00 00 36 41 81
 	Schlumberger Payflex 4k SAM
@@ -2569,6 +2579,9 @@
 3B 7F 13 00 00 80 31 C0 52 16 50 64 02 B3 02 70 83 83 90 00
 	Banrisul credit card (Bank)
 
+3B 7F 13 00 00 80 31 C0 52 16 F5 64 05 69 93 70 83 83 90 00
+	Banco do Brasil (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
 
@@ -3713,6 +3726,10 @@
 	SIMple Mobile SIM Card
 	http://www.simplemobile.com
 
+3B 98 96 00 93 94 03 09 03 02 02 02
+	MySims2Go GSM SIM Card (Telecommunication)
+	http://www.mysims2go.com
+
 3B 98 96 00 93 94 04 02 04 05 05 05
 	Roshan (Afgan Wireless ) SIM (Telecommunication)
 
@@ -3793,6 +3810,10 @@
 
 3B 9D 95 80 1F C3 80 63 AF 03 A0 73 1A 21 1B 83 0F 90 00 F4
 	Greece TIM GSM SIM
+
+3B 9D 95 80 1F C3 80 73 1A 21 1B 63 AF 06 A6 83 0F 90 00 F7
+	Travelsim GSM SIM Card (Telecommunication)
+	http://www.travelsim.com
 
 3B 9D 95 80 1F C3 80 73 1A 21 1B 63 AF 07 A7 83 0F 90 00 F7
 	GemXplore 3G
@@ -3904,6 +3925,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0C 72 00 12
 	Orange Austria GSM/3G SIM: "Mobiles Internet"
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0D 7A 00 1B
+	Vodafone UK GSM SIM Card (Telecommunication)
+	http://www.vodafone.co.uk
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C C1 0D 00 A1
 	3 (Italian telecommunication provider) 3g sim card 2FF format H3G Italy
 
@@ -3937,6 +3962,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B AF 0D 00 D8
 	Chunghwa Telecom SIM card (Telecommunication)
 	http://www.cht.com.tw/en/personal/pops.html
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 85 C4 0F 00 4F
+	T-Mobile USA (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 8D 5F 10 00 C3
 	eUICC for Gemalto (Telecommunication)
@@ -4315,6 +4343,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 12 00 82 90 00 D2
 	Free Mobile SIM Card
 	B&YOU SIM card
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 45 11 00 82 90 00 D5
+	Orange Spain GSM SIM Card (Telecommunication)
+	http://www.orange.es
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -4984,6 +5016,9 @@
 3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 3B
 	NXP SAM AV2 module
 
+3B DF 94 FF C0 80 B1 FE 45 1F 03 00 6A D2 76 00 00 28 04 15 FA 10 04 00 90 00 6B
+	UK Digital Tacho card (Other)
+
 3B DF 94 FF C0 80 B1 FE 45 1F 03 00 6A D2 76 00 00 28 04 15 FA 40 04 00 90 00 3B
 	DVLA Company Card (Transport)
 
@@ -5354,6 +5389,10 @@
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
 
+3B EF 00 FF 81 31 FE 45 80 31 E0 6B 04 21 05 02 6B 55 55 55 55 55 55 68
+	MasterCard credit card for Mega International Commercial Bank, Taiwan (Bank)
+	https://www.megabank.com.tw/creditcard/index.asp
+
 3B EF 00 FF 81 31 FF 65 49 42 4D 20 4D 46 43 39 32 32 39 32 38 39 30 17
 	IBM MFC 4.22 (University of Cambridge smartchip card)
 
@@ -5453,6 +5492,8 @@
 	ATM card for TaChong Bank, Taiwan
 	ATM card for Chunghwa Post, Taiwan
 	VISA card for Taipei Fubon Bank, Taiwan
+	ATM card for Cathay United Bank, Taiwan (Bank)
+	https://www.cathaybk.com.tw/cathaybk/english/eindex.htm
 
 3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 02 90 00 FF
 	VISA card for Taipei Fubon Bank, Taiwan
@@ -5771,6 +5812,9 @@
 
 3B FB 96 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 0F 90 00 E2
 	Elektroniczna Legitymacja Studencka - Polish Student's ID Issued in Poznan in 2007
+
+3B FB 96 00 00 81 31 FE 45 00 31 E8 54 27 E6 01 00 07 90 00 BC
+	Gemalto (PKI)
 
 3B FB 96 00 00 81 31 FE 45 56 44 53 49 35 40 01 00 04 00 01 1F
 	Vasco DIGIPASS KEY 200 usb token
@@ -6219,6 +6263,10 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 00 01 50 53 45 10 31 80 94
 	Italian Electronic ID Card (eID)
 	http://www.interno.gov.it/mininterno/site/it/temi/servizi_demografici/scheda_006.html
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 11 01 43 4E 53 11 31 80 9C
+	Politecnico di Torino Student Card (eID)
+	http://www.polito.it/
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
