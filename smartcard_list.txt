@@ -342,6 +342,10 @@
 	Sim Card GSM for provider 3 telecommunication Indonesia (Telecommunication)
 	http://tri.co.id/
 
+3B 18 94 45 15 37 00 01 00 FF 02
+	Micro SIM Life (Telecommunication)
+	http://www.life.ua/
+
 3B 18 94 53 0D 06 77 24 07 FF 02
 	GSM SIM Tele2 Estonia, prepaid (Telecommunication)
 
@@ -389,6 +393,10 @@
 
 3B 1D 11 00 32 04 00 00 00 FF 00 00 00 00 90 00
 	chip ST32F32A (Telecommunication)
+
+3B 1D 11 06 02 7F 3F 13 03 17 01 00 11 35 10 00
+	XL (Telecommunication)
+	http://www.xl.co.id/
 
 3B 1D 96 00 23 07 00 00 00 00 00 00 00 00 90 00
 	emulator card prototype from ST
@@ -732,6 +740,9 @@
 
 3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 28 AA 72 F7 41 05
 	SCOSTA Smart Card Operating System for Transport Application (transport)
+
+3B 3F 11 00 80 69 AF 03 1B 02 AB 00 00 06 0E 83 3E 9F 16
+	PEOPLES (China Mobile HK) sim (Telecommunication)
 
 3B 3F 11 00 80 69 AF 03 37 00 12 00 00 00 0E 83 18 9F 16
 	Reliance SIM (Prepaid), Telecommunication
@@ -1156,6 +1167,7 @@
 	Woolworths Everyday Money prepaid Mastercard
 	Nordea Bank Norway Visa + national debet card [BankAxept]
 	VISA Classic - Nordlandsbanken (Norway)
+	Citi Double Cash MasterCard
 
 3B 68 00 00 00 73 C8 40 12 00 90 00
 	Brazilian "e-CPF" card
@@ -1922,6 +1934,10 @@
 	NORSK TIPPING NORWAY
 	http://www.norsk-tipping.no/
 
+3B 6F 00 00 80 31 E0 6B 04 31 05 02 A6 55 55 55 55 55 55
+	USAA EMV Mastercard Creditcard (Bank)
+	https://www.usaa.com/inet/pages/bk_cc_chipcardLP_landing_mkt?adID=VURL_chipcard
+
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
 	http://banamex.com
@@ -1965,6 +1981,10 @@
 	Twisto
 	http://www.twisto.fr
 
+3B 6F 00 00 80 5A 08 03 03 00 00 00 02 BF 02 4A 82 92 00
+	ALSEO, the Alsacian Express Regional Train card (Transport)
+	http://www.ter.sncf.com/alsace/gares/preparer-son-voyage/carte-alseo/
+
 3B 6F 00 00 80 5A 08 06 08 20 02 00 .. .. .. .. 82 90 00
 	Lisboa Viva, public transport card of Lisbon (Portugal)
 
@@ -1982,6 +2002,14 @@
 
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 1B 4B 59 82 90 00
 	"OPUS Card" Quebec's Bus system.
+
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 92 B8 94 FC 82 90 00
+	Montreal OPUS card (Transport)
+	http://www.stm.info
+
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 92 EF 41 EE 82 90 00
+	OPUS transit wallet (Transport)
+	http://opusenligne.ca
 
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 19 C2 4F 82 90 00
 	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
@@ -2208,6 +2236,10 @@
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
 
+3B 78 18 00 00 00 73 C8 40 00 00 00 00 90 00
+	VERISOFT REWARDO LOYALTY CARD and CUSTOM PERSONALIZATION PROJECTS FOR EXTERNAL ENTITIES (Loyalty)
+	http://www.verisoft.com
+
 3B 78 18 00 00 54 48 20 4E 49 44 20 37
 	Thailand National ID (eID)
 
@@ -2262,6 +2294,9 @@
 
 3B 7A 96 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	AGH University of Science and Technology (Poland) - Student Identity Card (ELS) (eID)
+
+3B 7A 96 00 00 80 65 A2 01 20 01 3D 72 D6 41
+	Oman eID (eID)
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
@@ -2506,6 +2541,9 @@
 
 3B 7F .. 00 00 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00
 	IDPrime MD 8840, 3840, 3810, 840 and 830 Cards T=0
+
+3B 7F 04 00 00 80 31 80 71 90 67 54 45 4D 44 41 2E 30 90 00
+	public key (PKI)
 
 3B 7F 11 00 00 00 31 C0 53 CA C4 01 64 52 D9 04 00 82 90 00
 	DoD CAC, Oberthur CosmopolIC 32K V4
@@ -2991,6 +3029,9 @@
 
 3B 88 80 01 00 00 00 00 00 81 91 10 09
 	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
+
+3B 88 80 01 00 00 00 00 03 81 91 00 1A
+	Italian healthcare card (TS) National Service Card (CNS) NFC Interface (eID)
 
 3B 88 80 01 00 00 00 00 33 81 81 00 3A
 	Interparking MOBIB basic - RFID/Smartcard car park and car wash token
@@ -3743,6 +3784,9 @@
 3B 95 95 40 FF D0 00 31 01 01
 	Cyberflex Access E-gate V3
 
+3B 95 95 40 FF D0 00 52 01 02
+	CHIFA (Child Healthcare Information For All?) (HealthCare)
+
 3B 95 95 40 FF D0 00 54 01 3.
 	Portuguese identity card
 	http://www.cartaodecidadao.pt
@@ -3863,6 +3907,9 @@
 
 3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 90 05 99
 	FireCrypt, access card 9 (Pay TV)
+
+3B 9C 94 00 68 86 8D 0A 86 98 02 56 C2 00 05 00
+	G3 & GSM & Blank SIM card: to be programmed for OpenBTS with pySim-prog (Telecommunication)
 
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
@@ -4075,6 +4122,9 @@
 	i-SmartSim GSM phone SIM-lock bypass card
 	http://i-smartsim.com/component/portfolio/7-unlock-sim/7-universal-unlock-sim-f300gold
 
+3B 9F 11 81 11 3D 10 FD 54 6B 7D 00 00 00 00 00 00 00 00 00 00 8C
+	Electronic Identity  (eID)
+
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
 
@@ -4276,6 +4326,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 89
 	GSM SIM Vodafone NL postpaid
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 52 93 01 82 90 00 05
+	AT&T nano SIM (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
@@ -4974,6 +5027,10 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C3 08 01 00 0F 90 00 9B
 	SIM Aruba (Italian provider)
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 74
+	Oberthur Cosmo (eID)
+	http://www.stampit.org
+
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 0F 90 00 7A
 	Guatemalan ID Card
 	http://www.renap.gob.gt/
@@ -5155,6 +5212,9 @@
 	(used in Rome to store personal information and Atac subscription.
 	Atac is the public transport company of the city of Rome.)
 	http://www.atac.roma.it/smart/smart.asp?A=2&S=22&PR=4&LNG=2
+
+3B E5 00 00 81 21 45 9C 10 01 00 80 0D
+	BIN 470132 -- BANK OF AMERICA VISA DEBIT -- GEMALTO MGY 0 U1090788B - 12/14 F8 00 89 (Bank)
 
 3B E5 00 00 81 31 FE 45 D0 00 37 00 80 89
 	ATM card for Standard Chartered, Taiwan
@@ -6018,6 +6078,9 @@
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 0F 90 00 EF
 	iEstonian Identity Card (EstEID 3.0 (18.01.2011) warm)
 
+3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 10 83 01 90 00 F2
+	Infineon CJTOP 80K INF SLJ 52GLA080AL M8.4 (JavaCard)
+
 3B FE 18 00 00 81 31 FE 45 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 FA
 	Smartcard-HSM
 	http://www.cardcontact.de/products/sc-hsm.html
@@ -6082,6 +6145,10 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 10 80 80 31 E0 6B 07 14 05 02 8A 55 55 55 55 55 55
+	Tangerine Debit Card (Bank)
+	https://www.tangerine.ca
 
 3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 01 01 01 65
 	Portugal Santander Totta Universitários "Associação Academica de Coimbra"
