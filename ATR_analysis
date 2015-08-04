@@ -45,6 +45,7 @@ use strict;
 use warnings;
 use Getopt::Std;
 use Chipcard::PCSC::Card;
+use File::stat;
 
 # default value for XDG_CACHE_HOME
 # http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
@@ -223,7 +224,19 @@ sub update_smartcard_list($$)
 	my $url = shift;
 
 	# Has the $file file been modified in the last 10 hours?
-	my $old = `find $file -cmin +600`;
+	my $old = 0;
+
+	my $stat_obj = stat $file;
+	if (! $stat_obj)
+	{
+		# no file, so force update
+		$old = 1;
+	}
+	elsif ($stat_obj->mtime < time() - 10*60*60)
+	{
+		# file is too old, update
+		$old = 1;
+	}
 
 	# old file
 	if ($old)
@@ -248,11 +261,22 @@ sub update_smartcard_list($$)
 }
 
 # find the corresponding card type
-if (find_card($atr, @SMARTCARD_LIST))
+my $found = find_card($atr, @SMARTCARD_LIST);
+if ($found == 2)
 {
+	# not ATR file found
+	mkdir $Cache;
+
+	# continue with the ATR list update
+	$found = 1;
+}
+
+if ($found == 1)
+{
+	# ATR not found
 	my $file = $SMARTCARD_LIST[0];
 	my $url = "http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt";
-	my $found = 0;
+	$found = 0;
 
 	# update the ATR list
 	if (update_smartcard_list($file, $url))
@@ -514,7 +538,7 @@ sub find_card($@)
 	}
 
 	# no valid file found
-	return if (!defined $file);
+	return 2 if (!defined $file);
 
 	$found = 0;
 	print "\nPossibly identified card (using $file):\n";
