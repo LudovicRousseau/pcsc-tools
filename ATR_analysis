@@ -249,7 +249,7 @@ sub update_smartcard_list($$)
 		}
 		else
 		{
-			system("wget $url --output-document=$file");
+			system("wget $url --output-file=$file");
 		}
 
 		# did an update
