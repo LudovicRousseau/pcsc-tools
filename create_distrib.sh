@@ -1,21 +1,5 @@
 #/bin/sh -e
 
-# $Id$
-
-# $Log: not supported by cvs2svn $
-# Revision 1.4  2002-10-15 17:06:29  rousseau
-# add 'make clean' before creating the archive
-#
-# Revision 1.3  2001/10/18 07:22:51  rousseau
-# updated with the version of pcsc-perl
-#
-# Revision 1.2  2001/10/17 09:22:11  rousseau
-# Added checks: directory name format, directory existance
-#
-# Revision 1.1  2001/10/16 07:33:22  rousseau
-# script to export a clean archive
-#
-
 # create a new directory named after the current directory name
 # the directory name should be in the form foo-bar.x.y.z
 # the use of "_" is not recommanded since it is a problem for Debian
@@ -44,7 +28,7 @@ echo "done"
 
 # generate Changelog
 echo -n "generating changelog..."
-svn2cl --reparagraph --include-rev --group-by-day --output=Changelog
+git log --stat > Changelog
 echo "done"
 
 present_files=$(tempfile)
@@ -53,7 +37,7 @@ diff_result=$(tempfile)
 
 # find files present
 # remove ^debian and ^create_distrib.sh
-find -type f | grep -v .svn | cut -c 3- | grep -v ^create_distrib.sh | sort > $present_files
+find -type f | grep -v .git | cut -c 3- | grep -v ^create_distrib.sh | grep -v sync.sh | grep -v sort_smartcard_list.py | sort > $present_files
 cat MANIFEST | sort > $manifest_files
 
 # diff the two lists
