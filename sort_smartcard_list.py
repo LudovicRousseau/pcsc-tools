@@ -15,6 +15,10 @@ for l in file("smartcard_list.txt").readlines():
     if l.startswith("#") or l.startswith("\t"):
         continue
 
+    # check the ATR is all upper case
+    if l.upper() != l:
+        print "error:", l
+
     ATRs.append(l.strip())
 #	if l.startswith("\t"):
 #		ATRs.append([atr, l.strip()])
