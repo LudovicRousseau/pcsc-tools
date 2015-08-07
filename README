@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.4.24 - 7 August 2015, Ludovic ROUSSEAU
+    - 253 new ATRs
+    - ATR_analysis: better update of the local cache
+
 1.4.23 - 13 September 2014, Ludovic ROUSSEAU
     - 137 new ATRs
 
