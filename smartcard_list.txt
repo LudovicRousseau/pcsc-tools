@@ -55,6 +55,9 @@
 	Spanish ID ("DNIe: Documento Nacional de Identidad electrónico).
 	http://www.dnie.es/
 
+3B 04 01 02 03 04
+	SLE4442 - memory card (256) with write protection PIN. (Other)
+
 3B 04 07 3C 85 92
 	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
@@ -144,6 +147,9 @@
 3B 06 00 10 01 D6 C5 46
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
+
+3B 06 01 01 00 00 10 73
+	HID Prox 26-bit (eID)
 
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
@@ -716,6 +722,9 @@
 3B 3D 94 00 24 0E 00 96 00 00 86 60 31 B5 00 06 07
 	GSM SIM Tele2 Estonia; 2008
 
+3B 3D 94 00 24 0E 00 96 00 00 86 60 31 E0 80 00 07
+	Operator CMCC SIM card. old 2G SIM. (Telecommunication)
+
 3B 3D 94 00 44 4D 54 11 00 06 06 17 62 11 00 30 00
 	China Unicom SIM card
 
@@ -930,6 +939,9 @@
 
 3B 65 00 00 20 63 CB A9 A0
 	VISA PREMIER CREDIT CARD (Bank)
+
+3B 65 00 00 20 63 CB AB 20
+	bank card (Bank)
 
 3B 65 00 00 20 63 CB AB 80
 	Portugal Caixa Geral de Depósitos Mastercard "Caixa Classic"
@@ -1175,6 +1187,8 @@
 3B 68 00 00 00 73 C8 40 13 00 90 00
 	MASTERCARD issued by MLP (Marschollek, Lautenschläger and Partner)
 	G&D 12696-GDM-10/11 DEBIT CARD issued by BANCO DE CREDITO DEL PERU
+	Visa from Caisse populaire Desjardins (Canada) (Bank)
+	https://www.desjardins.com/
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -1353,6 +1367,10 @@
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
 	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
+
+3B 6B 00 00 00 31 C0 64 3F 68 01 03 07 90 00
+	American Express Blue Cash (Bank)
+	https://www.americanexpress.com/us/credit-cards/
 
 3B 6B 00 00 00 31 C0 64 3F 68 01 03 0F 90 00
 	HSBC Credit Gold Card  from VISA (Bank)
@@ -2018,6 +2036,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 92 EF 41 EE 82 90 00
 	OPUS transit wallet (Transport)
 	http://opusenligne.ca
+
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 12 98 45 82 90 00
+	OPUS card for Montreal, Quebec, Canada transit system, subscription-based, non-rechargeable (Transport)
+	https://opusenligne.ca
 
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 19 C2 4F 82 90 00
 	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
@@ -2714,6 +2736,10 @@
 	Electronic CPF in Brazil (Cadastro de Pessoas Físicas)
 	http://pt.wikipedia.org/wiki/E-CPF
 
+3B 7F 18 00 00 00 31 B8 64 50 23 EC C1 73 94 01 80 82 90 00
+	PENIT, Carte non ECC-France (eID)
+	https://nantes.sso.intranet.justice.gouv.fr/
+
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3 (32k)
 
@@ -2954,6 +2980,11 @@
 	BasicCard ZC7.5 32K (Other)
 	http://www.basiccard.com
 
+3B 85 80 01 5A 43 56 44 56 59
+	Card Issued by "Verkéiersverbond" Luxembourg "M Kaart" Card containing Tickets for all public transportation in the country of Luxembourg (Transport)
+	https://mshop.lu/
+	http://http://www.mobiliteit.lu/
+
 3B 85 80 01 80 73 84 21 40 12
 	Dutch Biometric Passport
 
@@ -3146,6 +3177,9 @@
 
 3B 89 00 91 26 91 06 00 01 22 01 00
 	BT Cellnet SIM
+
+3B 89 00 91 26 91 09 00 01 43 02 00
+	O2 (UK) SIM - Pay As You Go (Telecommunication)
 
 3B 89 40 14 47 47 32 36 4D 35 32 38 30
 	GSM-SIM e-plus (1800MHz)
@@ -3400,6 +3434,10 @@
 
 3B 8E 80 01 80 91 E1 31 C0 64 77 E3 03 00 83 82 90 00 6C
 	Belgian Passport (2006-2007)
+
+3B 8F 00 80 31 E0 73 FE 21 11 63 40 72 62 83 07 90 00
+	Beeline (Telecommunication)
+	http://beeline.ru
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
@@ -4038,6 +4076,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 29 10 00 A2
 	Simyo-Mobile Belgium GSM SIM card
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 7F 0F 00 EB
+	sim card RUS Megafon Krasnodar (Telecommunication)
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -4205,6 +4246,12 @@
 	SetCOS 4.3.0 32K RSA
 	Instant EID IP2
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 07 52 51 83 07 90 00 CC
+	sim card RUS Beeline Krasnodar (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 40 72 62 83 07 90 00 98
+	sim card RUS Beeline Krasnodar (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 40 82 92 83 07 90 00 98
 	PrixTel (Telecommunication)
@@ -4839,6 +4886,10 @@
 3B BE 11 00 00 41 01 38 03 00 04 00 00 00 00 00 01 90 00
 	ACOS 3 from ACS (Other)
 
+3B BE 11 00 00 41 01 38 04 00 14 00 00 00 00 00 01 90 00
+	Dekart Smartcard Logon (eID)
+	http://www.smartcardfocus.com/shop/ilp/se~81/dekart-smartcard-logon/p/index.shtml
+
 3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
 	8 pin (eID)
 
@@ -4985,6 +5036,9 @@
 
 3B D6 18 00 80 B1 80 6D 1F 03 80 51 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1
+
+3B D6 18 00 81 31 FE 7D 41 53 50 20 4F 53 83
+	ASP FIXED CHAL1, 2, 3  and  4 (Other)
 
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto
@@ -6690,6 +6744,9 @@
 3F 67 25 04 21 20 00 07 68 90 00
 	Philips TB100 (C-MOS chip)
 
+3F 67 2F 00 11 14 00 03 68 90 00
+	D2MAC/Eurocrypt (Pay TV)
+
 3F 67 2F 04 11 20 00 00 68 90 00
 	BULL HN ITALIA 06/92 - 100.000 - 64MP
 	La Sapienza - Universita' di Roma
@@ -6744,6 +6801,10 @@
 
 3F 77 18 00 00 C2 7A 44 02 68 90 00
 	XXX Redlight_HD (Viaccess)
+
+3F 77 18 00 00 C2 EB 41 02 6C 90 00
+	Elite HD10+ (Pay TV)
+	Sattelite cryptoworks card - Smart card Viaccess (Telesat - belgium) (Pay TV)
 
 3F 77 18 00 00 C2 EB 45 02 6C 90 00
 	facetv (Other)
