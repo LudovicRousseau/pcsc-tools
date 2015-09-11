@@ -964,6 +964,9 @@
 3B 65 00 00 20 63 CB AE 20
 	MasterCard payment card for French Crédit Agricole bank (Bank)
 
+3B 65 00 00 20 63 CB AE 80
+	Visa Premier (HelloBank), Gemalto SGP U1074311B 1214 (Bank)
+
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
 
@@ -1086,6 +1089,9 @@
 3B 67 00 00 44 04 01 00 00 FF 07
 	Visa Electron card, "Bank St. Petersburg", Russia (Bank)
 
+3B 67 00 00 73 20 00 6B 68 90 00
+	MyKad (eID)
+
 3B 67 00 00 73 20 00 6C .. 90 00
 	Malaysia Citizen Identity Card (MyKad)
 	http://www.jpn.gov.my/en/identitycard
@@ -1143,6 +1149,9 @@
 
 3B 67 00 00 B4 40 40 25 0B 90 00
 	Electronic meal check
+
+3B 67 00 00 B7 40 40 44 9B 90 00
+	Handelsbanken frikort maestro (Bank)
 
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
@@ -1329,6 +1338,10 @@
 
 3B 6A 00 00 80 65 A2 01 03 01 8D 72 D6 43
 	American Express Blue Card
+
+3B 6A 00 00 80 65 A2 01 45 01 3D 72 D6 43
+	STATE OF KUWAIT CIVIL ID CARD (eID)
+	http://www.e.gov.kw/PACI_en/Pages/EServices/CivilIDValidity.aspx#
 
 3B 6A 00 00 80 66 A1 09 02 01 63 0E 90 00
 	Danish Visa/Dankort
@@ -1676,6 +1689,9 @@
 	"Ticket Restaurant" Edenred España S.A. (Bank)
 	http://www.edenred.es/ticket-restaurant/tarjeta-restaurante
 
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 27
+	VISA Credit Card issued by Santander Bank (Bank)
+
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
 	Tesco Bank Credit Card (VISA) (Bank)
 
@@ -1790,6 +1806,10 @@
 3B 6E 00 00 57 44 36 13 69 86 93 02 32 12 56 28 25 32
 	Watchdata Brazil CSP v1.0 (Banco do Brasil)
 	http://www.watchdata.com/en/bank/solutions.jsp
+
+3B 6E 00 00 57 44 36 19 69 86 93 02 21 18 15 50 0E 2B
+	Usb Token from watchdata from Brazil (PKI)
+	http://www.watchdata.com/brazil/watchkey/index.htm
 
 3B 6E 00 00 62 6C 75 63 61 72 64 20 32 4B 42 2F 76 34
 	eID Blutronics Blucard 2K
@@ -1972,6 +1992,9 @@
 3B 6F 00 00 80 31 E0 6B 07 14 05 02 8A 55 55 55 55 55 55
 	SolutionsBanking Canada Interac debit card
 
+3B 6F 00 00 80 31 E0 6B 08 24 05 02 B5 55 55 55 55 55 55
+	Revolut MasterCard (UK)
+
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
 
@@ -2045,6 +2068,10 @@
 	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
 	http://carteopus.info/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 02 94 95 D3 82 90 00
+	Rav-Kav Public Transport (Transport)
+	https://ravkavonline.co.il/he/
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
 
@@ -2089,6 +2116,9 @@
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
 	Calypso application similar to French NAVIGO
+
+3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 0A 1D BA 82 90 00
+	French military discount on SNCF trains card (Transport)
 
 3B 6F 00 00 80 5A 2C 23 C2 10 10 05 .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
@@ -2240,6 +2270,10 @@
 
 3B 78 12 00 00 47 C4 03 00 8F F1 90 00
 	Sattelite bg 23.5 East cryptoworks card
+
+3B 78 12 00 00 54 C4 02 04 FF FF 6F 04
+	UPC Direct Satellite TV Card (Pay TV)
+	http://www.upcdirect.com/
 
 3B 78 12 00 00 54 C4 03 00 8F F1 90 00
 	Skylink irdeto from Towercom a.s. company
@@ -3075,6 +3109,10 @@
 
 3B 88 80 01 00 00 00 00 00 71 81 00 F9
 	Navigo Découverte (RFID interface) (Transport)
+
+3B 88 80 01 00 00 00 00 00 81 87 00 0F
+	ING Bank Card (Bank)
+	https://www.ing.nl/particulier/betalen/passen/betaalpas/contactloos-betalen-met-uw-betaalpas/index.html
 
 3B 88 80 01 00 00 00 00 00 81 91 10 09
 	Trenitalia (Italy) fidelity card "CartaFreccia" (RFID)
@@ -4079,6 +4117,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 7F 0F 00 EB
 	sim card RUS Megafon Krasnodar (Telecommunication)
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 14 11 00 A6
+	Globe (Telecommunication)
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -4470,6 +4511,7 @@
 
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
+	http://www.sysmocom.de/products/sysmousim-sjs1-sim-usim
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 43 01 00 8C
 	SIM From Tuenti Móvil Spain (Telecommunication)
@@ -5982,6 +6024,9 @@
 
 3B FA 94 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 21
 	GemXpresso Pro R3 32PK (MPCOS, T=1)
+
+3B FA 96 00 00 80 31 FE 45 00 31 C8 23 97 52 27 0F 90 00 C1
+	Swedish ID card (eID)
 
 3B FA 96 00 00 81 31 80 43 80 65 A2 01 01 01 3D 72 D6 43 83
 	Malta identity card delivered by the Identity Management Office (eID)
