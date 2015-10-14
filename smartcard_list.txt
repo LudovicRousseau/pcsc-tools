@@ -948,6 +948,7 @@
 
 3B 65 00 00 20 63 CB AB A0
 	Visa card (a blue one) edited by Banque Calédonienne d'Investissement (BCI)
+	Visa Card distributed by La Banque Postale
 
 3B 65 00 00 20 63 CB AD 00
 	MasterCard Debit (Bank)
@@ -1335,6 +1336,9 @@
 
 3B 6A 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	GemSafe Xpresso 16k
+
+3B 6A 00 00 80 65 A2 01 02 01 31 72 D6 43
+	UNISINOS University Student's card (Other)
 
 3B 6A 00 00 80 65 A2 01 03 01 8D 72 D6 43
 	American Express Blue Card
@@ -1842,6 +1846,7 @@
 	RBC Royal Bank Client Card (bank in Canada)
 	Banco Santander TUI/USC R7
 	Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard) (Bank)
+	Carte Ticket Restaurant with MasterCard
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -2104,6 +2109,13 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 5A AD B0 82 90 00
 	Navigo card (from March 2014 onwards), to be used in Paris and its suburbs (Transport)
 	http://www.navigo.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 70 68 06 82 90 00
+	Pass NAVIGO / STIF / RATP / OPTILE
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 72 E0 9A 82 90 00
+	Navigo imagine-r (France) (Transport)
+	http://www.imagine-r.com/
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 74 CF DD 82 90 00
 	French "Navigo" transport card (Transport)
@@ -2526,6 +2538,7 @@
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 C8 83 00 90 00
 	ING BusinessOnLine Bank eToken / Poland
 	Gemalto Classic TPC - IM
+	Iran Driving License ID card (eID)
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 48 C8 83 00 90 00
 	Gemalto GemSafe V1
@@ -2996,6 +3009,9 @@
 	bpaid: bpost prepaid Mastercard (contactless)
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
 
+3B 85 80 01 20 63 CB A5 A0 89
+	Visa contactless from Banque Populaire des Alpes (France) (Bank)
+
 3B 85 80 01 20 63 CB AD 20 01
 	KBC Ireland MasterCard Debit Card (Bank)
 	http://www.kbc.ie/
@@ -3031,6 +3047,10 @@
 
 3B 86 80 01 00 04 9A EE 00 CA BD
 	ASK CPL 528
+
+3B 86 80 01 03 02 02 11 00 00 15
+	cash bee card. transportation and payment in south korea (seoul) (Transport)
+	http://cashbee.co.kr
 
 3B 86 80 01 06 75 77 81 02 80 00
 	NXP Mifare DESFire EV1 8K / MF3ICD81
@@ -3341,6 +3361,9 @@
 
 3B 8B 80 01 0B 78 80 82 02 44 49 20 30 32 4D 1B
 	Mastercard Debit issued by Raiffeisen bank in Czech Republic
+
+3B 8B 80 01 20 90 00 00 00 00 00 16 14 CD AA DF
+	JCOP 41 IBM card for Guizhou Normal University (JavaCard)
 
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
@@ -4468,6 +4491,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 03 90 00 96
 	Feitian ePass2003 token (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 C3 9F 00 00 00 00 86
+	Feitian ePass2003 token
+
 3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
 	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
 
@@ -4914,6 +4940,10 @@
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 02 90 00
 	ACS (Advanced Card System) ACOS-1 8K
+
+3B BE 11 00 00 41 01 38 00 00 03 00 00 00 00 00 01 90 00
+	ACS ACOS3-32 (Telecommunication)
+	http://www.acos3.com/
 
 3B BE 11 00 00 41 01 38 00 00 04 00 62 75 62 7A 01 90 00
 	Advanced Card Systems ACOS3 (24k) V1.7
@@ -6291,6 +6321,10 @@
 	Tangerine Debit Card (Bank)
 	https://www.tangerine.ca
 
+3B FF 13 00 FF 10 80 80 31 E0 6B 08 24 05 02 B5 55 55 55 55 55 55
+	Tangerine Canada Interac debit card (Bank)
+	https://www.tangerine.ca/
+
 3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 01 01 01 65
 	Portugal Santander Totta Universitários "Associação Academica de Coimbra"
 
@@ -6907,6 +6941,10 @@
 
 3F EF 00 FF 81 31 .. 45 65 63
 	Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
+
+3F FD 11 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 70 80 00 5A 45 03
+	Buypass smart card (Bank)
+	https://www.buypass.no/bruker/buypass-id/buypass-smartkort
 
 3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
 	Sky Digital (DSS satellite TV card) 2009 issue
