@@ -24,8 +24,6 @@
 # You can get the latest version of this file from:
 # http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
 #
-# $Id$
-#
 
 # syntax:
 # ATR in regular expression form

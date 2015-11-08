@@ -1,5 +1,3 @@
-# $Id$
-
 # PC/SC Lite libraries and headers.
 PCSC_CFLAGS ?= $(shell pkg-config libpcsclite --cflags)
 PCSC_LDLIBS ?= $(shell pkg-config libpcsclite --libs)
