@@ -1178,6 +1178,7 @@
 3B 68 00 00 00 73 C8 40 00 00 90 00
 	Barclaycard Visa Wave & Pay - Chip I/F
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
+	PayPal UK MasterCard Chip I/F
 
 3B 68 00 00 00 73 C8 40 10 00 90 00
 	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
@@ -2419,6 +2420,9 @@
 	HID Global Crescendo C800 (PKI)
 	http://www.hidglobal.com/products/cards-and-credentials/crescendo/c800
 
+3B 7C 94 00 00 50 52 4F 47 45 58 49 41 43 53 50 32
+	mutual health Martinique (UFR PASS+) (HealthCare)
+
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
 
@@ -3275,6 +3279,9 @@
 3B 89 80 01 66 52 57 45 32 50 52 4F 4D 1C
 	This is NFC enabled SIM card. (Telecommunication)
 
+3B 89 80 01 80 57 4A 4D 56 50 72 6F 33 F0
+	PayPal UK MasterCard Contacless
+
 3B 89 80 01 80 67 04 12 B0 03 05 01 02 4C
 	Austrian Passport
 
@@ -3497,6 +3504,10 @@
 3B 8F 00 80 31 E0 73 FE 21 11 63 40 72 62 83 07 90 00
 	Beeline (Telecommunication)
 	http://beeline.ru
+
+3B 8F 00 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00
+	MegaFon RUS (Telecommunication)
+	http://megafon.ru
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
@@ -4584,6 +4595,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 02 01 01 05 01 05 43
 	CMHK card. China Mobile Hong Kong. (Telecommunication)
 	https://www.hk.chinamobile.com
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 12 03 01 03 54
+	Vodafone UK PAYG Data SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
 	3 (3g microUSIM) Italian subsidiary H3G
