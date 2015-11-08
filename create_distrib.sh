@@ -27,8 +27,8 @@ make clean &> /dev/null
 echo "done"
 
 # generate Changelog
-echo -n "generating changelog..."
-git log --stat > Changelog
+echo -n "generating Changelog..."
+make Changelog &> /dev/null
 echo "done"
 
 present_files=$(tempfile)

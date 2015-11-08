@@ -43,7 +43,7 @@ clean:
 %.1p.gz: %.1p
 	gzip --best $^ --to-stdout > $@
 
-.PHONY: clean all install ChangeLog
+.PHONY: clean all install Changelog
 
-ChangeLog:
+Changelog:
 	git log --stat --decorate=short > $@
