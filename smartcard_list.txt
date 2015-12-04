@@ -32,6 +32,9 @@
 # \t descriptive text
 # empty line
 
+3B .. .. 41 73 74 72 69 64
+	Axalto Cryptoflex .NET
+
 3B 02 14 50
 	Schlumberger Multiflex 3k
 
@@ -494,6 +497,9 @@
 
 3B 24 00 FF FC FC FC
 	Carta Nazionale dei Servizi - Camerica di Commercio di Torino (eID)
+
+3B 24 00 FF FF FF FF
+	ATMEL AT24C64SC (Other)
 
 3B 26 00 00 26 40 00 90 00
 	Schlumberger, purse?
@@ -1136,6 +1142,10 @@
 	Sparebanken Vest, Norway (spv.no). Visa credit card and national
 	debit card [BankAxept] + Gemalto Todos authentication
 
+3B 67 00 00 B1 40 40 32 0B 90 00
+	Gjensidige Bank Visa debit card (Bank)
+	https://www.gjensidige.no/privat/bank
+
 3B 67 00 00 B1 40 40 33 0B 90 00
 	Sparebank1 VISA card, Norway
 	www.sparebank1.no
@@ -1431,6 +1441,7 @@
 3B 6C 00 00 0F 31 C0 71 D6 64 3E 67 01 01 5D 84
 	VISA GOLD Card issued by Swedbank AB, Lithuania (Bank)
 	http://www.swedbank.lt/lt/pages/privatiems/auksine_kredito_kortele
+	HSBC Commercial Card (UK) VISA
 
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
@@ -1862,6 +1873,9 @@
 3B 6E 00 00 80 31 80 66 B1 A1 11 01 00 F6 83 00 90 00
 	Gemalto Desineo D72 FXR1 (PKI)
 	Gemalto TOP DL V2 (PKI)
+
+3B 6E 00 00 80 31 80 66 B1 A1 11 01 A0 F6 83 00 90 00
+	Optelio D72 FXR1 (MD) T=0
 
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
@@ -2320,6 +2334,10 @@
 
 3B 78 18 00 00 54 48 20 4E 49 44 20 37
 	Thailand National ID (eID)
+
+3B 79 18 00 00 42 72 61 7A 49 44 65 61 6C
+	Brazilian digital certificate card (eID)
+	https://serasa.certificadodigital.com.br
 
 3B 79 18 00 00 53 46 2D 34 43 43 2D 30 31
 	SmartCafe Expert 3.2 144K Dual interface card supports specifications ISO 14443A T=CL and ISO 7816 T=1/0. (PKI)
@@ -2847,9 +2865,9 @@
 3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
 	IAS ECC Type 1
 
-3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 01 55 04 00 03 90 00
+3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 01 55 04 .0 03 90 00
 	DNIE Spain (eID)
-	http://www.dnielectronico.es/
+	http://www.dnielectronico.es/PortalDNIe/
 
 3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 77 98 03 11 03 90 00
 	DNI electronico (Spanish electronic ID card) (eID)
@@ -3197,6 +3215,10 @@
 	Silesian public services card (Transport)
 	http://www.kartaskup.pl
 
+3B 88 80 01 53 6D 61 72 74 41 70 70 11
+	national Lithuania ID card (eID)
+	https://www.dokumentai.lt/viewpage.php?page_id=77
+
 3B 88 80 01 80 66 B0 07 01 01 07 .. ..
 	Gemalto Santander Optelio TUI R7 with WG10 using Contactless interface
 
@@ -3415,6 +3437,10 @@
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
+
+3B 8C 80 01 50 93 19 5E 30 00 00 00 00 00 71 71 B9
+	OPUS STM CANADA (Transport)
+	http://stm.info/
 
 3B 8C 80 01 50 B1 56 D8 BB 00 00 00 11 00 81 85 CC
 	TI rf430cl330h (Other)
@@ -4037,6 +4063,9 @@
 3B 9C 94 00 68 86 8D 0A 86 98 02 56 C2 00 05 00
 	G3 & GSM & Blank SIM card: to be programmed for OpenBTS with pySim-prog (Telecommunication)
 
+3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
+	RuToken Light SC
+
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
 
@@ -4392,6 +4421,9 @@
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 19 01 00 00 16
 	GSM SIM card from congstar (a no-frills service provider of Deutsche Telekom)
 
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 21 05 00 00 2A
+	T-Mobile CZ SIM+USIM, printed label says @LB. (Telecommunication)
+
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 31 05 00 00 3A
 	T-MOBILE CZ GSM card
 
@@ -4697,6 +4729,10 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
+
+3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9B
+	Turkish Republic Identity Card - Türkiye Cumhuriyeti Kimlik Kartı (TCKK) (eID)
+	http://www.ekds.gov.tr/tckk/t-c-kimlik-karti/tanim
 
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
 	"ultra fast card, max speed supported for telecom"? (transport)
@@ -5566,6 +5602,9 @@
 
 3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
 	E.SUN Commercial bank debit master card (Bank)
+
+3B EE 00 00 81 31 80 43 80 31 80 66 B1 A1 11 01 A0 F6 83 00 90 00
+	Optelio D72 FXR1 (MD) T=1
 
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
@@ -6696,6 +6735,10 @@
 3B FF 95 00 FF C0 0A 1F 47 80 31 E0 73 F6 21 13 57 4A 33 20 0B 31 41 41 D5
 	Telenor SIM card (Norway)
 
+3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 67
+	Greek Academic ID (eID)
+	http://academicid.minedu.gov.gr/
+
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
 
@@ -6908,6 +6951,9 @@
 
 3F 78 13 25 03 40 B0 20 FF FF 4A 50 00
 	DSS/DTV P4
+
+3F 7D 11 25 02 41 B0 03 69 FF 4A 50 F0 80 00 56 54 03
+	Viasat Baltics Videoguard card (Pay TV)
 
 3F 7E 11 25 05 40 B0 08 00 00 4D 59 00 00 00 53 4B 0B 07
 	BSkyB Series 11 (DSS satellite TV card)
