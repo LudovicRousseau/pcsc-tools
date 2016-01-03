@@ -908,7 +908,7 @@
 	Carrefour, MasterCard credit card, Pass Banque, Oberthur
 
 3B 65 00 00 20 63 CB A1 00
-	AIB Visa Debit Card, manufcatured by Oberthur
+	AIB Visa Debit Card, manufactured by Oberthur
 
 3B 65 00 00 20 63 CB A1 80
 	bpaid: bpost prepaid Mastercard
@@ -971,6 +971,10 @@
 
 3B 65 00 00 20 63 CB AE 80
 	Visa Premier (HelloBank), Gemalto SGP U1074311B 1214 (Bank)
+
+3B 65 00 00 26 40 00 90 00
+	Alacard Petroltech (Transport)
+	http://www.alacard.kz/
 
 3B 65 00 00 29 05 01 02 01
 	ActivCard (Schlumberger) CyberFlex 64K V1 SM 2.1
@@ -1189,6 +1193,7 @@
 	Barclaycard Visa Wave & Pay - Chip I/F
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
 	PayPal UK MasterCard Chip I/F
+	Prepaid Platinum MasterCard for QANTAS Cash, Australia
 
 3B 68 00 00 00 73 C8 40 10 00 90 00
 	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
@@ -1280,6 +1285,7 @@
 3B 68 00 FF 00 73 C8 40 00 00 90 00
 	Visa credit card for Bank of Taiwan
 	CommSec Debit MasterCard (Australia)
+	VISA Debit card for Bank of Sydney, Australia
 
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
@@ -1390,6 +1396,9 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 1F 27 01 15 0F 90 00
+	VISA Debit card for HSBC, Australia
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
 	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
@@ -1857,11 +1866,14 @@
 	Banco Santander TUI/USC R7
 	Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard) (Bank)
 	Carte Ticket Restaurant with MasterCard
+	Citigold VISA Debit for Citibank, Australia
+	Platinum VISA card for Citibank, Australia
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
 	Inteligo debit card
 	VISA issued by ING (Poland)
+	VISA Debit card for ING Direct, Australia
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
@@ -2552,6 +2564,9 @@
 	GEMALTO TOPDLGX4 144
 	Geneva Conventions Identification Card
 
+3B 7D 96 00 00 80 31 80 65 B0 83 11 17 E5 83 00 90 00
+	Gemalto IDPrime PIV Card2.0 (eID)
+
 3B 7D 96 00 00 80 31 80 65 B0 83 11 40 AC 83 00 90 00
 	GemXpresso R4 64k
 
@@ -3023,7 +3038,7 @@
 	Visa card from Banque populaire du nord/Casden
 
 3B 85 80 01 20 63 CB A1 00 2D
-	AIB Visa Debit Card, manufcatured by Oberthur (NFC interface)
+	AIB Visa Debit Card, manufactured by Oberthur (NFC interface)
 
 3B 85 80 01 20 63 CB A1 80 AD
 	bpaid: bpost prepaid Mastercard (contactless)
@@ -3174,6 +3189,9 @@
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
 	Belgian passport (2008-2009)
 
+3B 88 80 01 00 00 14 E0 B3 81 91 00 5E
+	"JUKICARD", the Basic Resident Registration Card in Japan (eID)
+
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
 	Barclaycard Visa Wave & Pay - RFID I/F
@@ -3291,6 +3309,10 @@
 3B 89 80 01 4D 54 43 4F 53 73 02 01 04 3A
 	Biometric passport of Czech republic
 	Biometric passport of Libya
+
+3B 89 80 01 50 56 5F 4A 33 41 30 34 30 5D
+	Java Card J3A040 (JavaCard)
+	http://smartcardsource.com/contents/en-ca/d9_JCOP-NXP-cards.html
 
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
@@ -4628,6 +4650,10 @@
 	CMHK card. China Mobile Hong Kong. (Telecommunication)
 	https://www.hk.chinamobile.com
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 04 01 01 03 01 03 45
+	Telekom Romania Mobile Communications (ex Cosmote) (Telecommunication)
+	https://www.telekom.ro/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 12 03 01 03 54
 	Vodafone UK PAYG Data SIM (Telecommunication)
 
@@ -5498,6 +5524,9 @@
 3B E8 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
 
+3B E8 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B4
+	VISA Debit card for NAB, Australia
+
 3B E8 00 FF 81 31 FE 45 43 4C 61 69 72 65 20 36 1A
 	DKB Visa card with PayWave
 
@@ -5599,6 +5628,9 @@
 
 3B ED 00 00 81 31 80 42 80 31 80 65 B0 87 27 01 BC 83 08 90 00 7D
 	EMV (V PAY) Issued by UniCredit Bulbank Bulgaria
+
+3B ED 00 00 81 31 80 42 80 31 80 65 B0 89 40 01 F2 83 00 90 00 52
+	VISA Debit card for Taishin International Bank, Taiwan
 
 3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
 	E.SUN Commercial bank debit master card (Bank)
@@ -5857,6 +5889,8 @@
 3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 05 90 00 F8
 	ATM card for Chunghwa Post, Taiwan
 	ATM card for E.Sun Commercial Bank, Taiwan
+	ATM card for Taishin International Bank, Taiwan
+	ATM card for Bank of Taiwan, Taiwan
 
 3B F7 11 00 01 40 96 54 30 04 0E 6C B6 D6 90 00
 	PIC16F876-04/SP (PICCard2) or
@@ -5923,6 +5957,9 @@
 
 3B F8 11 20 03 40 FF FF FF FF FF 12 10 90 00
 	G&D (STARCOS SV 1.1)
+
+3B F8 13 00 00 81 31 FE 15 59 75 62 69 6B 65 79 34 D4
+	Yubico Yubikey 4 OTP+CCID
 
 3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
@@ -6210,6 +6247,9 @@
 	Feitian eJavaToken (JavaCard)
 	http://www.ftsafe.com/product/epass/eJavaToken
 
+3B FC 18 00 00 81 31 FE 45 80 73 C8 21 13 66 02 04 03 55 00 02 D2
+	National Health Insurance Card, Taiwan
+
 3B FC 98 00 FF C1 10 31 FE 55 C8 03 49 6E 66 6F 63 61 6D 65 72 65 28
 	New Card Infocamere (Italy) series 1402...
 	http://www.card.infocamere.it/
@@ -6416,6 +6456,9 @@
 	PA emittente: Regione Autonoma della Sardegna
 	Carta del Servizio Sanitario Regionale - Emilia Romagna
 
+3B FF 18 00 00 81 31 FE 45 00 6B 05 05 10 17 01 21 01 43 4E 53 10 31 80 5E
+	Regional Card - Regione Liguria - Italy (eID)
+
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 21 01 43 4E 53 10 31 80 4A
 	Oberthur ID-One Cosmo V7-n it's a java card 2.2.2
 
@@ -6461,6 +6504,9 @@
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
+
+3B FF 18 00 FF 81 31 FE 45 54 48 43 43 31 30 54 45 43 4F 47 44 48 4E 32 24
+	National Health Insurance Card, Taiwan
 
 3B FF 18 00 FF 81 31 FE 45 54 48 43 43 31 30 54 45 43 4F 47 44 49 4E 31 26
 	National Health Insurance Card, Taiwan
@@ -6654,6 +6700,9 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 11 01 43 4E 53 11 31 80 9C
 	Politecnico di Torino Student Card (eID)
 	http://www.polito.it/
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 42 49 54 34 49 44 20 31 2E 30 00 90 00 91
+	Touch&Sign 2048 (PKI)
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
@@ -6911,6 +6960,10 @@
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 92 00 90 00
 	Gemplus GemXpresso 32K
+
+3F 77 13 00 00 C1 14 00 A2 68 90 00
+	Boxer DTV Sweden (Pay TV)
+	http://www.boxer.se
 
 3F 77 18 00 00 C1 14 00 A2 68 90 00
 	Viacess card HRT (Hrvatska Radio Televizija)
