@@ -513,6 +513,9 @@
 3B 26 00 11 06 23 03 90 00
 	Tarjeta de la Seguridad Social (Spanish Social Insurance Card)
 
+3B 26 00 21 18 26 03 90 00
+	Smart card used in transport (spain) (Transport)
+
 3B 26 00 24 06 01 00 00 80
 	old KPN NetBox card
 
@@ -2082,6 +2085,10 @@
 	OPUS Card, Montreal, Quebec, Canada community transport (Transport)
 	http://www.stm.info/
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 92 B2 B6 4E 82 90 00
+	Small card reader from WatchData (model W1981-plus) to recharge public transport cards (metro or bus) from OPUS network in Quebec (Canada). (Transport)
+	https://stm.opusenligne.ca/en
+
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 92 B8 94 FC 82 90 00
 	Montreal OPUS card (Transport)
 	http://www.stm.info
@@ -2145,6 +2152,9 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 74 CF DD 82 90 00
 	French "Navigo" transport card (Transport)
 	http://www.navigo.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
+	New Navigo card - Paris Sub transport (Transport)
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
@@ -2657,6 +2667,10 @@
 3B 7F .. 00 00 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00
 	IDPrime MD 8840, 3840, 3810, 840 and 830 Cards T=0
 
+3B 7F 01 00 FE 58 43 4F 53 76 32 35 31 28 63 29 50 46 42 4D
+	XCOS is an Experimental Card Operating System for Atmel based smartcards (Funcard, etc..) (Other)
+	http://runningserver.com/?page=runningserver.content.download.xcos
+
 3B 7F 04 00 00 80 31 80 71 90 67 54 45 4D 44 41 2E 30 90 00
 	public key (PKI)
 
@@ -3121,6 +3135,9 @@
 
 3B 87 80 01 4D 52 54 44 31 2E 30 26
 	Russian Foreign Passport (passport)
+
+3B 87 80 01 4D 52 54 44 32 2E 30 25
+	Biometric Passport of the Russian Federation (passport)
 
 3B 87 80 01 77 43 49 50 02 00 01 28
 	CIPURSE (transport)
@@ -4449,6 +4466,10 @@
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 31 05 00 00 3A
 	T-MOBILE CZ GSM card
 
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 13 57 86 81 02 86 98 44 18 A8
+	GREEN CARD, Grcard (Hong Kong ) Co.,Limited, LTE Usim Card (Telecommunication)
+	Celcom Postpaid 3G (Telecommunication)
+
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 57 3F 86 60 46 CD 00 01 B4
 	China Unicom USIM 128K 1295E
 
@@ -4556,6 +4577,10 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 C3 9F 00 00 00 00 86
 	Feitian ePass2003 token
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 00 00 00 05
+	FEITAIN ePASS2003 (PKI)
+	http://www.ftsafe.com/product/epass/epass2003
 
 3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
 	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
@@ -4901,6 +4926,9 @@
 	must have). The chip contains owners picture, name, date and place
 	of birth, current address, unique ID number and fingerprint.
 
+3B B9 94 00 40 14 47 47 33 4D 48 38 35 33 30
+	T D1 GSM card (Telecommunication)
+
 3B B9 94 00 40 14 47 47 33 4E 48 38 36 34 30
 	GSM-SIM card of the Austrian mobile phone provider One
 	http://www.one.at
@@ -5035,6 +5063,10 @@
 3B BE 11 00 00 41 01 38 04 00 14 00 00 00 00 00 01 90 00
 	Dekart Smartcard Logon (eID)
 	http://www.smartcardfocus.com/shop/ilp/se~81/dekart-smartcard-logon/p/index.shtml
+
+3B BE 11 00 00 41 01 38 04 00 14 00 00 00 00 00 02 90 00
+	DEKART proprietary logon authentication solution for Windows (Other)
+	http://www.dekart.com/products/
 
 3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
 	8 pin (eID)
@@ -6689,6 +6721,9 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03 03 01 11 01 43 4E 53 11 31 80 8C
 	Infocert 1205* smart card
 	Universita' Degli Studi di Torino (Infocert)
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 00 02 49 54 49 44 20 20 31 80 D3
+	electronic identity card (PKI)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 01 01 11 01 43 4E 53 11 31 80 9E
 	Service card of the Ministry of Defense of Italy - Navy
