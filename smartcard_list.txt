@@ -149,6 +149,9 @@
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
 
+3B 06 01 00 22 01 82 27
+	HID ProxCard II (Other)
+
 3B 06 01 01 00 00 10 73
 	HID Prox 26-bit (eID)
 
@@ -1345,6 +1348,10 @@
 3B 69 00 FF 53 6D 40 72 74 43 61 66 65
 	G&D (Giesecke&Devrient) Sm@rtCafé
 
+3B 6A 00 00 09 44 31 31 43 52 02 00 25 C3
+	Feitian FT-Java A11C (JavaCard)
+	http://www.ftsafe.com/product/smartcard/javacard
+
 3B 6A 00 00 0F 44 31 31 43 52 02 00 25 C3
 	Feitian Java Card D11CR (JavaCard)
 	http://www.ftsafe.com/product/smartcard/javacard
@@ -1399,6 +1406,9 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 1F 27 01 00 07 90 00
+	SOCCARDRT (HealthCare)
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 15 0F 90 00
 	VISA Debit card for HSBC, Australia
@@ -1721,6 +1731,9 @@
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
 	Tesco Bank Credit Card (VISA) (Bank)
 
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 35
+	Bank Of Ireland Visa Debit (Bank)
+
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
@@ -1900,6 +1913,9 @@
 
 3B 6E 00 FF 47 44 2D 47 50 2D 33 32 56 34 2D 44 45 53
 	Mastercard Ourocard Platinum from Banco do Brasil
+
+3B 6F 00 00 00 31 C0 68 43 53 50 45 4D 56 03 00 07 90 00
+	SOCCARDRT (HealthCare)
 
 3B 6F 00 00 00 66 4D 45 31 61 03 01 53 08 61 04 F0 90 00
 	Spanish University of Murcia smart ID card - Old version (M.Mar OS) - Also used by many others spanish universities
@@ -2199,6 +2215,10 @@
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 02 AA E6 CE 82 90 00
 	MOBIB (TEC IT Easy) (Transport)
 	http://www.infotec.be/fr-be/titresettarifs/mobib.aspx
+
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
+	Brussels STIB MOBIB Classic (Transport)
+	https://www.stib-mivb.be/mobib.html
 
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
@@ -3416,6 +3436,9 @@
 
 3B 8B 01 52 75 74 6F 6B 65 6E 6C 69 74 65 C2
 	Aktiv Rutoken lite token
+
+3B 8B 80 01 00 31 C0 64 1F 27 01 00 00 90 00 36
+	American Express Platinum (AU Issued) (Bank)
 
 3B 8B 80 01 00 31 C0 64 B0 FC 10 00 00 90 00 53
 	Thai Passport 2010, 2011
@@ -5087,6 +5110,10 @@
 3B BE 94 00 40 14 47 47 33 53 33 45 48 41 54 4C 39 31 30 00
 	Latvian GSM operator TELE2
 
+3B BE 94 00 40 14 47 47 33 53 33 47 48 41 54 4C 39 31 30 30
+	simCard Vip Mobile(Serbia) or Telecom Austria (Telecommunication)
+	http://www.vipmobile.rs/
+
 3B BE 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	touchatag SAM card
 	Spanish University of Murcia smart ID card - Old version with CajaMurcia Banking card integrated (Maestro card) (M.Mar OS) - Also used by many others spanish universities
@@ -6722,6 +6749,9 @@
 	Infocert 1205* smart card
 	Universita' Degli Studi di Torino (Infocert)
 
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 04 03 01 01 01 44 53 44 10 31 80 97
+	J-Sign (STMicroelectronics S.r.l. – Incard Division) (JavaCard)
+
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 00 02 49 54 49 44 20 20 31 80 D3
 	electronic identity card (PKI)
 
@@ -6835,6 +6865,9 @@
 3B FF 96 00 FF 81 31 FE 4D 80 31 E0 6B 04 31 05 02 77 55 55 55 55 55 55 EA
 	IRMA card (eID)
 	http://irmacard.org
+
+3B FF 96 00 FF 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 14
+	JavaCard Bit4Id (JavaCard)
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
