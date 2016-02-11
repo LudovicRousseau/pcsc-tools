@@ -2974,6 +2974,7 @@
 	Belgium A-kaart (Antwerp citycard)
 	Oyster card - Transport for London
 	http://en.wikipedia.org/wiki/Oyster_card
+	Kaba Legic Advant 4k
 
 3B 82 00 55 18
 	GSM SIM of TIM ITalian mobile company
