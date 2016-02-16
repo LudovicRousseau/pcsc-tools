@@ -651,6 +651,10 @@
 3B 3B 13 00 80 66 12 03 01 03 00 08 82 90 00
 	UBS Switzerland Maestro Debit Card (Bank)
 
+3B 3B 13 00 80 66 12 04 01 04 01 58 82 90 00
+	Schaffhauser Kantonalbank Switzerland (Bank)
+	http://www.shkb.ch
+
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
 
@@ -1089,6 +1093,9 @@
 3B 67 00 00 29 20 00 6F 78 9A 00
 	ABN AMRO wereldpas
 
+3B 67 00 00 29 20 00 6F 78 9F 00
+	SNS Bank debit card (Bank)
+
 3B 67 00 00 2A 20 00 41 78 90 00
 	Prepaid Chipknip Netherlands
 
@@ -1459,6 +1466,7 @@
 3B 6C 00 00 0F 31 C0 71 D6 64 13 6A 01 00 5D 84
 	MasterCard debit card: skrill.com card issued by Newcastle Building Society (Bank)
 	https://www.skrill.com
+	Nationwide InvestDirect (UK)
 
 3B 6C 00 00 0F 31 C0 71 D6 64 3E 67 01 01 5D 84
 	VISA GOLD Card issued by Swedbank AB, Lithuania (Bank)
@@ -2021,6 +2029,10 @@
 	NORSK TIPPING NORWAY
 	http://www.norsk-tipping.no/
 
+3B 6F 00 00 80 31 E0 6B 04 21 05 02 6C 55 55 55 55 55 55
+	Icelandic Electronic ID (eID)
+	https://www.audkenni.is/rafraen-skilriki/einkaskilriki/
+
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 A6 55 55 55 55 55 55
 	USAA EMV Mastercard Creditcard (Bank)
 	https://www.usaa.com/inet/pages/bk_cc_chipcardLP_landing_mkt?adID=VURL_chipcard
@@ -2168,6 +2180,9 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 74 CF DD 82 90 00
 	French "Navigo" transport card (Transport)
 	http://www.navigo.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 78 D3 64 82 90 00
+	Navigo card (Paris transportation). It's a brand new one, created in january 2016 (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
@@ -2974,6 +2989,7 @@
 	Belgium A-kaart (Antwerp citycard)
 	Oyster card - Transport for London
 	http://en.wikipedia.org/wiki/Oyster_card
+	Kaba Legic Advant 4k
 
 3B 82 00 55 18
 	GSM SIM of TIM ITalian mobile company
@@ -3170,6 +3186,10 @@
 3B 87 80 01 80 31 B8 73 84 01 E0 19
 	Personalausweis (German Identity Card) (eID)
 
+3B 87 80 01 80 31 B9 73 84 21 60 B8
+	Hungarian eID (2016) (eID)
+	http://kekkh.gov.hu/Eszemelyi/
+
 3B 87 80 01 80 31 C0 73 D6 20 C0 32
 	RFID GeldKarte (girogo)
 
@@ -3257,6 +3277,10 @@
 
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
+
+3B 88 80 01 43 43 31 69 AA 20 00 00 DB
+	PostFinance Switzerland (Bank)
+	http://www.postfinance.ch
 
 3B 88 80 01 43 4C 61 69 72 65 20 36 0F
 	VISA credit card with NFC payment function (Bank)
@@ -3638,6 +3662,10 @@
 3B 8F 80 01 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00 72
 	Gemalto IDPrime MD 3840
 	http://www.gemalto.com/dwnld/6891_IDPrimeMD3840_Product_Datasheet_May14.pdf
+
+3B 8F 80 01 80 31 E0 6B 04 21 05 02 72 55 55 55 55 55 55 64
+	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
+	https://www.banamex.com/es/personas/tarjetas_credito/ver_tarjetas/puntos_efectivo/bsmart.htm
 
 3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
 	Air Miles American Express card (contactless) (Bank)
@@ -4330,6 +4358,10 @@
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
+
+3B 9F 11 10 80 56 61 75 6C 74 49 43 20 34 36 30 31 2E 30 32
+	Inside Secure VaultIC 460 Smart Object [ICCD 1.00] (Other)
+	http://www.insidesecure.com/Products-Technologies/Secure-Solutions/VaultIC460
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 30
 	"La7 Cartapiù" for DVB-T decoders, IRDETO access
@@ -5266,6 +5298,10 @@
 3B D9 94 00 00 4D 4D 41 52 33 31 34 90 00
 	Vodafone Spain 64kb SIM card. GSM/3G networks
 
+3B D9 95 00 00 4D 45 16 00 54 01 00 90 00
+	MTS Ukraine (Telecommunication)
+	http://www.mts.ua/
+
 3B D9 96 FF 81 31 FE 45 43 52 45 53 43 45 4E 44 4F FF
 	HID Global Crescendo JCOP 21 v2.4.1 R2 64K (PKI)
 
@@ -6101,6 +6137,9 @@
 
 3B F9 96 00 00 81 31 FE 45 45 4F 4E 43 61 72 64 56 31 73
 	eONCard V1 (PKI)
+
+3B F9 96 00 00 81 31 FE 45 53 43 45 37 20 0E 00 20 20 28
+	Giesecke & Devrient GmbH StarSign CUT S
 
 3B F9 98 00 FF C1 10 31 FE 55 41 4D 20 43 4D 44 31 31 30 83
 	Service card of the Ministry of Defense of Italy - Military Aviation
