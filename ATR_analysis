@@ -284,7 +284,7 @@ if ($found == 1)
 	}
 
 	# still not found?
-	if (! $found)
+	if ($found)
 	{
 		print "Your card is not present in the database.\n";
 		print "Please submit your unknown card at:\n";
