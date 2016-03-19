@@ -3215,6 +3215,10 @@
 	Sparkasse Hannover - German contactless GeldKarte (RFID, NFC, girogo)
 	https://www.geldkarte.de/_www/en/pub/geldkarte/service_navigation/about_us.php
 
+3B 87 80 01 C1 05 21 30 00 77 C1 65
+	Mifare Plus (Other)
+	http://www.Mifare.net
+
 3B 87 80 01 C1 05 2F 2F 01 BC D6 A9
 	RFID - ISO 14443 Type A - NXP Mifare Plus
 
@@ -3605,6 +3609,9 @@
 
 3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
 	Czech Republic e-Passport (issued Feb 2009)
+
+3B 8E 80 01 13 78 80 72 02 80 31 80 66 B1 84 0C 01 FF 04
+	Optelio Contactless Gemalto (Bank)
 
 3B 8E 80 01 13 78 80 80 02 46 49 4F 4D 4B 5F 30 30 31 4E
 	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contactless chip)
@@ -4179,8 +4186,15 @@
 3B 9C 94 00 68 86 8D 0A 86 98 02 56 C2 00 05 00
 	G3 & GSM & Blank SIM card: to be programmed for OpenBTS with pySim-prog (Telecommunication)
 
+3B 9C 94 00 68 86 8D 0C 86 98 02 45 A1 00 05 00
+	China Mobile (Telecommunication)
+
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
 	RuToken Light SC
+
+3B 9C 96 00 58 44 24 03 02 00 20 01 0A 00 90 05
+	Ticket Restaurant Card (Other)
+	http://www.edenred.it/buoni-pasto-welfare-benefit/ticket-restaurant-card/
 
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
@@ -4378,6 +4392,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 A7 0F 00 08
+	Spanish Movistar Mobile phone SIM card (Telecommunication)
+	http://www.movistar.es/
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -4707,6 +4725,9 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 01 F0
 	Telekom Sim card (Telecommunication)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 03 F2
+	Vulcan 0502 T-Mobile SIM (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
 	http://www.sysmocom.de/products/sysmousim-sjs1-sim-usim
@@ -4840,6 +4861,10 @@
 
 3B 9F 96 81 31 FE 45 80 67 55 45 4B 41 45 12 93 31 80 73 B3 A1 80 6B
 	AKiS v1.3 on infineon chip
+
+3B 9F 96 81 31 FE 9D 00 64 05 A0 03 04 31 C0 73 F7 01 D0 00 90 00 28
+	Deutsche Telekom AG, TeleSec PKS ECC Signature Card (PKI)
+	https://www.telesec.de/en/signaturecard
 
 3B 9F 96 81 B1 FE 45 1F 07 00 64 05 1E B2 00 31 B0 73 96 21 DB 05 90 00 5C
 	SignTrust (www.signtrust.de)
@@ -6017,6 +6042,10 @@
 
 3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 02 90 00 FF
 	VISA card for Taipei Fubon Bank, Taiwan
+
+3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 04 90 00 F9
+	E.SUN Bank, Taiwan (Bank)
+	https://www.esunbank.com.tw
 
 3B F7 11 00 00 81 71 FE 42 00 00 63 95 31 05 90 00 F8
 	ATM card for Chunghwa Post, Taiwan
@@ -7197,6 +7226,9 @@
 3F EF 00 FF 81 31 .. 45 65 63
 	Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
 
+3F FD 11 25 02 50 00 03 33 B0 15 69 FF 4A 50 F0 80 03 4B 4C 03
+	Kabel Deutschland G02  (Pay TV)
+
 3F FD 11 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 70 80 00 5A 45 03
 	Buypass smart card (Bank)
 	https://www.buypass.no/bruker/buypass-id/buypass-smartkort
@@ -7353,6 +7385,10 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 41 20 52 65 76 41 30 31 6C
 	Mediaset Premium (Italy) 2013
+
+3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 43 20 52 65 76 43 30 30 6D
+	Mediaset Premium rechargeable (Pay TV)
+	http://www.mediasetpremium.it/
 
 3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
 	Spanish pay TV card for GOLTV
