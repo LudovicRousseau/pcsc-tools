@@ -132,7 +132,8 @@ History:
 
 1.4.26 - 19 March 2016, Ludovic ROUSSEAU
     - 77 new ATRs
-	- ATR_analysis: fix display the submission message
+    - ATR_analysis: fix display the submission message
+	- fix typos in pcsc_scan.1 and scriptor.1p man pages
 
 1.4.25 - 8 November 2015, Ludovic ROUSSEAU
     - 44 new ATRs
