@@ -708,6 +708,9 @@
 3B 3B 96 00 A7 4C 90 00 00 90 AC 33 33 90 00
 	Brazilian TIM GSM SIM
 
+3B 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03
+	Smart card commercial chamber - Tuscan region - Aruba (eID)
+
 3B 3C 11 00 40 AF 13 F3 12 00 06 87 83 80 90 00
 	SIM GSM Orange Fr
 
@@ -1226,6 +1229,17 @@
 	G&D 12696-GDM-10/11 DEBIT CARD issued by BANCO DE CREDITO DEL PERU
 	Visa from Caisse populaire Desjardins (Canada) (Bank)
 	https://www.desjardins.com/
+	MasterCard issued by President's Choice Bank (Canada)
+	http://pcfinancial.ca/mastercard
+	MasterCard issued by CIBC (Canada)
+	http://www.cibc.com/
+	MasterCard issued by The Bank of Nova Scotia (Canada)
+	http://www.scotiabank.com/
+	MasterCard issued by JPMorgan Chase Bank, N.A.
+	https://www.chase.com/
+
+3B 68 00 00 01 01 31 00 00 00 90 00
+	VISA ELECTRON Sberbank card (Bank)
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -1300,6 +1314,10 @@
 	CommSec Debit MasterCard (Australia)
 	VISA Debit card for Bank of Sydney, Australia
 
+3B 68 00 FF 4A 43 4F 50 76 32 34 31
+	Alfa-bank VISA Classic card (Bank)
+	https://alfabank.ru
+
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
 
@@ -1337,6 +1355,9 @@
 3B 69 00 00 AC 04 00 00 04 B1 8C 61 21
 	Student card for Université numérique Paris Île-de-France
 	http://unpidf.univ-paris1.fr/la-carte-multiservice-etudiant-de-paris-et-d-ile-de-france-1775.kjsp?RH=unr-carte&RF=unr-carte
+
+3B 69 00 00 EB 03 01 03 01 70 01 08 A9
+	Gasprom card (JavaCard)
 
 3B 69 00 00 EB 03 01 06 01 70 01 02 A9
 	Azeriqaz-SOCAR(Azerbaijan) (Other)
@@ -1586,6 +1607,8 @@
 	Bank of America BankAmericard Travel Visa Chip Card (Gemalto)
 	https://www.bankofamerica.com/credit-cards/products/bankamericard-travel-rewards-credit-card.go
 	Credito Trevigiano - Banca di Credito Cooperativo - Carta BCC
+	VISA Signature issued by RBC Bank (Georgia), N.A.
+	https://www.rbcbank.com/
 
 3B 6D 00 00 80 31 80 65 B0 89 40 01 F2 83 00 90 00
 	PSAM Card
@@ -1897,12 +1920,16 @@
 	Carte Ticket Restaurant with MasterCard
 	Citigold VISA Debit for Citibank, Australia
 	Platinum VISA card for Citibank, Australia
+	VISA Infinite issued by RBC Royal Bank (Canada)
+	http://www.rbc.com/
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
 	Inteligo debit card
 	VISA issued by ING (Poland)
 	VISA Debit card for ING Direct, Australia
+	VISA Gold issued by RBC Royal Bank (Canada)
+	http://www.rbc.com/
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
@@ -2664,6 +2691,10 @@
 	Swedish eID (Telia IP5a)
 	http://www.telia.se/privat/katalog/VisaProdukt.do?productRef=/privat/produkter_tjanster/bredband/tjanster/sakerhetstjanster/teliae-legitimation.1537014385.product
 
+3B 7D 96 00 00 80 31 80 65 B0 A3 11 01 F3 83 00 90 00
+	Telia EID IP5a (eID)
+	https://cve.trust.telia.com/TeliaElegNG
+
 3B 7E 11 00 00 00 6A 11 63 54 08 30 24 01 .. .. 21 90 01
 	Sagem Windows for smart cards
 
@@ -3308,6 +3339,10 @@
 	VISA credit card with NFC payment function (Bank)
 	http://www.visa.ca/en/personal/visa-paywave/index.jsp
 
+3B 88 80 01 46 49 44 45 53 4D 4F 31 67
+	Fidesmo card (install or uninstall JavaCard applets or Mifare-based services on the field, using the Fidesmo Android App. (JavaCard))
+	https://developer.fidesmo.com/
+
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A - NXP JCOP
 	NXP J3A081 JavaCard (contactless interface)
@@ -3537,6 +3572,10 @@
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
+3B 8C 80 01 50 10 B7 6A AE 00 00 00 00 B3 71 71 8D
+	Tisseo (Toulouse)  (Transport)
+	http://www.tisseo.fr/les-tarifs/obtenir-une-carte-pastel
+
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
 
@@ -3557,6 +3596,10 @@
 3B 8C 80 01 50 93 19 5E 30 00 00 00 00 00 71 71 B9
 	OPUS STM CANADA (Transport)
 	http://stm.info/
+
+3B 8C 80 01 50 A2 21 FA A0 31 CC CC 01 77 81 C1 83
+	Morpho (eID)
+	http://www.morpho.com/
 
 3B 8C 80 01 50 B1 56 D8 BB 00 00 00 11 00 81 85 CC
 	TI rf430cl330h (Other)
@@ -4510,6 +4553,10 @@
 	4G LTE blank USIM Green Card (Telecommunication)
 	http://grcard.en.alibaba.com/product/60076835567-209365843/4G_LTE_blank_usim_card_for_4G_network.html
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 37 86 60 9B A1 82 10 9B
+	U Mobile POWER Prepaid (Telecommunication)
+	http://www.u.com.my/prepaid
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 83 02 00 00 BA
 	GSM-SIM Beeline RU (Telecommunication)
 	http://beeline.ru
@@ -4745,6 +4792,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00 BD
 	T-Mobile US USIM card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 25 33 32 00 BB
+	Sintel hi! Tourist prepaid (Telecommunication)
+	http://www1.singtel.com/personal/phones-plans/mobile/prepaid/hitouristsimcards.html
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
@@ -6861,7 +6912,7 @@
 	electronic identity card (PKI)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 01 01 11 01 43 4E 53 11 31 80 9E
-	Service card of the Ministry of Defense of Italy - Navy
+	Service card of the Ministry of Defense of Italy
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 00 01 50 53 45 10 31 80 94
 	Italian Electronic ID Card (eID)
