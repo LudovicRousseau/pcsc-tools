@@ -1280,8 +1280,8 @@
 	Gemalto Santander Optelio TUI R7 with WG10 using Contact interface
 
 3B 68 00 00 80 66 B0 07 01 01 77 07
-	Técnico Lisboa Student Card (Bank)
-	http://www.tecnico.ulisboa.pt/
+	Santander Totta Student Card - Portugal (Bank)
+	https://www.santandertotta.pt
 
 3B 68 00 00 9D 03 02 01 01 56 49 53
 	Visa Card - SberBank / Russia
@@ -2125,6 +2125,9 @@
 
 3B 6F 00 00 80 5A 08 06 08 20 02 00 .. .. .. .. 82 90 00
 	Lisboa Viva, public transport card of Lisbon (Portugal)
+
+3B 6F 00 00 80 5A 08 03 14 00 02 00 .. .. .. .. 82 90 00
+	Metro do Porto, public transport card of Oporto - Portugal (Transport)
 
 3B 6F 00 00 80 5A 08 06 08 20 02 00 10 00 3E DC 82 90 00
 	CTS (Compagnie des Transports Strasbourgeois) to hold transportation tickets
