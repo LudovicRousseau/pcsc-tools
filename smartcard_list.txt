@@ -119,6 +119,9 @@
 3B 04 9C FF 21 43
 	Hercules laundry stored value card
 
+3B 04 A2 01 00 00
+	Hospital's expenditure (HealthCare)
+
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
 	Bahn BKK (Deutsche Bahn AG - Insurance Company)
@@ -1254,6 +1257,9 @@
 	mbna PLATINUM MasterCard
 	Flash (Banca Fideuram) Italy prepaid Mastercard
 
+3B 68 00 00 54 48 20 4E 49 44 20 36
+	Thai id card (Other)
+
 3B 68 00 00 56 53 44 43 4C 43 31 30
 	VISA (Estonian), made by www.trueb.ch
 	Latvian bank "Latvijas Krajbanka" (VISA Electron)
@@ -1388,11 +1394,7 @@
 3B 69 00 FF 53 6D 40 72 74 43 61 66 65
 	G&D (Giesecke&Devrient) Sm@rtCafé
 
-3B 6A 00 00 09 44 31 31 43 52 02 00 25 C3
-	Feitian FT-Java A11C (JavaCard)
-	http://www.ftsafe.com/product/smartcard/javacard
-
-3B 6A 00 00 0F 44 31 31 43 52 02 00 25 C3
+3B 6A 00 00 0. 44 31 31 43 52 02 00 25 C3
 	Feitian Java Card D11CR (JavaCard)
 	http://www.ftsafe.com/product/smartcard/javacard
 
@@ -1783,6 +1785,10 @@
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 37
 	UCFIN (Italy) "UniCreditCard Free" or "Plus" (VISA or MasterCard) credit card
 
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 39
+	CartaBcc Classic VISA (Bank)
+	https://www.cartabcc.it/privati/carte-di-credito-privati/Pagine/Classic.aspx
+
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
@@ -2137,6 +2143,9 @@
 	ALSEO, the Alsacian Express Regional Train card (Transport)
 	http://www.ter.sncf.com/alsace/gares/preparer-son-voyage/carte-alseo/
 
+3B 6F 00 00 80 5A 08 03 03 00 00 00 C0 0F AF 04 82 92 00
+	Bordeaux Urban Transportation Card (NFC) (Transport)
+
 3B 6F 00 00 80 5A 08 03 14 00 02 00 .. .. .. .. 82 90 00
 	Metro do Porto, public transport card of Oporto - Portugal (Transport)
 
@@ -2481,6 +2490,9 @@
 
 3B 7A 13 00 00 00 09 A5 05 01 00 B7 01 A6 01
 	"cleyris" authentication card. monpass.santé from Mutuelle Générale
+
+3B 7A 13 00 00 09 44 31 31 43 52 02 00 25 C3
+	Feitian D11CR 2016 (JavaCard)
 
 3B 7A 18 00 00 73 66 74 65 20 63 64 31 34 34
 	Republic Slovenia e-Gov, Ministry of Public Administration
@@ -3274,6 +3286,9 @@
 	Mifare Plus (Other)
 	http://www.Mifare.net
 
+3B 87 80 01 C1 05 2F 2F 00 35 C7 30
+	MiFare Plus 2K "S" (Other)
+
 3B 87 80 01 C1 05 2F 2F 01 BC D6 A9
 	RFID - ISO 14443 Type A - NXP Mifare Plus
 
@@ -3628,6 +3643,10 @@
 3B 8C 80 01 50 B1 56 D8 BB 00 00 00 11 00 81 85 CC
 	TI rf430cl330h (Other)
 	http://www.ti.com/product/rf430cl330h
+
+3B 8C 80 01 50 C0 98 37 3F 00 00 00 00 91 71 71 9C
+	PassPass card issued by Transpole : the public transportation service of Lille, France, and SNCF : the french national railway. (Transport)
+	https://www.transpole.fr/fr/pass-pass-et-tarifs/carte-pass-pass-personnelle.aspx
 
 3B 8C 80 01 50 D9 4E 7D 00 00 00 00 00 00 81 80 B6
 	Chicago CTA Ventra Transit card (Transport)
@@ -4732,6 +4751,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 52 93 01 82 90 00 05
 	AT&T nano SIM (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 52 93 02 82 90 00 06
+	AT&T GO PHONE 2G (Telecommunication)
+	https://www.att.com/shop/wireless/gophone.html
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
 	http://www.2degreesmobile.co.nz/
@@ -5482,6 +5505,9 @@
 3B DB 96 00 80 1F 03 00 31 C0 64 B0 F3 10 00 0F 90 00 88
 	US Department of Veterans Affairs PIV
 
+3B DB 96 00 80 31 FE 44 80 59 65 49 44 20 4E 41 44 52 41 8F
+	pk id card (eID)
+
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 18 01 00 07 90 00 5A
 	Ercom CRYPTOSMART
 	http://www.ssi.gouv.fr/entreprise/qualification/gamme-cryptosmart-pour-la-securisation-des-smartphones-et-des-tablettes/
@@ -6109,6 +6135,10 @@
 
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 77 D1 A1
 	German Passport (ePass) (issued May 2008)
+
+3B F5 96 00 00 8. 31 FE 45 4D 79 45 49 44 1.
+	MyEID card (Infineon chip) (PKI)
+	https://services.aventra.fi/English/products_MyEID_E.php
 
 3B F6 18 00 FF 81 31 FE 45 4A 32 41 30 38 30 1B
 	NXP J2A080 - 80K (blank)
