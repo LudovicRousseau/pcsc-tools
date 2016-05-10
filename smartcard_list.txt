@@ -982,6 +982,8 @@
 	bpost bpaid (Bank)
 	http://www.bpost.be/bpaid/
 	KBC Ireland Mastercard Debit (Bank)
+	ING Direct MasterCard (Bank)
+	https://www.ingdirect.es/
 
 3B 65 00 00 20 63 CB AD 80
 	Santander Debit Card (Bank)
@@ -1247,6 +1249,8 @@
 	http://www.scotiabank.com/
 	MasterCard issued by JPMorgan Chase Bank, N.A.
 	https://www.chase.com/
+	CaixaBank Visa Electron (Bank)
+	https://www.lacaixa.cat/
 
 3B 68 00 00 01 01 31 00 00 00 90 00
 	VISA ELECTRON Sberbank card (Bank)
@@ -1256,6 +1260,9 @@
 	MasterCard debit card
 	mbna PLATINUM MasterCard
 	Flash (Banca Fideuram) Italy prepaid Mastercard
+
+3B 68 00 00 01 05 20 00 00 00 90 00
+	Air Bank a.s. MasterCard debit card with PayPass (Bank)
 
 3B 68 00 00 54 48 20 4E 49 44 20 36
 	Thai id card (Other)
@@ -1950,6 +1957,8 @@
 	VISA Debit card for ING Direct, Australia
 	VISA Gold issued by RBC Royal Bank (Canada)
 	http://www.rbc.com/
+	Gas Natural Fenosa Visa (issued by CaixaBank) (Bank)
+	http://www.clubfenosa.gasnaturalfenosa.es/ca/1285341160257/targeta+gas+natural+fenosa.html
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
@@ -2256,10 +2265,12 @@
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
-3B 6F 00 00 80 5A 29 13 09 10 11 3[3,5] .. .. .. .. 82 90 00
+3B 6F 00 00 80 5A 29 13 09 10 11 3[3,6] .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
 	Calypso application similar to French NAVIGO
+	MOBIB (Transport)
+	http://www.stib-mivb.be/mobib.html?l=en
 
 3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 0A 1D BA 82 90 00
 	French military discount on SNCF trains card (Transport)
@@ -2291,7 +2302,15 @@
 
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 23 EB 06 82 90 00
 	MOBIB Basic (Transport)
-	https://www.stib-mivb.be/Basic.html?l=fr
+	https://www.stib-mivb.be/Basic.html?l=en
+
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 24 2F F4 82 90 00
+	MOBIB Basic (Transport)
+	http://www.stib-mivb.be/mobib.html?l=en
+
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 28 A9 82 82 90 00
+	MOBIB Basic (Transport)
+	http://www.stib-mivb.be/mobib.html?l=en
 
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 02 AA E6 CE 82 90 00
 	MOBIB (TEC IT Easy) (Transport)
@@ -2936,6 +2955,14 @@
 3B 7F 13 00 00 80 31 C0 52 36 42 64 05 66 94 61 83 83 90 00
 	Visa debit card issued by Spain Caja Madrid bank
 
+3B 7F 13 00 00 80 31 C0 52 3B 0E 64 02 00 0B 70 83 83 90 00
+	RACC MasterCard (Bank)
+	https://www.racc.cat/targeta-racc-master
+
+3B 7F 13 00 00 80 31 C0 52 3C 89 64 02 00 0B 70 83 83 90 00
+	ING Direct Visa (Bank)
+	https://www.ingdirect.es/
+
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
 	http://www.runningserver.com/?page=runningserver.content.download.ecos
@@ -3181,6 +3208,10 @@
 
 3B 85 80 01 20 63 CB A5 A0 89
 	Visa contactless from Banque Populaire des Alpes (France) (Bank)
+
+3B 85 80 01 20 63 CB AD 00 21
+	NUMBER26 MasterCard (Bank)
+	https://number26.eu
 
 3B 85 80 01 20 63 CB AD 20 01
 	KBC Ireland MasterCard Debit Card (Bank)
@@ -3565,6 +3596,10 @@
 3B 8B 01 52 75 74 6F 6B 65 6E 6C 69 74 65 C2
 	Aktiv Rutoken lite token
 
+3B 8B 80 01 00 31 C0 64 08 04 61 00 00 90 00 62
+	NUMBER26 Maestro Card (Bank)
+	https://number26.eu
+
 3B 8B 80 01 00 31 C0 64 1F 27 01 00 00 90 00 36
 	American Express Platinum (AU Issued) (Bank)
 
@@ -3618,6 +3653,9 @@
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
 
+3B 8C 80 01 50 27 47 D2 05 00 00 00 00 00 71 81 1A
+	Pass Navigo Découverte (Transport)
+
 3B 8C 80 01 50 38 0E B2 5B 00 00 00 00 B3 71 71 31
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
 	http://bip.piemonte.it/
@@ -3670,6 +3708,10 @@
 
 3B 8C 80 01 80 91 E1 65 D0 00 46 00 00 82 90 00 1C
 	US passport (2009)
+
+3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01 CF
+	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
+	https://technet.microsoft.com/en-us/library/dn593708%28v=ws.11%29.aspx
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -5115,6 +5157,10 @@
 
 3B B7 11 00 81 31 90 43 A5 .. .. .. .. .. .. ..
 	Siemens CardOS/M V1.4 (SLE44C80S)
+
+3B B7 11 00 81 31 90 43 C5 17 B0 9D 19 22 1E 1F
+	CryptoTech blank access/authentication card (Other)
+	http://www.cryptotech.com.pl/
 
 3B B7 11 00 81 31 90 53 B5 .. .. .. .. .. .. ..
 	CardOS EM/V1.4 (SLE44CR80S)
