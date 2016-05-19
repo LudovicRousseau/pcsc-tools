@@ -655,6 +655,9 @@
 3B 3B 11 00 91 41 10 10 10 5B A0 00 33 90 00
 	Pannon SIM card (Hungary)
 
+3B 3B 13 00 80 66 12 03 01 03 00 04 82 90 00
+	UBS Maestro (Bank)
+
 3B 3B 13 00 80 66 12 03 01 03 00 08 82 90 00
 	UBS Switzerland Maestro Debit Card (Bank)
 
@@ -1264,6 +1267,10 @@
 3B 68 00 00 01 05 20 00 00 00 90 00
 	Air Bank a.s. MasterCard debit card with PayPass (Bank)
 
+3B 68 00 00 01 05 21 96 00 00 90 00
+	PayPal Access (Bank)
+	https://www.paypal.com/uk/webapps/mpp/accesscard
+
 3B 68 00 00 54 48 20 4E 49 44 20 36
 	Thai id card (Other)
 
@@ -1583,6 +1590,10 @@
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
 
+3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
+	Deutsche Bank MasterCard Credit Card (Bank)
+	https://www.deutsche-bank.de/pfb/content/pk-konto-und-karte-kreditkarte.html
+
 3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
 	Student college card
 
@@ -1766,6 +1777,10 @@
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 3D
 	VISA credit card (Nordea DK) (Bank)
 	https://www.nordea.dk/om+nordea/nordeadk+in+brief/visa+dankort+card/1619932.html
+
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 41
+	VISA by CAL ( Israeli Credit Card Company ) (Bank)
+	https://www.cal-online.co.il/he-IL/Cal/Pages/home.aspx
 
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 47
 	Hellenic Bank Visa Electron (Gemalto)
@@ -2491,6 +2506,10 @@
 3B 79 94 00 00 59 01 01 0E 01 6B 01 02 A9
 	Vending machine payment card ('Necta' brand)
 
+3B 79 94 00 00 EB 03 01 01 02 70 01 02 A9
+	Sodexo - Spanish vending machines (Other)
+	http://es.sodexo.com/home.html
+
 3B 79 95 00 00 54 45 4C 45 4D 10 21 10 10
 	Israeli Identity Card (eID)
 	http://smartid.gov.il/English/Pages/default.aspx
@@ -2933,6 +2952,9 @@
 3B 7F 13 00 00 80 31 C0 52 18 80 64 05 66 98 36 83 83 90 00
 	Visa Electron Debit Card issued by "la Caixa"
 
+3B 7F 13 00 00 80 31 C0 52 18 94 64 02 B3 02 70 83 83 90 00
+	Advantis duo 8k (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 18 97 64 02 B3 02 37 83 83 90 00
 	tool-valley (vale-pedagio) from Bradesco
 
@@ -3165,6 +3187,9 @@
 
 3B 84 80 01 47 77 F4 00 C1
 	True Money Touch Sim (Thailand)
+
+3B 84 80 01 80 82 90 00 97
+	German passport (passport)
 
 3B 85 00 12 02 01 00 96
 	GSM-SIM Victorvox D1 (900MHz)
@@ -3670,6 +3695,10 @@
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
 
+3B 8C 80 01 50 91 5D 71 29 E1 F3 5E 11 77 81 A1 C3
+	Spanish eID, Documento Nacional de Identidad (DNIe) (eID)
+	http://www.dnielectronico.es/
+
 3B 8C 80 01 50 93 19 5E 30 00 00 00 00 00 71 71 B9
 	OPUS STM CANADA (Transport)
 	http://stm.info/
@@ -3750,6 +3779,10 @@
 
 3B 8E 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 38 30 5A
 	RFIDIOt G&D SmartCafe 80K
+
+3B 8E 80 01 53 43 45 36 30 2D 43 44 30 38 31 2D 6E 46 4A
+	SmartCafe Expert 6.0 80K Dual (JavaCard)
+	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
@@ -4950,6 +4983,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BD
 	USIM (3G DF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 06 85 83 00 82 90 00 C1
+	ANCEL (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 06 97 82 00 82 90 00 D2
 	MTN IRANCELL In Iran Sim Card (Telecommunication)
