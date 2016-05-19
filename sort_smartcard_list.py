@@ -33,3 +33,19 @@ sorted_ATRs.sort()
 
 for l in difflib.context_diff(ATRs, sorted_ATRs):
     print l
+
+# compte le nombre de nouveau ATR
+from subprocess import Popen, PIPE
+
+p1 = Popen(["git", "diff"], stdout=PIPE)
+p2 = Popen(["grep", "+3[B,F]"], stdin=p1.stdout, stdout=PIPE)
+p1.stdout.close()
+output = p2.communicate()[0]
+
+size = len(output.split("\n"))-1
+if size >= 10:
+    print
+    print "********************"
+    print "    %d new ATRs" % size
+    print "********************"
+    print
