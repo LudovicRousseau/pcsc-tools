@@ -274,7 +274,6 @@ if ($found == 1)
 	# ATR not found
 	my $file = $SMARTCARD_LIST[0];
 	my $url = "http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt";
-	$found = 0;
 
 	# update the ATR list
 	if (update_smartcard_list($file, $url))
@@ -282,15 +281,15 @@ if ($found == 1)
 		# try again with an updated list
 		$found = find_card($atr, $file);
 	}
+}
 
-	# still not found?
-	if ($found)
-	{
-		print "Your card is not present in the database.\n";
-		print "Please submit your unknown card at:\n";
-		$atr =~ s/ //g;
-		print "http://smartcard-atr.appspot.com/parse?ATR=$atr\n";
-	}
+# still not found?
+if ($found)
+{
+	print "Your card is not present in the database.\n";
+	print "Please submit your unknown card at:\n";
+	$atr =~ s/ //g;
+	print "http://smartcard-atr.appspot.com/parse?ATR=$atr\n";
 }
 
 ######## Sub functions
