@@ -247,7 +247,7 @@ sub update_smartcard_list($$)
 		}
 		else
 		{
-			system("wget $url --output-document=$file ; touch $file");
+			system("wget --quiet $url --output-document=$file ; touch $file");
 		}
 
 		# did an update
