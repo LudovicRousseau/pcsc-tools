@@ -262,7 +262,7 @@ sub update_smartcard_list($$)
 my $found = find_card($atr, @SMARTCARD_LIST);
 if ($found == 2)
 {
-	# not ATR file found
+	# no ATR file found
 	mkdir $Cache;
 
 	# continue with the ATR list update
