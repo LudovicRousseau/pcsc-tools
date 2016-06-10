@@ -567,11 +567,13 @@
 	Telephone chipcard for the Vienna University of Technology
 	http://nic.tuwien.ac.at/telefonie/chipkarte/
 
+3B 29 00 80 72 A4 45 64 .. .. .. ..
+	MPCOS-3DES 8K (Gemplus)
+
 3B 29 00 80 72 A4 45 64 00 00 D0 15
-	Moeda Electronica Bradesco (Gemplus MPCOS?) (Brasilia)
+	Moeda Electronica Bradesco (Brasilia)
 
 3B 29 00 80 72 A4 45 64 00 FF 00 10
-	MPCOS-3DES 8K (Gemplus)
 	MBNA Europe Platinum Plus Mastercard
 	MasterCard Card - Worldcard - Yapıkredi / Turkey
 	Portugal BPI Visa Electron
@@ -951,6 +953,7 @@
 
 3B 65 00 00 20 63 CB A5 A0
 	French banking card "Banque Populaire"
+	Visa Card distributed by BNP PARIBAS (French Bank)
 
 3B 65 00 00 20 63 CB A6 20
 	Mastercard Credit Agricole (French Bank)
@@ -996,6 +999,13 @@
 
 3B 65 00 00 20 63 CB AE 80
 	Visa Premier (HelloBank), Gemalto SGP U1074311B 1214 (Bank)
+
+3B 65 00 00 20 63 CB B1 20
+	Bank card "Credit Agricole" (Bank)
+
+3B 65 00 00 20 63 CB B2 80
+	Visa card distributed by "Societe Generale" (French Bank) (Bank)
+	https://www.visa.fr/
 
 3B 65 00 00 20 63 CB B6 20
 	MasterCard credit card, issued by Swedbank LT (Bank)
@@ -1928,6 +1938,10 @@
 	Usb Token from watchdata from Brazil (PKI)
 	http://www.watchdata.com/brazil/watchkey/index.htm
 
+3B 6E 00 00 57 44 36 19 69 86 93 02 21 18 15 50 20 27
+	Watchdata USB Key (PKI)
+	http://www.watchdata.com/brazil/watchkey/index.htm
+
 3B 6E 00 00 62 6C 75 63 61 72 64 20 32 4B 42 2F 76 34
 	eID Blutronics Blucard 2K
 	http://blucard.blutronics.com
@@ -2218,6 +2232,9 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 19 C2 4F 82 90 00
 	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
 	http://carteopus.info/
+
+3B 6F 00 00 80 5A 0A 01 02 20 03 11 03 35 74 E2 82 90 00
+	Card Transport Express Régional (TER) « Oùra ! » of region Rhône-Alpes
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 02 94 95 D3 82 90 00
 	Rav-Kav Public Transport (Transport)
@@ -2996,6 +3013,7 @@
 3B 7F 18 00 00 00 31 B8 64 50 23 EC C1 73 94 01 80 82 90 00
 	PENIT, Carte non ECC-France (eID)
 	https://nantes.sso.intranet.justice.gouv.fr/
+	SSO card distributed by the University Hospital of Lille (CHRU de Lille)
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 03 00 82 90 00
 	Oberthur Galactic V3 (32k)
@@ -3121,6 +3139,8 @@
 	Kaba Legic Advant 4k
 	Sydney Opal card public transport ticket (Transport)
 	https://www.opal.com.au
+	TH Köln (University of Applied Sciences Cologne) - Student Identity Card
+	https://www.th-koeln.de/en/academics/multica_5893.php
 
 3B 81 80 01 81 81
 	Ticket (Transport)
@@ -3680,6 +3700,11 @@
 
 3B 8C 80 01 50 27 47 D2 05 00 00 00 00 00 71 81 1A
 	Pass Navigo Découverte (Transport)
+	https://fr.wikipedia.org/wiki/Passe_Navigo
+
+3B 8C 80 01 50 27 50 38 CE 00 00 00 00 00 71 81 2C
+	Paris transportation card (Pass Navigo) (Transport)
+	https://fr.wikipedia.org/wiki/Passe_Navigo
 
 3B 8C 80 01 50 38 0E B2 5B 00 00 00 00 B3 71 71 31
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
@@ -5159,6 +5184,7 @@
 3B B2 11 00 10 80 00 02
 	Atmel memory card AT88SC0204C (Atmel memory card)
 	http://www.atmel.com/dyn/resources/prod_documents/doc5211.pdf
+	Card LAVAGE reloadadble  from stations TOTAL
 
 3B B2 11 00 10 80 00 04
 	Atmel memory card AT88SC0404C
@@ -5254,6 +5280,9 @@
 
 3B BA 94 00 40 14
 	GG3RS732S0 ?
+
+3B BA 94 00 40 14 47 47 33 52 53 37 31 36 53 00
+	Micro Sim MCP crew sim (Telecommunication)
 
 3B BA 94 00 40 14 47 47 33 52 53 37 31 36 53 20
 	GSM SIM Elisa Estonia
@@ -5544,6 +5573,9 @@
 
 3B D9 18 00 C0 09 10 FE 54 59 46 4F 4E 45 00 00 00
 	Tyfone's SideTap Card (NFC payments)
+
+3B D9 94 00 00 4D 45 45 76 35 2E 36 90 00
+	Vending Machine Card (Other)
 
 3B D9 94 00 00 4D 4D 41 52 33 31 34 90 00
 	Vodafone Spain 64kb SIM card. GSM/3G networks
@@ -6615,6 +6647,10 @@
 	Feitian A40 JavaCard (64K) (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~711/javacos-a40-dual-interface-java-card-64k/p/index.shtml
 
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 00 25 04 00 00 00 00 4A
+	Feitian JavaCOS A22CR ()
+	http://www.javacardos.com/store/javacard-a22cr.php
+
 3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 64 2F 70 C1 72 FE E0 FD
 	Feitian eJavaToken (JavaCard)
 	http://www.ftsafe.com/product/epass/eJavaToken
@@ -6690,6 +6726,10 @@
 3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 29 80 00 00 00 00 00 00 A9
 	DPI Guatemala (eID)
 	http://www.renap.gob.gt/
+
+3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 4C 31 32 38 43 52 57
+	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
+	http://www.usmartcards.co.uk/cards/universal-jcard-contact-with-infineon-sle78-white-gloss-pvc-card.html
 
 3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
 	LOT test card (JavaCard)
