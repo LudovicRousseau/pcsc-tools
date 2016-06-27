@@ -429,6 +429,10 @@ get_readers:
 			nbReaders);
 	} /* while */
 
+	/* A reader disappeared */
+	if (SCARD_E_UNKNOWN_READER == rv)
+		goto get_readers;
+
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
 	test_rv("SCardGetStatusChange", rv, hContext);
 
