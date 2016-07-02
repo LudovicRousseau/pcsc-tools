@@ -1371,6 +1371,10 @@
 3B 69 00 00 24 94 01 03 01 00 01 00 A9
 	Schlumberger MicroPayflex S card
 
+3B 69 00 00 49 44 35 30 56 31 2E 35 39
+	eID Card to user autheticate and save paswords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
+	https://identos.com/id50-password-manager/
+
 3B 69 00 00 4A 43 4F 50 33 31 56 32 32
 	Visa Europe Sample Card / Axalto
 
@@ -1472,6 +1476,10 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 08 10 51 10 0F 90 00
+	Skrill MasterCard (Bank)
+	https://www.skrill.com
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 00 07 90 00
 	SOCCARDRT (HealthCare)
@@ -2081,6 +2089,9 @@
 3B 6F 00 00 80 31 E0 6B 02 01 02 07 01 55 55 55 55 55 55
 	Brazilian state bank: Caixa Econômica Federal debit card
 
+3B 6F 00 00 80 31 E0 6B 02 03 02 07 01 55 55 55 55 55 55
+	Banco de Brasília MasterCard Credit Card (Bank)
+
 3B 6F 00 00 80 31 E0 6B 04 03 03 04 05 55 55 55 55 55 55
 	Blue American Express Card
 
@@ -2343,6 +2354,9 @@
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 28 A9 82 82 90 00
 	MOBIB Basic (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
+
+3B 6F 00 00 80 5A 2C 23 EA 00 03 02 02 85 24 CA 82 90 00
+	Pcard Interparking Mobib (Transport)
 
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 02 AA E6 CE 82 90 00
 	MOBIB (TEC IT Easy) (Transport)
@@ -3885,6 +3899,10 @@
 	Gemalto IDPrime MD 3840
 	http://www.gemalto.com/dwnld/6891_IDPrimeMD3840_Product_Datasheet_May14.pdf
 
+3B 8F 80 01 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 73
+	Grand Duchy of Luxembourg / Identity card with LuxTrust certificate (eID)
+	http://www.guichet.public.lu/citoyens/fr/citoyennete/papiers-identite/carte-identite/nouv-carte-identite-adulte-EN/index.html
+
 3B 8F 80 01 80 31 E0 6B 04 21 05 02 72 55 55 55 55 55 55 64
 	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
 	https://www.banamex.com/es/personas/tarjetas_credito/ver_tarjetas/puntos_efectivo/bsmart.htm
@@ -4503,6 +4521,10 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 14 11 00 A6
 	Globe (Telecommunication)
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 B8 10 00 0B
+	abc mobile prepaid sim card (serviced by CSL) (Telecommunication)
+	https://www.hkcsl.com/en/abc-Mobile-Prepaid-SIM-Cards/
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -4884,6 +4906,10 @@
 	FEITAIN ePASS2003 (PKI)
 	http://www.ftsafe.com/product/epass/epass2003
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 03 90 00 96
+	Feitian USB Cryptographic token (FIPS 140-2 Level 3) (PKI)
+	http://www.ftsafe.com/product/epass/epass2003
+
 3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
 	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
 
@@ -4917,6 +4943,10 @@
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
+
+3B 9F 96 80 1F C3 80 31 E0 73 FA 21 00 63 31 60 23 83 10 90 00 BE
+	TAISYS SIMoME JAR (JavaCard)
+	http://www.taisys.com/p-detail?id=39beTne-hf4u2Y5DnWghweplyFR-dUUf1-xpy55cWQ
 
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
@@ -5602,6 +5632,10 @@
 3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
 	Oberthur Cosmo V7 64K Dual/128K
 
+3B DB 18 FF 81 B1 FE 75 1F 03 5A 43 37 2E 36 20 52 45 56 20 44 A8
+	Zeitcontrol Professional BasicCard ZC 7.6 REV D (Other)
+	http://www.zeitcontrol.de/en/products/basiccard/basiccard
+
 3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 41 6F
 	ZeitControl BasicCard ZC7.5 user-programmable dual interface smart card
 	http://www.smartcardfocus.com/shop/ilp/id~380/BasicCard_ZC7_5_Dual_Interface/p/index.shtml
@@ -5902,6 +5936,9 @@
 3B E7 00 FF 81 31 FE 45 4D 43 41 20 38 20 36 52
 	Mastercard credit card issued by "PayLife Bank GmbH".
 	Bank number is "5266" - Bawag PSK.
+
+3B E8 00 00 40 FA 00 73 C8 40 11 00 90 00
+	KEBTechnology KONA USB SmartCard (Other)
 
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
