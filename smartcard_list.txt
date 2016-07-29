@@ -639,7 +639,7 @@
 3B 37 13 00 80 62 21 13 82 90 00
 	Swiss UBS Maestro/CASH Bank Card
 
-3B 3B .. 00 80 6. A[F,E] 03 0[C,D] .. .. 83 .. 90 00
+3B 3B .. 00 80 6. A[FE] 03 0[CD] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
 
 3B 3B 11 00 67 AF 10 30 07 00 C0 33 33 90 00
@@ -651,7 +651,7 @@
 3B 3B 11 00 80 65 AF 03 0C 01 6F 83 0F 90 00
 	Gemplus GemX{plore,presso} V3-B1
 
-3B 3B 11 00 80 69 AF 03 0C 01 6F 83 0[0,1] 90 00
+3B 3B 11 00 80 69 AF 03 0C 01 6F 83 0[01] 90 00
 	GemXplore'Xpresso V3 64K
 
 3B 3B 11 00 91 41 10 10 10 5B A0 00 33 90 00
@@ -1040,7 +1040,7 @@
 	Axalto Cyberflex Access 32K V2
 	Sun Microsystems employee card
 
-3B 65 00 00 9C 1[0,1] 01 01 03
+3B 65 00 00 9C 1[01] 01 01 03
 	Schlumberger Cyberflex Palmera
 
 3B 65 00 00 D0 00 37 00 80
@@ -1224,7 +1224,7 @@
 	Albert Heijn klantenkaart (loyalty card)
 	Rabopas (Rabobank)
 
-3B 67 25 00 2A 20 00 4[0,5] 68 90 00
+3B 67 25 00 2A 20 00 4[05] 68 90 00
 	Swedish cashcard (proton)
 
 3B 67 25 00 62 24 33 03 ..
@@ -1671,7 +1671,7 @@
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
 
-3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 0[1,5]
+3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 0[15]
 	Giesecke & Devrient CardToken 350 (ICCD)
 
 3B 6D 00 FF 80 73 00 21 13 57 4A 54 48 61 31 47 00
@@ -2308,7 +2308,7 @@
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
-3B 6F 00 00 80 5A 29 13 09 10 11 3[3,6] .. .. .. .. 82 90 00
+3B 6F 00 00 80 5A 29 13 09 10 11 3[36] .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
 	Calypso application similar to French NAVIGO
@@ -2613,10 +2613,10 @@
 	http://fineid.fi/default.aspx?id=491
 	http://www.opensc-project.org/opensc/wiki/FinnishEid
 
-3B 7B 94 00 00 80 62 1[1,2] 51 56 46 69 6E 45 49 44
+3B 7B 94 00 00 80 62 1[12] 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
 
-3B 7B 94 00 00 80 65 B0 83 01 0[1,3] 74 83 00 90 00
+3B 7B 94 00 00 80 65 B0 83 01 0[13] 74 83 00 90 00
 	Gemplus GemXpresso Pro R3 (E64 PK)
 
 3B 7B 95 00 00 80 65 B0 83 01 04 74 83 00 90 00
@@ -3064,7 +3064,7 @@
 3B 7F 38 00 00 00 6A 44 4E 49 65 00 02 4C 34 01 13 0F 65 81
 	DNI (Documento Nacional de Identidad), Spanish ID Card
 
-3B 7F 38 00 00 00 6A 44 4E 49 65 [1,2]0 02 4C 34 01 13 03 90 00
+3B 7F 38 00 00 00 6A 44 4E 49 65 [12]0 02 4C 34 01 13 03 90 00
 	DNI electronico (Spanish electronic ID card)
 	http://www.dnielectronico.es
 
@@ -3594,7 +3594,7 @@
 	GSM-SIM (900MHz) card of the carrier t-mobile for their cellular
 	network (phase 2+ with 3V)
 
-3B 8A 00 91 91 00 16 00 01 03 0[3,4] 00 96
+3B 8A 00 91 91 00 16 00 01 03 0[34] 00 96
 	GSM-SIM max.mobil (since 2002: T-Mobile Austria)
 
 3B 8A 00 91 91 00 17 00 01 07 02 00 96
@@ -6837,7 +6837,7 @@
 	Datakey 32K PKI Smart Card Model 330
 	http://www.datakey.com/products/smart_cards/products_sc_330.shtml
 
-3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 0[0,5] 63 .. .. .. .. 90 00.*
+3B FF 11 00 00 81 71 40 42 00 00 21 01 31 42 52 00 0[05] 63 .. .. .. .. 90 00.*
 	Smart Card "The Smart Way to Login"
 	Used on Acer TravelMate to secure boot
 
@@ -7323,13 +7323,13 @@
 3F 65 25 00 2B 09 EB 90 00
 	Bull Scot 5
 
-3F 65 25 00 2[2,C] 09 [F,6]9 90 00
+3F 65 25 00 2[2C] 09 [F6]9 90 00
 	Sesam Vitale (French health card)
 
 3F 65 25 00 52 09 6A 90 00
 	French carte Vitale
 
-3F 65 25 00 A[3,4] 09 6A 90 00
+3F 65 25 00 A[34] 09 6A 90 00
 	Sesam Vitale (French health card)
 
 3F 65 25 08 22 04 68 90 00
@@ -7378,7 +7378,7 @@
 3F 67 25 00 2A 20 00 41 68 90 00
 	ChipKnip
 
-3F 67 25 00 2A 20 00 4[0,1] 68 90 00
+3F 67 25 00 2A 20 00 4[01] 68 90 00
 	Dutch ChipKnip, Proton
 	(chip Bull CC 60 V1, Bull CC 60 V2 or Bull CC 1000)
 
