@@ -2836,7 +2836,7 @@
 3B 7E 95 00 00 80 31 80 73 34 11 80 82 90 00 00 00 00 00
 	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Gemalto
 
-3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 02 ...03 90 00
+3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 02 .. 03 90 00
 	Ceres ST v2
 
 3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 03 .. 03 90 00
