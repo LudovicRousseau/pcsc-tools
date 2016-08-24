@@ -295,6 +295,9 @@
 	Telefónica O2 Czech Republic, a.s. - O2 sim card - 173285 / SIM64ND.GO0
 	http://www.o2.cz
 
+3B 16 95 D0 01 6C FD 0D 00
+	Virgin Mobile SIM card (SIM)
+
 3B 16 96 41 73 74 72 69 64
 	Gemalto .NET v2.0
 
@@ -1837,6 +1840,10 @@
 	CartaBcc Classic VISA (Bank)
 	https://www.cartabcc.it/privati/carte-di-credito-privati/Pagine/Classic.aspx
 
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 5A
+	Compte-Nickel bank card (Bank)
+	https://compte-nickel.fr/
+
 3B 6E 00 00 00 31 C0 71 86 65 01 64 02 22 33 83 90 00
 	UK NatWest ServiceCard 100 Maestro
 	Visa Card - bonus - Garanti Bank / Turkey
@@ -2244,6 +2251,10 @@
 	OPUS transit wallet (Transport)
 	http://opusenligne.ca
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 92 F9 B6 7B 82 90 00
+	The OPUS card is a smart card on which you can charge all STM transit fares, with the exception of group fares, which are available on tickets only. OPUS cards are used by most transit authorities in the Greater Montréal area. (Transport)
+	http://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
+
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 12 98 45 82 90 00
 	OPUS card for Montreal, Quebec, Canada transit system, subscription-based, non-rechargeable (Transport)
 	https://opusenligne.ca
@@ -2296,19 +2307,10 @@
 	Navigo card (from March 2014 onwards), to be used in Paris and its suburbs (Transport)
 	http://www.navigo.fr/
 
-3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 70 68 06 82 90 00
-	Pass NAVIGO / STIF / RATP / OPTILE
-
-3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 72 E0 9A 82 90 00
-	Navigo imagine-r (France) (Transport)
-	http://www.imagine-r.com/
-
-3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 74 CF DD 82 90 00
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 7. .. .. 82 90 00
 	French "Navigo" transport card (Transport)
 	http://www.navigo.fr/
-
-3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 78 D3 64 82 90 00
-	Navigo card (Paris transportation). It's a brand new one, created in january 2016 (Transport)
+	http://www.imagine-r.com/
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
@@ -2332,36 +2334,11 @@
 3B 6F 00 00 80 5A 2C 23 C3 00 03 02 02 84 94 EA 82 90 00
 	MOBIB card for DeLijn (public transport operator for the Flemish part of Belgium)
 
-3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 00 04 2B 82 90 00
-	NMBS/SCNB Mobility card (basically a train subscription) MoBIB
-
-3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 02 C0 6C 82 90 00
-	SNCB/NMBS MOBIB Card (Transport)
-	http://www.belgianrail.be/fr/titres-de-transport/mobib.aspx
-
-3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 03 42 32 82 90 00
-	MOBIB Card
-	http://www.mobib.be/mobib-card_EN.htm
-
-3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 06 76 A1 82 90 00
-	Belgian eID card (issued in 2014) (eID)
-	http://eid.belgium.be/en/
-
-3B 6F 00 00 80 5A 2C 23 C3 10 10 05 71 0A 78 9E 82 90 00
-	Mobib NMBS Mobility (Belgian railways) (Transport)
+3B 6F 00 00 80 5A 2C 23 C3 10 10 05 .. .. .. .. 82 90 00
+	NMBS/SNCB MOBIB Card (Transport)
+	http://www.mobib.be/
 	http://www.belgianrail.be/en/travel-tickets/mobib/no-mobib.aspx
-
-3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 23 EB 06 82 90 00
-	MOBIB Basic (Transport)
-	https://www.stib-mivb.be/Basic.html?l=en
-
-3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 24 2F F4 82 90 00
-	MOBIB Basic (Transport)
-	http://www.stib-mivb.be/mobib.html?l=en
-
-3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 28 A9 82 82 90 00
-	MOBIB Basic (Transport)
-	http://www.stib-mivb.be/mobib.html?l=en
+	http://www.stib-mivb.be/mobib.html
 
 3B 6F 00 00 80 5A 2C 23 EA 00 03 02 02 85 24 CA 82 90 00
 	Pcard Interparking Mobib (Transport)
@@ -2369,6 +2346,10 @@
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 02 AA E6 CE 82 90 00
 	MOBIB (TEC IT Easy) (Transport)
 	http://www.infotec.be/fr-be/titresettarifs/mobib.aspx
+
+3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 9E 9C DB 82 90 00
+	Belgium TEC MOBIB card (Transport)
+	https://www.infotec.be/
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
 	Brussels STIB MOBIB Classic (Transport)
@@ -2530,6 +2511,9 @@
 
 3B 78 18 00 00 54 48 20 4E 49 44 20 37
 	Thailand National ID (eID)
+
+3B 79 11 00 00 80 54 43 4F 4C 44 82 90 00
+	amazon.de / VISA / LBB Debit Card (Bank)
 
 3B 79 18 00 00 42 72 61 7A 49 44 65 61 6C
 	Brazilian digital certificate card (eID)
@@ -3468,6 +3452,10 @@
 
 3B 88 80 01 04 02 00 20 00 71 C1 40 DF
 	Seoul Citypass+ T-Money Card
+
+3B 88 80 01 10 00 00 00 00 81 70 00 E8
+	Tap&Go MasterCard Sim Card (Bank)
+	https://www.tapngo.com.hk
 
 3B 88 80 01 1C 2D 94 11 F7 71 85 00 BE
 	CEPAS Card (Adult card issued by EZ-Link) (Transport)
@@ -6335,6 +6323,10 @@
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 77 D1 A1
 	German Passport (ePass) (issued May 2008)
 
+3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 B3 A1 15
+	Individual Number Card (eID)
+	https://www.kojinbango-card.go.jp/
+
 3B F5 96 00 00 8. 31 FE 45 4D 79 45 49 44 1.
 	MyEID card (Infineon chip) (PKI)
 	https://services.aventra.fi/English/products_MyEID_E.php
@@ -7585,6 +7577,10 @@
 
 3F FD 13 25 02 50 80 0F 33 B0 08 FF FF 4A 50 90 00 00 47 4C 01
 	Sky (Brasil) VideoGuard CAM card
+
+3F FD 13 25 02 50 80 0F 33 B0 08 FF FF 4A 50 90 00 00 54 56 01
+	NDS Videoguard TV CAM card (Sky Mexico 0905) (Pay TV)
+	https://en.wikipedia.org/wiki/VideoGuard
 
 3F FD 13 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
 	Sky Germany V14 NDS card (Pay TV)
