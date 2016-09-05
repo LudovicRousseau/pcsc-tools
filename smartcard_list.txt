@@ -298,6 +298,9 @@
 3B 16 95 D0 01 6C FD 0D 00
 	Virgin Mobile SIM card (SIM)
 
+3B 16 95 D0 01 7B DA 0D 00
+	Verizon GSM SIM (Telecommunication)
+
 3B 16 96 41 73 74 72 69 64
 	Gemalto .NET v2.0
 
@@ -697,6 +700,9 @@
 
 3B 3B 94 00 91 38 11 50 46 97 40 33 33 90 00
 	Leclerc Mobile (French MVNO) SIM card
+
+3B 3B 94 00 92 38 10 20 01 04 80 33 13 90 00
+	TELE2 Sim Card (Telecommunication)
 
 3B 3B 94 00 9B 44 20 10 4D 04 20 00 33 90 00
 	SIM card for 063 network of Telekom Srbije, the Serbian state-owned telephone company.
@@ -4512,6 +4518,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 49 00 C0 00 4A
 	Rogers SIM card
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 09 1A 00 7C
+	AT&T UICC with USIM (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 75 02 05 00 71
 	SIM card, provided by brasilian operator "claro" (Telecommunication)
 
@@ -4532,6 +4541,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C C1 0D 00 A2
 	Three Hong Kong Prepaid SIM Card (Telecommunication)
 	http://www.three.com.hk/website/appmanager/three/home?_nfpb=true&_pageLabel=P200470391219567710594&pageid=631001&lang=eng
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 06 50 00 2E
+	AT&T UICC with USIM (Telecommunication)
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 29 10 00 A2
 	Simyo-Mobile Belgium GSM SIM card
@@ -4581,6 +4593,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6C 0D 7A 00 1B
 	Vodafone UK GSM SIM Card (Telecommunication)
 	http://www.vodafone.co.uk
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 04 0D 00 64
+	Cincinati Bell. UICC with USIM 128k-b (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C C1 0D 00 A1
 	3 (Italian telecommunication provider) 3g sim card 2FF format H3G Italy
@@ -4891,12 +4906,18 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 89
 	GSM SIM Vodafone NL postpaid
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 06 90 62 00 82 90 00 36
+	AT&T UICC with USIM (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 52 93 01 82 90 00 05
 	AT&T nano SIM (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 52 93 02 82 90 00 06
 	AT&T GO PHONE 2G (Telecommunication)
 	https://www.att.com/shop/wireless/gophone.html
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 F4
+	AT&T UICC with USIM and ISIM (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
@@ -5027,6 +5048,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 03 04 04 04 4F
 	GSM-SIM EMT (3G modem 2011, Estonia)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5F
+	Simple mobile. UICC with USIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 04 01 07 02 02 02 4C
 	Orange Mobicarte (France)
@@ -5161,6 +5185,9 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FE
 	ISPL Card (Telecommunication)
+
+3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 08 56 21 00 82 90 00 19
+	eSIM card (Telecommunication)
 
 3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9B
 	Turkish Republic Identity Card - Türkiye Cumhuriyeti Kimlik Kartı (TCKK) (eID)
@@ -5633,6 +5660,9 @@
 3B D9 18 00 C0 09 10 FE 54 59 46 4F 4E 45 00 00 00
 	Tyfone's SideTap Card (NFC payments)
 
+3B D9 94 00 00 4D 45 02 00 09 01 00 90 00
+	Moviestar. GSM SIM card (Telecommunication)
+
 3B D9 94 00 00 4D 45 45 76 35 2E 36 90 00
 	Vending Machine Card (Other)
 
@@ -5874,6 +5904,10 @@
 3B DF 96 FF 81 31 FE 45 80 59 01 80 50 49 56 43 4C 41 53 73 00 01 1B DE
 	HID Global pivCLASS v1.0 (PKI)
 	http://www.hidglobal.com/products/cards-and-credentials/pivclass/pivclass-smart-card
+
+3B DF 96 FF 81 31 FE 45 80 5B 44 45 2E 42 4E 4F 54 4B 31 30 30 81 05 A0
+	BeA - Certification Card for German Solicitors (Other)
+	https://bea.bnotk.de/
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -7259,6 +7293,9 @@
 3B FF 94 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1C
 	Giesecke & Devrient - UniverSIM Pegasus
 
+3B FF 95 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 10 31 41 00
+	Verizon GSM SIM (Telecommunication)
+
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
 
@@ -7719,6 +7756,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 32 34 31 20 44 73 68
 	DISH Network G3 (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 32 34 31 20 44 73 68 48 30 39 0C
+	Dish Network Smart Card (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 47 00 4E 43 4D 45 44 30 30 41 20 52 65 76 41 30 31 6C
 	Mediaset Premium (Italy) 2013
