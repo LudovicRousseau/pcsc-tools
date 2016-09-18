@@ -1217,6 +1217,10 @@
 3B 67 00 00 B4 40 40 25 0B 90 00
 	Electronic meal check
 
+3B 67 00 00 B5 40 40 52 0B 90 00
+	Sodexo card (Other)
+	http://be.benefits-rewards.sodexo.com/fr/entreprises/sodexo-card
+
 3B 67 00 00 B7 40 40 44 9B 90 00
 	Handelsbanken frikort maestro (Bank)
 
@@ -1489,6 +1493,10 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 08 04 61 F4 0F 90 00
+	n26 Maestro Card (Bank)
+	https://n26.com/
 
 3B 6B 00 00 00 31 C0 64 08 10 51 10 0F 90 00
 	Skrill MasterCard (Bank)
@@ -3133,6 +3141,9 @@
 	Gemalto IDPrime MD 840 (PKI)
 	http://www.gemalto.com/Products/IDPrime_MD/index.html
 
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
+	Portuguese Blood Donator National Card (HealthCare)
+
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
 
@@ -4119,6 +4130,7 @@
 	RFID - ISO 14443 Type A - NXP Mifare card with 1k EEPROM
 	vivotech ViVOcard Contactless Test Card
 	Bangkok BTS Sky SmartPass
+	Mifare Classic 1K (block 0 re-writeable)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
@@ -4310,6 +4322,10 @@
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
 
+3B 96 95 80 1F C3 D0 07 83 02 54 00 5D
+	au IC-card ver.001 (for CDMA2000) (Telecommunication)
+	https://ja.wikipedia.org/wiki/Au_IC%E3%82%AB%E3%83%BC%E3%83%89
+
 3B 97 11 80 1F 42 80 31 A0 73 BE 21 00 A6
 	ETSI 102 230 Test case 5.2.5.3. Comprion IT3 SIM emulator (Telecommunication)
 
@@ -4324,6 +4340,10 @@
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2010-2015
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
+
+3B 98 11 00 02 05 01 32 42 03 05 00
+	Sino 3G Nano-sim ordered off Alie Express (Telecommunication)
+	http://goo.gl/rSEi4N
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
@@ -4465,6 +4485,9 @@
 
 3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 09 A9 83 0F 90 00 F3
 	Estonian GSM operator TELE2 (WPKI eID support)
+
+3B 9D 95 80 3F C7 A0 80 31 A0 73 BE 21 13 51 05 83 05 90 00 7C
+	NTT docomo Xi(LTE) DN05(DNP) Pink SIM (Telecommunication)
 
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
@@ -4647,6 +4670,10 @@
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
 	http://www.movistar.es/
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 62 12 00 65
+	Free Mobile (Telecommunication)
+	http://mobile.free.fr
+
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
 
@@ -4802,6 +4829,14 @@
 3B 9F 95 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 05 2C 32 34 00 3D
 	GSM SIM / LTE UICC card issued by TELE2, Lithuania (Telecommunication)
 
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 00 53 02 D0 06 83 05 90 00 3A
+	NTT docomo FOMA(W-CDMA) AX02(Gemalto) Green SIM (Telecommunication)
+	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
+
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 00 53 02 E2 32 83 05 90 00 3C
+	NTT docomo FOMA(W-CDMA) GE02(Japan Gemplus) Green SIM (Telecommunication)
+	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
+
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 03 01 02 00 00 99
 	T-Mobile (UK) SIM
 	Fresh Mobile (UK) SIM
@@ -4923,6 +4958,10 @@
 	2degrees mobile SIM card
 	http://www.2degreesmobile.co.nz/
 
+3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
+	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
+	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
+
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 .. 06 71 DF 00 00 00 .. .. .. ..
 	Feitian PKI
 	http://www.ftsafe.com/products/PKI-Card.html
@@ -5004,6 +5043,9 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 03 F2
 	Vulcan 0502 T-Mobile SIM (Telecommunication)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 38 05 D4
+	SIM Card from Tmobile Czech Republic (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
 	http://www.sysmocom.de/products/sysmousim-sjs1-sim-usim
@@ -5018,6 +5060,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 40 72 62 83 07 90 00 9A
 	GSM SIM / LTE UICC card issued by Omnitel, Lithuania (Telecomunications)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 40 82 91 83 07 90 00 99
+	Chunghwa Telecom (Taiwan) 3G/4G PrePaid card
+	https://www.twgate.net/prepaidcard/product_en.html
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 31 33 30 00 A6
 	AT&T eUICC (Telecommunication)
@@ -5840,6 +5886,10 @@
 3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
 	Identity Card in Slovakia with security chip and e-signature
 
+3B DF 18 00 81 31 FE 58 80 31 90 52 41 01 64 05 C9 03 AC 73 B7 B1 D4 44
+	a.sign RK CHIP with certificate
+	https://www.a-trust.at/webshop/Detail.aspx?ProdId=2021
+
 3B DF 18 00 81 31 FE 58 80 31 B0 52 02 04 64 05 C9 03 AC 73 B7 B1 D4 22
 	Austrian "e-Card" (=Health Card) of the 4th generation. (HealthCare)
 
@@ -6134,6 +6184,8 @@
 
 3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
 	E.SUN Commercial bank debit master card (Bank)
+	Taiwan EasyCard (Transport)
+	https://www.easycard.com.tw/english/index.asp
 
 3B EE 00 00 81 31 80 43 80 31 80 66 B1 A1 11 01 A0 F6 83 00 90 00
 	Optelio D72 FXR1 (MD) T=1
@@ -6995,6 +7047,10 @@
 
 3B FF 18 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 DD
 	DataKey 400 (DK400)
+
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 65
+	Italian Chambers of Commerce CNS (PKI)
+	http://www.card.infocamere.it/infocard/pub/
 
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
