@@ -261,6 +261,9 @@
 3B 16 94 20 02 01 20 01 0D
 	Rogers SIM Card (phone / cable provider in Canada)
 
+3B 16 94 61 80 00 01 06 03
+	Thales PayShield9000 Local Master Key (hardware key) card (Other)
+
 3B 16 94 71 01 01 00 27 00
 	Cingular GSM SIM Card
 
@@ -1405,6 +1408,9 @@
 	VISA credit card (Ceska Sporitelna)
 	Maestro credit card (Ceska Sporitelna)
 
+3B 69 00 00 57 92 02 01 01 00 01 00 A9
+	Sun Microsystems Sun Ray 1G thin client access card (Other)
+
 3B 69 00 00 80 31 E0 55 42 45 52 47 53
 	Banrisul Bank
 
@@ -1493,6 +1499,10 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 08 04 61 77 0F 90 00
+	"Strelka" Russian Federation Travelcard (Transport)
+	http://strelkacard.ru/
 
 3B 6B 00 00 00 31 C0 64 08 04 61 F4 0F 90 00
 	n26 Maestro Card (Bank)
@@ -1921,6 +1931,8 @@
 	http://www.ingdirect.es/tarjetas-ing/
 	Visa Credit Card issued by Spain Cetelem for PayPal (www.paypal.es/cetelem)
 	MasterCard debit card: moneybookers.com card issued by Newcastle Building Society
+	MasterCard debit card (Maestro) issued by Caixa
+	http://www.caixa.gov.br/
 
 3B 6E 00 00 00 31 C0 71 D6 65 13 0D 01 81 00 83 90 00
 	Mastercard Black issued by Banco do Brasil (www.bb.com.br)
@@ -2748,6 +2760,8 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 11 E5 83 00 90 00
 	eCPF (Cadastro de Pessoas Físicas) from Imprensa Oficial do Brasil
+	Identidade digital (e-CPF) from Caixa
+	http://www.caixa.gov.br/
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
@@ -3605,6 +3619,10 @@
 3B 89 80 01 66 52 57 45 32 50 52 4F 4D 1C
 	This is NFC enabled SIM card. (Telecommunication)
 
+3B 89 80 01 80 57 45 4D 56 50 52 4F 43 8F
+	BNP Paribas Visa Classic Card (NFC) (Bank)
+	https://mabanque.bnpparibas/fr/notre-offre/comptes-cartes-et-services/cartes-et-moyens-de-paiement/decouvrir-toutes-les-cartes/carte-visa-classic
+
 3B 89 80 01 80 57 4A 4D 56 50 72 6F 33 F0
 	PayPal UK MasterCard Contacless
 
@@ -3879,6 +3897,10 @@
 
 3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 1C
 	UK Lloyds Bank Gold Visa Debit (Contact & Contactless)
+
+3B 8E 80 01 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 18
+	Smartcard-HSM (Contactless Interface) (PKI)
+	http://www.cardcontact.de/products/sc-hsm.html
 
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport (2005)
@@ -5186,6 +5208,9 @@
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
 
+3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
+	UICC CARD (Telecommunication)
+
 3B 9F 96 81 31 FE 45 80 67 55 45 4B 41 45 12 12 31 80 73 B3 A1 80 EA
 	AKiS v1.2 on nxp chip
 
@@ -5355,6 +5380,9 @@
 3B B7 11 00 81 31 90 53 B5 .. .. .. .. .. .. ..
 	CardOS EM/V1.4 (SLE44CR80S)
 
+3B B7 18 00 81 31 70 43 10 43 4E 54 52 56 32 53
+	Avtor SecureToken (PKI)
+
 3B B7 18 00 81 31 FE 65 53 50 4B 32 34 90 00 5A
 	Giesecke & Devrient Starcos 2.4
 
@@ -5479,6 +5507,10 @@
 
 3B BC 94 00 40 14 47 47 33 49 42 31 42 43 31 30 30 20
 	Telenor SIM (Telecommunication)
+
+3B BC 94 00 40 14 47 47 33 49 42 31 42 43 31 30 30 30
+	SIM Card (Scarlet, Belgium) (Telecommunication)
+	https://www.scarlet.be/nl/prepaid/
 
 3B BC 94 00 40 14 47 47 33 53 30 35 31 53 31 30 31 30
 	GSM SIM (Tele2, Estonia)
@@ -7384,6 +7416,9 @@
 	Greek Academic ID (eID)
 	http://academicid.minedu.gov.gr/
 
+3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
+	cac (eID)
+
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
 
@@ -7825,6 +7860,10 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
 	Spanish pay TV card for GOLTV
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 32 10
+	Telenet CI+ card Belgium (Pay TV)
+	https://www2.telenet.be/nl/tv-met-een-kaartje/
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 35 17
 	New ROM of Nagra PayTV Card DNASP410 (Pay TV)
