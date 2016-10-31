@@ -227,6 +227,9 @@
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
 
+3B 10 14 50
+	HSID6000 (PKI)
+
 3B 12 95 36 06
 	EMTG56 0.6 (sub-version 0.1)
 
@@ -613,6 +616,8 @@
 
 3B 2A 00 80 65 A2 01 02 01 31 72 D6 43
 	MPCOS-EMV 64K Functional Sample
+	THALES nShield Security World
+	THALES NCIPHER product line
 
 3B 2F 00 80 69 10 80 00 01 A1 0A 01 01 59 83 0E 90 00
 	Belgium Dexia (Axion) Bank Card
@@ -1527,6 +1532,9 @@
 
 3B 6B 00 00 00 31 C0 64 3F 68 01 03 0F 90 00
 	HSBC Credit Gold Card  from VISA (Bank)
+
+3B 6B 00 00 00 31 C0 64 3F 68 01 0B 0F 90 00
+	MasterCard credit card (Bank)
 
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
@@ -3458,7 +3466,7 @@
 	MULTOS (PKI)
 
 3B 88 80 01 00 00 00 00 80 81 71 00 79
- 	Apple Pay card - Usually EMV
+	Apple Pay card - Usually EMV
 
 3B 88 80 01 00 00 00 00 B3 71 71 .0 .A
 	Public transportation card in Riga, Latvia, called "e-Talons"
@@ -3490,6 +3498,9 @@
 3B 88 80 01 10 00 00 00 00 81 70 00 E8
 	Tap&Go MasterCard Sim Card (Bank)
 	https://www.tapngo.com.hk
+
+3B 88 80 01 11 00 00 11 00 81 84 00 0C
+	OCBC bank card (Bank)
 
 3B 88 80 01 1C 2D 94 11 F7 71 85 00 BE
 	CEPAS Card (Adult card issued by EZ-Link) (Transport)
@@ -3775,6 +3786,9 @@
 3B 8C 80 01 50 38 0E B2 5B 00 00 00 00 B3 71 71 31
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
 	http://bip.piemonte.it/
+
+3B 8C 80 01 50 54 67 13 79 00 00 00 00 F7 81 C1 B3
+	Tessera Sanitaria italian health care card (HealthCare)
 
 3B 8C 80 01 50 64 E6 5B 00 00 00 00 00 00 81 80 85
 	Chicago CTA Ventra Transit card
@@ -4629,6 +4643,9 @@
 3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EB
 	Lycamobile Pay As You Go SIM
 
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F EF 10 00 60
+	Infineon SLU14MCO480K2 (JavaCard)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
 	United Mobile SIM
 
@@ -5012,7 +5029,7 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 C3 9F 00 00 00 00 86
 	Feitian ePass2003 token
 
-3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 00 00 00 05
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 0. 00 00 0.
 	FEITAIN ePASS2003 (PKI)
 	http://www.ftsafe.com/product/epass/epass2003
 
@@ -5102,6 +5119,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 19 01 04 01 01 07 50
+	Telefonica m2m simcard, Movistar o2 vivo (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 21 01 07 03 01 03 6D
 	GSM SIM blau (MVNO) Germany from 2013
@@ -6194,6 +6214,9 @@
 3B EB 00 00 81 31 42 45 4E 4C 43 68 69 70 70 65 72 30 31 0A
 	Dutch Post (Chipper)
 
+3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 02 07 90 00 B6
+	Chris firstbank (Bank)
+
 3B EC 00 00 40 32 42 4C 55 45 20 44 52 41 47 4F 4E 20 43 00 01
 	Pay TV
 
@@ -6986,6 +7009,10 @@
 	Estonian Identity Card (EstEID v1.0 cold)
 	Estonian Identity Card (EstEID v1.1 "MULTOS" warm)
 
+3B FE 96 00 00 81 31 FE 45 80 31 80 66 40 90 A5 10 2E 03 83 01 90 00 6E 90 00
+	Swissbit PS-100u (JavaCard)
+	https://www.swissbit.com/ps-100u/
+
 3B FE 96 00 FF C0 0A 31 FE 4D 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 9B
 	Estonian Identity Card (EstEID v1.1 compatible)
 	http://www.id.ee/?id=11019&&langchange=1
@@ -7331,6 +7358,10 @@
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 42 49 54 34 49 44 20 31 2E 30 00 90 00 91
 	Touch&Sign 2048 (PKI)
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 42 49 54 34 49 44 20 32 2E 30 00 90 00 92
+	Izenpe Green Card (Citizen Certificate) (eID)
+	http://www.izenpe.com/s15-12020/en/contenidos/informacion/ciudadano/en_def/index.shtml
 
 3B FF 18 00 FF C1 0A 31 FE 55 00 6B 05 08 C8 05 01 11 01 43 4E 53 10 31 80 0C
 	Carta Regionale dei Servizi - Regione Lombardia
