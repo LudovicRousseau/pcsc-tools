@@ -796,6 +796,9 @@
 3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 28 AA 72 F7 41 05
 	SCOSTA Smart Card Operating System for Transport Application (transport)
 
+3B 3F 11 00 80 12 00 91 31 C0 64 0E 01 46 AC 72 F7 41 05
+	scosta (Other)
+
 3B 3F 11 00 80 69 AF 03 1B 02 AB 00 00 06 0E 83 3E 9F 16
 	PEOPLES (China Mobile HK) sim (Telecommunication)
 
@@ -2304,6 +2307,10 @@
 	Rav-Kav Public Transport (Transport)
 	https://ravkavonline.co.il/he/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 9A 40 7F 82 90 00
+	Israeli public transport card ("RavKav") (Transport)
+	http://nohal.mot.gov.il/%d7%94%d7%92%d7%93%d7%a8%d7%95%d7%aa%20%d7%91%d7%a0%d7%95%d7%a9%d7%90%20%d7%9b%d7%a8%d7%98%d7%95%d7%a1%20%d7%97%d7%9b%d7%9d.aspx
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
 
@@ -2326,6 +2333,11 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 25 82 88 5F 82 90 00
 	Navigo Découverte (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 .. .. .. 82 90 00
+	French "Navigo" transport card (Transport)
+	http://www.navigo.fr/
+	http://www.imagine-r.com/
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 14 7C 55 82 90 00
 	Navigo (transport)
 
@@ -2340,11 +2352,6 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 5A AD B0 82 90 00
 	Navigo card (from March 2014 onwards), to be used in Paris and its suburbs (Transport)
 	http://www.navigo.fr/
-
-3B 6F 00 00 80 5A 28 11 42 10 12 2B 26 7. .. .. 82 90 00
-	French "Navigo" transport card (Transport)
-	http://www.navigo.fr/
-	http://www.imagine-r.com/
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
@@ -3319,6 +3326,7 @@
 
 3B 85 80 01 20 63 CB AD 80 A1
 	VISA Caisse d'Epargne  (Bank)
+	VISA BNP Paribas (NFC) (Bank)
 
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator
@@ -3764,6 +3772,10 @@
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
+3B 8C 80 01 50 06 DC A8 59 00 00 00 00 80 81 71 06
+	VISA Hello bank! (NFC) (Bank)
+	https://www.hellobank.fr/
+
 3B 8C 80 01 50 10 B7 6A AE 00 00 00 00 B3 71 71 8D
 	Tisseo (Toulouse)  (Transport)
 	http://www.tisseo.fr/les-tarifs/obtenir-une-carte-pastel
@@ -4173,8 +4185,6 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
-	Bangkok Airport Link
-	Dutch ov-chipkaart (public transportation)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
@@ -4427,6 +4437,9 @@
 3B 99 94 00 91 08 91 06 00 01 06 06 00
 	GSM-SIM Orange-UK (1800)
 
+3B 99 94 00 91 16 91 08 00 01 25 01 00
+	GSM SIM E-plus, Germany (Telecommunication)
+
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
 
@@ -4435,6 +4448,9 @@
 
 3B 9A 94 00 91 01 00 17 00 01 23 11 00 96
 	GSM-SIM Card T-D1 (900MHz)
+
+3B 9A 94 00 91 01 00 17 00 01 26 05 00 96
+	GSM-SIM T-D1 prepaid (Xtra) (Telecommunication)
 
 3B 9A 94 00 91 01 00 17 00 01 26 06 00 96
 	T D1 GSM card
@@ -4983,6 +4999,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 09 A9 83 0F 90 00 89
 	GSM SIM Vodafone NL postpaid
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 0A D2 83 0F 90 00 F1
+	GSM, Vodafone (Germany) (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 06 90 62 00 82 90 00 36
 	AT&T UICC with USIM (Telecommunication)
 
@@ -5112,6 +5131,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00 BD
 	T-Mobile US USIM card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 24 33 32 00 BA
+	GSM, Vodafone (Germany) (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 25 33 32 00 BB
 	Sintel hi! Tourist prepaid (Telecommunication)
@@ -5471,6 +5493,9 @@
 	GSM-SIM card of the Austrian A1
 	http://www.a1.net/privat/home
 	GSM SIM Radiolinja Estonia; 2005
+
+3B BA 94 00 40 14 47 47 33 53 53 37 31 36 53 30
+	GSM SIM Cellway (e-plus), Germany (Telecommunication)
 
 3B BA 95 00 10 80 43 4C 5F 53 41 4D 00 01 38 11
 	CLSAM (Transport)
@@ -6800,6 +6825,10 @@
 3B FB 11 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 00 90 00 6A
 	OCS ID-One Cosmo Card USB Token
 
+3B FB 11 00 FF 81 31 80 55 00 68 02 00 10 10 53 49 41 45 00 04
+	Italian Society of Authors and Publishers ticket and report signing smart card (PKI)
+	https://www.siae.it/en/utilizzatori/other-services-stamps-certifications-data-and-statistics/automated-ticket-issuing-systems
+
 3B FB 13 00 00 81 31 FE 45 4A 43 4F 50 53 3. 3. 56 32 33 32 ..
 	JCOP-Sxx/yy v2.3.2 (see hist bytes for more info)
 
@@ -7153,6 +7182,10 @@
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
+
+3B FF 18 00 FF 81 31 FE 45 00 31 C5 73 C0 01 80 54 76 15 02 01 05 90 00 74
+	SIGILANCE NFC OpenPGP Smart Card (JavaCard)
+	https://www.sigilance.com/
 
 3B FF 18 00 FF 81 31 FE 45 54 48 43 43 31 30 54 45 43 4F 47 44 48 4E 32 24
 	National Health Insurance Card, Taiwan
