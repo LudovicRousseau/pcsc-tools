@@ -990,6 +990,10 @@
 3B 65 00 00 20 63 CB A9 A0
 	VISA PREMIER CREDIT CARD (Bank)
 
+3B 65 00 00 20 63 CB AA 20
+	Cumulus Mastercard (Cembra Money Bank AG, Switzerland) (Bank)
+	https://www.cembra.ch/de/kundencenter/karten/cumulus-mastercard/
+
 3B 65 00 00 20 63 CB AB 20
 	bank card (Bank)
 
@@ -1430,6 +1434,9 @@
 	Student card for Université numérique Paris Île-de-France
 	http://unpidf.univ-paris1.fr/la-carte-multiservice-etudiant-de-paris-et-d-ile-de-france-1775.kjsp?RH=unr-carte&RF=unr-carte
 
+3B 69 00 00 C5 02 02 01 04 6B 01 01 A9
+	Payflex 1K from Schlumberger
+
 3B 69 00 00 EB 03 01 03 01 70 01 08 A9
 	Gasprom card (JavaCard)
 
@@ -1654,6 +1661,10 @@
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
 
+3B 6D 00 00 00 73 C8 00 13 64 54 33 44 33 00 90 00
+	FirstBankcard issued for overstock.com (Bank)
+	http://www.firstbankcard.com/overstock/
+
 3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
 	Deutsche Bank MasterCard Credit Card (Bank)
 	https://www.deutsche-bank.de/pfb/content/pk-konto-und-karte-kreditkarte.html
@@ -1855,9 +1866,16 @@
 3B 6E 00 00 00 31 C0 65 F1 D5 02 01 09 71 D6 8C 61 33
 	HALIFAX (Bank)
 
+3B 6E 00 00 00 31 C0 65 F7 C6 02 00 06 71 D6 8C 61 33
+	Visa Card - SberBank / Russia (Bank)
+	http://sberbank.ru/
+
 3B 6E 00 00 00 31 C0 65 F7 C6 02 00 06 71 D6 8C 61 39
 	"Ticket Restaurant" Edenred España S.A. (Bank)
 	http://www.edenred.es/ticket-restaurant/tarjeta-restaurante
+
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 23
+	Visa debit card: mBank S.A. (Bank)
 
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 27
 	VISA Credit Card issued by Santander Bank (Bank)
@@ -2356,6 +2374,13 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
+	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B EB 8D 82 90 00
+	Korigo card transport for star company (France) (Transport)
+	http://www.star.fr/titres-et-tarifs/carte-korrigo/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -2545,6 +2570,10 @@
 
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
+
+3B 78 13 00 00 43 43 31 69 AA 20 00 00
+	PostFinance debit card (Bank)
+	https://www.postfinance.ch/en/priv/prod/card/pfcard/direct/offer.html
 
 3B 78 18 00 00 00 73 C8 40 00 00 00 00 90 00
 	VERISOFT REWARDO LOYALTY CARD and CUSTOM PERSONALIZATION PROJECTS FOR EXTERNAL ENTITIES (Loyalty)
@@ -3866,6 +3895,10 @@
 	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
 	https://technet.microsoft.com/en-us/library/dn593708%28v=ws.11%29.aspx
 
+3B 8D 80 01 00 73 C8 00 13 64 54 37 41 38 00 90 00 4A
+	Visa Debit (ING-DiBa) (Bank)
+	https://www.ing-diba.de/
+
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
 
@@ -4609,6 +4642,10 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 81 C8 0D 00 47
 	ESEYE ES4520 Anynet MFF Embedded SIM
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 75 0E 00 12
+	Oskarta Vodafone (Czech Republic) 128kB GSM LTE SIM (Telecommunication)
+	https://www.oskarta.cz/
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 04 0D 00 67
 	3G Yoigo SIM Card from Spain
 
@@ -4658,6 +4695,10 @@
 
 3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EB
 	Lycamobile Pay As You Go SIM
+
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 8F 12 00 02
+	Russian "Megafon" gsm sim card (Telecommunication)
+	http://www.megafon.ru/
 
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F EF 10 00 60
 	Infineon SLU14MCO480K2 (JavaCard)
@@ -4720,6 +4761,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
 	Lenovo SIM card (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 04 11 00 B4
+	Aldi Talk SIM card, Germany (Telecommunication)
+	https://www.alditalk.de/talk
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
@@ -5014,6 +5059,10 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 F4
 	AT&T UICC with USIM and ISIM (Telecommunication)
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 12 01 00 82 90 00 90
+	MTS SIM card (Russia) (Telecommunication)
+	http://www.mts.ru/
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
@@ -5899,6 +5948,9 @@
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 38
 	Athena IDProtect Smart Card Logon Card
 
+3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 02 42 58 00 02 79
+	NXP Athena SCS (PKI)
+
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
 	National ID Card of Peru issued by RENIEC from Oberthur
 
@@ -6170,6 +6222,9 @@
 	Visa Card - Maximum - Oyak Bank / Turkey
 	VISA, issued by Austrian bank "Erste Bank"
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
+
+3B E9 00 00 81 31 FE 45 43 44 31 69 A9 00 00 00 00 14
+	Mastercard credit card, UBS Switzerland (Bank)
 
 3B E9 00 00 81 31 FE 45 43 44 32 69 09 00 00 00 00 B7
 	Swiss UBS MasterCard Creditcard
@@ -7072,6 +7127,11 @@
 3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 44 EC C1 73 94 01 80 82 90 00 12
 	Croation personal ID card (eID)
 	http://eid.hr/
+
+3B FF 13 00 00 81 31 FE 45 43 44 32 69 A9 41 00 00 20 20 20 20 20 20 00 53
+	Visa credit card (Viseca Card Services SA, Switzerland) (Bank)
+	https://www.viseca.ch/privatkunden/kreditkarten
+	Visa credit card, UBS Switzerland (Bank)
 
 3B FF 13 00 00 81 31 FE 45 4F 57 4F 4B 31 30 2D 4A .. .. .. .. .. .. .. ..
 	OWOK (One Web, One Key) login card
