@@ -360,6 +360,9 @@
 3B 17 94 80 65 D0 01 8B F2 08
 	China SIM card
 
+3B 17 94 83 A1 00 09 01 41 0B
+	Telfor SIM card (Telecommunication)
+
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
 
@@ -676,6 +679,9 @@
 
 3B 3B 13 00 80 66 12 03 01 03 00 08 82 90 00
 	UBS Switzerland Maestro Debit Card (Bank)
+
+3B 3B 13 00 80 66 12 04 01 04 00 4[4,9] 82 90 00
+	Neue Aargauer Bank Maestro card (Bank)
 
 3B 3B 13 00 80 66 12 04 01 04 01 58 82 90 00
 	Schaffhauser Kantonalbank Switzerland (Bank)
@@ -1658,6 +1664,9 @@
 	UK Co-operative Bank Visa Debit (produced 2003-2004)
 	UK HSBC LiveCash Solo Debit card
 
+3B 6D 00 00 00 31 C0 71 D6 64 A0 01 04 00 84 90 00
+	Swiss Mastercard M-Budget (Bank)
+
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
 
@@ -2606,6 +2615,11 @@
 	Sodexo - Spanish vending machines (Other)
 	http://es.sodexo.com/home.html
 
+3B 79 94 00 00 F7 04 01 01 03 80 01 02 A9
+	Pelican Rouge, vending machine (Other)
+	http://colnect.com/es/functional_cards/functional_card/26065-Maquinas_Cafe_-_Pelican_Rouge-Pelican_Rouge-Vending-Espa%C3%B1a
+	http://www.pelicanrouge.co.uk/en-uk/about-us
+
 3B 79 95 00 00 54 45 4C 45 4D 10 21 10 10
 	Israeli Identity Card (eID)
 	http://smartid.gov.il/English/Pages/default.aspx
@@ -2942,6 +2956,9 @@
 
 3B 7F 11 00 00 80 31 C0 52 3A 65 64 06 96 18 62 83 83 90 00
 	Visa Electron Triodos Bank Card (Bank)
+
+3B 7F 12 00 00 44 56 4E 20 54 45 43 48 20 52 65 76 35 33 76
+	Chinese cable TV JETCAS card (DVN)
 
 3B 7F 13 00 00 80 31 C0 52 02 71 64 05 62 34 70 83 83 90 00
 	Mastercard Debit Card issued by Caixa d'Enginyers
@@ -3552,6 +3569,9 @@
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
 
+3B 88 80 01 42 41 45 49 44 31 2E 30 6D
+	eID BiH card (eID)
+
 3B 88 80 01 43 43 31 69 AA 20 00 00 DB
 	PostFinance Switzerland (Bank)
 	http://www.postfinance.ch
@@ -3629,6 +3649,10 @@
 
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
+
+3B 89 80 01 43 4C 61 69 72 65 32 20 36 3C
+	Fidor Smartcard Mastercard/Maestro (Bank)
+	https://www.fidor.eu
 
 3B 89 80 01 45 4D 56 20 30 33 20 20 06 73
 	Lufthansa Miles & More Gold MasterCard PayPass (old one)
@@ -6065,6 +6089,10 @@
 3B DF 95 00 80 1F 87 80 31 A0 73 FF 21 00 63 45 B1 05 83 0F 90 00 60
 	FUTURE CARD Normal ISO SIM (Telecommunication)
 
+3B DF 95 00 80 1F 87 80 31 A0 73 FF 21 00 63 45 B3 09 83 0F 90 00 6E
+	Card Mobilis Algeria telecom (Telecommunication)
+	http://www.mobilis.dz
+
 3B DF 95 FF 80 91 FE 1F C3 80 25 A0 00 00 00 68 53 19 00 01 73 C8 21 13 29
 	CardLogix Credensys-J Contacted Java Card 2.2.1 Global Platform 2.1.1 (Atmel AT90SC12872RCFT)
 	(bank)
@@ -7655,8 +7683,11 @@
 3F 65 25 08 65 04 6C 90 00
 	CB visa Boursorama France (Axalto)
 
-3F 65 35 10 0. 04 6C 90 00
+3F 65 35 10 0. 04 [6,E]C 90 00
 	Postcard (Switzerland)
+
+3F 65 35 10 01 04 EC 90 00
+	Old Swiss Postbank card (Bank)
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
