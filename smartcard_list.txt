@@ -512,6 +512,10 @@
 3B 24 00 .. .. .. 45
 	Conax
 
+3B 24 00 00 00 00 00
+	MultiChoice satelite TV Card Eutelsat 36B at 35.9°E
+	http://www.lyngsat.com/Eutelsat-36B.html
+
 3B 24 00 30 42 30 30
 	ComHem Digital-TV smartcard (Sweden)
 	TNK Telewizja Na Kartę (Poland) - Conditional access system : Conax (Norway)
@@ -751,6 +755,9 @@
 
 3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 82 90 00
 	Orange Mobicarte (SIM card old generation)
+
+3B 3C 11 00 44 AF 11 F7 20 05 04 FB 83 81 90 00
+	itineris (Old French Mobile Operator SIM card) (Telecommunication)
 
 3B 3C 94 00 42 31 11 A2 12 02 09 51 83 80 90 00
 	Omnitel IT 16K GSM SIM card
@@ -2221,6 +2228,9 @@
 	USAA EMV Mastercard Creditcard (Bank)
 	https://www.usaa.com/inet/pages/bk_cc_chipcardLP_landing_mkt?adID=VURL_chipcard
 
+3B 6F 00 00 80 31 E0 6B 04 31 05 02 D1 55 55 55 55 55 55
+	Pockit Pre-Paid Mastercard (Contact Chip). (Bank)
+
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
 	http://banamex.com
@@ -2333,6 +2343,10 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 02 94 95 D3 82 90 00
 	Rav-Kav Public Transport (Transport)
 	https://ravkavonline.co.il/he/
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 97 DB 3D 82 90 00
+	Israeli Ravkav card (Transport)
+	https://ravkavonline.co.il/
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 9A 40 7F 82 90 00
 	Israeli public transport card ("RavKav") (Transport)
@@ -2607,6 +2621,9 @@
 
 3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
 	LBB VISA Card
+
+3B 79 18 00 00 80 63 55 50 01 83 07 90 00
+	TEST SAM Card (espark) (Other)
 
 3B 79 94 00 00 59 01 01 0E 01 6B 01 02 A9
 	Vending machine payment card ('Necta' brand)
@@ -3471,6 +3488,10 @@
 	Sparkasse Hannover - German contactless GeldKarte (RFID, NFC, girogo)
 	https://www.geldkarte.de/_www/en/pub/geldkarte/service_navigation/about_us.php
 
+3B 87 80 01 80 31 C0 73 D6 31 C0 23
+	girocard contactless (Bank)
+	https://www.girocard.eu/english.html
+
 3B 87 80 01 C1 05 21 30 00 77 C1 65
 	Mifare Plus (Other)
 	http://www.Mifare.net
@@ -3676,6 +3697,7 @@
 3B 89 80 01 4D 54 43 4F 53 73 02 01 04 3A
 	Biometric passport of Czech republic
 	Biometric passport of Libya
+	Biometric passport of United Kingdom
 
 3B 89 80 01 4D 54 43 4F 53 73 02 02 04 39
 	Berlin-Brandenburg public transport eticket fahrCard (Transport)
@@ -4368,6 +4390,9 @@
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
 
+3B 90 95 80 11 FE 6A
+	JC30M48CR JavaCard  (JavaCard)
+
 3B 90 95 80 1F C3 59
 	Dai Nippon Printing Co., DNP Standard-J T3.1
 
@@ -4740,6 +4765,9 @@
 	Vodafone UK GSM SIM Card (Telecommunication)
 	http://www.vodafone.co.uk
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 71 7B 02 00 08
+	Bouygues Telecom (French Mobile Provider SIM card) (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 04 0D 00 64
 	Cincinati Bell. UICC with USIM 128k-b (Telecommunication)
 
@@ -4928,6 +4956,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 07 56 42 00 82 90 00 D0
 	SIM mobi orange
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 9F 4F 00 20 82 90 00 33
+	USIM (3G DF) Orange (French Mobile Network) (Telecommunication)
+
 3B 9F 95 80 1F 03 80 31 A0 73 B6 A1 00 67 CF 97 F9 E0 63 68 99 57
 	Telestial OneRate International SIM card (Telecommunication)
 	http://www.amazon.com/gp/product/B004GV13VY/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1
@@ -5037,6 +5068,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 36 00 82
 	TELUS 3G SIM Card
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 88 83 07 90 00 06
+	SHOW or UPlus USIM (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 AA 83 07 90 00 24
 	2degrees NFC (Telecommunication)
@@ -5657,6 +5691,10 @@
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 02 90 00
 	ACS (Advanced Card System) ACOS-1 8K
+
+3B BE 11 00 00 41 01 38 00 00 01 00 00 00 00 00 01 90 00
+	ACOS3 Microprocessor Card (Contact) (Other)
+	http://www.acs.com.hk/en/products/306/acos3-microprocessor-card-contact/
 
 3B BE 11 00 00 41 01 38 00 00 03 00 00 00 00 00 01 90 00
 	ACS ACOS3-32 (Telecommunication)
@@ -6543,6 +6581,10 @@
 
 3B F3 96 00 FF C0 0A 31 FE 4D 80 31 E0 83
 	MARX Cryptoken (supported by RaakSign)
+
+3B F4 13 00 00 81 31 FE 45 52 46 5A 4F ED
+	Serbian Health Care electronic card (HealthCare)
+	http://www.rfzo.rs/index.php/osiguranalica/ekartica
 
 3B F4 18 00 02 C1 0A 31 FE 58 56 34 63 76 C5
 	Eutron CryptoIdentity (reader + card token)
