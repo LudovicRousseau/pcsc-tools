@@ -410,6 +410,9 @@
 	Movistar Argentina Usim Card (Telecommunication)
 	www.movistar.com.ar
 
+3B 19 96 80 67 98 04 01 01 01 01 01
+	PLUS gsm (Telecommunication)
+
 3B 1B 94 80 69 06 02 22 11 00 80 08 00 00
 	eID
 
@@ -1573,6 +1576,10 @@
 	Blutronics Blucard 4K (Loyalty)
 	http://blucard.blutronics.com
 
+3B 6B 00 00 43 48 49 50 31 34 20 56 31 2E 30
+	Swiss PostFinance Card (Bank)
+	https://www.postfinance.ch/en/priv/prod/card/pfcard.html
+
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
 
@@ -1676,6 +1683,9 @@
 
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
+
+3B 6D 00 00 00 73 C8 00 13 64 47 37 45 32 00 90 00
+	Canada TD Bank Visa Debit/Interac Debit Card (Bank)
 
 3B 6D 00 00 00 73 C8 00 13 64 54 33 44 33 00 90 00
 	FirstBankcard issued for overstock.com (Bank)
@@ -2881,6 +2891,9 @@
 	Gemalto Classic TPC (Trusted PKI Card) IM
 	Classic TPC IM (PKCS#15): 12 x RSA key containers (standard profile)
 
+3B 7D 96 00 00 80 31 80 65 B0 A3 02 01 F3 83 00 90 00
+	SetCOS 2048 (eID)
+
 3B 7D 96 00 00 80 31 80 65 B0 A3 11 00 C8 83 00 00 00
 	Handelsbanken BankID card (Swedish bank authentication)
 
@@ -3537,6 +3550,10 @@
 3B 88 80 01 00 00 00 00 33 81 81 00 3A
 	Interparking MOBIB basic - RFID/Smartcard car park and car wash token
 
+3B 88 80 01 00 00 00 00 33 81 91 00 2A
+	Regional services for Lombardy (Italy) (Other)
+	http://www.crs.regione.lombardia.it/
+
 3B 88 80 01 00 00 00 00 77 83 95 00 00
 	MULTOS (PKI)
 
@@ -3658,6 +3675,9 @@
 
 3B 88 81 31 20 55 00 57 69 6E 43 61 72 64 29
 	SmartCard for Windows 1.0
+
+3B 89 00 56 43 41 52 44 5F 4E 53 53
+	Coolkey emulated card using virtual viewer with nssdb (eID)
 
 3B 89 00 91 26 91 06 00 01 22 01 00
 	BT Cellnet SIM
@@ -4367,6 +4387,10 @@
 	French Transport Card Pass'bus (used in Metz, France)
 	http://www.tcrm-metz.fr/
 
+3B 8F 80 01 80 5A 08 03 03 00 00 00 02 B3 6C 53 82 90 00 40
+	Modalis: transport card for Gironde buses (France) (Transport)
+	http://transgironde.gironde.fr/
+
 3B 8F 80 01 80 5A 08 03 04 00 02 00 24 E2 79 78 82 90 00 0C
 	Paris Navigo card 14443 B' (Innovatron - Calypso)
 
@@ -4903,6 +4927,9 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37 9A
 	irdeto2 www.digiturk.com.tr (Pay TV)
 
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 36 2E 30 9E
+	irdeto (Other)
+
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 37 2E 30 9F
 	pay TV card of Irdeto. (Pay TV)
 
@@ -5075,6 +5102,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 AA 83 07 90 00 24
 	2degrees NFC (Telecommunication)
 	http://www.2degreesmobile.co.nz/home
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 22 28 00 40 01 00 01 91
+	Lycamobile Prepaid SIM-Card (Telecommunication)
+	http://lycamobile.at
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5C
 	AT&T (US) GSM SIM
@@ -7144,6 +7175,10 @@
 3B FE 91 00 FF 91 81 71 FE 40 00 41 28 00 11 33 B0 4A 43 4F 50 33 31 56 32 C4
 	JCOP31 72K
 	dual interface functionality, 1K Mifare emulation.
+
+3B FE 91 00 FF 91 81 71 FE 40 00 41 38 00 11 F7 B1 4A 43 4F 50 32 34 32 52 11
+	SwissPass (Transport)
+	https://www.swisspass.ch
 
 3B FE 91 00 FF 91 81 71 FE 40 00 41 38 00 21 80 71 80 66 B0 07 01 01 07 07 B7
 	Java Gemalto R7 (contactless) (Bank)
