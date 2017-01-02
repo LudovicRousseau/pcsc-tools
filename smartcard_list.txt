@@ -1145,6 +1145,9 @@
 	MisterCash & Proton card
 	VISA Card (emitted by Bank Card Company - Belgium)
 
+3B 67 00 00 00 00 00 00 41 86 84
+	ezpu100 (Bank)
+
 3B 67 00 00 00 00 20 00 00 90 00
 	BankID card from Sparebank1
 
@@ -3904,6 +3907,9 @@
 3B 8C 80 01 50 77 3B 2D BD 00 00 00 11 00 81 85 94
 	Texas Instruments Dynamic NFC Interface Transponder (RF430CL330H)
 
+3B 8C 80 01 50 79 19 60 01 00 DD A6 11 F7 71 85 35
+	Transport Traway Montpellier France  (Transport)
+
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
 
@@ -4549,6 +4555,9 @@
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
 
+3B 9A 18 00 82 62 75 93 11 00 01 02 02 00
+	Supersim 6 in 1 (Telecommunication)
+
 3B 9A 94 00 91 01 00 17 00 01 23 10 00 96
 	GSM-SIM Victorvox D1 (900MHz)
 
@@ -4573,6 +4582,10 @@
 
 3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
 	GSM SIM Bite.lv prepaid "Toxic"; 2008
+
+3B 9A 96 00 92 02 71 93 16 00 01 07 01 00
+	SIM card (emitted in ~2007) of Ukrainian Telecommunications Operator Kyivstar (Kyivstar GSM) (GSM/UMTS services) (Telecommunication)
+	http://www.kyivstar.ua
 
 3B 9A 96 00 92 03 49 93 16 00 01 21 01 00
 	GSM-SIM card of the Austrian provider Yesss!
@@ -5225,6 +5238,9 @@
 	NATEL SIM-Card swisscom
 	Vodafone Germany Micro-SIM from 2010
 
+3B 9F 96 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 0E 25 33 32 00 3B
+	SMART prepaid card, Estonia (Telecommunication)
+
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
 
@@ -5235,6 +5251,9 @@
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 02 41 00 82 90 00 C2
+	Empire Bank ltd (Bank)
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 01 F0
 	Telekom Sim card (Telecommunication)
@@ -5367,6 +5386,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 78 83 00 82 90 00 7A
 	Free Mobile SIM (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 91 22 00 82 90 00 32
+	1&1 Simcard (Telecommunication)
+	https://www.1und1.de/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -5861,6 +5884,10 @@
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
 
+3B D0 96 FF 81 B1 FE 45 1F 07 2A
+	German public health insurance card („Gesundheitskarte“), 2nd generation (G2), issuer Techniker Krankenkasse (HealthCare)
+	https://gematik.de/cms/de/spezifikation/wirkbetrieb/kartengeneration2/kartengeneration2.jsp
+
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
 
@@ -5943,6 +5970,10 @@
 
 3B D9 96 FF 81 31 FE 45 43 52 45 53 43 45 4E 44 4F FF
 	HID Global Crescendo JCOP 21 v2.4.1 R2 64K (PKI)
+
+3B DA 13 FF 81 31 FB 46 80 12 39 2F 31 C1 73 C6 01 C0 3B
+	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
+	http://www.cas.go.jp/jp/seisaku/bangoseido/english.html
 
 3B DA 18 FF 81 B1 FE 75 1F 03 00 31 C5 73 C0 01 40 00 90 00 0C
 	GnuPG card V2
@@ -6384,6 +6415,9 @@
 	Maybe Sm@rtCafé Expert 2.0 (Giesecke & Devrient)
 	or GemXpresso 211 PK (Gemplus)
 	Includes a Mifare-Chip (1 KB - Memory-Chip)
+
+3B EB 00 00 81 31 20 45 4A 43 4F 50 33 31 33 36 47 44 54 78
+	card for testing (eID)
 
 3B EB 00 00 81 31 42 45 4E 4C 43 68 53 43 4B 30 34 30 31 2B
 	Dutch University accesscard & Electronic purse & telphone card
