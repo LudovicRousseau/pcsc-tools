@@ -1422,9 +1422,13 @@
 3B 69 00 00 24 94 01 03 01 00 01 00 A9
 	Schlumberger MicroPayflex S card
 
-3B 69 00 00 49 44 35 30 56 31 2E 35 39
+3B 69 00 00 49 44 35 30 56 31 2E .. ..
 	eID Card to user autheticate and save paswords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
 	https://identos.com/id50-password-manager/
+
+3B 69 00 00 49 44 36 30 56 31 2E .. ..
+	token appidkey ID60-USB (Other)
+	https://identsmart.com/en/products/id60-datasafe/
 
 3B 69 00 00 4A 43 4F 50 33 31 56 32 32
 	Visa Europe Sample Card / Axalto
@@ -2457,6 +2461,10 @@
 	Brussels STIB MOBIB Classic (Transport)
 	https://www.stib-mivb.be/mobib.html
 
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 32 19 CF 82 90 00
+	Personalized MOBIB card (Brussels transports) (Transport)
+	http://www.stib-mivb.be/mobib.html?l=en
+
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
 
@@ -3042,6 +3050,10 @@
 3B 7F 13 00 00 80 31 C0 52 0E D4 64 05 66 96 61 83 83 90 00
 	BBVA Blue Card (VISA)
 	www.bluebbva.com
+
+3B 7F 13 00 00 80 31 C0 52 10 49 64 02 B3 02 70 83 83 90 00
+	Bank of Brazil (Bank)
+	http://www.bb.com.br/pbb/pagina-inicial
 
 3B 7F 13 00 00 80 31 C0 52 11 2F 64 05 69 93 70 83 83 90 00
 	Banco do Brasil (Bank)
@@ -3867,6 +3879,10 @@
 3B 8C 80 01 4F 54 49 44 28 94 F7 C0 00 00 90 00 00
 	French passport (2010-2013)
 
+3B 8C 80 01 50 00 00 00 00 00 00 00 00 91 81 A0 ED
+	Belimo VAV-Compact NFC (Other)
+	http://www.belimo.ch/pdf/e/flyer_nfc_en.pdf
+
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
@@ -3920,6 +3936,10 @@
 3B 8C 80 01 50 93 19 5E 30 00 00 00 00 00 71 71 B9
 	OPUS STM CANADA (Transport)
 	http://stm.info/
+
+3B 8C 80 01 50 93 3C CC 05 00 00 00 00 00 71 71 3B
+	OPUS Card, public transport (subway) of Montreal (Transport)
+	http://www.stm.info/fr/infos/titres-et-tarifs/carte-opus-et-autres-supports/carte-opus
 
 3B 8C 80 01 50 A2 21 FA A0 31 CC CC 01 77 81 C1 83
 	Morpho (eID)
@@ -4497,6 +4517,9 @@
 3B 97 13 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5D
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2005-2006
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
+
+3B 97 94 80 3F 44 90 80 31 A0 73 BE 21 00 95
+	Comprion Simulated card that indicate Low Impedance support: TB(3) = 0x90 (Telecommunication)
 
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2010-2015
@@ -5628,6 +5651,10 @@
 	Proximus SIM - Belgium (SetCOS?)
 	o2 GSM-SIM card Germany 2003
 
+3B BA 11 00 10 00 43 4C 5F 53 41 4D 00 13 38 00
+	Planeta Informatica CL-SAM (Other)
+	http://www.planeta.inf.br/
+
 3B BA 11 00 81 31 FE 4D 55 45 4B 41 45 20 56 31 2E 30 AE
 	AKİS v1.0 on infineon chip
 
@@ -5899,6 +5926,10 @@
 	Atos CardOS5 (PKI)
 	http://atos.net/NR/rdonlyres/17C7BDD0-225B-4A58-B9A4-438EA3F3238A/0/74743_20120830_160149_cardos_v5_0__datenblatt_en.pdf
 
+3B D2 18 00 81 31 FE 58 C9 03 16
+	Austrian "RKS-Card" issued by GlobalTrust (PKI)
+	https://secure.globaltrust.eu/info-rksv.html
+
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
 
@@ -6010,6 +6041,9 @@
 
 3B DB 96 00 80 1F 03 00 31 C0 64 B0 F3 10 00 0F 90 00 88
 	US Department of Veterans Affairs PIV
+
+3B DB 96 00 80 1F 83 00 31 C0 64 1D 18 01 00 01 90 00 51
+	ID0One Cosmo Development Kit (JavaCard)
 
 3B DB 96 00 80 31 FE 44 80 59 65 49 44 20 4E 41 44 52 41 8F
 	pk id card (eID)
@@ -6664,6 +6698,10 @@
 	Aventra ActiveSecurity MyEID
 	http://www.aventra.fi/pdf/ActiveSecurity%20MyEID%20Tokens%20white%20paper%20(2p)%20EN.pdf
 
+3B F5 18 00 02 10 80 4F 73 45 49 44
+	Atmega 128 microcontroller based open source EID smartcard with RSA and ECC.  (eID)
+	https://oseid.sourceforge.io/
+
 3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
 	Contactless Mifare Ultralight
 
@@ -7311,6 +7349,10 @@
 3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 01 00 39
 	SafeNet SC650 (PKI)
 	http://www.safenet-inc.com/data-protection/authentication/smartcard-650/
+
+3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 03 02 39
+	SafeNet SC650 v3.2 (PKI)
+	http://www.safenetat.com/products-solutions/high-assurance-authentication/sc650/
 
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
