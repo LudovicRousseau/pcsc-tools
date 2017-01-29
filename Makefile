@@ -6,13 +6,18 @@ PCSC_LDLIBS ?= $(shell pkg-config libpcsclite --libs)
 DESTDIR ?= /usr/local
 
 VERSION := $(shell pwd | sed s/.*tools-//)
-CFLAGS := $(CFLAGS) -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
+CFLAGS := $(EXT_CFLAGS) -DVERSION=\"$(VERSION)\" $(PCSC_CFLAGS)
 LDLIBS := $(PCSC_LDLIBS)
 # On xBSD systems use
 #LDLIBS = -lc_r $(PCSC_LDLIBS)
 # on MacOSX
 #CFLAGS = -Wall -O2 -DVERSION=\"$(VERSION)\"
 #LDLIBS = -framework PCSC
+
+INSTALL_PREFIX=/usr
+INSTALL_BINDIR=$(INSTALL_PREFIX)/bin
+INSTALL_DATADIR=$(INSTALL_PREFIX)/share
+INSTALL_MANDIR=$(INSTALL_DATADIR)/man
 
 BIN = pcsc_scan
 BIN_SCRIPT = ATR_analysis gscriptor scriptor
@@ -23,16 +28,16 @@ all: $(BIN) $(MAN)
 pcsc_scan: pcsc_scan.o
 
 install: all
-	install -d $(DESTDIR)/bin/
-	install $(BIN) $(DESTDIR)/bin/
+	install -d $(DESTDIR)/$(INSTALL_BINDIR)/
+	install $(BIN) $(DESTDIR)/$(INSTALL_BINDIR)/
 
-	install $(BIN_SCRIPT) $(DESTDIR)/bin/
+	install $(BIN_SCRIPT) $(DESTDIR)/$(INSTALL_BINDIR)/
 
-	install -d $(DESTDIR)/share/pcsc
-	install -m 644 smartcard_list.txt $(DESTDIR)/share/pcsc
+	install -d $(DESTDIR)/$(INSTALL_DATADIR)/pcsc
+	install -m 644 smartcard_list.txt $(DESTDIR)/$(INSTALL_DATADIR)/pcsc
 
-	install -d $(DESTDIR)/share/man/man1/
-	install -m 644 $(MAN) $(DESTDIR)/share/man/man1/
+	install -d $(DESTDIR)/$(INSTALL_MANDIR)/man1/
+	install -m 644 $(MAN) $(DESTDIR)/$(INSTALL_MANDIR)/man1/
 
 clean:
 	rm -f pcsc_scan.o $(BIN) $(MAN)
