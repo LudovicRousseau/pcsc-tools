@@ -22,17 +22,22 @@ all: $(BIN) $(MAN)
 
 pcsc_scan: pcsc_scan.o
 
+INSTALL_PREFIX ?= /usr
+INSTALL_BIN_DIR ?= $(INSTALL_PREFIX)/bin
+INSTALL_DATA_DIR ?= $(INSTALL_PREFIX)/share
+INSTALL_MAN_DIR ?= $(INSTALL_DATA_DIR)/man
+
 install: all
-	install -d $(DESTDIR)/bin/
-	install $(BIN) $(DESTDIR)/bin/
+	install -d $(DESTDIR)$(INSTALL_BIN_DIR)/
+	install $(BIN) $(DESTDIR)$(INSTALL_BIN_DIR)/
 
-	install $(BIN_SCRIPT) $(DESTDIR)/bin/
+	install $(BIN_SCRIPT) $(DESTDIR)$(INSTALL_BIN_DIR)/
 
-	install -d $(DESTDIR)/share/pcsc
-	install -m 644 smartcard_list.txt $(DESTDIR)/share/pcsc
+	install -d $(DESTDIR)$(INSTALL_DATA_DIR)/pcsc
+	install -m 644 smartcard_list.txt $(DESTDIR)$(INSTALL_DATA_DIR)/pcsc
 
-	install -d $(DESTDIR)/share/man/man1/
-	install -m 644 $(MAN) $(DESTDIR)/share/man/man1/
+	install -d $(DESTDIR)$(INSTALL_MAN_DIR)/man1/
+	install -m 644 $(MAN) $(DESTDIR)$(INSTALL_MAN_DIR)/man1/
 
 clean:
 	rm -f pcsc_scan.o $(BIN) $(MAN)
