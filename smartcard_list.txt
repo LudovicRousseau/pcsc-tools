@@ -354,6 +354,9 @@
 	Eurotel Praha, spol. s r. o. - O2 SIM card (Telecommunication)
 	http://www.o2.cz/
 
+3B 17 94 7C 01 01 0D 01 41 5B
+	Plus (PL) SIM card (2001) (Telecommunication)
+
 3B 17 94 80 65 D0 01 6C F2 BE
 	CMCC sim cards with TD-SCDMA support
 
@@ -1000,6 +1003,10 @@
 3B 65 00 00 20 63 CB A7 20
 	ING Direct (French Bank) Gold MasterCard
 
+3B 65 00 00 20 63 CB A8 00
+	Novo Banco Debit Card (Bank)
+	http://www.novobanco.pt/site/cms.aspx?plg=3FDF9B9E-C73B-4D76-80C7-F73AF087EADF
+
 3B 65 00 00 20 63 CB A8 A0
 	HSBC VISA Card
 
@@ -1039,6 +1046,10 @@
 
 3B 65 00 00 20 63 CB AE 80
 	Visa Premier (HelloBank), Gemalto SGP U1074311B 1214 (Bank)
+
+3B 65 00 00 20 63 CB AF 20
+	@ccess MasterCard (Bank)
+	https://www.mastercard.com/fr/particuliers/carte-bancaire-access.html
 
 3B 65 00 00 20 63 CB B1 20
 	Bank card "Credit Agricole" (Bank)
@@ -1586,6 +1597,10 @@
 3B 6B 00 00 43 48 49 50 31 34 20 56 31 2E 30
 	Swiss PostFinance Card (Bank)
 	https://www.postfinance.ch/en/priv/prod/card/pfcard.html
+
+3B 6B 00 00 47 50 00 3A 06 01 41 20 0F 90 00
+	SBI Debit Card (Bank)
+	https://www.sbi.co.in/portal/web/personal-banking/state-bank-classic-debit-card
 
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
@@ -2379,6 +2394,10 @@
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 23 A9 E2 29 82 90 00
+	Navigo(French transport) (Transport)
+	http://www.navigo.fr/je-gere-ma-carte/
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 23 BD 87 EE 82 90 00
 	Navigo pass Calypso standard (Transport)
@@ -3224,7 +3243,7 @@
 	DNIE Spain (eID)
 	http://www.dnielectronico.es/PortalDNIe/
 
-3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 77 98 03 11 03 90 00
+3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 77 98 0. 11 03 90 00
 	DNI electronico (Spanish electronic ID card) (eID)
 	http://www.dnielectronico.es
 
@@ -5367,6 +5386,9 @@
 	Telekom Romania Mobile Communications (ex Cosmote) (Telecommunication)
 	https://www.telekom.ro/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 01 03 01 03 47
+	USA T-Mobile 4G LTE GSM mobile data sim card, text, talk, and data (contract plan). Issued to/for android smart phone. (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 12 03 01 03 54
 	Vodafone UK PAYG Data SIM (Telecommunication)
 
@@ -5420,6 +5442,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 26 01 09 00 07 81 05 7F
 	EMT WPKI 2015 (ECC) subscription (Telecommunication)
 	https://www.emt.ee/en/pakkumised/mobiil-id
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 27 01 09 01 03 81 05 7B
+	slarmy (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 01 FE
 	Telekom Deutschland GmbH - Xtra Data Karte (3G SIM)
@@ -5911,6 +5936,10 @@
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
 
+3B C5 FF 81 31 FB 45 80 73 C6 01 00 00
+	Japanese Individual Number Card (eID)
+	https://www.kojinbango-card.go.jp/en/kojinbango/index.html
+
 3B D0 96 FF 81 B1 FE 45 1F 07 2A
 	German public health insurance card („Gesundheitskarte“), 2nd generation (G2), issuer Techniker Krankenkasse (HealthCare)
 	https://gematik.de/cms/de/spezifikation/wirkbetrieb/kartengeneration2/kartengeneration2.jsp
@@ -6001,6 +6030,10 @@
 
 3B D9 96 FF 81 31 FE 45 43 52 45 53 43 45 4E 44 4F FF
 	HID Global Crescendo JCOP 21 v2.4.1 R2 64K (PKI)
+
+3B D9 96 FF 81 31 FE 45 80 31 B8 73 86 01 E0 81 05 22
+	German dentist's identity card (eID)
+	http://www.medisign.de/
 
 3B DA 13 FF 81 31 FB 46 80 12 39 2F 31 C1 73 C6 01 C0 3B
 	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
