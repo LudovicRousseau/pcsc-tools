@@ -5864,9 +5864,15 @@
 
 3B BE 96 00 00 41 05 20 00 00 00 00 00 00 00 00 00 90 00
 	CryptoMate64 USB Cryptographic token
-	http://www.acs.com.hk/index.php?pid=product&prod_sections=0&id=CRYPTOMATE64
-	ACS ACOS5-64
+	http://www.acs.com.hk/en/products/18/cryptomate64-cryptographic-usb-tokens/
+	ACS ACOS5-64 V2.00
 	http://www.acs.com.hk/en/products/17/acos5-64-cryptographic-smart-card/
+
+3B BE 96 00 00 41 05 30 00 00 00 00 00 00 00 00 00 90 00
+	CryptoMate Nano USB Cryptographic token
+	http://www.acs.com.hk/en/products/414/cryptomate-nano-cryptographic-usb-tokens/
+	ACS ACOS5-64 V3.00
+	http://www.acs.com.hk/en/products/308/acos5-64-v3.00-cryptographic-card-contact/
 
 3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 .. 83 81 90 00 ..
 	Vodafone (Italy) 128 kB GSM SIM card
