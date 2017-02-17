@@ -1713,6 +1713,9 @@
 	FirstBankcard issued for overstock.com (Bank)
 	http://www.firstbankcard.com/overstock/
 
+3B 6D 00 00 00 73 C8 00 13 64 54 34 42 33 00 90 00
+	chase (Bank)
+
 3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
 	Deutsche Bank MasterCard Credit Card (Bank)
 	https://www.deutsche-bank.de/pfb/content/pk-konto-und-karte-kreditkarte.html
@@ -2056,6 +2059,10 @@
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
 
+3B 6E 00 00 4B 41 44 4E 49 4B 41 48 76 31 2E 30 90 00
+	Nikah, Cerai, Rujuk (NCR) - The marriage information with identity of Husband and Wife registered at Jabatan Agama Islam Selangor, Malaysia (eID)
+	http://ncr.jais.gov.my/
+
 3B 6E 00 00 57 44 36 13 69 86 93 02 32 12 56 28 25 32
 	Watchdata Brazil CSP v1.0 (Banco do Brasil)
 	http://www.watchdata.com/en/bank/solutions.jsp
@@ -2262,6 +2269,7 @@
 
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 D1 55 55 55 55 55 55
 	Pockit Pre-Paid Mastercard (Contact Chip). (Bank)
+	https://revolut.com/
 
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
@@ -3681,6 +3689,10 @@
 3B 88 80 01 E1 F3 5E 11 73 81 A5 00 03
 	US passport (2007)
 
+3B 88 80 01 E1 F3 5E 11 77 81 A1 00 03
+	Spanish ID know as DNIe (eID)
+	http://www.dnielectronico.es
+
 3B 88 80 01 E1 F3 5E 11 77 81 A5 00 07
 	US passport (2012)
 
@@ -3700,6 +3712,9 @@
 3B 88 80 01 E1 F3 5E 11 77 87 95 00 31
 	Dutch Government Pilot E-rijbewijs (eID)
 	https://www.digid.nl/over-digid/kaartlezer-pilot
+
+3B 88 80 01 E1 F3 5E 11 80 87 95 00 C6
+	Irish Driver Learner Permit (Other)
 
 3B 88 80 01 E1 F3 5E 13 77 83 00 00 A2
 	ePerso - German ID card (issued 2013)
@@ -3985,6 +4000,10 @@
 3B 8C 80 01 59 75 62 69 6B 65 79 4E 45 4F 72 33 58
 	Yubikey Neo
 
+3B 8C 80 01 59 75 62 69 6B 65 79 4E 45 4F 72 FF 94
+	Yubikey Neo via NFC reader (Other)
+	https://www.yubico.com/
+
 3B 8C 80 01 80 5A 41 4B 44 65 44 4C 76 31 2E 30 AD
 	Electronic driving license card
 	http://www.akd.hr/?p=10
@@ -4139,6 +4158,10 @@
 3B 8F 80 01 80 31 E0 6B 04 21 05 02 72 55 55 55 55 55 55 64
 	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
 	https://www.banamex.com/es/personas/tarjetas_credito/ver_tarjetas/puntos_efectivo/bsmart.htm
+
+3B 8F 80 01 80 31 E0 6B 04 31 05 02 D1 55 55 55 55 55 55 D7
+	Revolut Prepaid Mastercard (Contactless) (Bank)
+	https://revolut.com/
 
 3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
 	Air Miles American Express card (contactless) (Bank)
@@ -4828,6 +4851,9 @@
 	Russian "Megafon" gsm sim card (Telecommunication)
 	http://www.megafon.ru/
 
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F BC 10 00 33
+	sim beeline russia krasnodar (Telecommunication)
+
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F EF 10 00 60
 	Infineon SLU14MCO480K2 (JavaCard)
 
@@ -4875,6 +4901,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 49 0D 00 3F
 	SUPER start package (Estonia, EMT, 4G) (Telecommunication)
 	https://www.super.ee/en/
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 3E 0E 00 4A
+	SIM card from lapostemobile in France (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 5C 0E 00 28
 	SIM card by German mobile phone provider E-Plus for Product "WhatsApp SIM" (Telecommunication)
@@ -5789,6 +5818,12 @@
 	Austrian Health insurance card "eCard" (HealthCare)
 	http://www.chipkarte.at
 
+3B BE .. 00 00 41 05 20 00 .. .. .. .. .. .. 00 00 90 00
+	CryptoMate64 USB Cryptographic token
+	http://www.acs.com.hk/en/products/18/cryptomate64-cryptographic-usb-tokens/
+	ACS ACOS5-64 V2.00
+	http://www.acs.com.hk/en/products/17/acos5-64-cryptographic-smart-card/
+
 3B BE 11 00 00 41 01 10 20 38 00 00 00 00 00 00 00 00 00
 	ACOS2
 
@@ -5861,12 +5896,6 @@
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
 	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
-
-3B BE 96 00 00 41 05 20 00 00 00 00 00 00 00 00 00 90 00
-	CryptoMate64 USB Cryptographic token
-	http://www.acs.com.hk/en/products/18/cryptomate64-cryptographic-usb-tokens/
-	ACS ACOS5-64 V2.00
-	http://www.acs.com.hk/en/products/17/acos5-64-cryptographic-smart-card/
 
 3B BE 96 00 00 41 05 30 00 00 00 00 00 00 00 00 00 90 00
 	CryptoMate Nano USB Cryptographic token
@@ -7422,6 +7451,9 @@
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 65
 	Italian Chambers of Commerce CNS (PKI)
 	http://www.card.infocamere.it/infocard/pub/
+
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 14 03 01 01 01 43 4E 53 10 31 80 75
+	Smart Card INFOCERT digital key CNS from CST PADOVA (eID)
 
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
