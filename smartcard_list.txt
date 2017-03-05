@@ -381,6 +381,9 @@
 	Micro SIM Life (Telecommunication)
 	http://www.life.ua/
 
+3B 18 94 45 15 43 DA 01 00 FF 02
+	Airtel Tanzania Prepaid SIM Card (Telecommunication)
+
 3B 18 94 53 0D 06 77 24 07 FF 02
 	GSM SIM Tele2 Estonia, prepaid (Telecommunication)
 
@@ -1356,6 +1359,7 @@
 
 3B 68 00 00 80 62 00 45 83 00 90 00
 	MasterCard - Intesa Sanpaolo Bank / Italy
+	Paypal italia (mastercard)
 
 3B 68 00 00 80 66 45 46 01 38 18 03
 	FNMT WG108k
@@ -1716,6 +1720,9 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 34 42 33 00 90 00
 	chase (Bank)
 
+3B 6D 00 00 00 73 C8 00 13 64 54 37 42 37 00 90 00
+	VISA GOLD WITH CHIP (Bank)
+
 3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
 	Deutsche Bank MasterCard Credit Card (Bank)
 	https://www.deutsche-bank.de/pfb/content/pk-konto-und-karte-kreditkarte.html
@@ -1769,6 +1776,7 @@
 	Credito Trevigiano - Banca di Credito Cooperativo - Carta BCC
 	VISA Signature issued by RBC Bank (Georgia), N.A.
 	https://www.rbcbank.com/
+	Banca Popolare di Novara - (Bancomat Maestro)
 
 3B 6D 00 00 80 31 80 65 B0 89 40 01 F2 83 00 90 00
 	PSAM Card
@@ -2111,6 +2119,7 @@
 	Platinum VISA card for Citibank, Australia
 	VISA Infinite issued by RBC Royal Bank (Canada)
 	http://www.rbc.com/
+	Postepay Evolution - Poste Italiane (mastercard)
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -2441,6 +2450,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 40 6D 7A 82 90 00
+	French Navigo Card for Transport (RATP, SNCF) (Transport)
+	http://www.navigo.fr/
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
 	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
 
@@ -2765,6 +2778,10 @@
 
 3B 7B 95 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GemXpresso Pro 64K R3 FIPS v2
+
+3B 7B 96 00 00 47 50 00 3A 06 01 41 20 07 90 00
+	Discover Card (Other)
+	http://Discover.com
 
 3B 7C 13 00 00 80 64 11 34 01 48 73 F7 41 C0 81 07
 	universal electronic card UEC Rissa (eID)
@@ -4109,6 +4126,9 @@
 	MegaFon RUS (Telecommunication)
 	http://megafon.ru
 
+3B 8F 01 41 56 42 00 00 00 00 00 00 00 00 01 00 00 00 DA
+	AVEST-SYSTEMS AvBign (PKI)
+
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
 
@@ -4159,7 +4179,7 @@
 	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
 	https://www.banamex.com/es/personas/tarjetas_credito/ver_tarjetas/puntos_efectivo/bsmart.htm
 
-3B 8F 80 01 80 31 E0 6B 04 31 05 02 D1 55 55 55 55 55 55 D7
+3B 8F 80 01 80 31 E0 6B 04 31 05 02 D1 55 55 55 .. .. .. ..
 	Revolut Prepaid Mastercard (Contactless) (Bank)
 	https://revolut.com/
 
@@ -4534,6 +4554,10 @@
 3B 95 95 40 FF D0 00 54 01 3.
 	Portuguese identity card
 	http://www.cartaodecidadao.pt
+
+3B 95 96 00 70 64 43 4F 53
+	Ticket Restaurant Card  (Other)
+	http://www.edenred.it/buoni-pasto-welfare-benefit/ticket-restaurant-card/#soluzione
 
 3B 95 96 40 F0 01 13 0A 0A 1D
 	xcrypt (Pay TV)
@@ -5997,6 +6021,9 @@
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
 
+3B D3 96 FF 81 B1 FE 45 1F 07 80 81 05 2D
+	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2), issuer KKH Kaufmaennische Krankenkasse (HealthCare), issued 12/2016 (HealthCare)
+
 3B D5 18 00 81 31 3A 7D 80 73 C8 21 10 30
 	Aladdin eToken NG-Flash with 256MB of flash memory
 	Aladdin eToken PRO (72KB)
@@ -7378,6 +7405,9 @@
 	https://www.viseca.ch/privatkunden/kreditkarten
 	Visa credit card, UBS Switzerland (Bank)
 
+3B FF 13 00 00 81 31 FE 45 43 44 33 69 09 40 00 00 20 20 20 20 20 20 00 F3
+	VISA credit card (LBBW/Payback VISA) (Bank)
+
 3B FF 13 00 00 81 31 FE 45 4F 57 4F 4B 31 30 2D 4A .. .. .. .. .. .. .. ..
 	OWOK (One Web, One Key) login card
 	http://www.reiner-sct.com/owok/
@@ -7441,6 +7471,7 @@
 
 3B FF 18 00 00 81 31 FE 45 00 6B 05 05 10 17 01 21 01 43 4E 53 10 31 80 5E
 	Regional Card - Regione Liguria, Veneto - Italy (eID)
+	Tessera Sanitaria - Carta Regionale dei Servizi
 
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 21 01 43 4E 53 10 31 80 4A
 	Oberthur ID-One Cosmo V7-n it's a java card 2.2.2
@@ -8136,6 +8167,10 @@
 
 3F FF 13 25 0B 50 00 0F 33 B0 04 69 FF 4A 50 E0 00 00 54 38 00 00 00
 	Stream TV (IP television) decoder card, provided by aon (Telekom Austria) TV card, contains Incorporated NDS Videoguard (TM) security system
+
+3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 43 52 01 00 00
+	Russian cable TV AKADO NDS Card (Pay TV)
+	http://www.akado.ru/
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norwegian DVB-C provider Get (www.get.no). NDS Videoguard security card.
