@@ -696,6 +696,10 @@
 3B 3B 13 00 80 66 12 04 01 04 00 4[4,9] 82 90 00
 	Neue Aargauer Bank Maestro card (Bank)
 
+3B 3B 13 00 80 66 12 04 01 04 00 61 82 90 00
+	Maestro debit card, Banque Cantonal du Valais, Switzerland (Bank)
+	https://www.bcvs.ch
+
 3B 3B 13 00 80 66 12 04 01 04 01 58 82 90 00
 	Schaffhauser Kantonalbank Switzerland (Bank)
 	http://www.shkb.ch
@@ -2167,6 +2171,10 @@
 	Millenium Card (www.coruna.es/millennium) municipal city card for A Coruña, Spain.
 	electronic wallet for paying services like parking meter or public service (bus) transportation.
 
+3B 6F 00 00 00 66 4D 45 66 80 03 0C 53 06 61 05 F0 90 00
+	Transporte Metropolitano de Galicia (Transport)
+	http://tmg.xunta.gal/
+
 3B 6F 00 00 00 66 4D 45 66 80 03 14 53 03 61 04 F0 90 00
 	Paypal Prepaid Card (YoUnique Money E.D.E.)
 
@@ -2386,6 +2394,10 @@
 	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
 	http://carteopus.info/
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 39 E8 2B 82 90 00
+	OPUS is a rechargeable contactless stored value smart card using the Calypso Standard and is used by major public transit operators in Greater Montreal and Quebec City, Quebec, Canada. (Transport)
+	http://carteopus.info/?language=en
+
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 03 35 74 E2 82 90 00
 	Card Transport Express Régional (TER) « Oùra ! » of region Rhône-Alpes
 
@@ -2401,12 +2413,20 @@
 	Israeli public transport card ("RavKav") (Transport)
 	http://nohal.mot.gov.il/%d7%94%d7%92%d7%93%d7%a8%d7%95%d7%aa%20%d7%91%d7%a0%d7%95%d7%a9%d7%90%20%d7%9b%d7%a8%d7%98%d7%95%d7%a1%20%d7%97%d7%9b%d7%9d.aspx
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 AD 1A 73 82 90 00
+	Israeli public transport "RavKav" card (ASK Tango variant) (Transport)
+	http://hopon.co.il/
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 02 60 FB 72 82 90 00
 	RAV KAV - Israel's  Ministry of Transport public transport smart card (Transport)
 	http://www.rail.co.il/EN/Tickets/Rav-Kav/Pages/default.aspx
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 1B 89 9B 82 90 00
+	Israeli public transport "RavKav" card (ASK variant) (Transport)
+	http://www.dannorth.co.il/
 
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
@@ -2665,6 +2685,9 @@
 
 3B 78 18 00 00 54 48 20 4E 49 44 20 37
 	Thailand National ID (eID)
+
+3B 78 96 00 00 00 73 C8 40 00 00 90 00
+	SAM card for acquirer module by lanit.ru (Bank)
 
 3B 79 11 00 00 80 54 43 4F 4C 44 82 90 00
 	amazon.de / VISA / LBB Debit Card (Bank)
@@ -3067,6 +3090,9 @@
 3B 7F 13 00 00 80 31 C0 52 08 4B 64 05 66 94 61 83 83 90 00
 	Visa Electron Card from a Spanish bank called "Caja de Ingenieros"
 
+3B 7F 13 00 00 80 31 C0 52 09 AA 64 05 66 99 36 83 83 90 00
+	Advantis 8k (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 0A 45 64 02 B3 02 37 83 83 90 00
 	Bancaja online (Visa) Card , Entity : Bancaja Bank Spain (Bankia currently)
 
@@ -3307,6 +3333,10 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Portuguese Blood Donator National Card (HealthCare)
+
+3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
+	Finnish identity card (eID)
+	http://vrk.fi/en/citizen-certificate
 
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
@@ -4003,6 +4033,9 @@
 3B 8C 80 01 50 C0 98 37 3F 00 00 00 00 91 71 71 9C
 	PassPass card issued by Transpole : the public transportation service of Lille, France, and SNCF : the french national railway. (Transport)
 	https://www.transpole.fr/fr/pass-pass-et-tarifs/carte-pass-pass-personnelle.aspx
+
+3B 8C 80 01 50 C0 C8 94 D3 00 00 00 00 B3 71 71 A1
+	pastel (Transport)
 
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
@@ -4834,6 +4867,10 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 06 50 00 2E
 	AT&T UICC with USIM (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EC
+	Mobile Vicking SIM card (Telecommunication)
+	https://vikingco.com/fr/mobile-vikings/
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 29 10 00 A2
 	Simyo-Mobile Belgium GSM SIM card
