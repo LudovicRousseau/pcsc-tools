@@ -797,6 +797,10 @@
 3B 3D 94 00 24 0E 00 96 00 00 86 60 31 E0 80 00 07
 	Operator CMCC SIM card. old 2G SIM. (Telecommunication)
 
+3B 3D 94 00 2E 0E 02 56 00 00 86 60 C0 A4 00 00 0F
+	Globe Telecom (Telecommunication)
+	http://www.globe.com.ph
+
 3B 3D 94 00 44 4D 54 11 00 06 06 17 62 11 00 30 00
 	China Unicom SIM card
 
@@ -1723,6 +1727,9 @@
 
 3B 6D 00 00 00 73 C8 00 13 64 54 34 42 33 00 90 00
 	chase (Bank)
+
+3B 6D 00 00 00 73 C8 00 13 64 54 37 41 38 00 90 00
+	German comdirect bank - Visa Credit, prepaid (Bank)
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 42 37 00 90 00
 	VISA GOLD WITH CHIP (Bank)
@@ -4071,6 +4078,10 @@
 3B 8C 80 01 80 91 E1 65 D0 00 46 00 00 82 90 00 1C
 	US passport (2009)
 
+3B 8C 80 01 90 67 46 4A 00 64 16 06 F2 72 7E 00 7C
+	PIVKey C910 (PKI)
+	https://pivkey.com/
+
 3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01 CF
 	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
 	https://technet.microsoft.com/en-us/library/dn593708%28v=ws.11%29.aspx
@@ -4139,6 +4150,7 @@
 
 3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 1C
 	UK Lloyds Bank Gold Visa Debit (Contact & Contactless)
+	bPay by barclaycard - contactless pre-paid Visa
 
 3B 8E 80 01 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 18
 	Smartcard-HSM (Contactless Interface) (PKI)
@@ -4167,6 +4179,9 @@
 
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
+
+3B 8F 80 01 00 66 46 53 05 10 00 FF 71 DF 00 00 00 00 00 39
+	JavaCOS A40 dual interface Java card - 64K (JavaCard)
 
 3B 8F 80 01 43 55 32 69 AA 20 20 20 20 20 20 20 20 20 20 E9
 	UBS Access Card (Mobile Online Banking, NFC, Switzerland)
@@ -5191,6 +5206,9 @@
 	GREEN CARD, Grcard (Hong Kong ) Co.,Limited, LTE Usim Card (Telecommunication)
 	Celcom Postpaid 3G (Telecommunication)
 
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 13 63 55 40 18 83 07 90 00 C2
+	Ubivelox (JavaCard)
+
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B 57 3F 86 60 46 CD 00 01 B4
 	China Unicom USIM 128K 1295E
 
@@ -5305,6 +5323,9 @@
 3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
 	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
 	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
+
+3B 9F 95 80 3F C7 A0 80 31 E0 73 FE 21 13 63 55 40 22 83 07 90 00 7C
+	Ubivelox (JavaCard)
 
 3B 9F 95 81 31 FE 9F 00 65 46 53 05 .. 06 71 DF 00 00 00 .. .. .. ..
 	Feitian PKI
@@ -5447,6 +5468,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 11 02 01 02 6A
 	R&S CMW-Z04 Mini-UICC Test Card (Telecommunication)
 	http://www.rhode-schwartz.com
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 31 01 08 01 01 01 72
+	Morpho (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 03 04 04 04 4F
 	GSM-SIM EMT (3G modem 2011, Estonia)
@@ -6040,6 +6064,10 @@
 	German public health insurance card („Gesundheitskarte“), 2nd generation (G2), issuer Techniker Krankenkasse (HealthCare)
 	https://gematik.de/cms/de/spezifikation/wirkbetrieb/kartengeneration2/kartengeneration2.jsp
 
+3B D0 97 FF 81 B1 FE 45 1F 07 2B
+	German Elektronische Gesundheitskarte (eGK) (HealthCare) - From TK (HealthCare)
+	https://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte
+
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
 
@@ -6068,8 +6096,8 @@
 
 3B D5 18 00 81 31 FE 7D 80 73 C8 21 10 F4
 	Bank of Lithuania Identification card
-	Aladdin PRO/Java card
-	http://www.aladdin-rd.ru/catalog/etoken/java/
+	Gemalto SafeNet eToken Java Based Cards
+	https://safenet.gemalto.com/multi-factor-authentication/authenticators/pki-usb-authentication/
 
 3B D5 18 FF 80 91 FE 1F C3 80 73 C8 21 13 08
 	Athena IDProtect (JavaCard 2.2.2)
@@ -8079,6 +8107,14 @@
 
 3F 77 18 00 00 C2 EB 45 02 6C 90 00
 	facetv (Other)
+
+3F 77 18 00 00 D3 8A 40 01 64 90 00
+	Skylink Viaccess 5.0 (Pay TV)
+	http://www.skylink.sk/
+
+3F 77 18 00 00 D3 8A 42 01 64 90 00
+	Satellite decoder card for TV Vlaanderen (Other)
+	https://www.tv-vlaanderen.be
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
