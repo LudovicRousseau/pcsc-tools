@@ -4,7 +4,7 @@ AC_PREREQ([2.69])
 
 AC_INIT([pcsc_scan], [1.4.27])
 AC_CONFIG_SRCDIR([pcsc_scan.c])
-AM_INIT_AUTOMAKE(1.8 dist-bzip2 no-dist-gzip)
+AM_INIT_AUTOMAKE([1.8 dist-bzip2 no-dist-gzip foreign])
 
 dnl create a config.h file (Automake will add -DHAVE_CONFIG_H)
 AM_CONFIG_HEADER(config.h)
