@@ -343,7 +343,7 @@ get_readers:
 			 */
 
 			/* Specify the current reader's number and name */
-			printf("Reader %d: %s%s%s\n", current_reader,
+			printf(" Reader %d: %s%s%s\n", current_reader,
 				magenta, rgReaderStates_t[current_reader].szReader,
 				color_end);
 
