@@ -189,12 +189,13 @@ int main(int argc, char *argv[])
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int opt;
 	int analyse_atr = TRUE;
+	int stress_card = FALSE;
 	int pnp = TRUE;
 
 	printf("PC/SC device scanner\n");
 	printf("V " PACKAGE_VERSION " (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 
-	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
+	while ((opt = getopt(argc, argv, "Vhns")) != EOF)
 	{
 		switch (opt)
 		{
@@ -205,6 +206,10 @@ int main(int argc, char *argv[])
 			case 'V':
 				/* the version number is printed by default */
 				return 1;
+				break;
+
+			case 's':
+				stress_card = TRUE;
 				break;
 
 			case 'h':
@@ -547,6 +552,12 @@ get_readers:
 					if (system(atr_command))
 						perror(atr_command);
 				}
+			}
+
+			if (rgReaderStates_t[current_reader].dwEventState &
+				SCARD_STATE_PRESENT && stress_card)
+			{
+				stress(hContext, rgReaderStates_t[current_reader].szReader);
 			}
 		} /* for */
 
