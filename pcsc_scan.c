@@ -54,7 +54,7 @@ do { \
 	{ \
 		printf("%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end); \
 		(void)SCardReleaseContext(hContext); \
-		exit(-1); \
+		return -1; \
 	} \
 } while(0)
 
