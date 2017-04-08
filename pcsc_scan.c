@@ -242,7 +242,7 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
-		printf("%sWaiting for the first reader...%s", red, color_end);
+		printf("%sWaiting for the first reader...%s   ", red, color_end);
 		fflush(stdout);
 
 		if (pnp)
@@ -256,13 +256,16 @@ get_readers:
 		else
 		{
 			rv = SCARD_S_SUCCESS;
+			spin_start();
 			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
 			{
 				rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 				if (SCARD_E_NO_READERS_AVAILABLE == rv)
 					rv = SCARD_S_SUCCESS;
 				sleep(1);
+				spin_update();
 			}
+			spin_suspend();
 		}
 		printf("found one\n");
 		goto get_readers;
