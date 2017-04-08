@@ -558,8 +558,10 @@ get_readers:
 				}
 			}
 
-			if (rgReaderStates_t[current_reader].dwEventState &
-				SCARD_STATE_PRESENT && stress_card)
+			LONG state = rgReaderStates_t[current_reader].dwEventState;
+			if (state & SCARD_STATE_PRESENT
+				&& !(state & SCARD_STATE_MUTE)
+				&& stress_card)
 			{
 				do
 				{
