@@ -77,7 +77,6 @@ int main(int argc, char *argv[])
 	SCARD_READERSTATE *rgReaderStates_t = NULL;
 	SCARD_READERSTATE rgReaderStates[1];
 	DWORD dwReaders = 0, dwReadersOld;
-	DWORD timeout;
 	LPSTR mszReaders = NULL;
 	char *ptr, **readers = NULL;
 	int nbReaders, i;
@@ -156,13 +155,11 @@ int main(int argc, char *argv[])
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
 	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
-		timeout = TIMEOUT;
-		printf("%sPlug'n play reader name not supported. Using polling every %ld ms.%s\n", magenta, timeout, color_end);
+		printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
 		pnp = FALSE;
 	}
 	else
 	{
-		timeout = INFINITE;
 		printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
 	}
 
@@ -298,7 +295,7 @@ get_readers:
 	/* Wait endlessly for all events in the list of readers
 	 * We only stop in case of an error
 	 */
-	rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t, nbReaders);
+	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
 		time_t t;
@@ -431,7 +428,7 @@ get_readers:
 			}
 		} /* for */
 
-		rv = SCardGetStatusChange(hContext, timeout, rgReaderStates_t,
+		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t,
 			nbReaders);
 	} /* while */
 
