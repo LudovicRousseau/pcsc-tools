@@ -55,7 +55,7 @@
 do { \
 	if (rv != SCARD_S_SUCCESS) \
 	{ \
-		printf("%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end); \
+		print_pcsc_error(fct, rv); \
 		(void)SCardReleaseContext(hContext); \
 		return -1; \
 	} \
