@@ -250,7 +250,14 @@ get_readers:
 			rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
 			rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
 
-			rv = SCardGetStatusChange(hContext, INFINITE, rgReaderStates, 1);
+			spin_start();
+			do
+			{
+				rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates, 1);
+				spin_update();
+			}
+			while (SCARD_E_TIMEOUT == rv);
+			spin_suspend();
 			test_rv("SCardGetStatusChange", rv, hContext);
 		}
 		else
