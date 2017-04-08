@@ -100,7 +100,7 @@ static void spin_suspend(void)
 
 static LONG stress(LONG hContext, const char *readerName)
 {
-	LONG rv;
+	LONG rv, ret_rv = SCARD_S_SUCCESS;
 	SCARDHANDLE hCard;
 	DWORD dwActiveProtocol;
 	const SCARD_IO_REQUEST *pioSendPci;
@@ -149,7 +149,8 @@ static LONG stress(LONG hContext, const char *readerName)
 			NULL, pbRecvBuffer, &dwRecvLength);
 		if (rv != SCARD_S_SUCCESS)
 		{
-			print_pcsc_error("SCardDisconnect", rv);
+			print_pcsc_error("SCardTransmit", rv);
+			ret_rv = rv;
 			break;
 		}
 	}
@@ -169,9 +170,12 @@ static LONG stress(LONG hContext, const char *readerName)
 
 	rv = SCardDisconnect(hCard, SCARD_LEAVE_CARD);
 	if (rv != SCARD_S_SUCCESS)
+	{
 		print_pcsc_error("SCardDisconnect", rv);
+		ret_rv = rv;
+	}
 
-	return rv;
+	return ret_rv;
 }
 
 int main(int argc, char *argv[])
