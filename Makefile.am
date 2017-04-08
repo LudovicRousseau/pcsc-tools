@@ -8,3 +8,8 @@ pcsc_scan_LDADD = $(PCSC_LIBS)
 
 #  install the man pages
 man_MANS=pcsc_scan.1
+
+EXTRA_DIST = Changelog
+
+Changelog:
+	git log --stat --decorate=short > $@
