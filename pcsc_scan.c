@@ -120,7 +120,7 @@ int main(int argc, char *argv[])
 
 	/* check if terminal supports color */
 	{
-		const char *terms[] = { "linux", "xterm", "xterm-color", "Eterm", "rxvt", "rxvt-unicode" };
+		const char *terms[] = { "linux", "xterm", "xterm-color", "xterm-256color", "Eterm", "rxvt", "rxvt-unicode" };
 		char *term;
 
 		term = getenv("TERM");
