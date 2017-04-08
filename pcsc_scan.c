@@ -85,8 +85,7 @@ int main(int argc, char *argv[])
 	int pnp = TRUE;
 
 	printf("PC/SC device scanner\n");
-	printf("V " VERSION " (c) 2001-2011, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
-	printf("Compiled with PC/SC lite version: " PCSCLITE_VERSION_NUMBER "\n");
+	printf("V " PACKAGE_VERSION " (c) 2001-2011, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 
 	while ((opt = getopt(argc, argv, "Vhn")) != EOF)
 	{
