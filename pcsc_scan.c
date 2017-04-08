@@ -30,6 +30,10 @@
 #include <winscard.h>
 #endif
 
+#ifdef HAVE_CONFIG_H
+#include "config.h"
+#endif
+
 #ifndef TRUE
 #define TRUE 1
 #define FALSE 0
