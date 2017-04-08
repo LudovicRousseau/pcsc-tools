@@ -454,6 +454,12 @@ get_readers:
 		 * happened */
 		for (current_reader=0; current_reader < nbReaders; current_reader++)
 		{
+#ifdef __APPLE__
+			if (rgReaderStates_t[current_reader].dwCurrentState ==
+				rgReaderStates_t[current_reader].dwEventState)
+				continue;
+#endif
+
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_CHANGED)
 			{
