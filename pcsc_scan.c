@@ -22,6 +22,7 @@
 #include <time.h>
 #include <unistd.h>
 #include <string.h>
+#include <sys/time.h>
 
 #ifdef __APPLE__
 #include <PCSC/wintypes.h>
@@ -95,6 +96,82 @@ static void spin_suspend(void)
 {
 	printf("\33[2D \33[2D");
 	fflush(stdout);
+}
+
+static LONG stress(LONG hContext, const char *readerName)
+{
+	LONG rv;
+	SCARDHANDLE hCard;
+	DWORD dwActiveProtocol;
+	const SCARD_IO_REQUEST *pioSendPci;
+
+	printf("Stress card\n\n");
+	rv = SCardConnect(hContext, readerName, SCARD_SHARE_SHARED,
+         SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
+	if (rv != SCARD_S_SUCCESS)
+	{
+		print_pcsc_error("SCardConnect", rv);
+		return rv;
+	}
+
+	/* Select Master File */
+	BYTE pbSendBuffer[] = {0, 0xA4, 0, 0, 2, 0x3F, 0};
+	BYTE pbRecvBuffer[256+2];
+	DWORD dwSendLength, dwRecvLength;
+	struct timeval time_start, time_end;
+
+	switch (dwActiveProtocol)
+	{
+		case SCARD_PROTOCOL_T0:
+			pioSendPci = SCARD_PCI_T0;
+			break;
+		case SCARD_PROTOCOL_T1:
+			pioSendPci = SCARD_PCI_T1;
+			break;
+		case SCARD_PROTOCOL_RAW:
+			pioSendPci = SCARD_PCI_RAW;
+			break;
+		default:
+			printf("Unknown protocol\n");
+			return -1;
+	}
+
+	gettimeofday(&time_start, NULL);
+
+#define COUNT 100
+	size_t count;
+	for (count=0; count<COUNT; count++)
+	{
+		printf("\033[FAPDU n°: %ld\n", count);
+		dwSendLength = sizeof(pbSendBuffer);
+		dwRecvLength = sizeof(pbRecvBuffer);
+		rv = SCardTransmit(hCard, pioSendPci, pbSendBuffer, dwSendLength,
+			NULL, pbRecvBuffer, &dwRecvLength);
+		if (rv != SCARD_S_SUCCESS)
+		{
+			print_pcsc_error("SCardDisconnect", rv);
+			break;
+		}
+	}
+
+	gettimeofday(&time_end, NULL);
+	struct timeval r;
+	r.tv_sec = time_end.tv_sec - time_start.tv_sec;
+	r.tv_usec = time_end.tv_usec - time_start.tv_usec;
+	if (r.tv_usec < 0)
+	{
+		r.tv_sec--;
+		r.tv_usec += 1000000;
+	}
+	long delta = r.tv_sec * 1000000 + r.tv_usec;
+	printf("Total time: %ld µs\n", delta);
+	printf("%f APDU/s\n", 1000000. / (delta / count));
+
+	rv = SCardDisconnect(hCard, SCARD_LEAVE_CARD);
+	if (rv != SCARD_S_SUCCESS)
+		print_pcsc_error("SCardDisconnect", rv);
+
+	return rv;
 }
 
 int main(int argc, char *argv[])
