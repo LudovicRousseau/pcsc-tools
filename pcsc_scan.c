@@ -48,6 +48,9 @@
 #define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
 #endif
 
+#define print_pcsc_error(fct, rv) \
+	printf("%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end)
+
 #define test_rv(fct, rv, hContext) \
 do { \
 	if (rv != SCARD_S_SUCCESS) \
