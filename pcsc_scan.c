@@ -561,7 +561,10 @@ get_readers:
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_PRESENT && stress_card)
 			{
-				stress(hContext, rgReaderStates_t[current_reader].szReader);
+				do
+				{
+					rv = stress(hContext, rgReaderStates_t[current_reader].szReader);
+				} while (SCARD_S_SUCCESS == rv);
 			}
 		} /* for */
 
