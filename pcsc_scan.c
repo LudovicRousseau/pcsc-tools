@@ -315,6 +315,8 @@ get_readers:
 		nbReaders++;
 	}
 
+	spin_start();
+
 	/* Wait endlessly for all events in the list of readers
 	 * We only stop in case of an error
 	 */
@@ -327,18 +329,25 @@ get_readers:
 		{
 			if (rgReaderStates_t[nbReaders-1].dwEventState &
 					SCARD_STATE_CHANGED)
+			{
+				spin_suspend();
 				goto get_readers;
+			}
 		}
 		else
 		{
 			/* A new reader appeared? */
 			if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
 				== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
+			{
+				spin_suspend();
 				goto get_readers;
+			}
 		}
 
 		if (rv != SCARD_E_TIMEOUT)
 		{
+			spin_suspend();
 			/* Timestamp the event as we get notified */
 			t = time(NULL);
 			printf("\n%s", ctime(&t));
@@ -364,6 +373,8 @@ get_readers:
 			 * changed because we did not pass through the continue statement
 			 * above.
 			 */
+
+			spin_suspend();
 
 			/* Specify the current reader's number and name */
 			printf(" Reader %d: %s%s%s\n", current_reader,
@@ -453,7 +464,11 @@ get_readers:
 
 		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t,
 			nbReaders);
+
+		spin_update();
 	} /* while */
+
+	spin_suspend();
 
 	/* A reader disappeared */
 	if (SCARD_E_UNKNOWN_READER == rv)
