@@ -69,6 +69,29 @@ static void usage(void)
 	printf("  -h : this help\n");
 } /* usage */
 
+unsigned int spin_state = 0;
+static void spin_start(void)
+{
+	spin_state = 0;
+}
+
+static void spin_update(void)
+{
+	char patterns[] = {'-', '\\', '|', '/'};
+	char c = patterns[spin_state];
+	spin_state++;
+	if (spin_state >= sizeof patterns)
+		spin_state = 0;
+	printf("\33[3D %c ", c);
+	fflush(stdout);
+}
+
+static void spin_suspend(void)
+{
+	printf("\33[2D \33[2D");
+	fflush(stdout);
+}
+
 int main(int argc, char *argv[])
 {
 	int current_reader;
