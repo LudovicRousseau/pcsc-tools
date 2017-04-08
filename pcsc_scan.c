@@ -69,6 +69,11 @@ static void usage(void)
 	printf("  -h : this help\n");
 } /* usage */
 
+const char *blue = "";
+const char *red = "";
+const char *magenta = "";
+const char *color_end = "";
+
 unsigned int spin_state = 0;
 static void spin_start(void)
 {
@@ -107,10 +112,6 @@ int main(int argc, char *argv[])
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int opt;
 	int analyse_atr = TRUE;
-	const char *blue = "";
-	const char *red = "";
-	const char *magenta = "";
-	const char *color_end = "";
 	int pnp = TRUE;
 
 	printf("PC/SC device scanner\n");
