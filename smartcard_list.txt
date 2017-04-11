@@ -2481,6 +2481,9 @@
 	French Navigo Card for Transport (RATP, SNCF) (Transport)
 	http://www.navigo.fr/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 61 32 D6 82 90 00
+	Navigo (Transport)
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
 	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
 
@@ -3500,6 +3503,10 @@
 	VISA Caisse d'Epargne  (Bank)
 	VISA BNP Paribas (NFC) (Bank)
 
+3B 85 80 01 20 63 CB B8 80 B4
+	VISA Cléo LCL (Bank)
+	https://particuliers.lcl.fr/quotidien/cartes/carte-visa-cleo/
+
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator
 	http://jmrtd.org/)
@@ -3984,6 +3991,10 @@
 
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
+
+3B 8C 80 01 50 26 0D BB 15 00 00 00 00 00 71 81 28
+	Navigo Card (Transport)
+	http://www.navigo.fr/
 
 3B 8C 80 01 50 27 24 26 64 00 00 00 00 00 71 81 EC
 	French Transport Card (Navigo Card) (Transport)
@@ -4819,6 +4830,10 @@
 	Mobile TeleSystems (MTS) GSM SIM
 	http://www.mts.ru/
 
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 8D 0F 00 20
+	StarHub Happy Prepaid SIM (Telecommunication)
+	http://www.starhub.com/personal/mobile/mobile-phones-plans/prepaid-cards.html
+
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
 	J+ SWIM WIB UMTS SIM Test card
@@ -4832,6 +4847,9 @@
 
 3B 9E 95 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 49 00 00 00 4E
 	UK O2 Unlimited Prepay GSM/UMTS USIM
+
+3B 9E 95 80 1F C3 80 4B 43 4F 53 20 56 65 72 01 2E 01 90 00 1C
+	Vehicular License Veracruz, Mexico (Transport)
 
 3B 9E 95 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F BD 10 00 31
 	H3G (Three UK) Prepaid USIM (Telecommunication)
@@ -5233,6 +5251,9 @@
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 13 67 D0 02 04 09 01 00 00 05
 	T-Mobile SIM card issued in Germany 2012
 
+3B 9F 95 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 15 00 39 01 02 F4
+	Vivo 4G LTE SIM Card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C2
 	sysmocom sysmoUSIM-GR1
 	http://sysmocom.de/
@@ -5424,6 +5445,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 43 01 00 8C
 	SIM From Tuenti Móvil Spain (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 17 00 63 02 01 AF
+	TIM 4G LTE SIM Card (Telecommunication)
+	http://www.tim.com.br
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
 	H3G (Italy) UMTS USIM
@@ -5457,6 +5482,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 21 01 07 03 01 03 6D
 	GSM SIM blau (MVNO) Germany from 2013
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 27 01 02 04 08 01 62
+	Orange USIM card used in Poland (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 03 03 01 04 7F
 	T-Mobile US SIM card (Telecommunication)
@@ -5692,6 +5720,10 @@
 
 3B B0 11 00 81 31 90 73 F2
 	SamOS 2.7
+
+3B B0 33 00 91 81 31 6B 35 FC
+	SkyperfecTV HD IC Card (Pay TV)
+	https://www.skyperfectv.co.jp/eng/
 
 3B B0 36 00 81 31 FE 5D 95
 	Betacrypt 2 (Comvenient GmbH) Conditional Access Smart Card (Pay TV)
@@ -6161,6 +6193,10 @@
 3B D9 96 FF 81 31 FE 45 80 31 B8 73 86 01 E0 81 05 22
 	German dentist's identity card (eID)
 	http://www.medisign.de/
+
+3B DA 11 FF 81 B1 FE 55 1F 03 00 31 84 73 80 01 80 05 90 00 E1
+	Nitrokey Start (Openpgp USB) (Other)
+	https://www.nitrokey.com/products/nitrokey-start
 
 3B DA 13 FF 81 31 FB 46 80 12 39 2F 31 C1 73 C6 01 C0 3B
 	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
@@ -7393,6 +7429,9 @@
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 0F 90 00 EF
 	iEstonian Identity Card (EstEID 3.0 (18.01.2011) warm)
+
+3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 03 83 0F 90 00 EF
+	Infineon jTOP SLE78 SLJ52GCA080CL IFX v46.03 (JavaCard) (JavaCard)
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 10 83 01 90 00 F2
 	Infineon CJTOP 80K INF SLJ 52GLA080AL M8.4 (JavaCard)
