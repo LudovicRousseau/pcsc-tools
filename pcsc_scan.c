@@ -68,6 +68,7 @@ static void usage(void)
 	printf("  -n : no ATR analysis\n");
 	printf("  -V : print version number\n");
 	printf("  -h : this help\n");
+	printf("  -s : stress mode\n");
 } /* usage */
 
 const char *blue = "";
