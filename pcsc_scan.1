@@ -20,7 +20,7 @@ pcsc_scan \- regularly scans every PC/SC readers connected to the host
 .SH SYNOPSIS
 .BI "pcsc_scan [" options ]
 .SH DESCRIPTION
-This manual page documents briefly the
+This manual page documents the
 .B pcsc_scan
 command.
 .PP
@@ -28,31 +28,31 @@ command.
 .\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
 .\" respectively.
 \fBpcsc_scan\fP is a program that regularly scans every PC/SC readers
-connected to the host
+connected to the host and display the status of the cards inserted in
+the readers.
 
 The normal way to exit the program is to use Control-C.
 
-When \fBpcsc_scan\fP is started it asks \fBpcscd\fP the list of
+When \fBpcsc_scan\fP is started it asks \fBPC/SC layer\fP the list of
 available smart card readers. The list is printed. A sequence number is
 printed before each reader.
 
 Example:
  PC/SC device scanner
- V 1.1.0 (c) 2001-2002, Ludovic Rousseau
- PC/SC lite version: 1.1.1
- 0: GemPC410 0 0
- 1: GemPC430 0 0
+ V 1.4.27 (c) 2001-2017, Ludovic Rousseau
+ Scanning present readers...
+ 0: Gemalto PC Twin Reader
 
 When a card is inserted in any reader some information is printed:
 .TP
 date and time:
-Thu Jun 13 18:56:14 2002
+Wed Apr 12 14:25:30 2017
 .TP
 reader name:
-Reader 0 (GemPC410 0 0)
+Reader 0: Gemalto PC Twin Reader
 .TP
 card state and occurred event:
-Card state: State has changed, Card inserted,
+Card state: Card inserted, 
 .TP
 ATR in case of card insertion:
 ATR: 3B 82 00 86 1E
@@ -73,7 +73,12 @@ print help
 print version number
 .TP
 .B \-n
-do not print ATR analysis
+do not print ATR analysis.
+Use this option if \fBATR_analysis\fP is not available for example.
+.TP
+.B \-s
+stress mode. Sends APDU commands to the card indefinitely (until the
+card or the reader is removed).
 .SH SEE ALSO
 .BR pcscd "(8), " ATR_analysis (1)
 .SH AUTHOR
