@@ -169,7 +169,7 @@ static LONG stress(LONG hContext, const char *readerName)
 	printf("Total time: %ld µs\n", delta);
 	printf("%f APDU/s\n", 1000000. / (delta / count));
 
-	rv = SCardDisconnect(hCard, SCARD_LEAVE_CARD);
+	rv = SCardDisconnect(hCard, SCARD_UNPOWER_CARD);
 	if (rv != SCARD_S_SUCCESS)
 	{
 		print_pcsc_error("SCardDisconnect", rv);
