@@ -1152,6 +1152,9 @@
 3B 66 00 FF 4A 43 4F 50 30 33
 	IBM JCOP 30
 
+3B 66 00 FF 4A 43 4F 50 31 30
+	debit card (Visa Electron) issued by Nordea bank (2008-2015) (Bank)
+
 3B 66 00 FF 4A 43 4F 50 32 30
 	UOB Preferred Platinum Visa Card (Bank)
 	http://www.uob.com.sg/personal/cards/credit/preferred_platinum_visa_card.html
@@ -1560,6 +1563,10 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 08 04 61 12 0F 90 00
+	Portuguese National Identity Card (eID)
+	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
 
 3B 6B 00 00 00 31 C0 64 08 04 61 77 0F 90 00
 	"Strelka" Russian Federation Travelcard (Transport)
@@ -2006,6 +2013,9 @@
 
 3B 6E 00 00 00 31 C0 71 C6 65 01 B0 01 31 37 83 90 00
 	Electron VISA Credit Card (BANK OF Cyprus)
+
+3B 6E 00 00 00 31 C0 71 C6 65 17 0B 04 36 2D 0F 90 00
+	Capitec Bank Card (Bank)
 
 3B 6E 00 00 00 31 C0 71 C6 65 19 02 04 06 2F 0F 90 00
 	UniCredit (Italy) "Bancomat" (Maestro) debit card (Bank)
@@ -2535,8 +2545,12 @@
 	Personalized MOBIB card (Brussels transports) (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
 
+
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
+
+3B 6F 00 00 80 5A 48 80 C1 20 50 01 AE C0 02 95 82 90 00
+	Calypso SAM C1 (Transport)
 
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
@@ -2781,6 +2795,9 @@
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
+
+3B 7B 11 00 00 31 FE 45 43 6F 6D 62 4F 53 20 00
+	Debit card emmited by Société Générale Morocco (Bank)
 
 3B 7B 18 00 00 00 31 C0 64 77 E3 03 00 82 90 00
 	Oberthur Cosmopolic 64K v5.2 D
@@ -3299,6 +3316,10 @@
 
 3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
 	IAS ECC Type 1
+
+3B 7F 96 00 00 00 6A 44 4E 49 65 00 01 77 98 03 11 0F 65 81
+	Electronic Spanish National ID card (eID)
+	http://digital.csic.es/handle/10261/15941
 
 3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 01 55 04 .0 03 90 00
 	DNIE Spain (eID)
@@ -5341,6 +5362,9 @@
 	2degrees mobile SIM card
 	http://www.2degreesmobile.co.nz/
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 B4 01 0E 01 02 81 05 ED
+	USIM Card by Maroc Telecom Morocco (Telecommunication)
+
 3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
 	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
 	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
@@ -6251,6 +6275,10 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 18 01 00 0F 90 00 52
 	Serbian Car registration ID card
 	http://blog.goranrakic.com/archives/2011/07/citanje_saobracajne_dozvole_sa_cipom.html
+
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 71 01 00 07 90 00 33
+	ChamberSign Gemalto USB Shell Token V2 - Certificat Audacio ** (eID)
+	http://www.chambersign.fr/certificat-rgs-audacio/
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
 	Oberthur Cosmo V7 debug card (SDK)
@@ -7399,6 +7427,9 @@
 	MTCOS Light
 	http://www.masktech.de/products/mtcoslight/index.html
 
+3B FD 94 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 16 E7
+	Polish student card (eID)
+
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 00 C8 83 00 90 00 15
 	Gemalto TOP IM GX4 MSA081, T=1 (PKI)
 
@@ -7897,6 +7928,10 @@
 
 3B FF 95 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 10 31 41 00
 	Verizon GSM SIM (Telecommunication)
+
+3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 13 83 01 90 00 57
+	Driver's Card (Tachograf card) issued by pwpw Poland (Transport)
+	https://www.pwpw.pl/en/Products/Cards/Cards.html
 
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
