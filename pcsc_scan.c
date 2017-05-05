@@ -167,6 +167,8 @@ static LONG stress(LONG hContext, const char *readerName)
 	}
 	long delta = r.tv_sec * 1000000 + r.tv_usec;
 	printf("Total time: %ld µs\n", delta);
+	if (0 == count)
+		count = 1;
 	printf("%f APDU/s\n", 1000000. / (delta / count));
 
 	rv = SCardDisconnect(hCard, SCARD_UNPOWER_CARD);
