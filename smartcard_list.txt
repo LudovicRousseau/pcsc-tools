@@ -1580,6 +1580,10 @@
 	Skrill MasterCard (Bank)
 	https://www.skrill.com
 
+3B 6B 00 00 00 31 C0 64 1F 18 01 00 0F 90 00
+	Portuguese Medical Association eID card (Cédula Profissional, Ordem dos Médicos, Portugal) (eID)
+	http://www.omsul.pt/tabid/242/Default.aspx
+
 3B 6B 00 00 00 31 C0 64 1F 27 01 00 07 90 00
 	SOCCARDRT (HealthCare)
 
@@ -1640,6 +1644,9 @@
 3B 6B 00 FF 56 43 41 52 44 5F 4E 53 53
 	NSSVirtual smart card for qemu
 
+3B 6C 00 00 0A 0B 0C 0A 0B 0C 0A 0B 0C 0A 0B 0C
+	Estonian Residence Permit (eID)
+
 3B 6C 00 00 0F 31 C0 71 D6 64 13 6A 01 00 5D 84
 	MasterCard debit card: skrill.com card issued by Newcastle Building Society (Bank)
 	https://www.skrill.com
@@ -1657,6 +1664,9 @@
 3B 6C 00 00 42 6C 75 6C 6F 67 6F 6E 20 34 4B 42
 	eID Blutronics Blulogon 4K
 	http://shop.blutronics.com/Prodotti.asp
+
+3B 6C 00 00 4E 54 49 43 33 90 51 02 4A 03 00 00
+	Topas TV (Pay TV)
 
 3B 6C 00 00 80 64 11 34 01 48 73 F7 41 C0 81 07
 	Universal Electronic Card (UEC Russia) (eID)
@@ -1969,6 +1979,9 @@
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 39
 	CartaBcc Classic VISA (Bank)
 	https://www.cartabcc.it/privati/carte-di-credito-privati/Pagine/Classic.aspx
+
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 41
+	Estonian bank "SEB" (MasterCard warm) (Bank)
 
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 5A
 	Compte-Nickel bank card (Bank)
@@ -4083,6 +4096,14 @@
 	Chicago CTA Ventra Transit card (Transport)
 	https://www.ventrachicago.com/
 
+3B 8C 80 01 50 E2 F8 28 2E 00 00 00 00 00 81 87 47
+	ING Maestro Debit Card (Bank)
+	https://www.ing.nl/particulier/index.html
+
+3B 8C 80 01 50 F2 AD 19 D7 00 00 00 00 00 81 77 3A
+	ING Maestro Debit Card (Bank)
+	https://www.ing.nl/particulier/index.html
+
 3B 8C 80 01 50 FF FF FF FF FF FF FF 22 00 10 51 C1
 	Printer ribbon tag (Other)
 
@@ -4121,6 +4142,8 @@
 3B 8D 80 01 00 73 C8 00 13 64 54 37 41 38 00 90 00 4A
 	Visa Debit (ING-DiBa) (Bank)
 	https://www.ing-diba.de/
+	Visa Debit Card with NFC payment function (Consorsbank)
+	https://www.consorsbank.de/
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -4133,6 +4156,10 @@
 
 3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
 	JCOP30 contactless interface
+
+3B 8D 80 01 80 91 E1 65 D0 00 5B 01 02 73 D4 41 40 B7
+	Portuguese Passport (passport)
+	http://www.pep.pt/PagesPT/Caracteristicas.aspx
 
 3B 8D 80 01 80 91 E1 65 D0 00 5B 01 03 73 D4 41 40 B6
 	French passport (2010-2011)
@@ -5498,6 +5525,9 @@
 	Sintel hi! Tourist prepaid (Telecommunication)
 	http://www1.singtel.com/personal/phones-plans/mobile/prepaid/hitouristsimcards.html
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 26 33 32 00 B8
+	Vodafone sim card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
 
@@ -6111,6 +6141,10 @@
 
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
+
+3B BF 96 00 81 31 FE 5D 00 64 04 11 03 01 31 C0 73 01 D0 00 90 00 00
+	DATEV eG, Nuernberg, Bavaria, Germany (PKI)
+	http://www.datev.de
 
 3B C5 FF 81 31 FB 45 80 73 C6 01 00 00
 	Japanese Individual Number Card (eID)
@@ -7152,6 +7186,10 @@
 
 3B F9 96 00 00 81 31 FE 45 53 43 45 37 20 0E 00 20 20 28
 	Giesecke & Devrient GmbH StarSign CUT S
+
+3B F9 96 00 00 81 31 FE 45 53 50 49 56 4B 45 59 37 30 28
+	Taglio PIVKey C980 (PKI)
+	https://www.pivkey.com
 
 3B F9 98 00 FF C1 10 31 FE 55 41 4D 20 43 4D 44 31 31 30 83
 	Service card of the Ministry of Defense of Italy - Military Aviation
