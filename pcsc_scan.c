@@ -576,6 +576,8 @@ get_readers:
 				{
 					rv = stress(hContext, rgReaderStates_t[current_reader].szReader);
 				} while (SCARD_S_SUCCESS == rv);
+
+				rgReaderStates_t[current_reader].dwCurrentState = SCARD_STATE_UNAWARE;
 			}
 		} /* for */
 
