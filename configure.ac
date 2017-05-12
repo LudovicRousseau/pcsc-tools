@@ -15,13 +15,18 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 AC_CANONICAL_HOST
 
-if test `uname` == 'Darwin'; then
-	PCSC_PATH="PCSC/"
-fi
-
 dnl Checks for programs.
 AC_PROG_INSTALL
 AC_PROG_CC
+
+# Check for some target-specific stuff
+case "$host" in
+*-*-darwin*)
+	PCSC_CFLAGS=${PCSC_CFLAGS:--framework PCSC}
+	PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
+	PCSC_PATH="PCSC/"
+    ;;
+esac
 
 dnl Checks for libraries.
 # check pcsc-lite
