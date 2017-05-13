@@ -49,6 +49,28 @@
 #define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
 #endif
 
+#ifdef WIN32
+const char *pcsc_stringify_error(DWORD rv)
+{
+	static char buffer[1024];
+
+	if (! FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM,
+		NULL,
+		rv,
+		MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // default language
+		buffer,
+		sizeof buffer,
+		NULL))
+	{
+		/* if FormatMessage() failed */
+		snprintf(buffer, sizeof(buffer), "ERROR: 0x%08X\n", rv);
+	}
+
+	return buffer;
+}
+#define MAX_ATR_SIZE 33
+#endif
+
 #define print_pcsc_error(fct, rv) \
 	printf("%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end)
 
@@ -99,7 +121,7 @@ static void spin_suspend(void)
 	fflush(stdout);
 }
 
-static LONG stress(LONG hContext, const char *readerName)
+static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 {
 	LONG rv, ret_rv = SCARD_S_SUCCESS;
 	SCARDHANDLE hCard;
@@ -427,8 +449,14 @@ get_readers:
 
 		if (pnp)
 		{
+#ifdef WIN32
+			/* check if the number of readers has changed */
+			LONG newNbReaders = rgReaderStates_t[nbReaders-1].dwEventState >> 16;
+			if (newNbReaders + 1 != nbReaders)
+#else
 			if (rgReaderStates_t[nbReaders-1].dwEventState &
 					SCARD_STATE_CHANGED)
+#endif
 			{
 				spin_suspend();
 				goto get_readers;
@@ -457,7 +485,7 @@ get_readers:
 		 * happened */
 		for (current_reader=0; current_reader < nbReaders; current_reader++)
 		{
-#ifdef __APPLE__
+#if defined(__APPLE__) || defined(WIN32)
 			if (rgReaderStates_t[current_reader].dwCurrentState ==
 				rgReaderStates_t[current_reader].dwEventState)
 				continue;
