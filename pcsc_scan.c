@@ -106,7 +106,7 @@ static LONG stress(LONG hContext, const char *readerName)
 	DWORD dwActiveProtocol;
 	const SCARD_IO_REQUEST *pioSendPci;
 
-	printf("Stress card\n\n");
+	printf("Stress card in reader: %s\n\n", readerName);
 	rv = SCardConnect(hContext, readerName, SCARD_SHARE_SHARED,
          SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
 	if (rv != SCARD_S_SUCCESS)
