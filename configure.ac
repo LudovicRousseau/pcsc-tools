@@ -22,7 +22,6 @@ AC_PROG_CC
 # Check for some target-specific stuff
 case "$host" in
 *-*-darwin*)
-	PCSC_CFLAGS=${PCSC_CFLAGS:--framework PCSC}
 	PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
 	PCSC_PATH="PCSC/"
     ;;
