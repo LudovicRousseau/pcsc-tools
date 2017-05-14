@@ -224,6 +224,10 @@ int main(int argc, char *argv[])
 	printf("PC/SC device scanner\n");
 	printf("V " PACKAGE_VERSION " (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
 
+#ifdef WIN32
+	analyse_atr = FALSE;
+#endif
+
 	while ((opt = getopt(argc, argv, "Vhns")) != EOF)
 	{
 		switch (opt)
