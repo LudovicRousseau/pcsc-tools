@@ -25,6 +25,9 @@ case "$host" in
 	PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
 	PCSC_PATH="PCSC/"
     ;;
+*-*-msys)
+	PCSC_LIBS=-lwinscard
+	;;
 esac
 
 dnl Checks for libraries.
