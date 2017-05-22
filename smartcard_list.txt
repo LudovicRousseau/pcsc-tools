@@ -2246,6 +2246,10 @@
 3B 6F 00 00 80 31 C0 52 16 B9 64 05 66 80 32 83 83 90 00
 	Banorte Mexican Bank
 
+3B 6F 00 00 80 31 C0 52 20 E2 64 05 62 17 80 83 83 90 00
+	VISA MedicusMundi (VISA Classic Affinity credit card, issued by Laboral Kutxa) (Bank)
+	https://www.medicusmundi.es/es/que-puedes-hacer-tu/tarjetas-affinity
+
 3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
 	Norsk-Tipping (Buypass) Monodex card
 
@@ -2523,6 +2527,10 @@
 	Calypso application similar to French NAVIGO
 	MOBIB (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
+
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 22 68 D0 82 90 00
+	Public transport card lisbon (Transport)
+	http://www.portalviva.pt
 
 3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 0A 1D BA 82 90 00
 	French military discount on SNCF trains card (Transport)
@@ -3102,6 +3110,10 @@
 3B 7F 11 00 00 80 31 C0 52 35 31 64 05 66 61 52 83 83 90 00
 	Oberthur Manufactured VISA Banking card (www.caixaterrassa.cat)
 
+3B 7F 11 00 00 80 31 C0 52 36 51 64 05 66 61 52 83 83 90 00
+	Alsa Plus (Transport)
+	https://www.alsa.es
+
 3B 7F 11 00 00 80 31 C0 52 3A 65 64 06 96 18 62 83 83 90 00
 	Visa Electron Triodos Bank Card (Bank)
 
@@ -3238,6 +3250,10 @@
 
 3B 7F 13 00 00 80 31 C0 52 1B F1 64 05 62 17 80 83 83 90 00
 	blueBBVA Visa (Bank)
+
+3B 7F 13 00 00 80 31 C0 52 20 DD 64 05 62 17 80 83 83 90 00
+	VISA ELECTRON debit card (Bank)
+	https://en.wikipedia.org/wiki/Visa_Electron
 
 3B 7F 13 00 00 80 31 C0 52 26 DE 64 05 62 34 70 83 83 90 00
 	debit card (Bank)
@@ -3835,6 +3851,10 @@
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
 
+3B 89 80 01 32 33 32 43 53 43 53 33 36 3E
+	CSCS Smartcard (passport)
+	http://getgosmart.io
+
 3B 89 80 01 43 4C 61 69 72 65 32 20 36 3C
 	Fidor Smartcard Mastercard/Maestro (Bank)
 	https://www.fidor.eu
@@ -3947,6 +3967,9 @@
 
 3B 8A 80 01 80 65 A2 01 01 01 3D 72 D6 43 97
 	Gemplus GemXpresso Pro R3 E32 PK (combi)
+
+3B 8A 80 01 80 65 A2 01 31 01 3D 72 D6 41 A5
+	Resident Identity Card (eID)
 
 3B 8B 01 52 75 74 6F 6B 65 6E 20 44 53 20 C1
 	Rutoken ECP (DS)
@@ -5110,6 +5133,9 @@
 	i-SmartSim GSM phone SIM-lock bypass card
 	http://i-smartsim.com/component/portfolio/7-unlock-sim/7-universal-unlock-sim-f300gold
 
+3B 9F 11 80 3F C7 A0 80 31 E0 73 FE 21 1F 63 00 6C 00 83 81 90 00 29
+	Verizon Wireless 4G LTE SIM (Telecommunication)
+
 3B 9F 11 81 11 3D 10 FD 54 6B 7D 00 00 00 00 00 00 00 00 00 00 8C
 	Electronic Identity  (eID)
 
@@ -5661,6 +5687,9 @@
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
 
+3B 9F 96 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9A
+	Scientific and Technological Research Council of Turkey (test card) (eID)
+
 3B 9F 96 81 31 FE 45 80 67 55 45 4B 41 45 12 12 31 80 73 B3 A1 80 EA
 	AKiS v1.2 on nxp chip
 
@@ -6144,6 +6173,10 @@
 
 3B BF 96 00 81 31 FE 5D 00 64 04 11 03 01 31 C0 73 01 D0 00 90 00 00
 	DATEV eG, Nuernberg, Bavaria, Germany (PKI)
+	http://www.datev.de
+
+3B BF 96 00 81 31 FE 5D 00 64 04 11 03 01 31 C0 73 F7 01 D0 00 90 00
+	DATEV eG, Nuernberg, Bavaria, Germany (PKI) (PKI)
 	http://www.datev.de
 
 3B C5 FF 81 31 FB 45 80 73 C6 01 00 00
@@ -7177,6 +7210,10 @@
 3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 32 A8
 	JCOP31 / 72B1 V2.2
 	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
+
+3B F9 18 00 FF 81 31 FE 45 50 56 5F 4A 33 41 30 34 30 40
+	Yubico Yubikey NEO OTP+U2F+CCID (PKI)
+	https://www.yubico.com/products/yubikey-hardware/yubikey-neo/
 
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
