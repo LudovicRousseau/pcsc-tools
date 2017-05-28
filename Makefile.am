@@ -8,10 +8,13 @@ pcsc_scan_LDADD = $(PCSC_LIBS)
 
 bin_SCRIPTS = $(PERL_BINS)
 
+pcsc_DATA = smartcard_list.txt
+pcscdir = $(datarootdir)/pcsc
+
 #  install the man pages
 man_MANS = pcsc_scan.1 $(PERL_MANPAGES)
 
-EXTRA_DIST = Changelog $(PERL_BINS) $(PERL_MANPAGES)
+EXTRA_DIST = Changelog $(PERL_BINS) $(PERL_MANPAGES) $(pcsc_DATA)
 
 Changelog:
 	git log --stat --decorate=short > $@
