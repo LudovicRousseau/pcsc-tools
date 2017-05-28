@@ -4005,6 +4005,9 @@
 3B 8B 80 01 20 90 00 00 00 00 00 16 14 CD AA DF
 	JCOP 41 IBM card for Guizhou Normal University (JavaCard)
 
+3B 8B 80 01 20 90 00 00 00 00 00 C3 A4 CC 09 18
+	ID card (Other)
+
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
 	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
@@ -7214,6 +7217,9 @@
 3B F9 18 00 FF 81 31 FE 45 50 56 5F 4A 33 41 30 34 30 40
 	Yubico Yubikey NEO OTP+U2F+CCID (PKI)
 	https://www.yubico.com/products/yubikey-hardware/yubikey-neo/
+
+3B F9 91 00 FF 91 81 71 40 40 00 41 80 04 5B 89 BA B3 52 80 3A
+	mifare desfire 2k (eID)
 
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
