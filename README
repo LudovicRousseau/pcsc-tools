@@ -130,6 +130,9 @@ Licences:
 History:
 ========
 
+1.5.1 - 28 May 2017, Ludovic ROUSSEAU
+    - rename the archive pcsc-tools
+
 1.5.0 - 28 May 2017, Ludovic ROUSSEAU
     - 221 new ATRs
     - pcsc_scan:
