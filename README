@@ -130,6 +130,15 @@ Licences:
 History:
 ========
 
+1.5.0 - 28 May 2017, Ludovic ROUSSEAU
+    - 221 new ATRs
+    - pcsc_scan:
+      . add APDU stress mode (-s) (send "Select MF" APDU in a loop)
+      . display an animation while waiting for a card or reader event
+    - use autoconf/automake
+      . macOS support with no change
+      . Windows support (using MSYS2 http://www.msys2.org/)
+
 1.4.27 - 2 June 2016, Ludovic ROUSSEAU
     - 72 new ATRs
     - ATR_analysis: propose to submit the ATR if not known
