@@ -14,7 +14,8 @@ pcscdir = $(datarootdir)/pcsc
 #  install the man pages
 man_MANS = pcsc_scan.1 $(PERL_MANPAGES)
 
-EXTRA_DIST = Changelog $(PERL_BINS) $(PERL_MANPAGES) $(pcsc_DATA)
+EXTRA_DIST = Changelog $(PERL_BINS) $(PERL_MANPAGES) $(pcsc_DATA) \
+	gscriptor.desktop
 
 Changelog:
 	git log --stat --decorate=short > $@
