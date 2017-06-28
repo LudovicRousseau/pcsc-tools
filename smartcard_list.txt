@@ -422,6 +422,9 @@
 3B 19 96 80 67 98 04 01 01 01 01 01
 	PLUS gsm (Telecommunication)
 
+3B 1A 96 92 01 54 93 32 01 03 02 25 01
+	BEELINE (Telecommunication)
+
 3B 1B 94 80 69 06 02 22 11 00 80 08 00 00
 	eID
 
@@ -1522,6 +1525,10 @@
 	Feitian Java Card D11CR (JavaCard)
 	http://www.ftsafe.com/product/smartcard/javacard
 
+3B 6A 00 00 4A 43 4F 50 31 30 56 32 33 31
+	Dongle Smart Card (MxKey) (Other)
+	http://www.mxkey.biz/
+
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
 
@@ -1588,6 +1595,9 @@
 3B 6B 00 00 00 31 C0 64 08 10 51 10 0F 90 00
 	Skrill MasterCard (Bank)
 	https://www.skrill.com
+
+3B 6B 00 00 00 31 C0 64 08 17 71 00 07 90 00
+	MasterCard Debit Card for Macquarie Bank, Australia (Bank)
 
 3B 6B 00 00 00 31 C0 64 1F 18 01 00 0F 90 00
 	Portuguese Medical Association eID card (Cédula Profissional, Ordem dos Médicos, Portugal) (eID)
@@ -4147,6 +4157,10 @@
 	ING Maestro Debit Card (Bank)
 	https://www.ing.nl/particulier/index.html
 
+3B 8C 80 01 50 FE 89 27 67 11 00 00 11 77 81 81 1D
+	"Carta Mobile" bus card by CTT (Tuscany's bus company) (Transport)
+	http://www.pisa.cttnord.it/Carta_Mobile/P/561
+
 3B 8C 80 01 50 FF FF FF FF FF FF FF 22 00 10 51 C1
 	Printer ribbon tag (Other)
 
@@ -4187,6 +4201,9 @@
 	https://www.ing-diba.de/
 	Visa Debit Card with NFC payment function (Consorsbank)
 	https://www.consorsbank.de/
+
+3B 8D 80 01 00 73 C8 00 13 64 54 37 43 33 00 90 00 43
+	Deutsche Bank Debit MasterCard (Bank)
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -4861,6 +4878,9 @@
 
 3B 9C 94 00 68 86 8D 0C 86 98 02 45 A1 00 05 00
 	China Mobile (Telecommunication)
+
+3B 9C 94 00 68 86 8D 0C 86 98 02 56 40 8B 05 00
+	mobiledit (Telecommunication)
 
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
 	RuToken Light SC
@@ -5748,6 +5768,9 @@
 	Infinion SLE66CX680PE with Starcos 3.2
 	http://www.deutschepost.de/dpag?xmlFile=link1015459_49595
 
+3B 9F 96 81 B1 FE 45 1F 07 00 64 05 1E B2 03 31 B0 73 96 21 C0 05 90 00 44
+	German Dentist ID (eID)
+
 3B 9F 96 C0 0A 1F C3 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DA
 	SIM SFR Pro (French Mobile Operator)
 
@@ -6219,6 +6242,10 @@
 3B C5 FF 81 31 FB 45 80 73 C6 01 00 00
 	Japanese Individual Number Card (eID)
 	https://www.kojinbango-card.go.jp/en/kojinbango/index.html
+
+3B D0 96 FF 81 B1 FE 45 1F 03 2E
+	New european health insurance card of the German health insurance (G2) (HealthCare)
+	https://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte
 
 3B D0 96 FF 81 B1 FE 45 1F 07 2A
 	German public health insurance card („Gesundheitskarte“), 2nd generation (G2), issuer Techniker Krankenkasse (HealthCare)
@@ -7259,6 +7286,10 @@
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
 
+3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 03 00 20 46 42
+	ActivIdentity Activkey Sim (PKI)
+	https://www.hidglobal.com/products/cards-and-credentials/activid/usb-tokens
+
 3B F9 96 00 00 81 31 FE 45 45 4F 4E 43 61 72 64 56 31 73
 	eONCard V1 (PKI)
 
@@ -8080,6 +8111,9 @@
 3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 67
 	Greek Academic ID (eID)
 	http://academicid.minedu.gov.gr/
+
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 56 51 10 12 01 78 82 90 00 6A
+	SafeNet eToken 5300 (PKI)
 
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
