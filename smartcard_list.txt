@@ -675,6 +675,10 @@
 3B 37 13 00 80 62 21 13 82 90 00
 	Swiss UBS Maestro/CASH Bank Card
 
+3B 39 19 00 53 4F 4D 41 44 53 33 30 3[1,3]
+	Identity card of the Republic of Kazakhstan (passport)
+	http://pki.gov.kz/
+
 3B 3B .. 00 80 6. A[FE] 03 0[CD] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
 
@@ -1507,6 +1511,10 @@
 
 3B 69 00 FF 00 64 4A 10 04 32 05 90 00
 	NXP JCOP 20 V2.1 16K
+
+3B 69 00 FF 31 31 31 30 54 43 4F 53 50
+	Seven-Eleven Value Card / Smart Purse - Thailand (Other)
+	http://www.7eleven.co.th/about7card.php
 
 3B 69 00 FF 32 33 32 43 53 43 53 33 36
 	CSCS smart card. Must be read using CSCS go smart software.
@@ -2561,6 +2569,10 @@
 3B 6F 00 00 80 5A 2C 23 C2 10 10 05 .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 
+3B 6F 00 00 80 5A 2C 23 C3 00 03 02 02 82 D3 9D 82 90 00
+	MOBIB Public Transport - De Lijn (Transport)
+	http://www.delijn.be/nl/vervoerbewijzen/mobib-kaart/
+
 3B 6F 00 00 80 5A 2C 23 C3 00 03 02 02 84 94 EA 82 90 00
 	MOBIB card for DeLijn (public transport operator for the Flemish part of Belgium)
 
@@ -3448,6 +3460,8 @@
 	https://www.opal.com.au
 	TH Köln (University of Applied Sciences Cologne) - Student Identity Card
 	https://www.th-koeln.de/en/academics/multica_5893.php
+	German red cross blood donation service
+	http://www.blutspende-nordost.de/
 
 3B 81 80 01 81 81
 	Ticket (Transport)
@@ -3874,6 +3888,10 @@
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
 
+3B 89 80 01 31 31 31 30 54 43 4F 53 50 52
+	Seven-Eleven Value Card / Smart Purse - Thailand (Contactless) (Other)
+	http://www.7eleven.co.th/about7card.php
+
 3B 89 80 01 32 33 32 43 53 43 53 33 36 3E
 	CSCS Smartcard (passport)
 	http://getgosmart.io
@@ -4204,6 +4222,9 @@
 
 3B 8D 80 01 00 73 C8 00 13 64 54 37 43 33 00 90 00 43
 	Deutsche Bank Debit MasterCard (Bank)
+
+3B 8D 80 01 00 73 C8 00 13 64 54 37 44 33 00 90 00 44
+	master cRD (Bank)
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -5012,8 +5033,14 @@
 	Three Hong Kong Prepaid SIM Card (Telecommunication)
 	http://www.three.com.hk/website/appmanager/three/home?_nfpb=true&_pageLabel=P200470391219567710594&pageid=631001&lang=eng
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 79 0E 6B 00 1E
+	TracFone (US) TF64SIMC4 V2 GSM SIM Card
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 06 50 00 2E
 	AT&T UICC with USIM (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 0E 3E 00 48
+	TracFone (US) TF64PSIMC4 GSM SIM Card
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EC
 	Mobile Vicking SIM card (Telecommunication)
@@ -5054,6 +5081,10 @@
 
 3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EB
 	Lycamobile Pay As You Go SIM
+
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 8F 11 00 01
+	Spark New Zealand SIM Card  (Telecommunication)
+	http://spark.co.nz
 
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 8F 12 00 02
 	Russian "Megafon" gsm sim card (Telecommunication)
@@ -5569,6 +5600,10 @@
 	sysmoUSIM-SJS1 (Telecommunication)
 	http://www.sysmocom.de/products/sysmousim-sjs1-sim-usim
 
+3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 44 22 06 10 00 00 01 A9
+	Fairwaves test SIM card (Telecommunication)
+	http://fairwaves.co
+
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 43 01 00 8C
 	SIM From Tuenti Móvil Spain (Telecommunication)
 
@@ -5636,6 +5671,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 03 04 04 04 4F
 	GSM-SIM EMT (3G modem 2011, Estonia)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 07 04 07 07 07 4B
+	Older Vodafone SIM Card New Zealand (full-size, 64k) (Telecommunication)
+	http://vodafone.co.nz
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5F
 	Simple mobile. UICC with USIM (Telecommunication)
@@ -5705,6 +5744,10 @@
 	Orange Spain GSM SIM Card (Telecommunication)
 	http://www.orange.es
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 61 81 00 82 90 00 61
+	tele2 (Telecommunication)
+	http://www.tele2.ru
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 78 83 00 82 90 00 7A
 	Free Mobile SIM (Telecommunication)
 
@@ -5721,6 +5764,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 27 01 09 01 03 81 05 7B
 	slarmy (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 63 01 09 02 01 81 05 3E
+	2degrees Mobile SIM Card New Zealand (Telecommunication)
+	http://2degreesmobile.co.nz
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 01 FE
 	Telekom Deutschland GmbH - Xtra Data Karte (3G SIM)
