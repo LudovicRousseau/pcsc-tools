@@ -1082,6 +1082,9 @@
 3B 65 00 00 20 63 CB B6 20
 	MasterCard credit card, issued by Swedbank LT (Bank)
 
+3B 65 00 00 20 63 CB B7 20
+	Lloyds Bank Platinum Mastercard Credit (Bank)
+
 3B 65 00 00 26 40 00 90 00
 	Alacard Petroltech (Transport)
 	http://www.alacard.kz/
@@ -1607,6 +1610,9 @@
 3B 6B 00 00 00 31 C0 64 08 17 71 00 07 90 00
 	MasterCard Debit Card for Macquarie Bank, Australia (Bank)
 
+3B 6B 00 00 00 31 C0 64 13 14 02 00 0F 90 00
+	UBA Card PREPAID (Bank)
+
 3B 6B 00 00 00 31 C0 64 1F 18 01 00 0F 90 00
 	Portuguese Medical Association eID card (Cédula Profissional, Ordem dos Médicos, Portugal) (eID)
 	http://www.omsul.pt/tabid/242/Default.aspx
@@ -1867,6 +1873,9 @@
 3B 6E 00 00 00 31 80 71 86 65 47 44 24 01 81 83 90 00
 	MasterCard Card - Maximum - IS Bank / Turkey
 	Visa Card - Axess - Akbank / Turkey
+
+3B 6E 00 00 00 31 C0 65 0A D7 02 00 82 71 D6 8C 61 33
+	Lloyds (Bank)
 
 3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 2C
 	Kazakhstan Centrcredit bank VISA electron card
@@ -2535,9 +2544,16 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 35 8F 16 82 90 00
+	French Navigo passcard to travel in Paris area using RATP & SNCF services (Transport)
+	http://www.navigo.fr/
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 40 6D 7A 82 90 00
 	French Navigo Card for Transport (RATP, SNCF) (Transport)
 	http://www.navigo.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 55 78 4A 82 90 00
+	French card navigo (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 61 32 D6 82 90 00
 	Navigo (Transport)
@@ -2765,6 +2781,9 @@
 
 3B 78 18 00 00 54 48 20 4E 49 44 20 37
 	Thailand National ID (eID)
+
+3B 78 18 00 FF 00 73 C8 40 00 00 90 00
+	NAB Visa Debit - Contact I/F (Bank)
 
 3B 78 96 00 00 00 73 C8 40 00 00 90 00
 	SAM card for acquirer module by lanit.ru (Bank)
@@ -3727,6 +3746,9 @@
 3B 88 80 01 00 00 00 00 00 71 81 00 F9
 	Navigo Découverte (RFID interface) (Transport)
 
+3B 88 80 01 00 00 00 00 00 81 77 00 FF
+	KBC Maestro card (Bank)
+
 3B 88 80 01 00 00 00 00 00 81 87 00 0F
 	ING Bank Card (Bank)
 	https://www.ing.nl/particulier/betalen/passen/betaalpas/contactloos-betalen-met-uw-betaalpas/index.html
@@ -3754,6 +3776,9 @@
 	Public transportation card in Riga, Latvia, called "e-Talons"
 	http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
 	Belgian MOBIB (transport)
+
+3B 88 80 01 00 00 00 11 77 81 83 00 6D
+	Taglio PIVKey C980 - RFID I/F (PKI)
 
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
 	Belgian passport (2008-2009)
@@ -4209,6 +4234,9 @@
 3B 8C 80 01 90 67 46 4A 00 64 16 06 F2 72 7E 00 7C
 	PIVKey C910 (PKI)
 	https://pivkey.com/
+
+3B 8C 80 01 90 67 46 4A 00 68 08 06 00 00 00 00 90
+	Feitian JavaCard - RFID I/F (JavaCard)
 
 3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01 CF
 	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
@@ -5059,6 +5087,9 @@
 	abc mobile prepaid sim card (serviced by CSL) (Telecommunication)
 	https://www.hkcsl.com/en/abc-Mobile-Prepaid-SIM-Cards/
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 66 13 00 63
+	Three UK USIM card (Telecommunication)
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -5833,6 +5864,9 @@
 
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
 	Verizon "4G LTE" USIM (Telecommunication)
+
+3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 01 90 0F 3B 81 0F E6
+	Verizon US USIM card (Telecommunication)
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
@@ -6628,6 +6662,10 @@
 3B DF 95 00 80 1F 87 80 31 A0 73 FF 21 00 63 45 B3 09 83 0F 90 00 6E
 	Card Mobilis Algeria telecom (Telecommunication)
 	http://www.mobilis.dz
+
+3B DF 95 00 80 1F C3 80 31 E0 73 FE 21 1B 67 4C 45 54 41 32 31 35 BD
+	SK Telecom SIM card (in Korea) (Telecommunication)
+	http://www.sktelecom.co.kr/
 
 3B DF 95 FF 80 91 FE 1F C3 80 25 A0 00 00 00 68 53 19 00 01 73 C8 21 13 29
 	CardLogix Credensys-J Contacted Java Card 2.2.1 Global Platform 2.1.1 (Atmel AT90SC12872RCFT)
@@ -7551,6 +7589,10 @@
 	Feitian A40 JavaCard (64K) (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~711/javacos-a40-dual-interface-java-card-64k/p/index.shtml
 
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 00 20 05 00 00 00 00 4E
+	Feitian A40 (JavaCard)
+	http://www.smartcardfocus.com/shop/ilp/id~711/javacos-a40-dual-interface-java-card-64k/p/index.shtml
+
 3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 00 25 04 00 00 00 00 4A
 	Feitian JavaCOS A22CR ()
 	http://www.javacardos.com/store/javacard-a22cr.php
@@ -7629,6 +7671,9 @@
 
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 48 C8 83 00 90 00
 	Pay TV
+
+3B FD 96 00 00 81 31 80 43 80 31 80 65 B0 85 01 00 D6 83 01 90 00 BC
+	Queensland Drivers' Licence (Australia) (eID)
 
 3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 29 80 00 00 00 00 00 00 A9
 	DPI Guatemala (eID)
