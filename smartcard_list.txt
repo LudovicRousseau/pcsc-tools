@@ -152,6 +152,9 @@
 	HID 1346 ProxKey III
 	http://www.hidglobal.com/products/cards-and-credentials/hid-proximity/1346
 
+3B 06 00 05 64 03 2B 2B
+	HID 0009 P (eID)
+
 3B 06 00 10 01 D6 C5 46
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
@@ -530,6 +533,9 @@
 3B 24 00 00 00 00 00
 	MultiChoice satelite TV Card Eutelsat 36B at 35.9°E
 	http://www.lyngsat.com/Eutelsat-36B.html
+
+3B 24 00 00 E2 92 67
+	Health care (HealthCare)
 
 3B 24 00 30 42 30 30
 	ComHem Digital-TV smartcard (Sweden)
@@ -1446,6 +1452,10 @@
 	CommSec Debit MasterCard (Australia)
 	VISA Debit card for Bank of Sydney, Australia
 
+3B 68 00 FF 38 2B 41 52 44 6E 73 73
+	Dummy smart card from vsmartcard project. (Other)
+	http://frankmorgner.github.io/vsmartcard/remote-reader/README.html
+
 3B 68 00 FF 4A 43 4F 50 76 32 34 31
 	Alfa-bank VISA Classic card (Bank)
 	https://alfabank.ru
@@ -1600,8 +1610,10 @@
 	http://strelkacard.ru/
 
 3B 6B 00 00 00 31 C0 64 08 04 61 F4 0F 90 00
-	n26 Maestro Card (Bank)
-	https://n26.com/
+	N26 Maestro Card (Bank)
+	https://n26.com/maestro-card/
+	N26 MasterCard (Bank)
+	https://n26.com/mastercard/
 
 3B 6B 00 00 00 31 C0 64 08 10 51 10 0F 90 00
 	Skrill MasterCard (Bank)
@@ -3277,6 +3289,10 @@
 3B 7F 13 00 00 80 31 C0 52 16 50 64 02 B3 02 70 83 83 90 00
 	Banrisul credit card (Bank)
 
+3B 7F 13 00 00 80 31 C0 52 16 D7 64 05 62 17 80 83 83 90 00
+	Bank card from BBVA (spanish) (Bank)
+	https://www.bbva.es
+
 3B 7F 13 00 00 80 31 C0 52 16 F5 64 05 69 93 70 83 83 90 00
 	Banco do Brasil (Bank)
 
@@ -4199,6 +4215,9 @@
 3B 8C 80 01 50 F2 AD 19 D7 00 00 00 00 00 81 77 3A
 	ING Maestro Debit Card (Bank)
 	https://www.ing.nl/particulier/index.html
+
+3B 8C 80 01 50 F6 DC FC 13 23 18 01 00 77 81 97 C3
+	mifare (Transport)
 
 3B 8C 80 01 50 FE 89 27 67 11 00 00 11 77 81 81 1D
 	"Carta Mobile" bus card by CTT (Tuscany's bus company) (Transport)
@@ -5815,6 +5834,10 @@
 
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
+
+3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 1B 64 08 05 03 00 82 90 00 EF
+	Multipurpose UICC card for 2G, 3G, 4G/LTE, CDMA, ISIM & NFC (Telecommunication)
+	http://www.smartjac.biz/index.php/component/eshop/telecom/test-uicc-sim-cards/2ff-mini-sim-cards/4g-open-multipurpose-uicc-card-3ff?Itemid=0
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
@@ -7532,6 +7555,9 @@
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 48 AC
 	ZeitControl BasicCard Professional 5.4
 
+3B FB 18 00 00 40 78 80 59 53 50 59 52 55 53 0B 00 03
+	Spyrus, Inc. Rosetta USB (PKI)
+
 3B FB 18 00 00 40 78 80 59 53 50 59 52 55 53 0B 04 02
 	SPYRUS Rosetta Series 2 (eID)
 	http://www.spyrus.com/rosetta-hsm/
@@ -8181,6 +8207,10 @@
 3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
 	Giesecke & Devrient STARSIM
 
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 39
+	Big TV India (Pay TV)
+	https://www.lyngsat.com/packages/Big-TV.html
+
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 41
 	Pay TV - NC+ in Poland (Pay TV)
 	http://ncplus.pl/
@@ -8675,8 +8705,16 @@
 	New ROM of Nagra PayTV Card DNASP410 (Pay TV)
 	http://en.wikipedia.org/wiki/Nagravision
 
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 37 15
+	New Digi Slovakia (Pay TV)
+	https://www.lyngsat.com/packages/Digi.html
+
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 42 60
 	Nagravision Kudelski Generation 7 card  Rom410 MerQ2B   (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 38 32 20 52 65 76 52 32 36 1C
+	Max Tv Croatia (Pay TV)
+	https://www.lyngsat.com/packages/Max-TV.html
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 32 20 44 73 68 4E 30 39 1F
 	Dish Network ROM552 (Pay TV)
