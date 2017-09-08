@@ -241,6 +241,12 @@ sub update_smartcard_list($$)
 	{
 		print "Updating $file using $url\n";
 
+		if (! -e "$file")
+		{
+			# the file does not exist yet: create the parent directory
+			system("mkdir -p $Cache");
+		}
+
 		if ($^O =~ "darwin")
 		{
 			system("curl $url --output $file");
@@ -260,15 +266,6 @@ sub update_smartcard_list($$)
 
 # find the corresponding card type
 my $found = find_card($atr, @SMARTCARD_LIST);
-if ($found == 2)
-{
-	# no ATR file found
-	mkdir $Cache;
-
-	# continue with the ATR list update
-	$found = 1;
-}
-
 if ($found == 1)
 {
 	# ATR not found
@@ -535,7 +532,7 @@ sub find_card($@)
 	}
 
 	# no valid file found
-	return 2 if (!defined $file);
+	return 1 if (!defined $file);
 
 	$found = 0;
 	print "\nPossibly identified card (using $file):\n";
