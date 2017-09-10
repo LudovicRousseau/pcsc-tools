@@ -159,6 +159,9 @@
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
 
+3B 06 01 00 10 00 06 60
+	Access card for parking garage in South Boston (Other)
+
 3B 06 01 00 22 01 82 27
 	HID ProxCard II (Other)
 
@@ -1088,6 +1091,9 @@
 3B 65 00 00 20 63 CB B6 20
 	MasterCard credit card, issued by Swedbank LT (Bank)
 
+3B 65 00 00 20 63 CB B6 80
+	Visa bank card  (Bank)
+
 3B 65 00 00 20 63 CB B7 20
 	Lloyds Bank Platinum Mastercard Credit (Bank)
 
@@ -1301,6 +1307,9 @@
 3B 67 00 00 B5 40 40 52 0B 90 00
 	Sodexo card (Other)
 	http://be.benefits-rewards.sodexo.com/fr/entreprises/sodexo-card
+
+3B 67 00 00 B7 40 40 43 9B 90 00
+	MasterCard (Bank)
 
 3B 67 00 00 B7 40 40 44 9B 90 00
 	Handelsbanken frikort maestro (Bank)
@@ -1812,7 +1821,7 @@
 3B 6D 00 00 57 44 29 6C 80 86 93 D6 03 EE 08 2A 3D
 	SCSTA (Transport)
 
-3B 6D 00 00 57 44 36 41 01 86 93 07 39 35 34 31 35
+3B 6D 00 00 57 44 36 41 01 86 93 07 39 .. .. .. ..
 	WatchData Proxkey with VID:PID as 0x163C:0x0417 (PKI)
 	http://www.watchdata.com/class.php?id=19
 
@@ -2153,6 +2162,9 @@
 3B 6E 00 00 00 62 16 43 .. 41 56 41 4E 54 10 81 .. ..
 	Setec SetCos 4.3.0
 
+3B 6E 00 00 00 62 80 42 57 41 56 41 4E 54 10 81 90 00
+	Sampo Pankki (Finland) (now known as Danske Bank) ATM card (Bank)
+
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
 
@@ -2233,6 +2245,9 @@
 
 3B 6E 00 00 80 31 80 66 B1 A1 11 01 A0 F6 83 00 90 00
 	Optelio D72 FXR1 (MD) T=0
+
+3B 6E 00 00 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
+	French "Livret A" issued by "La banque postale" (Bank)
 
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
@@ -3714,6 +3729,10 @@
 3B 87 80 01 4D 52 54 44 32 2E 30 25
 	Biometric Passport of the Russian Federation (passport)
 
+3B 87 80 01 5A 43 50 75 72 73 65 5E
+	ZCPurse RFID card (ATR created by PCSC-Reader) (Transport)
+	http://www.zeitcontrol.de/en/zcpurse
+
 3B 87 80 01 73 C8 40 00 00 90 00 6D
 	Amazon.de VISA Card (Bank)
 	http://lbb.de/amazon
@@ -4310,6 +4329,7 @@
 3B 8E 80 01 00 51 31 63 1F 59 01 73 9F 20 C0 C0 90 00 17
 	Identity card (eID) Republic of Latvia (eID)
 	http://www.pmlp.gov.lv/en/home/services/personal-certificates-%28eid%29/
+	French driving license (eID) (contactless)
 
 3B 8E 80 01 0E 78 33 C4 02 00 64 04 15 01 02 00 90 FF 95
 	Spanish Passport
@@ -5127,6 +5147,10 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 66 13 00 63
 	Three UK USIM card (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 8B 12 00 8F
+	Ufone (SIM Card) (Telecommunication)
+	https://ufone.com/Consumer-Manual/668-SIM-Information-System/
 
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
@@ -6453,6 +6477,10 @@
 	D-Trust multicard advanced 3.1
 	German public health insurance card ("Gesundheitskarte"), issuer SBK "Siemens Betriebskrankenkasse"
 
+3B D8 96 00 81 B1 FE 45 1F 07 43 48 54 47 50 4B 49 4A DD
+	Citizen Digital Certificate, Taiwan (PKI)
+	http://moica.nat.gov.tw/
+
 3B D8 96 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 5B
 	Swiss LAMal health insurance card
 
@@ -7024,6 +7052,10 @@
 
 3B EF 00 00 81 31 FE 45 43 44 32 69 A9 81 00 00 20 20 20 20 20 20 00 90
 	UBS Switzerland Mastercard credit card (Bank)
+
+3B EF 00 00 81 31 FE 45 43 44 33 69 09 80 00 00 20 20 20 20 20 20 00 30
+	Nordea Credit Gold MasterCard (Bank)
+	http://www.nordea.ee/Private+customers/Daily+banking/Cards/Nordea+Gold/67062.html?lnkid=frontpage_teaser_GOLD_30-07-2014
 
 3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 44 44 41 30 30 35 35 00 F7
 	Master Card (emitted by bank Nordea - Lithuania)
