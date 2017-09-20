@@ -1337,6 +1337,9 @@
 3B 67 25 00 62 24 33 03 ..
 	Bull TB1000 ? (SAM for ATM in Luxemburg)
 
+3B 68 00 00 00 02 62 C9 01 45 90 00
+	Politecnico di Milano's PoliCard (issued by Banca Popolare di Sondrio, Mastercard prepaid card) (Bank)
+
 3B 68 00 00 00 73 C8 40 00 00 90 00
 	Barclaycard Visa Wave & Pay - Chip I/F
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
@@ -1371,6 +1374,10 @@
 	https://www.chase.com/
 	CaixaBank Visa Electron (Bank)
 	https://www.lacaixa.cat/
+
+3B 68 00 00 00 73 C8 40 13 00 90 7D
+	NextCard - Mastercard Debit card - Intesa Sanpaolo Bank (Italy) (Bank)
+	https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/carte/carte-di-debito/next-card.html
 
 3B 68 00 00 01 01 31 00 00 00 90 00
 	VISA ELECTRON Sberbank card (Bank)
@@ -1811,6 +1818,9 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
 	Deutsche Bank MasterCard Credit Card (Bank)
 	https://www.deutsche-bank.de/pfb/content/pk-konto-und-karte-kreditkarte.html
+
+3B 6D 00 00 00 73 C8 00 13 64 54 37 4B 33 00 90 00
+	Fineco (Italy) Bancomat (Visa) (Bank)
 
 3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
 	Student college card
@@ -3508,6 +3518,7 @@
 	ISO 14443 Type B without historical bytes
 	Electronic Passport
 	Spanish passport (2012)
+	Canadian Passport
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
@@ -3526,6 +3537,8 @@
 	https://www.th-koeln.de/en/academics/multica_5893.php
 	German red cross blood donation service
 	http://www.blutspende-nordost.de/
+	Greater Toronto/Hamilton/Ottawa PRESTO contactless fare card
+	http://en.wikipedia.org/wiki/Presto_card
 
 3B 81 80 01 81 81
 	Ticket (Transport)
@@ -3736,6 +3749,7 @@
 3B 87 80 01 73 C8 40 00 00 90 00 6D
 	Amazon.de VISA Card (Bank)
 	http://lbb.de/amazon
+	CIBC Visa
 
 3B 87 80 01 77 43 49 50 02 00 01 28
 	CIPURSE (transport)
@@ -3838,11 +3852,15 @@
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
 	Barclaycard Visa Wave & Pay - RFID I/F
+	CIBC Visa
 
 3B 88 80 01 00 73 C8 40 13 00 90 00 71
 	Nokia 6131 NFC phone
 	http://wiki.forum.nokia.com/index.php/Nokia_6131_NFC_-_FAQs
 	Giesecke & Devrient’s (G&D) Sm@rtCafé Expert 3.1
+	Amex Bank of Canada American Express
+	TD Canada Trust Visa
+	TD Canada Trust Access Card (Visa Debit)
 
 3B 88 80 01 00 DD A6 11 F7 71 85 00 60
 	 "Pyrelis" card, PAU (France) public transport card. (Calypso card). (Transport)
@@ -4158,6 +4176,10 @@
 	Belimo VAV-Compact NFC (Other)
 	http://www.belimo.ch/pdf/e/flyer_nfc_en.pdf
 
+3B 8C 80 01 50 00 05 02 2D 02 06 00 00 00 81 91 63
+	Local Transport card for Trentino region (Italy) trentino trasporti esercizio (Transport)
+	http://www.ttesercizio.it/
+
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
@@ -4187,6 +4209,10 @@
 3B 8C 80 01 50 27 50 38 CE 00 00 00 00 00 71 81 2C
 	Paris transportation card (Pass Navigo) (Transport)
 	https://fr.wikipedia.org/wiki/Passe_Navigo
+
+3B 8C 80 01 50 35 A4 5B 65 00 00 00 00 80 81 71 82
+	Trenitalia cartafreccia (Transport)
+	http://www.trenitalia.com/tcom/Cartafreccia
 
 3B 8C 80 01 50 38 0E B2 5B 00 00 00 00 B3 71 71 31
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
@@ -4295,6 +4321,9 @@
 	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
 	https://technet.microsoft.com/en-us/library/dn593708%28v=ws.11%29.aspx
 
+3B 8D 80 01 00 73 C8 00 13 64 47 37 42 37 00 90 00 55
+	TD Canada Trust Visa
+
 3B 8D 80 01 00 73 C8 00 13 64 54 37 41 38 00 90 00 4A
 	Visa Debit (ING-DiBa) (Bank)
 	https://www.ing-diba.de/
@@ -4306,6 +4335,11 @@
 
 3B 8D 80 01 00 73 C8 00 13 64 54 37 44 33 00 90 00 44
 	master cRD (Bank)
+	TD MasterCard
+	Tangerine MasterCard
+
+3B 8D 80 01 00 73 C8 00 13 64 54 37 47 31 00 90 00 45
+	Tangerine ATM/ABM Card
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -5595,6 +5629,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 B4 01 0E 01 02 81 05 ED
 	USIM Card by Maroc Telecom Morocco (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 67 53 48 43 4F 5F 01 01 9B
+	baicells sim card (Telecommunication)
+	http://www.baicells.com/
+
 3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
 	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
 	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
@@ -5810,6 +5848,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 01 01 01 01 45
 	Chunghwa Telecom Prepaid 4G SIM (Telecommunication)
 	https://prepaidsim.twgate.net/index_en.html
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 01 02 01 02 45
+	SIM card from the Polish telecom operator "P4" or "Play" (Telecommunication)
+	https://www.play.pl/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
 	3 (3g microUSIM) Italian subsidiary H3G
@@ -6511,6 +6553,10 @@
 	German dentist's identity card (eID)
 	http://www.medisign.de/
 
+3B DA 11 FF 81 B1 FE 55 1F 03 00 31 84 73 80 01 80 00 90 00 E4
+	Gnuk OpenPGP Token (PKI)
+	https://www.fsij.org/category/gnuk.html
+
 3B DA 11 FF 81 B1 FE 55 1F 03 00 31 84 73 80 01 80 05 90 00 E1
 	Nitrokey Start (Openpgp USB) (Other)
 	https://www.nitrokey.com/products/nitrokey-start
@@ -6518,6 +6564,9 @@
 3B DA 13 FF 81 31 FB 46 80 12 39 2F 31 C1 73 C6 01 C0 3B
 	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
 	http://www.cas.go.jp/jp/seisaku/bangoseido/english.html
+
+3B DA 18 FF 81 B1 FE 45 1F C3 54 69 63 54 6F 6B 20 32 2E 30 68
+	TikTok 2.0 (PKI)
 
 3B DA 18 FF 81 B1 FE 75 1F 03 00 31 C5 73 C0 01 40 00 90 00 0C
 	GnuPG card V2
