@@ -1595,6 +1595,9 @@
 3B 6A 00 00 80 66 A2 0A 01 01 8B 0E 90 00
 	CAP-EMV demo card
 
+3B 6A 00 FF 00 31 C1 73 C8 40 00 00 90 00
+	Paypal EMV debit card (Bank)
+
 3B 6A 00 FF 41 42 43 44 32 45 46 47 48 49
 	Austria card - JCOP 31/36K
 
@@ -2646,6 +2649,10 @@
 	http://www.belgianrail.be/en/travel-tickets/mobib/no-mobib.aspx
 	http://www.stib-mivb.be/mobib.html
 
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 13 AA 4F 82 90 00
+	NMBS National Belgian Railways MOBIB Card (Transport)
+	http://www.belgianrail.be/en/travel-tickets/mobib.aspx
+
 3B 6F 00 00 80 5A 2C 23 EA 00 03 02 02 85 24 CA 82 90 00
 	Pcard Interparking Mobib (Transport)
 
@@ -2783,6 +2790,7 @@
 
 3B 77 18 00 00 4B 41 53 41 4B 49 44
 	Identification Kazakhstan Republic (passport)
+	https://egov.kz/
 
 3B 78 12 00 00 47 C4 03 00 8F F1 90 00
 	Sattelite bg 23.5 East cryptoworks card
@@ -3151,6 +3159,10 @@
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 08 00 01 14
 	MůjKlíč smart card with a certificate for Direct Banking (PKI)
 	https://www.kb.cz/en/direct-banking/certificates/certificate-on-smartcards/
+
+3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 00 01 14
+	ProID+ Q (PKI)
+	http://proid.cz
 
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 00 01 16
 	CryptoPlus CS xg
@@ -4140,6 +4152,10 @@
 3B 8B 80 01 0B 78 80 82 02 44 49 20 30 32 4D 1B
 	Mastercard Debit issued by Raiffeisen bank in Czech Republic
 
+3B 8B 80 01 20 85 00 8B 03 0F E0 9A A0 E0 40 52
+	Shanghai Public Transportation Card (Transport)
+	http://www.sptcc.com/
+
 3B 8B 80 01 20 90 00 00 00 00 00 16 14 CD AA DF
 	JCOP 41 IBM card for Guizhou Normal University (JavaCard)
 
@@ -4432,6 +4448,9 @@
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
+
+3B 8F 80 01 00 00 00 00 00 00 00 00 00 00 00 FF 82 90 00 E3
+	CIE (eID)
 
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
@@ -5298,6 +5317,9 @@
 	Aldi Talk SIM card, Germany (Telecommunication)
 	https://www.alditalk.de/talk
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 12 10 00 A2
+	OpenAirInerface (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
 
@@ -5955,6 +5977,10 @@
 
 3B 9F 96 81 31 FE 45 80 67 55 45 4B 41 45 12 93 31 80 73 B3 A1 80 6B
 	AKiS v1.3 on infineon chip
+
+3B 9F 96 81 31 FE 5D 00 64 04 28 01 02 31 C0 73 F7 01 D0 00 90 00 65
+	German eTicketing SAM (Transport)
+	https://www.eticket-deutschland.de/
 
 3B 9F 96 81 31 FE 9D 00 64 05 A0 03 04 31 C0 73 F7 01 D0 00 90 00 28
 	Deutsche Telekom AG, TeleSec PKS ECC Signature Card (PKI)
@@ -7853,6 +7879,10 @@
 	Smartcard-HSM
 	http://www.cardcontact.de/products/sc-hsm.html
 
+3B FE 91 00 FF 91 81 71 FE 40 00 41 20 00 51 77 91 80 31 80 65 B0 85 03 00 FB
+	 Italian Card Identity (CIE Comune di Parma) (eID)
+	http://www.comune.parma.it/servizi/Servizi-Demografici-Carta-di-identita/Carta-di-identita-Elettronica-CIE_A2_C100_P96.aspx
+
 3B FE 91 00 FF 91 81 71 FE 40 00 41 28 00 01 80 81 00 73 C8 40 00 00 90 00 4D
 	Philips SmartMX chip (IBMs JCOP OS)
 
@@ -7933,6 +7963,9 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
+	USAA EMV Visa Debit Card (Bank)
 
 3B FF 13 00 FF 10 80 80 31 E0 6B 07 14 05 02 8A 55 55 55 55 55 55
 	Tangerine Debit Card (Bank)
@@ -8828,6 +8861,10 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 42 60
 	Nagravision Kudelski Generation 7 card  Rom410 MerQ2B   (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 53 71
+	Slovak and Czech pay TV provider Slovak Telecom (Pay TV)
+	http://www.flysat.com/novadigi-sk.php
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 38 32 20 52 65 76 52 32 36 1C
 	Max Tv Croatia (Pay TV)
