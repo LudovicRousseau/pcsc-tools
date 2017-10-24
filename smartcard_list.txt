@@ -1724,6 +1724,7 @@
 	VISA credit card, issued by HSBC Commercial Card UK (Bank)
 	http://www.swedbank.lt/lt/pages/privatiems/auksine_kredito_kortele
 	HSBC Commercial Card (UK) VISA
+	Capital One UK Platinum MasterCard
 
 3B 6C 00 00 10 10 10 30 00 00 00 00 00 00 00 00
 	Datacard Group Aptura Development Card V1.1b
@@ -2046,6 +2047,7 @@
 
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
 	Tesco Bank Credit Card (VISA) (Bank)
+	Tesco Bank UK MasterCard ClubCard Credit Card
 
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 35
 	Bank Of Ireland Visa Debit (Bank)
@@ -2424,6 +2426,9 @@
 3B 6F 00 00 80 31 E0 6B 08 24 05 02 B5 55 55 55 55 55 55
 	Revolut MasterCard (UK)
 
+3B 6F 00 00 80 31 E0 6B 09 25 02 02 09 55 55 55 55 55 55
+	OCA  Card - Master Card credit card (Bank)
+
 3B 6F 00 00 80 31 E0 6B 84 06 03 04 31 55 55 55 55 55 55
 	Multos Developer Sample
 
@@ -2603,6 +2608,9 @@
 	French Navigo Card for Transport (RATP, SNCF) (Transport)
 	http://www.navigo.fr/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 43 0C E1 82 90 00
+	French Navigo Card (Transport)
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 55 78 4A 82 90 00
 	French card navigo (Transport)
 
@@ -2625,6 +2633,10 @@
 	Calypso application similar to French NAVIGO
 	MOBIB (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
+
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 16 21 3D 82 90 00
+	Portuguese Viva Card (Transport)
+	http://www.portalviva.pt
 
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 22 68 D0 82 90 00
 	Public transport card lisbon (Transport)
@@ -2835,7 +2847,7 @@
 	VERISOFT REWARDO LOYALTY CARD and CUSTOM PERSONALIZATION PROJECTS FOR EXTERNAL ENTITIES (Loyalty)
 	http://www.verisoft.com
 
-3B 78 18 00 00 54 48 20 4E 49 44 20 37
+3B 78 18 00 00 54 48 20 4E 49 44 20 3.
 	Thailand National ID (eID)
 
 3B 78 18 00 FF 00 73 C8 40 00 00 90 00
@@ -2956,6 +2968,10 @@
 
 3B 7B 94 00 00 80 62 1[12] 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
+
+3B 7B 94 00 00 80 65 52 16 07 86 53 83 00 90 00
+	Truemove H Thailand (Telecommunication)
+	http://truemoveh.truecorp.co.th/
 
 3B 7B 94 00 00 80 65 B0 83 01 0[13] 74 83 00 90 00
 	Gemplus GemXpresso Pro R3 (E64 PK)
@@ -4007,6 +4023,10 @@
 3B 89 80 01 43 4C 61 69 72 65 32 20 36 3C
 	Fidor Smartcard Mastercard/Maestro (Bank)
 	https://www.fidor.eu
+
+3B 89 80 01 43 4C 61 69 72 65 33 20 36 3D
+	MasterCard with PayPass issued by Commerbank AG (Germany)  (Bank)
+	https://www.commerzbank.de/portal/de/privatkunden/produkte/bezahlen/kreditkarten/mastercard-classic/mastercardclassic.html
 
 3B 89 80 01 45 4D 56 20 30 33 20 20 06 73
 	Lufthansa Miles & More Gold MasterCard PayPass (old one)
@@ -5806,6 +5826,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 18 01 01 04 01 09 5F
+	Telstra 128K Universal Orange SIM Card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 19 01 04 01 01 07 50
 	Telefonica m2m simcard, Movistar o2 vivo (Telecommunication)
 
@@ -6701,6 +6724,9 @@
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 02 42 58 00 02 79
 	NXP Athena SCS (PKI)
 
+3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 03 63 51 00 02 50
+	JCOP3 SecID P60 CS (JavaCard)
+
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
 	National ID Card of Peru issued by RENIEC from Oberthur
 
@@ -7060,6 +7086,10 @@
 
 3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 02 07 90 00 B6
 	Chris firstbank (Bank)
+
+3B EB 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 31 2E 30 15 C5
+	Reka Card - Swiss Holiday Member Card (Loyalty)
+	https://reka.ch/en/rekamoney/privatepersons/reka-card/Seiten/reka-card.aspx?lang=en
 
 3B EC 00 00 40 32 42 4C 55 45 20 44 52 41 47 4F 4E 20 43 00 01
 	Pay TV
@@ -8383,6 +8413,9 @@
 3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 67
 	Greek Academic ID (eID)
 	http://academicid.minedu.gov.gr/
+
+3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 FF FE 82 90 00 96
+	Gematlo IDCore 8030 (JavaCard)
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 56 51 10 12 01 78 82 90 00 6A
 	SafeNet eToken 5300 (PKI)
