@@ -2524,6 +2524,9 @@
 	OPUS Card (Transport)
 	http://carteopus.info/
 
+3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
+	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
+
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 03 35 74 E2 82 90 00
 	Card Transport Express Régional (TER) « Oùra ! » of region Rhône-Alpes
 
