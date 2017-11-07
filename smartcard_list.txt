@@ -372,6 +372,10 @@
 3B 17 94 80 65 D0 01 8B F2 08
 	China SIM card
 
+3B 17 94 80 65 D0 01 A4 10 09
+	China Telecom UIM Card (128K 2014) (Telecommunication)
+	http://www.189.cn
+
 3B 17 94 83 A1 00 09 01 41 0B
 	Telfor SIM card (Telecommunication)
 
@@ -911,6 +915,9 @@
 
 3B 3F 96 00 80 69 AF 03 3D 00 C6 00 00 00 0E 83 1E 9F 16
 	GSM SIM card of the Austrian provider A1
+
+3B 4F 00 41 54 38 38 53 43 31 30 32 20 20 20 20 FF FF
+	siral smartcard (JavaCard)
 
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
@@ -1631,6 +1638,10 @@
 	"Strelka" Russian Federation Travelcard (Transport)
 	http://strelkacard.ru/
 
+3B 6B 00 00 00 31 C0 64 08 04 61 84 07 90 00
+	American Express credit card (Bank)
+	https://amex.es/
+
 3B 6B 00 00 00 31 C0 64 08 04 61 F4 0F 90 00
 	N26 Maestro Card (Bank)
 	https://n26.com/maestro-card/
@@ -1828,6 +1839,9 @@
 
 3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
 	Student college card
+
+3B 6D 00 00 57 44 28 57 46 03 50 62 13 65 68 54 1F
+	Card for decrypt encrypted tv channels made in china  (Pay TV)
 
 3B 6D 00 00 57 44 29 6C 80 86 93 D1 27 1F 13 32 3D
 	SCSTA (Transport)
@@ -2523,6 +2537,9 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 45 64 EC 82 90 00
 	OPUS Card (Transport)
 	http://carteopus.info/
+
+3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
+	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
 
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 03 35 74 E2 82 90 00
 	Card Transport Express Régional (TER) « Oùra ! » of region Rhône-Alpes
@@ -3388,6 +3405,10 @@
 3B 7F 13 00 00 80 31 C0 52 1B F1 64 05 62 17 80 83 83 90 00
 	blueBBVA Visa (Bank)
 
+3B 7F 13 00 00 80 31 C0 52 1D DE 64 05 00 E4 71 83 83 90 00
+	Evo finance Visa gold (Bank)
+	https://www.evofinance.com/
+
 3B 7F 13 00 00 80 31 C0 52 20 DD 64 05 62 17 80 83 83 90 00
 	VISA ELECTRON debit card (Bank)
 	https://en.wikipedia.org/wiki/Visa_Electron
@@ -4218,6 +4239,10 @@
 
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
+
+3B 8C 80 01 50 03 A1 29 CF 00 00 00 00 11 81 81 08
+	rav-kav, Israel transport card (Transport)
+	http://www.egged.co.il/Article-786-Rav-Kav-Card.aspx
 
 3B 8C 80 01 50 06 DC A8 59 00 00 00 00 80 81 71 06
 	VISA Hello bank! (NFC) (Bank)
@@ -5323,6 +5348,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B AF 0D 00 D8
 	Chunghwa Telecom SIM card (Telecommunication)
 	http://www.cht.com.tw/en/personal/pops.html
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 85 87 0E 00 0D
+	Fido USIM Card (Telecommunication)
+	http://fido.ca
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 85 C4 0F 00 4F
 	T-Mobile USA (Telecommunication)
@@ -6480,12 +6509,16 @@
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
 
+3B BF 96 00 81 31 FE 5D 00 64 04 11 00 00 31 C0 73 F7 01 D0 00 90 00
+	DATEV eG, Nuernberg, Bavaria, Germany (PKI)
+	http://www.datev.de
+
 3B BF 96 00 81 31 FE 5D 00 64 04 11 03 01 31 C0 73 01 D0 00 90 00 00
 	DATEV eG, Nuernberg, Bavaria, Germany (PKI)
 	http://www.datev.de
 
 3B BF 96 00 81 31 FE 5D 00 64 04 11 03 01 31 C0 73 F7 01 D0 00 90 00
-	DATEV eG, Nuernberg, Bavaria, Germany (PKI) (PKI)
+	DATEV eG, Nuernberg, Bavaria, Germany (PKI)
 	http://www.datev.de
 
 3B C5 FF 81 31 FB 45 80 73 C6 01 00 00
@@ -6563,6 +6596,9 @@
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto
 	http://www.athena-scs.com/product.asp?pid=8
+
+3B D8 18 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 D5
+	Schweizerische Krankenversicherungskarte KVG (HealthCare)
 
 3B D8 18 FF 81 B1 FE 45 1F 03 80 64 04 1A B4 03 81 05 61
 	D-Trust multicard advanced 3.1
@@ -7253,11 +7289,16 @@
 3B EF 00 FF 81 31 86 45 49 42 4D 20 4D 46 43 34 30 30 30 30 38 33 31 43
 	ComCard MFC 4.1
 
+
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 27 40 00 03 01 00 E1
 	Postbank Geldkarte
 
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
+	SparkassenCard (Bank)
+	https://sparkasse.de
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
@@ -7727,6 +7768,10 @@
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 48 AC
 	ZeitControl BasicCard Professional 5.4
+
+3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 4D A9
+	Basiccard ZC5.4 revision M (Other)
+	http://basiccard.com
 
 3B FB 18 00 00 40 78 80 59 53 50 59 52 55 53 0B 00 03
 	Spyrus, Inc. Rosetta USB (PKI)
