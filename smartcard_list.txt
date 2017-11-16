@@ -727,6 +727,9 @@
 	Schaffhauser Kantonalbank Switzerland (Bank)
 	http://www.shkb.ch
 
+3B 3B 7F 38 00 00 00 6A 44 4E 49 65 10 02 4C
+	dnie (eID)
+
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
 
@@ -826,6 +829,10 @@
 
 3B 3D 94 00 44 4D 54 11 00 06 06 17 62 11 00 30 00
 	China Unicom SIM card
+
+3B 3D 94 00 80 67 AF 03 0F 01 7C 06 0E 83 3E 9F 16
+	A1 Telekom Austria (Austrian mobile provider) SIM card (Telecommunication)
+	http://a1.net
 
 3B 3D 95 00 80 67 AF 03 0F 01 7C 06 0E 83 3E 9F 16
 	(Sprint) Nextel USA iDEN SIM card
@@ -3884,6 +3891,9 @@
 3B 88 80 01 00 00 00 00 80 81 71 00 79
 	Apple Pay card - Usually EMV
 
+3B 88 80 01 00 00 00 00 91 71 71 00 98
+	Public transportation fare card (Morocco CAS: Urban bus) (Transport)
+
 3B 88 80 01 00 00 00 00 B3 71 71 .0 .A
 	Public transportation card in Riga, Latvia, called "e-Talons"
 	http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
@@ -4181,6 +4191,9 @@
 
 3B 8B 80 01 00 31 C0 64 1F 27 01 00 00 90 00 36
 	American Express Platinum (AU Issued) (Bank)
+
+3B 8B 80 01 00 31 C0 64 A2 E3 04 E1 82 90 00 29
+	Electronic ID card  (eID)
 
 3B 8B 80 01 00 31 C0 64 B0 FC 10 00 00 90 00 53
 	Thai Passport 2010, 2011
@@ -4502,6 +4515,10 @@
 
 3B 8F 80 01 00 66 46 53 05 10 00 FF 71 DF 00 00 00 00 00 39
 	JavaCOS A40 dual interface Java card - 64K (JavaCard)
+
+3B 8F 80 01 00 B8 54 21 00 00 90 00 00 00 00 00 00 00 00 53
+	netbank Germany, Mastercard (Bank)
+	https://netbank.de
 
 3B 8F 80 01 43 55 32 69 AA 20 20 20 20 20 20 20 20 20 20 E9
 	UBS Access Card (Mobile Online Banking, NFC, Switzerland)
@@ -5093,6 +5110,10 @@
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
 
+3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 04 40
+	DPI Card Guatemala (eID)
+	http://www.masktech.de/
+
 3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 05 41
 	MTCOS  (eID)
 	http://www.masktech.com/Products/MTCOS-Professional/11/en
@@ -5376,6 +5397,9 @@
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
 	http://www.movistar.es/
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 5B 12 00 5C
+	Cellcom Israel USIM (micro FF) (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 62 12 00 65
 	Free Mobile (Telecommunication)
 	http://mobile.free.fr
@@ -5417,6 +5441,10 @@
 
 3B 9F 11 81 11 3D 10 FD 54 6B 7D 00 00 00 00 00 00 00 00 00 00 8C
 	Electronic Identity  (eID)
+
+3B 9F 11 81 31 FE 9F 00 6A 6D 54 6F 6B 65 6E 2D 46 00 00 81 90 00 79
+	USB Token mToken CryptoID by Longmai (JavaCard)
+	http://www.longmai.net/products/mtoken/
 
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
@@ -5956,6 +5984,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 59 51 00 82 90 00 CE 00 00 00 00 00 00 00 00 00 00
 	Oberthur USIM card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 11 00 82 90 00 D1
+	TEST CARD (Telecommunication)
+	http://optus.com
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 12 00 82 90 00 D2
 	Free Mobile SIM Card
 	B&YOU SIM card
@@ -5991,6 +6023,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 01 FE
 	Telekom Deutschland GmbH - Xtra Data Karte (3G SIM)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 03 FC
+	Hofer Telekom (HoT) Austrian mobile provider SIM card (Telecommunication)
+	https://www.hot.at/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 38 05 DA
 	GTS Czech MVNE SIM for T-Mobile (Telecommunication)
@@ -6058,6 +6094,9 @@
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
+
+3B 9F 96 C0 0A 31 FE 45 43 54 31 69 0B 01 00 01 00 00 00 00 00 00 00 0D
+	Tachograph company card issued in Romania (Other)
 
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
 	Verizon "4G LTE" USIM (Telecommunication)
