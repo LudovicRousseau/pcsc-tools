@@ -1095,6 +1095,9 @@
 	@ccess MasterCard (Bank)
 	https://www.mastercard.com/fr/particuliers/carte-bancaire-access.html
 
+3B 65 00 00 20 63 CB B0 20
+	Crédit Mutuel Arkea paycard (Bank)
+
 3B 65 00 00 20 63 CB B1 20
 	Bank card "Credit Agricole" (Bank)
 
@@ -1217,6 +1220,12 @@
 
 3B 67 00 00 00 31 80 71 86 90 00
 	Swiss ZKB-Bancomat-Card
+
+3B 67 00 00 04 12 45 01 60 01 11
+	Bank ATM card (Bank)
+
+3B 67 00 00 04 13 46 01 60 01 11
+	Equity (Bank)
 
 3B 67 00 00 29 20 00 6F 78 90 00
 	ING (previously Postbank Chippas) (chipknip) Netherlands
@@ -2644,6 +2653,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
 	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 A1 48 7B 82 90 00
+	Navigo card using Calypso stantard (Other)
+	https://en.wikipedia.org/wiki/Calypso_(electronic_ticketing_system)
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B EB 8D 82 90 00
 	Korigo card transport for star company (France) (Transport)
 	http://www.star.fr/titres-et-tarifs/carte-korrigo/
@@ -3362,6 +3375,10 @@
 	Visa, Servired
 	Manufactured by Saetic
 	http://www.saetic.es/
+
+3B 7F 13 00 00 80 31 C0 52 15 ED 64 02 00 64 71 83 83 90 00
+	VISA - Bradescard (Casas Bahia) (Bank)
+	https://www.bradescard.com.br/conteudo/cartoes/cartoes-cea.shtm
 
 3B 7F 13 00 00 80 31 C0 52 16 1B 64 05 69 93 70 83 83 90 00
 	Card BNB National Bank of Bolivia - Debit Card (Bank)
@@ -4345,6 +4362,9 @@
 3B 8C 80 01 50 E2 F8 28 2E 00 00 00 00 00 81 87 47
 	ING Maestro Debit Card (Bank)
 	https://www.ing.nl/particulier/index.html
+
+3B 8C 80 01 50 EB 5E 6A 12 00 00 00 00 00 81 77 66
+	Maestro card (Bank)
 
 3B 8C 80 01 50 F2 AD 19 D7 00 00 00 00 00 81 77 3A
 	ING Maestro Debit Card (Bank)
@@ -5403,6 +5423,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 62 12 00 65
 	Free Mobile (Telecommunication)
 	http://mobile.free.fr
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
+	Telkom (Telecommunication)
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -6696,7 +6719,7 @@
 	OpenPGP Card V2
 
 3B DA 18 FF 81 B1 FE 75 1F 03 00 31 F5 73 C0 01 60 00 90 00 1C
-    OpenPGP Card V3
+	OpenPGP Card V3
 
 3B DA 94 00 00 4D 4D 41 52 4A 2B 33 39 90 00
 	SIM card from Vodafone Spain
@@ -7715,6 +7738,12 @@
 	Estonian Identity Card (EstEID v3.5 (10.2014) cold) (eID)
 	http://id.ee/
 
+3B FA 18 00 00 81 31 FE 45 06 08 2A 84 10 01 87 6E 08 07 BE
+	Rijkspas (identification card dutch government employees) (eID)
+	https://nl.wikipedia.org/wiki/Rijkspas
+	Dutch goverment multifunctional smartcard (Other)
+	https://nl.wikipedia.org/wiki/Rijkspas
+
 3B FA 18 00 00 81 31 FE 45 06 08 60 84 10 01 87 6F 06 02 FE
 	Card used by the Dutch health insurers to give medical personell access to patient insurance information
 
@@ -7909,6 +7938,10 @@
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
+
+3B FD 18 00 00 80 31 FE 45 73 66 74 65 20 63 64 31 34 34 2D 6E 66 D8
+	SmartCafe Expert 3.2 144K Dual is a contact and contactless technology Java card from G&D with 144K on-board EEPROM for application and data storage. Certified to FIPS 140-2 Level 3 and Common Criteria EAL 5+. Supports specifications ISO 14443A T=CL and ISO 7816 T=1/0. (PKI)
+	http://www.smartcardfocus.us/shop/ilp/id~523/smartcafe-expert-3-2-144k-dual/p/index.shtml
 
 3B FD 18 00 00 80 31 FE 45 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 DC
 	G&D Sm@Cafe 3.1 (eID)
@@ -8795,6 +8828,9 @@
 3F FD 11 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 70 80 00 5A 45 03
 	Buypass smart card (Bank)
 	https://www.buypass.no/bruker/buypass-id/buypass-smartkort
+
+3F FD 11 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 56 54 03
+	Viasat (Pay TV)
 
 3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
 	Sky Digital (DSS satellite TV card) 2009 issue
