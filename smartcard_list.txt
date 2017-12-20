@@ -386,6 +386,9 @@
 	Si.Mobil Slovenia GSM SIM card (Telecommunication)
 	http://www.simobil.si
 
+3B 17 95 80 65 D0 02 0C 10 3E
+	Airtel Tanzania (Telecommunication)
+
 3B 18 11 E8 43 01 10 09 05 07 77
 	Sim Card GSM for provider 3 telecommunication Indonesia (Telecommunication)
 	http://tri.co.id/
@@ -664,6 +667,9 @@
 3B 2F 00 80 69 AF 03 07 06 68 00 00 0A 0E 83 06 9F 16
 	MobilCom-Karte
 
+3B 2F 00 80 69 AF 03 07 06 68 00 01 0A 0E 83 3E 9F 16
+	Virgin Mobile UK SIM, early 2000s (Telecommunication)
+
 3B 2F 00 80 69 AF 03 07 06 68 00 05 0A 0E 83 3E 9F 16
 	KPN @ Mobile SIM card
 
@@ -882,6 +888,9 @@
 
 3B 3F 94 00 80 69 AF 03 07 06 67 09 97 0A 0E 83 3E 9F 16
 	BASE SIM - Belgium (Gemplus)
+
+3B 3F 94 00 80 69 AF 03 07 06 68 00 75 0A 0E 83 3E 9F 16
+	O2 Mobile Ireland SIM, late 2000s (Telecommunication)
 
 3B 3F 94 00 80 69 AF 03 07 06 68 00 7F 0A 0E 83 3E 9F 16
 	Debitel Vodafone, de (Telecommunication)
@@ -1731,6 +1740,9 @@
 3B 6B 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GXP3 64V2N
 	U.S. Department of Defense Common Access Card (DoD CAC)
+
+3B 6B 00 00 81 00 72 26 02 00 41 00 0F 90 00
+	Wave Crest Holding (Bank)
 
 3B 6B 00 FF 33 00 00 09 FA 10 00 80 01 FF FF
 	Atmel 6464C PRO 64K
@@ -2698,6 +2710,10 @@
 	http://www.belgianrail.be/en/travel-tickets/mobib/no-mobib.aspx
 	http://www.stib-mivb.be/mobib.html
 
+3B 6F 00 00 80 5A 2C 23 C4 00 03 06 03 95 24 59 82 90 00
+	MOBIB - De Lijn (Transport)
+	https://www.delijn.be/nl/vervoerbewijzen/mobib-kaart/mobib.html
+
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 13 AA 4F 82 90 00
 	NMBS National Belgian Railways MOBIB Card (Transport)
 	http://www.belgianrail.be/en/travel-tickets/mobib.aspx
@@ -2712,6 +2728,10 @@
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 9E 9C DB 82 90 00
 	Belgium TEC MOBIB card (Transport)
 	https://www.infotec.be/
+
+3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 BF 9E 2B 82 90 00
+	MOBIB - TEC (Transport)
+	https://www.infotec.be/fr-be/acheteruntitre/mobib.aspx
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
 	Brussels STIB MOBIB Classic (Transport)
@@ -3805,6 +3825,10 @@
 3B 86 80 01 4B 4F 4E 41 14 11 09
 	Mastercard paypass enabled credit card
 
+3B 86 80 01 57 57 50 61 73 73 36
+	WWPass Passkey (eID)
+	https://www.wwpass.com/passkey
+
 3B 86 81 31 70 34 45 50 41 20 45 4B 08
 	Austrian Quick E-purse "Einreichkarte" (transfer card)
 	http://www.quick.at/
@@ -4083,6 +4107,10 @@
 
 3B 89 80 01 4A 43 4F 50 32 34 32 52 32 4A
 	NXP JCOP J3D
+
+3B 89 80 01 4A 43 4F 50 32 34 32 52 33 4B
+	Feitian ePass FIDO-NFC (passport)
+	https://ftsafe.com/products/FIDO/NFC
 
 3B 89 80 01 4A 43 4F 50 33 31 56 32 32 4A
 	JCOP 31 v22 72K (with Mifare 1K emulation) - RFID I/F
@@ -6587,6 +6615,9 @@
 	Japanese Individual Number Card (eID)
 	https://www.kojinbango-card.go.jp/en/kojinbango/index.html
 
+3B C8 00 00 00 73 C8 40 00 00 00 00
+	verve (Bank)
+
 3B D0 96 FF 81 B1 FE 45 1F 03 2E
 	New european health insurance card of the German health insurance (G2) (HealthCare)
 	https://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte
@@ -6658,6 +6689,9 @@
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto
 	http://www.athena-scs.com/product.asp?pid=8
+
+3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F9
+	NASA Personal Identity Verification (PIV) card (eID)
 
 3B D8 18 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 D5
 	Schweizerische Krankenversicherungskarte KVG (HealthCare)
