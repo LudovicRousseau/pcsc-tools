@@ -1680,6 +1680,10 @@
 3B 6B 00 00 00 31 C0 64 08 17 71 00 07 90 00
 	MasterCard Debit Card for Macquarie Bank, Australia (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 44 03 76 07 90 00
+	Blu American Express Credit Card (Bank)
+	https://www.americanexpress.com/it/content/carta-blu/
+
 3B 6B 00 00 00 31 C0 64 13 14 02 00 0F 90 00
 	UBA Card PREPAID (Bank)
 
@@ -2347,6 +2351,10 @@
 3B 6F 00 00 00 68 2C 42 05 02 46 49 53 45 31 C8 07 90 00
 	VISA card, issued by Swedbank Latvia
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
+
+3B 6F 00 00 00 B8 54 21 10 04 90 00 00 00 00 00 00 00 00
+	VIABUY Credit card (Bank)
+	http://www.viabuy.de
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -3564,6 +3572,10 @@
 	Spanish DNI (3.0 version) (eID)
 	http://www.dnielectronico.es/PortalDNIe/
 
+3B 7F 96 00 00 00 6A 44 4E 49 65 20 01 01 55 04 21 03 90 00
+	DNI electronico (Spanish electronic ID card) (eID)
+	http://www.dnielectronico.es
+
 3B 7F 96 00 00 00 6A 44 4E 49 65 20 01 77 98 03 11 03 90 00
 	Spanish ID card (DNIe) (eID)
 	www.dnielectronico.es/
@@ -3887,6 +3899,10 @@
 3B 87 81 31 40 43 4D 46 43 20 31 33 31 6F
 	Telekom Paycard
 
+3B 88 01 00 03 05 06 68 D0 60 80 D1
+	125 Khz HID Proximity card (eID)
+	https://www.hidglobal.com/product-display/cards-and-credentials/hid-proximity
+
 3B 88 01 4B 41 5A 54 4F 4B 45 4E 82
 	Kaztoken (eID)
 	http://kaztoken.kz/
@@ -4131,6 +4147,8 @@
 3B 89 80 01 4D 54 43 4F 53 73 02 02 04 39
 	Berlin-Brandenburg public transport eticket fahrCard (Transport)
 	http://www.vbb.de/de/k/fahrpreise/vbb-fahrcard/798.html
+	German eTicketing SAM (Transport)
+	https://www.eticket-deutschland.de/
 
 3B 89 80 01 50 56 5F 4A 33 41 30 34 30 5D
 	Java Card J3A040 (JavaCard)
@@ -5319,6 +5337,9 @@
 	Ufone (SIM Card) (Telecommunication)
 	https://ufone.com/Consumer-Manual/668-SIM-Information-System/
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 19 15 13 00
+	ABS-CBN (Telecommunication)
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -5823,6 +5844,10 @@
 	Feitian USB Cryptographic token (FIPS 140-2 Level 3) (PKI)
 	http://www.ftsafe.com/product/epass/epass2003
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 32 02 25 71 DF 00 00 06 00 00 10
+	ePass 3003 Auto (PKI)
+	https://www.ftsafe.com/products/PKI/Standard/Specification
+
 3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
 	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
 
@@ -5894,6 +5919,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 43 01 00 8C
 	SIM From Tuenti Móvil Spain (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 61 01 00 AE
+	T-Mobile USA SIM Card (Telecommunication)
+	https://support.t-mobile.com/docs/DOC-2031
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 17 00 63 02 01 AF
 	TIM 4G LTE SIM Card (Telecommunication)
@@ -6649,7 +6678,7 @@
 	Siemens Card CardOS M4.4
 
 3B D3 96 FF 81 B1 FE 45 1F 07 80 81 05 2D
-	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2), issuer KKH Kaufmaennische Krankenkasse (HealthCare), issued 12/2016 (HealthCare)
+	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2) (HealthCare)
 
 3B D5 18 00 81 31 3A 7D 80 73 C8 21 10 30
 	Aladdin eToken NG-Flash with 256MB of flash memory
@@ -7222,6 +7251,9 @@
 3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 02 07 90 00 B6
 	Chris firstbank (Bank)
 
+3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 02 0F 90 00 BE
+	VISA Debit card for Taishin International Bank, Taiwan (Bank)
+
 3B EB 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 31 2E 30 15 C5
 	Reka Card - Swiss Holiday Member Card (Loyalty)
 	https://reka.ch/en/rekamoney/privatepersons/reka-card/Seiten/reka-card.aspx?lang=en
@@ -7629,6 +7661,10 @@
 	Raak C2 Smart Card (PKI)
 	http://www.raaktechnologies.com/software-downloads-documentation/
 
+3B F8 13 00 00 81 31 FE 45 53 4B 55 50 01 00 00 00 FC
+	Silesian Card of Public Services (Transport)
+	https://portal.kartaskup.pl/
+
 3B F8 13 00 00 81 31 FE 45 53 6D 61 72 74 41 70 70 F8
 	national Lithuania ID card
 
@@ -8018,6 +8054,9 @@
 
 3B FD 94 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 16 E7
 	Polish student card (eID)
+
+3B FD 96 00 00 80 31 FE 45 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 25
+	TIPL (Other)
 
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 00 C8 83 00 90 00 15
 	Gemalto TOP IM GX4 MSA081, T=1 (PKI)
@@ -8885,6 +8924,9 @@
 3F FD 13 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
 	Sky Germany V14 NDS card (Pay TV)
 	http://www.wikipedia.org/wiki/Sky_Deutschland
+
+3F FD 13 25 02 50 80 0F 55 B0 02 69 FF 4A 50 F0 80 00 50 31 03
+	SKY DE V15 (Pay TV)
 
 3F FD 14 25 01 50 00 0F 33 B0 0B FF FF 4A 50 80 00 00 47 58 01
 	DirecTV card
