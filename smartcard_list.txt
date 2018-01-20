@@ -764,6 +764,9 @@
 3B 3B 94 00 91 38 11 50 46 97 40 33 33 90 00
 	Leclerc Mobile (French MVNO) SIM card
 
+3B 3B 94 00 92 38 10 10 49 1B 40 AA 6A 90 00
+	T-Mobile (USA) OCS_2.3 (Telecommunication)
+
 3B 3B 94 00 92 38 10 20 01 04 80 33 13 90 00
 	TELE2 Sim Card (Telecommunication)
 
@@ -1122,6 +1125,9 @@
 
 3B 65 00 00 20 63 CB B7 20
 	Lloyds Bank Platinum Mastercard Credit (Bank)
+
+3B 65 00 00 20 63 CB B7 80
+	VISA Credit Card (Bank)
 
 3B 65 00 00 26 40 00 90 00
 	Alacard Petroltech (Transport)
@@ -2002,6 +2008,10 @@
 3B 6E 00 00 00 31 C0 65 7C B5 01 00 80 71 D6 8C 61 37
 	Swedbank MasterCard card
 
+3B 6E 00 00 00 31 C0 65 7C B5 01 01 80 71 D6 8C 61 21
+	MUFG CARD (AMEX .jp) (Bank)
+	http://www.cr.mufg.jp/mufgcard/support/webs/
+
 3B 6E 00 00 00 31 C0 65 BC D0 02 01 06 71 D6 8C 61 2E
 	Lloyds TSB Mastercard Credit Card
 
@@ -2611,6 +2621,10 @@
 	Israeli public transport "RavKav" card (ASK variant) (Transport)
 	http://www.dannorth.co.il/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 28 84 44 82 90 00
+	rav-kav (Transport)
+	http://nohal.mot.gov.il/%d7%94%d7%92%d7%93%d7%a8%d7%95%d7%aa%20%d7%91%d7%a0%d7%95%d7%a9%d7%90%20%d7%9b%d7%a8%d7%98%d7%95%d7%a1%20%d7%97%d7%9b%d7%9d.aspx
+
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
@@ -2838,6 +2852,10 @@
 
 3B 75 13 00 00 47 09 EA 90 00
 	Carte Vitale (HealthCare)
+
+3B 75 13 00 00 48 09 EA 90 00
+	Carte Vitale (HealthCare)
+	https://en.wikipedia.org/wiki/Carte_Vitale
 
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
@@ -3560,7 +3578,7 @@
 	Electronic Spanish National ID card (eID)
 	http://digital.csic.es/handle/10261/15941
 
-3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 01 55 04 .0 03 90 00
+3B 7F 96 00 00 00 6A 44 4E 49 65 10 01 01 55 04 .. 03 90 00
 	DNIE Spain (eID)
 	http://www.dnielectronico.es/PortalDNIe/
 
@@ -6670,6 +6688,9 @@
 	Atos CardOS5 (PKI)
 	http://atos.net/NR/rdonlyres/17C7BDD0-225B-4A58-B9A4-438EA3F3238A/0/74743_20120830_160149_cardos_v5_0__datenblatt_en.pdf
 
+3B D2 18 00 81 31 FE 58 C9 02 17
+	WVDP (West Valley Demonstration Project?) (PKI)
+
 3B D2 18 00 81 31 FE 58 C9 03 16
 	Austrian "RKS-Card" issued by GlobalTrust (PKI)
 	https://secure.globaltrust.eu/info-rksv.html
@@ -7072,6 +7093,9 @@
 
 3B E5 00 00 81 31 FE 45 D0 00 37 00 80 89
 	ATM card for Standard Chartered, Taiwan
+
+3B E5 00 FF 81 31 FE 45 80 73 C6 01 08 2D
+	MUFG (.jp) (Bank)
 
 3B E6 00 00 81 21 45 32 4B 01 01 01 01 7A
 	Axalto Cyberflex Palmera V5
@@ -8574,11 +8598,19 @@
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
 
+3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 32 30 20 52 65 76 53 34 30 F1 5D
+	NC+ Polland (Pay TV)
+	http://www.flysat.com/ncplus.php
+
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
 	Vodafone 64 KB SIM with Javacard
 
 3B FF 95 00 FF 40 0A 80 31 E8 73 F6 21 13 67 4A 47 48 60 31 42 00
 	Giesecke & Devrient STARSIM
+
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 31
+	Pay TV card nc+ polish (seca with merlin layer) (Pay TV)
+	http://www.flysat.com/ncplus.php
 
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 39
 	Big TV India (Pay TV)
@@ -9104,6 +9136,10 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 32 20 44 73 68 4E 30 39 1F
 	Dish Network ROM552 (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 32 20 44 73 68 4E 30 42 64
+	Dish Network (Satellite Pay TV) NASP 552 (Pay TV)
+	http://www.dishnetwork.com/
 
 3F FF 95 00 FF 91 81 71 FF 47 00 44 4E 41 53 50 53 30 31 20 44 73 68 36 30 39 16
 	PayTV card for DishNetwork Sat receiver
