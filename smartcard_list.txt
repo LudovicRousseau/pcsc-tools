@@ -2821,8 +2821,8 @@
 	http://www.cibc.com
 
 3B 6F 00 FF 00 56 72 75 54 6F 6B 6E 73 30 20 00 00 90 00
-	ruToken-S (USB token)
-	http://www.rutoken.ru/products/rutoken/rutoken-s/
+	Aktiv Rutoken S
+	https://www.rutoken.ru/products/all/rutoken-s/
 
 3B 6F 00 FF 52 53 41 53 65 63 75 72 49 44 28 52 29 31 30
 	RSA SecurID SID800 token
@@ -4254,17 +4254,20 @@
 	Resident Identity Card (eID)
 
 3B 8B 01 52 75 74 6F 6B 65 6E 20 44 53 20 C1
-	Rutoken ECP (DS)
+	Aktiv Rutoken ECP
+	https://www.rutoken.ru/products/all/rutoken-ecp/
 
 3B 8B 01 52 75 74 6F 6B 65 6E 20 45 43 50 A0
-	Rutoken ECP
+	Aktiv Rutoken ECP
+	https://www.rutoken.ru/products/all/cp-rutoken-csp/
 
 3B 8B 01 52 75 74 6F 6B 65 6E 44 53 42 54 D7
 	Rutoken ECP Bluetooth (eID)
 	http://www.rutoken.ru
 
 3B 8B 01 52 75 74 6F 6B 65 6E 6C 69 74 65 C2
-	Aktiv Rutoken lite token
+	Aktiv Rutoken Lite
+	https://www.rutoken.ru/products/all/rutoken-lite/
 
 3B 8B 80 01 00 31 C0 64 08 04 61 00 00 90 00 62
 	NUMBER26 Maestro Card (Bank)
@@ -5087,7 +5090,7 @@
 	https://env.dev.eid.belgium.be/prepcard.php
 
 3B 98 96 00 80 31 C0 72 F7 41 81 07
-	Activ Rutoken Magistra
+	Aktiv Rutoken Magistra
 
 3B 98 96 00 93 94 03 07 03 04 04 04
 	SIM card
@@ -5185,7 +5188,8 @@
 	mobiledit (Telecommunication)
 
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
-	RuToken Light SC
+	Aktiv Rutoken ECP SC T0
+	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
 
 3B 9C 96 00 58 44 24 03 02 00 20 01 0A 00 90 05
 	Ticket Restaurant Card (Other)
@@ -9148,5 +9152,26 @@
 
 3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
 	Tivu' Sat (Italy) CAM card www.tivu.tv
+
+3B 8B 00 52 75 74 6F 6B 65 6E 6C 74 53 44 E3
+	Aktiv Rutoken Lite SD
+	https://www.rutoken.ru/products/catalogue/info_52.html
+
+3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
+	Aktiv Rutoken ECP SC T1
+	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
+
+3B 98 96 00 4B 41 5A 54 4F 4B 45 4E
+	Kaztoken SC
+
+3B 8B 01 52 74 50 49 4E 50 61 64 20 20 32 9C
+	Aktiv Rutoken PINPad
+	https://www.rutoken.ru/products/all/rutoken-pinpad/
+
+3B 78 13 00 00 72 75 74 6F 6B 65 6E 6D
+	Aktiv Rutoken Micron
+
+3B 7A 13 00 00 72 75 74 6F 6B 65 6E 6D 73 63
+	Aktiv Rutoken Mikron SC
 
 # do not delete
