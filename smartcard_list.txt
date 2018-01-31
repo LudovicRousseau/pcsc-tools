@@ -2332,6 +2332,10 @@
 3B 6F 00 00 00 31 C0 68 43 53 50 45 4D 56 03 00 07 90 00
 	SOCCARDRT (HealthCare)
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00
+	Carta HYPE MasterCard (Italy) (Bank)
+	https://www.hype.it/
+
 3B 6F 00 00 00 66 4D 45 31 61 03 01 53 08 61 04 F0 90 00
 	Spanish University of Murcia smart ID card - Old version (M.Mar OS) - Also used by many others spanish universities
 
@@ -2926,6 +2930,9 @@
 	PostFinance debit card (Bank)
 	https://www.postfinance.ch/en/priv/prod/card/pfcard/direct/offer.html
 
+3B 78 13 00 00 72 75 74 6F 6B 65 6E 6D
+	Aktiv Rutoken Micron
+
 3B 78 18 00 00 00 73 C8 40 00 00 00 00 90 00
 	VERISOFT REWARDO LOYALTY CARD and CUSTOM PERSONALIZATION PROJECTS FOR EXTERNAL ENTITIES (Loyalty)
 	http://www.verisoft.com
@@ -2995,6 +3002,9 @@
 
 3B 7A 13 00 00 09 44 31 31 43 52 02 00 25 C3
 	Feitian D11CR 2016 (JavaCard)
+
+3B 7A 13 00 00 72 75 74 6F 6B 65 6E 6D 73 63
+	Aktiv Rutoken Mikron SC
 
 3B 7A 18 00 00 73 66 74 65 20 63 64 31 34 34
 	Republic Slovenia e-Gov, Ministry of Public Administration
@@ -4253,6 +4263,14 @@
 3B 8A 80 01 80 65 A2 01 31 01 3D 72 D6 41 A5
 	Resident Identity Card (eID)
 
+3B 8B 00 52 75 74 6F 6B 65 6E 6C 74 53 44 E3
+	Aktiv Rutoken Lite SD
+	https://www.rutoken.ru/products/catalogue/info_52.html
+
+3B 8B 01 52 74 50 49 4E 50 61 64 20 20 32 9C
+	Aktiv Rutoken PINPad
+	https://www.rutoken.ru/products/all/rutoken-pinpad/
+
 3B 8B 01 52 75 74 6F 6B 65 6E 20 44 53 20 C1
 	Aktiv Rutoken ECP
 	https://www.rutoken.ru/products/all/rutoken-ecp/
@@ -5089,6 +5107,9 @@
 	Belgian Eid virtual test card
 	https://env.dev.eid.belgium.be/prepcard.php
 
+3B 98 96 00 4B 41 5A 54 4F 4B 45 4E
+	Kaztoken SC
+
 3B 98 96 00 80 31 C0 72 F7 41 81 07
 	Aktiv Rutoken Magistra
 
@@ -5186,6 +5207,10 @@
 
 3B 9C 94 00 68 86 8D 0C 86 98 02 56 40 8B 05 00
 	mobiledit (Telecommunication)
+
+3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
+	Aktiv Rutoken ECP SC T1
+	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
 
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
 	Aktiv Rutoken ECP SC T0
@@ -6211,6 +6236,10 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FE
 	ISPL Card (Telecommunication)
+
+3B 9F 97 80 1F C6 80 31 E0 73 FE 21 1B 64 41 44 21 00 82 90 00 E5
+	SAKURA Internet SIM (Telecommunication)
+	https://www.sakura.ad.jp/services/sim/
 
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 08 56 21 00 82 90 00 19
 	eSIM card (Telecommunication)
@@ -7288,6 +7317,9 @@
 
 3B EC 00 00 40 32 42 4C 55 45 20 44 52 41 47 4F 4E 20 43 00 01
 	Pay TV
+
+3B EC 00 00 40 32 54 49 54 41 4E 49 55 4D 00 11 01 06
+	Titanium high security access smartcard (the back says something about "DoorCard") (Other)
 
 3B EC 00 00 40 32 54 49 54 41 4E 49 55 4D 00 13 02 02
 	Titanium 2 Card Pirat Card for Seca 2 / Viaccess 2004 (Pay TV)
@@ -8602,6 +8634,10 @@
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
 
+3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 32 30 20 52 65 76 53 34 30 F1
+	NC+ Polland (Pay TV)
+	http://www.flysat.com/ncplus.php
+
 3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 32 30 20 52 65 76 53 34 30 F1 5D
 	NC+ Polland (Pay TV)
 	http://www.flysat.com/ncplus.php
@@ -8796,6 +8832,9 @@
 
 3F 67 25 04 21 20 00 07 68 90 00
 	Philips TB100 (C-MOS chip)
+
+3F 67 2F 00 11 14 00 01 68 90 00
+	FilmNet(Sweden, 1984-1997) (Pay TV)
 
 3F 67 2F 00 11 14 00 03 68 90 00
 	D2MAC/Eurocrypt (Pay TV)
@@ -9152,26 +9191,5 @@
 
 3F FF 95 00 FF 91 81 71 FF 47 00 54 49 47 45 52 30 30 33 20 52 65 76 32 35 30 64
 	Tivu' Sat (Italy) CAM card www.tivu.tv
-
-3B 8B 00 52 75 74 6F 6B 65 6E 6C 74 53 44 E3
-	Aktiv Rutoken Lite SD
-	https://www.rutoken.ru/products/catalogue/info_52.html
-
-3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
-	Aktiv Rutoken ECP SC T1
-	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
-
-3B 98 96 00 4B 41 5A 54 4F 4B 45 4E
-	Kaztoken SC
-
-3B 8B 01 52 74 50 49 4E 50 61 64 20 20 32 9C
-	Aktiv Rutoken PINPad
-	https://www.rutoken.ru/products/all/rutoken-pinpad/
-
-3B 78 13 00 00 72 75 74 6F 6B 65 6E 6D
-	Aktiv Rutoken Micron
-
-3B 7A 13 00 00 72 75 74 6F 6B 65 6E 6D 73 63
-	Aktiv Rutoken Mikron SC
 
 # do not delete
