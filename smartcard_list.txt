@@ -1768,6 +1768,9 @@
 	https://www.skrill.com
 	Nationwide InvestDirect (UK)
 
+3B 6C 00 00 0F 31 C0 71 D6 64 3E 67 01 00 5D 84
+	Banca Transilvania VISA CARD (Bank)
+
 3B 6C 00 00 0F 31 C0 71 D6 64 3E 67 01 01 5D 84
 	VISA GOLD or Maestro, issued by Swedbank Lithuania (Bank)
 	VISA credit card, issued by HSBC Commercial Card UK (Bank)
@@ -2319,6 +2322,10 @@
 
 3B 6E 00 00 80 31 80 66 B1 A3 01 01 21 0A 83 00 90 00
 	French "Livret A" issued by "La banque postale" (Bank)
+
+3B 6E 00 00 80 31 80 66 B1 A3 04 01 11 0B 83 00 90 00
+	Mastercard used in Spain to pay in Restaurants. Made by Edenred. Limited in payment and unable to get physical cash. (Bank)
+	https://www.edenred.es/
 
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
@@ -2939,6 +2946,9 @@
 
 3B 78 18 00 00 54 48 20 4E 49 44 20 3.
 	Thailand National ID (eID)
+
+3B 78 18 00 01 00 00 00 00 C3 1E 69 19
+	Storage for passwords (Bank)
 
 3B 78 18 00 FF 00 73 C8 40 00 00 90 00
 	NAB Visa Debit - Contact I/F (Bank)
@@ -4434,6 +4444,10 @@
 	PassPass card issued by Transpole : the public transportation service of Lille, France, and SNCF : the french national railway. (Transport)
 	https://www.transpole.fr/fr/pass-pass-et-tarifs/carte-pass-pass-personnelle.aspx
 
+3B 8C 80 01 50 C0 AA 57 4E 00 00 00 00 B3 71 71 9D
+	Transportation Pastel Card from Toulouse (France)  (Transport)
+	https://www.tisseo.fr/se-deplacer/bien-voyager
+
 3B 8C 80 01 50 C0 C8 94 D3 00 00 00 00 B3 71 71 A1
 	pastel (Transport)
 
@@ -5090,6 +5104,9 @@
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
+
+3B 98 18 81 31 FE 43 30 41 56 54 00 00 00 07 F9
+	Avtor SecureToken 00 00 (Other)
 
 3B 98 94 00 93 91 14 01 0A 06 06 06
 	Orange Spain 64k Sim card
@@ -6134,6 +6151,9 @@
 	1&1 Simcard (Telecommunication)
 	https://www.1und1.de/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 38 02 00 82 90 00 BA
+	SIM card operateur Free (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
 
@@ -6221,6 +6241,9 @@
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
+
+3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 0B 11 A4 81 0F 7E
+	Telia Finland Oyj, network operator LTE  (Telecommunication)
 
 3B 9F 96 C0 0A 31 FE 45 43 54 31 69 0B 01 00 01 00 00 00 00 00 00 00 0D
 	Tachograph company card issued in Romania (Other)
@@ -6911,6 +6934,9 @@
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 E8 54 27 E6 04 00 0F 90 00 8C
 	Token card from iBRE CompanyNet (mbank) (Bank)
+
+3B DB 96 00 80 B1 FE 45 1F 83 45 53 54 4F 4E 49 41 2D 65 49 44 55
+	Estonian Identity Card (ID-One Cosmo v8.1) (eID)
 
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
@@ -7793,6 +7819,10 @@
 	JCOP31 / 72B1 V2.2
 	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
 
+3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 AF
+	NHS Care Identity Service (CIS) smartcard (HealthCare)
+	https://www.e-lfh.org.uk/programmes/national-ra-and-smartcard-policy/
+
 3B F9 18 00 FF 81 31 FE 45 50 56 5F 4A 33 41 30 34 30 40
 	Yubico Yubikey NEO OTP+U2F+CCID (PKI)
 	https://www.yubico.com/products/yubikey-hardware/yubikey-neo/
@@ -8626,6 +8656,10 @@
 
 3B FF 95 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 10 31 41 00
 	Verizon GSM SIM (Telecommunication)
+
+3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 01 83 01 90 00 45
+	Swedish digital tachograph driver smart card (Other)
+	https://www.transportstyrelsen.se/sv/vagtrafik/Yrkestrafik/Kor--och-vilotider/Fardskrivare/ansokan-om-forarkort/
 
 3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 13 83 01 90 00 57
 	Driver's Card (Tachograf card) issued by pwpw Poland (Transport)
