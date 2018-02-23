@@ -267,6 +267,9 @@
 3B 15 94 C3 02 08 16 01
 	GSM-SIM EMT (Estonia)
 
+3B 16 11 72 04 01 3F 02 00
+	Vodafone Romania SIM card (Telecommunication)
+
 3B 16 18 AF 01 02 02 02 00
 	SIM Virgin Mobile (Australia)
 
@@ -284,6 +287,9 @@
 
 3B 16 94 71 01 01 06 02 00
 	SFR GSM SIM Card
+
+3B 16 94 71 01 01 0A 01 00
+	TIM Brazil SIM card (Telecommunication)
 
 3B 16 94 72 04 01 00 00 00
 	MTS SIM card, Russia (Telecommunication)
@@ -1063,6 +1069,10 @@
 	Novo Banco Debit Card (Bank)
 	http://www.novobanco.pt/site/cms.aspx?plg=3FDF9B9E-C73B-4D76-80C7-F73AF087EADF
 
+3B 65 00 00 20 63 CB A8 20
+	Belgazprombank (Belarus) MasterCard (Bank)
+	http://belgazprombank.by/
+
 3B 65 00 00 20 63 CB A8 A0
 	HSBC VISA Card
 
@@ -1345,6 +1355,10 @@
 3B 67 00 00 B5 40 40 52 0B 90 00
 	Sodexo card (Other)
 	http://be.benefits-rewards.sodexo.com/fr/entreprises/sodexo-card
+
+3B 67 00 00 B7 40 40 41 9B 90 00
+	ČSOB Master Card (Bank)
+	https://www.csob.cz
 
 3B 67 00 00 B7 40 40 43 9B 90 00
 	MasterCard (Bank)
@@ -1678,6 +1692,9 @@
 	https://n26.com/maestro-card/
 	N26 MasterCard (Bank)
 	https://n26.com/mastercard/
+
+3B 6B 00 00 00 31 C0 64 08 10 31 04 0F 90 00
+	Visa - Wells Fargo Debit Card (Bank)
 
 3B 6B 00 00 00 31 C0 64 08 10 51 10 0F 90 00
 	Skrill MasterCard (Bank)
@@ -2715,6 +2732,10 @@
 	Calypso application similar to French NAVIGO
 	MOBIB (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
+
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 92 E4 FF F0 82 90 00
+	Lisbon area transport card (Transport)
+	https://www.portalviva.pt/
 
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 16 21 3D 82 90 00
 	Portuguese Viva Card (Transport)
@@ -3989,6 +4010,9 @@
 3B 88 80 01 00 00 00 00 91 71 71 00 98
 	Public transportation fare card (Morocco CAS: Urban bus) (Transport)
 
+3B 88 80 01 00 00 00 00 91 81 C1 00 D8
+	Driving License card of Japan (NFC type-B) (eID)
+
 3B 88 80 01 00 00 00 00 B3 71 71 .0 .A
 	Public transportation card in Riga, Latvia, called "e-Talons"
 	http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
@@ -4002,6 +4026,10 @@
 
 3B 88 80 01 00 00 14 E0 B3 81 91 00 5E
 	"JUKICARD", the Basic Resident Registration Card in Japan (eID)
+
+3B 88 80 01 00 00 41 E0 B3 81 A1 00 3B
+	ID card issued by Japan government (eID)
+	https://www.kojinbango-card.go.jp/mynumber/index.html
 
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
@@ -5267,6 +5295,9 @@
 
 3B 9D 95 80 1F C3 80 73 1A 21 1B 63 AF 07 A7 83 0F 90 00 F7
 	GemXplore 3G
+
+3B 9D 95 80 1F C7 80 31 A0 73 BE 21 00 51 04 83 05 90 00 EE
+	SIM :NTT Docomo(Japan) (Telecommunication)
 
 3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 06 A6 83 0F 90 00 F3
 	Orange UK GSM/UMTS SIM
@@ -7212,6 +7243,9 @@
 3B E7 00 FF 81 31 FE 45 4D 43 41 20 38 20 36 52
 	Mastercard credit card issued by "PayLife Bank GmbH".
 	Bank number is "5266" - Bawag PSK.
+
+3B E7 00 FF 81 31 FE 45 80 31 C0 73 C6 21 48 BE
+	Japanese ETC (Electronic Toll Collection System) card (Transport) and Credit card (Issuer: Toyota) (Transport)
 
 3B E7 00 FF 81 B1 FE 45 1F 01 80 31 C0 73 C6 21 48 20
 	Japanese ETC (Electronic Toll Collection System) card (Transport)
