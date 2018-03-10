@@ -1125,6 +1125,7 @@
 
 3B 65 00 00 20 63 CB B2 80
 	Visa card distributed by "Societe Generale" (French Bank) (Bank)
+	Visa card distributed by "Boursorama Banque" (French Bank) (Bank)
 	https://www.visa.fr/
 
 3B 65 00 00 20 63 CB B6 20
@@ -1590,6 +1591,10 @@
 	Azeriqaz-SOCAR(Azerbaijan) (Other)
 	http://socar.az/socar/en/home
 
+3B 69 00 00 F7 04 01 06 01 80 01 02 A9
+	Azeriqaz Smart Payment (eID)
+	http://azeriqaz104.az/
+
 3B 69 00 02 41 43 4F 53 4A 76 31 30 31
 	ACOSJ 40K Dual Interface (JavaCard)
 
@@ -1632,6 +1637,10 @@
 
 3B 6A 00 00 80 65 A2 01 03 01 8D 72 D6 43
 	American Express Blue Card
+
+3B 6A 00 00 80 65 A2 01 31 01 3D 72 D6 41
+	Emirates ID (eID)
+	http://www.emiratesid.gov.ae/
 
 3B 6A 00 00 80 65 A2 01 45 01 3D 72 D6 43
 	STATE OF KUWAIT CIVIL ID CARD (eID)
@@ -1736,6 +1745,10 @@
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
 	http://account.entropiauniverse.com/account/security/
+
+3B 6B 00 00 00 31 C0 64 BE 1B 01 00 0F 90 00
+	An old version of the Politecnico di Milano student ID. It doubles as a VISA debit card for Banca Popolare di Sondrio. (Other)
+	http://www.popso.it/attivamentepolimi
 
 3B 6B 00 00 00 31 C0 64 BE 1B 01 03 0F 90 00
 	dsafas (Telecommunication)
@@ -2612,6 +2625,10 @@
 	OPUS Card (Transport)
 	http://carteopus.info/
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 46 A2 C5 82 90 00
+	Carte OPUS / OPUS Card - Transport Montréal, Laval, Longueuil, Québec (Transport)
+	http://carteopus.info/
+
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
 
@@ -2694,6 +2711,10 @@
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 2A 8F E7 82 90 00
+	Navigo Découverte card, a rechargeable card for travel in Paris, France. (Transport)
+	https://parisbytrain.com/paris-train-metro-week-pass-navigo-decouverte/
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 35 8F 16 82 90 00
 	French Navigo passcard to travel in Paris area using RATP & SNCF services (Transport)
@@ -3226,6 +3247,8 @@
 	eCPF (Cadastro de Pessoas Físicas) from Imprensa Oficial do Brasil
 	Identidade digital (e-CPF) from Caixa
 	http://www.caixa.gov.br/
+	Ingenico Sign/Kit Telium TETRA (Developer kit signature card)
+	https://developer.ingenico.com/hc/en-gb
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
@@ -3535,6 +3558,9 @@
 
 3B 7F 13 00 00 80 31 C0 52 36 42 64 05 66 94 61 83 83 90 00
 	Visa debit card issued by Spain Caja Madrid bank
+
+3B 7F 13 00 00 80 31 C0 52 37 C4 64 02 00 0B 70 83 83 90 00
+	BANKING (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 3B 0E 64 02 00 0B 70 83 83 90 00
 	RACC MasterCard (Bank)
@@ -4131,6 +4157,10 @@
 3B 88 80 01 E1 F3 5E 11 77 83 D5 00 75
 	German Passport (ePass) (issued June 2009)
 
+3B 88 80 01 E1 F3 5E 11 77 83 D7 00 77
+	Spanish Electronic Passport 2.0 (passport)
+	https://www.dnielectronico.es/PortalDNIe/PRF1_Cons02.action?pag=REF_1080&id_menu=56
+
 3B 88 80 01 E1 F3 5E 11 77 87 95 00 31
 	Dutch Government Pilot E-rijbewijs (eID)
 	https://www.digid.nl/over-digid/kaartlezer-pilot
@@ -4411,6 +4441,9 @@
 3B 8C 80 01 50 26 0D BB 15 00 00 00 00 00 71 81 28
 	Navigo Card (Transport)
 	http://www.navigo.fr/
+
+3B 8C 80 01 50 27 22 ED 0D 00 00 00 00 00 71 81 48
+	Navigo (France) transport card (Transport)
 
 3B 8C 80 01 50 27 24 26 64 00 00 00 00 00 71 81 EC
 	French Transport Card (Navigo Card) (Transport)
@@ -7547,6 +7580,9 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 30 2F 37 10 65
+	MasterCard German Sparkasse (Bank)
+
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
 	SparkassenCard (Bank)
 	https://sparkasse.de
@@ -8379,6 +8415,9 @@
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 65
 	Italian Chambers of Commerce CNS (PKI)
 	http://www.card.infocamere.it/infocard/pub/
+
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 04 03 01 01 01 44 53 44 10 31 80 68
+	ACA (Lawyer Identifier Card) (eID)
 
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 14 03 01 01 01 43 4E 53 10 31 80 75
 	Smart Card INFOCERT digital key CNS from CST PADOVA (eID)
