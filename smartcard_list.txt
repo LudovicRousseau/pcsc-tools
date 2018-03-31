@@ -795,6 +795,9 @@
 3B 3B 96 00 40 22 51 00 00 42 00 33 33 90 00
 	Wind (Italy) 128K GSM SIM card
 
+3B 3B 96 00 40 53 01 00 00 41 C0 33 33 90 00
+	Wind (Italy) 128K SIM card (Telecommunication)
+
 3B 3B 96 00 40 54 01 00 00 0A C0 33 33 90 00
 	Wind (Italy) 64K prepaid GSM SIM card
 
@@ -2414,6 +2417,9 @@
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
 
+3B 6F 00 00 80 31 C0 52 05 B5 64 02 00 64 71 83 83 90 00
+	Read Card in USB, used for application in Java. (JavaCard)
+
 3B 6F 00 00 80 31 C0 52 07 52 64 02 19 08 32 83 83 90 00
 	Santander (Bank)
 
@@ -2729,6 +2735,9 @@
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 55 78 4A 82 90 00
 	French card navigo (Transport)
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 5D CF 41 82 90 00
+	Pass navigo (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 61 32 D6 82 90 00
 	Navigo (Transport)
@@ -3061,6 +3070,7 @@
 3B 7A 18 00 00 73 66 74 65 20 63 64 31 34 34
 	Republic Slovenia e-Gov, Ministry of Public Administration
 	SIGOV-CA, Slovenian Governmental Certification Authority
+	Giesecke & Devrient (PIV Endpoint) G&D Sm@rtCafe Expert v3.2
 
 3B 7A 18 00 00 73 66 74 65 2D 63 64 30 38 30
 	HYPOnet online banking card / Croatia
@@ -3153,6 +3163,9 @@
 
 3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 01 00 81 90 00
 	DOD-CAC
+
+3B 7D 11 00 00 00 31 80 71 8E 64 86 D6 02 00 82 90 00
+	Oberthur Card Systems (OCS), Galactic v1 32K, Original Pilot CAC, V1 Applets
 
 3B 7D 13 00 00 4D 44 57 2D 49 41 53 2D 43 41 52 44 32
 	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Sagem
@@ -3255,7 +3268,7 @@
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 17 D6 83 00 90 00
 	DoD CAC card issued Jan 14, 2010
-	GEMALTO TOPDLGX4 144
+	GEMALTO TOP DL GX4 144K
 	Geneva Conventions Identification Card
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 17 E5 83 00 90 00
@@ -3668,6 +3681,10 @@
 3B 7F 96 00 00 00 6A 46 4E 4D 54 03 04 11 43 04 30 03 90 00
 	CERES Spanish SmartCard from the "Fabrica Nacional de Moneda y Timbre" (FNMT) (eID)
 	http://www.cert.fnmt.es/
+
+3B 7F 96 00 00 00 B8 54 31 11 07 90 00 00 00 00 00 00 00 00
+	STPay-Gold (JavaCard)
+	http://www.st.com/en/secure-mcus/stpay-gold.html
 
 3B 7F 96 00 00 80 31 80 65 55 85 03 00 EF 12 41 40 82 90 00
 	Civil ID  (eID)
@@ -5107,7 +5124,7 @@
 	Axalto Cyberflex Access 64K v2a SM 2.3
 
 3B 95 95 40 FF AE 01 03 00 00
-	Axalto - Cyberflex 64K
+	Axalto - Cyberflex Access v2c 64K
 	Gemalto TOP IM FIPS CY2 (product code HWP115291A)
 
 3B 95 95 40 FF D0 00 1A 01 01
@@ -5594,6 +5611,9 @@
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
 	http://www.movistar.es/
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 E6 0F 00 49
+	SIM O2 CZ (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 5B 12 00 5C
 	Cellcom Israel USIM (micro FF) (Telecommunication)
 
@@ -5609,6 +5629,10 @@
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
+
+3B 9F 11 10 80 41 54 39 38 53 43 30 33 32 43 54 31 2E 35 35
+	"ID Vault" brand device  (Other)
+	http://www.idvault.com/index.html
 
 3B 9F 11 10 80 56 61 75 6C 74 49 43 20 34 36 30 31 2E 30 32
 	Inside Secure VaultIC 460 Smart Object [ICCD 1.00] (Other)
@@ -6309,6 +6333,9 @@
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 0B 11 A4 81 0F 7E
 	Telia Finland Oyj, network operator LTE  (Telecommunication)
 
+3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 13 37 0F 3B 81 0F D2
+	Gemalto Security Element (PKI)
+
 3B 9F 96 C0 0A 31 FE 45 43 54 31 69 0B 01 00 01 00 00 00 00 00 00 00 0D
 	Tachograph company card issued in Romania (Other)
 
@@ -6928,6 +6955,10 @@
 3B DA 94 00 00 4D 4D 41 52 4A 2B 33 39 90 00
 	SIM card from Vodafone Spain
 
+3B DA 96 FF 81 31 FE 45 80 56 31 B8 53 49 43 41 81 05 7B
+	STARCOS 3.5 ID ECC C1R (PKI)
+	https://www.gi-de.com/fileadmin/user_upload/MS/Certificates/STARCOS35_ID_ECC_TABLES.pdf
+
 3B DB 11 FF 50 00 FF 00 00 00 00 00 00 00 07 92 16 03
 	NEC V-WAY64 v2.1
 
@@ -6950,6 +6981,8 @@
 	http://www.zeitcontrol.de/en/products/chip-cards/processor-chip-cards/basiccard
 
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
+	Oberthur Card Systems (contactless pilot) ID-One Cosmo v5.2D 64K
+	Oberthur Card Systems (PIV Transitional) ID-One Cosmo v5.2D 72K
 	CAC (Common Access Card)
 
 3B DB 96 00 80 1F 03 00 31 C0 64 B0 F3 10 00 07 90 00 80
@@ -7579,6 +7612,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0D 16 3A 37 20 6A
+	BankCard Sparda-Bank West eG (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 30 2F 37 10 65
 	MasterCard German Sparkasse (Bank)
@@ -8788,6 +8824,9 @@
 
 3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 FF FE 82 90 00 96
 	Gematlo IDCore 8030 (JavaCard)
+
+3B FF 96 00 00 81 31 80 43 80 31 80 68 B0 85 03 00 EF 78 01 00 82 90 00 F1
+	Cameroon National Identity Card (eID)
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 56 51 10 12 01 78 82 90 00 6A
 	SafeNet eToken 5300 (PKI)
