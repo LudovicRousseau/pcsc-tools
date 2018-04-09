@@ -22,6 +22,8 @@
 #include <time.h>
 #include <unistd.h>
 #include <string.h>
+#include <signal.h>
+typedef void (*sighandler_t)(int);
 #include <sys/time.h>
 
 #ifdef __APPLE__
@@ -147,6 +149,7 @@ static void initialize_terminal()
 }
 /* There should be no \33 beyond this line! */
 
+Boolean spinning_interrupted = False;
 unsigned int spin_state = 0;
 static void spin_start(void)
 {
@@ -168,6 +171,44 @@ static void spin_suspend(void)
 {
 	printf("%s %s", cub2, cub2);
 	fflush(stdout);
+    if (spinning_interrupted)
+    {
+        exit(0);
+    }
+}
+
+static sighandler_t old_interrupt_signal_handler;
+
+static void user_interrupt_signal_handler(int signal)
+{
+    if (spinning_interrupted)
+    {
+        /*
+        * If the user interrupts twice, before the program exits,
+        * then we call the old interrupt signal handler,  or by default we exit.
+        */
+
+        if (old_interrupt_signal_handler == SIG_IGN)
+        {
+            return;
+        }
+
+        if (old_interrupt_signal_handler == SIG_DFL)
+        {
+            exit(1);
+        }
+
+        old_interrupt_signal_handler(signal);
+    }
+    else
+    {
+        spinning_interrupted = True;
+    }
+}
+
+static void initialize_signal_handlers()
+{
+    old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
 }
 
 static LONG stress(SCARDCONTEXT hContext, const char *readerName)
@@ -309,6 +350,7 @@ int main(int argc, char *argv[])
 	}
 
     initialize_terminal();
+    initialize_signal_handlers();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
@@ -397,15 +439,16 @@ get_readers:
 				rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates, 1);
 				spin_update();
 			}
-			while (SCARD_E_TIMEOUT == rv);
+			while ((SCARD_E_TIMEOUT == rv) && !spinning_interrupted);
 			spin_suspend();
+
 			test_rv("SCardGetStatusChange", rv, hContext);
 		}
 		else
 		{
 			rv = SCARD_S_SUCCESS;
 			spin_start();
-			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
+			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld) && !spinning_interrupted)
 			{
 				rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 				if (SCARD_E_NO_READERS_AVAILABLE == rv)
@@ -472,7 +515,7 @@ get_readers:
 	 * We only stop in case of an error
 	 */
 	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
-	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
+	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT) && !spinning_interrupted)
 	{
 		time_t t;
 
