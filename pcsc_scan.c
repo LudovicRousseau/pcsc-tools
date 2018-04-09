@@ -40,7 +40,13 @@
 #define FALSE 0
 #endif
 
+typedef enum
+{
+    True = TRUE, False = FALSE
+} Boolean;
+
 #define TIMEOUT 1000	/* 1 second timeout */
+
 
 /* command used to parse (on screen) the ATR */
 #define ATR_PARSER "ATR_analysis"
@@ -98,6 +104,49 @@ const char *red = "";
 const char *magenta = "";
 const char *color_end = "";
 
+const char *cub2 = "";
+const char *cub3 = "";
+
+static Boolean isMember(const char *  item, const char * list[])
+{
+    int i = 0;
+    while (list[i] && 0 != strcmp(item, list[i]))
+    {
+        i++;
+    }
+    return list[i] != 0;
+}
+
+static void initialize_terminal()
+{
+    const char *color_terms[] = { "linux", "xterm", "xterm-color", "xterm-256color",
+                                  "Eterm", "rxvt", "rxvt-unicode", 0};
+    const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
+    const char *term = getenv("TERM");
+    if (term == 0)
+    {
+        term = "dumb";
+    }
+    if (isMember(term, color_terms))
+	{
+        blue = "\33[34m";
+        red = "\33[31m";
+        magenta = "\33[35m";
+        color_end = "\33[0m";
+    }
+    if (isMember(term, no_ansi_cursor_terms))
+    {
+        cub2 = "\r"; /* use carriage return */
+        cub3 = "\r";
+    }
+    else
+    {
+        cub2 = "\33[2D";
+        cub3 = "\33[3D";
+    }
+}
+/* There should be no \33 beyond this line! */
+
 unsigned int spin_state = 0;
 static void spin_start(void)
 {
@@ -111,13 +160,13 @@ static void spin_update(void)
 	spin_state++;
 	if (spin_state >= sizeof patterns)
 		spin_state = 0;
-	printf("\33[3D %c ", c);
+	printf("%s %c ", cub3, c);
 	fflush(stdout);
 }
 
 static void spin_suspend(void)
 {
-	printf("\33[2D \33[2D");
+	printf("%s %s", cub2, cub2);
 	fflush(stdout);
 }
 
@@ -259,31 +308,7 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
-	/* check if terminal supports color */
-	{
-		const char *terms[] = { "linux", "xterm", "xterm-color", "xterm-256color", "Eterm", "rxvt", "rxvt-unicode" };
-		char *term;
-
-		term = getenv("TERM");
-		if (term)
-		{
-			size_t j;
-
-			/* for each known color terminal */
-			for (j = 0; j < sizeof(terms) / sizeof(terms[0]); j++)
-			{
-				/* we found a supported term? */
-				if (0 == strcmp(terms[j], term))
-				{
-					blue = "\33[34m";
-					red = "\33[31m";
-					magenta = "\33[35m";
-					color_end = "\33[0m";
-					break;
-				}
-			}
-		}
-	}
+    initialize_terminal();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
