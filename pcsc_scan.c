@@ -95,10 +95,11 @@ do { \
 
 static void usage(const char *pname)
 {
-	printf("%s usage:\n\n\t%s [-n] [-V] [-h]\n\n", pname, pname);
-	printf("\t\t  -n : no ATR analysis\n");
-	printf("\t\t  -V : print version number\n");
+	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -s] \n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
+	printf("\t\t  -V : print version number\n");
+	printf("\t\t  -n : no ATR analysis\n");
+	printf("\t\t  -r : only lists readers\n");
 	printf("\t\t  -s : stress mode\n");
 	printf("\n");
 }
@@ -225,6 +226,7 @@ typedef struct
     Boolean stress_card;
     Boolean print_version;
     Boolean verbose;
+    Boolean only_list_readers;
 } options_t;
 
 static options_t options;
@@ -240,12 +242,13 @@ void initialize_options(options_t *options, const char *pname)
 	options->stress_card = False;
     options->print_version = False;
     options->verbose = False;
+    options->only_list_readers = False;
 }
 
 #ifdef WIN32
-#define OPTIONS "Vhvs"
+#define OPTIONS "Vhvrs"
 #else
-#define OPTIONS "Vhnvs"
+#define OPTIONS "Vhnvrs"
 #endif
 
 int parse_options(int argc, char *argv[], options_t *options)
@@ -267,6 +270,10 @@ int parse_options(int argc, char *argv[], options_t *options)
 
           case 'v':
               options->verbose = True;
+              break;
+
+          case 'r':
+              options->only_list_readers = True;
               break;
 
           case 's':
@@ -384,6 +391,16 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	return ret_rv;
 }
 
+void print_readers(const char **readers, int nbReaders)
+{
+    int i = 0;
+    for (i = 0;i < nbReaders; i++)
+    {
+        printf("%s%d: %s%s\n", blue, i, readers[i], color_end);
+    }
+}
+
+
 int main(int argc, char *argv[])
 {
 	int current_reader;
@@ -393,7 +410,8 @@ int main(int argc, char *argv[])
 	SCARD_READERSTATE rgReaderStates[1];
 	DWORD dwReaders = 0, dwReadersOld;
 	LPSTR mszReaders = NULL;
-	char *ptr, **readers = NULL;
+	char *ptr = NULL;
+    const char **readers = NULL;
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
@@ -552,11 +570,16 @@ get_readers:
 	ptr = mszReaders;
 	while (*ptr != '\0')
 	{
-		printf("%s%d: %s%s\n", blue, nbReaders, ptr, color_end);
 		readers[nbReaders] = ptr;
 		ptr += strlen(ptr)+1;
 		nbReaders++;
 	}
+
+    print_readers(readers, nbReaders);
+    if (options.only_list_readers)
+    {
+        exit(EX_OK);
+    }
 
 	/* allocate the ReaderStates table */
 	rgReaderStates_t = calloc(nbReaders+1, sizeof(* rgReaderStates_t));
