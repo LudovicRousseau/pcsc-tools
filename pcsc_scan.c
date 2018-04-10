@@ -229,7 +229,7 @@ typedef struct
     Boolean only_list_readers;
 } options_t;
 
-static options_t options;
+static options_t Options;
 
 void initialize_options(options_t *options, const char *pname)
 {
@@ -312,7 +312,7 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	DWORD dwActiveProtocol;
 	const SCARD_IO_REQUEST *pioSendPci;
 
-	if (options.verbose)
+	if (Options.verbose)
     {
         printf("Stress card in reader: %s\n\n", readerName);
     }
@@ -418,11 +418,11 @@ int main(int argc, char *argv[])
 	int pnp = TRUE;
 
     initialize_terminal();
-    if (0 != parse_options(argc, argv, &options))
+    if (0 != parse_options(argc, argv, &Options))
     {
         exit(EX_USAGE);
     }
-    if (options.print_version)
+    if (Options.print_version)
     {
        print_version();
        exit(EX_OK);
@@ -439,7 +439,7 @@ int main(int argc, char *argv[])
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
 	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
-		if (options.verbose)
+		if (Options.verbose)
         {
 			printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
 		}
@@ -447,7 +447,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		if (options.verbose)
+		if (Options.verbose)
         {
 			printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
 		}
@@ -473,7 +473,7 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-    if (options.verbose)
+    if (Options.verbose)
     {
     	printf("%sScanning present readers...%s\n", red, color_end);
     }
@@ -493,7 +493,7 @@ get_readers:
 	mszReaders = malloc(sizeof(char)*dwReaders);
 	if (mszReaders == NULL)
 	{
-		fprintf(stderr, "%s: malloc: not enough memory\n", options.pname);
+		fprintf(stderr, "%s: malloc: not enough memory\n", Options.pname);
 		exit(EX_OSERR);
 	}
 
@@ -512,7 +512,7 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
-        if (options.verbose)
+        if (Options.verbose)
         {
             printf("%sWaiting for the first reader...%s   ", red, color_end);
             fflush(stdout);
@@ -548,7 +548,7 @@ get_readers:
 			}
 			spin_suspend();
 		}
-        if (options.verbose)
+        if (Options.verbose)
         {
             printf("found one\n");
         }
@@ -561,7 +561,7 @@ get_readers:
 	readers = calloc(nbReaders+1, sizeof(char *));
 	if (NULL == readers)
 	{
-		fprintf(stderr, "%s: Not enough memory for readers table\n", options.pname);
+		fprintf(stderr, "%s: Not enough memory for readers table\n", Options.pname);
 		exit(EX_OSERR);
 	}
 
@@ -576,7 +576,7 @@ get_readers:
 	}
 
     print_readers(readers, nbReaders);
-    if (options.only_list_readers)
+    if (Options.only_list_readers)
     {
         exit(EX_OK);
     }
@@ -585,7 +585,7 @@ get_readers:
 	rgReaderStates_t = calloc(nbReaders+1, sizeof(* rgReaderStates_t));
 	if (NULL == rgReaderStates_t)
 	{
-		fprintf(stderr, "%s: Not enough memory for readers states\n", options.pname);
+		fprintf(stderr, "%s: Not enough memory for readers states\n", Options.pname);
 		exit(EX_OSERR);
 	}
 
@@ -755,7 +755,7 @@ get_readers:
 				/* force display */
 				fflush(stdout);
 
-				if (options.analyse_atr)
+				if (Options.analyse_atr)
 				{
 					printf("\n");
 
@@ -768,7 +768,7 @@ get_readers:
 			LONG state = rgReaderStates_t[current_reader].dwEventState;
 			if (state & SCARD_STATE_PRESENT
 				&& !(state & SCARD_STATE_MUTE)
-				&& options.stress_card)
+				&& Options.stress_card)
 			{
 				do
 				{
