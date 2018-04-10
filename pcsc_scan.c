@@ -309,6 +309,8 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
     {
         printf("Stress card in reader: %s\n\n", readerName);
     }
+	else
+		printf("\n");
 	rv = SCardConnect(hContext, readerName, SCARD_SHARE_SHARED,
          SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
 	if (rv != SCARD_S_SUCCESS)
