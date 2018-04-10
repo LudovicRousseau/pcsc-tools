@@ -384,7 +384,7 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	return ret_rv;
 }
 
-void print_readers(const char **readers, int nbReaders)
+static void print_readers(const char **readers, int nbReaders)
 {
     int i = 0;
     for (i = 0;i < nbReaders; i++)
