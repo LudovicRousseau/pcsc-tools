@@ -474,7 +474,7 @@ get_readers:
 	 */
     if (Options.verbose)
     {
-    	printf("%sScanning present readers...%s\n", red, color_end);
+		printf("%sScanning present readers...%s\n", red, color_end);
     }
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_E_NO_READERS_AVAILABLE)
