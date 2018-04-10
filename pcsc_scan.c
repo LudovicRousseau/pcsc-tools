@@ -251,7 +251,7 @@ static void initialize_options(options_t *options, const char *pname)
 #define OPTIONS "Vhnvrs"
 #endif
 
-int parse_options(int argc, char *argv[], options_t *options)
+static int parse_options(int argc, char *argv[], options_t *options)
 {
     const char *pname = argv[0];
 	int opt;
