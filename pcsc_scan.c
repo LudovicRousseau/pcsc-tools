@@ -298,13 +298,6 @@ static int parse_options(int argc, char *argv[], options_t *options)
     return EX_OK;
 }
 
-void print_version()
-{
-	printf("PC/SC device scanner\n");
-	printf("V %s (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n",
-           PACKAGE_VERSION);
-}
-
 static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 {
 	LONG rv, ret_rv = SCARD_S_SUCCESS;
@@ -400,6 +393,12 @@ void print_readers(const char **readers, int nbReaders)
     }
 }
 
+static void print_version(void)
+{
+	printf("PC/SC device scanner\n");
+	printf("V %s (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n",
+           PACKAGE_VERSION);
+}
 
 int main(int argc, char *argv[])
 {
