@@ -101,6 +101,7 @@ static void usage(const char *pname)
 	printf("\t\t  -n : no ATR analysis\n");
 	printf("\t\t  -r : only lists readers\n");
 	printf("\t\t  -s : stress mode\n");
+	printf("\t\t  -q : quiet mode\n");
 	printf("\n");
 }
 
@@ -241,14 +242,14 @@ static void initialize_options(options_t *options, const char *pname)
 #endif
 	options->stress_card = False;
     options->print_version = False;
-    options->verbose = False;
+    options->verbose = True;
     options->only_list_readers = False;
 }
 
 #ifdef WIN32
-#define OPTIONS "Vhvrs"
+#define OPTIONS "Vhvrsq"
 #else
-#define OPTIONS "Vhnvrs"
+#define OPTIONS "Vhnvrsq"
 #endif
 
 static int parse_options(int argc, char *argv[], options_t *options)
@@ -278,6 +279,10 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
           case 's':
               options->stress_card = True;
+              break;
+
+          case 'q':
+              options->verbose = False;
               break;
 
           case 'h':
