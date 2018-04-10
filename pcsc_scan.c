@@ -774,7 +774,7 @@ get_readers:
 				do
 				{
 					rv = stress(hContext, rgReaderStates_t[current_reader].szReader);
-				} while (SCARD_S_SUCCESS == rv);
+				} while (SCARD_S_SUCCESS == rv && ! spinning_interrupted);
 
 				rgReaderStates_t[current_reader].dwCurrentState = SCARD_STATE_UNAWARE;
 			}
