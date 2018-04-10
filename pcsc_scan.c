@@ -24,6 +24,7 @@
 #include <string.h>
 #include <signal.h>
 typedef void (*sighandler_t)(int);
+#include <sysexits.h>
 #include <sys/time.h>
 
 #ifdef __APPLE__
@@ -92,14 +93,15 @@ do { \
 	} \
 } while(0)
 
-static void usage(void)
+static void usage(const char *pname)
 {
-	printf("usage: pcsc_scan [-n] [-V] [-h]\n");
-	printf("  -n : no ATR analysis\n");
-	printf("  -V : print version number\n");
-	printf("  -h : this help\n");
-	printf("  -s : stress mode\n");
-} /* usage */
+	printf("%s usage:\n\n\t%s [-n] [-V] [-h]\n\n", pname, pname);
+	printf("\t\t  -n : no ATR analysis\n");
+	printf("\t\t  -V : print version number\n");
+	printf("\t\t  -h : this help\n");
+	printf("\t\t  -s : stress mode\n");
+	printf("\n");
+}
 
 const char *blue = "";
 const char *red = "";
@@ -173,11 +175,12 @@ static void spin_suspend(void)
 	fflush(stdout);
     if (spinning_interrupted)
     {
-        exit(0);
+        exit(EX_OK);
     }
 }
 
 static sighandler_t old_interrupt_signal_handler;
+#define EX_USER_INTERRUPT (1)
 
 static void user_interrupt_signal_handler(int signal)
 {
@@ -195,7 +198,7 @@ static void user_interrupt_signal_handler(int signal)
 
         if (old_interrupt_signal_handler == SIG_DFL)
         {
-            exit(1);
+            exit(EX_USER_INTERRUPT);
         }
 
         old_interrupt_signal_handler(signal);
@@ -293,6 +296,69 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	return ret_rv;
 }
 
+typedef struct
+{
+    Boolean analyse_atr;
+    Boolean stress_card;
+    Boolean print_version;
+} options_t;
+
+void initialize_options(options_t *options)
+{
+#ifdef WIN32
+    options->analyse_atr = False;
+#else
+    options->analyse_atr = True;
+#endif
+	options->stress_card = False;
+    options->print_version = False;
+}
+
+int parse_options(int argc, char *argv[], options_t *options)
+{
+    const char *pname = argv[0];
+	int opt;
+    initialize_options(options);
+	while ((opt = getopt(argc, argv, "Vhns")) != EOF)
+	{
+		switch (opt)
+		{
+          case 'n':
+              options->analyse_atr = False;
+              break;
+
+          case 'V':
+              options->print_version = True;
+              break;
+
+          case 's':
+              options->stress_card = True;
+              break;
+
+          case 'h':
+              usage(pname);
+              exit(EX_OK);
+
+          default:
+              usage(pname);
+              exit(EX_USAGE);
+		}
+	}
+	if (argc - optind != 0)
+	{
+        fprintf(stderr, "%s error: superfluous arguments: %s\n", pname, argv[optind]);
+		usage(pname);
+		exit(EX_USAGE);
+	}
+    return EX_OK;
+}
+
+void print_version()
+{
+	printf("PC/SC device scanner\n");
+	printf("V " PACKAGE_VERSION " (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
+}
+
 int main(int argc, char *argv[])
 {
 	int current_reader;
@@ -306,50 +372,20 @@ int main(int argc, char *argv[])
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
-	int opt;
-	int analyse_atr = TRUE;
-	int stress_card = FALSE;
 	int pnp = TRUE;
-
-	printf("PC/SC device scanner\n");
-	printf("V " PACKAGE_VERSION " (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
-
-#ifdef WIN32
-	analyse_atr = FALSE;
-#endif
-
-	while ((opt = getopt(argc, argv, "Vhns")) != EOF)
-	{
-		switch (opt)
-		{
-			case 'n':
-				analyse_atr = FALSE;
-				break;
-
-			case 'V':
-				/* the version number is printed by default */
-				return 1;
-				break;
-
-			case 's':
-				stress_card = TRUE;
-				break;
-
-			case 'h':
-			default:
-				usage();
-				return 1;
-				break;
-		}
-	}
-
-	if (argc - optind != 0)
-	{
-		usage();
-		return 1;
-	}
+    options_t options;
 
     initialize_terminal();
+    if (0 != parse_options(argc, argv, &options))
+    {
+        exit(EX_USAGE);
+    }
+    if (options.print_version)
+    {
+       print_version();
+       exit(EX_OK);
+    }
+
     initialize_signal_handlers();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
@@ -657,7 +693,7 @@ get_readers:
 				/* force display */
 				fflush(stdout);
 
-				if (analyse_atr)
+				if (options.analyse_atr)
 				{
 					printf("\n");
 
@@ -670,7 +706,7 @@ get_readers:
 			LONG state = rgReaderStates_t[current_reader].dwEventState;
 			if (state & SCARD_STATE_PRESENT
 				&& !(state & SCARD_STATE_MUTE)
-				&& stress_card)
+				&& options.stress_card)
 			{
 				do
 				{
@@ -706,6 +742,6 @@ get_readers:
 	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
 
-	return 0;
-} /* main */
+	return EX_OK;
+} /* If you need to write the name of the function at the end,  it means your function is too long! */
 
