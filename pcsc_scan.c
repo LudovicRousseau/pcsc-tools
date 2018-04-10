@@ -231,7 +231,7 @@ typedef struct
 
 static options_t Options;
 
-void initialize_options(options_t *options, const char *pname)
+static void initialize_options(options_t *options, const char *pname)
 {
     options->pname = pname;
 #ifdef WIN32
