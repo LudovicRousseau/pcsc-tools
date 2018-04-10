@@ -2,7 +2,7 @@
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH PCSC_SCAN 1 "june 13, 2002"
+.TH PCSC_SCAN 1 "April 10, 2018"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:
@@ -25,7 +25,7 @@ This manual page documents the
 command.
 .PP
 .\" TeX users may be more comfortable with the \fB<whatever>\fP and
-.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics,
 .\" respectively.
 \fBpcsc_scan\fP is a program that regularly scans every PC/SC readers
 connected to the host and display the status of the cards inserted in
@@ -52,7 +52,7 @@ reader name:
 Reader 0: Gemalto PC Twin Reader
 .TP
 card state and occurred event:
-Card state: Card inserted, 
+Card state: Card inserted,
 .TP
 ATR in case of card insertion:
 ATR: 3B 82 00 86 1E
@@ -76,9 +76,15 @@ print version number
 do not print ATR analysis.
 Use this option if \fBATR_analysis\fP is not available for example.
 .TP
+.B \-r
+prints the list of readers and then exits.
+.TP
 .B \-s
 stress mode. Sends APDU commands to the card indefinitely (until the
 card or the reader is removed).
+.TP
+.B \-v
+verbose: prints additionnal messages.
 .SH SEE ALSO
 .BR pcscd "(8), " ATR_analysis (1)
 .SH AUTHOR

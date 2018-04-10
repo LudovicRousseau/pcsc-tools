@@ -22,6 +22,9 @@
 #include <time.h>
 #include <unistd.h>
 #include <string.h>
+#include <signal.h>
+typedef void (*sighandler_t)(int);
+#include <sysexits.h>
 #include <sys/time.h>
 
 #ifdef __APPLE__
@@ -40,7 +43,13 @@
 #define FALSE 0
 #endif
 
+typedef enum
+{
+    True = TRUE, False = FALSE
+} Boolean;
+
 #define TIMEOUT 1000	/* 1 second timeout */
+
 
 /* command used to parse (on screen) the ATR */
 #define ATR_PARSER "ATR_analysis"
@@ -72,7 +81,7 @@ const char *pcsc_stringify_error(DWORD rv)
 #endif
 
 #define print_pcsc_error(fct, rv) \
-	printf("%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end)
+	fprintf(stderr, "%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end)
 
 #define test_rv(fct, rv, hContext) \
 do { \
@@ -84,20 +93,69 @@ do { \
 	} \
 } while(0)
 
-static void usage(void)
+static void usage(const char *pname)
 {
-	printf("usage: pcsc_scan [-n] [-V] [-h]\n");
-	printf("  -n : no ATR analysis\n");
-	printf("  -V : print version number\n");
-	printf("  -h : this help\n");
-	printf("  -s : stress mode\n");
-} /* usage */
+	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -s] \n\n", pname, pname);
+	printf("\t\t  -h : this help\n");
+	printf("\t\t  -V : print version number\n");
+	printf("\t\t  -n : no ATR analysis\n");
+	printf("\t\t  -r : only lists readers\n");
+	printf("\t\t  -s : stress mode\n");
+	printf("\n");
+}
 
 const char *blue = "";
 const char *red = "";
 const char *magenta = "";
 const char *color_end = "";
 
+const char *cub2 = "";
+const char *cub3 = "";
+const char *cpl = "";
+
+static Boolean is_member(const char *  item, const char * list[])
+{
+    int i = 0;
+    while (list[i] && 0 != strcmp(item, list[i]))
+    {
+        i++;
+    }
+    return list[i] != 0;
+}
+
+static void initialize_terminal()
+{
+    const char *color_terms[] = { "linux", "xterm", "xterm-color", "xterm-256color",
+                                  "Eterm", "rxvt", "rxvt-unicode", 0};
+    const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
+    const char *term = getenv("TERM");
+    if (term == 0)
+    {
+        term = "dumb";
+    }
+    if (is_member(term, color_terms))
+	{
+        blue = "\033[34m";
+        red = "\033[31m";
+        magenta = "\033[35m";
+        color_end = "\033[0m";
+    }
+    if (is_member(term, no_ansi_cursor_terms))
+    {
+        cub2 = "\r"; /* use carriage return */
+        cub3 = "\r";
+        cpl = "\n"; /* can't do previous line,  let's go to the next line. */
+	}
+    else
+    {
+        cub2 = "\033[2D";
+        cub3 = "\033[3D";
+        cpl = "\033[";
+    }
+}
+/* There should be no \033 beyond this line! */
+
+Boolean spinning_interrupted = False;
 unsigned int spin_state = 0;
 static void spin_start(void)
 {
@@ -111,14 +169,140 @@ static void spin_update(void)
 	spin_state++;
 	if (spin_state >= sizeof patterns)
 		spin_state = 0;
-	printf("\33[3D %c ", c);
+	printf("%s %c ", cub3, c);
 	fflush(stdout);
 }
 
 static void spin_suspend(void)
 {
-	printf("\33[2D \33[2D");
+	printf("%s %s", cub2, cub2);
 	fflush(stdout);
+    if (spinning_interrupted)
+    {
+        exit(EX_OK);
+    }
+}
+
+static sighandler_t old_interrupt_signal_handler;
+#define EX_USER_INTERRUPT (1)
+
+static void user_interrupt_signal_handler(int signal)
+{
+    if (spinning_interrupted)
+    {
+        /*
+        * If the user interrupts twice, before the program exits,
+        * then we call the old interrupt signal handler,  or by default we exit.
+        */
+
+        if (old_interrupt_signal_handler == SIG_IGN)
+        {
+            return;
+        }
+
+        if (old_interrupt_signal_handler == SIG_DFL)
+        {
+            exit(EX_USER_INTERRUPT);
+        }
+
+        old_interrupt_signal_handler(signal);
+    }
+    else
+    {
+        spinning_interrupted = True;
+    }
+}
+
+static void initialize_signal_handlers()
+{
+    old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
+}
+
+
+typedef struct
+{
+    const char *pname;
+    Boolean analyse_atr;
+    Boolean stress_card;
+    Boolean print_version;
+    Boolean verbose;
+    Boolean only_list_readers;
+} options_t;
+
+static options_t options;
+
+void initialize_options(options_t *options, const char *pname)
+{
+    options->pname = pname;
+#ifdef WIN32
+    options->analyse_atr = False;
+#else
+    options->analyse_atr = True;
+#endif
+	options->stress_card = False;
+    options->print_version = False;
+    options->verbose = False;
+    options->only_list_readers = False;
+}
+
+#ifdef WIN32
+#define OPTIONS "Vhvrs"
+#else
+#define OPTIONS "Vhnvrs"
+#endif
+
+int parse_options(int argc, char *argv[], options_t *options)
+{
+    const char *pname = argv[0];
+	int opt;
+    initialize_options(options, pname);
+	while ((opt = getopt(argc, argv, OPTIONS)) != EOF)
+	{
+		switch (opt)
+		{
+          case 'n':
+              options->analyse_atr = False;
+              break;
+
+          case 'V':
+              options->print_version = True;
+              break;
+
+          case 'v':
+              options->verbose = True;
+              break;
+
+          case 'r':
+              options->only_list_readers = True;
+              break;
+
+          case 's':
+              options->stress_card = True;
+              break;
+
+          case 'h':
+              usage(pname);
+              exit(EX_OK);
+
+          default:
+              usage(pname);
+              exit(EX_USAGE);
+		}
+	}
+	if (argc - optind != 0)
+	{
+        fprintf(stderr, "%s error: superfluous arguments: %s\n", pname, argv[optind]);
+		usage(pname);
+		exit(EX_USAGE);
+	}
+    return EX_OK;
+}
+
+void print_version()
+{
+	printf("PC/SC device scanner\n");
+	printf("V %s (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n",
+           PACKAGE_VERSION);
 }
 
 static LONG stress(SCARDCONTEXT hContext, const char *readerName)
@@ -128,7 +312,10 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	DWORD dwActiveProtocol;
 	const SCARD_IO_REQUEST *pioSendPci;
 
-	printf("Stress card in reader: %s\n\n", readerName);
+	if (options.verbose)
+    {
+        printf("Stress card in reader: %s\n\n", readerName);
+    }
 	rv = SCardConnect(hContext, readerName, SCARD_SHARE_SHARED,
          SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
 	if (rv != SCARD_S_SUCCESS)
@@ -155,17 +342,18 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 			pioSendPci = SCARD_PCI_RAW;
 			break;
 		default:
-			printf("Unknown protocol\n");
+			fprintf(stderr, "Unknown protocol\n");
 			return -1;
 	}
 
 	gettimeofday(&time_start, NULL);
 
+
 #define COUNT 100
 	size_t count;
 	for (count=0; count<COUNT; count++)
 	{
-		printf("\033[FAPDU n°: %ld\n", count);
+		printf("%sFAPDU n°: %ld\n", cpl, count);
 		dwSendLength = sizeof(pbSendBuffer);
 		dwRecvLength = sizeof(pbRecvBuffer);
 		rv = SCardTransmit(hCard, pioSendPci, pbSendBuffer, dwSendLength,
@@ -203,6 +391,16 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	return ret_rv;
 }
 
+void print_readers(const char **readers, int nbReaders)
+{
+    int i = 0;
+    for (i = 0;i < nbReaders; i++)
+    {
+        printf("%s%d: %s%s\n", blue, i, readers[i], color_end);
+    }
+}
+
+
 int main(int argc, char *argv[])
 {
 	int current_reader;
@@ -212,78 +410,25 @@ int main(int argc, char *argv[])
 	SCARD_READERSTATE rgReaderStates[1];
 	DWORD dwReaders = 0, dwReadersOld;
 	LPSTR mszReaders = NULL;
-	char *ptr, **readers = NULL;
+	char *ptr = NULL;
+    const char **readers = NULL;
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
-	int opt;
-	int analyse_atr = TRUE;
-	int stress_card = FALSE;
 	int pnp = TRUE;
 
-	printf("PC/SC device scanner\n");
-	printf("V " PACKAGE_VERSION " (c) 2001-2017, Ludovic Rousseau <ludovic.rousseau@free.fr>\n");
+    initialize_terminal();
+    if (0 != parse_options(argc, argv, &options))
+    {
+        exit(EX_USAGE);
+    }
+    if (options.print_version)
+    {
+       print_version();
+       exit(EX_OK);
+    }
 
-#ifdef WIN32
-	analyse_atr = FALSE;
-#endif
-
-	while ((opt = getopt(argc, argv, "Vhns")) != EOF)
-	{
-		switch (opt)
-		{
-			case 'n':
-				analyse_atr = FALSE;
-				break;
-
-			case 'V':
-				/* the version number is printed by default */
-				return 1;
-				break;
-
-			case 's':
-				stress_card = TRUE;
-				break;
-
-			case 'h':
-			default:
-				usage();
-				return 1;
-				break;
-		}
-	}
-
-	if (argc - optind != 0)
-	{
-		usage();
-		return 1;
-	}
-
-	/* check if terminal supports color */
-	{
-		const char *terms[] = { "linux", "xterm", "xterm-color", "xterm-256color", "Eterm", "rxvt", "rxvt-unicode" };
-		char *term;
-
-		term = getenv("TERM");
-		if (term)
-		{
-			size_t j;
-
-			/* for each known color terminal */
-			for (j = 0; j < sizeof(terms) / sizeof(terms[0]); j++)
-			{
-				/* we found a supported term? */
-				if (0 == strcmp(terms[j], term))
-				{
-					blue = "\33[34m";
-					red = "\33[31m";
-					magenta = "\33[35m";
-					color_end = "\33[0m";
-					break;
-				}
-			}
-		}
-	}
+    initialize_signal_handlers();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
@@ -294,12 +439,18 @@ int main(int argc, char *argv[])
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
 	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
-		printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
+		if (options.verbose)
+        {
+			printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
+		}
 		pnp = FALSE;
 	}
 	else
 	{
-		printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
+		if (options.verbose)
+        {
+			printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
+		}
 	}
 
 get_readers:
@@ -322,7 +473,10 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-	printf("%sScanning present readers...%s\n", red, color_end);
+    if (options.verbose)
+    {
+    	printf("%sScanning present readers...%s\n", red, color_end);
+    }
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_E_NO_READERS_AVAILABLE)
 		test_rv("SCardListReaders", rv, hContext);
@@ -339,8 +493,8 @@ get_readers:
 	mszReaders = malloc(sizeof(char)*dwReaders);
 	if (mszReaders == NULL)
 	{
-		printf("malloc: not enough memory\n");
-		return 1;
+		fprintf(stderr, "%s: malloc: not enough memory\n", options.pname);
+		exit(EX_OSERR);
 	}
 
 	*mszReaders = '\0';
@@ -358,8 +512,11 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
-		printf("%sWaiting for the first reader...%s   ", red, color_end);
-		fflush(stdout);
+        if (options.verbose)
+        {
+            printf("%sWaiting for the first reader...%s   ", red, color_end);
+            fflush(stdout);
+        }
 
 		if (pnp)
 		{
@@ -372,15 +529,16 @@ get_readers:
 				rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates, 1);
 				spin_update();
 			}
-			while (SCARD_E_TIMEOUT == rv);
+			while ((SCARD_E_TIMEOUT == rv) && !spinning_interrupted);
 			spin_suspend();
+
 			test_rv("SCardGetStatusChange", rv, hContext);
 		}
 		else
 		{
 			rv = SCARD_S_SUCCESS;
 			spin_start();
-			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
+			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld) && !spinning_interrupted)
 			{
 				rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 				if (SCARD_E_NO_READERS_AVAILABLE == rv)
@@ -390,7 +548,10 @@ get_readers:
 			}
 			spin_suspend();
 		}
-		printf("found one\n");
+        if (options.verbose)
+        {
+            printf("found one\n");
+        }
 		goto get_readers;
 	}
 	else
@@ -400,8 +561,8 @@ get_readers:
 	readers = calloc(nbReaders+1, sizeof(char *));
 	if (NULL == readers)
 	{
-		printf("Not enough memory for readers table\n");
-		return -1;
+		fprintf(stderr, "%s: Not enough memory for readers table\n", options.pname);
+		exit(EX_OSERR);
 	}
 
 	/* fill the readers table */
@@ -409,18 +570,23 @@ get_readers:
 	ptr = mszReaders;
 	while (*ptr != '\0')
 	{
-		printf("%s%d: %s%s\n", blue, nbReaders, ptr, color_end);
 		readers[nbReaders] = ptr;
 		ptr += strlen(ptr)+1;
 		nbReaders++;
 	}
 
+    print_readers(readers, nbReaders);
+    if (options.only_list_readers)
+    {
+        exit(EX_OK);
+    }
+
 	/* allocate the ReaderStates table */
 	rgReaderStates_t = calloc(nbReaders+1, sizeof(* rgReaderStates_t));
 	if (NULL == rgReaderStates_t)
 	{
-		printf("Not enough memory for readers states\n");
-		return -1;
+		fprintf(stderr, "%s: Not enough memory for readers states\n", options.pname);
+		exit(EX_OSERR);
 	}
 
 	/* Set the initial states to something we do not know
@@ -447,7 +613,7 @@ get_readers:
 	 * We only stop in case of an error
 	 */
 	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
-	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
+	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT) && !spinning_interrupted)
 	{
 		time_t t;
 
@@ -589,7 +755,7 @@ get_readers:
 				/* force display */
 				fflush(stdout);
 
-				if (analyse_atr)
+				if (options.analyse_atr)
 				{
 					printf("\n");
 
@@ -602,7 +768,7 @@ get_readers:
 			LONG state = rgReaderStates_t[current_reader].dwEventState;
 			if (state & SCARD_STATE_PRESENT
 				&& !(state & SCARD_STATE_MUTE)
-				&& stress_card)
+				&& options.stress_card)
 			{
 				do
 				{
@@ -638,6 +804,6 @@ get_readers:
 	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
 
-	return 0;
-} /* main */
+	return EX_OK;
+} /* If you need to write the name of the function at the end,  it means your function is too long! */
 
