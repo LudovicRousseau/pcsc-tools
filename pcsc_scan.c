@@ -131,25 +131,26 @@ static void initialize_terminal()
     {
         term = "dumb";
     }
-    if (isMember(term, color_terms))
+    if (is_member(term, color_terms))
 	{
-        blue = "\33[34m";
-        red = "\33[31m";
-        magenta = "\33[35m";
-        color_end = "\33[0m";
+        blue = "\033[34m";
+        red = "\033[31m";
+        magenta = "\033[35m";
+        color_end = "\033[0m";
     }
-    if (isMember(term, no_ansi_cursor_terms))
+    if (is_member(term, no_ansi_cursor_terms))
     {
         cub2 = "\r"; /* use carriage return */
         cub3 = "\r";
-    }
+        cpl = "\n"; /* can't do previous line,  let's go to the next line. */
     else
     {
-        cub2 = "\33[2D";
-        cub3 = "\33[3D";
+        cub2 = "\033[2D";
+        cub3 = "\033[3D";
+        cpl = "\033[";
     }
 }
-/* There should be no \33 beyond this line! */
+/* There should be no \033 beyond this line! */
 
 Boolean spinning_interrupted = False;
 unsigned int spin_state = 0;
@@ -248,17 +249,18 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 			pioSendPci = SCARD_PCI_RAW;
 			break;
 		default:
-			printf("Unknown protocol\n");
+			fprintf(stderr, "Unknown protocol\n");
 			return -1;
 	}
 
 	gettimeofday(&time_start, NULL);
 
+
 #define COUNT 100
 	size_t count;
 	for (count=0; count<COUNT; count++)
 	{
-		printf("\033[FAPDU n°: %ld\n", count);
+		printf("FAPDU n°: %ld\n", cpl, count);
 		dwSendLength = sizeof(pbSendBuffer);
 		dwRecvLength = sizeof(pbRecvBuffer);
 		rv = SCardTransmit(hCard, pioSendPci, pbSendBuffer, dwSendLength,
