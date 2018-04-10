@@ -102,6 +102,7 @@ static void usage(const char *pname)
 	printf("\t\t  -r : only lists readers\n");
 	printf("\t\t  -s : stress mode\n");
 	printf("\t\t  -q : quiet mode\n");
+	printf("\t\t  -v : verbose mode (default)\n");
 	printf("\n");
 }
 
