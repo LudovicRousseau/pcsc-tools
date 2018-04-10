@@ -612,7 +612,7 @@ get_readers:
 	 * We only stop in case of an error
 	 */
 	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
-	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT) && !spinning_interrupted)
+	while (((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT)) && !spinning_interrupted)
 	{
 		time_t t;
 
