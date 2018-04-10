@@ -411,7 +411,11 @@ static void print_version(void)
 int main(int argc, char *argv[])
 {
 	int current_reader;
+#ifdef __APPLE__
+	uint32_t rv;
+#else
 	LONG rv;
+#endif
 	SCARDCONTEXT hContext;
 	SCARD_READERSTATE *rgReaderStates_t = NULL;
 	SCARD_READERSTATE rgReaderStates[1];
