@@ -282,6 +282,9 @@
 3B 16 94 71 01 01 00 27 00
 	Cingular GSM SIM Card
 
+3B 16 94 71 01 01 01 02 00
+	Iridium SIM Card (Telecommunication)
+
 3B 16 94 71 01 01 05 02 00
 	GSM SIM Bouygues Telecom
 
@@ -800,6 +803,9 @@
 
 3B 3B 96 00 40 54 01 00 00 0A C0 33 33 90 00
 	Wind (Italy) 64K prepaid GSM SIM card
+
+3B 3B 96 00 92 42 10 10 5A 02 E0 00 33 90 00
+	Roaming Test SIM (Telecommunication)
 
 3B 3B 96 00 A7 4C 90 00 00 90 AC 33 33 90 00
 	Brazilian TIM GSM SIM
@@ -1784,6 +1790,10 @@
 	Gemplus GXP3 64V2N
 	U.S. Department of Defense Common Access Card (DoD CAC)
 
+3B 6B 00 00 81 00 72 26 02 00 40 00 0F 90 00
+	Yuna To Go prepaid MasterCard (PaySafeCard) (Bank)
+	http://yunacard.com
+
 3B 6B 00 00 81 00 72 26 02 00 41 00 0F 90 00
 	Wave Crest Holding (Bank)
 
@@ -2635,6 +2645,10 @@
 	Carte OPUS / OPUS Card - Transport Montréal, Laval, Longueuil, Québec (Transport)
 	http://carteopus.info/
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 49 A8 3F 82 90 00
+	Montreal OPUS Transportation Card for the STM, STL, RTM and RTL (Transport)
+	http://www.stm.info/en/info/fares/opus-cards-and-other-fare-media
+
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
 
@@ -3009,6 +3023,10 @@
 
 3B 79 11 00 00 80 54 43 4F 4C 44 82 90 00
 	amazon.de / VISA / LBB Debit Card (Bank)
+
+3B 79 13 00 00 80 64 16 03 01 83 82 90 00
+	Raiffeisen VPay Debit Card (Bank)
+	http://raiffeisen.ch
 
 3B 79 18 00 00 42 72 61 7A 49 44 65 61 6C
 	Brazilian digital certificate card (eID)
@@ -4455,6 +4473,10 @@
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
 
+3B 8C 80 01 50 24 AD 64 E1 00 00 00 00 33 81 91 72
+	Italian healthcare + public administration card (HealthCare)
+	http://sistemats1.sanita.finanze.it/wps/portal
+
 3B 8C 80 01 50 26 0D BB 15 00 00 00 00 00 71 81 28
 	Navigo Card (Transport)
 	http://www.navigo.fr/
@@ -4497,6 +4519,9 @@
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
+
+3B 8C 80 01 50 89 DC A9 6E 00 00 00 00 80 81 71 BF
+	Cartafreccia VISA (Italian Railways Prepaid + Loyalty Card) (Bank)
 
 3B 8C 80 01 50 91 5D 71 29 E1 F3 5E 11 77 81 A1 C3
 	Spanish eID, Documento Nacional de Identidad (DNIe) (eID)
@@ -5081,6 +5106,9 @@
 	Gemalto IDCore 3010 CC (JavaCard)
 	http://www.gemalto.com/Products/top_javacard/index.html
 
+3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 FF B2
+	Italian Passport (passport)
+
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
 
@@ -5477,6 +5505,10 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 66 13 00 63
 	Three UK USIM card (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 86 12 00 82
+	Singtel Hi! Tourist SIM Card (Telecommunication)
+	https://www.singtel.com/personal/i/phones-plans/mobile/prepaid/hitouristsimcards
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 8B 12 00 8F
 	Ufone (SIM Card) (Telecommunication)
@@ -6058,6 +6090,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 03 F2
 	Vulcan 0502 T-Mobile SIM (Telecommunication)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 04 F5
+	T-Mobile Nederlands (Telecommunication)
+	https://t-mobile.nl/
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 38 05 D4
 	SIM Card from Tmobile Czech Republic (Telecommunication)
 
@@ -6251,6 +6287,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 27 01 09 01 03 81 05 7B
 	slarmy (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2D 01 0C 04 00 81 05 72
+	Tri Indonesia Bima+ SIM Card (Telecommunication)
+	https://beta.tri.co.id/3digiworld/Bimaplus
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 63 01 09 02 01 81 05 3E
 	2degrees Mobile SIM Card New Zealand (Telecommunication)
@@ -8762,6 +8802,9 @@
 
 3B FF 94 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1C
 	Giesecke & Devrient - UniverSIM Pegasus
+
+3B FF 94 00 FF C0 0A 1F 47 80 31 E0 73 F6 21 13 57 4A 33 20 0B 31 41 41 D4
+	SIM  (Telecommunication)
 
 3B FF 95 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 10 31 41 00
 	Verizon GSM SIM (Telecommunication)
