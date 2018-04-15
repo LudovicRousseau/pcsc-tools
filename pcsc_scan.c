@@ -181,6 +181,7 @@ static void spin_suspend(void)
 	fflush(stdout);
 	if (spinning_interrupted)
 	{
+		printf("\n");
 		exit(EX_OK);
 	}
 }
