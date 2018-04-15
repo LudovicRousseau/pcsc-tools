@@ -125,7 +125,7 @@ static Boolean is_member(const char *  item, const char * list[])
     return list[i] != 0;
 }
 
-static void initialize_terminal()
+static void initialize_terminal(void)
 {
     const char *color_terms[] = { "linux", "xterm", "xterm-color", "xterm-256color",
                                   "Eterm", "rxvt", "rxvt-unicode", 0};
