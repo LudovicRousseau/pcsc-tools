@@ -817,5 +817,4 @@ get_readers:
 		free(rgReaderStates_t);
 
 	return EX_OK;
-} /* If you need to write the name of the function at the end,  it means your function is too long! */
-
+}
