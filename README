@@ -130,6 +130,14 @@ Licences:
 History:
 ========
 
+1.5.3 - 15 April 2018, Ludovic ROUSSEAU
+    - 253 new ATRs
+    - pcsc_scan (thanks to Pascal J. Bourguignon):
+     . add -v argument (default) for verbose
+     . add -q argument for quiet
+     . add -r argument to display the reader list
+     . allow to use Control-C to break execution
+
 1.5.2 - 28 May 2017, Ludovic ROUSSEAU
     - include gscriptor.desktop and test.script in the archive
 
