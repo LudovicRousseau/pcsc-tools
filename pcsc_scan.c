@@ -215,7 +215,7 @@ static void user_interrupt_signal_handler(int signal)
     }
 }
 
-static void initialize_signal_handlers()
+static void initialize_signal_handlers(void)
 {
     old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
 }
