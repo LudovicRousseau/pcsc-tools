@@ -45,7 +45,7 @@ typedef void (*sighandler_t)(int);
 
 typedef enum
 {
-    True = TRUE, False = FALSE
+	True = TRUE, False = FALSE
 } Boolean;
 
 #define TIMEOUT 1000	/* 1 second timeout */
@@ -117,43 +117,43 @@ const char *cpl = "";
 
 static Boolean is_member(const char *  item, const char * list[])
 {
-    int i = 0;
-    while (list[i] && 0 != strcmp(item, list[i]))
-    {
-        i++;
-    }
-    return list[i] != 0;
+	int i = 0;
+	while (list[i] && 0 != strcmp(item, list[i]))
+	{
+		i++;
+	}
+	return list[i] != 0;
 }
 
 static void initialize_terminal(void)
 {
-    const char *color_terms[] = { "linux", "xterm", "xterm-color", "xterm-256color",
-                                  "Eterm", "rxvt", "rxvt-unicode", 0};
-    const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
-    const char *term = getenv("TERM");
-    if (term == 0)
-    {
-        term = "dumb";
-    }
-    if (is_member(term, color_terms))
+	const char *color_terms[] = { "linux", "xterm", "xterm-color", "xterm-256color",
+		"Eterm", "rxvt", "rxvt-unicode", 0};
+	const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
+	const char *term = getenv("TERM");
+	if (term == 0)
 	{
-        blue = "\033[34m";
-        red = "\033[31m";
-        magenta = "\033[35m";
-        color_end = "\033[0m";
-    }
-    if (is_member(term, no_ansi_cursor_terms))
-    {
-        cub2 = "\r"; /* use carriage return */
-        cub3 = "\r";
-        cpl = "\n"; /* can't do previous line,  let's go to the next line. */
+		term = "dumb";
 	}
-    else
-    {
-        cub2 = "\033[2D";
-        cub3 = "\033[3D";
-        cpl = "\033[";
-    }
+	if (is_member(term, color_terms))
+	{
+		blue = "\033[34m";
+		red = "\033[31m";
+		magenta = "\033[35m";
+		color_end = "\033[0m";
+	}
+	if (is_member(term, no_ansi_cursor_terms))
+	{
+		cub2 = "\r"; /* use carriage return */
+		cub3 = "\r";
+		cpl = "\n"; /* can't do previous line,  let's go to the next line. */
+	}
+	else
+	{
+		cub2 = "\033[2D";
+		cub3 = "\033[3D";
+		cpl = "\033[";
+	}
 }
 /* There should be no \033 beyond this line! */
 
@@ -179,10 +179,10 @@ static void spin_suspend(void)
 {
 	printf("%s %s", cub2, cub2);
 	fflush(stdout);
-    if (spinning_interrupted)
-    {
-        exit(EX_OK);
-    }
+	if (spinning_interrupted)
+	{
+		exit(EX_OK);
+	}
 }
 
 static sighandler_t old_interrupt_signal_handler;
@@ -190,61 +190,62 @@ static sighandler_t old_interrupt_signal_handler;
 
 static void user_interrupt_signal_handler(int signal)
 {
-    if (spinning_interrupted)
-    {
-        /*
-        * If the user interrupts twice, before the program exits,
-        * then we call the old interrupt signal handler,  or by default we exit.
-        */
+	if (spinning_interrupted)
+	{
+		/*
+		 * If the user interrupts twice, before the program exits,
+		 * then we call the old interrupt signal handler,
+		 * or by default we exit.
+		 */
 
-        if (old_interrupt_signal_handler == SIG_IGN)
-        {
-            return;
-        }
+		if (old_interrupt_signal_handler == SIG_IGN)
+		{
+			return;
+		}
 
-        if (old_interrupt_signal_handler == SIG_DFL)
-        {
-            exit(EX_USER_INTERRUPT);
-        }
+		if (old_interrupt_signal_handler == SIG_DFL)
+		{
+			exit(EX_USER_INTERRUPT);
+		}
 
-        old_interrupt_signal_handler(signal);
-    }
-    else
-    {
-        spinning_interrupted = True;
-    }
+		old_interrupt_signal_handler(signal);
+	}
+	else
+	{
+		spinning_interrupted = True;
+	}
 }
 
 static void initialize_signal_handlers(void)
 {
-    old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
+	old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
 }
 
 
 typedef struct
 {
-    const char *pname;
-    Boolean analyse_atr;
-    Boolean stress_card;
-    Boolean print_version;
-    Boolean verbose;
-    Boolean only_list_readers;
+	const char *pname;
+	Boolean analyse_atr;
+	Boolean stress_card;
+	Boolean print_version;
+	Boolean verbose;
+	Boolean only_list_readers;
 } options_t;
 
 static options_t Options;
 
 static void initialize_options(options_t *options, const char *pname)
 {
-    options->pname = pname;
+	options->pname = pname;
 #ifdef WIN32
-    options->analyse_atr = False;
+	options->analyse_atr = False;
 #else
-    options->analyse_atr = True;
+	options->analyse_atr = True;
 #endif
 	options->stress_card = False;
-    options->print_version = False;
-    options->verbose = True;
-    options->only_list_readers = False;
+	options->print_version = False;
+	options->verbose = True;
+	options->only_list_readers = False;
 }
 
 #ifdef WIN32
@@ -255,53 +256,53 @@ static void initialize_options(options_t *options, const char *pname)
 
 static int parse_options(int argc, char *argv[], options_t *options)
 {
-    const char *pname = argv[0];
+	const char *pname = argv[0];
 	int opt;
-    initialize_options(options, pname);
+	initialize_options(options, pname);
 	while ((opt = getopt(argc, argv, OPTIONS)) != EOF)
 	{
 		switch (opt)
 		{
-          case 'n':
-              options->analyse_atr = False;
-              break;
+			case 'n':
+				options->analyse_atr = False;
+				break;
 
-          case 'V':
-              options->print_version = True;
-              break;
+			case 'V':
+				options->print_version = True;
+				break;
 
-          case 'v':
-              options->verbose = True;
-              break;
+			case 'v':
+				options->verbose = True;
+				break;
 
-          case 'r':
-              options->only_list_readers = True;
-              break;
+			case 'r':
+				options->only_list_readers = True;
+				break;
 
-          case 's':
-              options->stress_card = True;
-              break;
+			case 's':
+				options->stress_card = True;
+				break;
 
-          case 'q':
-              options->verbose = False;
-              break;
+			case 'q':
+				options->verbose = False;
+				break;
 
-          case 'h':
-              usage(pname);
-              exit(EX_OK);
+			case 'h':
+				usage(pname);
+				exit(EX_OK);
 
-          default:
-              usage(pname);
-              exit(EX_USAGE);
+			default:
+				usage(pname);
+				exit(EX_USAGE);
 		}
 	}
 	if (argc - optind != 0)
 	{
-        fprintf(stderr, "%s error: superfluous arguments: %s\n", pname, argv[optind]);
+		fprintf(stderr, "%s error: superfluous arguments: %s\n", pname, argv[optind]);
 		usage(pname);
 		exit(EX_USAGE);
 	}
-    return EX_OK;
+	return EX_OK;
 }
 
 static LONG stress(SCARDCONTEXT hContext, const char *readerName)
@@ -312,13 +313,13 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	const SCARD_IO_REQUEST *pioSendPci;
 
 	if (Options.verbose)
-    {
-        printf("Stress card in reader: %s\n\n", readerName);
-    }
+	{
+		printf("Stress card in reader: %s\n\n", readerName);
+	}
 	else
 		printf("\n");
 	rv = SCardConnect(hContext, readerName, SCARD_SHARE_SHARED,
-         SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
+			SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
 	if (rv != SCARD_S_SUCCESS)
 	{
 		print_pcsc_error("SCardConnect", rv);
@@ -394,18 +395,18 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 
 static void print_readers(const char **readers, int nbReaders)
 {
-    int i = 0;
-    for (i = 0;i < nbReaders; i++)
-    {
-        printf("%s%d: %s%s\n", blue, i, readers[i], color_end);
-    }
+	int i = 0;
+	for (i = 0;i < nbReaders; i++)
+	{
+		printf("%s%d: %s%s\n", blue, i, readers[i], color_end);
+	}
 }
 
 static void print_version(void)
 {
 	printf("PC/SC device scanner\n");
 	printf("V %s (c) 2001-2018, Ludovic Rousseau <ludovic.rousseau@free.fr>\n",
-           PACKAGE_VERSION);
+			PACKAGE_VERSION);
 }
 
 int main(int argc, char *argv[])
@@ -422,24 +423,24 @@ int main(int argc, char *argv[])
 	DWORD dwReaders = 0, dwReadersOld;
 	LPSTR mszReaders = NULL;
 	char *ptr = NULL;
-    const char **readers = NULL;
+	const char **readers = NULL;
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int pnp = TRUE;
 
-    initialize_terminal();
-    if (0 != parse_options(argc, argv, &Options))
-    {
-        exit(EX_USAGE);
-    }
-    if (Options.print_version)
-    {
-       print_version();
-       exit(EX_OK);
-    }
+	initialize_terminal();
+	if (0 != parse_options(argc, argv, &Options))
+	{
+		exit(EX_USAGE);
+	}
+	if (Options.print_version)
+	{
+		print_version();
+		exit(EX_OK);
+	}
 
-    initialize_signal_handlers();
+	initialize_signal_handlers();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
@@ -451,7 +452,7 @@ int main(int argc, char *argv[])
 	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
 		if (Options.verbose)
-        {
+		{
 			printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
 		}
 		pnp = FALSE;
@@ -459,7 +460,7 @@ int main(int argc, char *argv[])
 	else
 	{
 		if (Options.verbose)
-        {
+		{
 			printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
 		}
 	}
@@ -484,10 +485,10 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-    if (Options.verbose)
-    {
+	if (Options.verbose)
+	{
 		printf("%sScanning present readers...%s\n", red, color_end);
-    }
+	}
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_E_NO_READERS_AVAILABLE)
 		test_rv("SCardListReaders", rv, hContext);
@@ -523,11 +524,11 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
-        if (Options.verbose)
-        {
-            printf("%sWaiting for the first reader...%s   ", red, color_end);
-            fflush(stdout);
-        }
+		if (Options.verbose)
+		{
+			printf("%sWaiting for the first reader...%s   ", red, color_end);
+			fflush(stdout);
+		}
 
 		if (pnp)
 		{
@@ -559,10 +560,10 @@ get_readers:
 			}
 			spin_suspend();
 		}
-        if (Options.verbose)
-        {
-            printf("found one\n");
-        }
+		if (Options.verbose)
+		{
+			printf("found one\n");
+		}
 		goto get_readers;
 	}
 	else
@@ -586,11 +587,11 @@ get_readers:
 		nbReaders++;
 	}
 
-    print_readers(readers, nbReaders);
-    if (Options.only_list_readers)
-    {
-        exit(EX_OK);
-    }
+	print_readers(readers, nbReaders);
+	if (Options.only_list_readers)
+	{
+		exit(EX_OK);
+	}
 
 	/* allocate the ReaderStates table */
 	rgReaderStates_t = calloc(nbReaders+1, sizeof(* rgReaderStates_t));
