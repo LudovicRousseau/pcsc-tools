@@ -1399,6 +1399,9 @@
 3B 67 25 00 62 24 33 03 ..
 	Bull TB1000 ? (SAM for ATM in Luxemburg)
 
+3B 68 00 00 00 00 00 00 90 02 81 84
+	Intesa Sanpaolo Bancomat & Maestro Card (Bank)
+
 3B 68 00 00 00 02 62 C9 01 45 90 00
 	Politecnico di Milano's PoliCard (issued by Banca Popolare di Sondrio, Mastercard prepaid card) (Bank)
 
@@ -1920,6 +1923,9 @@
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 4B 33 00 90 00
 	Fineco (Italy) Bancomat (Visa) (Bank)
+
+3B 6D 00 00 00 81 4D 22 08 86 60 22 22 28 40 00 01
+	Unipay Credit Card Issued by CITIC (Bank)
 
 3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
 	Student college card
@@ -2759,6 +2765,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
 	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 77 EE D6 82 90 00
+	Navigo (Paris) - Gamalto SmarCard (Transport)
+	https://www.iledefrance-mobilites.fr/
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 A1 48 7B 82 90 00
 	Navigo card using Calypso stantard (Other)
 	https://en.wikipedia.org/wiki/Calypso_(electronic_ticketing_system)
@@ -2830,6 +2840,9 @@
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 BF 9E 2B 82 90 00
 	MOBIB - TEC (Transport)
 	https://www.infotec.be/fr-be/acheteruntitre/mobib.aspx
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
+	Gemalto Celego G1 (Transport)
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
 	Brussels STIB MOBIB Classic (Transport)
@@ -3892,6 +3905,9 @@
 	VISA Caisse d'Epargne  (Bank)
 	VISA BNP Paribas (NFC) (Bank)
 
+3B 85 80 01 20 63 CB B7 80 BB
+	First Direct Debit (Bank)
+
 3B 85 80 01 20 63 CB B8 80 B4
 	VISA Cléo LCL (Bank)
 	https://particuliers.lcl.fr/quotidien/cartes/carte-visa-cleo/
@@ -4504,6 +4520,10 @@
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
 	http://bip.piemonte.it/
 
+3B 8C 80 01 50 3A 96 4B 00 00 00 00 00 00 81 80 BB
+	Ventra Transit Pass (Transport)
+	https://www.ventrachicago.com/how-to/ventra-cards/
+
 3B 8C 80 01 50 54 67 13 79 00 00 00 00 F7 81 C1 B3
 	Tessera Sanitaria italian health care card (HealthCare)
 
@@ -4642,6 +4662,10 @@
 
 3B 8D 80 01 0D 78 F7 B1 02 4A 43 4F 50 76 32 34 31 6A
 	Electronic Identity For Students at university (eID)
+
+3B 8D 80 01 49 46 58 2D 6A 63 33 30 31 67 70 32 32 5A
+	Degussa Bank Corporate MasterCard (Bank)
+	https://firmenkarten.degussa-bank.de/
 
 3B 8D 80 01 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 3F
 	G&D SmartCafe Expert 3.2 80K Dual
@@ -5773,6 +5797,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 40 82 92 83 07 90 00 98
 	PrixTel (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 41 28 41 83 07 90 00 E0
+	Mongolian MNO Skytel (Telecommunication)
+	https://www.skytel.mn
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C3
 	Sysmocom USIM-GR1 (Telecommunication)
 	http://www.sysmocom.de/products/programmable-sysmousim-gr1-sim-card
@@ -6096,6 +6124,9 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 38 05 D4
 	SIM Card from Tmobile Czech Republic (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 21 AB 11 18 01 80
+	Telekom Germany Triple SIM issued in 2018 (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
@@ -7652,6 +7683,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0B 16 1C 37 20 4A
+	Commerzbank / girocard /maestro (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0D 16 3A 37 20 6A
 	BankCard Sparda-Bank West eG (Bank)
