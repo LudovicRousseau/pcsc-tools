@@ -159,6 +159,11 @@
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
 
+3B 06 01 .. .. .. ..
+	HID Prox H10301 Format
+	26 bit (FAC+CN)
+	https://www.hidglobal.com/sites/default/files/omnikey_contactless_developer_guide.pdf
+
 3B 06 01 00 10 00 06 60
 	Access card for parking garage in South Boston (Other)
 
@@ -171,6 +176,26 @@
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
 	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
+
+3B 06 02 .. .. .. .. ..
+	HID Prox H10302 Format
+	37 bit (CN)
+	https://www.hidglobal.com/sites/default/files/omnikey_contactless_developer_guide.pdf
+
+3B 06 04 .. .. .. .. ..
+	HID Prox H10304 Format
+	37 bit (FAC+CN)
+	https://www.hidglobal.com/sites/default/files/omnikey_contactless_developer_guide.pdf
+
+3B 06 14 .. .. .. ..
+	HID Prox H10302 Format
+	32 bit clock/data card
+	https://www.hidglobal.com/sites/default/files/omnikey_contactless_developer_guide.pdf
+
+3B 06 14 .. .. .. .. ..
+	HID Prox Corp 1000 Format
+	35 bit (CIC+CN)
+	https://www.hidglobal.com/sites/default/files/omnikey_contactless_developer_guide.pdf
 
 3B 06 2A 01 01 01 00 05
 	Driving Licence  (Transport)
@@ -2756,6 +2781,9 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 55 78 4A 82 90 00
 	French card navigo (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 55 8E 85 82 90 00
+	Stif  Navigo Pass (French Syndicate of Transport in Ile de France) (Transport)
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 5D CF 41 82 90 00
 	Pass navigo (Transport)
 
@@ -3098,6 +3126,9 @@
 3B 7A 13 00 00 72 75 74 6F 6B 65 6E 6D 73 63
 	Aktiv Rutoken Mikron SC
 
+3B 7A 18 00 00 00 48 79 70 73 49 44 20 53 33
+	Certinomis card (eID)
+
 3B 7A 18 00 00 73 66 74 65 20 63 64 31 34 34
 	Republic Slovenia e-Gov, Ministry of Public Administration
 	SIGOV-CA, Slovenian Governmental Certification Authority
@@ -3216,6 +3247,10 @@
 
 3B 7D 94 00 00 55 55 53 0A 74 86 93 0B 24 7C 4D 54 68
 	SIM from sysmocom sysmoSIM-GR2
+
+3B 7D 94 00 00 57 44 29 08 30 86 93 07 05 65 18 2B 56
+	Canal Digitaal (Pay TV)
+	http://webshop.canaldigitaal.nl/nl/smartcards-2
 
 3B 7D 94 00 00 57 44 53 05 54 86 93 00 15 6A 5F 13 78
 	Idea Indian GSM operator SIM
@@ -3560,6 +3595,10 @@
 
 3B 7F 13 00 00 80 31 C0 52 17 2D 64 02 B3 02 37 83 83 90 00
 	Spanish "cajamar" bank - Visa Electron Debit Card. Made by Tag Systems
+
+3B 7F 13 00 00 80 31 C0 52 17 61 64 02 B3 02 70 83 83 90 00
+	ELO Debit Card from CAIXA (Bank)
+	https://www.caixa.gov.br/
 
 3B 7F 13 00 00 80 31 C0 52 17 A0 64 02 B3 02 37 83 83 90 00
 	Credit card Visa Classic by "La Caixa" (Spain)
@@ -3995,6 +4034,9 @@
 	Amazon.de VISA Card (Bank)
 	http://lbb.de/amazon
 	CIBC Visa
+
+3B 87 80 01 77 43 32 53 01 00 01 53 77 43 32 53 01 00 01
+	Cipurse ISO 14443-4 Card (Other)
 
 3B 87 80 01 77 43 49 50 02 00 01 28
 	CIPURSE (transport)
@@ -5247,6 +5289,9 @@
 3B 98 94 80 1F C2 32 2E 31 30 31 14 01 40 28
 	CMCC operator UICC (Telecommunication)
 
+3B 98 94 80 1F C3 80 31 E0 73 FE 21 1B 08 BE
+	XLB EVDO Test Card (Telecommunication)
+
 3B 98 95 00 93 94 04 04 03 03 03 03
 	T-Mobile MVNO SIM card
 
@@ -6169,6 +6214,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00 BD
 	T-Mobile US USIM card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 22 33 32 00 BC
+	Project Fi (Telecommunication)
+	https://fi.google.com
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 24 33 32 00 BA
 	GSM, Vodafone (Germany) (Telecommunication)
 
@@ -6960,6 +7009,10 @@
 
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F9
 	NASA Personal Identity Verification (PIV) card (eID)
+
+3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 41 1A 2B
+	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
+	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
 
 3B D8 18 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 D5
 	Schweizerische Krankenversicherungskarte KVG (HealthCare)
@@ -7895,6 +7948,10 @@
 
 3B F7 18 00 00 80 31 FE 45 FE 42 47 52 65 49 44 24
 	Bulgarian eID PKI card pilot on IFX SLE78 jTOP (PKI)
+
+3B F7 18 00 00 81 71 80 42 00 00 63 84 0C 01 90 00 A7
+	Citibank Taiwan ATM Card (Bank)
+	https://www.citibank.com.tw/
 
 3B F7 18 00 00 81 71 80 42 00 00 63 95 0A 01 90 00 B0
 	7-Eleven icash card, Taiwan
