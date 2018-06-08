@@ -776,6 +776,10 @@
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
 
+3B 3B 94 00 00 64 0E 3E 03 0F 31 80 0E 90 00
+	ZZZS Health care card- Slovenia (HealthCare)
+	https://partner.zzzs.si/wps/portal/portali/aizv/e-poslovanje/kartice_in_citalniki/kartica_zdravstvenega_zavarovanja/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziTQxdPd2N_Q08LSyCDQ0cjZzMzXz8XQ3cXU30C7IdFQEohG-V/
+
 3B 3B 94 00 4F 34 10 20 01 0. .0 33 33 90 00
 	Wind (Italy) GSM SIM card
 
@@ -4578,6 +4582,10 @@
 	Paris transportation card (Pass Navigo) (Transport)
 	https://fr.wikipedia.org/wiki/Passe_Navigo
 
+3B 8C 80 01 50 27 B1 F7 6B 00 00 00 00 00 71 71 57
+	Navigo (public transportation in Île-de-France), IDF Mobilités (Transport)
+	https://www.iledefrance-mobilites.fr/l-innovation/navigo/
+
 3B 8C 80 01 50 35 A4 5B 65 00 00 00 00 80 81 71 82
 	Trenitalia cartafreccia (Transport)
 	http://www.trenitalia.com/tcom/Cartafreccia
@@ -4592,6 +4600,9 @@
 
 3B 8C 80 01 50 54 67 13 79 00 00 00 00 F7 81 C1 B3
 	Tessera Sanitaria italian health care card (HealthCare)
+
+3B 8C 80 01 50 60 5F 2E FA 00 00 00 00 77 81 91 D1
+	Residence Permit (Switzerland) (eID)
 
 3B 8C 80 01 50 64 E6 5B 00 00 00 00 00 00 81 80 85
 	Chicago CTA Ventra Transit card
@@ -4871,6 +4882,9 @@
 3B 8F 80 01 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 73
 	Grand Duchy of Luxembourg / Identity card with LuxTrust certificate (eID)
 	http://www.guichet.public.lu/citoyens/fr/citoyennete/papiers-identite/carte-identite/nouv-carte-identite-adulte-EN/index.html
+
+3B 8F 80 01 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 8A
+	Dutch driver licence (eID)
 
 3B 8F 80 01 80 31 E0 6B 04 21 05 02 72 55 55 55 55 55 55 64
 	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
@@ -5198,6 +5212,9 @@
 
 3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 FF B2
 	Italian Passport (passport)
+
+3B 8F 80 01 86 84 43 54 44 4E 40 9F 3E C4 0D 68 28 04 00 7D
+	Access card to the underground network of guangzhou (Transport)
 
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
@@ -5673,6 +5690,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 04 0D 00 64
 	Cincinati Bell. UICC with USIM 128k-b (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 39 0D 00 59
+	SIM card from Austrian ISP "Drei" (H3G) (Other)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C C1 0D 00 A1
 	3 (Italian telecommunication provider) 3g sim card 2FF format H3G Italy
 
@@ -5997,6 +6017,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 15 00 39 01 02 F4
 	Vivo 4G LTE SIM Card (Telecommunication)
+
+3B 9F 95 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 16 00 43 01 00 8F
+	VALID USIM (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C2
 	sysmocom sysmoUSIM-GR1
@@ -7373,6 +7396,9 @@
 	BeA - Certification Card for German Solicitors (Other)
 	https://bea.bnotk.de/
 
+3B DF 97 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 78
+	NASA PIV Card (Other)
+
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
 
@@ -7828,6 +7854,9 @@
 
 3B F2 18 00 FF C1 0A 31 FE 55 C8 06 8A
 	Siemens CardOS M 4.2 (SLE66CX642P)
+
+3B F2 96 00 00 81 31 80 43 80 31 A6
+	Card of Justice (Other)
 
 3B F2 98 00 FF C1 10 31 FE 55 C8 03 15
 	Siemens CardOS M 4.01 (SLE66CX320P)
@@ -8870,6 +8899,10 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 00 01 50 53 45 10 31 80 94
 	Italian Electronic ID Card (eID)
 	http://www.interno.gov.it/mininterno/site/it/temi/servizi_demografici/scheda_006.html
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 01 01 43 4E 53 10 31 80 8D
+	Aruba Digital Signature (Other)
+	https://www.pec.it/offerta-firma-digitale.aspx
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 11 01 43 4E 53 11 31 80 9C
 	Politecnico di Torino Student Card (eID)
