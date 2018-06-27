@@ -616,6 +616,9 @@
 3B 26 00 31 08 6C 03 90 00
 	VISA ELECTRON from Caixa Catalunya bank card (www.caixacatalunya.es) for students in UPC university of Barcelona (Spain) (www.upc.es)
 
+3B 26 00 31 0B D2 03 90 00
+	Former Universidad de León (Spain) Identification Card (partnership with Caja España bank - Visa Cash) (Bank)
+
 3B 26 00 31 1A 45 03 90 00
 	Tajeta Sanitaria Individual (Spanish Insurance Card)
 	from the "Junta de Andalucia(Consejeria de Salud)"
@@ -1338,6 +1341,9 @@
 
 3B 67 00 00 7D 20 40 34 3B 90 00
 	Nordea Visa Sweden
+
+3B 67 00 00 80 20 3A 30 78 90 00
+	CIMB Bank Malaysia, ATM, MEPS/Maestro/Cirrus (Bank)
 
 3B 67 00 00 80 62 21 13 82 90 00
 	UBS MAESTRO CARD (Bank)
@@ -3238,6 +3244,10 @@
 3B 7C 94 00 00 50 52 4F 47 45 58 49 41 43 53 50 32
 	mutual health Martinique (UFR PASS+) (HealthCare)
 
+3B 7C 95 00 00 45 53 4D 41 52 54 47 4F 53 54 31 30
+	ESMART Token GOST (PKI)
+	https://esmart.ru/products/informatsionnaya-bezopasnost/usb-nositeli-esmart-token-gost/
+
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
 
@@ -3255,6 +3265,9 @@
 
 3B 7D 13 00 00 4D 44 57 2D 49 41 53 2D 43 41 52 44 32
 	IAS (Identification, Authentication, and electronic Signature) Premium, profil DGME from Sagem
+
+3B 7D 14 00 02 80 57 59 50 53 49 44 30 34 83 6F 90 00
+	IDEMIA ypsID S2 (PKI)
 
 3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
 	Oberthur 64k v4/2.1.1
@@ -4723,6 +4736,9 @@
 	Visa Debit Card with NFC payment function (Consorsbank)
 	https://www.consorsbank.de/
 
+3B 8D 80 01 00 73 C8 00 13 64 54 37 42 37 00 90 00 46
+	pay (Bank)
+
 3B 8D 80 01 00 73 C8 00 13 64 54 37 43 33 00 90 00 43
 	Deutsche Bank Debit MasterCard (Bank)
 
@@ -4826,6 +4842,9 @@
 
 3B 8F 01 41 56 42 00 00 00 00 00 00 00 00 01 00 00 00 DA
 	AVEST-SYSTEMS AvBign (PKI)
+
+3B 8F 01 45 46 4B 00 00 00 00 00 00 00 00 04 00 00 00 C2
+	EfitKey (PKI)
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
@@ -5408,6 +5427,9 @@
 3B 9A 96 00 92 03 49 93 16 00 01 21 01 00
 	GSM-SIM card of the Austrian provider Yesss!
 	http://www.yesss.at
+
+3B 9A 96 01 F1 56 50 4E 2D 4B 45 59 00 00 CE
+	Amicon Remote Admin (Other)
 
 3B 9A 96 40 1E 41 50 54 43 40 29 50 77 85 01
 	Java card Version 2.2.2 S3FS9FX series Java card  (eID)
@@ -6192,6 +6214,10 @@
 
 3B 9F 96 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 0E 25 33 32 00 3B
 	SMART prepaid card, Estonia (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 73 30 31 07 46 BE
+	Hologram Developer Global IoT SIM Card (Telecommunication)
+	https://hologram.io/store/global-iot-sim-card/17
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
@@ -8498,6 +8524,9 @@
 	Smartcard-HSM
 	http://www.cardcontact.de/products/sc-hsm.html
 
+3B FE 18 00 FF 81 31 FE 45 63 68 61 6E 67 69 6E 67 74 65 63 4A 33 44 5E
+	xgames pki (eID)
+
 3B FE 91 00 FF 91 81 71 FE 40 00 41 20 00 51 77 91 80 31 80 65 B0 85 03 00 FB
 	 Italian Card Identity (CIE Comune di Parma) (eID)
 	http://www.comune.parma.it/servizi/Servizi-Demografici-Carta-di-identita/Carta-di-identita-Elettronica-CIE_A2_C100_P96.aspx
@@ -8641,6 +8670,9 @@
 3B FF 18 00 00 81 31 FE 45 00 6B 05 05 10 17 01 21 01 43 4E 53 10 31 80 5E
 	Regional Card - Regione Liguria, Veneto - Italy (eID)
 	Tessera Sanitaria - Carta Regionale dei Servizi
+
+3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 11 01 43 4E 53 11 31 80 7B
+	Italian National Fire Corps  -special indentification card (eID)
 
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 21 01 43 4E 53 10 31 80 4A
 	Oberthur ID-One Cosmo V7-n it's a java card 2.2.2
