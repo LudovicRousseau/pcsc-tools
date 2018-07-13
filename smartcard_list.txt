@@ -88,6 +88,9 @@
 	prepaid payphone card, issued by Telefónica Comunicaciones Públicas
 	http://www.cabitel.es
 
+3B 04 17 D4 66 08
+	Prepaid public telephone card from Antel, Uruguay. (Telecommunication)
+
 3B 04 17 D4 C8 82
 	prepaid payphone card, issued by Lietuvos Telekomas (now Teo LT)
 	https://www.teo.lt/
@@ -778,6 +781,10 @@
 
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
+
+3B 3B 94 00 00 64 0E 3E 02 F0 31 80 0E 90 00
+	ZZZS Health care professional card- Slovenia (Healthcard) (HealthCare)
+	https://partner.zzzs.si/wps/portal/portali/aizv/e-poslovanje/kartice_in_citalniki/prof_kartica/
 
 3B 3B 94 00 00 64 0E 3E 03 0F 31 80 0E 90 00
 	ZZZS Health care card- Slovenia (HealthCare)
@@ -1842,6 +1849,10 @@
 3B 6B 00 00 81 00 72 26 02 00 41 00 0F 90 00
 	Wave Crest Holding (Bank)
 
+3B 6B 00 00 81 00 78 43 04 02 41 01 0F 90 00
+	Max Mastercard (Bank)
+	https://www.aumax.fr
+
 3B 6B 00 FF 33 00 00 09 FA 10 00 80 01 FF FF
 	Atmel 6464C PRO 64K
 
@@ -2340,6 +2351,9 @@
 3B 6E 00 00 4B 41 44 4E 49 4B 41 48 76 31 2E 30 90 00
 	Nikah, Cerai, Rujuk (NCR) - The marriage information with identity of Husband and Wife registered at Jabatan Agama Islam Selangor, Malaysia (eID)
 	http://ncr.jais.gov.my/
+
+3B 6E 00 00 57 44 36 13 69 86 93 02 22 19 36 28 12 11
+	bb token bank Banco do Brasil (Bank)
 
 3B 6E 00 00 57 44 36 13 69 86 93 02 32 12 56 28 25 32
 	Watchdata Brazil CSP v1.0 (Banco do Brasil)
@@ -3643,6 +3657,9 @@
 3B 7F 13 00 00 80 31 C0 52 17 B4 64 05 66 98 36 83 83 90 00
 	Credit Card Banorte International, México
 
+3B 7F 13 00 00 80 31 C0 52 18 48 64 02 00 64 71 83 83 90 00
+	Itaú Visa LATAM Pass (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 18 80 64 05 66 98 36 83 83 90 00
 	Visa Electron Debit Card issued by "la Caixa"
 
@@ -4227,6 +4244,10 @@
 
 3B 88 80 01 1C F0 E1 11 F7 71 85 00 16
 	CEPAS Card (Concession card issued by Land Transport Authority Singapore) (Transport)
+
+3B 88 80 01 30 4C 47 12 77 83 D5 00 01
+	elesec - TCOS 3.0 Signature Card (eID)
+	https://www.telesec.de/de/tcos/support/downloadbereich/category/28-leistungsbeschreibung
 
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
@@ -5676,6 +5697,10 @@
 3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EB
 	Lycamobile Pay As You Go SIM
 
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 69 11 00 E7
+	Oister 3G SIM Card (Telecommunication)
+	https://www.oister.dk/
+
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 8F 11 00 01
 	Spark New Zealand SIM Card  (Telecommunication)
 	http://spark.co.nz
@@ -6066,6 +6091,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 19 32 33 00 84
 	WIND Mobile SIM Card
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 33 00 87
+	Rohde and Schwarz CMW-Z04. Mini-UICC Test Card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 36 00 82
 	TELUS 3G SIM Card
 
@@ -6293,6 +6321,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00 BD
 	T-Mobile US USIM card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 32 00 BE
+	M2M2FF1-NONRUG-D - Verizon Non-Rugged M2M SIM Card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 22 33 32 00 BC
 	Project Fi (Telecommunication)
@@ -7834,6 +7865,9 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
 	SparkassenCard (Bank)
 	https://sparkasse.de
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 24 2A 37 10 6A
+	Sparkasse girocard (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
