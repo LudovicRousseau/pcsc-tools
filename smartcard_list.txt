@@ -852,6 +852,10 @@
 3B 3B 96 00 A7 4C 90 00 00 90 AC 33 33 90 00
 	Brazilian TIM GSM SIM
 
+3B 3B F7 18 00 00 80 31 FE 45 73 66 74 65 2D
+	Serasa Experian (PKI)
+	https://serasa.certificadodigital.com.br/
+
 3B 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 03
 	Smart card commercial chamber - Tuscan region - Aruba (eID)
 
@@ -982,6 +986,9 @@
 
 3B 3F 95 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16
 	"SIMYO" SIM card (KPN)
+
+3B 3F 96 00 80 12 00 91 31 C0 64 0E 47 44 FA 72 F7 41 05 2F
+	MEmbership card (Loyalty)
 
 3B 3F 96 00 80 5A 23 80 E1 08 31 08 AE 01 36 DD 82 90 00
 	Spirtech SAM-S5 v2
@@ -3478,6 +3485,10 @@
 3B 7E 94 00 00 80 25 D2 03 10 01 00 56 00 00 00 01 01 00
 	Personal identity card (ID card) of Czech Republic
 
+3B 7E 94 00 00 80 25 D2 03 10 01 00 56 00 00 00 02 02 00
+	Official Czech Republic identity card issued since 7/2018 (eID)
+	https://www.eidentita.cz/
+
 3B 7E 94 00 00 80 31 80 66 47 50 91 45 03 13 83 0F 90 00
 	JTOP Trusted Logic
 
@@ -4592,6 +4603,10 @@
 
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
+
+3B 8C 80 01 50 19 E3 BB 3D 00 00 00 00 00 81 77 D7
+	ING/Maestro bank card (Bank)
+	https://www.ing.nl/particulier/betalen/passen/index.html
 
 3B 8C 80 01 50 24 AD 64 E1 00 00 00 00 33 81 91 72
 	Italian healthcare + public administration card (HealthCare)
@@ -6265,6 +6280,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 02 41 00 82 90 00 C2
 	Empire Bank ltd (Bank)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 34 61 00 82 90 00 D4
+	Ting X1 GSM SIM Card (4G, T-Mobile network) (Telecommunication)
+	https://ting.com/shop/gsmSIM
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 01 F0
 	Telekom Sim card (Telecommunication)
 
@@ -6413,6 +6432,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 01 02 01 02 45
 	SIM card from the Polish telecom operator "P4" or "Play" (Telecommunication)
 	https://www.play.pl/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
+	SIM CARD (JavaCard)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
 	3 (3g microUSIM) Italian subsidiary H3G
@@ -7180,6 +7202,10 @@
 	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
 	http://www.cas.go.jp/jp/seisaku/bangoseido/english.html
 
+3B DA 18 02 C1 0A 31 FE 58 4B 53 77 69 73 73 53 69 67 6E A9
+	SuisseID Post - ATOS CardOS 4.x (eID)
+	https://postsuisseid.ch/
+
 3B DA 18 FF 81 B1 FE 45 1F C3 54 69 63 54 6F 6B 20 32 2E 30 68
 	TikTok 2.0 (PKI)
 
@@ -7492,6 +7518,9 @@
 
 3B E5 00 FF 81 31 FE 45 80 73 C6 01 08 2D
 	MUFG (.jp) (Bank)
+
+3B E6 00 00 80 31 80 66 B1 A3 04 01 11 0B 83 00 90 00
+	VISA Credit Card (Bank)
 
 3B E6 00 00 81 21 45 32 4B 01 01 01 01 7A
 	Axalto Cyberflex Palmera V5
@@ -9009,6 +9038,10 @@
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 01 31 41 00
 	O2 Loop SIM card
 
+3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 02 31 41 00
+	GSM-SIM Beeline RU (Telecommunication)
+	http://beeline.ru
+
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 02 32 41 00
 	Turkcell SIMPlus64 / Turkey
 
@@ -9602,6 +9635,9 @@
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 32 20 44 73 68 4E 30 42 64
 	Dish Network (Satellite Pay TV) NASP 552 (Pay TV)
 	http://www.dishnetwork.com/
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 35 35 33 20 52 65 76 4E 30 41 78
+	BELL CA EXPRESS VU CARD (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FF 47 00 44 4E 41 53 50 53 30 31 20 44 73 68 36 30 39 16
 	PayTV card for DishNetwork Sat receiver
