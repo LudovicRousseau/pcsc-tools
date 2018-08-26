@@ -1192,6 +1192,9 @@
 3B 65 00 00 20 63 CB B6 80
 	Visa bank card  (Bank)
 
+3B 65 00 00 20 63 CB B7 00
+	Lloyds Bank (UK) "Avios Duo" Mastercard credit card (Bank)
+
 3B 65 00 00 20 63 CB B7 20
 	Lloyds Bank Platinum Mastercard Credit (Bank)
 
@@ -1372,6 +1375,10 @@
 
 3B 67 00 00 85 22 16 31 78 9F 00
 	UBS Token Card (bank)
+
+3B 67 00 00 86 60 22 22 27 80 01
+	ICBC Debit Card (Bank)
+	http://www.icbc.com.cn/
 
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
@@ -1556,6 +1563,10 @@
 	http://www.tecnico.ulisboa.pt/
 	Santander Totta Student Card - Portugal (Bank)
 	https://www.santandertotta.pt
+
+3B 68 00 00 81 00 03 50 01 0F 90 00
+	Holvi Payment Master Card (Bank)
+	http://www.holvi.com
 
 3B 68 00 00 9D 03 02 01 01 56 49 53
 	Visa Card - SberBank / Russia
@@ -1760,6 +1771,9 @@
 	American Express credit card (Bank)
 	https://amex.es/
 
+3B 6B 00 00 00 31 C0 64 08 04 61 84 0F 90 00
+	Lloyds Bank (UK) "Avios Duo" American Express credit card (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 04 61 F4 0F 90 00
 	N26 Maestro Card (Bank)
 	https://n26.com/maestro-card/
@@ -1835,6 +1849,10 @@
 3B 6B 00 00 47 50 00 3A 06 01 41 20 0F 90 00
 	SBI Debit Card (Bank)
 	https://www.sbi.co.in/portal/web/personal-banking/state-bank-classic-debit-card
+
+3B 6B 00 00 47 50 00 63 0A 00 40 00 0F 90 00
+	cash app visa prepaid debit (Bank)
+	https://cash.app/
 
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
@@ -1964,6 +1982,9 @@
 3B 6D 00 00 00 73 C8 00 13 64 47 37 45 32 00 90 00
 	Canada TD Bank Visa Debit/Interac Debit Card (Bank)
 
+3B 6D 00 00 00 73 C8 00 13 64 4A 37 42 37 00 90 00
+	Sberbank Visa card (Bank)
+
 3B 6D 00 00 00 73 C8 00 13 64 54 33 44 33 00 90 00
 	FirstBankcard issued for overstock.com (Bank)
 	http://www.firstbankcard.com/overstock/
@@ -1980,6 +2001,10 @@
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 42 37 00 90 00
 	VISA GOLD WITH CHIP (Bank)
+
+3B 6D 00 00 00 73 C8 00 13 64 54 37 43 33 00 90 00
+	SEB Debit mastercard (Skandinaviska Enskilda Banken) (Bank)
+	https://seb.se/privat/betala/kort/seb-debit
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
 	Deutsche Bank MasterCard Credit Card (Bank)
@@ -2752,6 +2777,10 @@
 	Israeli public transport "RavKav" card (ASK Tango variant) (Transport)
 	http://hopon.co.il/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 B9 32 80 82 90 00
+	Rav-Kav (Transport)
+	https://ravkavonline.co.il
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
 
@@ -2827,6 +2856,10 @@
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 43 0C E1 82 90 00
 	French Navigo Card (Transport)
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 52 28 99 82 90 00
+	SNCF Navigo Card (Transport)
+	https://www.sncf.com/fr
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 55 78 4A 82 90 00
 	French card navigo (Transport)
@@ -3838,6 +3871,10 @@
 	Gemalto TOP IM GX4 (PKI)
 	http://www.cryptotech.com.pl/compl/data/gemalto/pdf/TOP_GX4_Nov08.pdf
 
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 02 C1 82 90 00
+	Gemalto IDPrime MD840 (eID)
+	https://safenet.gemalto.com/resources/data-protection/idprime-840-product-brief/
+
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00
 	Gemalto IDPrime MD 840 (PKI)
 	http://www.gemalto.com/Products/IDPrime_MD/index.html
@@ -4084,6 +4121,9 @@
 3B 86 81 31 70 34 45 50 41 20 45 4B 08
 	Austrian Quick E-purse "Einreichkarte" (transfer card)
 	http://www.quick.at/
+
+3B 87 80 01 4D 49 46 41 52 45 2B 39
+	PEKA CARD (JavaCard)
 
 3B 87 80 01 4D 52 54 44 31 2E 30 26
 	Russian Foreign Passport (passport)
@@ -4699,6 +4739,9 @@
 
 3B 8C 80 01 50 C0 C8 94 D3 00 00 00 00 B3 71 71 A1
 	pastel (Transport)
+
+3B 8C 80 01 50 C0 E4 50 CA 00 00 00 00 91 71 71 72
+	Transportation card for Lille (France) (Transport)
 
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
@@ -5330,6 +5373,9 @@
 	Portuguese identity card
 	http://www.cartaodecidadao.pt
 
+3B 95 95 80 11 FE 54 41 43 48 4F 3E
+	Russian Federation driver card for the digital tachograph (Other)
+
 3B 95 96 00 70 64 43 4F 53
 	Ticket Restaurant Card  (Other)
 	http://www.edenred.it/buoni-pasto-welfare-benefit/ticket-restaurant-card/#soluzione
@@ -5483,6 +5529,12 @@
 
 3B 9B 95 80 1F 47 80 31 A0 73 BE 21 00 53 34 99 05 D0
 	GSM-SIM EMT "Diil", prepaid (Estonia)
+
+3B 9B 96 C0 0A 31 FE 45 80 67 05 67 B6 04 01 00 00 81 05 FF
+	Business Card (eID)
+
+3B 9B 97 C0 0A 31 FE 45 80 67 05 67 B6 04 01 00 00 81 05 FE
+	Company Card for Tachograph Data (Transport)
 
 3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 00 04 08
 	XPlusTV & INXCT Access Card-9 (FIRECrypt)
@@ -7163,6 +7215,10 @@
 3B D8 96 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 5B
 	Swiss LAMal health insurance card
 
+3B D9 11 00 81 31 FE 8D 00 00 46 4F 4D 53 31 2E 31 32
+	TFOMS (eID)
+	http://www.samtfoms.ru
+
 3B D9 18 00 80 11 F0 80 54 43 4F 4C 44 82 90 00 62
 	TransaXiom Janus Card (Other)
 	http://www.transaxiom.co.uk
@@ -7574,6 +7630,9 @@
 	"Deutsche Kreditbank AG" Visa Card produced by AustriaCard GNC
 	All cards (MasterCard, Maestro, VISA Electron) issued by Raiffeisen Bank in Romania
 	EMV (MasterCard) Card, issued by Raiffeisen Bank in Czech Republic
+
+3B E7 00 FF 81 31 FE 45 44 30 38 2E 32 20 36 55
+	Mastercard (Bank)
 
 3B E7 00 FF 81 31 FE 45 4D 43 41 20 38 20 36 52
 	Mastercard credit card issued by "PayLife Bank GmbH".
