@@ -1469,6 +1469,8 @@
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
 	PayPal UK MasterCard Chip I/F
 	Prepaid Platinum MasterCard for QANTAS Cash, Australia
+	Monzo Bank (UK) Debit Mastercard
+	bunq (NL) Debit Mastercard
 
 3B 68 00 00 00 73 C8 40 10 00 90 00
 	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
@@ -1870,6 +1872,7 @@
 3B 6B 00 00 81 00 72 26 02 00 40 00 0F 90 00
 	Yuna To Go prepaid MasterCard (PaySafeCard) (Bank)
 	http://yunacard.com
+	Paygoo Reload Mastercard
 
 3B 6B 00 00 81 00 72 26 02 00 41 00 0F 90 00
 	Wave Crest Holding (Bank)
@@ -2001,6 +2004,7 @@
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 42 37 00 90 00
 	VISA GOLD WITH CHIP (Bank)
+	NatWest (UK) Current account VISA Debit
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 43 33 00 90 00
 	SEB Debit mastercard (Skandinaviska Enskilda Banken) (Bank)
@@ -2018,6 +2022,9 @@
 
 3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
 	Student college card
+
+3B 6D 00 00 49 46 58 2D 6A 63 33 30 31 67 70 32 32
+	MasterCard Debit card of N26 bank (Bank)
 
 3B 6D 00 00 57 44 28 57 46 03 50 62 13 65 68 54 1F
 	Card for decrypt encrypted tv channels made in china  (Pay TV)
@@ -2309,6 +2316,9 @@
 3B 6E 00 00 00 31 C0 71 C6 65 19 02 04 06 2F 0F 90 00
 	UniCredit (Italy) "Bancomat" (Maestro) debit card (Bank)
 
+3B 6E 00 00 00 31 C0 71 C6 65 23 7B 02 75 39 83 90 00
+	MASTERCARD (CARTASI') (Bank)
+
 3B 6E 00 00 00 31 C0 71 C6 65 42 2C 01 35 35 83 90 00
 	UniCredit (Italy) "UniCreditCard Classic" (VISA) credit card
 
@@ -2323,6 +2333,7 @@
 
 3B 6E 00 00 00 31 C0 71 C6 65 74 0B 04 16 31 0F 90 00
 	Creditcard Deutsche Bank
+	NatWest (UK) Savings account PLUS card
 
 3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
@@ -2783,6 +2794,10 @@
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2B 10 5A 8F 94 82 90 00
 	Rav-Kav, Used by Israeli public transportation companies (Transport)
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2B 77 E9 EB 9F 82 90 00
+	RavKav Israeli Public Transportation smart card (Transport)
+	https://ravkavonline.co.il/
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 02 60 FB 72 82 90 00
 	RAV KAV - Israel's  Ministry of Transport public transport smart card (Transport)
@@ -3867,6 +3882,10 @@
 3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 0F FE 82 90 00
 	Gemalto IDPrime MD
 
+3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 0F FF 82 90 00
+	Swedish National Identity Card (eID)
+	https://polisen.se/tjanster-tillstand/pass-och-nationellt-id-kort/
+
 3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 FF FE 82 90 00
 	Gemalto TOP IM GX4 (PKI)
 	http://www.cryptotech.com.pl/compl/data/gemalto/pdf/TOP_GX4_Nov08.pdf
@@ -3881,6 +3900,8 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Portuguese Blood Donator National Card (HealthCare)
+	Skatteverkets identitetskort för folkbokförda i Sverige (utfärdade fr.o.m. september 2017) med AB Svenska Pass e-legitimation
+	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
 
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
 	Finnish identity card (eID)
@@ -4046,6 +4067,9 @@
 	VISA Caisse d'Epargne  (Bank)
 	VISA BNP Paribas (NFC) (Bank)
 
+3B 85 80 01 20 63 CB B7 20 1B
+	Halifax Clarity Mastercard (Bank)
+
 3B 85 80 01 20 63 CB B7 80 BB
 	First Direct Debit (Bank)
 
@@ -4090,6 +4114,9 @@
 	NXP Mifare DESFire EV1 8K / MF3ICD81
 	"OpenCard" - card issued by Prague local authority
 	dual card: RFID (1k Mirfare) used for parkimeters and as public traffic ticket
+
+3B 86 80 01 06 75 77 81 02 8F 00
+	Desfire (eID)
 
 3B 86 80 01 39 30 43 30 32 31 7E
 	Chase Freedom VISA card
@@ -4286,6 +4313,9 @@
 3B 88 80 01 11 00 00 11 00 81 84 00 0C
 	OCBC bank card (Bank)
 
+3B 88 80 01 11 00 00 11 77 81 83 00 7C
+	Passport of citizen of Ukraine, Passport of citizen of Ukraine for traveling abroad (passport)
+
 3B 88 80 01 1C 2D 94 11 F7 71 85 00 BE
 	CEPAS Card (Adult card issued by EZ-Link) (Transport)
 
@@ -4409,6 +4439,10 @@
 3B 89 80 01 41 43 4F 53 4A 76 31 30 31 1A
 	ACS ACOSJ (Combi) (JavaCard)
 	http://www.acs.com.hk/en/products/405/acosj-java-card-combi/
+
+3B 89 80 01 43 41 52 44 41 47 41 46 43 5E
+	Student ID of University Duisburg-Essen (Other)
+	https://www.uni-due.de/studierendensekretariat/studierendenausweis.shtml
 
 3B 89 80 01 43 4C 61 69 72 65 32 20 36 3C
 	Fidor Smartcard Mastercard/Maestro (Bank)
@@ -4892,6 +4926,9 @@
 3B 8E 80 01 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00 03
 	Contactless Barclaycard Visa
 	MyCiti Transport Card MasterCard PayPass (Cape Town, South Africa)
+
+3B 8E 80 01 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00 07
+	Barclaycard Platinum VISA (Bank)
 
 3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 ..
 	Gemalto Santander Optelio TUI R7 using Contactless interface
@@ -7023,6 +7060,10 @@
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
 	http://hackerati.com/post/57314994/rfid-on-the-cheap-hacking-tikitag
+
+3B BE 96 00 00 41 05 00 4E 46 00 00 00 00 00 00 00 90 00
+	ACOS5-64 v3.00 (PKI)
+	https://www.acs.com.hk/en/products/308/acos5-64-v3.00-cryptographic-card-contact/
 
 3B BE 96 00 00 41 05 30 00 00 00 00 00 00 00 00 00 90 00
 	CryptoMate Nano USB Cryptographic token
