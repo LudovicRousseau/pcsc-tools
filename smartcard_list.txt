@@ -626,6 +626,10 @@
 	Tajeta Sanitaria Individual (Spanish Insurance Card)
 	from the "Junta de Andalucia(Consejeria de Salud)"
 
+3B 27 00 11 14 00 03 02 90 00
+	ITTAS CNA Smart Card Reader (PKI)
+	https://www.ittas.by/en/solutions/cna-cryptographic-protection-of-information
+
 3B 27 00 80 65 A2 .. 01 01 37
 	Gemplus GemSAFE Smart Card (4K)
 
@@ -1521,6 +1525,10 @@
 	PayPal Access (Bank)
 	https://www.paypal.com/uk/webapps/mpp/accesscard
 
+3B 68 00 00 4D 43 43 43 4C 32 2E 31
+	Mastercard debit card from FIO bank, CZ (Bank)
+	https://www.fio.cz/bankovni-sluzby/platebni-karty/mastercard-debit-contactless
+
 3B 68 00 00 54 48 20 4E 49 44 20 36
 	Thai id card (Other)
 
@@ -1840,6 +1848,10 @@
 3B 6B 00 00 00 31 C0 64 D0 10 01 00 07 90 00
 	Alfa-Bank (Russia) Master Card (Aeroflot bonus) (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 60 32 1F 0F 90 00
+	Fio bank, Mastercard, credit (Bank)
+	https://www.fio.cz/bankovni-sluzby/platebni-karty/kreditni-karty
+
 3B 6B 00 00 42 6C 75 63 61 72 64 20 34 4B 42
 	Blutronics Blucard 4K (Loyalty)
 	http://blucard.blutronics.com
@@ -2034,6 +2046,9 @@
 
 3B 6D 00 00 57 44 29 6C 80 86 93 D6 03 EE 08 2A 3D
 	SCSTA (Transport)
+
+3B 6D 00 00 57 44 36 41 01 86 93 07 32 31 36 34 32
+	Watchdata USB Key (Other)
 
 3B 6D 00 00 57 44 36 41 01 86 93 07 39 .. .. .. ..
 	WatchData Proxkey with VID:PID as 0x163C:0x0417 (PKI)
@@ -2652,6 +2667,10 @@
 3B 6F 00 00 80 31 E0 6B 08 24 05 02 B5 55 55 55 55 55 55
 	Revolut MasterCard (UK)
 
+3B 6F 00 00 80 31 E0 6B 08 2A 05 02 DE 55 55 55 55 55 55
+	VISA Debit Card Issued by State Employees Credit Union of Maryland (Bank)
+	https://www.secumd.org/personal/credit-cards/card-services.aspx
+
 3B 6F 00 00 80 31 E0 6B 09 25 02 02 09 55 55 55 55 55 55
 	OCA  Card - Master Card credit card (Bank)
 
@@ -2903,6 +2922,9 @@
 	Korigo card transport for star company (France) (Transport)
 	http://www.star.fr/titres-et-tarifs/carte-korrigo/
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 D9 9C 6F 82 90 00
+	KorriGo (Brittany) transport card (Transport)
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -2915,6 +2937,10 @@
 
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 92 E4 FF F0 82 90 00
 	Lisbon area transport card (Transport)
+	https://www.portalviva.pt/
+
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 04 D6 6B 82 90 00
+	Lisboa VIVA - Lisbon public transport card (Transport)
 	https://www.portalviva.pt/
 
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 16 21 3D 82 90 00
@@ -4256,6 +4282,9 @@
 	Regional services for Lombardy (Italy) (Other)
 	http://www.crs.regione.lombardia.it/
 
+3B 88 80 01 00 00 00 00 77 81 91 00 6E
+	Ireland EPassport (passport)
+
 3B 88 80 01 00 00 00 00 77 83 95 00 00
 	MULTOS (PKI)
 
@@ -4332,6 +4361,9 @@
 
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
+
+3B 88 80 01 35 20 00 00 77 81 91 00 7B
+	Ireland EPassport (passport)
 
 3B 88 80 01 42 41 45 49 44 31 2E 30 6D
 	eID BiH card (eID)
@@ -9309,6 +9341,9 @@
 
 3F 65 25 .. .. 04 6C 90 .0
 	Carte Bancaire (French banking card)
+
+3F 65 25 00 24 09 6B 90 00
+	Old Postgirot/Plusgirot SmartSec bank ID card (Bank)
 
 3F 65 25 00 2B 09 62 90 00
 	Coinamatic SmartyCity smartcard
