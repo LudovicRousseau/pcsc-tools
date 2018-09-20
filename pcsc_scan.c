@@ -698,6 +698,11 @@ get_readers:
 				magenta, rgReaderStates_t[current_reader].szReader,
 				color_end);
 
+			/* Event number */
+			printf("  Event number: %s%ld%s\n", magenta,
+				rgReaderStates_t[current_reader].dwEventState >> 16,
+				color_end);
+
 			/* Dump the full current state */
 			printf("  Card state: %s", red);
 
