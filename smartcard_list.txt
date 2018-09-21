@@ -626,6 +626,9 @@
 	Tajeta Sanitaria Individual (Spanish Insurance Card)
 	from the "Junta de Andalucia(Consejeria de Salud)"
 
+3B 26 00 31 1A 51 03 90 00
+	Andalusian Health Service identification card (HealthCare)
+
 3B 27 00 11 14 00 03 02 90 00
 	ITTAS CNA Smart Card Reader (PKI)
 	https://www.ittas.by/en/solutions/cna-cryptographic-protection-of-information
@@ -1508,6 +1511,10 @@
 3B 68 00 00 00 73 C8 40 13 00 90 7D
 	NextCard - Mastercard Debit card - Intesa Sanpaolo Bank (Italy) (Bank)
 	https://www.intesasanpaolo.com/it/persone-e-famiglie/prodotti/carte/carte-di-debito/next-card.html
+
+3B 68 00 00 00 DE 51 10 01 01 90 00
+	Itaú Bank Mastercard Debit Card (Brazil) (Bank)
+	https://www.itau.com.br
 
 3B 68 00 00 01 01 31 00 00 00 90 00
 	VISA ELECTRON Sberbank card (Bank)
@@ -3229,6 +3236,9 @@
 3B 79 96 00 00 54 48 20 4E 49 44 20 31 31
 	Thai National ID Card (eID)
 
+3B 79 96 00 00 54 48 20 4E 49 44 20 31 32
+	Thai (passport)
+
 3B 79 98 00 00 50 01 01 04 01 00 01 01 A9
 	Gemalto PayFlex used in Aristocrat System 7000 Casino Management System (South Africa only)
 
@@ -4537,6 +4547,9 @@
 
 3B 89 80 01 80 57 4A 4D 56 50 72 6F 33 F0
 	PayPal UK MasterCard Contacless
+
+3B 89 80 01 80 57 4A 4D 56 76 35 2E 30 D3
+	PayPal Access Business MasterCard (contactless) (Bank)
 
 3B 89 80 01 80 67 04 12 B0 03 05 01 02 4C
 	Austrian Passport
@@ -5919,6 +5932,10 @@
 	Chunghwa Telecom SIM card (Telecommunication)
 	http://www.cht.com.tw/en/personal/pops.html
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B EB 0D 00 9C
+	3 prepaid mobile phone card (Other)
+	https://drei.at/
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 85 87 0E 00 0D
 	Fido USIM Card (Telecommunication)
 	http://fido.ca
@@ -5958,6 +5975,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
 	Telkom (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 F4 12 00 F3
+	SIM card for Swedish operator Vimla! (Telecommunication)
+	https://www.vimla.se
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -6491,6 +6512,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 21 01 07 03 01 03 6D
 	GSM SIM blau (MVNO) Germany from 2013
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 27 01 02 02 05 01 69
+	DigiMobil SIM (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 27 01 02 04 08 01 62
 	Orange USIM card used in Poland (Telecommunication)
 
@@ -6735,6 +6759,10 @@
 3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9B
 	Turkish Republic Identity Card - Türkiye Cumhuriyeti Kimlik Kartı (TCKK) (eID)
 	http://www.ekds.gov.tr/tckk/t-c-kimlik-karti/tanim
+
+3B 9F 97 81 31 FE 45 80 65 54 43 D2 21 08 31 C0 73 F6 21 80 81 05 5B
+	Turkish Republic official electronic ID card with biometric data, e-signature, authentication, secure private-key cryptographic messaging, etc.  (eID)
+	http://bilgem.tubitak.gov.tr/en/icerik/national-identity-card-tr-nc-identity-card
 
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
 	"ultra fast card, max speed supported for telecom"? (transport)
@@ -7346,6 +7374,9 @@
 
 3B DA 94 00 00 4D 4D 41 52 4A 2B 33 39 90 00
 	SIM card from Vodafone Spain
+
+3B DA 95 00 40 0A 25 08 00 40 53 43 4F 53 54 41
+	Card used for issuing commodity to benificiary for rice, wheat and more (Other)
 
 3B DA 96 FF 81 31 FE 45 80 56 31 B8 53 49 43 41 81 05 7B
 	STARCOS 3.5 ID ECC C1R (PKI)
@@ -8785,6 +8816,10 @@
 
 3B FF 11 00 02 40 64 80 69 A2 07 01 03 57 00 00 FF 00 83 00 90 00
 	Gemplus GemXpresso
+
+3B FF 11 00 FF 81 31 FE 95 80 F9 D2 76 00 00 25 54 44 01 00 83 00 00 00 A0
+	GiroCard Haspa Hamburger Sparkasse (Bank)
+	https://www.haspa.de/privatkunden/ihr-online-banking/unser-angebot/haspa-digital-services-96198/
 
 3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 44 EC C1 73 94 01 80 82 90 00 12
 	Croation personal ID card (eID)
