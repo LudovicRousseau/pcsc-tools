@@ -4312,6 +4312,10 @@
 	http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
 	Belgian MOBIB (transport)
 
+3B 88 80 01 00 00 00 00 F7 81 C1 00 BE
+	Italian Health Insurance card (eID)
+	https://en.wikipedia.org/wiki/Italian_health_insurance_card
+
 3B 88 80 01 00 00 00 11 77 81 83 00 6D
 	Taglio PIVKey C980 - RFID I/F (PKI)
 
@@ -5969,6 +5973,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 5B 12 00 5C
 	Cellcom Israel USIM (micro FF) (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 60 13 00 66
+	Vodafone spain barcelona (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 62 12 00 65
 	Free Mobile (Telecommunication)
 	http://mobile.free.fr
@@ -6122,6 +6129,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 83 02 00 00 BA
 	GSM-SIM Beeline RU (Telecommunication)
 	http://beeline.ru
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B8 03 00 00 80
+	Zero1 SIM card, Singapore (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 06 81 01 00 82 90 00 45
 	Mobicarte Orange
@@ -6306,6 +6316,9 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 F4
 	AT&T UICC with USIM and ISIM (Telecommunication)
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 40 61 41 00 82 90 00 A2
+	SIM card (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 12 01 00 82 90 00 90
 	MTS SIM card (Russia) (Telecommunication)
@@ -6524,6 +6537,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 03 04 03 02 7C
 	Comprion test U(SIM): model 128K/J LTE Test (U)SIM - Mini-UICC, product number Prod. No.: 10432006 (Telecommunication)
 	http://www.comprion.com/en/products/test__u_sims/3g_test_usim_cards
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 06 02 01 02 7D
+	Morpho USIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 11 02 01 02 6A
 	R&S CMW-Z04 Mini-UICC Test Card (Telecommunication)
@@ -6745,6 +6761,9 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
+
+3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0F 13 81 0F 2F
+	Phone card sim  (Telecommunication)
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FE
 	ISPL Card (Telecommunication)
@@ -7217,6 +7236,9 @@
 
 3B C8 00 00 00 73 C8 40 00 00 00 00
 	verve (Bank)
+
+3B CD FF 80 31 FE 45 00 68 D2 76 00 00 28 04 04 81 00 90 00 CD
+	Tachograph company test card (Transport)
 
 3B D0 96 FF 81 B1 FE 45 1F 03 2E
 	New european health insurance card of the German health insurance (G2) (HealthCare)
@@ -8346,6 +8368,10 @@
 3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 34 A2
 	JCOP41 v2.4
 
+3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B7 01
+	J2A040 NXP (JavaCard)
+	https://secure.smartcardsource.com/j2a040-java-smart-card.html
+
 3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
 	Banrisul bank
 
@@ -8534,6 +8560,10 @@
 
 3B FB 13 00 00 81 31 FE 45 4A 43 4F 50 53 3. 3. 56 32 33 32 ..
 	JCOP-Sxx/yy v2.3.2 (see hist bytes for more info)
+
+3B FB 13 00 00 81 31 FE 45 63 68 61 72 69 73 6D 61 74 65 78 84
+	Charismathics smart card JCOP and Qualified electronic signature CHJCOP-xxx (PKI)
+	https://www.stampit.org/en/page/808
 
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
@@ -9794,6 +9824,9 @@
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 53 71
 	Slovak and Czech pay TV provider Slovak Telecom (Pay TV)
 	http://www.flysat.com/novadigi-sk.php
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 30 17
+	HD+ HD04b Card (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 38 32 20 52 65 76 52 32 36 1C
 	Max Tv Croatia (Pay TV)
