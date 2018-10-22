@@ -1714,6 +1714,9 @@
 	Feitian Java Card D11CR (JavaCard)
 	http://www.ftsafe.com/product/smartcard/javacard
 
+3B 6A 00 00 30 30 30 30 33 30 44 33 35 44
+	Building access card (eID)
+
 3B 6A 00 00 4A 43 4F 50 31 30 56 32 33 31
 	Dongle Smart Card (MxKey) (Other)
 	http://www.mxkey.biz/
@@ -1779,6 +1782,9 @@
 3B 6B 00 00 00 31 C0 64 08 04 61 12 0F 90 00
 	Portuguese National Identity Card (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
+
+3B 6B 00 00 00 31 C0 64 08 04 61 20 07 90 00
+	AMEX Bank DI Card (Bank)
 
 3B 6B 00 00 00 31 C0 64 08 04 61 77 0F 90 00
 	"Strelka" Russian Federation Travelcard (Transport)
@@ -4088,6 +4094,10 @@
 	bpaid: bpost prepaid Mastercard (contactless)
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
 
+3B 85 80 01 20 63 CB A5 20 09
+	MasterCard issued by OTP Bank (Hungary) (Bank)
+	https://www.otpbank.hu/portal/en/Retail/Bankcards
+
 3B 85 80 01 20 63 CB A5 A0 89
 	Visa contactless from Banque Populaire des Alpes (France) (Bank)
 
@@ -5641,6 +5651,9 @@
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
 
+3B 9C 95 80 81 1F 03 90 67 46 4A 01 01 17 06 F2 72 7E 00 00
+	A40CR (JavaCard)
+
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
 	Aktiv Rutoken ECP SC T0
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
@@ -5679,6 +5692,9 @@
 
 3B 9D 95 80 1F C3 80 73 1A 21 1B 63 AF 07 A7 83 0F 90 00 F7
 	GemXplore 3G
+
+3B 9D 95 80 1F C3 80 73 1A 21 1B 63 AF 07 B7 83 0F 90 00 E7
+	Tchibo (Telefonica) SIM-Card (JavaCard)
 
 3B 9D 95 80 1F C7 80 31 A0 73 BE 21 00 51 04 83 05 90 00 EE
 	SIM :NTT Docomo(Japan) (Telecommunication)
@@ -5963,6 +5979,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 73 10 00 C3
+	Prepaid public telephone card from Lidl Connect, Germany (Telecommunication)
+	https://www.lidl.de/de/lidl-connect/s7373597
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 A7 0F 00 08
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
 	http://www.movistar.es/
@@ -5986,6 +6006,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 F4 12 00 F3
 	SIM card for Swedish operator Vimla! (Telecommunication)
 	https://www.vimla.se
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BD
+	Mobile Vikings SIM Card (Telecommunication)
+	https://mobilevikings.com
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -6582,6 +6606,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 01 03 01 03 47
 	USA T-Mobile 4G LTE GSM mobile data sim card, text, talk, and data (contract plan). Issued to/for android smart phone. (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 04 03 01 03 42
+	 AuStralian telstra usim (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 05 02 12 03 01 03 54
 	Vodafone UK PAYG Data SIM (Telecommunication)
@@ -7509,6 +7536,9 @@
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 02 42 58 00 02 79
 	NXP Athena SCS (PKI)
+
+3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 03 60 57 00 02 55
+	NXP IDProtect (X) (JavaCard)
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 03 63 51 00 02 50
 	JCOP3 SecID P60 CS (JavaCard)
@@ -8675,6 +8705,10 @@
 	Pin: da 5 a 8 digit
 	Unblocked by tool CARDOS API 2.2
 
+3B FD 13 00 00 81 31 FE 15 80 73 C0 21 C0 57 59 75 62 69 4B 65 79 40
+	Yubico YubiKey 5 NFC (PKI)
+	https://www.yubico.com/product/yubikey-5-nfc
+
 3B FD 13 00 00 81 31 FE 45 41 37 30 30 36 43 47 20 32 34 32 52 31 D6
 	YubiKey NEO (token)
 
@@ -9670,6 +9704,10 @@
 
 3F FD 15 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 41 4A 03
 	beIN Sports Arabia NDS (09B5:000000) (Pay TV)
+
+3F FD 15 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 56 54 03
+	TVPLAY HOME (Pay TV)
+	https://www.tvplayhome.lt/
 
 3F FD FF 25 02 50 80 0F 54 B0 04 69 FF 4A 50 D0 80 00 49 54 03
 	SKy italia (Pay TV)
