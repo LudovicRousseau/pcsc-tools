@@ -1,5 +1,7 @@
 #! /usr/bin/env python
 
+from __future__ import print_function
+
 import difflib
 import pprint
 pp = pprint.PrettyPrinter(indent=4)
@@ -7,7 +9,7 @@ pp = pprint.PrettyPrinter(indent=4)
 ATRs = list()
 for l in file("smartcard_list.txt").readlines():
     if l.endswith(" \n") or l.endswith("\t\n"):
-        print "Trailing space in:", l
+        print("Trailing space in:", l)
 
     if l == "\n":
         continue
@@ -17,7 +19,7 @@ for l in file("smartcard_list.txt").readlines():
 
     # check the ATR is all upper case
     if l.upper() != l:
-        print "error:", l
+        print("error:", l)
 
     ATRs.append(l.strip())
 #	if l.startswith("\t"):
@@ -32,7 +34,7 @@ sorted_ATRs.sort()
 #pp.pprint(sorted_ATRs)
 
 for l in difflib.context_diff(ATRs, sorted_ATRs):
-    print l
+    print(l)
 
 # compte le nombre de nouveau ATR
 from subprocess import Popen, PIPE
@@ -44,8 +46,8 @@ output = p2.communicate()[0]
 
 size = len(output.split("\n"))-1
 if size >= 10:
-    print
-    print "********************"
-    print "    %d new ATRs" % size
-    print "********************"
-    print
+    print()
+    print("********************")
+    print("    %d new ATRs" % size)
+    print("********************")
+    print()
