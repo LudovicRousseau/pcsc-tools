@@ -7,21 +7,22 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
 ATRs = list()
-for l in file("smartcard_list.txt").readlines():
-    if l.endswith(" \n") or l.endswith("\t\n"):
-        print("Trailing space in:", l)
+with open("smartcard_list.txt", "r") as f:
+    for l in f.readlines():
+        if l.endswith(" \n") or l.endswith("\t\n"):
+            print("Trailing space in:", l)
 
-    if l == "\n":
-        continue
+        if l == "\n":
+            continue
 
-    if l.startswith("#") or l.startswith("\t"):
-        continue
+        if l.startswith("#") or l.startswith("\t"):
+            continue
 
-    # check the ATR is all upper case
-    if l.upper() != l:
-        print("error:", l)
+        # check the ATR is all upper case
+        if l.upper() != l:
+            print("error:", l)
 
-    ATRs.append(l.strip())
+        ATRs.append(l.strip())
 #	if l.startswith("\t"):
 #		ATRs.append([atr, l.strip()])
 #	else:
