@@ -45,6 +45,8 @@ p2 = Popen(["grep", "+3[B,F]"], stdin=p1.stdout, stdout=PIPE)
 p1.stdout.close()
 output = p2.communicate()[0]
 
+output = output.decode('utf-8')
+
 size = len(output.split("\n"))-1
 if size >= 10:
     print()
