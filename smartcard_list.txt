@@ -32,6 +32,24 @@
 # \t descriptive text
 # empty line
 
+3B .. .. .. .. .. .. .. 00 31 B8 64 00 00 00 00 73 .. .. .. 82 90 00
+	MultiApp ID IAS ECC 72K CC (with IAS XL / IAS ECC Applet) IAS ECC Type 3
+
+3B .. .. .. .. .. .. .. 00 31 B8 64 00 00 00 00 73 .. .. .. 82 90 00 ..
+	MultiApp ID IAS ECC 72K CC (with IAS XL / IAS ECC Applet) IAS ECC Type 4
+
+3B .. .. .. .. 00 31 B8 64 .. .. .. .. 73 .. .. .. 82 90 00
+	IDClassic IAS (old name: IAS TPC) IAS ECC Type 1
+	MultiApp ID IAS ECC 72K CC (with IAS XL / IAS ECC Applet) IAS ECC Type 1
+
+3B .. .. .. .. 81 31 80 43 00 31 B8 64 .. .. .. .. 73 .. .. .. 82 90 00
+	IDClassic IAS (old name: IAS TPC) IAS ECC Type 1, T=1
+	MultiApp ID IAS ECC 72K CC (with IAS XL / IAS ECC Applet) IAS ECC Type 2
+
+3B .. .. .. 00 31 B8 64 .. .. .. .. 73 .. .. .. 82 90 00 A3
+	IDClassic IAS (old name: IAS TPC)
+	IAS ECC Type 1 Contactless Prox-DU
+
 3B .. .. 41 73 74 72 69 64
 	Axalto Cryptoflex .NET
 
@@ -258,6 +276,9 @@
 3B 0F 80 6A 16 32 46 49 53 45 53 8C E0 FF 07 90 00
 	GSM-SIM Sonera (from 1998)
 
+3B 0F 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 90 00
+	TOP DM GX4 Cards [TOP DM GX4 on SmartLogon Pro]
+
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
 
@@ -272,6 +293,9 @@
 
 3B 12 95 36 09
 	EMTG56 0.9 (sub-version 0.1)
+
+3B 13 96 13 09 17
+	Teacher Card (Other)
 
 3B 15 11 12 CA 07 00 DB
 	Tricolor TV center card (Pay TV)
@@ -704,6 +728,9 @@
 	THALES nShield Security World
 	THALES NCIPHER product line
 
+3B 2B 00 00 64 0E 3E 02 F0 31 80 0E 90 00
+	HPC card
+
 3B 2F 00 80 69 10 80 00 01 A1 0A 01 01 59 83 0E 90 00
 	Belgium Dexia (Axion) Bank Card
 	Proton/Bancontact Mister Cash/Maestro
@@ -790,10 +817,12 @@
 	Slovenian national health insurance card
 
 3B 3B 94 00 00 64 0E 3E 02 F0 31 80 0E 90 00
+	HPC card 2
 	ZZZS Health care professional card- Slovenia (Healthcard) (HealthCare)
 	https://partner.zzzs.si/wps/portal/portali/aizv/e-poslovanje/kartice_in_citalniki/prof_kartica/
 
 3B 3B 94 00 00 64 0E 3E 03 0F 31 80 0E 90 00
+	HIC card
 	ZZZS Health care card- Slovenia (HealthCare)
 	https://partner.zzzs.si/wps/portal/portali/aizv/e-poslovanje/kartice_in_citalniki/kartica_zdravstvenega_zavarovanja/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziTQxdPd2N_Q08LSyCDQ0cjZzMzXz8XQ3cXU30C7IdFQEohG-V/
 
@@ -1208,6 +1237,10 @@
 3B 65 00 00 20 63 CB B7 80
 	VISA Credit Card (Bank)
 
+3B 65 00 00 20 63 CB BC 10
+	French "Ticket Restaurant" Edenred payment card (Other)
+	https://www.myedenred.fr/
+
 3B 65 00 00 26 40 00 90 00
 	Alacard Petroltech (Transport)
 	http://www.alacard.kz/
@@ -1478,6 +1511,8 @@
 	Prepaid Platinum MasterCard for QANTAS Cash, Australia
 	Monzo Bank (UK) Debit Mastercard
 	bunq (NL) Debit Mastercard
+	Wescom Credit Union Visa Credit Card (Bank)
+	https://www.wescom.org/credit-cards/
 
 3B 68 00 00 00 73 C8 40 10 00 90 00
 	Icelandic Banking scheme Issued by the Ministry of Treasure in Iceland
@@ -1488,6 +1523,8 @@
 	Nordea Bank Norway Visa + national debet card [BankAxept]
 	VISA Classic - Nordlandsbanken (Norway)
 	Citi Double Cash MasterCard
+	Wescom Credit Union Visa Debit Card (Bank)
+	https://www.wescom.org/CHECKING/CHECK-CARD.ASP
 
 3B 68 00 00 00 73 C8 40 12 00 90 00
 	Brazilian "e-CPF" card
@@ -1578,6 +1615,7 @@
 3B 68 00 00 80 66 B0 07 01 01 77 07
 	Técnico Lisboa Student Card (Bank)
 	http://www.tecnico.ulisboa.pt/
+	Other Optelio Card (Santander)
 	Santander Totta Student Card - Portugal (Bank)
 	https://www.santandertotta.pt
 
@@ -1665,6 +1703,9 @@
 3B 69 00 00 80 31 E0 55 42 45 52 47 53
 	Banrisul Bank
 
+3B 69 00 00 80 65 A2 .. .. .. .. 72 D6
+	Other Optelio Card (Santander MPCOS)
+
 3B 69 00 00 80 72 A4 45 64 00 FF 00 10
 	Visa Credit Card Denizbank Afilli Bonus -Turkey (Bank)
 	http://www.denizbank.com/kartlar/deniz-bonus-card/afili-bonus/
@@ -1724,6 +1765,9 @@
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
 
+3B 6A 00 00 80 65 A2 .. .. .. .. 72 D6 ..
+	IDClassic 3XX Cards (with MPCOS Applet)
+
 3B 6A 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	GemSafe Xpresso 16k
 
@@ -1761,6 +1805,7 @@
 	JCOP21 v2.3 Standard
 
 3B 6A 00 FF 4A 43 4F 50 34 31 56 32 32 31
+	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NHS hospital smartcard login key (HealthCare)
 
 3B 6B .. FF 80 62 .. A2 56 46 69 6E 45 49 44
@@ -1883,6 +1928,9 @@
 
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
+
+3B 6B 00 00 80 65 B0 83 .. .. .. 83 00 90 00
+	IDClassic 3XX Cards (without MPCOS Applet - FIPS)
 
 3B 6B 00 00 80 65 B0 83 01 01 74 83 00 90 00
 	GemXpresso Pro R3 with 64K EEPROM
@@ -2076,6 +2124,9 @@
 3B 6D 00 00 80 31 80 65 B0 43 01 00 77 83 00 90 00
 	Gemplus GemXpresso Lite
 
+3B 6D 00 00 80 31 80 65 B0 83 .. .. .. 83 00 90 00
+	IDClassic 3XX / Classic TPC (IXS, IS, IS V2, IS CC, IM, IM CC, IM CC V3) / MultiApp ID Cards
+
 3B 6D 00 00 80 31 80 65 B0 83 01 02 90 83 00 90 00
 	DeutscheBank Identification card
 
@@ -2088,6 +2139,9 @@
 	Gemalto TOP IM
 	(Old name GemSafeXpresso 64)
 
+3B 6D 00 00 80 31 80 65 B0 84 01 00 C8 83 00 90 00
+	Optelio Cards (D38-D72 R6) T=0 Normal Speed
+
 3B 6D 00 00 80 31 80 65 B0 86 26 01 08 83 08 90 00
 	RBC Royal Bank VISA (Bank)
 
@@ -2096,6 +2150,7 @@
 	http://en.kkb.kz/page/WhoWeAre
 	one of the biggest banks in Republic of Kazakhstan
 	Nordea (Finland) + Finnair MasterCard (credit)
+	GXP7 T=0
 
 3B 6D 00 00 80 31 80 65 B0 87 34 01 D7 83 00 90 00
 	Fidelity Investment Rewards (AMEX) (Bank)
@@ -2464,6 +2519,7 @@
 	http://www.klikbca.com/individual/silver/product.html?s=69
 
 3B 6E 00 00 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
+	Optelio Cards (D72 R4 WR)
 	Nordea (a Skandinavian bank) eID card
 	http://linux.fi/wiki/Nordea_eID
 	RBC Royal Bank Client Card (bank in Canada)
@@ -2931,6 +2987,10 @@
 	Navigo card using Calypso stantard (Other)
 	https://en.wikipedia.org/wiki/Calypso_(electronic_ticketing_system)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 AE 59 B9 82 90 00
+	French "Navigo" transport card (Transport)
+	http://www.navigo.fr/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B EB 8D 82 90 00
 	Korigo card transport for star company (France) (Transport)
 	http://www.star.fr/titres-et-tarifs/carte-korrigo/
@@ -3052,6 +3112,9 @@
 
 3B 6F 00 00 80 66 B0 07 01 01 07 07 53 02 31 24 82 90 00
 	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard)
+
+3B 6F 00 00 80 66 B0 07 01 01 77 .. .. .. .. .. .. 90 00
+	Other Optelio Card (Santander)
 
 3B 6F 00 00 80 66 B0 07 01 01 77 07 53 02 31 10 82 90 00
 	University ID card (issued by Banco Santander Central Hispano)
@@ -3251,6 +3314,9 @@
 3B 79 98 00 00 EB 03 01 00 00 70 01 01 A9
 	Casino Rio Patras, Greece
 
+3B 7A .. 00 00 80 65 A2 .. .. .. .. 72 D6 ..
+	IDClassic 3XX Cards (with MPCOS Applet)
+
 3B 7A 11 00 00 48 44 32 2E 30 34 6F FF 90 00
 	User Smartcard provided with the Hiddn Crypto Adapter (www.hiddn.no)
 
@@ -3299,6 +3365,9 @@
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
+
+3B 7B .. 00 00 80 65 B0 83 .. .. .. 83 00 90 00
+	IDClassic 3XX Cards (without MPCOS Applet - FIPS)
 
 3B 7B 11 00 00 31 FE 45 43 6F 6D 62 4F 53 20 00
 	Debit card emmited by Société Générale Morocco (Bank)
@@ -3358,6 +3427,9 @@
 3B 7C 95 00 00 45 53 4D 41 52 54 47 4F 53 54 31 30
 	ESMART Token GOST (PKI)
 	https://esmart.ru/products/informatsionnaya-bezopasnost/usb-nositeli-esmart-token-gost/
+
+3B 7D .. 00 00 80 31 80 65 B0 .. .. .. .. 83 .. 90 00
+	IDClassic 3XX / Classic TPC (IXS, IS, IS V2, IS CC, IM, IM CC, IM CC V3) / MultiApp ID Cards
 
 3B 7D 11 00 00 00 31 80 71 8E 64 52 D9 01 00 82 90 00
 	Oberthur Galactic V2
@@ -3512,6 +3584,9 @@
 	Gemplus GemXpresso Pro R3 E32PK
 	Gemalto TOP IM GX4
 
+3B 7D 96 00 00 80 31 80 65 B0 84 01 00 C8 83 00 90 00
+	Optelio Cards (D38-D72 R6) T=0 High Speed
+
 3B 7D 96 00 00 80 31 80 65 B0 85 02 00 CF 83 01 90 00
 	Gemalto IDCore 3010
 	http://www.cryptoshop.com/gemalto-top-dm-cc.html
@@ -3593,6 +3668,9 @@
 
 3B 7F .. 00 00 00 6A 43 45 52 45 53 02 2C 34 03 .. 03 90 00
 	Ceres ST v3
+
+3B 7F .. 00 00 80 31 .. 65 B0 00 00 00 00 .. .. .. 82 90 ..
+	MultiApp V2.1 (with IAS XL / IAS ECC and IAS Classic Applet V3) [MultiApp V2.1 Type 2]
 
 3B 7F .. 00 00 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00
 	IDPrime MD 8840, 3840, 3810, 840 and 830 Cards T=0
@@ -3961,6 +4039,7 @@
 	Electronic Passport
 	Spanish passport (2012)
 	Canadian Passport
+	Venez_Prox
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
@@ -4023,6 +4102,9 @@
 
 3B 83 00 43 56 10
 	Comviq 2G SIM
+
+3B 83 80 01 81 02 80 01
+	Mifare DESFire EV1 2K (Other)
 
 3B 84 00 91 18 01 00
 	Proximus 075 Belgacom Mobile SIM
@@ -4386,6 +4468,9 @@
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
 
+3B 88 80 01 31 F3 5E 11 00 81 95 00 90
+	Venez_Omnikey
+
 3B 88 80 01 35 20 00 00 77 81 91 00 7B
 	Ireland EPassport (passport)
 
@@ -4415,6 +4500,9 @@
 3B 88 80 01 53 6D 61 72 74 41 70 70 11
 	national Lithuania ID card (eID)
 	https://www.dokumentai.lt/viewpage.php?page_id=77
+
+3B 88 80 01 76 61 75 6C 74 69 74 32 5C
+	Vaultit Identity Card (eID)
 
 3B 88 80 01 80 66 B0 07 01 01 07 .. ..
 	Gemalto Santander Optelio TUI R7 with WG10 using Contactless interface
@@ -4524,6 +4612,7 @@
 	JCOP 31 v22 72K (with Mifare 1K emulation) - RFID I/F
 
 3B 89 80 01 4A 43 4F 50 34 31 56 32 32 4D
+	JCOP41 Cards (not supported, but recognized by Classic Client)
 	New Zealand e-Passport
 	Philips Semiconductor JCOP41V22
 
@@ -4596,6 +4685,9 @@
 3B 8A 00 92 02 03 91 08 00 01 01 04 00
 	32K SIM Card from the austrian telecom "ONE"
 
+3B 8A 01 43 4F 50 34 31 56 32 32 31 FF 4A
+	JCOP41 Cards (not supported, but recognized by Classic Client)
+
 3B 8A 01 4A 43 4F 50 34 31 56 32 32 31 FF
 	JCOP41
 
@@ -4616,6 +4708,7 @@
 	Snapper New Zealand (JCOP)
 
 3B 8A 80 01 4A 43 4F 50 34 31 56 32 32 31 7F
+	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NXP JCOP 41 v2.2.1 72k RFID I/F
 
 3B 8A 80 01 80 31 B8 73 84 01 E0 82 90 00 06
@@ -4626,6 +4719,7 @@
 
 3B 8A 80 01 80 65 A2 01 01 01 3D 72 D6 43 97
 	Gemplus GemXpresso Pro R3 E32 PK (combi)
+	MultiApp ID Dual Citizen EAC 80K CC / IDClassic 3340 (old name: Classic TPC DM) (with MPCOS Applet installed by default) - Contactless Mode with Prox DU
 
 3B 8A 80 01 80 65 A2 01 31 01 3D 72 D6 41 A5
 	Resident Identity Card (eID)
@@ -4818,6 +4912,10 @@
 	Morpho (eID)
 	http://www.morpho.com/
 
+3B 8C 80 01 50 AC 03 9D 44 E1 F3 5E 11 77 81 A1 21
+	Spanish DNIe (eID)
+	https://www.dnielectronico.es
+
 3B 8C 80 01 50 B1 56 D8 BB 00 00 00 11 00 81 85 CC
 	TI rf430cl330h (Other)
 	http://www.ti.com/product/rf430cl330h
@@ -4938,6 +5036,9 @@
 3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
 	JCOP30 contactless interface
 
+3B 8D 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 34
+	TOP DM GX4 Cards [TOP DM GX4 on Gemalto Prox]
+
 3B 8D 80 01 80 91 E1 65 D0 00 5B 01 02 73 D4 41 40 B7
 	Portuguese Passport (passport)
 	http://www.pep.pt/PagesPT/Caracteristicas.aspx
@@ -4980,6 +5081,7 @@
 	BCA Flazz Card (Bank) www.bca.com
 
 3B 8E 80 01 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 1D
+	MultiApp Cards (Easy 72K Type B and Combi 72K Type B)
 	Barclaycard Platinum contact/contactless (wave)
 
 3B 8E 80 01 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00 03
@@ -5391,10 +5493,15 @@
 	Gemalto Santander Optelio TUI R7 with WG10 customized using Contactless interface
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
+	TOP DM GX4 Cards [TOP DM GX4 - contact interface]
 	GemCombiXpresso R4 72K (contactless interface)
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 90 00 A6
+	TOP DM GX4 Cards [TOP DM GX4 on Omnikey]
 	GEMALTO WM GX4 72 DHS TSA (contactless interface)
+
+3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 11 E5 83 00 90 00 EF
+	TOP DL V2 Cards
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 17 E5 83 00 90 00 E9
 	IDPrime PIV Card v2.0 AES SCP03 (eID)
@@ -5403,6 +5510,10 @@
 3B 8F 80 01 80 91 E1 31 80 65 B0 85 02 00 CF 83 00 90 00 C1
 	Gemalto IDCore 3010 CC (JavaCard)
 	http://www.gemalto.com/Products/top_javacard/index.html
+	MultiApp ID Dual Citizen EAC 80K CC / IDClassic 3340 (old name: Classic TPC DM) (with IAS Applet V3) - Contactless Mode
+
+3B 8F 80 01 80 91 E1 31 80 65 B0 85 02 00 E9 83 00 90 00 E7
+	MultiApp ID Dual Citizen EAC 144K CC (with IAS Applet V3) -Contactless Mode
 
 3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 FF B2
 	Italian Passport (passport)
@@ -6275,6 +6386,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 30 32 34 00 A1
 	H2O Wireless GSM UICC (Telecommunication)
 	http://www.h2owirelessnow.com
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 30 32 34 01 A0
+	RedPocket Mobile Contract-Free SIM Card (Telecommunication)
+	https://www.redpocket.com/
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 07 32 30 00 99
 	Bell Canada 3G SIM
@@ -7878,6 +7993,9 @@
 3B E9 00 FF C1 10 31 FE 55 C8 01 20 50 4E 34 30 31 32 AD
 	Siemens CardOS/M 3.0 (SLE66CX160S)
 
+3B EA 00 00 81 31 20 43 80 65 A2 .. .. .. .. 72 D6 .. ..
+	IDClassic 3XX Cards (with MPCOS Applet)
+
 3B EA 00 00 81 31 20 43 80 65 A2 01 01 01 3D 72 D6 43 A5
 	GemXpresso Pro R3 32PK (MPCOS, T=1) (warn reset)
 
@@ -7941,20 +8059,31 @@
 	Global Platform v2.0.1 specifications.
 	JCCOS operating system applet (Java-based Cryptographic Card Operating System)
 
+3B ED 00 00 80 31 80 65 B0 84 01 00 C8 83 00 90 00
+	Optelio Cards (D38-D72 R6) T=1 Normal Speed
+
+3B ED 00 00 81 31 20 43 80 31 80 65 B0 83 .. .. .. 83 00 90 .. ..
+	IDClassic 3XX / Classic TPC (IXS, IS, IS V2, IS CC, IM, IM CC, IM CC V3) / MultiApp ID Cards
+
 3B ED 00 00 81 31 20 43 80 31 80 65 B0 83 02 04 7E 83 00 90 00 32
 	Latvian Digital Signature Card (warm)
 	http://www.eme.lv/
 
 3B ED 00 00 81 31 80 42 80 31 80 65 B0 87 27 01 BC 83 08 90 00 7D
 	EMV (V PAY) Issued by UniCredit Bulbank Bulgaria
+	GXP7 T=1
 
 3B ED 00 00 81 31 80 42 80 31 80 65 B0 89 40 01 F2 83 00 90 00 52
 	VISA Debit card for Taishin International Bank, Taiwan
 
 3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
+	MultiApp Cards (Easy 72K Type B and Combi 72K Type B)
 	E.SUN Commercial bank debit master card (Bank)
 	Taiwan EasyCard (Transport)
 	https://www.easycard.com.tw/english/index.asp
+
+3B EE 00 00 81 31 80 43 80 31 80 66 B1 A1 11 01 00 F6 83 00 90 00
+	Optelio/Desineo Cards (D72 FXR1)
 
 3B EE 00 00 81 31 80 43 80 31 80 66 B1 A1 11 01 A0 F6 83 00 90 00
 	Optelio D72 FXR1 (MD) T=1
@@ -8427,6 +8556,7 @@
 	Smartcard Dual Interface JCOP31 with 72KB EEPROM and V2.2 Java Card Open Platform
 
 3B F9 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 AF
+	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NHS Care Identity Service (CIS) smartcard (HealthCare)
 	https://www.e-lfh.org.uk/programmes/national-ra-and-smartcard-policy/
 
@@ -8465,6 +8595,9 @@
 
 3B F9 98 00 FF C1 10 31 FE 55 50 43 20 43 4D 44 31 31 30 9C
 	Service card of the Ministry of Defense of Italy - Civil personnel
+
+3B FA .. 00 00 81 31 .. 43 80 65 A2 .. .. .. .. 72 D6 .. ..
+	IDClassic 3XX Cards (with MPCOS Applet)
 
 3B FA 11 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 56 00 E0
 	MyWireCard 2go Prepaid VISA Card
@@ -8705,6 +8838,9 @@
 	Pin: da 5 a 8 digit
 	Unblocked by tool CARDOS API 2.2
 
+3B FD .. 00 00 81 31 .. 43 80 31 80 65 B0 .. .. .. .. 83 .. 90 .. ..
+	IDClassic 3XX / Classic TPC (IXS, IS, IS V2, IS CC, IM, IM CC, IM CC V3) / MultiApp ID Cards
+
 3B FD 13 00 00 81 31 FE 15 80 73 C0 21 C0 57 59 75 62 69 4B 65 79 40
 	Yubico YubiKey 5 NFC (PKI)
 	https://www.yubico.com/product/yubikey-5-nfc
@@ -8775,6 +8911,9 @@
 
 3B FD 96 00 00 81 31 20 43 80 31 80 65 B0 83 11 48 C8 83 00 90 00
 	Pay TV
+
+3B FD 96 00 00 81 31 48 42 80 31 80 65 B0 84 01 00 C8 83 00 90 00
+	Optelio Cards (D38-D72 R6) T=1 High Speed
 
 3B FD 96 00 00 81 31 80 43 80 31 80 65 B0 85 01 00 D6 83 01 90 00 BC
 	Queensland Drivers' Licence (Australia) (eID)
