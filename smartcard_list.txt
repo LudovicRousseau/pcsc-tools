@@ -74,6 +74,10 @@
 	Spanish ID ("DNIe: Documento Nacional de Identidad electrónico).
 	http://www.dnie.es/
 
+3B 04 00 04 00 00
+	Italian healtcare card (TS) National Service Card (CNS) - Regione Lazio - (HealthCare)
+	http://cns.regione.lazio.it
+
 3B 04 01 02 03 04
 	SLE4442 - memory card (256) with write protection PIN. (Other)
 
@@ -841,6 +845,9 @@
 3B 3B 94 00 6A 38 20 00 00 09 E0 33 33 90 00
 	virgin mobile (french) SIM card
 
+3B 3B 94 00 6A 38 20 00 00 0A 20 33 33 90 00
+	SIM Card for cellular (Orange) (Telecommunication)
+
 3B 3B 94 00 80 65 32 13 04 03 30 83 81 90 00
 	SIM cards by the austrian cell phone provider A1
 
@@ -897,6 +904,9 @@
 
 3B 3C 11 00 40 AF 13 F3 12 00 06 87 83 80 90 00
 	SIM GSM Orange Fr
+
+3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 80 90 00
+	SIM Card for cellular (Orange) (Telecommunication)
 
 3B 3C 11 00 42 AF 20 A3 20 07 00 22 83 82 90 00
 	Orange Mobicarte (SIM card old generation)
@@ -1055,6 +1065,10 @@
 
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A 1C 00 11 40 90 00
 	"CardLogic" CLXSU256KF5
+
+3B 5F 95 00 80 73 00 01 00 59 43 4C 5A C5 06 11 7C 90 00
+	Smart Card C5 68K CardLogix Corp (Other)
+	https://www.cardlogix.com/products/most-card-c-series-microprocessor-smart-cards/
 
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A C5 06 12 C0 90 00
 	Republic of Liberia Civil Service Identification Card (eID)
@@ -2068,6 +2082,10 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 34 42 33 00 90 00
 	chase (Bank)
 
+3B 6D 00 00 00 73 C8 00 13 64 54 34 46 31 00 90 00
+	Discover (Bank)
+	https://www.discover.com/credit-cards/
+
 3B 6D 00 00 00 73 C8 00 13 64 54 37 41 38 00 90 00
 	German comdirect bank - Visa Credit, prepaid (Bank)
 
@@ -2579,6 +2597,9 @@
 	Carta HYPE MasterCard (Italy) (Bank)
 	https://www.hype.it/
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 53 34 30 00 90 00
+	PNC Debit (Bank)
+
 3B 6F 00 00 00 66 4D 45 31 61 03 01 53 08 61 04 F0 90 00
 	Spanish University of Murcia smart ID card - Old version (M.Mar OS) - Also used by many others spanish universities
 
@@ -3077,6 +3098,9 @@
 	Personalized MOBIB card (Brussels transports) (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
 
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 03 55 46 82 90 00
+	MoBIB: Belgian transport card (NFC) (Transport)
+	https://mobib.be/en.html
 
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
@@ -4752,6 +4776,9 @@
 	NUMBER26 Maestro Card (Bank)
 	https://number26.eu
 
+3B 8B 80 01 00 31 C0 64 1F 18 01 00 00 90 00 09
+	Student ID card in Poland (eID)
+
 3B 8B 80 01 00 31 C0 64 1F 27 01 00 00 90 00 36
 	American Express Platinum (AU Issued) (Bank)
 
@@ -5011,6 +5038,9 @@
 
 3B 8D 80 01 00 73 C8 00 13 64 54 37 43 33 00 90 00 43
 	Deutsche Bank Debit MasterCard (Bank)
+
+3B 8D 80 01 00 73 C8 00 13 64 54 37 43 35 00 90 00 45
+	Student ID card in Poland (eID)
 
 3B 8D 80 01 00 73 C8 00 13 64 54 37 44 33 00 90 00 44
 	master cRD (Bank)
@@ -6567,6 +6597,9 @@
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
 
+3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 02 22 00 80 01 01 27
+	giffgaff USIM (Telecommunication)
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 13 57 4A 33 05 77 33 33 00 E2
 	USIM issued by Moldcell mobile operator in Moldova (Telecommunication)
 	http://www.moldcell.md/
@@ -7394,6 +7427,10 @@
 	German Elektronische Gesundheitskarte (eGK) (HealthCare) - From TK (HealthCare)
 	https://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte
 
+3B D0 97 FF 81 B1 FE 45 1F C7 EB
+	German Health Professional Card (eHBA) (HealthCare)
+	gSMC-KT, STARCOS 3.6 (HealthCare)
+
 3B D0 A8 FF 81 F1 FB 24 00 1F C3 F4
 	Philips DESFire SAM
 
@@ -7554,6 +7591,10 @@
 
 3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
 	Oberthur Cosmo V7 64K Dual/128K
+
+3B DB 18 FF 81 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 41 AE
+	BasicCard Professional ZC7.5-COMBI (Other)
+	http://www.basiccard.com/
 
 3B DB 18 FF 81 B1 FE 75 1F 03 5A 43 37 2E 36 20 52 45 56 20 44 A8
 	Zeitcontrol Professional BasicCard ZC 7.6 REV D (Other)
@@ -8937,6 +8978,9 @@
 	G&D Sm@rtCafé Expert 6.0 (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
 
+3B FE 18 00 00 80 31 FE 45 53 43 45 36 30 2D 43 44 31 34 35 2D 6E 46 A0
+	Smart Cafe Expert 6.0, Java Card 3.0 (PKI)
+
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A4 16 2A 00 83 01 90 00 E1
 	Estonian Identity Card (EstEID 3.0 "JavaCard" warm)
 
@@ -9538,6 +9582,9 @@
 
 3F 2D 00 27 A0 51 82 7D 00 00 00 52 00 0C 90 00
 	Porta Moedas Multibanco (Portugeese electronic purse)
+
+3F 2F 00 36 AF 69 02 04 01 80 00 00 0A 0E 83 3E 9F 16
+	SIM Card GSM (Telecommunication)
 
 3F 2F 00 80 59 AF 02 01 01 30 00 00 0A 0E 83 06 9F 12
 	Gemplus GemXplore
