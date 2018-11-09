@@ -159,6 +159,9 @@
 3B 04 C9 D5 FD 20
 	Bell Canada LaPuce card - prepaid phone card (Telecommunication)
 
+3B 04 FF 1F 00 00
+	master card (Bank)
+
 3B 04 FF FF FF FF
 	Identity card Universidad del Pais Vasco / Euskal Herriko Unibertsitatea www.ehu.es
 
@@ -1838,6 +1841,9 @@
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
 
+3B 6B 00 00 00 31 C0 64 08 04 61 12 07 90 00
+	Visa Electron. BSB Bank. Belarus (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 04 61 12 0F 90 00
 	Portuguese National Identity Card (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
@@ -2617,6 +2623,10 @@
 3B 6F 00 00 00 66 4D 45 66 80 03 14 53 03 61 04 F0 90 00
 	Paypal Prepaid Card (YoUnique Money E.D.E.)
 
+3B 6F 00 00 00 66 4D 45 66 80 03 16 53 06 61 05 F0 90 00
+	Transport Metropolitano de Galicia (Transport)
+	https://tmg.xunta.gal/
+
 3B 6F 00 00 00 66 4D 45 66 84 03 09 53 03 61 04 F0 90 00
 	spanish MAESTRO debit card, from Unicaja bank
 
@@ -3093,6 +3103,9 @@
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
 	Brussels STIB MOBIB Classic (Transport)
 	https://www.stib-mivb.be/mobib.html
+
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2F DE FA 82 90 00
+	MOBIB public transport card (Belgium); contacted IC (Transport)
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 32 19 CF 82 90 00
 	Personalized MOBIB card (Brussels transports) (Transport)
@@ -3882,6 +3895,9 @@
 3B 7F 13 00 00 80 31 C0 52 1D DE 64 05 00 E4 71 83 83 90 00
 	Evo finance Visa gold (Bank)
 	https://www.evofinance.com/
+
+3B 7F 13 00 00 80 31 C0 52 1E 63 64 05 00 E4 71 83 83 90 00
+	iTAU Brazil Gold VISA (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 20 DD 64 05 62 17 80 83 83 90 00
 	VISA ELECTRON debit card (Bank)
@@ -6351,6 +6367,9 @@
 	T-Mobile Nederlands
 	http://www.tmobile.nl
 
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 09 09 01 00 00 98
+	German SIM card (T-Mobile) (Telecommunication)
+
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 09 01 00 00 06
 	GSM, T-Mobile (Germany)
 
@@ -6769,6 +6788,10 @@
 	SIM card from the Polish telecom operator "P4" or "Play" (Telecommunication)
 	https://www.play.pl/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
+	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
+	https://www.bob.at
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
 
@@ -6960,6 +6983,9 @@
 
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
 	"ultra fast card, max speed supported for telecom"? (transport)
+
+3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 90 0F 3B 81 0F 62
+	Gemalto Multi-SIM consumer 4.2 (ST33I1M2) (Telecommunication)
 
 3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D6
 	Verizon 4G LTE Micro SIM (Telecommunication)
@@ -8267,6 +8293,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0A 1B 18 37 20 42
+	German debit card (girocard, V-Pay) (Bank)
+	https://www.girocard.eu/english/
+
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0B 16 1C 37 20 4A
 	Commerzbank / girocard /maestro (Bank)
 
@@ -8610,6 +8640,9 @@
 
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
+
+3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 00 00 20 20 27
+	G&D SmartCafe Expert 7 (JavaCard)
 
 3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 03 00 20 46 42
 	ActivIdentity Activkey Sim (PKI)
@@ -8962,6 +8995,10 @@
 3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 29 80 00 00 00 00 00 00 A9
 	DPI Guatemala (eID)
 	http://www.renap.gob.gt/
+
+3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 67 20 00 00 00 00 00 00 47
+	DPI Guatemala (eID)
+	https://www.renap.gob.gt/servicios/que-es-el-dpi
 
 3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 4C 31 32 38 43 52 57
 	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
