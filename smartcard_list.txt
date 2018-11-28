@@ -2888,8 +2888,8 @@
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
 
-3B 6F 00 00 80 5A 0A 01 02 20 03 11 03 35 74 E2 82 90 00
-	Card Transport Express Régional (TER) « Oùra ! » of region Rhône-Alpes
+3B 6F 00 00 80 5A 0A 01 02 20 03 11 .. .. .. .. 82 90 00
+	Card « Oùra ! » of region Rhône-Alpes, Calypso standard (TER, Transisère)
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 02 94 95 D3 82 90 00
 	Rav-Kav Public Transport (Transport)
@@ -3096,6 +3096,9 @@
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 BF 9E 2B 82 90 00
 	MOBIB - TEC (Transport)
 	https://www.infotec.be/fr-be/acheteruntitre/mobib.aspx
+
+3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 35 ED CE 82 90 00
+	Lisbon Transportation SmartCard (Transport)
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
@@ -3497,6 +3500,7 @@
 
 3B 7D 18 00 02 80 57 59 50 53 49 44 30 33 83 7F 90 00
 	Sagem YpsID s2 (SafeSign)
+	Brazilian "e-CNPJ" card, issued by Certisign (Safesign)
 
 3B 7D 18 00 02 80 57 59 50 53 49 44 30 34 83 7F 90 00
 	Morpho e-CPF YpsID S2-11/11 (PKI)
@@ -3580,11 +3584,13 @@
 	GEMALTO WM GX4 72 DHS TSA
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 11 E5 83 00 90 00
+	Gemalto TOP DL v2 StdR
 	eCPF (Cadastro de Pessoas Físicas) from Imprensa Oficial do Brasil
 	Identidade digital (e-CPF) from Caixa
 	http://www.caixa.gov.br/
 	Ingenico Sign/Kit Telium TETRA (Developer kit signature card)
 	https://developer.ingenico.com/hc/en-gb
+	Brazilian "e-CNPJ" card, issued by Certisign (Safesign)
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 13 AC 83 00 90 00
 	CAC card (GEMALTO GCX4 72K DI)
@@ -3921,6 +3927,9 @@
 3B 7F 13 00 00 80 31 C0 52 3B 0E 64 02 00 0B 70 83 83 90 00
 	RACC MasterCard (Bank)
 	https://www.racc.cat/targeta-racc-master
+
+3B 7F 13 00 00 80 31 C0 52 3B 2E 64 02 00 0B 70 83 83 90 00
+	Bankinter VISA credit card (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 3C 89 64 02 00 0B 70 83 83 90 00
 	ING Direct Visa (Bank)
@@ -5092,6 +5101,10 @@
 3B 8D 80 01 80 91 E1 65 D0 00 5B 01 03 73 D4 41 40 B6
 	French passport (2010-2011)
 
+3B 8E 80 01 00 51 00 63 1F 6D 01 73 9F 20 C0 C0 90 00 12
+	Identity card (eID) Republic of Latvia (eID)
+	https://www.pmlp.gov.lv/en/home/services/personal-certificates-%28eid%29/
+
 3B 8E 80 01 00 51 31 63 1F 59 01 73 9F 20 C0 C0 90 00 17
 	Identity card (eID) Republic of Latvia (eID)
 	http://www.pmlp.gov.lv/en/home/services/personal-certificates-%28eid%29/
@@ -5674,6 +5687,9 @@
 
 3B 98 18 81 31 FE 43 30 41 56 54 00 00 00 07 F9
 	Avtor SecureToken 00 00 (Other)
+
+3B 98 30 40 0A A5 03 01 01 01 AD 13 11
+	Belgium eID card (eID)
 
 3B 98 94 00 93 91 14 01 0A 06 06 06
 	Orange Spain 64k Sim card
@@ -6313,6 +6329,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B8 03 00 00 80
 	Zero1 SIM card, Singapore (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 63 45 43 19 83 00 90 00 DA
+	Smartjac (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 06 81 01 00 82 90 00 45
 	Mobicarte Orange
@@ -7699,6 +7718,9 @@
 	Oberthur Cosmo v7 128K with PIV applet
 	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
 
+3B DB 96 FF 81 31 FE 45 80 67 05 34 B5 02 01 06 40 81 05 1B
+	SINA STARCOS 3.5 BX-CombiCard+HSB (Other)
+
 3B DB 96 FF C0 10 31 FE 45 80 67 15 01 B4 03 00 09 00 81 05 21
 	Digital Tachograph Card for Professional Driver
 	olish driver card for digital tachograph
@@ -7730,6 +7752,7 @@
 
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 08 00 07 90 00 FE
 	Oberthur Cosmo v7 IAS ECC
+	Brazilian "e-CNPJ" card, issued by Certisign (Oberthur)
 
 3B DD 18 00 81 31 FE 45 90 4C 41 54 56 49 41 2D 65 49 44 90 00 8C
 	Identity card (eID) Republic of Latvia
@@ -7968,6 +7991,10 @@
 	"Deutsche Kreditbank AG" Visa Card produced by AustriaCard GNC
 	All cards (MasterCard, Maestro, VISA Electron) issued by Raiffeisen Bank in Romania
 	EMV (MasterCard) Card, issued by Raiffeisen Bank in Czech Republic
+
+3B E7 00 FF 81 31 FE 45 44 30 38 2E 31 20 36 56
+	WinWin Austria Player-ID-Card (Other)
+	https://www.winwin.at/
 
 3B E7 00 FF 81 31 FE 45 44 30 38 2E 32 20 36 55
 	Mastercard (Bank)
@@ -8338,6 +8365,10 @@
 3B F0 13 00 00 81 31 FE 45 E8
 	Healt care card Romania (HealthCare)
 	http://www.cnas.ro/casmb/national-page/cardul-national-de-asigurari-de-sanatate-2.html
+
+3B F0 13 00 FF 91 81 B1 FE 46 1F 03 19
+	Japan BS/CS 4K Satellite Broadcasting A-CAS Card (Pay TV)
+	http://www.acas.or.jp/index.html
 
 3B F2 18 00 00 C1 0A 31 FE 55 C8 06 75
 	HID iCLASS P16K C4H
@@ -9526,6 +9557,10 @@
 3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 01 83 01 90 00 45
 	Swedish digital tachograph driver smart card (Other)
 	https://www.transportstyrelsen.se/sv/vagtrafik/Yrkestrafik/Kor--och-vilotider/Fardskrivare/ansokan-om-forarkort/
+
+3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 04 83 01 90 00 40
+	Company Card for authentication in tachograph applications (Other)
+	https://ec.europa.eu/transport/modes/road/social_provisions/tachograph/tachonet_en
 
 3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 13 83 01 90 00 57
 	Driver's Card (Tachograf card) issued by pwpw Poland (Transport)
