@@ -177,8 +177,6 @@ sub arrange_widgets () {
       <toolbar  name='ToolBar'>
         <toolitem action='Open'/>
         <toolitem action='Quit'/>
-        <separator/>
-        <toolitem action='Logo'/>
       </toolbar>
     </ui>";
 
