@@ -650,6 +650,9 @@
 3B 26 00 31 08 6C 03 90 00
 	VISA ELECTRON from Caixa Catalunya bank card (www.caixacatalunya.es) for students in UPC university of Barcelona (Spain) (www.upc.es)
 
+3B 26 00 31 09 C2 03 90 00
+	Old version of spanish Social Security card for its employees (eID)
+
 3B 26 00 31 0B D2 03 90 00
 	Former Universidad de León (Spain) Identification Card (partnership with Caja España bank - Visa Cash) (Bank)
 
@@ -1254,6 +1257,10 @@
 3B 65 00 00 20 63 CB B7 80
 	VISA Credit Card (Bank)
 
+3B 65 00 00 20 63 CB BC 00
+	Credit Agricole MasterCard Societaire (France) (Bank)
+	https://www.ca-centrefrance.fr/moyens-de-paiement/carte-bancaire-societaire.html
+
 3B 65 00 00 20 63 CB BC 10
 	French "Ticket Restaurant" Edenred payment card (Other)
 	https://www.myedenred.fr/
@@ -1618,6 +1625,10 @@
 	Alliance With La Caja de Canarias Bank
 	Manufactured by GyD IBÉRICA
 	http://www.gi-de.com
+
+3B 68 00 00 80 66 A2 03 08 01 31 07
+	University ID Card for University of Seville (Other)
+	http://institucional.us.es/vrelinstitu/carne-universitario
 
 3B 68 00 00 80 66 A2 06 01 01 64 00
 	Visa card issued by Czech's "Komercni banka" (Gemplus brand on chip)
@@ -3102,6 +3113,9 @@
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
+	Navigo RATP (Transport)
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
 	Brussels STIB MOBIB Classic (Transport)
@@ -5091,6 +5105,10 @@
 3B 8D 80 01 80 31 80 65 B0 07 02 02 89 83 00 90 00 75
 	JCOP30 contactless interface
 
+3B 8D 80 01 80 73 C0 21 C0 57 59 75 62 69 4B 65 79 F9
+	Yubikey 5 NFC (via NFC) (Other)
+	https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc
+
 3B 8D 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 34
 	TOP DM GX4 Cards [TOP DM GX4 on Gemalto Prox]
 
@@ -5197,6 +5215,10 @@
 3B 8F 80 01 00 B8 54 21 00 00 90 00 00 00 00 00 00 00 00 53
 	netbank Germany, Mastercard (Bank)
 	https://netbank.de
+
+3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 FF FF FF BD
+	DKB Visa Credit Card (Bank)
+	https://www.dkb.de
 
 3B 8F 80 01 43 55 32 69 AA 20 20 20 20 20 20 20 20 20 20 E9
 	UBS Access Card (Mobile Online Banking, NFC, Switzerland)
@@ -6645,6 +6667,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 02 41 00 82 90 00 C2
 	Empire Bank ltd (Bank)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 19 31 00 82 90 00 A9
+	Taiwan Star Telecom Corporation Limited (Telecommunication)
+	https://www.tstartel.com/CWS/
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 34 61 00 82 90 00 D4
 	Ting X1 GSM SIM Card (4G, T-Mobile network) (Telecommunication)
 	https://ting.com/shop/gsmSIM
@@ -6664,6 +6690,9 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 21 AB 11 18 01 80
 	Telekom Germany Triple SIM issued in 2018 (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
+	SORACOM SIM (plan unknown) (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
@@ -6708,6 +6737,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 32 00 BE
 	M2M2FF1-NONRUG-D - Verizon Non-Rugged M2M SIM Card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 33 00 BF
+	Turk Telekom SIM card [4>5G] (Telecommunication)
+	https://bireysel.turktelekom.com.tr/4-5G/index.html
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 22 33 32 00 BC
 	Project Fi (Telecommunication)
@@ -7669,6 +7702,10 @@
 
 3B DB 96 00 80 31 FE 44 80 59 65 49 44 20 4E 41 44 52 41 8F
 	Pakistan ID card (eID)
+
+3B DB 96 00 80 B1 FE 45 1F 83 00 12 23 3F 53 65 49 44 0F 90 00 F1
+	Estonia ID-card (eID)
+	https://id.ee
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 18 01 00 07 90 00 5A
 	Ercom CRYPTOSMART
