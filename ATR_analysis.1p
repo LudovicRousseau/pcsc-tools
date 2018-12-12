@@ -21,7 +21,7 @@ and
 .I /usr/share/pcsc/
 directories.
 .P
-Exemple:
+Example:
  $ ATR_analysis '3B A7 00 40 18 80 65 A2 08 01 01 52'
  ATR: 3B A7 00 40 18 80 65 A2 08 01 01 52
  + TS = 3B --> Direct Convention
