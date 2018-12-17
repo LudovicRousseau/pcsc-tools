@@ -415,6 +415,9 @@
 3B 17 94 18 01 01 02 01 41 49
 	white SFR SIM card
 
+3B 17 94 18 01 01 02 02 41 49
+	Sim card from SFR  (Telecommunication)
+
 3B 17 94 18 01 01 09 01 41 53
 	Old Spanish Telefónica Movistar GSM SIM card
 
@@ -1217,6 +1220,8 @@
 	KBC Ireland Mastercard Debit (Bank)
 	ING Direct MasterCard (Bank)
 	https://www.ingdirect.es/
+	bancopopular-e (Spain) (Mastercard) credit card (Bank)
+	https://www2.bancopopular-e.com
 
 3B 65 00 00 20 63 CB AD 80
 	Santander Debit Card (Bank)
@@ -1892,10 +1897,16 @@
 3B 6B 00 00 00 31 C0 64 08 44 03 12 0F 90 00
 	Debit Card/MasterCard shipped by electronic Bank N26 (Number26) (Bank)
 	https://n26.com/de-de/
+	BBVA (Spain) (MasterCard) debit card (Bank)
+	https://www.bbva.es/eng/productos/ficha/tarjeta-ahora-bbva/0000009719
 
 3B 6B 00 00 00 31 C0 64 08 44 03 76 07 90 00
 	Blu American Express Credit Card (Bank)
 	https://www.americanexpress.com/it/content/carta-blu/
+
+3B 6B 00 00 00 31 C0 64 08 44 03 76 0F 90 00
+	Maestro debit card, issued by Caixa Geral de Depósitos (Bank)
+	https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartao-Debito-Cauxautomatica-Maestro.aspx
 
 3B 6B 00 00 00 31 C0 64 13 14 02 00 0F 90 00
 	UBA Card PREPAID (Bank)
@@ -2105,6 +2116,8 @@
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 41 38 00 90 00
 	German comdirect bank - Visa Credit, prepaid (Bank)
+	imaginBank (Spain) (VISA Electron) debit card (Bank)
+	https://www.imaginbank.com/preguntasfrecuentes/tarjeta_en.html
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 42 34 00 90 00
 	Visa Electron Debit Card (Bank)
@@ -2296,6 +2309,9 @@
 
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 22
 	Visa debit card
+
+3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 25
+	BBK (Spain) (VISA,  Euro 6000) credit card (Bank)
 
 3B 6E 00 00 00 31 C0 65 D3 C1 02 01 28 71 D6 8C 61 33
 	SberBank Silver Debit Card
@@ -2566,6 +2582,8 @@
 	VISA Infinite issued by RBC Royal Bank (Canada)
 	http://www.rbc.com/
 	Postepay Evolution - Poste Italiane (mastercard)
+	"la Caixa" (Spain) (VISA Electron) debit card (Bank)
+	https://www.lacaixa.es/
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -2609,6 +2627,10 @@
 
 3B 6F 00 00 00 31 C0 68 43 53 50 45 4D 56 03 00 07 90 00
 	SOCCARDRT (HealthCare)
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 31 00 90 00
+	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
+	https://www.bbva.es/eng/productos/ficha/tarjeta-antes-bbva/0T00000225
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00
 	Carta HYPE MasterCard (Italy) (Bank)
@@ -3113,6 +3135,10 @@
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 A4 6D 02 82 90 00
+	Navigo découverte Paris (Transport)
+	http://www.navigo.fr/titres/le-forfait-navigo-semaine-presentation/
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
@@ -3671,6 +3697,8 @@
 
 3B 7E 13 00 00 00 31 C0 71 C6 65 01 B0 01 04 40 83 90 00
 	BahnCard / Commerzbank MasterCard Credit Card
+	Bank Pekao SA (Poland) (Maestro) debit card (Bank)
+	https://www.pekao.com.pl/
 
 3B 7E 13 00 00 00 31 C0 71 C6 65 01 B4 01 04 40 83 90 00
 	Portugal Millennium BCP MAESTRO debit Card
@@ -3788,6 +3816,10 @@
 3B 7F 13 00 00 80 31 C0 52 08 4B 64 05 66 94 61 83 83 90 00
 	Visa Electron Card from a Spanish bank called "Caja de Ingenieros"
 
+3B 7F 13 00 00 80 31 C0 52 08 80 64 05 66 99 36 83 83 90 00
+	"la Caixa" (Spain) (VISA Electron) debit card (Bank)
+	https://www.lacaixa.es/
+
 3B 7F 13 00 00 80 31 C0 52 09 AA 64 05 66 99 36 83 83 90 00
 	Advantis 8k (Bank)
 
@@ -3822,6 +3854,9 @@
 3B 7F 13 00 00 80 31 C0 52 10 49 64 02 B3 02 70 83 83 90 00
 	Bank of Brazil (Bank)
 	http://www.bb.com.br/pbb/pagina-inicial
+
+3B 7F 13 00 00 80 31 C0 52 10 A4 64 02 B3 02 70 83 83 90 00
+	EMV Smartcard Reader (Other)
 
 3B 7F 13 00 00 80 31 C0 52 11 2F 64 05 69 93 70 83 83 90 00
 	Banco do Brasil (Bank)
@@ -3922,6 +3957,9 @@
 3B 7F 13 00 00 80 31 C0 52 20 DD 64 05 62 17 80 83 83 90 00
 	VISA ELECTRON debit card (Bank)
 	https://en.wikipedia.org/wiki/Visa_Electron
+
+3B 7F 13 00 00 80 31 C0 52 25 AD 64 05 62 34 70 83 83 90 00
+	Citi Bank (Spain) (VISA Electron) debit card (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 26 DE 64 05 62 34 70 83 83 90 00
 	debit card (Bank)
@@ -4368,6 +4406,9 @@
 3B 87 80 01 80 31 80 73 96 12 80 40
 	Public transport: VRS Verkehrsverbund Rhein-Sieg (Germany, North_Rhine-Westphalia)
 	http://www.vrsinfo.de/englisch/the-vrs/vrs-about-us.html
+
+3B 87 80 01 80 31 98 73 84 01 E0 39
+	Austrian Passport
 
 3B 87 80 01 80 31 B8 73 84 01 E0 19
 	Personalausweis (German Identity Card) (eID)
@@ -5150,6 +5191,10 @@
 3B 8E 80 01 53 43 45 36 30 2D 43 44 30 38 31 2D 6E 46 4A
 	SmartCafe Expert 6.0 80K Dual (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
+
+3B 8E 80 01 80 31 80 65 49 54 4E 58 50 12 0F FF FF FF E2
+	Italian identity card, 2nd version (eID)
+	https://www.cartaidentita.interno.gov.it/
 
 3B 8E 80 01 80 31 80 66 40 90 89 12 08 02 83 01 90 00 0B
 	ISO 14443B Type T = CL Infineon Card
@@ -7175,6 +7220,8 @@
 	Giesecke & Devrient Starcos 2.3
 	Deutsche Bank WebSign (RSA-Card)
 	G&D StarSign Token
+	Osakidetza ONA (eID)
+	http://www.osakidetza.euskadi.eus/r85-ckserv01/es/contenidos/nota_prensa/ruedasanidad35/es_rs/ruedasanidad35_c.html
 
 3B B8 13 00 81 31 20 5D 00 57 69 6E 43 61 72 64 02
 	SmartCard for Windows 1.1
@@ -9258,6 +9305,8 @@
 
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 21 01 43 4E 53 10 31 80 4A
 	Oberthur ID-One Cosmo V7-n it's a java card 2.2.2
+	Izenpe Certificado Ciudadano (eID)
+	https://www.izenpe.eus/informacion/certificado-ciudadano/s15-content/es/
 
 3B FF 18 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 DD
 	DataKey 400 (DK400)
