@@ -1069,6 +1069,9 @@
 3B 5E 11 FF 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.0 2006 warm)
 
+3B 5F 11 00 80 73 00 01 00 59 43 4C 5A 1B 03 11 40 90 00
+	Player Plus Cash Card issue of French Partouche Casino (Other)
+
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A 1B 00 11 40 90 00
 	SCM Chipdrive MyKey SC
 
@@ -2928,6 +2931,10 @@
 	Rav-Kav Public Transport (Transport)
 	https://ravkavonline.co.il/he/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 96 7A 29 82 90 00
+	Rav-Kav transport card for Israel Ministry of Transport (Transport)
+	https://en.wikipedia.org/wiki/Rav-Kav
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 97 DB 3D 82 90 00
 	Israeli Ravkav card (Transport)
 	https://ravkavonline.co.il/
@@ -2954,6 +2961,10 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 02 60 FB 72 82 90 00
 	RAV KAV - Israel's  Ministry of Transport public transport smart card (Transport)
 	http://www.rail.co.il/EN/Tickets/Rav-Kav/Pages/default.aspx
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 02 7A F6 DE 82 90 00
+	Rav-Kav Israel (Transport)
+	https://ravkavonline.co.il/he/
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 17 11 06 82 90 00
 	Israeli Transport Card Rav-Kav (Transport)
@@ -3132,6 +3143,10 @@
 
 3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 35 ED CE 82 90 00
 	Lisbon Transportation SmartCard (Transport)
+
+3B 6F 00 00 80 5A 3B 07 06 15 01 01 79 3E 79 7B 82 90 00
+	Rav Kav (Transport)
+	http://alhakav.mot.gov.il/he/rav-kav
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
@@ -4950,6 +4965,10 @@
 	Navigo Card (Transport)
 	http://www.navigo.fr/
 
+3B 8C 80 01 50 27 04 00 24 00 00 00 00 00 71 81 AA
+	Navigo pass (Transport)
+	http://www.navigo.fr/
+
 3B 8C 80 01 50 27 22 ED 0D 00 00 00 00 00 71 81 48
 	Navigo (France) transport card (Transport)
 
@@ -5247,6 +5266,10 @@
 
 3B 8F 01 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 B7
 	SafeNet IKey4000
+
+3B 8F 80 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E
+	Tangem card (Other)
+	https://tangem.com/
 
 3B 8F 80 01 00 00 00 00 00 00 00 00 00 00 00 FF 82 90 00 E3
 	CIE (eID)
@@ -5740,6 +5763,9 @@
 
 3B 97 94 80 3F 44 90 80 31 A0 73 BE 21 00 95
 	Comprion Simulated card that indicate Low Impedance support: TB(3) = 0x90 (Telecommunication)
+
+3B 97 95 80 1F 47 80 31 E0 73 FE 21 1B 3C
+	iFree MOGO SIM Card  for test  (Telecommunication)
 
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2010-2015
@@ -6761,6 +6787,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 24 00 67 01 00 9A
 	Mediamarkt Mobil SIM card (Austria) (Telecommunication)
 	http://mobil.mediamarkt.at
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 00 89 01 02 28
+	TMobile Prepaid USIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
@@ -7811,6 +7840,10 @@
 
 3B DC 18 FF 80 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 39
 	Digital Signature Costa Rica (eID)
+
+3B DC 18 FF 80 91 FE 1F C3 80 73 C8 21 13 66 02 04 03 55 00 02 35
+	ST security module for German smart meter gateway (JavaCard)
+	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03109/TR-03109-2-Anforderungen_an_die_Funktionalitaet.pdf?__blob=publicationFile&v=3
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 06 01 30 04 01 55
 	Athena IDProtect Key Laser
@@ -9695,6 +9728,9 @@
 
 3B FF 95 00 FF C0 0A 1F 47 80 31 E0 73 F6 21 13 57 4A 33 20 0B 31 41 41 D5
 	Telenor SIM card (Norway)
+
+3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 02 6C 82 90 00 F9
+	Authorization Card (eID)
 
 3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 67
 	Greek Academic ID (eID)
