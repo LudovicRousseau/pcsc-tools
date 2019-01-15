@@ -292,6 +292,9 @@
 3B 10 14 50
 	HSID6000 (PKI)
 
+3B 11 95 80
+	NXP J3H145 (JavaCard)
+
 3B 12 95 36 06
 	EMTG56 0.6 (sub-version 0.1)
 
@@ -952,6 +955,9 @@
 	Globe Telecom (Telecommunication)
 	http://www.globe.com.ph
 
+3B 3D 94 00 35 06 01 44 00 03 86 60 8D 58 8A E2 07
+	OAUSim (Telecommunication)
+
 3B 3D 94 00 44 4D 54 11 00 06 06 17 62 11 00 30 00
 	China Unicom SIM card
 
@@ -1600,6 +1606,9 @@
 3B 68 00 00 01 05 21 96 00 00 90 00
 	PayPal Access (Bank)
 	https://www.paypal.com/uk/webapps/mpp/accesscard
+
+3B 68 00 00 01 05 30 96 00 00 90 00
+	MasterCard issued by mbna (Bank)
 
 3B 68 00 00 4D 43 43 43 4C 32 2E 31
 	Mastercard debit card from FIO bank, CZ (Bank)
@@ -3072,6 +3081,10 @@
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 D9 9C 6F 82 90 00
 	KorriGo (Brittany) transport card (Transport)
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 F8 0B C3 82 90 00
+	Korrigo Card (Transport in Rennes Area in France ) (Transport)
+	https://www.star.fr/titres-tarifs/carte-korrigo/
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
@@ -5691,6 +5704,10 @@
 3B 95 .. 40 FF 62 01 01 .. ..
 	Schlumberger Cryptoflex e-gate
 
+3B 95 13 81 01 80 73 FF 01 00 0B
+	vsmartcard - iso7816 (Other)
+	https://frankmorgner.github.io/vsmartcard/
+
 3B 95 15 40 .. 68 01 02 .. ..
 	Schlumberger CryptoFlex 8k v2
 
@@ -7021,6 +7038,9 @@
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
 
+3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1F 64 41 26 91 00 82 90 00 B3
+	LTE Lab SIM Ver 1.3 (Telecommunication)
+
 3B 9F 96 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9A
 	Scientific and Technological Research Council of Turkey (test card) (eID)
 
@@ -7085,6 +7105,9 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
+
+3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E E3 81 0F DE
+	EE (UK) Mobile Phone SIM Card circa 2016 (Telecommunication)
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0F 13 81 0F 2F
 	Phone card sim  (Telecommunication)
@@ -7649,6 +7672,9 @@
 3B D6 18 00 81 B1 80 7D 1F 03 80 51 00 61 10 30 8F
 	ASECard Crypto
 	http://www.athena-scs.com/product.asp?pid=8
+
+3B D6 96 00 81 B1 FE 45 1F 87 80 31 C1 52 21 19 49
+	DHS CAC card (PKI)
 
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F9
 	NASA Personal Identity Verification (PIV) card (eID)
@@ -8783,6 +8809,10 @@
 	Yubico Yubikey NEO OTP+U2F+CCID (PKI)
 	https://www.yubico.com/products/yubikey-hardware/yubikey-neo/
 
+3B F9 18 00 FF 81 31 FE 45 50 56 5F 4A 33 41 30 38 31 4D
+	NXP JCOP J3A081 (JavaCard)
+	https://secure.smartcardsource.com/j3a081m.html
+
 3B F9 91 00 FF 91 81 71 40 40 00 41 80 04 5B 89 BA B3 52 80 3A
 	mifare desfire 2k (eID)
 
@@ -9311,6 +9341,10 @@
 3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 03 02 39
 	SafeNet SC650 v3.2 (PKI)
 	http://www.safenetat.com/products-solutions/high-assurance-authentication/sc650/
+
+3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 04 00 3C
+	SafeNet AT SC650 V4.0 02/2018 (PKI)
+	https://www.safenetat.com/Solutions/Enterprise-Security/high-assurance-authentication/sc650/
 
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
@@ -9915,6 +9949,9 @@
 3F 6A 00 00 00 64 01 50 01 0C 82 01 01 A9
 	Credit Card café Selecta
 
+3F 6B 15 00 02 A0 07 90 6F 4D 59 00 0C 90 00
+	Sky Viewing Card (Gen 1) from 1990s (Pay TV)
+
 3F 6C 00 00 24 A0 30 00 FF 00 00 01 00 04 90 00
 	Gemplus MCOS 16K DES Sample Card
 
@@ -9991,6 +10028,9 @@
 3F 7D 11 25 02 41 B0 03 69 FF 4A 50 F0 80 00 56 54 03
 	Viasat Baltics Videoguard card (Pay TV)
 
+3F 7E 11 25 05 21 B0 12 00 00 4D 59 00 00 00 53 4B 09 00
+	Sky Viewing Card (Gen 9) (Pay TV)
+
 3F 7E 11 25 05 40 B0 08 00 00 4D 59 00 00 00 53 4B 0B 07
 	BSkyB Series 11 (DSS satellite TV card)
 
@@ -10035,6 +10075,12 @@
 
 3F EF 00 FF 81 31 .. 45 65 63
 	Debit card (Germany): ec-cash, GeldKarte(DEM), Maestro, Cirrus
+
+3F FA 11 25 04 00 01 B0 02 00 00 4D 59 00 81 80
+	Sky Viewing Card (Gen 1) from 1990s (Pay TV)
+
+3F FA 11 25 05 00 01 B0 02 3B 40 4D 59 00 81 80
+	Sky Viewing Card (Gen 7) (Pay TV)
 
 3F FD 11 25 02 50 00 03 33 B0 15 69 FF 4A 50 F0 80 03 4B 4C 03
 	Kabel Deutschland G02  (Pay TV)
