@@ -152,6 +152,8 @@
 	Bahn BKK (Deutsche Bahn AG - Insurance Company)
 	NH Hotels World fidelization card
 	Miele Professional card for paying washing machine
+	SLE5542 Memory Card (Other)
+	https://www.acs.com.hk/download-manual/6009/TDS_SLE5542.pdf
 
 3B 04 C9 D0 F1 40
 	Cuban prepaid phone card provided by ETECSA
@@ -743,6 +745,10 @@
 	MPCOS-EMV 64K Functional Sample
 	THALES nShield Security World
 	THALES NCIPHER product line
+
+3B 2B 00 00 64 05 3E 02 0F 31 80 0E 90 00
+	Health Insurance Institute of Slovenia personal card (HealthCare)
+	http://www.zzzs.si/zzzs/internet/zzzs.nsf/o/B8F997CE9D45E99AC1256E8B003B46B0
 
 3B 2B 00 00 64 0E 3E 02 F0 31 80 0E 90 00
 	HPC card
@@ -4232,6 +4238,10 @@
 3B 83 00 43 56 10
 	Comviq 2G SIM
 
+3B 83 80 01 41 01 26 64
+	ACOS3 Multi-Application Contactless Card (Other)
+	https://www.acs.com.hk/en/products/316/acos3-microprocessor-card-contactless/
+
 3B 83 80 01 81 02 80 01
 	Mifare DESFire EV1 2K (Other)
 
@@ -5080,6 +5090,9 @@
 	Chicago CTA Ventra Transit card (Transport)
 	https://www.ventrachicago.com/
 
+3B 8C 80 01 50 DF 4C 85 2C 00 00 00 00 00 81 77 91
+	SNS Bank Netherlands (Bank)
+
 3B 8C 80 01 50 E2 F8 28 2E 00 00 00 00 00 81 87 47
 	ING Maestro Debit Card (Bank)
 	https://www.ing.nl/particulier/index.html
@@ -5171,6 +5184,9 @@
 3B 8D 80 01 49 46 58 2D 6A 63 33 30 31 67 70 32 32 5A
 	Degussa Bank Corporate MasterCard (Bank)
 	https://firmenkarten.degussa-bank.de/
+
+3B 8D 80 01 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 48
+	cipurse (Other)
 
 3B 8D 80 01 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 3F
 	G&D SmartCafe Expert 3.2 80K Dual
@@ -5933,6 +5949,10 @@
 3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
+
+3B 9C 95 80 1F C7 80 31 E0 73 FE 21 1B 64 57 44 49 46 CF
+	MTC (Moscow) phone SIM card (Telecommunication)
+	https://moskva.mts.ru/personal
 
 3B 9C 95 80 81 1F 03 90 67 46 4A 01 01 17 06 F2 72 7E 00 00
 	A40CR (JavaCard)
@@ -6759,6 +6779,9 @@
 	Taiwan Star Telecom Corporation Limited (Telecommunication)
 	https://www.tstartel.com/CWS/
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 25 51 00 82 90 00 F5
+	R&S CMW-Z06 Multi Test SIM (Telecommunication)
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 34 61 00 82 90 00 D4
 	Ting X1 GSM SIM Card (4G, T-Mobile network) (Telecommunication)
 	https://ting.com/shop/gsmSIM
@@ -7421,6 +7444,8 @@
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 01 90 00
 	ACS (Advanced Card System) ACOS-1
+	ACOS3
+	https://www.acs.com.hk/en/products/306/acos3-microprocessor-card-contact/
 
 3B BE 11 00 00 41 01 38 00 00 00 00 00 00 00 00 02 90 00
 	ACS (Advanced Card System) ACOS-1 8K
@@ -7487,6 +7512,10 @@
 3B BE 95 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	touchatag SAM card
 	Spanish University of Murcia smart ID card - Old version with CajaMurcia Banking card integrated (Maestro card) (M.Mar OS) - Also used by many others spanish universities
+	ACOS6 C6
+	https://www.acs.com.hk/en/products/309/acos6-multi-application-purse-card-contact/
+	ACOS6S C7 SAM
+	https://www.acs.com.hk/en/products/310/acos6-sam-secure-access-module-card-contact/
 
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
@@ -8581,6 +8610,12 @@
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 00 81 86
 	American Express Blue RFID
 
+3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 00 D1 D6
+	Japanese Public Key Infrastructure (PKI)
+	https://www.jpki.go.jp/
+	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
+	https://www.cao.go.jp/bangouseido/
+
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 77 D1 A1
 	German Passport (ePass) (issued May 2008)
 
@@ -9097,6 +9132,10 @@
 	Yubico YubiKey 5 NFC (PKI)
 	https://www.yubico.com/product/yubikey-5-nfc
 
+3B FD 13 00 00 81 31 FE 45 41 37 30 30 35 43 47 20 32 34 32 52 31 D5
+	Feitian ePass FIDO NFC (Other)
+	https://www.ftsafe.com/Products/FIDO/NFC
+
 3B FD 13 00 00 81 31 FE 45 41 37 30 30 36 43 47 20 32 34 32 52 31 D6
 	YubiKey NEO (token)
 
@@ -9115,6 +9154,10 @@
 
 3B FD 18 00 00 81 31 FE 45 53 43 45 36 30 2D 43 43 30 38 31 2D 46 C2
 	Giesecke & Devrient StarSign USB Token
+
+3B FD 18 00 00 81 31 FE 45 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 AA
+	The National Health Insurance Card issued by the National Health Insurance Administration Ministy of Health and Welfare in Taiwan (HealthCare)
+	https://www.nhi.gov.tw/English/Content_List.aspx?n=320832076C00692B&topn=BCB2B0D2433F6491
 
 3B FD 18 00 00 81 31 FE 45 80 31 80 65 40 90 7B 01 51 83 07 90 00 55
 	Croatian Health Care card
@@ -9842,6 +9885,10 @@
 
 3F 2F 00 80 69 AF 03 07 03 5A 00 15 0A 0E 83 3E 9F 16
 	Virgin Mobile SIM (Gemplus)
+
+3F 36 11 00 53 49 5B 01 51 53
+	Sodexo Pass Lunch Card. An employee benefits card to provide meal tickets to workers. (Other)
+	https://www.sodexo-benefits.it/prodotto/aziende/pausa-pranzo-aziende/pass-lunch-card/#tabsoluzioni
 
 3F 3D 11 00 80 67 28 50 04 02 20 00 00 83 8E 90 00
 	GSM SIM card of the Austrian provider A1
