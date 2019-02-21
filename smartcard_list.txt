@@ -1627,6 +1627,10 @@
 	Mastercard debit card from FIO bank, CZ (Bank)
 	https://www.fio.cz/bankovni-sluzby/platebni-karty/mastercard-debit-contactless
 
+3B 68 00 00 53 43 06 60 01 0F 90 00
+	Credit Card Credicard (Bank)
+	http://www.credicard.com.br
+
 3B 68 00 00 54 48 20 4E 49 44 20 36
 	Thai id card (Other)
 
@@ -2008,6 +2012,10 @@
 3B 6B 00 00 80 65 B0 83 01 04 74 83 00 90 00
 	Gemplus GXP3 64V2N
 	U.S. Department of Defense Common Access Card (DoD CAC)
+
+3B 6B 00 00 81 00 72 26 01 00 10 00 0F 90 00
+	Debit card issued by Falabella Bank of Peru from IDEMIA (Bank)
+	http://www.bancofalabella.pe
 
 3B 6B 00 00 81 00 72 26 02 00 40 00 0F 90 00
 	Yuna To Go prepaid MasterCard (PaySafeCard) (Bank)
@@ -2656,6 +2664,9 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 31 00 90 00
 	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
 	https://www.bbva.es/eng/productos/ficha/tarjeta-antes-bbva/0T00000225
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00
+	VISA card, issued by OP Financial Group, Finland (Bank)
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00
 	Carta HYPE MasterCard (Italy) (Bank)
@@ -3391,6 +3402,10 @@
 3B 78 96 00 00 00 73 C8 40 00 00 90 00
 	SAM card for acquirer module by lanit.ru (Bank)
 
+3B 78 96 00 00 53 43 06 60 01 07 90 00
+	Bank of America Travel Rewards Credit Card (Bank)
+	https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/
+
 3B 79 11 00 00 80 54 43 4F 4C 44 82 90 00
 	amazon.de / VISA / LBB Debit Card (Bank)
 
@@ -3754,6 +3769,10 @@
 
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
+
+3B 7E 94 00 00 80 25 02 03 10 01 00 56 00 00 00 01 01 00
+	Czech citizen ID card (eID)
+	https://portal.gov.cz/eobcanka
 
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 08 00 01 14
 	MůjKlíč smart card with a certificate for Direct Banking (PKI)
@@ -4254,6 +4273,10 @@
 	Comviq 2G SIM
 
 3B 83 80 01 41 01 26 64
+	ACOS3 Multi-Application Contactless Card (Other)
+	https://www.acs.com.hk/en/products/316/acos3-microprocessor-card-contactless/
+
+3B 83 80 01 41 07 05 41
 	ACOS3 Multi-Application Contactless Card (Other)
 	https://www.acs.com.hk/en/products/316/acos3-microprocessor-card-contactless/
 
@@ -4867,6 +4890,10 @@
 3B 8A 80 01 4A 43 4F 50 34 31 56 32 32 31 7F
 	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NXP JCOP 41 v2.2.1 72k RFID I/F
+
+3B 8A 80 01 53 4F 53 53 45 02 03 25 01 03 74
+	Super SIM X-SIM 16-in-1 (Telecommunication)
+	https://multi-com.eu/,details,id_pr,14881,key,super-sim-16-in-1-card,smenu,gsm.html
 
 3B 8A 80 01 80 31 B8 73 84 01 E0 82 90 00 06
 	German ID Card - Personalausweis
@@ -6210,6 +6237,9 @@
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F EF 10 00 60
 	Infineon SLU14MCO480K2 (JavaCard)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 13 62 00 49 83 81 90 00 07
+	Claro Brazil SIM card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 28 24 01 00 0D
 	United Mobile SIM
 
@@ -6523,6 +6553,9 @@
 3B 9F 95 80 1F 47 80 31 E0 73 36 21 13 57 4A 33 0E 11 31 41 00 B5
 	Telus 3G SIM Card
 
+3B 9F 95 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 05 2B 32 34 00 3A
+	Finnish DNA SIM-card (Telecommunication)
+
 3B 9F 95 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 05 2C 32 34 00 3D
 	GSM SIM / LTE UICC card issued by TELE2, Lithuania (Telecommunication)
 
@@ -6686,6 +6719,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 12 01 00 82 90 00 90
 	MTS SIM card (Russia) (Telecommunication)
 	http://www.mts.ru/
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 32 31 00 82 90 00 80
+	Telefonica | Vivo Brazil M2M SIM Card (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
@@ -7153,6 +7189,9 @@
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
 	Verizon "4G LTE" USIM (Telecommunication)
 
+3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0F 50 81 0F 6D
+	5G (Telecommunication)
+
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 01 90 0F 3B 81 0F E6
 	Verizon US USIM card (Telecommunication)
 
@@ -7508,6 +7547,9 @@
 3B BE 11 00 00 41 01 38 04 00 14 00 00 00 00 00 02 90 00
 	DEKART proprietary logon authentication solution for Windows (Other)
 	http://www.dekart.com/products/
+
+3B BE 11 00 00 41 01 38 05 00 07 00 00 00 00 00 02 90 00
+	EEPROM card (Other)
 
 3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
 	8 pin (eID)
