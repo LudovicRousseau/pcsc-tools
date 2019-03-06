@@ -1073,6 +1073,9 @@
 3B 4F 00 41 54 38 38 53 43 31 30 32 20 20 20 20 FF FF
 	siral smartcard (JavaCard)
 
+3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D
+	VISA (Bank)
+
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
 
@@ -2713,6 +2716,10 @@
 	VIABUY Credit card (Bank)
 	http://www.viabuy.de
 
+3B 6F 00 00 00 B8 54 31 10 07 90 00 00 00 00 00 00 00 00
+	Revolut Premium Mastercard (Bank)
+	https://www.revolut.com/revolut-premium
+
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
 	http://blucard.blutronics.com
@@ -3003,6 +3010,10 @@
 	Rav-Kav Israel (Transport)
 	https://ravkavonline.co.il/he/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 02 7C 3C 4C 82 90 00
+	Israeli Railraod Ravkav  (Transport)
+	https://www.rail.co.il/en/ravkav
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 17 11 06 82 90 00
 	Israeli Transport Card Rav-Kav (Transport)
 	http://www.citypass.co.il/english/ContentPage.aspx?ID=9
@@ -3010,6 +3021,10 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 1B 89 9B 82 90 00
 	Israeli public transport "RavKav" card (ASK variant) (Transport)
 	http://www.dannorth.co.il/
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 1C 11 2A 82 90 00
+	Peronalized RavKav (Transport)
+	https://ravkavonline.co.il/he/
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 28 84 44 82 90 00
 	rav-kav (Transport)
@@ -5129,6 +5144,9 @@
 3B 8C 80 01 50 C0 E4 50 CA 00 00 00 00 91 71 71 72
 	Transportation card for Lille (France) (Transport)
 
+3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
+	isodep, NfcB (Transport)
+
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
 
@@ -5696,6 +5714,9 @@
 	HID Proximity. Used to access buildings. Reference on the card "HID0008P".
 	http://www.hidglobal.com/product-display/cards-and-credentials/hid-proximity
 
+3B 8F 80 01 80 4F 0C A0 00 1A 00 00 00 00 78
+	iclass 16k cl (eID)
+
 3B 8F 80 01 80 5A 08 03 03 00 00 00 01 52 43 21 82 90 00 FF
 	Carte Mode Pass (Used in Clermont-Ferrand, France, to store personal
 	information and T2C subscription. T2C is the public transport
@@ -5747,6 +5768,10 @@
 
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
+
+3B 90 18 01 89
+	IIT E.Key Almaz-1C 00 00 (Other)
+	https://iit.com.ua/
 
 3B 90 95 80 11 FE 6A
 	JC30M48CR JavaCard  (JavaCard)
@@ -8100,6 +8125,9 @@
 3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 3B
 	NXP SAM AV2 module
 
+3B DF 18 FF 81 F1 FE 43 00 3F 03 83 4D 49 46 50 6C 75 73 20 53 41 4D 3B 53 41 4D 3B
+	Mifare SAM -AV2 (PKI)
+
 3B DF 94 FF C0 80 B1 FE 45 1F 03 00 6A D2 76 00 00 28 04 15 FA 10 04 00 90 00 6B
 	UK Digital Tacho card (Other)
 
@@ -9330,6 +9358,9 @@
 	Smartcard-HSM
 	http://www.cardcontact.de/products/sc-hsm.html
 
+3B FE 18 00 FF 81 31 FE 45 4A 32 31 02 41 03 47 90 49 54 43 56 00 80 44
+	Brazilian Army ID Card (eID)
+
 3B FE 18 00 FF 81 31 FE 45 63 68 61 6E 67 69 6E 67 74 65 63 4A 33 44 5E
 	xgames pki (eID)
 
@@ -9900,6 +9931,10 @@
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 56 51 10 12 01 78 82 90 00 6A
 	SafeNet eToken 5300 (PKI)
+
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00 D0
+	Portuguese National Identity Card (eID) (eID)
+	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
 
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
