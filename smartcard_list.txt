@@ -1073,6 +1073,9 @@
 3B 4F 00 41 54 38 38 53 43 31 30 32 20 20 20 20 FF FF
 	siral smartcard (JavaCard)
 
+3B 4F 00 53 6C 65 34 34 32 2D 34 34 3D A2 13 10 91
+	Debit card  (Bank)
+
 3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D
 	VISA (Bank)
 
@@ -1926,6 +1929,10 @@
 3B 6B 00 00 00 31 C0 64 08 17 71 00 07 90 00
 	MasterCard Debit Card for Macquarie Bank, Australia (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 44 03 04 0F 90 00
+	VISA debit card (ActivoBank, Portugal) (Bank)
+	https://www.activobank.pt
+
 3B 6B 00 00 00 31 C0 64 08 44 03 12 0F 90 00
 	Debit Card/MasterCard shipped by electronic Bank N26 (Number26) (Bank)
 	https://n26.com/de-de/
@@ -1962,6 +1969,10 @@
 
 3B 6B 00 00 00 31 C0 64 3F 68 01 03 0F 90 00
 	HSBC Credit Gold Card  from VISA (Bank)
+
+3B 6B 00 00 00 31 C0 64 3F 68 01 04 0F 90 00
+	VISA credit card (ActivoBank, Portugal) (Bank)
+	https://www.activobank.pt
 
 3B 6B 00 00 00 31 C0 64 3F 68 01 0B 0F 90 00
 	MasterCard credit card (Bank)
@@ -2949,6 +2960,10 @@
 	OPUS, rechargeable contactless stored value smart card using the Calypso Standard and used by most of the public transit operators in the province of Quebec, Canada. (Transport)
 	http://carteopus.info/
 
+3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 34 D5 D3 82 90 00
+	Montreal Transport Board (STM) - Opus CARD (Transport)
+	http://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
+
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 39 E8 2B 82 90 00
 	OPUS is a rechargeable contactless stored value smart card using the Calypso Standard and is used by major public transit operators in Greater Montreal and Quebec City, Quebec, Canada. (Transport)
 	http://carteopus.info/?language=en
@@ -3201,6 +3216,10 @@
 	MOBIB - TEC (Transport)
 	https://www.infotec.be/fr-be/acheteruntitre/mobib.aspx
 
+3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 2B B4 A4 82 90 00
+	Lisboa Viva, Lisbon public transport card (Transport)
+	https://www.portalviva.pt/
+
 3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 35 ED CE 82 90 00
 	Lisbon Transportation SmartCard (Transport)
 
@@ -3318,6 +3337,9 @@
 
 3B 75 13 00 00 45 09 EA 90 00
 	Carte Vitale 2 (French health card)
+
+3B 75 13 00 00 45 09 FA 90 00
+	Carte VItate (HealthCare)
 
 3B 75 13 00 00 46 09 EA 90 00
 	Health Care card
@@ -5377,6 +5399,10 @@
 	netbank Germany, Mastercard (Bank)
 	https://netbank.de
 
+3B 8F 80 01 00 B8 54 31 00 00 90 00 00 00 00 00 00 00 00 43
+	Monzo MasterCard Contactless (Bank)
+	https://monzo.com/
+
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 FF FF FF BD
 	DKB Visa Credit Card (Bank)
 	https://www.dkb.de
@@ -6397,6 +6423,10 @@
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
+
+3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
+	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
+	https://www.tracfone.com
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
@@ -8075,6 +8105,10 @@
 3B DE 11 00 00 49 43 4F 53 35 33 00 00 00 00 00 00 00 08
 	MyKID (eID)
 
+3B DE 18 FF 81 91 FE 1F C3 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 1C
+	SmartCard-HSM 4K USB-Token (JavaCard)
+	https://www.smartcard-hsm.com/features.html#usbstick
+
 3B DE 18 FF 81 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 D2
 	Mifare Desfire SAM Module
 
@@ -8144,6 +8178,9 @@
 3B DF 95 00 80 1F C3 80 31 E0 73 FE 21 1B 67 4C 45 54 41 32 31 35 BD
 	SK Telecom SIM card (in Korea) (Telecommunication)
 	http://www.sktelecom.co.kr/
+
+3B DF 95 FF 80 91 FE 1F C3 49 44 50 44 55 4F 33 47 50 49 54 43 56 00 80 29
+	Generic Card NFC (eID)
 
 3B DF 95 FF 80 91 FE 1F C3 80 25 A0 00 00 00 68 53 19 00 01 73 C8 21 13 29
 	CardLogix Credensys-J Contacted Java Card 2.2.1 Global Platform 2.1.1 (Atmel AT90SC12872RCFT)
@@ -8604,6 +8641,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0D 16 3A 37 20 6A
 	BankCard Sparda-Bank West eG (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 03 4A 36 37 10 03
+	German Sparkasse, Girocard, GeldCard, girogo, EUROSERV (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 30 2F 37 10 65
 	MasterCard German Sparkasse (Bank)
