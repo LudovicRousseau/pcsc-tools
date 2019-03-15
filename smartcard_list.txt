@@ -5172,6 +5172,9 @@
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
 
+3B 8C 80 01 50 D5 40 4F 23 1C 00 00 11 77 81 85 DA
+	CEPAS Card (Concession card issued by Land Transport Authority Singapore) (Transport)
+
 3B 8C 80 01 50 D9 4E 7D 00 00 00 00 00 00 81 80 B6
 	Chicago CTA Ventra Transit card (Transport)
 	https://www.ventrachicago.com/
