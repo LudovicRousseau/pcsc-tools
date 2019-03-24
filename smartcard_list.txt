@@ -1076,7 +1076,7 @@
 3B 4F 00 53 6C 65 34 34 32 2D 34 34 3D A2 13 10 91
 	Debit card  (Bank)
 
-3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D
+3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D A2 13 10 91
 	VISA (Bank)
 
 3B 57 18 02 93 02 01 01 01 90 00
@@ -4668,6 +4668,10 @@
 3B 88 80 01 11 00 00 11 77 81 83 00 7C
 	Passport of citizen of Ukraine, Passport of citizen of Ukraine for traveling abroad (passport)
 
+3B 88 80 01 11 22 33 44 80 81 71 00 3D
+	FIME Card Emulator (Other)
+	https://www.fime.com/products/terminal-integration/savvi.html
+
 3B 88 80 01 1C 2D 94 11 F7 71 85 00 BE
 	CEPAS Card (Adult card issued by EZ-Link) (Transport)
 
@@ -5172,6 +5176,9 @@
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
 
+3B 8C 80 01 50 D5 40 4F 23 1C 00 00 11 77 81 85 DA
+	CEPAS Card (Concession card issued by Land Transport Authority Singapore) (Transport)
+
 3B 8C 80 01 50 D9 4E 7D 00 00 00 00 00 00 81 80 B6
 	Chicago CTA Ventra Transit card (Transport)
 	https://www.ventrachicago.com/
@@ -5199,6 +5206,10 @@
 
 3B 8C 80 01 50 FF FF FF FF FF FF FF 22 00 10 51 C1
 	Printer ribbon tag (Other)
+
+3B 8C 80 01 50 FF FF FF FF FF FF FF 33 00 10 51 D0
+	Atmel AT88SC0808CRF CryptoRF® EEPROM Memory (Other)
+	http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en590154
 
 3B 8C 80 01 59 75 62 69 6B 65 79 4E 45 4F 72 33 58
 	Yubikey Neo
@@ -5402,6 +5413,10 @@
 3B 8F 80 01 00 B8 54 31 00 00 90 00 00 00 00 00 00 00 00 43
 	Monzo MasterCard Contactless (Bank)
 	https://monzo.com/
+
+3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 5B
+	DKB-VISA-Card (Bank)
+	https://produkte.dkb.de/?&page=girokonto#kreditkarte
 
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 FF FF FF BD
 	DKB Visa Credit Card (Bank)
@@ -6224,6 +6239,10 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 14 11 00 A6
 	Globe (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 72 10 00 C1
+	Vodafone Hungary SIM Card (Telecommunication)
+	http://vodafone.hu
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 B8 10 00 0B
 	abc mobile prepaid sim card (serviced by CSL) (Telecommunication)
@@ -8648,6 +8667,12 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 30 2F 37 10 65
 	MasterCard German Sparkasse (Bank)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0A 1E 13 37 10 7B
+	girocard (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 20 24 37 10 74
+	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ... (Bank)
+
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
 	SparkassenCard (Bank)
 	https://sparkasse.de
@@ -8909,6 +8934,10 @@
 3B F8 13 00 00 81 31 FE 45 53 6D 61 72 74 41 70 70 F8
 	national Lithuania ID card
 
+3B F8 13 00 00 81 31 FE 45 FF 4A 32 41 30 34 30 00 12
+	MIDAS Card Diversification Key JavaCard (J2A040) (Bank)
+	https://github.com/kategray/midas
+
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
 
@@ -9067,6 +9096,9 @@
 3B FA 18 00 00 80 31 FE 45 FE 65 49 44 20 2F 20 50 4B 49 03
 	Estonian Identity Card (EstEID v3.5 (10.2014) cold) (eID)
 	http://id.ee/
+
+3B FA 18 00 00 81 31 FE 45 06 08 2A 84 10 01 87 6E 08 05 BC
+	Dutch Rijkspas (eID)
 
 3B FA 18 00 00 81 31 FE 45 06 08 2A 84 10 01 87 6E 08 07 BE
 	Rijkspas (identification card dutch government employees) (eID)
