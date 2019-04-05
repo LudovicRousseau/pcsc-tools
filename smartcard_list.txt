@@ -1480,6 +1480,10 @@
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
 
+3B 67 00 00 A4 20 79 41 78 90 00
+	UBS Switzerland Debitcard (Bank)
+	https://www.ubs.com/de/en.html
+
 3B 67 00 00 A5 20 40 10 1F 90 00
 	Swedish eLegitimation (eID) from Nordea Bank
 	http://www.elegitimation.se/
@@ -2010,6 +2014,9 @@
 3B 6B 00 00 47 50 00 63 0A 00 40 00 0F 90 00
 	cash app visa prepaid debit (Bank)
 	https://cash.app/
+
+3B 6B 00 00 53 43 00 15 02 02 50 01 0F 90 00
+	Visa (Bank)
 
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
@@ -3223,6 +3230,10 @@
 3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 35 ED CE 82 90 00
 	Lisbon Transportation SmartCard (Transport)
 
+3B 6F 00 00 80 5A 34 07 06 15 00 01 79 17 A7 E2 82 90 00
+	Rav-Kav multi-line travel ticket used in the public transportation system in Israel (Transport)
+	https://www.gov.il/en/departments/guides/multi_line_card
+
 3B 6F 00 00 80 5A 3B 07 06 15 01 01 79 3E 79 7B 82 90 00
 	Rav Kav (Transport)
 	http://alhakav.mot.gov.il/he/rav-kav
@@ -4063,6 +4074,10 @@
 	VISA ELECTRON debit card (Bank)
 	https://en.wikipedia.org/wiki/Visa_Electron
 
+3B 7F 13 00 00 80 31 C0 52 21 67 64 05 00 E4 71 83 83 90 00
+	Credito Oro Banca Personal Bankia (Bank)
+	https://www.bankia.es/en/personal-banking/tarjeta-credito-oro-banca-personal
+
 3B 7F 13 00 00 80 31 C0 52 25 AD 64 05 62 34 70 83 83 90 00
 	Citi Bank (Spain) (VISA Electron) debit card (Bank)
 
@@ -4226,7 +4241,7 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Portuguese Blood Donator National Card (HealthCare)
-	Skatteverkets identitetskort för folkbokförda i Sverige (utfärdade fr.o.m. september 2017) med AB Svenska Pass e-legitimation
+	Swedish ID card from Skatteverket with an Electronic ID from AB Svenska Pass, issued September 2017 or later
 	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
 
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
@@ -4343,6 +4358,10 @@
 
 3B 84 80 01 04 38 33 B1 BB
 	Dutch passport
+
+3B 84 80 01 47 43 50 43 12
+	Polish eID card: pl.ID / e-Dowod (SIGN3-ChipDoc) (eID)
+	https://www.gov.pl/web/e-dowod
 
 3B 84 80 01 47 77 F4 00 C1
 	True Money Touch Sim (Thailand)
@@ -4606,6 +4625,10 @@
 
 3B 88 80 01 00 00 00 00 77 83 95 00 00
 	MULTOS (PKI)
+
+3B 88 80 01 00 00 00 00 77 83 B3 00 4E
+	Polish ePassport (eID)
+	https://www.pwpw.pl/Produkty/Dokumenty_identyfikacyjne/Paszporty_i_dokumenty_pod.html
 
 3B 88 80 01 00 00 00 00 80 81 71 00 79
 	Apple Pay card - Usually EMV
@@ -5119,6 +5142,9 @@
 3B 8C 80 01 50 64 E6 5B 00 00 00 00 00 00 81 80 85
 	Chicago CTA Ventra Transit card
 	https://www.ventrachicago.com/
+
+3B 8C 80 01 50 71 0C F3 C8 00 00 00 00 B3 71 71 A8
+	MOBIB CARD BELGIUM (Transport)
 
 3B 8C 80 01 50 77 3B 2D BD 00 00 00 11 00 81 85 94
 	Texas Instruments Dynamic NFC Interface Transponder (RF430CL330H)
@@ -6490,6 +6516,9 @@
 	USB Token mToken CryptoID by Longmai (JavaCard)
 	http://www.longmai.net/products/mtoken/
 
+3B 9F 11 81 31 FE 9F 00 6A 6D 54 6F 6B 65 6E 2D 50 00 05 81 90 00 6A
+	Longmai mToken CryptoIDA Reader (PKI)
+
 3B 9F 11 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 59
 	GemXplore Generation 3G
 
@@ -7848,6 +7877,9 @@
 	ASECard Crypto
 	http://www.athena-scs.com/product.asp?pid=8
 
+3B D6 96 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F8
+	smart card from NASA, 2019 (PKI)
+
 3B D6 96 00 81 B1 FE 45 1F 87 80 31 C1 52 21 19 49
 	DHS CAC card (PKI)
 
@@ -8093,6 +8125,9 @@
 
 3B DD 96 00 80 B1 FE 45 1F 83 80 64 05 03 04 00 56 56 44 53 41 45 54 FC
 	VASCO DIGIPASS KEY 101 (Other)
+
+3B DD 96 FF 80 1F 03 4E 58 50 20 4E 53 43 4F 53 20 34 2E 30 06
+	SCOSTA (Transport)
 
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C9
 	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
@@ -9507,6 +9542,10 @@
 3B FF 11 00 FF 81 31 FE 95 80 F9 D2 76 00 00 25 54 44 01 00 83 00 00 00 A0
 	GiroCard Haspa Hamburger Sparkasse (Bank)
 	https://www.haspa.de/privatkunden/ihr-online-banking/unser-angebot/haspa-digital-services-96198/
+
+3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 04 EC C1 73 94 01 80 82 90 00 52
+	AKD kID (eID)
+	https://www.id.hr
 
 3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 44 EC C1 73 94 01 80 82 90 00 12
 	Croation personal ID card (eID)
