@@ -2151,6 +2151,9 @@
 3B 6D 00 00 00 31 C0 71 D6 65 11 22 33 01 83 90 00
 	UK Co-operative Bank Visa Debit (produced 2006)
 
+3B 6D 00 00 00 66 4D 45 31 53 05 06 53 03 61 04 F0
+	FutureCard Ind. LLC / Feb-18 | Blank card for programming (JavaCard)
+
 3B 6D 00 00 00 73 C8 00 13 64 47 37 45 32 00 90 00
 	Canada TD Bank Visa Debit/Interac Debit Card (Bank)
 
@@ -3150,6 +3153,10 @@
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 D9 9C 6F 82 90 00
 	KorriGo (Brittany) transport card (Transport)
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 EF 54 00 82 90 00
+	Korrigo Ter French card for train travels (Transport)
+	https://www.ter.sncf.com/bretagne/offres/carte-korrigo
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 F8 0B C3 82 90 00
 	Korrigo Card (Transport in Rennes Area in France ) (Transport)
@@ -4771,6 +4778,10 @@
 3B 88 80 01 E1 F3 5E 11 77 81 C7 20 45
 	French passport (2007-2008)
 
+3B 88 80 01 E1 F3 5E 11 77 81 E1 00 43
+	DNIE Spain (eID) Contactless (eID)
+	http://www.dnielectronico.es/PortalDNIe/
+
 3B 88 80 01 E1 F3 5E 11 77 83 00 00 A0
 	Residence permit (eID)
 	http://de.wikipedia.org/wiki/Aufenthaltstitel
@@ -5852,6 +5863,10 @@
 3B 91 94 80 1F 03 23 BA
 	China black(COS) SIM, does not support clock stop
 
+3B 93 11 00 00 32 00
+	01-3936b2013 (Pay TV)
+	http://www.lripl.com
+
 3B 94 18 81 B1 80 7D 1F 03 19 C8 00 50 DC
 	GoldKey Security PIV Token
 
@@ -6458,9 +6473,15 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
 	Telkom (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 D9 12 00 DE
+	telenor (swedish mobile provider) SIM card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 F4 12 00 F3
 	SIM card for Swedish operator Vimla! (Telecommunication)
 	https://www.vimla.se
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 19 4B 12 00 42
+	halebop (swedish mobile provider) SIM card (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BD
 	Mobile Vikings SIM Card (Telecommunication)
@@ -8395,6 +8416,9 @@
 3B E8 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B4
 	VISA Debit card for NAB, Australia
 
+3B E8 00 FF 81 31 FE 43 AA 00 00 00 00 00 00 00 B0
+	Secure Signing Token (eID)
+
 3B E8 00 FF 81 31 FE 45 43 4C 61 69 72 65 20 36 1A
 	DKB Visa card with PayWave
 
@@ -8707,6 +8731,10 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 20 24 37 10 74
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ... (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 3D 35 37 10 78
+	Sparkasse KölnBonn Bank (Bank)
+	https://www.sparkasse-koelnbonn.de
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
 	SparkassenCard (Bank)
@@ -9983,6 +10011,9 @@
 	Driver's Card (Tachograf card) issued by pwpw Poland (Transport)
 	https://www.pwpw.pl/en/Products/Cards/Cards.html
 
+3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 13 83 01 F8 3B FF
+	UK Drivers Tachograph Card (Transport)
+
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
 
@@ -10450,6 +10481,10 @@
 
 3F FF 14 25 03 10 80 41 B0 02 69 FF 4A 50 70 80 00 41 4F 01 00 14
 	Pay TV
+
+3F FF 14 25 03 10 80 41 B0 07 69 FF 4A 50 70 80 00 58 44 01 00 FF
+	Provider Vivacom Bulgaria NDS (Pay TV)
+	http://www.vivacom.bg/en/satellite-services
 
 3F FF 14 25 03 10 80 41 B0 07 69 FF 4A 50 70 80 00 58 45 01 00 14
 	Sat TV (Other)
