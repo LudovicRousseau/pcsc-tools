@@ -2307,6 +2307,9 @@
 3B 6E 00 00 00 31 C0 65 0A D7 02 00 82 71 D6 8C 61 33
 	Lloyds (Bank)
 
+3B 6E 00 00 00 31 C0 65 0A D7 02 00 82 71 D6 8C 61 37
+	MasterCard credit card issued by Citadele bank (Latvia) including e-Talons (public transportation system) (Bank)
+
 3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 2C
 	Kazakhstan Centrcredit bank VISA electron card
 	http://www.bcc.kz/en/
@@ -4538,6 +4541,14 @@
 3B 87 80 01 77 43 32 53 01 00 01 53 77 43 32 53 01 00 01
 	Cipurse ISO 14443-4 Card (Other)
 
+3B 87 80 01 77 43 32 53 01 00 02 50
+	CIPURSE (Transport)
+	https://www.osptalliance.org/cipurse-specifications/
+
+3B 87 80 01 77 43 32 54 00 09 05 58
+	CIPURSE (Transport)
+	https://www.osptalliance.org/cipurse-specifications/
+
 3B 87 80 01 77 43 49 50 02 00 01 28
 	CIPURSE (transport)
 	http://www.osptalliance.org/
@@ -4885,6 +4896,10 @@
 	http://www.vbb.de/de/k/fahrpreise/vbb-fahrcard/798.html
 	German eTicketing SAM (Transport)
 	https://www.eticket-deutschland.de/
+
+3B 89 80 01 4D 54 43 4F 53 73 02 05 04 3E
+	VGN eTicket (regional public transport for Nuremberg, Germany) (Transport)
+	https://www.vgn.de/
 
 3B 89 80 01 50 56 5F 4A 33 41 30 34 30 5D
 	Java Card J3A040 (JavaCard)
@@ -6285,6 +6300,10 @@
 	Vodafone Hungary SIM Card (Telecommunication)
 	http://vodafone.hu
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 8C 12 00 3D
+	Telkomsel SIM card (Telecommunication)
+	https://www.telkomsel.com/en/kartu-as
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 B8 10 00 0B
 	abc mobile prepaid sim card (serviced by CSL) (Telecommunication)
 	https://www.hkcsl.com/en/abc-Mobile-Prepaid-SIM-Cards/
@@ -6625,6 +6644,14 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 85 06 86 98 42 18 AB
 	4G LTE blank USIM Green Card (Telecommunication)
 	http://grcard.en.alibaba.com/product/60076835567-209365843/4G_LTE_blank_usim_card_for_4G_network.html
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 67 61 21 0D 10 00 00 70 F7
+	Celcom XPAX (Telecommunication)
+	https://www.celcom.com.my/personal/prepaid
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 37 86 60 9B 32 89 B2 A1
+	China Unicom Travel SIM (Telecommunication)
+	https://www.cuniq.com/hk/data-card/asia/asia-12days.html
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 37 86 60 9B A1 82 10 9B
 	U Mobile POWER Prepaid (Telecommunication)
@@ -6988,6 +7015,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 21 AB 11 18 01 80
 	Telekom Germany Triple SIM issued in 2018 (Telecommunication)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 21 AB 11 18 07 86
+	telekom HU nano sim card (Telecommunication)
+	https://www.telekom.hu
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
 
@@ -7223,6 +7254,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 63 01 09 02 01 81 05 3E
 	2degrees Mobile SIM Card New Zealand (Telecommunication)
 	http://2degreesmobile.co.nz
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 BA 01 09 04 04 81 00 E1
+	Blank SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6B 82 0E 18 01 FE
 	Telekom Deutschland GmbH - Xtra Data Karte (3G SIM)
@@ -8209,6 +8243,10 @@
 3B DF 18 00 81 31 FE 7D 00 6B 02 0C 01 82 01 11 01 43 4E 53 10 31 80 FC
 	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
 
+3B DF 18 00 81 31 FE 7D 00 6B 04 0C 01 84 01 11 01 43 4E 53 10 31 80 FC
+	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
+	http://www.regione.toscana.it/cartasanitaria
+
 3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 80 01 11 01 43 4E 53 10 31 80 E9
 	Provider: Actalis S.p.A.
 	code: AT00006181
@@ -8719,6 +8757,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0D 16 3A 37 20 6A
 	BankCard Sparda-Bank West eG (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 19 35 16 37 20 71
+	Commerzbank Germany (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 03 4A 36 37 10 03
 	German Sparkasse, Girocard, GeldCard, girogo, EUROSERV (Bank)
