@@ -2890,6 +2890,10 @@
 3B 6F 00 00 80 31 E0 6B 84 20 05 02 42 55 55 55 55 55 55
 	Multos 14Dc(6-0-13) 64K Dual-Interface Developer Card
 
+3B 6F 00 00 80 31 E0 6B 84 31 05 02 7A 55 55 55 55 55 55
+	36K MULTOS contact chip community developer card (Other)
+	https://www.usmartcards.co.uk/multos-smart-card-training-kit.html
+
 3B 6F 00 00 80 54 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	Valovis Bank Mastercard (www.valovisbank.de)
 
@@ -3149,6 +3153,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 AE 59 B9 82 90 00
 	French "Navigo" transport card (Transport)
 	http://www.navigo.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 4C 09 31 0D 82 90 00
+	Pass Navigo personnalisé (Paris) (Transport)
+	http://www.navigo.fr/titres/le-forfait-navigo-mois-choix-carte-navigo-carte-decouverte/
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B EB 8D 82 90 00
 	Korigo card transport for star company (France) (Transport)
@@ -4063,6 +4071,9 @@
 3B 7F 13 00 00 80 31 C0 52 18 94 64 02 B3 02 70 83 83 90 00
 	Advantis duo 8k (Bank)
 
+3B 7F 13 00 00 80 31 C0 52 18 95 64 02 00 64 71 83 83 90 00
+	Alfa BROU, prepaid VISA (UY) (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 18 97 64 02 B3 02 37 83 83 90 00
 	tool-valley (vale-pedagio) from Bradesco
 
@@ -4240,6 +4251,10 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 FF FE 82 90 00
 	Gemalto TOP IM GX4 (PKI)
 	http://www.cryptotech.com.pl/compl/data/gemalto/pdf/TOP_GX4_Nov08.pdf
+
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 02 68 82 90 00
+	Polish Qualified Signature (eID)
+	http://www.elektronicznypodpis.pl/oferta/certyfikaty-kwalifikowane/
 
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 02 C1 82 90 00
 	Gemalto IDPrime MD840 (eID)
@@ -4779,6 +4794,9 @@
 3B 88 80 01 E1 F3 5E 11 73 81 A5 00 03
 	US passport (2007)
 
+3B 88 80 01 E1 F3 5E 11 77 81 95 00 37
+	Belgian Passport (passport)
+
 3B 88 80 01 E1 F3 5E 11 77 81 A1 00 03
 	Spanish ID know as DNIe (eID)
 	http://www.dnielectronico.es
@@ -5026,6 +5044,10 @@
 	NUMBER26 Maestro Card (Bank)
 	https://number26.eu
 
+3B 8B 80 01 00 31 C0 64 08 44 03 12 00 90 00 52
+	Tomorrow Debit Mastercard issued by solarisBank AG (Bank)
+	https://www.tomorrow.one/
+
 3B 8B 80 01 00 31 C0 64 1F 18 01 00 00 90 00 09
 	Student ID card in Poland (eID)
 
@@ -5037,6 +5059,10 @@
 
 3B 8B 80 01 00 31 C0 64 B0 FC 10 00 00 90 00 53
 	Thai Passport 2010, 2011
+
+3B 8B 80 01 00 31 C1 64 08 40 21 30 00 90 00 57
+	MOICA Citizen Digital Certificate of Taiwan R.O.C. (PKI)
+	https://moica.nat.gov.tw/en/index.html
 
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
@@ -5248,6 +5274,9 @@
 3B 8C 80 01 50 F2 AD 19 D7 00 00 00 00 00 81 77 3A
 	ING Maestro Debit Card (Bank)
 	https://www.ing.nl/particulier/index.html
+
+3B 8C 80 01 50 F5 6F F8 2B E1 F3 5E 11 33 81 C7 3C
+	ID of the Republic of Kazakhstan Ministry of Internal Affairs of the Republic of Kazakhstan (eID)
 
 3B 8C 80 01 50 F6 DC FC 13 23 18 01 00 77 81 97 C3
 	mifare (Transport)
@@ -7353,6 +7382,9 @@
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 01 90 0F 3B 81 0F E6
 	Verizon US USIM card (Telecommunication)
 
+3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FF
+	SIM Card Fastweb IT GSM mobile network  (Telecommunication)
+
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
 
@@ -8135,6 +8167,9 @@
 3B DC 18 FF 80 91 FE 1F C3 80 73 C8 21 13 66 02 04 03 55 00 02 35
 	ST security module for German smart meter gateway (JavaCard)
 	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03109/TR-03109-2-Anforderungen_an_die_Funktionalitaet.pdf?__blob=publicationFile&v=3
+
+3B DC 18 FF 81 11 FE 80 73 C8 21 13 66 01 06 01 30 80 01 8D
+	Aladdin R.D. JaCarta LT (eID)
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 06 01 30 04 01 55
 	Athena IDProtect Key Laser
