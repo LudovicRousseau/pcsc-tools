@@ -808,7 +808,7 @@
 	Mobicarte Orange
 
 3B 3B 11 00 6A 38 20 00 00 27 A0 33 33 90 00
-	Spanish Carrefour Móvil SIM card
+	Spanish C*******r Móvil SIM card
 
 3B 3B 11 00 80 65 AF 03 0C 01 6F 83 0F 90 00
 	Gemplus GemX{plore,presso} V3-B1
@@ -1173,7 +1173,7 @@
 	CB Visa Banque Populaire (France)
 
 3B 65 00 00 20 63 CB A0 80
-	Carrefour, MasterCard credit card, Pass Banque, Oberthur
+	C*******r, MasterCard credit card, Pass Banque, Oberthur
 
 3B 65 00 00 20 63 CB A1 00
 	AIB Visa Debit Card, manufactured by Oberthur
@@ -6089,7 +6089,7 @@
 	https://www.emt.ee/web/simpel
 
 3B 9A 96 00 92 01 48 93 17 00 02 12 04 00
-	SIM Card Carrefour Mobile (Belgium)
+	SIM Card C*******r Mobile (Belgium)
 
 3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
 	GSM SIM Bite.lv prepaid "Toxic"; 2008
@@ -9364,7 +9364,7 @@
 	http://www.caib.es/sacmicrofront/contenido.do?cont=7584&mkey=M08110610180317195848&&lang=en
 
 3B FB 91 00 FF 91 81 71 FE 40 00 41 20 00 01 00 81 20 63 CB A0 80 03
-	Carrefour, MasterCard credit card, Pass Banque, Oberthur - contactless/PayPass
+	C*******r, MasterCard credit card, Pass Banque, Oberthur - contactless/PayPass
 
 3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 02 00 82 90 00 76
 	Oberthur ID-One Cosmo
