@@ -276,6 +276,9 @@
 3B 0F 00 65 46 53 05 30 05 71 DF 00 00 00 80 6A 82
 	Fetian epass3000
 
+3B 0F 52 4E 42 4F 24 56 23 2E 00 00 00 12 00 58 76
+	iKey1000 (PKI)
+
 3B 0F 80 22 15 E1 5A 00 20 00 30 21 03 31 21 03 00
 	RSA SecurID SID800 token
 
@@ -705,6 +708,9 @@
 
 3B 27 00 80 65 A2 8C 3B 27 00
 	GPK 4000, RSA 1024 bits Sign, Unwrap 256 bits
+
+3B 28 00 34 41 45 41 30 32 30 30
+	Cryptoguard AB (Other)
 
 3B 29 00 24 93 01 00 00 00 00 01 A9
 	Telephone chipcard for the Vienna University of Technology
@@ -2775,6 +2781,10 @@
 3B 6F 00 00 80 31 C0 52 20 E2 64 05 62 17 80 83 83 90 00
 	VISA MedicusMundi (VISA Classic Affinity credit card, issued by Laboral Kutxa) (Bank)
 	https://www.medicusmundi.es/es/que-puedes-hacer-tu/tarjetas-affinity
+
+3B 6F 00 00 80 31 E0 5B 45 55 52 00 00 00 00 00 07 02 00
+	Pre-loaded wallet card. "Mondex is a smart card electronic cash system, implemented as a stored-value card" (Bank)
+	https://en.wikipedia.org/wiki/Mondex
 
 3B 6F 00 00 80 31 E0 5B 4E 4F 4B 00 00 00 00 00 00 02 00
 	Norsk-Tipping (Buypass) Monodex card
@@ -5048,6 +5058,10 @@
 	Tomorrow Debit Mastercard issued by solarisBank AG (Bank)
 	https://www.tomorrow.one/
 
+3B 8B 80 01 00 31 C0 64 08 44 03 68 00 90 00 28
+	Advanzia / Gebuhrenfrei.com Mastercard Gold (Bank)
+	https://www.gebuhrenfrei.com/Home/
+
 3B 8B 80 01 00 31 C0 64 1F 18 01 00 00 90 00 09
 	Student ID card in Poland (eID)
 
@@ -5376,6 +5390,9 @@
 	Yubikey 5 NFC (via NFC) (Other)
 	https://www.yubico.com/product/yubikey-5-nfc/#yubikey-5-nfc
 
+3B 8D 80 01 80 73 C0 21 C0 57 59 75 62 69 4B 65 FF 7F
+	Yubikey 5 NFC via ACR122U (Other)
+
 3B 8D 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 34
 	TOP DM GX4 Cards [TOP DM GX4 on Gemalto Prox]
 
@@ -5545,6 +5562,10 @@
 
 3B 8F 80 01 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 8A
 	Dutch driver licence (eID)
+
+3B 8F 80 01 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00 4D
+	Finnish electronic identity card (eID)
+	https://vrk.fi/en/electronic-identity-and-certificates
 
 3B 8F 80 01 80 31 E0 6B 04 21 05 02 72 55 55 55 55 55 55 64
 	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
@@ -6007,6 +6028,9 @@
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic ID card
+
+3B 98 18 01 52 4D 4D 20 76 31 2E 32 A8
+	Ericsson Mini-Link RYS 110 243/1 (Other)
 
 3B 98 18 81 31 FE 43 30 41 56 54 00 00 00 07 F9
 	Avtor SecureToken 00 00 (Other)
@@ -7793,6 +7817,10 @@
 	ACS ACOS5-64 V3.00
 	http://www.acs.com.hk/en/products/308/acos5-64-v3.00-cryptographic-card-contact/
 
+3B BE 96 00 00 42 06 21 00 00 00 00 00 00 00 00 00 90 00
+	ESMART Token (PKI)
+	https://esmart.ru/products/informatsionnaya-bezopasnost/smart-karty-esmart-token/
+
 3B BE 96 00 80 1F C7 80 31 E0 73 FE 21 13 62 00 .. 83 81 90 00 ..
 	Vodafone (Italy) 128 kB GSM SIM card
 	TIM (Italy) 128 kB GSM SIM card
@@ -8340,6 +8368,10 @@
 
 3B DF 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 82 90 00 DA
 	Finnish identity card given by the City of Helsinki to all members of city council, board and commitees
+
+3B DF 96 00 80 B1 FE 45 1F 83 80 73 BC 91 80 F9 A0 00 00 00 77 80 08 02 01 A4
+	Latvian eSignature card (eID)
+	https://www.lvrtc.lv/e-signature.html
 
 3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
 	Test PIV Cards available for sale from NIST
@@ -9455,6 +9487,9 @@
 
 3B FD 13 00 00 81 31 FE 45 4A 43 4F 50 32 31 76 32 33 31 47 44 54 E1
 	National Health Insurance Card, Taiwan
+
+3B FD 13 00 00 81 31 FE 45 54 3D 31 4A 32 31 33 36 4B 56 32 33 31 DC
+	ic Card (JavaCard)
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
