@@ -298,6 +298,10 @@
 3B 0F FF C1 B5 CC 72 CA 00 00 ..
 	Mifare Std 1K
 
+3B 0F FF FF FF FF FF FF FF FF FF FF FF FF FF FF 80
+	CAC (Contractor Access Card) / Oberthur ID One 128 v5.5a D (PKI)
+	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1145.pdf
+
 3B 10 14 50
 	HSID6000 (PKI)
 
@@ -468,6 +472,9 @@
 3B 17 95 80 65 D0 01 7E 0D F0
 	Si.Mobil Slovenia GSM SIM card (Telecommunication)
 	http://www.simobil.si
+
+3B 17 95 80 65 D0 01 7E 0E 05
+	Finnish DNA Prepaid SIM-card (Telecommunication)
 
 3B 17 95 80 65 D0 02 0C 10 3E
 	Airtel Tanzania (Telecommunication)
@@ -2201,6 +2208,9 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 37 4B 33 00 90 00
 	Fineco (Italy) Bancomat (Visa) (Bank)
 
+3B 6D 00 00 00 80 31 80 65 B0 89 35 01 F1 83 00 90 00
+	MasterCard  (Bank)
+
 3B 6D 00 00 00 81 4D 22 08 86 60 22 22 28 40 00 01
 	Unipay Credit Card Issued by CITIC (Bank)
 
@@ -2438,6 +2448,9 @@
 3B 6E 00 00 00 31 C0 65 F7 C6 02 00 06 71 D6 8C 61 33
 	Visa Card - SberBank / Russia (Bank)
 	http://sberbank.ru/
+
+3B 6E 00 00 00 31 C0 65 F7 C6 02 00 06 71 D6 8C 61 37
+	Finnish Ticket lunch card (Edenred) (Bank)
 
 3B 6E 00 00 00 31 C0 65 F7 C6 02 00 06 71 D6 8C 61 39
 	"Ticket Restaurant" Edenred España S.A. (Bank)
@@ -2693,6 +2706,10 @@
 
 3B 6F 00 00 00 31 C0 68 43 53 50 45 4D 56 03 00 07 90 00
 	SOCCARDRT (HealthCare)
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 31 00 90 00
+	Beutsche Bank Business mastercard credit (Bank)
+	https://www.deutsche-bank.de/gk/zahlungsverkehr/zahlungsverkehr-im-ueberblick/kreditkarte.html
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 31 00 90 00
 	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
@@ -3235,6 +3252,9 @@
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 13 AA 4F 82 90 00
 	NMBS National Belgian Railways MOBIB Card (Transport)
 	http://www.belgianrail.be/en/travel-tickets/mobib.aspx
+
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 20 9D 05 82 90 00
+	Gent schakelt slim. AustriaCard  (Transport)
 
 3B 6F 00 00 80 5A 2C 23 EA 00 03 02 02 85 24 CA 82 90 00
 	Pcard Interparking Mobib (Transport)
@@ -5100,6 +5120,9 @@
 	TouchandTravel Touchpoint NFC-Card.
 	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
 
+3B 8B 80 01 50 33 30 38 47 30 50 33 5F 31 30 2B
+	Indonesian ektp (eID)
+
 3B 8B 80 01 65 4B 54 50 30 44 32 65 4B 54 50 4C
 	NXP smart eID - Indonesia ektp (eID)
 
@@ -5562,6 +5585,8 @@
 
 3B 8F 80 01 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 8A
 	Dutch driver licence (eID)
+	Italian electronic identity card (eID)
+	https://en.wikipedia.org/wiki/Italian_electronic_identity_card
 
 3B 8F 80 01 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00 4D
 	Finnish electronic identity card (eID)
@@ -6511,6 +6536,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
 	Lenovo SIM card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 FE 0E 00 68
+	Finnish Sonera SIM-card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 04 11 00 B4
 	Aldi Talk SIM card, Germany (Telecommunication)
 	https://www.alditalk.de/talk
@@ -6693,6 +6721,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 49 05 0C 86 98 60 18 CC
 	China Unicom USIM 128K 6131H
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 05 86 98 40 18 AE
+	China Unicom USIM Card (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 85 06 86 98 42 18 AB
 	4G LTE blank USIM Green Card (Telecommunication)
@@ -7040,6 +7071,7 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 02 41 00 82 90 00 C2
 	Empire Bank ltd (Bank)
+	Finnish Telia SIM-card (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 19 31 00 82 90 00 A9
 	Taiwan Star Telecom Corporation Limited (Telecommunication)
@@ -7444,6 +7476,9 @@
 
 3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D6
 	Verizon 4G LTE Micro SIM (Telecommunication)
+
+3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 13 F6 81 0F BE
+	Verizon SIM Card (Telecommunication)
 
 3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
 	Gemalto Speed Enhancement 97 (Telecommunication)
@@ -8809,6 +8844,10 @@
 	ComCard MFC 4.1
 
 
+3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 4E
+	comdirect VISA card (Bank)
+	https://www.comdirect.de/konto/karten.html#Visa-Karte
+
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 27 40 00 03 01 00 E1
 	Postbank Geldkarte
 
@@ -8827,6 +8866,10 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 19 35 16 37 20 71
 	Commerzbank Germany (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 02 4D 36 37 10 05
+	comdirect girocard (Bank)
+	https://www.comdirect.de/konto/karten.html#girocard
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 03 4A 36 37 10 03
 	German Sparkasse, Girocard, GeldCard, girogo, EUROSERV (Bank)
@@ -10468,6 +10511,9 @@
 
 3F 7F 13 25 02 40 B0 12 69 FF 4A 50 90 54 56 00 00 00 00 00
 	NDS Smartcard (Pay TV)
+
+3F 7F 13 25 02 41 B0 04 FF FF 4A 50 80 80 00 00 00 47 58 06
+	NDS card DIRECTV (Other)
 
 3F 7F 13 25 03 33 B0 06 69 FF 4A 50 D0 00 00 53 59 00 00 00
 	Sky 2005/6 (DSS satellite TV card)
