@@ -852,6 +852,9 @@
 3B 3B 7F 38 00 00 00 6A 44 4E 49 65 10 02 4C
 	dnie (eID)
 
+3B 3B 7F 38 00 00 00 6A 44 4E 49 65 20 02 4C
+	DNI (eID)
+
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
 
@@ -2326,6 +2329,10 @@
 3B 6E 00 00 00 31 C0 65 0A D7 02 00 82 71 D6 8C 61 37
 	MasterCard credit card issued by Citadele bank (Latvia) including e-Talons (public transportation system) (Bank)
 
+3B 6E 00 00 00 31 C0 65 0A D7 02 00 82 71 D6 8C 61 5A
+	mastercard (Bank)
+	http://nickel.com
+
 3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 2C
 	Kazakhstan Centrcredit bank VISA electron card
 	http://www.bcc.kz/en/
@@ -3173,6 +3180,10 @@
 	Navigo (Paris) - Gamalto SmarCard (Transport)
 	https://www.iledefrance-mobilites.fr/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 9C 78 6C 82 90 00
+	Navigo Easy (Transport)
+	http://www.navigo.fr/titres/titre-t-support-sans-contact-presentation/
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 A1 48 7B 82 90 00
 	Navigo card using Calypso stantard (Other)
 	https://en.wikipedia.org/wiki/Calypso_(electronic_ticketing_system)
@@ -3712,6 +3723,10 @@
 3B 7D 94 00 00 57 44 29 08 30 86 93 07 05 65 18 2B 56
 	Canal Digitaal (Pay TV)
 	http://webshop.canaldigitaal.nl/nl/smartcards-2
+
+3B 7D 94 00 00 57 44 29 61 50 86 93 03 51 46 25 01 DC
+	Sodexo Meal Card (Other)
+	https://www.sodexoavantaj.com
 
 3B 7D 94 00 00 57 44 53 05 54 86 93 00 15 6A 5F 13 78
 	Idea Indian GSM operator SIM
@@ -4561,6 +4576,10 @@
 	WWPass Passkey (eID)
 	https://www.wwpass.com/passkey
 
+3B 86 80 01 C1 05 2F 2F 01 BC 7E
+	Contactless interface to St. Petersburg unified card, Russia (Единая карта петербуржца) (Other)
+	https://ekp.spb.ru/
+
 3B 86 81 31 70 34 45 50 41 20 45 4B 08
 	Austrian Quick E-purse "Einreichkarte" (transfer card)
 	http://www.quick.at/
@@ -5159,6 +5178,10 @@
 3B 8C 80 01 50 03 A1 29 CF 00 00 00 00 11 81 81 08
 	rav-kav, Israel transport card (Transport)
 	http://www.egged.co.il/Article-786-Rav-Kav-Card.aspx
+
+3B 8C 80 01 50 05 A9 66 96 00 00 00 00 80 81 71 71
+	Hello bank! VISA CLASSIC Card (Bank)
+	http://www.hellobank.fr/
 
 3B 8C 80 01 50 06 DC A8 59 00 00 00 00 80 81 71 06
 	VISA Hello bank! (NFC) (Bank)
@@ -7148,6 +7171,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 31 33 30 00 A6
 	AT&T eUICC (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1F 33 31 00 82
+	Sysmocom SIM Card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 20 33 31 00 BD
 	T-Mobile US USIM card (Telecommunication)
 
@@ -8253,6 +8279,9 @@
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 03 63 51 00 02 50
 	JCOP3 SecID P60 CS (JavaCard)
 
+3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
+	NXP Javacard with Athena SCS OS (JavaCard)
+
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
 	National ID Card of Peru issued by RENIEC from Oberthur
 
@@ -8854,6 +8883,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 12 61 02 50 00 10 0A 07 27 22 07 10 22
+	DKB Online Banking Card (Bank)
+	https://www.dkb.de
+
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0A 1B 18 37 20 42
 	German debit card (girocard, V-Pay) (Bank)
 	https://www.girocard.eu/english/
@@ -9334,6 +9367,9 @@
 
 3B FA 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 9D
 	NXP JCOP 41 v2.2.1 72k SmartCard I/F
+
+3B FA 18 00 00 81 31 FE 45 4A 54 61 78 43 6F 72 65 56 31 B2
+	Taxpayer Portal Authentication for Fiji Revenue & Customs Service taxpayer portal (PKI)
 
 3B FA 18 00 02 C1 0A 31 FE 58 4B 53 77 69 73 73 53 69 67 6E 89
 	SuisseId card (used for qualified signatures)
