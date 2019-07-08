@@ -381,6 +381,10 @@
 3B 16 94 81 10 06 01 81 3F
 	Schlumberger Cyberflex Access Crypto
 
+3B 16 94 D0 00 13 00 00 00
+	OPLUZ OPM610 EU Multifunction Smartcard Reader (Telecommunication)
+	http://www.opluz.net/en/productshow.asp?id=135
+
 3B 16 94 D0 01 76 0D 2A 00
 	Peruvian GSM SIM
 
@@ -2725,6 +2729,10 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00
 	VISA card, issued by OP Financial Group, Finland (Bank)
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 30 37 00 90 00
+	NatWest VISA Debit card (Bank)
+	https://personal.natwest.com/personal/current-accounts/select_account.html
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00
 	Carta HYPE MasterCard (Italy) (Bank)
 	https://www.hype.it/
@@ -2947,6 +2955,9 @@
 	ALSEO, the Alsacian Express Regional Train card (Transport)
 	http://www.ter.sncf.com/alsace/gares/preparer-son-voyage/carte-alseo/
 
+3B 6F 00 00 80 5A 08 03 03 00 00 00 02 C8 83 CB 82 92 00
+	card for Bordeaux transport (Transport)
+
 3B 6F 00 00 80 5A 08 03 03 00 00 00 C0 0F AF 04 82 92 00
 	Bordeaux Urban Transportation Card (NFC) (Transport)
 
@@ -3041,6 +3052,9 @@
 	Rav-Kav Public Transport (Transport)
 	https://ravkavonline.co.il/he/
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 01 F4 1F 82 90 00
+	RAV KAV (israel) transportation card (Transport)
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 96 7A 29 82 90 00
 	Rav-Kav transport card for Israel Ministry of Transport (Transport)
 	https://en.wikipedia.org/wiki/Rav-Kav
@@ -3095,6 +3109,9 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 28 84 44 82 90 00
 	rav-kav (Transport)
 	http://nohal.mot.gov.il/%d7%94%d7%92%d7%93%d7%a8%d7%95%d7%aa%20%d7%91%d7%a0%d7%95%d7%a9%d7%90%20%d7%9b%d7%a8%d7%98%d7%95%d7%a1%20%d7%97%d7%9b%d7%9d.aspx
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 69 51 7A 82 90 00
+	Card for bus (Transport)
 
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
@@ -3236,6 +3253,9 @@
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 22 68 D0 82 90 00
 	Public transport card lisbon (Transport)
 	http://www.portalviva.pt
+
+3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 01 00 4B 82 90 00
+	French Military Circulation card (Transport)
 
 3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 0A 1D BA 82 90 00
 	French military discount on SNCF trains card (Transport)
@@ -3723,6 +3743,10 @@
 3B 7D 94 00 00 57 44 29 08 30 86 93 07 05 65 18 2B 56
 	Canal Digitaal (Pay TV)
 	http://webshop.canaldigitaal.nl/nl/smartcards-2
+
+3B 7D 94 00 00 57 44 29 5A 21 86 93 03 32 EF 17 46 07
+	Chevrolet Club Card (Loyalty)
+	https://my.chevrolet.com/login
 
 3B 7D 94 00 00 57 44 29 61 50 86 93 03 51 46 25 01 DC
 	Sodexo Meal Card (Other)
@@ -6709,6 +6733,9 @@
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 37 2E 30 9F
 	pay TV card of Irdeto. (Pay TV)
 
+3B 9F 92 80 1F C3 80 31 E0 73 FE 21 14 63 02 01 01 83 07 90 00 CD
+	Programmable SIM card as one of the requirement for free5GC testing procedure (Telecommunication)
+
 3B 9F 94 40 1E 00 67 .. 43 46 49 53 45 10 52 66 FF 81 .. ..
 	SLE66CX160S running SETCOS 4.3.1 Revision A
 
@@ -8692,6 +8719,10 @@
 3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 02 0F 90 00 BE
 	VISA Debit card for Taishin International Bank, Taiwan (Bank)
 
+3B EB 00 00 81 31 FE 45 00 31 C0 64 A9 EC 01 00 82 90 00 23
+	Junta de Extremadura (Spain) public healthcare card (HealthCare)
+	https://saludextremadura.ses.es/web/preguntas-frecuentes
+
 3B EB 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 31 2E 30 15 C5
 	Reka Card - Swiss Holiday Member Card (Loyalty)
 	https://reka.ch/en/rekamoney/privatepersons/reka-card/Seiten/reka-card.aspx?lang=en
@@ -9480,6 +9511,9 @@
 3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 02 00 82 90 00 76
 	Oberthur ID-One Cosmo
 
+3B FB 96 00 00 80 31 FE 45 00 31 C0 64 77 E3 03 00 81 90 00 74
+	D.O.D. Eid Passport rapidgate card (eID)
+
 3B FB 96 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 01 90 00 EC
 	Oberthur ID-ONE v5.4
 
@@ -9785,6 +9819,9 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00
+	BBVA debit card Uruguay. MIFRE Plus compatible. (Bank)
 
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
