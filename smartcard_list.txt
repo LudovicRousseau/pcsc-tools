@@ -1127,6 +1127,9 @@
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A C5 06 12 C0 90 00
 	Republic of Liberia Civil Service Identification Card (eID)
 
+3B 61 00 00 80
+	blank A40CR card (JavaCard)
+
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
@@ -1887,6 +1890,9 @@
 3B 6A 00 00 80 66 A2 0A 01 01 8B 0E 90 00
 	CAP-EMV demo card
 
+3B 6A 00 00 81 3F 01 75 11 01 02 81 01 0A
+	Huada CIU9872B (Java Card 2.2.2) (JavaCard)
+
 3B 6A 00 FF 00 31 C1 73 C8 40 00 00 90 00
 	Paypal EMV debit card (Bank)
 
@@ -1902,6 +1908,9 @@
 
 3B 6B .. FF 80 62 .. A2 56 46 69 6E 45 49 44
 	JCOP20 v2.x
+
+3B 6B 00 00 00 00 31 C0 64 3F 68 01 00 07 90 00
+	EMV (Bank)
 
 3B 6B 00 00 00 31 80 64 2D A0 02 0C 8C 61 27
 	SmartEMV prototype
@@ -3341,6 +3350,9 @@
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 03 55 46 82 90 00
 	MoBIB: Belgian transport card (NFC) (Transport)
 	https://mobib.be/en.html
+
+3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
+	RavKav (Transport)
 
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
@@ -5597,6 +5609,9 @@
 	Austrian Quick E-purse contactless
 	http://www.quick.at/
 
+3B 8F 80 01 4A 43 4F 50 33 20 41 54 53 20 43 48 41 52 53 26
+	Samsung Galaxy Watch Active NFC (Other)
+
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 33 36 76
 	RFIDIOt JCOP 36K Blank
 	http://rfidiot.org
@@ -6007,6 +6022,9 @@
 3B 94 18 81 B1 80 7D 1F 03 19 C8 00 50 DC
 	GoldKey Security PIV Token
 
+3B 94 95 81 01 46 54 56 01 C4
+	blank J3H145 card (Other)
+
 3B 95 .. 40 FF 62 01 01 .. ..
 	Schlumberger Cryptoflex e-gate
 
@@ -6065,6 +6083,9 @@
 3B 95 96 40 F0 0F 10 0A 09 6A
 	Zain Usim Card (Telecommunication)
 	www.qariya.com
+
+3B 95 96 C0 F0 1F C2 0F 10 0A 0A 16
+	viettel (Telecommunication)
 
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
@@ -6432,6 +6453,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 B8 10 00 0B
 	abc mobile prepaid sim card (serviced by CSL) (Telecommunication)
 	https://www.hkcsl.com/en/abc-Mobile-Prepaid-SIM-Cards/
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 02 13 00 07
+	AT&T prepaid nano iphone/android sim card  (Telecommunication)
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 3E 12 00 3A
 	USIM issued by Unité mobile operator in Moldova (Telecommunication)
@@ -7510,6 +7534,10 @@
 	SAKURA Internet SIM (Telecommunication)
 	https://www.sakura.ad.jp/services/sim/
 
+3B 9F 97 80 1F C6 80 31 E0 73 FE 21 1B 65 CA 01 0E 06 0B 81 05 9E
+	rain Networks - R15 4G Sim Card (Telecommunication)
+	http://www.rain.co.za
+
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 08 56 21 00 82 90 00 19
 	eSIM card (Telecommunication)
 
@@ -7890,6 +7918,10 @@
 	https://www.acs.com.hk/en/products/309/acos6-multi-application-purse-card-contact/
 	ACOS6S C7 SAM
 	https://www.acs.com.hk/en/products/310/acos6-sam-secure-access-module-card-contact/
+
+3B BE 96 00 00 41 01 38 02 00 1D 00 00 00 00 00 01 90 00
+	ACOS3-32 (Other)
+	https://www.acs.com.hk/en/products/306/acos3-microprocessor-card-contact/
 
 3B BE 96 00 00 41 03 00 00 00 00 00 00 00 00 00 02 90 00
 	SAM inside the Tikitag reader from Alcatel-Lucent
@@ -8651,6 +8683,9 @@
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 31 30 56 32 32 A3
 	ORGA Open Platform DES 16k V2.0 / JCOP10
 
+3B E9 00 00 81 31 FE 45 4A 43 4F 50 32 34 32 52 32 A0
+	NXP J3D081 (JavaCard)
+
 3B E9 00 00 81 31 FE 45 4A 43 4F 50 33 31 56 32 32 A0
 	JCOP 31 / 72k
 
@@ -8917,6 +8952,9 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 12 61 02 50 00 10 0A 07 27 22 07 10 22
 	DKB Online Banking Card (Bank)
 	https://www.dkb.de
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 06 12 41 37 20 1E
+	BankCard Sparda-Bank Baden-Württemberg eG (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0A 1B 18 37 20 42
 	German debit card (girocard, V-Pay) (Bank)
@@ -9401,6 +9439,9 @@
 
 3B FA 18 00 00 81 31 FE 45 4A 54 61 78 43 6F 72 65 56 31 B2
 	Taxpayer Portal Authentication for Fiji Revenue & Customs Service taxpayer portal (PKI)
+
+3B FA 18 00 00 91 01 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 82
+	Supposed P71 SecID purchased from a Chinese manufacturer (JavaCard)
 
 3B FA 18 00 02 C1 0A 31 FE 58 4B 53 77 69 73 73 53 69 67 6E 89
 	SuisseId card (used for qualified signatures)
@@ -10587,6 +10628,9 @@
 
 3F 7F 13 25 02 41 B0 04 FF FF 4A 50 80 80 00 00 00 47 58 06
 	NDS card DIRECTV (Other)
+
+3F 7F 13 25 02 41 B0 0E FF FF 4A 50 80 80 00 00 00 47 4C 07
+	SKY BRASIL (Pay TV)
 
 3F 7F 13 25 03 33 B0 06 69 FF 4A 50 D0 00 00 53 59 00 00 00
 	Sky 2005/6 (DSS satellite TV card)
