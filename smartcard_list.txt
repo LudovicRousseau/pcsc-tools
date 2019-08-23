@@ -3296,6 +3296,10 @@
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 20 9D 05 82 90 00
 	Gent schakelt slim. AustriaCard  (Transport)
 
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 22 4F 89 82 90 00
+	MoBIB card (Transport)
+	https://mobib.be/en.html
+
 3B 6F 00 00 80 5A 2C 23 EA 00 03 02 02 85 24 CA 82 90 00
 	Pcard Interparking Mobib (Transport)
 
@@ -3485,6 +3489,9 @@
 
 3B 78 12 00 00 47 C4 03 00 8F F1 90 00
 	Sattelite bg 23.5 East cryptoworks card
+
+3B 78 12 00 00 54 C4 01 07 8F F1 90 00
+	XtraMusic listening card (Pay TV)
 
 3B 78 12 00 00 54 C4 02 04 FF FF 6F 04
 	UPC Direct Satellite TV Card (Pay TV)
@@ -4006,6 +4013,9 @@
 3B 7F 11 00 00 80 31 C0 52 3A 65 64 06 96 18 62 83 83 90 00
 	Visa Electron Triodos Bank Card (Bank)
 
+3B 7F 11 00 00 80 31 C0 52 3B C7 64 06 96 18 62 83 83 90 00
+	Triodos Bank Visa Classic (Bank)
+
 3B 7F 12 00 00 44 56 4E 20 54 45 43 48 20 52 65 76 35 33 76
 	Chinese cable TV JETCAS card (DVN)
 
@@ -4324,6 +4334,10 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 0F FE 82 90 00
 	Gemalto IDPrime MD
+
+3B 7F 96 00 00 80 31 80 65 B0 84 53 4C 0F 12 03 7B 82 90 00
+	Serbian International Student Identity Card (ISIC) (eID)
+	https://www.gpa.rs/kartice
 
 3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 0F FF 82 90 00
 	Swedish National Identity Card (eID)
@@ -4854,6 +4868,10 @@
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A - NXP JCOP
 	NXP J3A081 JavaCard (contactless interface)
+
+3B 88 80 01 52 74 4D 43 00 81 C1 00 61
+	Rutoken 2151 smart card (eID)
+	https://www.rutoken.ru/products/catalogue/id_50.html
 
 3B 88 80 01 53 4B 55 50 01 00 00 00 15
 	Silesian public services card (Transport)
@@ -5544,6 +5562,8 @@
 3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 1C
 	UK Lloyds Bank Gold Visa Debit (Contact & Contactless)
 	bPay by barclaycard - contactless pre-paid Visa
+	BPP Digital pre-paid VISA card (Bank)
+	https://bpp.com.br/
 
 3B 8E 80 01 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 18
 	Smartcard-HSM (Contactless Interface) (PKI)
@@ -6472,6 +6492,9 @@
 	Ufone (SIM Card) (Telecommunication)
 	https://ufone.com/Consumer-Manual/668-SIM-Information-System/
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 C7 11 00 C0
+	3 UK SIM card (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 19 15 13 00
 	ABS-CBN (Telecommunication)
 
@@ -7066,6 +7089,9 @@
 	JavaCOS A22 dual interface Java card - 150K (JavaCard)
 	http://www.smartcardfocus.us/shop/ilp/id~709/javacos-a22-dual-interface-java-card-150k/p/index.shtml
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 06 00 00 20
+	FEITIAN ePASS 2003 Auto (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
@@ -7146,6 +7172,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 02 41 00 82 90 00 C2
 	Empire Bank ltd (Bank)
 	Finnish Telia SIM-card (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 04 81 00 82 90 00 04
+	SAP Leonardo IoT Connect 365 SIM card (Telecommunication)
+	https://www.sap.com/uk/products/enterprise-iot-connect.html
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 19 31 00 82 90 00 A9
 	Taiwan Star Telecom Corporation Limited (Telecommunication)
@@ -8186,6 +8216,10 @@
 	SuisseID Post - ATOS CardOS 4.x (eID)
 	https://postsuisseid.ch/
 
+3B DA 18 FF 81 91 FE 1F C3 50 56 4A 43 4F 50 33 53 49 44 72
+	J3H145 (P6 SecID) purchased from FUTAKO Ltd., Taiwan (JavaCard)
+	http://www.javacardsdk.com
+
 3B DA 18 FF 81 B1 FE 45 1F C3 54 69 63 54 6F 6B 20 32 2E 30 68
 	TikTok 2.0 (PKI)
 
@@ -8794,6 +8828,9 @@
 
 3B ED 00 00 81 31 80 42 80 31 80 65 B0 89 40 01 F2 83 00 90 00 52
 	VISA Debit card for Taishin International Bank, Taiwan
+
+3B ED 00 FF 81 31 20 75 4D 42 43 20 53 4D 50 20 56 31 2E 31 30 BD
+	Used to Control a Laser Device
 
 3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
 	MultiApp Cards (Easy 72K Type B and Combi 72K Type B)
