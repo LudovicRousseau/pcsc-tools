@@ -5846,33 +5846,33 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 36 00 00 00 00 ..
 	MIFARE Plus SL1 2K (as per PCSC std part3)
-	
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 37 00 00 00 00 ..
 	MIFARE Plus SL1 4K (as per PCSC std part3)
-	
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 38 00 00 00 00 ..
 	MIFARE Plus SL2 2K (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 39 00 00 00 00 ..
 	MIFARE Plus SL2 4K (as per PCSC std part3)
 
-3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3a 00 00 00 00 ..
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3A 00 00 00 00 ..
 	MIFARE Ultralight C (as per PCSC std part3)
 
-3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3b 00 00 00 00 ..
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3B 00 00 00 00 ..
 	FeliCa (as per PCSC std part3)
 
-3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3c 00 00 00 00 ..
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3C 00 00 00 00 ..
 	Melexis Sensor Tag (MLX90129) (as per PCSC std part3)
 
-3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3d 00 00 00 00 ..
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3D 00 00 00 00 ..
 	MIFARE Ultralight EV1 (as per PCSC std part3)
-
-3B 8F 80 01 80 4F 0C A0 00 00 03 06 00 00 00 00 00 00 00 68
-	NFC/RFID "Android Beam" mode on a Sony Xperia Ion
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 00 .. .. 00 00 00 00 ..
 	RFID - No standard given (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 00 00 00 00 00 00 00 68
+	NFC/RFID "Android Beam" mode on a Sony Xperia Ion
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 01 .. .. 00 00 00 00 ..
 	RFID - ISO 14443 Type A Part 1 (as per PCSC std part3)
