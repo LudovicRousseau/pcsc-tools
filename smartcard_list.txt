@@ -4390,8 +4390,8 @@
 	"Reiner LoginCard" (or "OWOK", how they name it) - they have been distributed by a german computer magazine ("Computer BILD")
 	https://cardlogin.reiner-sct.com/
 	Belgium A-kaart (Antwerp citycard)
-	Oyster card - Transport for London
-	http://en.wikipedia.org/wiki/Oyster_card
+	Oyster card - Transport for London (second-gen "D")
+	https://en.wikipedia.org/wiki/Oyster_card
 	Kaba Legic Advant 4k
 	Sydney Opal card public transport ticket (Transport)
 	https://www.opal.com.au
@@ -5685,14 +5685,17 @@
 3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
 	Air Miles American Express card (contactless) (Bank)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 00 00 00 00 00 ..
+	Card name not given (as per PCSC std part3)
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 01 00 00 00 00 ..
-	Mifare Standard 1K (as per PCSC std part3)
+	MIFARE Classic 1K (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 02 00 00 00 00 ..
-	Mifare Standard 4K (as per PCSC std part3)
+	MIFARE Classic 4K (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 03 00 00 00 00 ..
-	Mifare Ultralight (as per PCSC std part3)
+	MIFARE Ultralight (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 04 00 00 00 00 ..
 	SLE55R_XXXX (as per PCSC std part3)
@@ -5841,8 +5844,35 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 35 00 00 00 00 ..
 	i-Code SL2 (as per PCSC std part3)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 36 00 00 00 00 ..
+	MIFARE Plus SL1 2K (as per PCSC std part3)
+	
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 37 00 00 00 00 ..
+	MIFARE Plus SL1 4K (as per PCSC std part3)
+	
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 38 00 00 00 00 ..
+	MIFARE Plus SL2 2K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 39 00 00 00 00 ..
+	MIFARE Plus SL2 4K (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3a 00 00 00 00 ..
+	MIFARE Ultralight C (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3b 00 00 00 00 ..
+	FeliCa (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3c 00 00 00 00 ..
+	Melexis Sensor Tag (MLX90129) (as per PCSC std part3)
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 .. 00 3d 00 00 00 00 ..
+	MIFARE Ultralight EV1 (as per PCSC std part3)
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 00 00 00 00 00 00 00 68
 	NFC/RFID "Android Beam" mode on a Sony Xperia Ion
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 00 .. .. 00 00 00 00 ..
+	RFID - No standard given (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 01 .. .. 00 00 00 00 ..
 	RFID - ISO 14443 Type A Part 1 (as per PCSC std part3)
@@ -5860,11 +5890,11 @@
 	specialized Mifare Ultralight card
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 01 00 00 00 00 6A
-	Philips MIFARE Standard (1 Kbytes EEPROM)
+	NXP/Philips MIFARE Classic 1K (as per PCSC std part3)
 	http://www.nxp.com/#/pip/pip=[pfp=41863]|pp=[t=pfp,i=41863]
-	RFID - ISO 14443 Type A - Transport for London Oyster
+	Oyster card - Transport for London (first-gen)
+	https://en.wikipedia.org/wiki/Oyster_card
 	ACOS5/1k Mirfare
-	RFID - ISO 14443 Type A - NXP Mifare card with 1k EEPROM
 	vivotech ViVOcard Contactless Test Card
 	Bangkok BTS Sky SmartPass
 	Mifare Classic 1K (block 0 re-writeable)
@@ -5956,9 +5986,18 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 10 .. .. 00 00 00 00 ..
 	Contact (7816-10) 3WBP (as per PCSC std part3)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 10 .. .. 00 00 00 00 ..
+	RFID - FeliCa compatible (as per PCSC std part3)
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 11 00 3B 00 00 00 00 42
-	Rinkai Suica
+	RFID - FeliCa (generic) (as per PCSC std part3)
+	Suica public transit card (Japan IC system)
+	(also: Hayakaken, ICOCA, Kitaca, manaca, nimoca, PASMO, PiTaPa, SUGOCA, TOICA)
+	https://en.wikipedia.org/wiki/Suica
 	Octopus, MTR network from Hong Kong, 2014
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 40 .. .. 00 00 00 00 ..
+	RFID - Low Frequency < 135 kHz (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 40 00 00 00 00 00 00 28
 	HID Proximity. Used to access buildings. Reference on the card "HID0008P".
