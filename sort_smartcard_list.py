@@ -55,3 +55,5 @@ if size >= 10:
     print("    %d new ATRs" % size)
     print("********************")
     print()
+else:
+    print("only", size, "ATR")
