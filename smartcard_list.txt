@@ -2263,6 +2263,10 @@
 	WatchData Proxkey with VID:PID as 0x163C:0x0417 (PKI)
 	http://www.watchdata.com/class.php?id=19
 
+3B 6D 00 00 80 31 80 65 49 53 02 02 01 83 07 90 00
+	MasterCard SMP BANK (Bank)
+	https://smpbank.ru/
+
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
 
@@ -3325,6 +3329,10 @@
 	Belgium TEC MOBIB card (Transport)
 	https://www.infotec.be/
 
+3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 BD 09 B2 82 90 00
+	TEC MoBIB Transportation Card (Transport)
+	https://www.infotec.be/fr-be/acheteruntitre/mobib.aspx
+
 3B 6F 00 00 80 5A 2C 23 EA 00 03 05 03 BF 9E 2B 82 90 00
 	MOBIB - TEC (Transport)
 	https://www.infotec.be/fr-be/acheteruntitre/mobib.aspx
@@ -3351,6 +3359,9 @@
 	Navigo découverte Paris (Transport)
 	http://www.navigo.fr/titres/le-forfait-navigo-semaine-presentation/
 
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 40 E8 19 82 90 00
+	France Ile de France Public Transport Card (Transport)
+
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
 
@@ -3364,6 +3375,10 @@
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 32 19 CF 82 90 00
 	Personalized MOBIB card (Brussels transports) (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
+
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 E7 D7 52 82 90 00
+	MoBIB (Transport)
+	https://mobib.be/nl.html
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 03 55 46 82 90 00
 	MoBIB: Belgian transport card (NFC) (Transport)
@@ -5385,6 +5400,10 @@
 3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
 	isodep, NfcB (Transport)
 
+3B 8C 80 01 50 C1 7D A8 CA 00 00 00 00 00 71 71 83
+	Navigo Easy (France) transport card (Transport)
+	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
+
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
 
@@ -5456,6 +5475,9 @@
 
 3B 8C 80 01 90 67 46 4A 00 68 08 06 00 00 00 00 90
 	Feitian JavaCard - RFID I/F (JavaCard)
+
+3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01
+	Microsoft Virtual Smart Card 0 (PKI)
 
 3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01 CF
 	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
@@ -7429,6 +7451,10 @@
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
 	https://www.bob.at
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 15 57 4A 33 0E 3B 33 34 00 A5
+	O2 Spain phone SIM (Telecommunication)
+	https://o2online.es/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
 
@@ -8509,6 +8535,9 @@
 3B DE 18 FF C0 80 B1 FE 45 1F 03 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 2B
 	Estonian Identity Card (EstEID v1.0 2006 cold)
 
+3B DE 86 FF 91 01 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 5D
+	Mifare Desfire SAM Module (after warm reset) (Other)
+
 3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
 	Identity Card in Slovakia with security chip and e-signature
 
@@ -8955,6 +8984,9 @@
 3B EF 00 00 81 31 FE 45 43 4D 42 5F 43 6F 6D 53 44 41 30 30 35 31 00 E4
 	Visa (Sampo Estonia, 2010)
 
+3B EF 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 56 20 20 20 20 20 20 00 AD
+	Corporate Credit Card - SIEMENS MasterCard issued by Degussa Bank (Bank)
+
 3B EF 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 56 49 20 20 20 20 20 00 C4
 	VfB Stuttgart Fankarte (pay card for the football stadium of the german club VfB Stuttgart)
 
@@ -9087,6 +9119,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 3D 35 37 10 78
 	Sparkasse KölnBonn Bank (Bank)
 	https://www.sparkasse-koelnbonn.de
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 11 3B 32 37 10 64
+	DKB GiroCard (Bank)
+	https://dkb.de
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
 	SparkassenCard (Bank)
