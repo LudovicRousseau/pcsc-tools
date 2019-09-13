@@ -53,6 +53,9 @@
 3B .. .. 41 73 74 72 69 64
 	Axalto Cryptoflex .NET
 
+3B 02 14 1C
+	UAE (United Arab Emirates) (eID)
+
 3B 02 14 50
 	Schlumberger Multiflex 3k
 
@@ -1463,6 +1466,10 @@
 	Bank Card (ING - Belgium)
 	Schiphol Group Privium biometric card (Amsterdam Airport entry system)
 
+3B 67 00 00 2E 30 00 32 68 9F 22
+	Stralfors fingerprint card (Other)
+	https://www.stralfors.com/
+
 3B 67 00 00 44 04 01 00 00 FF 07
 	Visa Electron card, "Bank St. Petersburg", Russia (Bank)
 
@@ -2730,6 +2737,10 @@
 	Mastercard used in Spain to pay in Restaurants. Made by Edenred. Limited in payment and unable to get physical cash. (Bank)
 	https://www.edenred.es/
 
+3B 6E 00 00 80 31 80 66 B1 A6 01 01 01 13 83 00 90 00
+	Finnish Smartum benefit card (Other)
+	https://www.smartum.fi/
+
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
 
@@ -2909,6 +2920,10 @@
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 A6 55 55 55 55 55 55
 	USAA EMV Mastercard Creditcard (Bank)
 	https://www.usaa.com/inet/pages/bk_cc_chipcardLP_landing_mkt?adID=VURL_chipcard
+
+3B 6F 00 00 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
+	debit card (Bank)
+	https://www.usaa.com/inet/wc/banking
 
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 D1 55 55 55 55 55 55
 	Pockit Pre-Paid Mastercard (Contact Chip). (Bank)
@@ -5276,6 +5291,9 @@
 	VISA Hello bank! (NFC) (Bank)
 	https://www.hellobank.fr/
 
+3B 8C 80 01 50 10 73 31 B4 00 00 00 00 B3 71 71 08
+	MiMuovo public transport card used in Italian region Emilia Romagna (Transport)
+
 3B 8C 80 01 50 10 B7 6A AE 00 00 00 00 B3 71 71 8D
 	Tisseo (Toulouse)  (Transport)
 	http://www.tisseo.fr/les-tarifs/obtenir-une-carte-pastel
@@ -5283,6 +5301,10 @@
 3B 8C 80 01 50 10 B9 F9 89 00 00 00 00 B3 71 71 37
 	Toulouse (France) city public transport card called TISSEO Pastel (Transport)
 	https://www.tisseo.fr/les-tarifs/obtenir-une-carte-pastel
+
+3B 8C 80 01 50 10 D6 32 A0 00 00 00 00 B3 71 71 BA
+	MOBIB (STIB) (Transport)
+	https://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en
 
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
@@ -5352,6 +5374,9 @@
 
 3B 8C 80 01 50 79 19 60 01 00 DD A6 11 F7 71 85 35
 	Transport Traway Montpellier France  (Transport)
+
+3B 8C 80 01 50 7E 00 71 D2 00 00 00 00 00 71 71 80
+	Unica (= Just one) joined train and public transport card for Italian region Emilia Romagna (evolution of MiMuovo) (Transport)
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
@@ -5521,6 +5546,9 @@
 
 3B 8D 80 01 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 48
 	cipurse (Other)
+
+3B 8D 80 01 54 41 58 54 43 4F 53 4E 20 17 03 07 33 04
+	Contactless Java Card v.2.2, GP version 2.2.1 with a NDEF storage applet installed. (JavaCard)
 
 3B 8D 80 01 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 3F
 	G&D SmartCafe Expert 3.2 80K Dual
@@ -6194,6 +6222,9 @@
 3B 96 95 80 1F C3 D0 07 83 02 54 00 5D
 	au IC-card ver.001 (for CDMA2000) (Telecommunication)
 	https://ja.wikipedia.org/wiki/Au_IC%E3%82%AB%E3%83%BC%E3%83%89
+
+3B 97 11 80 1F 41 80 31 A0 73 BE 21 00 A6
+	Comprion UT3 simulator SIM (Other)
 
 3B 97 11 80 1F 42 80 31 A0 73 BE 21 00 A6
 	ETSI 102 230 Test case 5.2.5.3. Comprion IT3 SIM emulator (Telecommunication)
@@ -7450,6 +7481,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
 	https://www.bob.at
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 14 02 01 03 51
+	LTE USIM (US) (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 15 57 4A 33 0E 3B 33 34 00 A5
 	O2 Spain phone SIM (Telecommunication)
@@ -10567,6 +10601,9 @@
 
 3F 65 25 00 24 09 6B 90 00
 	Old Postgirot/Plusgirot SmartSec bank ID card (Bank)
+
+3F 65 25 00 24 09 6E 90 00
+	Oberthur Bull CP8 smart card. Russian "Pochtovyj Bank" (Bank)
 
 3F 65 25 00 2B 09 62 90 00
 	Coinamatic SmartyCity smartcard
