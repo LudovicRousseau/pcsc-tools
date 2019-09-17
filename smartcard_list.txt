@@ -1980,6 +1980,9 @@
 3B 6B 00 00 00 31 C0 64 08 17 71 00 07 90 00
 	MasterCard Debit Card for Macquarie Bank, Australia (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 39 81 04 0F 90 00
+	Visa Debit (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 44 03 04 0F 90 00
 	VISA debit card (ActivoBank, Portugal) (Bank)
 	https://www.activobank.pt
@@ -2756,6 +2759,10 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 31 00 90 00
 	Beutsche Bank Business mastercard credit (Bank)
 	https://www.deutsche-bank.de/gk/zahlungsverkehr/zahlungsverkehr-im-ueberblick/kreditkarte.html
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 33 00 90 00
+	Bank card from the Commonwealth Bank of Australia (Bank)
+	https://www.commbank.com.au/business/pds/cbb127_eftpos_int_v7.pdf
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 31 00 90 00
 	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
@@ -4536,6 +4543,10 @@
 3B 84 80 01 47 77 F4 00 C1
 	True Money Touch Sim (Thailand)
 
+3B 84 80 01 69 18 00 00 74
+	e-money flazz (Bank)
+	https://www.bca.co.id/Individu/Produk/E-Banking/Flazz
+
 3B 84 80 01 80 82 90 00 97
 	German passport (passport)
 
@@ -5425,6 +5436,10 @@
 3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
 	isodep, NfcB (Transport)
 
+3B 8C 80 01 50 C1 6A 34 72 00 00 00 00 00 71 71 B0
+	Navigo pass (RATP) (Transport)
+	http://www.navigo.fr/
+
 3B 8C 80 01 50 C1 7D A8 CA 00 00 00 00 00 71 71 83
 	Navigo Easy (France) transport card (Transport)
 	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
@@ -6252,7 +6267,7 @@
 	http://goo.gl/rSEi4N
 
 3B 98 13 40 0A A5 03 01 01 01 AD 13 11
-	Belgium Electronic ID card
+	Belgium Electronic ID card (eID)
 
 3B 98 18 01 52 4D 4D 20 76 31 2E 32 A8
 	Ericsson Mini-Link RYS 110 243/1 (Other)
@@ -6261,13 +6276,13 @@
 	Avtor SecureToken 00 00 (Other)
 
 3B 98 30 40 0A A5 03 01 01 01 AD 13 11
-	Belgium eID card (eID)
+	Belgium Electronic eID card (eID)
 
 3B 98 94 00 93 91 14 01 0A 06 06 06
 	Orange Spain 64k Sim card
 
 3B 98 94 40 0A A5 03 01 01 01 AD 13 10
-	Belgium Electronic ID card
+	Belgium Electronic ID card (eID)
 
 3B 98 94 80 1F C2 32 2E 31 30 31 14 01 40 28
 	CMCC operator UICC (Telecommunication)
@@ -6279,7 +6294,7 @@
 	T-Mobile MVNO SIM card
 
 3B 98 95 40 FF D0 00 48 01 01 AD 13 21
-	Belgian Eid virtual test card
+	Belgium Electronic ID card (eID) - virtual test card
 	https://env.dev.eid.belgium.be/prepcard.php
 
 3B 98 96 00 4B 41 5A 54 4F 4B 45 4E
@@ -6564,6 +6579,10 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EC
 	Mobile Vicking SIM card (Telecommunication)
 	https://vikingco.com/fr/mobile-vikings/
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B EB 0D 00 9F
+	TRE (Telecommunication)
+	http://www.tre.se
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 29 10 00 A2
 	Simyo-Mobile Belgium GSM SIM card
@@ -6863,6 +6882,9 @@
 
 3B 9F 13 81 B1 80 37 1F 03 80 31 F8 69 4D 54 43 4F 53 70 02 01 02 81 07 86
 	Swiss Health Insurance Card
+
+3B 9F 15 81 31 FE 45 80 67 55 45 4B 41 45 12 21 31 80 73 B3 A1 80 5A
+	AKIS (eID)
 
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 03 83 95 00 80 55
 	Nagravision Betacrypt
@@ -7596,6 +7618,9 @@
 	Multipurpose UICC card for 2G, 3G, 4G/LTE, CDMA, ISIM & NFC (Telecommunication)
 	http://www.smartjac.biz/index.php/component/eshop/telecom/test-uicc-sim-cards/2ff-mini-sim-cards/4g-open-multipurpose-uicc-card-3ff?Itemid=0
 
+3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 33 05 81 05 30 00 CE
+	COMPRION M2M eUICC (Telecommunication)
+
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
 
@@ -8276,6 +8301,9 @@
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 41 1A 2B
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
+
+3B D8 18 00 80 B1 FE 45 1F 07 80 31 C1 64 08 06 92 0F D5
+	Oberthur Cosmo v8 (PKI)
 
 3B D8 18 FF 81 31 FE 45 80 64 04 1B B4 2A 81 05 D5
 	Schweizerische Krankenversicherungskarte KVG (HealthCare)
@@ -10466,6 +10494,10 @@
 	NC+ Polland (Pay TV)
 	http://www.flysat.com/ncplus.php
 
+3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 32 30 20 52 65 76 53 34 41
+	Platforma Canal+ Polska, cayman card (Pay TV)
+	https://www.flysat.com/canalplus-pl.php
+
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
 	Vodafone 64 KB SIM with Javacard
 
@@ -10483,6 +10515,10 @@
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 41
 	Pay TV - NC+ in Poland (Pay TV)
 	http://ncplus.pl/
+
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 47
+	Platforma Canal+ Polska, cameleon card (Pay TV)
+	https://www.flysat.com/canalplus-pl.php
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 20 07 33 41 41 1F
 	Swisscom 3G SIM card
