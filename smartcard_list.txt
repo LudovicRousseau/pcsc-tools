@@ -3273,6 +3273,10 @@
 	Korrigo Ter French card for train travels (Transport)
 	https://www.ter.sncf.com/bretagne/offres/carte-korrigo
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 F7 E4 32 82 90 00
+	KorriGo, smart transport card in France region Brittany (Transport)
+	https://www.ter.sncf.com/bretagne/offres/carte-korrigo
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 F8 0B C3 82 90 00
 	Korrigo Card (Transport in Rennes Area in France ) (Transport)
 	https://www.star.fr/titres-tarifs/carte-korrigo/
@@ -3383,6 +3387,10 @@
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 40 E8 19 82 90 00
 	France Ile de France Public Transport Card (Transport)
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 7D A8 CA 82 90 00
+	Navigo Easy (France) transport card (Transport)
+	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
@@ -4417,6 +4425,8 @@
 	Portuguese Blood Donator National Card (HealthCare)
 	Swedish ID card from Skatteverket with an Electronic ID from AB Svenska Pass, issued September 2017 or later
 	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
+	Swedish ID card from Skatteverket with an Electronic ID from AB Svenska Pass, issued September 2017 or later (eID)
+	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
 
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
 	Finnish identity card (eID)
@@ -4942,6 +4952,9 @@
 	national Lithuania ID card (eID)
 	https://www.dokumentai.lt/viewpage.php?page_id=77
 
+3B 88 80 01 76 61 75 6C 74 69 74 31 5F
+	ID06 2.0 (eID)
+
 3B 88 80 01 76 61 75 6C 74 69 74 32 5C
 	Vaultit Identity Card (eID)
 
@@ -5355,6 +5368,9 @@
 	Navigo (public transportation in Île-de-France), IDF Mobilités (Transport)
 	https://www.iledefrance-mobilites.fr/l-innovation/navigo/
 
+3B 8C 80 01 50 2C 8D 21 4B 23 18 01 00 77 81 97 CD
+	Indonesian Driver License
+
 3B 8C 80 01 50 35 A4 5B 65 00 00 00 00 80 81 71 82
 	Trenitalia cartafreccia (Transport)
 	http://www.trenitalia.com/tcom/Cartafreccia
@@ -5366,6 +5382,12 @@
 3B 8C 80 01 50 3A 96 4B 00 00 00 00 00 00 81 80 BB
 	Ventra Transit Pass (Transport)
 	https://www.ventrachicago.com/how-to/ventra-cards/
+
+3B 8C 80 01 50 43 E0 F5 F4 31 01 06 00 77 81 77 48
+	Indonesian Driver License
+
+3B 8C 80 01 50 46 E5 70 EC 23 18 01 00 77 81 97 39
+	Indonesian Driver License
 
 3B 8C 80 01 50 54 67 13 79 00 00 00 00 F7 81 C1 B3
 	Tessera Sanitaria italian health care card (HealthCare)
@@ -5385,6 +5407,9 @@
 
 3B 8C 80 01 50 79 19 60 01 00 DD A6 11 F7 71 85 35
 	Transport Traway Montpellier France  (Transport)
+
+3B 8C 80 01 50 7A A4 40 07 23 18 01 00 77 81 97 9F
+	Indonesian Driver License
 
 3B 8C 80 01 50 7E 00 71 D2 00 00 00 00 00 71 71 80
 	Unica (= Just one) joined train and public transport card for Italian region Emilia Romagna (evolution of MiMuovo) (Transport)
@@ -6761,12 +6786,19 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
 	Lenovo SIM card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 C8 0F 00 5F
+	OneSimCard (Telecommunication)
+	http://www.onesimcard.com/
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 FE 0E 00 68
 	Finnish Sonera SIM-card (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 04 11 00 B4
 	Aldi Talk SIM card, Germany (Telecommunication)
 	https://www.alditalk.de/talk
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 DD 12 00 6E
+	USIM (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 12 10 00 A2
 	OpenAirInerface (Telecommunication)
@@ -8682,6 +8714,10 @@
 3B DF 96 00 80 B1 FE 45 1F 83 80 73 BC 91 80 F9 A0 00 00 00 77 80 08 02 01 A4
 	Latvian eSignature card (eID)
 	https://www.lvrtc.lv/e-signature.html
+
+3B DF 96 00 81 31 FE 45 41 43 4F 53 2D 49 44 30 30 32 38 2E 30 31 36 6F
+	Sri Lankan driving license [ web: motortraffic.gov.lk ] (eID)
+	http://www.motortraffic.gov.lk/web/index.php?option=com_content&view=article&id=83&Itemid=140&lang=en
 
 3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
 	Test PIV Cards available for sale from NIST
