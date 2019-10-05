@@ -2940,6 +2940,10 @@
 	Bank IN - Slovenian bank (Bank)
 	https://www.bankain.si/BIN/vstopna.seam
 
+3B 6F 00 00 80 31 E0 6B 04 52 05 02 BB 55 55 55 55 55 55
+	AlfaBROU - Mastercard (prepaid card emited by Banco Republica - Uruguay) (Bank)
+	https://www.brou.com.uy/personas/tarjetas/prepaga-alfabrou
+
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
 	http://banamex.com
@@ -3266,6 +3270,10 @@
 	Korigo card transport for star company (France) (Transport)
 	http://www.star.fr/titres-et-tarifs/carte-korrigo/
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 CF 89 8A 82 90 00
+	Korrigo Card (Rennes Métropole bus network) (Transport)
+	https://www.star.fr/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 D9 9C 6F 82 90 00
 	KorriGo (Brittany) transport card (Transport)
 
@@ -3328,6 +3336,10 @@
 	http://www.mobib.be/
 	http://www.belgianrail.be/en/travel-tickets/mobib/no-mobib.aspx
 	http://www.stib-mivb.be/mobib.html
+
+3B 6F 00 00 80 5A 2C 23 C4 00 03 06 03 0F 02 BF 82 90 00
+	MOBIB card - De Lijn (Transport)
+	https://www.delijn.be/en/vervoerbewijzen/mobib/?vertaling=true
 
 3B 6F 00 00 80 5A 2C 23 C4 00 03 06 03 95 24 59 82 90 00
 	MOBIB - De Lijn (Transport)
@@ -3632,8 +3644,16 @@
 3B 79 18 00 00 80 54 43 4F 4C 44 82 90 00
 	LBB VISA Card
 
+3B 79 18 00 00 80 63 4B 56 02 83 07 90 00
+	Pay charge of South Korean Highway Tollgate, It named hi-pass. This card is sales by 'SM hiplus', and card name is 'Greencar Postpaid hi-pass Card'. In this name, 'Greencar' means South Korea's Car Sharing Service. This card from Rented car. (Transport)
+	https://www.lottecard.co.kr/
+
 3B 79 18 00 00 80 63 55 50 01 83 07 90 00
 	TEST SAM Card (espark) (Other)
+
+3B 79 18 00 00 80 63 55 56 12 83 07 90 00
+	'hi-pass+ Prepaid hi-pass Card' pay charge of South Korean Highway Tollgate. Sold by 'SM hiplus' (Transport)
+	http://www.hipluscard.co.kr/
 
 3B 79 94 00 00 59 01 01 0E 01 6B 01 02 A9
 	Vending machine payment card ('Necta' brand)
@@ -4280,6 +4300,10 @@
 3B 7F 13 00 00 80 31 C0 52 3C 89 64 02 00 0B 70 83 83 90 00
 	ING Direct Visa (Bank)
 	https://www.ingdirect.es/
+
+3B 7F 13 00 00 80 31 C0 52 71 0B 64 05 00 EC 71 83 83 90 00
+	Itaú Visa Volar Debit (Bank)
+	https://www.itau.com.uy/inst/tarjetaVolarDebitoComercios.html
 
 3B 7F 13 00 FF 45 43 4F 53 76 31 31 30 28 63 29 50 46 42 4D
 	ECOS-Card [Experimental Card Operating System V.1.1] by Philipp Maier
@@ -5221,6 +5245,9 @@
 	NUMBER26 Maestro Card (Bank)
 	https://number26.eu
 
+3B 8B 80 01 00 31 C0 64 08 44 03 04 00 90 00 44
+	Credit Card Visa (Other)
+
 3B 8B 80 01 00 31 C0 64 08 44 03 12 00 90 00 52
 	Tomorrow Debit Mastercard issued by solarisBank AG (Bank)
 	https://www.tomorrow.one/
@@ -5375,6 +5402,9 @@
 	Trenitalia cartafreccia (Transport)
 	http://www.trenitalia.com/tcom/Cartafreccia
 
+3B 8C 80 01 50 37 0B 16 BD 31 01 06 01 77 81 77 7C
+	Driver License of Indonesia - SIM (Surat Izin Mengemudi) (Transport)
+
 3B 8C 80 01 50 38 0E B2 5B 00 00 00 00 B3 71 71 31
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
 	http://bip.piemonte.it/
@@ -5389,8 +5419,14 @@
 3B 8C 80 01 50 46 E5 70 EC 23 18 01 00 77 81 97 39
 	Indonesian Driver License
 
+3B 8C 80 01 50 53 81 57 36 30 AA AA 01 77 81 D7 FE
+	Indonesian ektp (eID)
+
 3B 8C 80 01 50 54 67 13 79 00 00 00 00 F7 81 C1 B3
 	Tessera Sanitaria italian health care card (HealthCare)
+
+3B 8C 80 01 50 5C F5 A9 45 30 AA AA 01 77 81 D7 08
+	Indonesia ektp (eID)
 
 3B 8C 80 01 50 60 5F 2E FA 00 00 00 00 77 81 91 D1
 	Residence Permit (Switzerland) (eID)
@@ -6799,6 +6835,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 DD 12 00 6E
 	USIM (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 EC 11 00 5C
+	Boost Mobile Prepaid Micro SIM Card (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 12 10 00 A2
 	OpenAirInerface (Telecommunication)
