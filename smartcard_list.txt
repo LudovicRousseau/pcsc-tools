@@ -555,6 +555,10 @@
 	XL (Telecommunication)
 	http://www.xl.co.id/
 
+3B 1D 11 43 4C 5F 53 41 4D 00 14 38 00 00 90 00
+	Planeta Informatica CL-SAM (Transport)
+	http://www.planeta.inf.br
+
 3B 1D 96 00 23 07 00 00 00 00 00 00 00 00 90 00
 	emulator card prototype from ST
 
@@ -938,6 +942,9 @@
 3B 3B 96 00 40 54 01 00 00 0A C0 33 33 90 00
 	Wind (Italy) 64K prepaid GSM SIM card
 
+3B 3B 96 00 40 88 91 00 00 08 EA 33 33 90 00
+	iraqmanager (eID)
+
 3B 3B 96 00 92 42 10 10 5A 02 E0 00 33 90 00
 	Roaming Test SIM (Telecommunication)
 
@@ -1133,6 +1140,9 @@
 
 3B 5F 95 00 80 73 00 01 00 59 43 4C 5A C5 06 12 C0 90 00
 	Republic of Liberia Civil Service Identification Card (eID)
+
+3B 5F 96 00 80 5A 2C 11 00 10 10 00 FF FF FF FF 82 90 00
+	Calypso (Transport)
 
 3B 61 00 00 80
 	blank A40CR card (JavaCard)
@@ -1809,6 +1819,10 @@
 
 3B 69 00 00 57 92 02 01 01 00 01 00 A9
 	Sun Microsystems Sun Ray 1G thin client access card (Other)
+
+3B 69 00 00 5A 45 4E 20 54 4F 4B 45 4E
+	Ezio Flex BLE OATH Token (other)
+	https://data-protection-updates.gemalto.com/2017/03/06/ezio-flex-ble-oath-token-is-launched/
 
 3B 69 00 00 80 31 E0 55 42 45 52 47 53
 	Banrisul Bank
@@ -4365,6 +4379,9 @@
 	Gemalto Classic V4
 	Juridic Person's Token (PKI)
 
+3B 7F 94 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00 3B 02 14 50
+	Uruguayan Identification Card (Cedula de Identidad) (eID)
+
 3B 7F 94 00 00 80 31 80 71 90 67 54 45 4D 44 31 2E 30 90 00
 	M.MAR (MEE GVB1.1/11.06) eID
 	Tarjeta Electrónica del Ministerio de Defensa (M.MAR TEMDv1.0)
@@ -4716,6 +4733,10 @@
 
 3B 86 80 01 4B 4F 4E 41 14 11 09
 	Mastercard paypass enabled credit card
+
+3B 86 80 01 57 41 52 49 30 31 0B
+	Gusto Karta (Bank)
+	https://www.gustokarta.cz
 
 3B 86 80 01 57 57 50 61 73 73 36
 	WWPass Passkey (eID)
@@ -6869,6 +6890,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
 	Telkom (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 CD 11 00 C9
+	O2 4G SIM card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 D9 12 00 DE
 	telenor (swedish mobile provider) SIM card (Telecommunication)
 
@@ -7385,6 +7409,10 @@
 	SAP Leonardo IoT Connect 365 SIM card (Telecommunication)
 	https://www.sap.com/uk/products/enterprise-iot-connect.html
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 17 73 00 82 90 00 E5
+	Prixtel SIM card over OrangeF network (Telecommunication)
+	https://www.prixtel.com
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 19 31 00 82 90 00 A9
 	Taiwan Star Telecom Corporation Limited (Telecommunication)
 	https://www.tstartel.com/CWS/
@@ -7487,6 +7515,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 26 33 32 00 B8
 	Vodafone sim card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 3F 33 34 00 A7
+	SIM Card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
 
@@ -7570,6 +7601,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 01 02 01 02 45
 	SIM card from the Polish telecom operator "P4" or "Play" (Telecommunication)
 	https://www.play.pl/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 04 02 38 01 7A
+	Beeline (Russia) SIM card (Telecommunication)
+	https://moskva.beeline.ru/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
