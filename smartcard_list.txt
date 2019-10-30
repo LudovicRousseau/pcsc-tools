@@ -2588,6 +2588,9 @@
 3B 6E 00 00 00 31 C0 71 C6 65 19 02 04 06 2F 0F 90 00
 	UniCredit (Italy) "Bancomat" (Maestro) debit card (Bank)
 
+3B 6E 00 00 00 31 C0 71 C6 65 19 02 04 06 32 0F 90 00
+	Visa Electron card (Bank)
+
 3B 6E 00 00 00 31 C0 71 C6 65 23 7B 02 75 39 83 90 00
 	MASTERCARD (CARTASI') (Bank)
 
@@ -4425,6 +4428,9 @@
 	STPay-Gold (JavaCard)
 	http://www.st.com/en/secure-mcus/stpay-gold.html
 
+3B 7F 96 00 00 31 00 DE 52 50 01 00 15 00 00 00 00 00 00 00
+	VALES (Bank)
+
 3B 7F 96 00 00 80 31 80 65 55 85 03 00 EF 12 41 40 82 90 00
 	Civil ID  (eID)
 
@@ -5277,6 +5283,9 @@
 	Advanzia / Gebuhrenfrei.com Mastercard Gold (Bank)
 	https://www.gebuhrenfrei.com/Home/
 
+3B 8B 80 01 00 31 C0 64 08 44 03 76 00 90 00 36
+	American Express Blue Card (Germany) (Bank)
+
 3B 8B 80 01 00 31 C0 64 1F 18 01 00 00 90 00 09
 	Student ID card in Poland (eID)
 
@@ -5517,6 +5526,9 @@
 
 3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
 	isodep, NfcB (Transport)
+
+3B 8C 80 01 50 C1 1B A3 F1 00 00 00 00 91 71 71 44 3B 02 14 50
+	Tramway (PKI)
 
 3B 8C 80 01 50 C1 6A 34 72 00 00 00 00 00 71 71 B0
 	Navigo pass (RATP) (Transport)
@@ -6218,6 +6230,9 @@
 
 3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 FF B2
 	Italian Passport (passport)
+
+3B 8F 80 01 80 91 E1 31 D8 65 B2 8C 01 00 07 73 C4 41 E0 5C
+	Portuguese epassport (passport)
 
 3B 8F 80 01 86 84 43 54 44 4E 40 9F 3E C4 0D 68 28 04 00 7D
 	Access card to the underground network of guangzhou (Transport)
@@ -7675,6 +7690,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 38 02 00 82 90 00 BA
 	SIM card operateur Free (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 44 73 00 82 90 00 B7
+	Bouygues Telecom (French Mobile Provider SIM card) (Telecommunication)
+	https://www.bouyguestelecom.fr
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
 
@@ -7874,6 +7893,9 @@
 
 3B A8 00 81 71 46 5D 00 54 43 4F 53 31 2E 32 4B 2E
 	CeloCom Card with TCOS 1.2
+
+3B AA 00 40 14 47 47 32 45 54 35 53 34 38 30
+	Old German "D2 Privat" sim card (Telecommunication)
 
 3B AA 00 40 14 47 47 32 47 54 35 53 34 38 30
 	GSM-SIM Libertel (900MHz)
@@ -8598,6 +8620,10 @@
 3B DB 96 FF C0 10 31 FE 45 80 67 15 01 B4 03 00 09 00 81 05 21
 	Digital Tachograph Card for Professional Driver
 	olish driver card for digital tachograph
+
+3B DC 18 02 C1 0A 31 FE 58 80 31 A8 73 B0 01 9B 24 60 07 13 20 AA
+	Public Services Card | Ireland (Other)
+	https://psc.gov.ie/
 
 3B DC 18 FF 80 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 39
 	Digital Signature Costa Rica (eID)
@@ -9528,6 +9554,10 @@
 
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
+
+3B F8 11 00 00 81 71 FE 42 00 54 4E 05 19 00 00 00 02 A1
+	Taiwan EasyCard (Transport)
+	https://www.easycard.com.tw/english/index.asp
 
 3B F8 11 20 03 40 FF FF FF FF FF 12 10 90 00
 	G&D (STARCOS SV 1.1)
@@ -10667,6 +10697,10 @@
 
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
+
+3B FF 96 00 00 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 EB
+	Aruba PEC SpA digital signature card made by Incard (eID)
+	https://www.pec.it/download-software-driver.aspx
 
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
