@@ -210,6 +210,9 @@
 3B 06 01 01 00 00 10 73
 	HID Prox 26-bit (eID)
 
+3B 06 01 01 02 00 00 01
+	HID0009P (eID)
+
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
 	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
@@ -1337,6 +1340,10 @@
 3B 65 00 00 20 63 CB BC 10
 	French "Ticket Restaurant" Edenred payment card (Other)
 	https://www.myedenred.fr/
+
+3B 65 00 00 20 63 CB C1 00
+	CIC (Bank)
+	https://www.cic.fr/
 
 3B 65 00 00 26 40 00 90 00
 	Alacard Petroltech (Transport)
@@ -2961,6 +2968,10 @@
 	AlfaBROU - Mastercard (prepaid card emited by Banco Republica - Uruguay) (Bank)
 	https://www.brou.com.uy/personas/tarjetas/prepaga-alfabrou
 
+3B 6F 00 00 80 31 E0 6B 04 52 05 02 FE 55 55 55 55 55 55
+	CITIBanamex "Perfiles" debit card (Bank)
+	https://www.banamex.com/es/personas/cuentas/cuenta-perfiles.html
+
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
 	http://banamex.com
@@ -3262,6 +3273,9 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 67 80 D9 82 90 00
 	Navigo (Transport)
 	https://www.navigo.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 6D 6B B5 82 90 00
+	Navigo (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 77 EE D6 82 90 00
 	Navigo (Paris) - Gamalto SmarCard (Transport)
@@ -3584,6 +3598,9 @@
 3B 78 12 00 00 54 C4 02 04 FF FF 6F 04
 	UPC Direct Satellite TV Card (Pay TV)
 	http://www.upcdirect.com/
+
+3B 78 12 00 00 54 C4 02 07 8F F1 90 00
+	Polish WIZJA TV pay-tv card for satellite receivers (Pay TV)
 
 3B 78 12 00 00 54 C4 03 00 8F F1 90 00
 	Skylink irdeto from Towercom a.s. company
@@ -4965,6 +4982,9 @@
 
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
+
+3B 88 80 01 31 CC CC 01 77 83 A1 00 6C
+	Chile RUT (eID)
 
 3B 88 80 01 31 F3 5E 11 00 81 95 00 90
 	Venez_Omnikey
@@ -7253,6 +7273,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5C
 	AT&T (US) GSM SIM
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 BE B7 00 20 10
+	Kyivstar SIM (Telecommunication)
+	https://kyivstar.ua/
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BE
 	Telenet N.V. Walk & Talk SIM Card Belgium
 
@@ -7621,9 +7645,16 @@
 	Beeline (Russia) SIM card (Telecommunication)
 	https://moskva.beeline.ru/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 05 06 03 01 44
+	French free.fr 2€/month sim card  (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
 	https://www.bob.at
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 13 01 01 01 57
+	Polish MVNO "nju mobile" SIM card (Telecommunication)
+	https://njumobile.pl
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 14 02 01 03 51
 	LTE USIM (US) (Telecommunication)
@@ -10060,6 +10091,9 @@
 3B FD 96 00 00 81 31 FE 45 00 00 01 52 33 67 20 00 00 00 00 00 00 47
 	DPI Guatemala (eID)
 	https://www.renap.gob.gt/servicios/que-es-el-dpi
+
+3B FD 96 00 00 81 31 FE 45 00 00 01 61 63 86 20 00 00 00 00 00 00 C5
+	Renap Guatemala (eID)
 
 3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 4C 31 32 38 43 52 57
 	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
