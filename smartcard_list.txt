@@ -2287,6 +2287,10 @@
 3B 6D 00 00 57 44 29 6C 80 86 93 D6 03 EE 08 2A 3D
 	SCSTA (Transport)
 
+3B 6D 00 00 57 44 36 41 01 86 93 07 31 31 32 32 35
+	Watchdata Proxkey (PKI)
+	https://www.watchdata.com/
+
 3B 6D 00 00 57 44 36 41 01 86 93 07 32 31 36 34 32
 	Watchdata USB Key (Other)
 
@@ -3576,6 +3580,10 @@
 	Precise BioMatch (TM) JavaCard (Schlumberger)
 	www.precisebiometrics.com
 
+3B 76 13 00 00 43 68 69 70 31 37
+	PostFinance Switzerland Gemalto SP U1128785A 1017 (Bank)
+	https://www.postfinance.ch
+
 3B 76 13 00 00 80 62 07 41 81 80
 	Generic mass produced Motorola smart card
 
@@ -4465,6 +4473,9 @@
 	Serbian International Student Identity Card (ISIC) (eID)
 	https://www.gpa.rs/kartice
 
+3B 7F 96 00 00 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00
+	IDPrime 930/3930 FIPS Level 2 or Level 3 (T=0 CT=96) (BAI1, BAI2, BAI3, BAI5, BAI7) (PKI)
+
 3B 7F 96 00 00 80 31 80 65 B0 85 02 01 F3 12 0F FF 82 90 00
 	Swedish National Identity Card (eID)
 	https://polisen.se/tjanster-tillstand/pass-och-nationellt-id-kort/
@@ -4988,6 +4999,9 @@
 
 3B 88 80 01 31 F3 5E 11 00 81 95 00 90
 	Venez_Omnikey
+
+3B 88 80 01 32 F3 5E 11 33 87 95 00 A6
+	IDPrime 3930 FIPS Level 3 (Contactless TypeB) (BAI6) (PKI)
 
 3B 88 80 01 35 20 00 00 77 81 91 00 7B
 	Ireland EPassport (passport)
@@ -5855,6 +5869,9 @@
 3B 8F 80 01 80 31 80 65 B0 84 23 27 E5 12 0F FE 82 90 00 7E
 	Gemalto IDPrime MD 3810 Blank Card (Other)
 	http://www.gemalto.com/products/IDPrime_MD/index.html
+
+3B 8F 80 01 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 66
+	IDPrime 3930 FIPS Level 2 (Contactless TypeA) (BAI5, BAI7) (PKI)
 
 3B 8F 80 01 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00 72
 	Gemalto IDPrime MD 3840
@@ -7739,6 +7756,9 @@
 	9mobile Nigeria (Telecommunication)
 	http://www.9mobile.com.ng
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2A 01 0A 01 02 81 05 74
+	Thailand AIS SIM Card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2D 01 0C 04 00 81 05 72
 	Tri Indonesia Bima+ SIM Card (Telecommunication)
 	https://beta.tri.co.id/3digiworld/Bimaplus
@@ -9316,6 +9336,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 06 12 41 37 20 1E
 	BankCard Sparda-Bank Baden-Württemberg eG (Bank)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 08 3B 3C 37 20 44
+	Comdirect Debit Card Germany - AustriaCard 55616 (Bank)
+	https://www.comdirect.de/
+
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0A 1B 18 37 20 42
 	German debit card (girocard, V-Pay) (Bank)
 	https://www.girocard.eu/english/
@@ -10619,6 +10643,9 @@
 	Serbian Identity Card (eID)
 	Java Card (Sealys MultiApp ID v2.1) supporting Global Platform 2.1.1
 
+3B FF 94 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0E
+	IDPrime 930 FIPS Level 3 (T=1 CT=94) (BAI4) (PKI)
+
 3B FF 94 00 00 C0 0A B1 FE 49 1F 43 80 31 E0 73 F6 21 13 57 34 36 43 41 32 30 20 68
 	Sonera UICC (Telecommunication)
 
@@ -10725,6 +10752,9 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 56 51 10 12 01 78 82 90 00 6A
 	SafeNet eToken 5300 (PKI)
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0C
+	IDPrime 930 FIPS Level 2 (T=1 CT=96) (BAI3.1) (PKI)
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00 D0
 	Portuguese National Identity Card (eID) (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
@@ -10754,6 +10784,9 @@
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
+
+3B FF 97 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0D
+	IDPrime 3930 FIPS Level 3 (T=1 CT=97) (BAI6) (PKI)
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
