@@ -2014,6 +2014,10 @@
 	BBVA (Spain) (MasterCard) debit card (Bank)
 	https://www.bbva.es/eng/productos/ficha/tarjeta-ahora-bbva/0000009719
 
+3B 6B 00 00 00 31 C0 64 08 44 03 68 0F 90 00 3B 02 14 50
+	Advanzia Credit Card (Master Card gold), Germany (IDK if there is a difference between the german one and the other ones) (Bank)
+	https://mastercard.gebuhrenfrei.com/
+
 3B 6B 00 00 00 31 C0 64 08 44 03 76 07 90 00
 	Blu American Express Credit Card (Bank)
 	https://www.americanexpress.com/it/content/carta-blu/
@@ -2065,6 +2069,9 @@
 
 3B 6B 00 00 00 31 C0 64 D0 10 01 00 07 90 00
 	Alfa-Bank (Russia) Master Card (Aeroflot bonus) (Bank)
+
+3B 6B 00 00 00 31 C1 64 08 60 32 06 0F 90 00
+	Nationwide Building Society VISA Debit card (Bank)
 
 3B 6B 00 00 00 31 C1 64 08 60 32 1F 0F 90 00
 	Fio bank, Mastercard, credit (Bank)
@@ -4415,6 +4422,10 @@
 	Tarjeta Electrónica del Ministerio de Defensa (M.MAR TEMDv1.0)
 	https://www.commoncriteriaportal.org/files/epfiles/2004-03-ST.pdf
 
+3B 7F 95 00 00 80 31 80 65 B0 83 11 00 C8 12 00 84 82 90 00
+	Cape Verde National Identity Card (CNI) (eID)
+	https://sniac.cv/cartao-nacional-de-identificacao/
+
 3B 7F 96 00 00 00 31 B8 64 40 70 14 10 73 94 01 80 82 90 00
 	IAS/ECC Gemalto (eID)
 
@@ -4495,6 +4506,9 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00
 	Gemalto IDPrime MD 840 (PKI)
 	http://www.gemalto.com/Products/IDPrime_MD/index.html
+
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82
+	CPR card (eID)
 
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Portuguese Blood Donator National Card (HealthCare)
@@ -5045,6 +5059,9 @@
 
 3B 88 80 01 80 66 B0 07 01 01 07 .. ..
 	Gemalto Santander Optelio TUI R7 with WG10 using Contactless interface
+
+3B 88 80 01 99 02 00 D1 03 04 22 01 67
+	Debit card (Bank)
 
 3B 88 80 01 C9 12 07 52 02 00 81 10 14
 	electronic Tickes from the german Transport Association VGN (Verkehrsgemeinschaft Niederrhein)
@@ -6467,6 +6484,10 @@
 3B 9A 18 00 82 62 75 93 11 00 01 02 02 00
 	Supersim 6 in 1 (Telecommunication)
 
+3B 9A 18 80 1F C7 31 42 52 43 44 2E 31 2E 35 38 C0 3B 02 14 50
+	HP StorageWorks (Other)
+	https://hpe.com
+
 3B 9A 94 00 91 01 00 17 00 01 23 10 00 96
 	GSM-SIM Victorvox D1 (900MHz)
 
@@ -6785,6 +6806,10 @@
 
 3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 7B 98 0D 00 EB
 	Lycamobile Pay As You Go SIM
+
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 13 4D 00 C1
+	Telus Mobility Tri-SIM card (Telecommunication)
+	https://www.telus.com/en/mobility/sim-cards
 
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 69 11 00 E7
 	Oister 3G SIM Card (Telecommunication)
@@ -7472,6 +7497,9 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 19 31 00 82 90 00 A9
 	Taiwan Star Telecom Corporation Limited (Telecommunication)
 	https://www.tstartel.com/CWS/
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 24 91 00 82 90 00 34
+	Fido Canada (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 25 51 00 82 90 00 F5
 	R&S CMW-Z06 Multi Test SIM (Telecommunication)
@@ -8552,6 +8580,10 @@
 3B DA 18 FF 81 B1 FE 45 1F C3 54 69 63 54 6F 6B 20 32 2E 30 68
 	TikTok 2.0 (PKI)
 
+3B DA 18 FF 81 B1 FE 45 1F C3 54 69 63 54 6F 6B 20 33 2E 30 69
+	TicTok 3.0 (PKI) (PKI)
+	https://en.cryptoshop.com/products/cryptas-tictok-v3-basisartikel.html
+
 3B DA 18 FF 81 B1 FE 75 1F 03 00 31 C5 73 C0 01 40 00 90 00 0C
 	OpenPGP Card V2
 
@@ -9396,6 +9428,9 @@
 
 3B EF 00 FF 81 31 FF 65 49 42 4D 20 4D 46 43 39 32 32 39 32 38 39 30 17
 	IBM MFC 4.22 (University of Cambridge smartchip card)
+
+3B F0 12 00 FF 91 81 B1 7C 45 1F 01 9B
+	Japanese Chijou Digital B-CAS Card (pay TV) (Pay TV)
 
 3B F0 12 00 FF 91 81 B1 7C 45 1F 03 99
 	Japanese Chijou Digital B-CAS Card (pay TV)
