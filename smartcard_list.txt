@@ -2273,6 +2273,10 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 37 4B 33 00 90 00
 	Fineco (Italy) Bancomat (Visa) (Bank)
 
+3B 6D 00 00 00 73 C8 00 13 64 54 37 4B 34 00 90 00
+	BNL (Banca Nazionale Del Lavoro, BNP Paribas Group) Debit Card (Bank)
+	https://bnl.it/it/Individui-e-Famiglie/Carte/Carta-di-Debito-BNL
+
 3B 6D 00 00 00 80 31 80 65 B0 89 35 01 F1 83 00 90 00
 	MasterCard  (Bank)
 
@@ -3448,6 +3452,9 @@
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
+
+3B 6F 00 00 80 5A 3C 13 30 14 10 01 C3 56 83 97 82 90 00
+	"oura" card for leman express and ter sncf rhone-alpes (Transport)
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E FA 97 82 90 00
 	Brussels STIB MOBIB Classic (Transport)
@@ -5353,6 +5360,13 @@
 	MOICA Citizen Digital Certificate of Taiwan R.O.C. (PKI)
 	https://moica.nat.gov.tw/en/index.html
 
+3B 8B 80 01 00 31 C1 64 08 40 22 30 00 90 00 54
+	IDEMIA Cosmo v8.1-n (Other)
+
+3B 8B 80 01 00 31 C1 64 08 60 32 06 00 90 00 52
+	Banco CTT (Portugal) contactless VISA Debit card (Bank) (Bank)
+	https://www.bancoctt.pt/home/abrir-conta.html
+
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
@@ -6793,6 +6807,10 @@
 
 3B 9E 96 00 80 31 C0 65 4D 53 00 00 00 72 F7 41 81 07
 	Smart-key for bank-client of MDM Bank (RU) with faktura.ru service (Bank)
+
+3B 9E 96 80 01 41 05 41 00 00 00 00 00 00 00 00 00 90 00 1C
+	ACOS5-64 v3.00 is a FIPS 140-2 Level 3 Certified Cryptographic Smart Card which is fully compliant with ISO7816-1/2/3/4/8/9 and common criteria EAL5+ (chip level) specifications. (PKI)
+	https://www.acs.com.hk/en/products/308/acos5-64-v3.00-cryptographic-card-contact/
 
 3B 9E 96 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 1D 10 49
 	Maroc Telecom USIM
@@ -8766,6 +8784,9 @@
 3B DD 96 00 80 B1 FE 45 1F 83 80 64 05 03 04 00 56 56 44 53 41 45 54 FC
 	VASCO DIGIPASS KEY 101 (Other)
 
+3B DD 96 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 08 00 07 90 00 70
+	IDEMIA Cosmo v8.1-n (JavaCard)
+
 3B DD 96 FF 80 1F 03 4E 58 50 20 4E 53 43 4F 53 20 34 2E 30 06
 	SCOSTA (Transport)
 
@@ -9705,6 +9726,9 @@
 	VIVOtech SAM
 	NXP JCOP V241
 	NXP J3A081 JavaCard (contact interface)
+
+3B F8 96 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 32
+	NXP JCOP 2.4.1 (JavaCard)
 
 3B F9 11 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 56 00 AA
 	VISA Card (Bank)
@@ -11105,6 +11129,9 @@
 3F 7F 13 25 05 40 B0 11 69 FF 4A 50 00 00 00 47 54 00 0C 00
 	YES DBS Israel Videoguard 090C,090D
 
+3F 7F 15 25 03 33 B0 11 69 FF 4A 50 50 00 00 49 56 01 00 00
+	Sky Germany V13 Smartcard (Pay TV)
+
 3F 96 18 80 01 80 51 00 61 10 30 9F
 	Atmel/Athena T0 Inverse Convention PC/SC Compliance Test Card No. 2
 
@@ -11224,6 +11251,9 @@
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
 
+3F FF 15 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 15
+	Sky (Germany) VideoGuard CAM card (www.sky.de) in Fast Mode (ins7e11=15) (Pay TV)
+
 3F FF 3F 3F 3F 3F 00 3F 3F FF 3F 3F 3F 3F 3F FF 3F FF 95 3F FF 95 3F FF
 	Premium joker card to see Spanish TDT premium (goltv)
 
@@ -11330,6 +11360,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 30 17
 	HD+ HD04b Card (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 35 30 20 52 65 76 57 36 30 14 3B 02 14 50
+	HD+ HD05 Paytv smartcard (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 38 32 20 52 65 76 52 32 36 1C
 	Max Tv Croatia (Pay TV)
