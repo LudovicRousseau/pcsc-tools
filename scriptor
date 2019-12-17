@@ -35,10 +35,10 @@ my $echo;
 
 die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless defined $hContext;
 
-getopt ("r:p:" , \%options);
+getopt ("r:p:u" , \%options);
 
 if ($options{h}) {
-	print "Usage: $0 [-h] [-r reader] [-p protocol] [file]\n";
+	print "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n";
 	print "          -h: this help\n";
 	print "   -r reader: specify to use the PCSC smart card reader named reader\n";
 	print "              By defaults the first one found is used so you\n";
@@ -46,9 +46,13 @@ if ($options{h}) {
 	print "              one reader\n";
 	print " -p protocol: protocol to use among T=0 and T=1.\n";
 	print "              Default is to let pcsc-lite choose the protocol\n";
+	print "          -u: use unbuffered stdout\n";
 	print "        file: file containing APDUs\n";
 	exit (0);
 }
+
+# unbuffered stdout option
+STDOUT->autoflush(1) if exists $options{u};
 
 # protocol option
 if ($options{p}) {

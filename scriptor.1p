@@ -22,6 +22,7 @@ scriptor \- Perl script to send commands to a smart card
 .RI [ -h ]
 .RI [ -r\ reader ]
 .RI [ -p\ protocol ]
+.RI [ -u ]
 .RI [ file ]
 .SH DESCRIPTION
 This manual page documents briefly the
@@ -45,6 +46,9 @@ Use the indicated reader. By default the first PC/SC reader is used.
 .B \-p protocol
 Use the indicated protocol. Accepted values are T=0 and T=1. By default
 T=0 is used.
+.TP
+.B \-u
+Use unbuffered stdout.
 .TP
 .B file
 Use the file instead of stdin to read commands (APDUs)
