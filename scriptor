@@ -35,7 +35,7 @@ my $echo;
 
 die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless defined $hContext;
 
-getopt ("r:p:u" , \%options);
+getopts ("r:p:u" , \%options);
 
 if ($options{h}) {
 	print "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n";
@@ -52,7 +52,7 @@ if ($options{h}) {
 }
 
 # unbuffered stdout option
-STDOUT->autoflush(1) if exists $options{u};
+STDOUT->autoflush(1) if defined $options{u};
 
 # protocol option
 if ($options{p}) {
