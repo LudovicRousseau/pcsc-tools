@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.5.5 - 4 January 2020, Ludovic ROUSSEAU
+    - 353 new ATRs
+    - scriptor: add -u option to make stdout unbuffered
+
 1.5.4 - 12 December 2018, Ludovic ROUSSEAU
     - 213 new ATRs
     - pcsc_scan: display the number of events
