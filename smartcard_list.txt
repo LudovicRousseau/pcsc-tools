@@ -2175,6 +2175,9 @@
 	Visa Crypto Business Electron by neyvabank.ru (Bank)
 	https://neyvabank.ru/uploads/files/download/bankdirectvisacryptocardreader.pdf
 
+3B 6D 00 00
+	PVT (Bank)
+
 3B 6D 00 00 00 31 80 64 2D A0 04 0C 71 96 8C 61 29
 	UK Co-operative Bank Visa Debit (produced 2002)
 
@@ -2706,6 +2709,9 @@
 3B 6E 00 00 57 44 36 19 69 86 93 02 21 18 15 50 20 27
 	Watchdata USB Key (PKI)
 	http://www.watchdata.com/brazil/watchkey/index.htm
+
+3B 6E 00 00 57 44 36 19 69 86 93 02 24 11 75 42 1D 0E
+	Watchdata USB Key (eID)
 
 3B 6E 00 00 62 6C 75 63 61 72 64 20 32 4B 42 2F 76 34
 	eID Blutronics Blucard 2K
@@ -5367,6 +5373,9 @@
 	Banco CTT (Portugal) contactless VISA Debit card (Bank) (Bank)
 	https://www.bancoctt.pt/home/abrir-conta.html
 
+3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
+	SmartMX (Other)
+
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
@@ -5588,6 +5597,10 @@
 
 3B 8C 80 01 50 C0 E4 50 CA 00 00 00 00 91 71 71 72
 	Transportation card for Lille (France) (Transport)
+
+3B 8C 80 01 50 C0 EA 9C BB 00 00 00 00 B3 71 71 E3
+	Tisseo (Toulouse) (Transport)
+	http://www.tisseo.fr/les-tarifs/obtenir-une-carte-pastel
 
 3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
 	isodep, NfcB (Transport)
@@ -8137,6 +8150,15 @@
 	TCOS 2.0 (on CX160S)
 	Telesec TCOS 2 (SLE66)
 
+3B BA 14 00 81 31 86 5D 00 64 05 7B 02 03 31 80 90 00
+	PHILIPS (HealthCare)
+
+3B BA 14 00 81 31 86 5D 00 64 05 7B 02 03 31 80 90 00 FF
+	PHILIPS (HealthCare)
+
+3B BA 14 00 81 31 86 5D 00 64 05 7B 02 03 31 90 00 FF
+	JCOP CARD (Other)
+
 3B BA 94 00 40 14
 	GG3RS732S0 ?
 
@@ -8870,6 +8892,10 @@
 3B DF 18 FF 81 31 FE 45 80 59 01 80 48 49 44 43 37 30 30 73 00 01 1B 33
 	Crescendo C700 + MiFare 4K
 	http://www.smartcardfocus.com/shop/ilp/id~265/p/index.shtml
+
+3B DF 18 FF 81 91 FE 1F C3 00 31 38 64 47 90 EC C2 73 14 01 50 82 90 00 BA
+	Card store authentification and signature keys (JavaCard)
+	https://ants.gouv.fr/Les-titres/Cartes-Agents/Adhesion/Telechargement-et-support
 
 3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 0C 01 EC C1 73 94 01 80 82 90 00 B3
 	ebee card
@@ -11008,6 +11034,9 @@
 3F 6C 00 00 24 A0 30 00 FF 00 00 01 00 04 90 00
 	Gemplus MCOS 16K DES Sample Card
 
+3F 6C 00 00 25 A0 30 89 76 00 00 01 03 0C 90 00
+	MCOS 24Ko Gemplus (eID)
+
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
 
@@ -11140,6 +11169,10 @@
 
 3F FA 11 25 04 00 01 B0 02 00 00 4D 59 00 81 80
 	Sky Viewing Card (Gen 1) from 1990s (Pay TV)
+
+3F FA 11 25 05 00 01 B0 02 3B 36 4D 59 02 80 90
+	HackTV SKY11 PIC16F84 card (Other)
+	https://github.com/captainjack64/hacktv
 
 3F FA 11 25 05 00 01 B0 02 3B 40 4D 59 00 81 80
 	Sky Viewing Card (Gen 7) (Pay TV)
