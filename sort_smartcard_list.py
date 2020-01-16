@@ -4,56 +4,73 @@ from __future__ import print_function
 
 import difflib
 import pprint
+import sys
 
 pp = pprint.PrettyPrinter(indent=4)
 
-ATRs = list()
-with open("smartcard_list.txt", "r") as f:
-    for l in f.readlines():
-        if l.endswith(" \n") or l.endswith("\t\n"):
-            print("Trailing space in:", l)
 
-        if l == "\n":
-            continue
+def check_format():
+    ret_value = False
+    ATRs = list()
+    with open("smartcard_list.txt", "r") as f:
+        for line in f.readlines():
+            if line.endswith(" \n") or line.endswith("\t\n"):
+                print("Trailing space in:", line)
+                ret_value = True
 
-        if l.startswith("#") or l.startswith("\t"):
-            continue
+            if line == "\n":
+                continue
 
-        # check the ATR is all upper case
-        if l.upper() != l:
-            print("error:", l)
+            if line.startswith("#") or line.startswith("\t"):
+                continue
 
-        ATRs.append(l.strip())
-# 	if l.startswith("\t"):
-# 		ATRs.append([atr, l.strip()])
-# 	else:
-# 		atr = l.strip()
+            # check the ATR is all upper case
+            if line.upper() != line:
+                print("error:", line)
+                ret_value = True
 
-# pp.pprint(ATRs)
-sorted_ATRs = list(ATRs)
-sorted_ATRs.sort()
+            ATRs.append(line.strip())
+    # 	if line.startswith("\t"):
+    # 		ATRs.append([atr, line.strip()])
+    # 	else:
+    # 		atr = line.strip()
 
-# pp.pprint(sorted_ATRs)
+    # pp.pprint(ATRs)
+    sorted_ATRs = list(ATRs)
+    sorted_ATRs.sort()
 
-for l in difflib.context_diff(ATRs, sorted_ATRs):
-    print(l)
+    # pp.pprint(sorted_ATRs)
 
-# compte le nombre de nouveau ATR
-from subprocess import Popen, PIPE
+    for line in difflib.context_diff(ATRs, sorted_ATRs):
+        print(line)
+        ret_value = True
 
-p1 = Popen(["git", "diff"], stdout=PIPE)
-p2 = Popen(["grep", "+3[B,F]"], stdin=p1.stdout, stdout=PIPE)
-p1.stdout.close()
-output = p2.communicate()[0]
+    return ret_value
 
-output = output.decode("utf-8")
 
-size = len(output.split("\n")) - 1
-if size >= 10:
-    print()
-    print("********************")
-    print("    %d new ATRs" % size)
-    print("********************")
-    print()
-else:
-    print("only", size, "ATR")
+def count_cards():
+    # compte le nombre de nouveau ATR
+    from subprocess import Popen, PIPE
+
+    p1 = Popen(["git", "diff"], stdout=PIPE)
+    p2 = Popen(["grep", "+3[B,F]"], stdin=p1.stdout, stdout=PIPE)
+    p1.stdout.close()
+    output = p2.communicate()[0]
+
+    output = output.decode("utf-8")
+
+    size = len(output.split("\n")) - 1
+    if size >= 10:
+        print()
+        print("********************")
+        print("    %d new ATRs" % size)
+        print("********************")
+        print()
+    else:
+        print("only", size, "ATR")
+
+
+if __name__ == "__main__":
+    if check_format():
+        sys.exit(1)
+    count_cards()
