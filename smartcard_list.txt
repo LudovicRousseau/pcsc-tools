@@ -120,6 +120,9 @@
 	prepaid payphone card, issued by Lietuvos Telekomas (now Teo LT)
 	https://www.teo.lt/
 
+3B 04 1B F4 3F 54
+	German TelefonKarte 50DM. Memory card with Solaic chip (Other)
+
 3B 04 2A FF 32 00
 	Mac Gray Intelligent Laundry Systems laundry card
 
@@ -2806,6 +2809,10 @@
 	Finnish Smartum benefit card (Other)
 	https://www.smartum.fi/
 
+3B 6E 00 00 80 66 B1 A3 04 01 11 0B 83 00 90 00
+	Bank of America (Bank)
+	https://www.bankofamerica.com/
+
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
 
@@ -3243,6 +3250,9 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 03 28 84 44 82 90 00
 	rav-kav (Transport)
 	http://nohal.mot.gov.il/%d7%94%d7%92%d7%93%d7%a8%d7%95%d7%aa%20%d7%91%d7%a0%d7%95%d7%a9%d7%90%20%d7%9b%d7%a8%d7%98%d7%95%d7%a1%20%d7%97%d7%9b%d7%9d.aspx
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 66 0B 73 82 90 00
+	Rav-Kav: Israel's Travel Card (Transport)
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 69 51 7A 82 90 00
 	Card for bus (Transport)
@@ -5424,6 +5434,9 @@
 	Banco CTT (Portugal) contactless VISA Debit card (Bank) (Bank)
 	https://www.bancoctt.pt/home/abrir-conta.html
 
+3B 8B 80 01 00 31 C1 64 08 60 32 12 00 90 00 46
+	AMEX Silver Credit (Bank)
+
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
 	SmartMX (Other)
 
@@ -5488,6 +5501,9 @@
 3B 8C 80 01 50 03 A1 29 CF 00 00 00 00 11 81 81 08
 	rav-kav, Israel transport card (Transport)
 	http://www.egged.co.il/Article-786-Rav-Kav-Card.aspx
+
+3B 8C 80 01 50 04 46 3E C3 E1 F3 5E 11 77 81 A1 E8
+	Spanish ID (eID)
 
 3B 8C 80 01 50 05 A9 66 96 00 00 00 00 80 81 71 71
 	Hello bank! VISA CLASSIC Card (Bank)
@@ -7460,6 +7476,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 32 31 00 82 90 00 80
 	Telefonica | Vivo Brazil M2M SIM Card (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 67 11 00 82 90 00 F5
+	MTS SIM card (Russia) (Telecommunication)
+	https://www.mts.ru
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
 	http://www.2degreesmobile.co.nz/
@@ -7631,6 +7651,10 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 00
+	sysmoUSIM-SJS1 (Telecommunication) (Telecommunication)
+	http://www.sysmocom.de/products/sysmousim-sjs1-sim-usim
 
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 A5
 	sysmoUSIM-SJS1 (Telecommunication)
@@ -7863,6 +7887,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 91 22 00 82 90 00 32
 	1&1 Simcard (Telecommunication)
 	https://www.1und1.de/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 27 11 00 82 90 00 B6
+	Viettel LTE SIM Card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 38 02 00 82 90 00 BA
 	SIM card operateur Free (Telecommunication)
@@ -10008,6 +10035,10 @@
 3B FA 18 00 00 81 31 FE 45 4A 54 61 78 43 6F 72 65 56 31 B2
 	Taxpayer Portal Authentication for Fiji Revenue & Customs Service taxpayer portal (PKI)
 
+3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 33 45 4D 56 94
+	NXP JCOP3 J3H082 Java Card 3.0.4 Dual-Interface (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop3-j3h082-java-card-3-0-4-j3h081-dual-interface/
+
 3B FA 18 00 00 91 01 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 82
 	Supposed P71 SecID purchased from a Chinese manufacturer (JavaCard)
 
@@ -10324,6 +10355,9 @@
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 03 83 0F 90 00 EF
 	Infineon jTOP SLE78 SLJ52GCA080CL IFX v46.03 (JavaCard) (JavaCard)
+
+3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 03 83 81 90 00 61
+	Infineon Trust-P (JavaCard)
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 10 83 01 90 00 F2
 	Infineon CJTOP 80K INF SLJ 52GLA080AL M8.4 (JavaCard)
