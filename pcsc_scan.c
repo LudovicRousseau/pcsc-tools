@@ -631,6 +631,10 @@ get_readers:
 		nbReaders++;
 	}
 
+#ifdef WIN32
+	int oldNbReaders;
+	int oldNbReaders_init = FALSE;
+#endif
 	spin_start();
 
 	/* Wait endlessly for all events in the list of readers
@@ -643,10 +647,15 @@ get_readers:
 
 		if (pnp)
 		{
-#ifdef WIN32
 			/* check if the number of readers has changed */
+#ifdef WIN32
 			LONG newNbReaders = rgReaderStates_t[nbReaders-1].dwEventState >> 16;
-			if (newNbReaders + 1 != nbReaders)
+			if (! oldNbReaders_init)
+			{
+				oldNbReaders = newNbReaders;
+				oldNbReaders_init = TRUE;
+			}
+			if (newNbReaders != oldNbReaders)
 #else
 			if (rgReaderStates_t[nbReaders-1].dwEventState &
 					SCARD_STATE_CHANGED)
