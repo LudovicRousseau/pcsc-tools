@@ -441,7 +441,14 @@ int main(int argc, char *argv[])
 		exit(EX_OK);
 	}
 
+#ifdef WIN32
+	if (Options.verbose)
+	{
+		printf("%sPress shift key to quit%s\n", magenta, color_end);
+	}
+#else
 	initialize_signal_handlers();
+#endif
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
@@ -541,6 +548,10 @@ get_readers:
 			{
 				rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates, 1);
 				spin_update();
+#ifdef WIN32
+				if (GetKeyState(VK_SHIFT) & 0x80)
+					spinning_interrupted = TRUE;
+#endif
 			}
 			while ((SCARD_E_TIMEOUT == rv) && !spinning_interrupted);
 			spin_suspend();
@@ -801,6 +812,11 @@ get_readers:
 			nbReaders);
 
 		spin_update();
+
+#ifdef WIN32
+	if (GetKeyState(VK_SHIFT) & 0x80)
+		spinning_interrupted = TRUE;
+#endif
 	} /* while */
 
 	spin_suspend();
