@@ -128,7 +128,7 @@ static Boolean is_member(const char *  item, const char * list[])
 static void initialize_terminal(void)
 {
 	const char *color_terms[] = { "linux", "xterm", "xterm-color", "xterm-256color",
-		"Eterm", "rxvt", "rxvt-unicode", 0};
+		"Eterm", "rxvt", "rxvt-unicode", "cygwin", 0};
 	const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
 	const char *term = getenv("TERM");
 	if (term == 0)
