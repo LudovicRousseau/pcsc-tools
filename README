@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.5.6 - 8 March 2020, Ludovic ROUSSEAU
+    - 62 new ATRs
+    - pcsc_scan: better support of Windows
+
 1.5.5 - 4 January 2020, Ludovic ROUSSEAU
     - 353 new ATRs
     - scriptor: add -u option to make stdout unbuffered
