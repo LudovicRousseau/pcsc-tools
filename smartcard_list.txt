@@ -3018,6 +3018,10 @@
 	USAA EMV Mastercard Creditcard (Bank)
 	https://www.usaa.com/inet/pages/bk_cc_chipcardLP_landing_mkt?adID=VURL_chipcard
 
+3B 6F 00 00 80 31 E0 6B 04 31 05 02 AC 55 55 55 55 55 55
+	Diners Club Credit card (British Airways, Switzerland) (Bank)
+	https://dinersclub.ch/en/private-customers/all-credit-cards/british-airways-card/
+
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	debit card (Bank)
 	https://www.usaa.com/inet/wc/banking
@@ -3774,6 +3778,10 @@
 	Raiffeisen VPay Debit Card (Bank)
 	http://raiffeisen.ch
 
+3B 79 13 00 00 80 64 16 03 01 85 82 90 00
+	UBS Vpay Debit card (Bank)
+	https://www.ubs.com/ch/en/private/accounts-and-cards/debitcards/vpay.html
+
 3B 79 18 00 00 42 72 61 7A 49 44 65 61 6C
 	Brazilian digital certificate card (eID)
 	https://serasa.certificadodigital.com.br
@@ -4471,6 +4479,9 @@
 
 3B 7F 18 00 00 00 31 C0 73 9E 01 0B 64 52 D9 05 00 82 90 00
 	Oberthur 32k BIO
+
+3B 7F 18 00 00 43 55 32 69 AA 20 00 32 20 20 20 20 20 20 00
+	UBS Access Card (Online Banking, NFC, Switzerland) (Bank)
 
 3B 7F 18 00 00 80 59 49 44 65 61 59 49 44 65 61 6C 5F 31 2E
 	e-CNPJ issued by Fenacon (eID)
@@ -6501,6 +6512,10 @@
 	Zain Usim Card (Telecommunication)
 	www.qariya.com
 
+3B 95 96 80 B1 FE 55 1F C7 47 72 61 63 65 13
+	IClass SE Processor (Other)
+	https://www.hidglobal.com/products/embedded-modules/iclass-se/sio-processor
+
 3B 95 96 C0 F0 1F C2 0F 10 0A 0A 16
 	viettel (Telecommunication)
 
@@ -6755,6 +6770,9 @@
 
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
+
+3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 73 10 25
+	module (JavaCard)
 
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
@@ -7109,6 +7127,13 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BD
 	Mobile Vikings SIM Card (Telecommunication)
 	https://mobilevikings.com
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A D3 13 00 E8
+	sim card from Mobilcom Debitel Telefonica (Telecommunication)
+	https://md.de
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
+	4G-LTE (Telecommunication)
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -8083,6 +8108,9 @@
 
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 08 56 21 00 82 90 00 19
 	eSIM card (Telecommunication)
+
+3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 09 06 92 00 82 90 00 FB
+	Ubigi Transatel esim (Telecommunication)
 
 3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9B
 	Turkish Republic Identity Card - Türkiye Cumhuriyeti Kimlik Kartı (TCKK) (eID)
@@ -9934,6 +9962,9 @@
 3B F9 15 00 FF 91 01 31 FE 43 80 64 48 65 72 61 82 90 00 C7
 	RC-S500 card (FeliCa SAM for reader?) (Other)
 
+3B F9 18 00 00 00 53 43 45 37 20 03 00 20 46
+	G+D FIPS 201 SCE 7.0 (PKI)
+
 3B F9 18 00 00 80 31 FE 45 80 57 4E 45 4F 57 41 56 45 7D
 	Neowave Weneo
 
@@ -11569,6 +11600,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 30 17
 	HD+ HD04b Card (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 42 65
+	Nagra Kudelski / Canalsat Reunion (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 35 30 20 52 65 76 57 36 30 14 3B 02 14 50
 	HD+ HD05 Paytv smartcard (Pay TV)
