@@ -827,6 +827,10 @@
 3B 37 11 00 46 4C 4F 4D 41 90 00
 	SLE 4428
 
+3B 37 11 00 4B 49 41 54 07 90 00
+	Rome ATAC Metrebus card (Transport)
+	https://www.atac.roma.it/page.asp?p=226&i=14
+
 3B 37 13 00 80 62 11 04 82 90 00
 	Swiss UBS Maestro/CASH Bank Card
 
@@ -2527,6 +2531,9 @@
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 23
 	Visa debit card: mBank - BRE Bank SA
 
+3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 27
+	ATEbank VISA (Bank)
+
 3B 6E 00 00 00 31 C0 65 E7 D2 02 01 10 71 D6 8C 61 33
 	Clydesdal Bank Maestro Card
 	http://www.cbonline.co.uk/personal/current-accounts/debit-card/
@@ -2748,8 +2755,16 @@
 	Watchdata USB Key (PKI)
 	http://www.watchdata.com/brazil/watchkey/index.htm
 
+3B 6E 00 00 57 44 36 19 69 86 93 02 23 18 15 50 20 08
+	Card used by SERPRO at Brazil (PKI)
+	https://www.watchdata.com/ese/
+
 3B 6E 00 00 57 44 36 19 69 86 93 02 24 11 75 42 1D 0E
 	Watchdata USB Key (eID)
+
+3B 6E 00 00 57 44 36 19 69 86 93 02 25 11 75 42 32 2B
+	Watchdata USB Key (PKI)
+	http://www.watchdata.com/brazil/watchkey/
 
 3B 6E 00 00 57 44 36 19 69 86 93 02 31 18 15 50 06 15
 	WatchData USB Key (Other)
@@ -2860,6 +2875,10 @@
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00
 	VISA card, issued by OP Financial Group, Finland (Bank)
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00
+	Visa credit card, issued by Klarna (Bank) (Bank)
+	https://www.klarna.com/se/kort/
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 30 37 00 90 00
 	NatWest VISA Debit card (Bank)
@@ -3978,6 +3997,10 @@
 
 3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 01 00 82 90 00
 	Oberthur 64k v4/2.1.1
+
+3B 7D 18 00 00 00 31 80 71 8E 64 77 E3 02 00 82 90 00
+	Smart Card for identity Patient (eID)
+	http://www.sergas.es
 
 3B 7D 18 00 00 00 48 79 70 73 49 44 20 53 33 07 90 00
 	Safran Morpho YpsID S3
@@ -5331,6 +5354,9 @@
 3B 89 80 01 80 57 4A 4D 56 76 35 2E 30 D3
 	PayPal Access Business MasterCard (contactless) (Bank)
 
+3B 89 80 01 80 64 16 04 02 82 82 90 00 6C
+	Maestro card (from Mastercard) used by BCGE (switzerland) bank (Bank)
+
 3B 89 80 01 80 67 04 12 B0 03 05 01 02 4C
 	Austrian Passport
 
@@ -5710,6 +5736,9 @@
 
 3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
 	isodep, NfcB (Transport)
+
+3B 8C 80 01 50 C1 10 BB A9 00 00 00 00 91 71 71 0F
+	Divia card (passport)
 
 3B 8C 80 01 50 C1 1B A3 F1 00 00 00 00 91 71 71 44 3B 02 14 50
 	Tramway (PKI)
@@ -8009,6 +8038,10 @@
 	Multipurpose UICC card for 2G, 3G, 4G/LTE, CDMA, ISIM & NFC (Telecommunication)
 	http://www.smartjac.biz/index.php/component/eshop/telecom/test-uicc-sim-cards/2ff-mini-sim-cards/4g-open-multipurpose-uicc-card-3ff?Itemid=0
 
+3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 1F 64 41 26 21 00 82 90 00 A3
+	Smartjac SMAOT100A234FF (Telecommunication)
+	https://smartjac.com
+
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 33 05 81 05 30 00 CE
 	COMPRION M2M eUICC (Telecommunication)
 
@@ -9581,6 +9614,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 12 61 02 50 00 10 0A 07 27 22 07 10 22
 	DKB Online Banking Card (Bank)
 	https://www.dkb.de
+
+3B EF 00 FF 81 31 FE 45 65 63 11 12 61 02 50 00 10 0A 07 81 1C 07 10 BA
+	German Sparkasse HBCI card (Bank)
+	https://www.sparkasse.de/service/finanzlexikon/hbci-verfahren.html
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 06 12 41 37 20 1E
 	BankCard Sparda-Bank Baden-Württemberg eG (Bank)
