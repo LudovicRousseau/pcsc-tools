@@ -1132,6 +1132,9 @@
 3B 4F 00 41 54 38 38 53 43 31 30 32 20 20 20 20 FF FF
 	siral smartcard (JavaCard)
 
+3B 4F 00 49 32 43 5F 43 61 72 64 3D 4E 6F 5F 51 54 52
+	AT24C (Bank)
+
 3B 4F 00 53 6C 65 34 34 32 2D 34 34 3D A2 13 10 91
 	Debit card  (Bank)
 
@@ -2562,6 +2565,9 @@
 
 3B 6E 00 00 00 31 C0 65 EC D4 02 00 08 71 D6 8C 61 33
 	Victoria Bank (Republic of Moldova) - Visa Electron
+
+3B 6E 00 00 00 31 C0 65 EE C5 02 01 0B 71 D6 8C 61 39
+	Desjardins Bank Acces (Bank)
 
 3B 6E 00 00 00 31 C0 65 F1 D5 02 01 09 71 D6 8C 61 33
 	HALIFAX (Bank)
@@ -5469,6 +5475,10 @@
 	Tomorrow Debit Mastercard issued by solarisBank AG (Bank)
 	https://www.tomorrow.one/
 
+3B 8B 80 01 00 31 C0 64 08 44 03 13 00 90 00 53
+	Swedbank ISIC (eID)
+	https://www.swedbank.ee/private/cards/debit/isic?language=EST
+
 3B 8B 80 01 00 31 C0 64 08 44 03 68 00 90 00 28
 	Advanzia / Gebuhrenfrei.com Mastercard Gold (Bank)
 	https://www.gebuhrenfrei.com/Home/
@@ -5747,6 +5757,10 @@
 	Navigo pass (RATP) (Transport)
 	http://www.navigo.fr/
 
+3B 8C 80 01 50 C1 7B 55 BA 00 00 00 00 00 71 71 08
+	Navigo Easy (Paris public transportation) (Transport)
+	https://parisbytrain.com/navigo-easy/
+
 3B 8C 80 01 50 C1 7D A8 CA 00 00 00 00 00 71 71 83
 	Navigo Easy (France) transport card (Transport)
 	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
@@ -5777,6 +5791,10 @@
 
 3B 8C 80 01 50 F5 6F F8 2B E1 F3 5E 11 33 81 C7 3C
 	ID of the Republic of Kazakhstan Ministry of Internal Affairs of the Republic of Kazakhstan (eID)
+
+3B 8C 80 01 50 F6 D9 14 2C 00 00 00 00 00 81 77 BC
+	ING (NL) Maestro (Bank)
+	https://ing.nl/
 
 3B 8C 80 01 50 F6 DC FC 13 23 18 01 00 77 81 97 C3
 	mifare (Transport)
@@ -6572,6 +6590,9 @@
 3B 97 94 80 3F 44 90 80 31 A0 73 BE 21 00 95
 	Comprion Simulated card that indicate Low Impedance support: TB(3) = 0x90 (Telecommunication)
 
+3B 97 95 80 1F 43 80 31 E0 73 FE 21 1B 38
+	JIO (Telecommunication)
+
 3B 97 95 80 1F 47 80 31 E0 73 FE 21 1B 3C
 	iFree MOGO SIM Card  for test  (Telecommunication)
 
@@ -6891,6 +6912,9 @@
 	Three Hong Kong Prepaid SIM Card (Telecommunication)
 	http://www.three.com.hk/website/appmanager/three/home?_nfpb=true&_pageLabel=P200470391219567710594&pageid=631001&lang=eng
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6D 85 0E 00 E4
+	Vodafone Germany SIM Card (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 79 0E 6B 00 1E
 	TracFone (US) TF64SIMC4 V2 GSM SIM Card
 
@@ -6913,6 +6937,9 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 7F 0F 00 EB
 	sim card RUS Megafon Krasnodar (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 74 10 00 C6
+	vodafone italy sim (Telecommunication)
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 14 11 00 A6
 	Globe (Telecommunication)
@@ -7139,6 +7166,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
 	Telkom (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 C9 11 00 CD
+	Vivo 4G (Other)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 CD 11 00 C9
 	O2 4G SIM card (Telecommunication)
@@ -8744,6 +8774,9 @@
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F9
 	NASA Personal Identity Verification (PIV) card (eID)
 
+3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 19 F8
+	Secure badge (PKI)
+
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 41 1A 2B
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
@@ -9409,6 +9442,10 @@
 
 3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 02 0F 90 00 BE
 	VISA Debit card for Taishin International Bank, Taiwan (Bank)
+
+3B EB 00 00 81 31 FE 45 00 31 C0 64 3F 68 01 08 07 90 00 BC
+	Debit Mastercard of Mega ICBC, Taiwan (Bank)
+	https://www.megabank.com.tw/en-us/english/credit-card
 
 3B EB 00 00 81 31 FE 45 00 31 C0 64 A9 EC 01 00 82 90 00 23
 	Junta de Extremadura (Spain) public healthcare card (HealthCare)
