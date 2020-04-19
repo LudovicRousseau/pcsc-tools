@@ -2946,6 +2946,8 @@
 	http://www.viabuy.de
 
 3B 6F 00 00 00 B8 54 31 10 07 90 00 00 00 00 00 00 00 00
+	Monzo Bank (UK) Debit Mastercard
+        https://monzo.com
 	Revolut Premium Mastercard (Bank)
 	https://www.revolut.com/revolut-premium
 
