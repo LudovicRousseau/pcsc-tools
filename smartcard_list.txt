@@ -1373,6 +1373,9 @@
 	French "Ticket Restaurant" Edenred payment card (Other)
 	https://www.myedenred.fr/
 
+3B 65 00 00 20 63 CB BD 00
+	Crédit Mutuel Arkea (Bank)
+
 3B 65 00 00 20 63 CB C1 00
 	CIC (Bank)
 	https://www.cic.fr/
@@ -2948,6 +2951,8 @@
 3B 6F 00 00 00 B8 54 31 10 07 90 00 00 00 00 00 00 00 00
 	Revolut Premium Mastercard (Bank)
 	https://www.revolut.com/revolut-premium
+	Monzo Bank (UK) Debit Mastercard
+	https://monzo.com/
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -3397,6 +3402,9 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
 	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 65 62 F7 82 90 00
+	French NAVIGO Card (simple Navigo model, not annual or Imagin'R) (Transport)
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 67 80 D9 82 90 00
 	Navigo (Transport)
 	https://www.navigo.fr/
@@ -3604,6 +3612,10 @@
 
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
+
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 49 78 9C 82 90 00
+	MOBIB basic (Transport)
+	http://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en#contentBodyList1
 
 3B 6F 00 00 80 5A 43 4F 4C 44 00 00 00 00 00 00 82 90 00
 	LBB Berlin, MasterCard (ADAC branding?)
@@ -4688,7 +4700,7 @@
 	eToken R2 2242
 
 3B 81 80 01 80 80
-	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1
+	RFID - ISO 14443 Type A - NXP DESFire or DESFire EV1 or EV2
 	"Reiner LoginCard" (or "OWOK", how they name it) - they have been distributed by a german computer magazine ("Computer BILD")
 	https://cardlogin.reiner-sct.com/
 	Belgium A-kaart (Antwerp citycard)
@@ -4703,6 +4715,7 @@
 	http://www.blutspende-nordost.de/
 	Greater Toronto/Hamilton/Ottawa PRESTO contactless fare card
 	http://en.wikipedia.org/wiki/Presto_card
+	Electic vehicle charging card of the EMSP EnBW Energie Baden-Württemberg AG, Tarif ADAC e-Charge, Germany
 
 3B 81 80 01 81 81
 	Ticket (Transport)
@@ -5362,7 +5375,8 @@
 	MasterCard, Credit Card by TargoBank, Germany --  (Bank)
 
 3B 89 80 01 66 52 57 45 32 50 52 4F 4D 1C
-	This is NFC enabled SIM card. (Telecommunication)
+	NFC enabled SIM card. (Telecommunication)
+	Electic vehicle charging card of the EMSP Chargepoint
 
 3B 89 80 01 80 57 45 4D 56 50 52 4F 43 8F
 	BNP Paribas Visa Classic Card (NFC) (Bank)
@@ -5481,6 +5495,7 @@
 3B 8B 80 01 00 31 C0 64 08 04 61 00 00 90 00 62
 	NUMBER26 Maestro Card (Bank)
 	https://number26.eu
+	American Express credit card for corporations
 
 3B 8B 80 01 00 31 C0 64 08 44 03 04 00 90 00 44
 	Credit Card Visa (Other)
@@ -5566,6 +5581,9 @@
 3B 8C 01 4D 79 53 6D 61 72 74 4C 6F 67 6F 6E A5
 	EIDVirtual (USB key emulated as a virtual smart card) (PKI)
 	http://www.mysmartlogon.com/eidvirtual/
+
+3B 8C 40 FA 80 81 05 52 01 01 A0 00 00 01 50 01
+	Algerian Postal Services Current Account Card (Bank)
 
 3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
 	RFID - NFC Forum tag type 3 (FeliCa)
@@ -5812,6 +5830,10 @@
 
 3B 8C 80 01 50 F6 DC FC 13 23 18 01 00 77 81 97 C3
 	mifare (Transport)
+
+3B 8C 80 01 50 FE 51 56 9F 00 00 00 00 33 81 91 18
+	Repubblica Italiana - Tessera Sanitaria (HealthCare)
+	https://sistemats1.sanita.finanze.it/portale/tessera-sanitaria
 
 3B 8C 80 01 50 FE 89 27 67 11 00 00 11 77 81 81 1D
 	"Carta Mobile" bus card by CTT (Tuscany's bus company) (Transport)
@@ -6325,6 +6347,11 @@
 	vivotech ViVOcard Contactless Test Card
 	Bangkok BTS Sky SmartPass
 	Mifare Classic 1K (block 0 re-writeable)
+	Electic vehicle charging card of the German Telekom, acting as EMSP GetCharge
+	Electic vehicle charging card of the EMSP Stadtwerke Muenchen (SWM), ladenetz.de, Germany
+	Electic vehicle charging card of the EMSP EinfachStromLaden of Maingau-Energie, Germany
+	Scouter carsharing customer card in Germany
+	https://scouter.de/
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
@@ -7376,6 +7403,9 @@
 	Celcom XPAX (Telecommunication)
 	https://www.celcom.com.my/personal/prepaid
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 CF B9 02 A0 EE
+	Gotanet SE USIM (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 37 86 60 9B 32 89 B2 A1
 	China Unicom Travel SIM (Telecommunication)
 	https://www.cuniq.com/hk/data-card/asia/asia-12days.html
@@ -8004,6 +8034,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 07 59 51 00 82 90 00 CE 00 00 00 00 00 00 00 00 00 00
 	Oberthur USIM card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 08 28 23 00 82 90 00 C2
+	eSIM from automotive module (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 41 11 00 82 90 00 D1
 	TEST CARD (Telecommunication)
 	http://optus.com
@@ -8060,6 +8093,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2D 01 0C 04 00 81 05 72
 	Tri Indonesia Bima+ SIM Card (Telecommunication)
 	https://beta.tri.co.id/3digiworld/Bimaplus
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 0A 03 01 81 05 70
+	SMART Prepaid SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 63 01 09 02 01 81 05 3E
 	2degrees Mobile SIM Card New Zealand (Telecommunication)
@@ -8807,6 +8843,9 @@
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 19 F8
 	Secure badge (PKI)
 
+3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 21 1A 4B
+	ID-One PIV 2.4 (P/N 1501381) from IDEMIA (Other)
+
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 41 1A 2B
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
@@ -9232,6 +9271,10 @@
 3B DF 96 FF 81 31 FE 45 80 5B 44 45 2E 42 4E 4F 54 4B 31 30 30 81 05 A0
 	BeA - Certification Card for German Solicitors (Other)
 	https://bea.bnotk.de/
+
+3B DF 97 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 21
+	Austrian healthcare insurance identification card (HealthCare)
+	https://www.chipkarte.at
 
 3B DF 97 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 78
 	NASA PIV Card (Other)
@@ -10094,6 +10137,10 @@
 	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NHS Care Identity Service (CIS) smartcard (HealthCare)
 	https://www.e-lfh.org.uk/programmes/national-ra-and-smartcard-policy/
+
+3B F9 18 00 00 81 31 FE 45 50 56 5F 4A 32 44 30 38 31 B6
+	Taiwanese Health Professional Card(TW HPC) (HealthCare)
+	https://hca.nat.gov.tw/Intro.aspx
 
 3B F9 18 00 FF 81 31 FE 45 50 56 5F 4A 33 41 30 34 30 40
 	Yubico Yubikey NEO OTP+U2F+CCID (PKI)
