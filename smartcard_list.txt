@@ -53,6 +53,10 @@
 3B .. .. 41 73 74 72 69 64
 	Axalto Cryptoflex .NET
 
+3B 00 3B 28 00 34 41 45 41 30 32 30 30
+	Cryptoguard card used for pay tv Plustelka (DVB-T2 - Slovak) (Pay TV)
+	https://www.plustelka.sk/
+
 3B 02 14 1C
 	UAE (United Arab Emirates) (eID)
 
@@ -1373,6 +1377,9 @@
 	French "Ticket Restaurant" Edenred payment card (Other)
 	https://www.myedenred.fr/
 
+3B 65 00 00 20 63 CB BC 80
+	CB / Visa La Banque Postale (Gemalto SP)
+
 3B 65 00 00 20 63 CB BD 00
 	Crédit Mutuel Arkea (Bank)
 
@@ -1832,6 +1839,9 @@
 
 3B 68 00 FF 56 43 41 52 44 6E 73 73
 	NSSVirtual Smart Card for qemu
+
+3B 69 00 00 24 0C 16 0A 00 00 00 00 00
+	LUNCH COUPON (Other)
 
 3B 69 00 00 24 94 01 00 00 00 00 01 A9
 	Kazakhstan Helios gas station debit card
@@ -3243,6 +3253,9 @@
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
 
+3B 6F 00 00 80 5A 0A 01 01 20 03 11 93 61 D7 D7 82 90 00
+	Carte Técély (Réseau TCL: metro, tramway, bus et funiculaire de Lyon) (Idemia)
+
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 .. .. .. .. 82 90 00
 	Card « Oùra ! » of region Rhône-Alpes, Calypso standard (TER, Transisère)
 
@@ -4308,6 +4321,9 @@
 3B 7F 12 00 00 44 56 4E 20 54 45 43 48 20 52 65 76 35 33 76
 	Chinese cable TV JETCAS card (DVN)
 
+3B 7F 13 00 00 80 31 C0 52 02 0F 64 02 B3 02 70 83 83 90 00
+	Banco Bradesco ELO (Brazil) (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 02 71 64 05 62 34 70 83 83 90 00
 	Mastercard Debit Card issued by Caixa d'Enginyers
 	http://www.caixa-enginyers.com
@@ -4368,6 +4384,9 @@
 3B 7F 13 00 00 80 31 C0 52 10 49 64 02 B3 02 70 83 83 90 00
 	Bank of Brazil (Bank)
 	http://www.bb.com.br/pbb/pagina-inicial
+
+3B 7F 13 00 00 80 31 C0 52 10 68 64 02 B3 02 70 83 83 90 00
+	Santander VISA (Brazil) (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 10 A4 64 02 B3 02 70 83 83 90 00
 	EMV Smartcard Reader (Other)
@@ -5540,6 +5559,10 @@
 
 3B 8B 80 01 00 31 C1 64 08 60 32 12 00 90 00 46
 	AMEX Silver Credit (Bank)
+
+3B 8B 80 01 00 31 C1 64 08 92 33 54 00 90 00 F3
+	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
+	http://www.salute.gov.it/portale/lea/dettaglioContenutiLea.jsp?lingua=italiano&id=4693&area=Lea&menu=leaEssn
 
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
 	SmartMX (Other)
@@ -8843,6 +8866,9 @@
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 19 F8
 	Secure badge (PKI)
 
+3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 21 19 48
+	DOS PIV (PKI)
+
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 21 1A 4B
 	ID-One PIV 2.4 (P/N 1501381) from IDEMIA (Other)
 
@@ -9052,6 +9078,10 @@
 3B DC 18 02 C1 0A 31 FE 58 80 31 A8 73 B0 01 9B 24 60 07 13 20 AA
 	Public Services Card | Ireland (Other)
 	https://psc.gov.ie/
+
+3B DC 18 FF 80 11 C1 80 73 C8 21 13 66 05 03 63 51 00 02 32
+	GoTrust Idem Card (Other)
+	https://www.gotrustid.com/idem-card
 
 3B DC 18 FF 80 91 FE 1F C3 80 73 C8 21 13 66 01 0B 03 52 00 05 39
 	Digital Signature Costa Rica (eID)
@@ -9871,6 +9901,10 @@
 3B F5 18 00 02 10 80 4F 73 45 49 44
 	Atmega 128 microcontroller based open source EID smartcard with RSA and ECC.  (eID)
 	https://oseid.sourceforge.io/
+
+3B F5 71 00 FF FE 24 00 01 1E 0F 33 39 32 01 03
+	Mydo IC Card from Japan, based on NTTDATA CARD (Loyalty)
+	https://www.idemitsu.com/company/history/13.html
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
 	Contactless Mifare Ultralight
