@@ -76,6 +76,10 @@
 	Gemplus GemClub Memo
 	SuperShop clubcard
 
+3B 02 6F 33
+	Polish national PKI equivalent to national id card issued by Eurocert - 1 of 2 Polish authorized issuers (PKI)
+	https://eurocert.pl/index.php/en-us/
+
 3B 04 00 00 00 00
 	Laundromat payment card
 	Spanish ID ("DNIe: Documento Nacional de Identidad electrónico).
@@ -117,6 +121,9 @@
 	prepaid payphone card, issued by Telefónica Comunicaciones Públicas
 	http://www.cabitel.es
 
+3B 04 17 D4 30 00
+	Gemalto BONZA game smart-card. (Other)
+
 3B 04 17 D4 66 08
 	Prepaid public telephone card from Antel, Uruguay. (Telecommunication)
 
@@ -140,6 +147,12 @@
 	German Health Insurance Card
 	"LogCard" from concept2.com (a indoor rower manufacturer)
 	I2C card
+
+3B 04 50 D7 F3 0E
+	Ukranian memory card for public phones. Manufacturer: "Kvazar" (Other)
+
+3B 04 7F 01 00 00
+	Russian memory card for payphones. Manufacturer: "Exiton" (Other)
 
 3B 04 92 23 10 91
 	Siemens SLE 4432/42 card
@@ -2055,6 +2068,10 @@
 3B 6B 00 00 00 31 C0 64 08 39 81 04 0F 90 00
 	Visa Debit (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 39 91 08 0F 90 00
+	MasterCard Bank Card (Bank)
+	https://www.creditonebank.com/
+
 3B 6B 00 00 00 31 C0 64 08 44 03 04 0F 90 00
 	VISA debit card (ActivoBank, Portugal) (Bank)
 	https://www.activobank.pt
@@ -2158,6 +2175,10 @@
 
 3B 6B 00 00 53 43 00 15 02 02 50 01 0F 90 00
 	Visa (Bank)
+
+3B 6B 00 00 80 5A 44 58 54 4F 4B 45 4E 30 31
+	DXToken - Dexon Cryptography Token (Other)
+	http://www.dexon.ind.br
 
 3B 6B 00 00 80 65 A1 09 03 01 97 83 0E 90 00
 	Visa Card - Worldcard - YapıKredi / Turkey
@@ -2915,6 +2936,10 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 31 00 90 00
 	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
 	https://www.bbva.es/eng/productos/ficha/tarjeta-antes-bbva/0T00000225
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 41 00 90 00
+	Fineco debit card (Bancomat, Visa Debit) (Bank)
+	https://finecobank.com/it/online/conto-e-carte/carte-e-bancomat/
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00
 	VISA card, issued by OP Financial Group, Finland (Bank)
@@ -7675,6 +7700,9 @@
 	MTS SIM card (Russia) (Telecommunication)
 	http://www.mts.ru/
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 13 21 00 82 90 00 B1
+	AT&T SIM card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 32 31 00 82 90 00 80
 	Telefonica | Vivo Brazil M2M SIM Card (Telecommunication)
 
@@ -8180,6 +8208,9 @@
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 33 05 81 05 30 00 CE
 	COMPRION M2M eUICC (Telecommunication)
+
+3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 34 54 63 29
+	Orange FR - opa (Telecommunication)
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
@@ -11291,6 +11322,9 @@
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
+
+3B FF 96 00 FF C0 0A 31 FE 4D 80 31 E0 6B 04 31 05 02 A8 55 55 55 55 55 55 7E
+	Multos (Other)
 
 3B FF 97 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0D
 	IDPrime 3930 FIPS Level 3 (T=1 CT=97) (BAI6) (PKI)
