@@ -733,7 +733,7 @@ get_readers:
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_UNKNOWN)
 			{
-				printf("Reader unknown\n");
+				printf("Unknown\n");
 				goto get_readers;
 			}
 
