@@ -117,6 +117,9 @@
 	T.P.G. - CART@BONUS 20CHF (Transport)
 	http://www.tpg.ch/fr/titres-de-transport/moyens-de-paiement/carte-prepayee-cartabonus.php
 
+3B 04 0A 1C D1 C4
+	Lift (Transport)
+
 3B 04 17 3C CC E0
 	prepaid payphone card, issued by Telefónica Comunicaciones Públicas
 	http://www.cabitel.es
@@ -593,6 +596,10 @@
 
 3B 1D 96 00 23 07 00 00 00 00 00 00 00 00 90 00
 	emulator card prototype from ST
+
+3B 1D 97 43 4C 5F 53 41 4D 00 14 38 00 00 90 00
+	CLSAM (Transport)
+	http://www.planeta.inf.br
 
 3B 1E 13 00 69 45 4D 43 45 66 32 28 F8 6B 00 90 00
 	ECHS (Ex-servicemen Contributory Health Scheme) Card (HealthCare)
@@ -3127,6 +3134,12 @@
 	AlfaBROU - Mastercard (prepaid card emited by Banco Republica - Uruguay) (Bank)
 	https://www.brou.com.uy/personas/tarjetas/prepaga-alfabrou
 
+3B 6F 00 00 80 31 E0 6B 04 52 05 02 FD 55 55 55 55 55 55
+	C6 Bank Mastercard Global Account (Bank)
+	https://www.c6bank.com.br/conta-global
+	C6 Bank Mastercard Brazil Account (Bank)
+	https://www.c6bank.com.br/nossos-produtos
+
 3B 6F 00 00 80 31 E0 6B 04 52 05 02 FE 55 55 55 55 55 55
 	CITIBanamex "Perfiles" debit card (Bank)
 	https://www.banamex.com/es/personas/cuentas/cuenta-perfiles.html
@@ -3510,6 +3523,10 @@
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B C3 15 13 51 82 90 00
+	Korigo card transport for star company (France) (Transport)
+	https://www.star.fr/
+
 3B 6F 00 00 80 5A 29 13 09 10 11 3[36] .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
@@ -3661,6 +3678,10 @@
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 03 55 46 82 90 00
 	MoBIB: Belgian transport card (NFC) (Transport)
 	https://mobib.be/en.html
+
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 07 57 58 82 90 00
+	MOBIB Basic (public transport card for Brussels, Belgium) (Transport)
+	https://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en
 
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
@@ -5429,6 +5450,10 @@
 	Java Card J3A040 (JavaCard)
 	http://smartcardsource.com/contents/en-ca/d9_JCOP-NXP-cards.html
 
+3B 89 80 01 53 50 49 56 4B 45 59 37 30 44
+	Taglio PIVkey C980 smart card (Other)
+	https://pivkey.com/
+
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
 
@@ -6046,6 +6071,10 @@
 	SmartCafe Expert 6.0 80K Dual (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
 
+3B 8E 80 01 80 31 80 65 49 54 4E 58 50 12 0F FF 82 90 F0
+	Italian Electronic Contactless Identity Card v. 3.0 (CIE 3.0) - ICAO 9303 Compliant (eID)
+	https://www.cartaidentita.interno.gov.it/caratteristiche-del-documento/
+
 3B 8E 80 01 80 31 80 65 49 54 4E 58 50 12 0F FF FF FF E2
 	Italian identity card, 2nd version (eID)
 	https://www.cartaidentita.interno.gov.it/
@@ -6113,6 +6142,10 @@
 
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 34 00 90 00 99
+	G&D Sm@rtCafe Card embedded in a wristband (Bank)
+	https://www.gi-de.com/en/au/mobile-security/industries/financial-institutions/wearables/
 
 3B 8F 80 01 00 66 46 53 05 10 00 FF 71 DF 00 00 00 00 00 39
 	JavaCOS A40 dual interface Java card - 64K (JavaCard)
@@ -9042,6 +9075,10 @@
 	ZeitControl BasicCard ZC7.5 user-programmable dual interface smart card
 	http://www.smartcardfocus.com/shop/ilp/id~380/BasicCard_ZC7_5_Dual_Interface/p/index.shtml
 
+3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 42 6C
+	BasicCard ZC7.5 dual-interface programmable smartcard (30K) (eID)
+	https://secure.zeitcontrol.de/shop/Smart-card-BasicCard-Professional-ZC75-Combi
+
 3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 44 6A
 	Smart card BasicCard Professional ZC7.5, ZeitControl cardsystems GmbH
 	http://www.zeitcontrol.de/en/products/chip-cards/processor-chip-cards/basiccard
@@ -9963,6 +10000,9 @@
 3B F5 71 00 FF FE 24 00 01 1E 0F 33 39 32 01 03
 	Mydo IC Card from Japan, based on NTTDATA CARD (Loyalty)
 	https://www.idemitsu.com/company/history/13.html
+
+3B F5 91 00 FF 91 81 71 FE 40 00 0A 08 6E 77 3A 65
+	iCLASS Card (Other)
 
 3B F5 91 00 FF 91 81 71 FE 40 00 41 00 00 00 00 05
 	Contactless Mifare Ultralight
@@ -11176,6 +11216,9 @@
 
 3B FF 94 00 00 40 0A 80 31 00 73 12 21 13 57 4A 33 0E 10 31 41 00
 	GSM SIM MEDIONmobile (MVNO) the Netherlands (Telecommunication)
+
+3B FF 94 00 00 80 1F 47 80 31 E0 73 FE 21 00 00 00 00 00 83 0F 90 00 52
+	Telecommunication SIM (Telecommunication)
 
 3B FF 94 00 00 81 31 80 43 80 31 80 65 B0 85 02 01 F3 12 0F FF 82 90 00 79
 	Serbian Identity Card (eID)
