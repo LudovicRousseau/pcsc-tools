@@ -1403,6 +1403,10 @@
 3B 65 00 00 20 63 CB BD 00
 	Crédit Mutuel Arkea (Bank)
 
+3B 65 00 00 20 63 CB C0 80
+	VISA debit card (Bank)
+	https://www.cic.fr/fr/banques/professionnels/gestion-courante/cartes-paiement-professionnelles.html
+
 3B 65 00 00 20 63 CB C1 00
 	CIC (Bank)
 	https://www.cic.fr/
@@ -1894,6 +1898,9 @@
 3B 69 00 00 56 49 53 5F 49 4E 46 20 06
 	VISA credit card (Ceska Sporitelna)
 	Maestro credit card (Ceska Sporitelna)
+
+3B 69 00 00 57 92 02 00 00 00 00 00 A9
+	SURGUTNEFTEGAZ Fuel station network loyalty card, Russia (Loyalty)
 
 3B 69 00 00 57 92 02 01 01 00 01 00 A9
 	Sun Microsystems Sun Ray 1G thin client access card (Other)
@@ -2407,9 +2414,17 @@
 	WatchData Proxkey with VID:PID as 0x163C:0x0417 (PKI)
 	http://www.watchdata.com/class.php?id=19
 
+3B 6D 00 00 80 31 80 65 49 53 01 00 01 83 07 90 00
+	Yandex money world card (Bank)
+	https://money.yandex.ru
+
 3B 6D 00 00 80 31 80 65 49 53 02 02 01 83 07 90 00
 	MasterCard SMP BANK (Bank)
 	https://smpbank.ru/
+
+3B 6D 00 00 80 31 80 65 49 53 04 03 01 83 07 90 00
+	Mastercard Tinkoff.ru platinum (black) (Bank)
+	https://www.tinkoff.ru/
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
@@ -7270,6 +7285,10 @@
 	Aldi Talk SIM card, Germany (Telecommunication)
 	https://www.alditalk.de/talk
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 1E 11 00 AE
+	Zevvle SIM Card (Telecommunication)
+	https://zevvle.com
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 DD 12 00 6E
 	USIM (Telecommunication)
 
@@ -7278,6 +7297,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 12 10 00 A2
 	OpenAirInerface (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 58 11 00 E9
+	Vodafone CZ: SIMPLUS V128 LTE (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
@@ -7342,6 +7364,9 @@
 3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
 	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
 	https://www.tracfone.com
+
+3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A B3 13 00 89
+	SIM T-MObile (Telecommunication)
 
 3B 9F .. 80 1F C3 00 68 1. 44 05 01 46 49 53 45 31 C8 .. 90 00 ..
 	Setec SetCOS 4.4.1
@@ -8864,6 +8889,9 @@
 	German public health insurance card („Gesundheitskarte“), 2nd generation (G2), issuer Techniker Krankenkasse (HealthCare)
 	https://gematik.de/cms/de/spezifikation/wirkbetrieb/kartengeneration2/kartengeneration2.jsp
 
+3B D0 96 FF 81 B1 FE 45 1F C7 EA
+	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2) (HealthCare)
+
 3B D0 97 FF 81 B1 FE 45 1F 07 2B
 	German Elektronische Gesundheitskarte (eGK) (HealthCare) - From TK (HealthCare)
 	https://de.wikipedia.org/wiki/Elektronische_Gesundheitskarte
@@ -9082,6 +9110,10 @@
 3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 44 6A
 	Smart card BasicCard Professional ZC7.5, ZeitControl cardsystems GmbH
 	http://www.zeitcontrol.de/en/products/chip-cards/processor-chip-cards/basiccard
+
+3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 36 20 52 45 56 20 44 69
+	ZeitControl BasicCard 7.6 (Other)
+	https://www.zeitcontrol.de/en/products/basiccard/basiccard
 
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	Oberthur Card Systems (contactless pilot) ID-One Cosmo v5.2D 64K
@@ -11289,6 +11321,9 @@
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 31
 	Pay TV card nc+ polish (seca with merlin layer) (Pay TV)
 	http://www.flysat.com/ncplus.php
+
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 35
+	Decoder card for VOO TV distributer in Belgium (Pay TV)
 
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 39
 	Big TV India (Pay TV)
