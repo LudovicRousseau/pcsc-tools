@@ -3496,6 +3496,10 @@
 	Navigo (Paris) - Gamalto SmarCard (Transport)
 	https://www.iledefrance-mobilites.fr/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 9B C4 F1 82 90 00
+	Navigo Liberté + (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/liberte-plus
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 9C 78 6C 82 90 00
 	Navigo Easy (Transport)
 	http://www.navigo.fr/titres/titre-t-support-sans-contact-presentation/
@@ -4948,6 +4952,10 @@
 	bpaid: bpost prepaid Mastercard (contactless)
 	http://www.bpost.be/site/fr/residential/finance/bpaid/index.html
 
+3B 85 80 01 20 63 CB A3 A0 8F
+	BNP Paribas Visa Classic Card (NFC) (Bank) 2014-2017 (Bank)
+	https://mabanque.bnpparibas/fr/notre-offre/comptes-cartes-et-services/cartes-et-moyens-de-paiement/decouvrir-toutes-les-cartes/carte-visa-classic
+
 3B 85 80 01 20 63 CB A5 20 09
 	MasterCard issued by OTP Bank (Hungary) (Bank)
 	https://www.otpbank.hu/portal/en/Retail/Bankcards
@@ -5208,6 +5216,10 @@
 
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
 	Belgian passport (2008-2009)
+
+3B 88 80 01 00 00 05 E0 B3 81 A1 00 7F
+	Japanese JPKI card (aka JINC card) (eID)
+	https://github.com/jpki/myna
 
 3B 88 80 01 00 00 14 E0 B3 81 91 00 5E
 	"JUKICARD", the Basic Resident Registration Card in Japan (eID)
@@ -6741,6 +6753,10 @@
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2005-2006
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
+3B 97 94 80 1F 43 80 31 E0 73 FE 21 1B 39
+	Telenor SIM card (Hungary) (Telecommunication)
+	https://www.telenor.hu
+
 3B 97 94 80 3F 44 90 80 31 A0 73 BE 21 00 95
 	Comprion Simulated card that indicate Low Impedance support: TB(3) = 0x90 (Telecommunication)
 
@@ -8080,13 +8096,25 @@
 	CSL Mobile / PCCW SIM Card (Telecommunication)
 	http://www.hkcsl.com/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 02 02 03 01 42
+	Telenor SIM card (Hungary) (Telecommunication)
+	https://www.telenor.hu
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 04 02 03 02 47
 	ReadySIM / T-Mobile USA USIM (2013) (Telecommunication)
 	http://www.readysim.com/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 08 03 01 03 49
+	Yesss! SIM card (Austria) (Telecommunication)
+	https://www.yesss.at
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 02 01 01 05 01 05 43
 	CMHK card. China Mobile Hong Kong. (Telecommunication)
 	https://www.hk.chinamobile.com
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 02 01 07 01 01 01 45
+	Vodafone SIM card (Czech Republic) (Telecommunication)
+	https://www.vodafone.cz
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 04 01 01 03 01 03 45
 	Telekom Romania Mobile Communications (ex Cosmote) (Telecommunication)
@@ -11771,8 +11799,16 @@
 	TVPLAY HOME (Pay TV)
 	https://www.tvplayhome.lt/
 
+3F FD 15 25 02 50 80 0F 55 B0 02 69 FF 4A 50 F0 80 00 50 31 03
+	Sky Germany [NDS|V15] (098D:000000) (Pay TV) (Pay TV)
+	http://www.sky.de
+
 3F FD FF 25 02 50 80 0F 54 B0 04 69 FF 4A 50 D0 80 00 49 54 03
 	SKy italia (Pay TV)
+
+3F FE 14 25 03 10 80 41 B0 07 69 FF 4A 50 70 80 42 45 54 41 14
+	OSN (Pay TV)
+	https://www.osn.com
 
 3F FF 11 25 03 10 80 41 B0 06 69 FF 4A 50 70 00 00 41 5A 01 00 11
 	Astro (Pay TV)
@@ -11814,6 +11850,10 @@
 
 3F FF 14 25 03 10 80 41 B0 02 69 FF 4A 50 70 80 00 41 4F 01 00 14
 	Pay TV
+
+3F FF 14 25 03 10 80 41 B0 07 69 FF 4A 50 70 80 00 58 44 01 00 14
+	NDS vivacom Bulgaria card  (Pay TV)
+	https://www.vivacom.bg/bg/tv
 
 3F FF 14 25 03 10 80 41 B0 07 69 FF 4A 50 70 80 00 58 44 01 00 FF
 	Provider Vivacom Bulgaria NDS (Pay TV)
