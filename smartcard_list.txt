@@ -92,6 +92,10 @@
 3B 04 01 02 03 04
 	SLE4442 - memory card (256) with write protection PIN. (Other)
 
+3B 04 05 D4 86 C8
+	Telstra (Telecom Australia) Pay Phone Phonecard (Telecommunication)
+	https://www.telstra.com.au/home-phone/calling-cards
+
 3B 04 07 3C 85 92
 	OLD Spanish Prepaid phone cards (pesetas) provided by Telefonica
 
@@ -847,6 +851,10 @@
 
 3B 34 94 00 30 42 30 30
 	Conax card: ComHem sweden
+
+3B 35 11 00 59 4C 59 52 31
+	Student catering card, ADISURC (Other)
+	https://www.adisurcampania.it/
 
 3B 37 11 00 46 4C 4F 4D 41 90 00
 	SLE 4428
@@ -1730,6 +1738,10 @@
 3B 68 00 00 00 DE 51 10 01 01 90 00
 	Itaú Bank Mastercard Debit Card (Brazil) (Bank)
 	https://www.itau.com.br
+
+3B 68 00 00 01 01 30 96 00 00 90 00
+	Edenred - French Restauration e-Ticket card (2013) (Other)
+	https://www.edenred.fr/ticket-restaurant
 
 3B 68 00 00 01 01 31 00 00 00 90 00
 	VISA ELECTRON Sberbank card (Bank)
@@ -2812,6 +2824,10 @@
 	Day Tronic Flex electronic meal vouchers (Other)
 	https://www.day.it/buoni-pasto
 
+3B 6E 00 00 00 73 C8 00 13 64 57 44 30 33 20 00 90 00
+	Up Day Tronic electronic meal voucher card (Italy) (Other)
+	https://www.day.it/pausa-pranzo-buoni-pasto
+
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
 
@@ -3642,6 +3658,10 @@
 
 3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 35 ED CE 82 90 00
 	Lisbon Transportation SmartCard (Transport)
+
+3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 48 BB CC 82 90 00
+	Lisbon Metro Monthly Student Pass (Transport)
+	https://www.metrolisboa.pt/
 
 3B 6F 00 00 80 5A 34 07 06 15 00 01 79 17 A7 E2 82 90 00
 	Rav-Kav multi-line travel ticket used in the public transportation system in Israel (Transport)
@@ -5004,6 +5024,9 @@
 3B 85 80 01 80 73 84 21 40 12
 	Dutch Biometric Passport
 
+3B 85 80 01 80 73 C8 21 10 0E
+	NXP P71 (SmartMX3 P71D320 JCOP4) (JavaCard)
+
 3B 85 C0 FA 21 63 80 63 01 01 05 1B
 	Public Distribution System
 	http://cg.nic.in/pdsonline/corepds/
@@ -5811,6 +5834,9 @@
 3B 8C 80 01 50 43 E0 F5 F4 31 01 06 00 77 81 77 48
 	Indonesian Driver License
 
+3B 8C 80 01 50 45 53 FF C6 E1 F3 5E 11 77 81 A1 78
+	Electronic DNI (eID)
+
 3B 8C 80 01 50 46 E5 70 EC 23 18 01 00 77 81 97 39
 	Indonesian Driver License
 
@@ -5947,6 +5973,10 @@
 
 3B 8C 80 01 50 F6 DC FC 13 23 18 01 00 77 81 97 C3
 	mifare (Transport)
+
+3B 8C 80 01 50 F9 F3 60 D9 E1 F3 5E 11 77 81 A1 E4
+	DNI electronico (Spanish electronic ID card) (eID)
+	http://www.dnielectronico.es
 
 3B 8C 80 01 50 FE 51 56 9F 00 00 00 00 33 81 91 18
 	Repubblica Italiana - Tessera Sanitaria (HealthCare)
@@ -7989,6 +8019,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 00 89 01 02 28
 	TMobile Prepaid USIM (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 02 01 00 A0
+	vivo (Other)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
@@ -10460,6 +10493,9 @@
 	SuisseId card (used for qualified signatures)
 	http://postsuisseid.ch/de/suisseid
 	http://www.suisseid.ch/
+
+3B FA 18 00 FF 10 00 4A 54 61 78 43 6F 72 65 56 31
+	NXP JCOP4 J3R200 P71 (JavaCard)
 
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 65
 	TrubDemax healthcare card
