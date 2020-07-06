@@ -286,7 +286,7 @@ if ($found)
 	print "Your card is not present in the database.\n";
 	print "Please submit your unknown card at:\n";
 	$atr =~ s/ //g;
-	print "http://smartcard-atr.appspot.com/parse?ATR=$atr\n";
+	print "https://smartcard-atr.apdu.fr/parse?ATR=$atr\n";
 }
 
 ######## Sub functions
