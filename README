@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.5.7 - 7 July 2020, Ludovic ROUSSEAU
+    - 116 new ATRs
+    - ATR_analysis: Update URL of the online parser
+
 1.5.6 - 8 March 2020, Ludovic ROUSSEAU
     - 62 new ATRs
     - pcsc_scan: better support of Windows
