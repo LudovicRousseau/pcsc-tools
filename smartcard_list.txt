@@ -1419,6 +1419,10 @@
 	CIC (Bank)
 	https://www.cic.fr/
 
+3B 65 00 00 20 63 CB C3 10
+	Pass Restaurant Sodexo Pass France (Bank)
+	https://moncompte.sodexopass.fr/
+
 3B 65 00 00 26 40 00 90 00
 	Alacard Petroltech (Transport)
 	http://www.alacard.kz/
@@ -1435,6 +1439,9 @@
 3B 65 00 00 58 01 01 00 80
 	RBS Advanta Platinum Reserve Master Card
 	UK Lloyds TSB Visa Debit (issued 2003, Gemplus)
+
+3B 65 00 00 80 31 E0 6B 04 52 05 02 BF 55 55 55 55 55 55
+	mifare  (Transport)
 
 3B 65 00 00 80 73 C6 01 00
 	NX by Abanca free Mastercard debit card (Bank)
@@ -11583,6 +11590,9 @@
 3F 65 35 64 01 04 68 90 40
 	Bull AFNOR-positioned microprocessor chip card "Carte Pastel Internationale" by France Telecom (Other)
 	http://phonecards.free.fr/carte_pastel.htm
+
+3F 65 35 64 02 04 68 90 40
+	Carte Pastel Nationale - nominal France Telecom service card with Bull CP8 chip in AFNOR position (Other)
 
 3F 65 35 64 02 04 6C 90 40
 	Postcard (Switzerland)
