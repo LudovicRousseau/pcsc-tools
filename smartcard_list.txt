@@ -3047,6 +3047,8 @@
 	https://www.revolut.com/revolut-premium
 	Monzo Bank (UK) Debit Mastercard
 	https://monzo.com/
+	Länsförsäkringar (SE) Debit Mastercard
+	https://www.lansforsakringar.se/
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
