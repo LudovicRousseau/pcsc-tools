@@ -1152,6 +1152,9 @@
 3B 3F 95 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16
 	"SIMYO" SIM card (KPN)
 
+3B 3F 95 00 80 69 AF 03 1B 03 B8 FF FF 06 0E 83 3E 9F 16
+	USIM of Elisa Oyj, Finland (Telecommunication)
+
 3B 3F 96 00 80 12 00 91 31 C0 64 0E 47 44 FA 72 F7 41 05 2F
 	MEmbership card (Loyalty)
 
@@ -2385,6 +2388,9 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 37 43 33 00 90 00
 	SEB Debit mastercard (Skandinaviska Enskilda Banken) (Bank)
 	https://seb.se/privat/betala/kort/seb-debit
+
+3B 6D 00 00 00 73 C8 00 13 64 54 37 43 35 00 90 00
+	ABANCA Mastercard Credit Card (Bank)
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 44 33 00 90 00
 	Deutsche Bank MasterCard Credit Card (Bank)
@@ -3917,6 +3923,9 @@
 3B 78 13 00 00 72 75 74 6F 6B 65 6E 6D
 	Aktiv Rutoken Micron
 
+3B 78 18 00 00 00 73 C8 01 40 00 90 00
+	The Kyrgyz Republic eID (eID)
+
 3B 78 18 00 00 00 73 C8 40 00 00 00 00 90 00
 	VERISOFT REWARDO LOYALTY CARD and CUSTOM PERSONALIZATION PROJECTS FOR EXTERNAL ENTITIES (Loyalty)
 	http://www.verisoft.com
@@ -4603,6 +4612,9 @@
 3B 7F 13 00 00 80 31 C0 52 21 67 64 05 00 E4 71 83 83 90 00
 	Credito Oro Banca Personal Bankia (Bank)
 	https://www.bankia.es/en/personal-banking/tarjeta-credito-oro-banca-personal
+
+3B 7F 13 00 00 80 31 C0 52 22 98 64 05 00 E4 71 83 83 90 00
+	PECUNPAY Prepaid VISA Card (Bank)
 
 3B 7F 13 00 00 80 31 C0 52 25 AD 64 05 62 34 70 83 83 90 00
 	Citi Bank (Spain) (VISA Electron) debit card (Bank)
@@ -5718,6 +5730,9 @@
 
 3B 8B 80 01 65 4B 54 50 30 44 32 65 4B 54 50 4C
 	NXP smart eID - Indonesia ektp (eID)
+
+3B 8B 80 01 80 F9 A0 00 00 03 08 00 00 10 00 C8
+	Probably the same as "JCOP3 SecID P60 CS (JavaCard)" but mated with a contactless Identiv reader (JavaCard)
 
 3B 8B 80 01 86 88 FF 6F 39 1E 74 3C 20 08 00 D3
 	Chinese ICBC (bank)
@@ -7548,6 +7563,9 @@
 	Instant EID IP2
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
 
+3B 9F 94 80 1F C3 80 31 E0 73 FE 21 13 63 01 03 02 83 07 90 00 CE
+	Programmable SIM card as one of the requirement for free5GC testing procedure (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 07 52 51 83 07 90 00 CC
 	sim card RUS Beeline Krasnodar (Telecommunication)
 
@@ -8464,8 +8482,14 @@
 3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 13 F6 81 0F BE
 	Verizon SIM Card (Telecommunication)
 
+3B 9F 97 C0 0A B1 FE 45 3F C6 82 80 31 E0 73 FE 21 1B 65 D0 02 3A 14 C9 81 0F 8B
+	SIM (Telecommunication)
+
 3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
 	Gemalto Speed Enhancement 97 (Telecommunication)
+
+3B 9F B6 81 B1 FE 5D 1F 47 00 64 04 11 03 01 31 C0 73 B7 01 00 00 90 00 35
+	BOS (Telecommunication)
 
 3B 9F D6 80 B1 A0 59 1F C7 53 4C 45 38 38 5F 50 53 4C 5F 56 30 2E 35 30 01
 	Infineon SLE88CFX4000P
@@ -10275,6 +10299,10 @@
 	Nigerian eID Card (blank card)
 	Chip is NXP JCOP 2.4.1R3
 
+3B F8 13 00 00 81 31 FE 45 50 49 56 4B 45 59 37 30 FF
+	PIVKey CP70 (PKI)
+	https://pivkey.com/
+
 3B F8 13 00 00 81 31 FE 45 52 41 41 4B 43 32 76 35 CB
 	Raak C2 Smart Card (PKI)
 	http://www.raaktechnologies.com/software-downloads-documentation/
@@ -11557,6 +11585,10 @@
 
 3F 65 25 00 52 09 6A 90 00
 	French carte Vitale
+
+3F 65 25 00 53 43 68 90 00
+	"Flying Cow"- russian pirate CAM-card. (Pay TV)
+	http://mxc.do.am/publ/collection/viewing_card_smart_karty_sputnikovogo_veshhanija/flying_cow_smart_card/13-1-0-25
 
 3F 65 25 00 A[34] 09 6A 90 00
 	Sesam Vitale (French health card)
