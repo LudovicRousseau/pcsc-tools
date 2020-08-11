@@ -2554,6 +2554,10 @@
 	The chip is used for the Chip&PIN application common for all UK-issued cards
 	http://www.chipandpin.co.uk/
 
+3B 6E 00 00 00 31 C0 65 54 B6 01 00 84 71 D6 8C 61 35
+	VISA Electron of Commerzbank AG (Bank)
+	https://www.commerzbank.com/
+
 3B 6E 00 00 00 31 C0 65 76 B4 01 01 60 71 D6 8C 61 1F
 	MasterCard Silver from Viseca Card Services SA
 	http://www.viseca.ch/html/en/kreditkarten/produkte_neutrale_karten.php
@@ -2998,6 +3002,10 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00
 	Visa credit card, issued by Klarna (Bank) (Bank)
 	https://www.klarna.com/se/kort/
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 49 31 31 00 90 00
+	Banca Popolare Di Sondrio (IT) - Ateneo+ Card for University of Brescia (Bank)
+	https://www.ateneopiu.it/home
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 30 37 00 90 00
 	NatWest VISA Debit card (Bank)
@@ -3816,6 +3824,9 @@
 3B 74 18 00 00 73 66 74 65
 	SafeSign from A.E.T. Europe B.V.
 	Manufactured by Giesecke & Devrient (G&D)
+
+3B 75 11 00 00 24 C2 01 90 00
+	Alladin Smartcard CP1 (Other)
 
 3B 75 12 00 00 29 05 01 04 01
 	CAC Cryptographic Service Provider
@@ -4884,6 +4895,10 @@
 3B 82 80 01 47 92 D6
 	Beijing Bus (Transport)
 
+3B 82 80 01 48 58 13
+	Yikatong BMAC -Beijing Municipal Administration & Communication contactless card (Transport)
+	https://en.wikipedia.org/wiki/Yikatong
+
 3B 82 80 01 86 88 0D
 	Beijing Municipal Administration Traffic Card (with cpu) (Transport)
 	http://www.bmac.com.cn/
@@ -5527,6 +5542,10 @@
 
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
+
+3B 89 80 01 66 49 46 58 42 53 32 47 6F 32
+	Blockchain Security 2Go (JavaCard)
+	https://github.com/Infineon/Blockchain
 
 3B 89 80 01 66 4A 41 43 4F 53 32 2E 30 16
 	MasterCard, Credit Card by TargoBank, Germany --  (Bank)
@@ -7385,6 +7404,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 E6 0F 00 49
 	SIM O2 CZ (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 59 14 00 58
+	USIM card of of Ukrainian Telecommunications Operator Kyivstar, emitted after 2016 (Kyivstar GSM) (GSM/UMTS/LTE services) (Telecommunication) (Telecommunication)
+	https://kyivstar.ua/uk/4g
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 5B 12 00 5C
 	Cellcom Israel USIM (micro FF) (Telecommunication)
 
@@ -7394,6 +7417,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 62 12 00 65
 	Free Mobile (Telecommunication)
 	http://mobile.free.fr
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 A0 12 00 A7
+	USIM Card (Etisalat) (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
 	Telkom (Telecommunication)
@@ -7425,6 +7451,9 @@
 	sim card from Mobilcom Debitel Telefonica (Telecommunication)
 	https://md.de
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A D9 13 00 E2
+	sim (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
 	4G-LTE (Telecommunication)
 
@@ -7454,6 +7483,9 @@
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 37
 	dahlia Tv Italian Provider
+
+3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 38
+	Videocon D2H (Pay TV)
 
 3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 38 00
 	irdeto (Pay TV)
@@ -9266,6 +9298,9 @@
 	Guatemalan ID Card
 	http://www.renap.gob.gt/
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C1 64 08 40 22 30 0F 90 00 0A
+	Oberthur v7 - in a Gemalto (was Gemplus) GemPC Key SmartCard Reader (grey USB dongle) - bought at ChamberSign (PKI)
+
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 E8 54 27 E6 04 00 07 90 00 84
 	Polish encard (eID)
 
@@ -9968,6 +10003,10 @@
 3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 4E
 	comdirect VISA card (Bank)
 	https://www.comdirect.de/konto/karten.html#Visa-Karte
+
+3B EF 00 FF 81 31 FE 45 65 63 0D 12 81 01 56 00 1F 00 00 66 86 08 01 22
+	Commerzbank signature card SECCOS (6 or 7) providing RAH security profile (Bank)
+	https://www.chipkartenleser-shop.de/commerzbank/electronic-banking-chipkarten/commerzbank-signaturkarte-2710050006
 
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 27 40 00 03 01 00 E1
 	Postbank Geldkarte
