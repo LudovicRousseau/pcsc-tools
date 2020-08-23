@@ -85,6 +85,9 @@
 	Spanish ID ("DNIe: Documento Nacional de Identidad electrónico).
 	http://www.dnie.es/
 
+3B 04 00 00 00 73
+	ASE M2 Card (I2C) (Other)
+
 3B 04 00 04 00 00
 	Italian healtcare card (TS) National Service Card (CNS) - Regione Lazio - (HealthCare)
 	http://cns.regione.lazio.it
@@ -157,6 +160,9 @@
 
 3B 04 50 D7 F3 0E
 	Ukranian memory card for public phones. Manufacturer: "Kvazar" (Other)
+
+3B 04 69 6C 20 65
+	ASE M2 Card 2Kbit (Other)
 
 3B 04 7F 01 00 00
 	Russian memory card for payphones. Manufacturer: "Exiton" (Other)
@@ -2992,6 +2998,9 @@
 	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
 	https://www.bbva.es/eng/productos/ficha/tarjeta-antes-bbva/0T00000225
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 38 00 90 00
+	ING Direct Debit Card (Bank)
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 41 00 90 00
 	Fineco debit card (Bancomat, Visa Debit) (Bank)
 	https://finecobank.com/it/online/conto-e-carte/carte-e-bancomat/
@@ -3014,6 +3023,8 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00
 	Carta HYPE MasterCard (Italy) (Bank)
 	https://www.hype.it/
+	RACC Master (Bank)
+	https://www.racc.cat/targeta-racc-master
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 53 34 30 00 90 00
 	PNC Debit (Bank)
@@ -3063,6 +3074,8 @@
 	https://monzo.com/
 	Länsförsäkringar (SE) Debit Mastercard
 	https://www.lansforsakringar.se/
+	ING Direct MasterCard (Bank)
+	https://www.ing.es/tarjetas-ing
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -4720,6 +4733,10 @@
 3B 7F 94 00 00 80 25 A0 00 00 00 28 57 80 10 30 01 00 01 00
 	ProID+ (PKI)
 	http://proid.cz
+
+3B 7F 94 00 00 80 25 A0 00 00 00 28 57 80 10 42 02 00 01 00
+	ProID+Q Client (JavaCard)
+	https://www.proid.cz
 
 3B 7F 94 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Gemalto Classic V4
@@ -7237,6 +7254,9 @@
 	ACOS5-64 v3.00 is a FIPS 140-2 Level 3 Certified Cryptographic Smart Card which is fully compliant with ISO7816-1/2/3/4/8/9 and common criteria EAL5+ (chip level) specifications. (PKI)
 	https://www.acs.com.hk/en/products/308/acos5-64-v3.00-cryptographic-card-contact/
 
+3B 9E 96 80 01 41 05 42 00 00 00 00 00 00 00 00 00 90 00 1F
+	ACOS5 EVO 192KB PKI combined (PKI)
+
 3B 9E 96 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 1D 10 49
 	Maroc Telecom USIM
 
@@ -7757,6 +7777,9 @@
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
 
+3B 9F 95 80 1F C7 80 31 A0 73 BE 21 00 53 04 D0 80 83 05 90 00 BE
+	NTT_DoCoMo (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 13 67 D0 02 04 09 01 00 00 05
 	T-Mobile SIM card issued in Germany 2012
 
@@ -7989,6 +8012,10 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 02 22 00 80 01 01 27
 	giffgaff USIM (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 03 22 01 21 01 00 87
+	Rain 4G 5G Internet Service provider  (Telecommunication)
+	https://www.rain.co.za
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 13 57 4A 33 05 77 33 33 00 E2
 	USIM issued by Moldcell mobile operator in Moldova (Telecommunication)
@@ -8311,6 +8338,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 40 91 22 00 82 90 00 32
 	1&1 Simcard (Telecommunication)
 	https://www.1und1.de/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 24 94 00 82 90 00 30
+	Telefonica Germany / o2 cellular USIM card (ICCID starts with 89492281945) - Card manufacturer IDEMIA Germany GmbH (code 8) - Year 19 / Week 45 (Telecommunication)
+
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 27 11 00 82 90 00 B6
 	Viettel LTE SIM Card (Telecommunication)
@@ -10454,6 +10485,9 @@
 3B F9 91 00 FF 91 81 71 40 40 00 41 80 04 5B 89 BA B3 52 80 3A
 	mifare desfire 2k (eID)
 
+3B F9 91 00 FF 91 81 71 FC 40 00 0A 09 51 61 90 00 58 C2 90 D2
+	NFC PASS card (eID)
+
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
 
@@ -10998,6 +11032,9 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00
+	VISA card issued by ING-DiBa AG (Germany) (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00
 	BBVA debit card Uruguay. MIFRE Plus compatible. (Bank)
