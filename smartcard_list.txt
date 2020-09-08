@@ -1420,6 +1420,10 @@
 3B 65 00 00 20 63 CB BD 00
 	Crédit Mutuel Arkea (Bank)
 
+3B 65 00 00 20 63 CB C0 00
+	Nickel Credit Card (Bank)
+	https://nickel.eu
+
 3B 65 00 00 20 63 CB C0 80
 	VISA debit card (Bank)
 	https://www.cic.fr/fr/banques/professionnels/gestion-courante/cartes-paiement-professionnelles.html
@@ -2959,6 +2963,9 @@
 	Mastercard used in Spain to pay in Restaurants. Made by Edenred. Limited in payment and unable to get physical cash. (Bank)
 	https://www.edenred.es/
 
+3B 6E 00 00 80 31 80 66 B1 A5 01 02 32 19 83 00 90 00
+	Meeza BDC (Bank)
+
 3B 6E 00 00 80 31 80 66 B1 A6 01 01 01 13 83 00 90 00
 	Finnish Smartum benefit card (Other)
 	https://www.smartum.fi/
@@ -3613,6 +3620,10 @@
 	Lisboa VIVA - Lisbon public transport card (Transport)
 	https://www.portalviva.pt/
 
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 09 24 D0 82 90 00
+	Portuguese Lisboa VIVA transport card (Transport)
+	https://www.portalviva.pt/pt/homepage/cart%C3%B5es/transportes/lisboa-viva.aspx
+
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 16 21 3D 82 90 00
 	Portuguese Viva Card (Transport)
 	http://www.portalviva.pt
@@ -4087,6 +4098,9 @@
 
 3B 7A 96 00 00 80 65 A2 01 20 01 3D 72 D6 41
 	Oman eID (eID)
+
+3B 7A 97 00 00 80 65 B0 85 20 04 02 72 D6 41
+	OMAN EID CARD (eID)
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
@@ -7013,6 +7027,9 @@
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
 
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 59 83 79 50 91
+	Vodafone Ukraine (Telecommunication)
+
 3B 9C 95 80 1F C7 80 31 E0 73 FE 21 1B 64 57 44 49 46 CF
 	MTC (Moscow) phone SIM card (Telecommunication)
 	https://moskva.mts.ru/personal
@@ -8029,6 +8046,10 @@
 	SAP Leonardo IoT Connect 365 SIM card (Telecommunication)
 	https://www.sap.com/uk/products/enterprise-iot-connect.html
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 15 01 00 82 90 00 95
+	Telia LT prepaid Ezys USIM (Telecommunication)
+	https://www.ezys.lt
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 17 73 00 82 90 00 E5
 	Prixtel SIM card over OrangeF network (Telecommunication)
 	https://www.prixtel.com
@@ -8506,6 +8527,9 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0F 13 81 0F 2F
 	Phone card sim  (Telecommunication)
+
+3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 02 1A 12 AB 81 0F E3
+	Orange SIM (Telecommunication)
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FE
 	ISPL Card (Telecommunication)
@@ -9074,6 +9098,10 @@
 3B D2 18 00 81 31 FE 58 C9 03 16
 	Austrian "RKS-Card" issued by GlobalTrust (PKI)
 	https://secure.globaltrust.eu/info-rksv.html
+
+3B D2 18 00 81 31 FE 58 CA 60 76
+	CardOS IoT V5.4 (PKI)
+	https://atos.net/wp-content/uploads/2018/11/ct_181127_lpm_cardos_iot_v5-4_fs_en4_web.pdf
 
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
@@ -10055,6 +10083,10 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 06 12 41 37 20 1E
 	BankCard Sparda-Bank Baden-Württemberg eG (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 07 24 1A 37 20 72
+	Commerzbank Maestro Card (Bank)
+	http://www.maestrokarten.de/girokontovergleich/commerzbank_girokonto.html
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 08 3B 3C 37 20 44
 	Comdirect Debit Card Germany - AustriaCard 55616 (Bank)
@@ -11941,6 +11973,9 @@
 3F FD 14 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 70 80 00 4E 5A 03
 	Sky Network Televisiton Limited (New Zealand) card for new (2016) decoder.  Reportedly, this is a Kaon NS1120-500 box. (Pay TV)
 	http://www.sky.co.nz
+
+3F FD 14 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 42 52 03
+	Airtel Digital TV (Pay TV)
 
 3F FD 15 25 02 50 80 0F 41 B0 05 69 FF 4A 50 F0 00 00 41 5A 03
 	astro Pay TV Measat 91.5 E Caid: 0910 Provider: 000000
