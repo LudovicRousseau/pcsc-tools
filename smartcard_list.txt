@@ -855,6 +855,9 @@
 3B 34 00 00 30 42 30 30
 	Conax card: T-Home Hungary
 
+3B 34 13 00 34 41 46 44
+	Demo card Enigo CAS (Pay TV)
+
 3B 34 94 00 30 42 30 30
 	Conax card: ComHem sweden
 
@@ -1969,6 +1972,9 @@
 	Azeriqaz Smart Payment (eID)
 	http://azeriqaz104.az/
 
+3B 69 00 00 F7 04 01 08 01 80 01 02 A9
+	Multinet (Other)
+
 3B 69 00 02 41 43 4F 53 4A 76 31 30 31
 	ACOSJ 40K Dual Interface (JavaCard)
 
@@ -2179,6 +2185,10 @@
 3B 6B 00 00 00 31 C0 64 A9 EC 01 00 82 90 00
 	Entropia Universe Gold card
 	http://account.entropiauniverse.com/account/security/
+
+3B 6B 00 00 00 31 C0 64 BE 1B 01 00 07 90 00
+	MTS Bank MasterCard paypass card (Bank)
+	https://www.mtsbank.ru/
 
 3B 6B 00 00 00 31 C0 64 BE 1B 01 00 0F 90 00
 	An old version of the Politecnico di Milano student ID. It doubles as a VISA debit card for Banca Popolare di Sondrio. (Other)
@@ -3718,6 +3728,10 @@
 	Rav Kav (Transport)
 	http://alhakav.mot.gov.il/he/rav-kav
 
+3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 56 C5 F4 82 90 00
+	RAVKAV - Israel dual interface transport card (Calypso standard) (Transport)
+	https://en.wikipedia.org/wiki/Rav-Kav
+
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
 
@@ -4880,6 +4894,9 @@
 	Canadian Passport
 	Venez_Prox
 
+3B 81 00 20
+	Old MobilCOM GSM (Telecom D1) (Telecommunication)
+
 3B 81 1F 00 CC 52
 	eToken R2 2242
 
@@ -4946,6 +4963,10 @@
 
 3B 83 00 43 56 10
 	Comviq 2G SIM
+
+3B 83 80 01 00 00 00 02
+	Mastercard debit (BNP Paribas Ukrsibbank) (Bank)
+	https://my.ukrsibbank.com/ru/personal/cards/welcome_card/
 
 3B 83 80 01 41 01 26 64
 	ACOS3 Multi-Application Contactless Card (Other)
@@ -5500,6 +5521,10 @@
 3B 89 80 01 00 64 04 15 01 02 00 90 00 EE
 	German Passport (issued Apr 2007)
 
+3B 89 80 01 00 64 04 28 03 02 00 90 00 D1
+	TCOS 3.0 release 2 on Philips P5CD080 (PKI)
+	https://www.digchip.com/datasheets/parts/datasheet/1019/P5CD080.php
+
 3B 89 80 01 31 31 31 30 54 43 4F 53 50 52
 	Seven-Eleven Value Card / Smart Purse - Thailand (Contactless) (Other)
 	http://www.7eleven.co.th/about7card.php
@@ -5698,6 +5723,10 @@
 3B 8B 01 52 75 74 6F 6B 65 6E 6C 69 74 65 C2
 	Aktiv Rutoken Lite
 	https://www.rutoken.ru/products/all/rutoken-lite/
+
+3B 8B 80 01 00 12 23 3F 53 65 49 44 0F 90 00 A0
+	Estonian Identity Card (eID)
+	http://id.ee/
 
 3B 8B 80 01 00 31 C0 64 08 04 61 00 00 90 00 62
 	NUMBER26 Maestro Card (Bank)
@@ -8391,6 +8420,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2A 01 0A 01 02 81 05 74
 	Thailand AIS SIM Card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2A 01 0E 02 01 81 05 70
+	gsm (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2D 01 0C 04 00 81 05 72
 	Tri Indonesia Bima+ SIM Card (Telecommunication)
 	https://beta.tri.co.id/3digiworld/Bimaplus
@@ -10117,6 +10149,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 30 2F 37 10 65
 	MasterCard German Sparkasse (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 54 31 37 10 1F
+	Sparkasse (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0A 1E 13 37 10 7B
 	girocard (Bank)
