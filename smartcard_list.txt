@@ -1082,6 +1082,9 @@
 3B 3E 94 00 80 31 00 73 FE 21 13 62 00 31 83 81 90 00
 	Vodafone (Italy) 64kB GSM SIM card
 
+3B 3E 95 00 53 4F 4D 41 2D 63 30 30 37 2D 44 53 31 61
+	Kazakhstan Identity Card (eID)
+
 3B 3E 95 00 80 31 00 73 FE 21 13 62 00 34 83 81 90 00
 	STMicroelectronics GSM File system sample CARD for ST microcontrollers
 
@@ -2140,6 +2143,10 @@
 	BBVA (Spain) (MasterCard) debit card (Bank)
 	https://www.bbva.es/eng/productos/ficha/tarjeta-ahora-bbva/0000009719
 
+3B 6B 00 00 00 31 C0 64 08 44 03 13 07 90 00
+	MasterCard, Alfa Bank (Russia) (Bank)
+	https://alfabank.ru/everyday/debit-cards/perekrestok-prepaid/
+
 3B 6B 00 00 00 31 C0 64 08 44 03 68 0F 90 00 3B 02 14 50
 	Advanzia Credit Card (Master Card gold), Germany (IDK if there is a difference between the german one and the other ones) (Bank)
 	https://mastercard.gebuhrenfrei.com/
@@ -2470,6 +2477,10 @@
 3B 6D 00 00 80 31 80 65 49 53 04 03 01 83 07 90 00
 	Mastercard Tinkoff.ru platinum (black) (Bank)
 	https://www.tinkoff.ru/
+
+3B 6D 00 00 80 31 80 65 49 53 06 05 FF 83 07 90 00
+	MIR Debit Card (Russia), Bank of Saint Petersburg (Bank)
+	https://www.bspb.ru/retail/cards/standard-classic/
 
 3B 6D 00 00 80 31 80 65 B0 06 01 01 77 83 00 90 00
 	GemXpresso Lite: with EMV application
@@ -3681,6 +3692,9 @@
 
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 20 9D 05 82 90 00
 	Gent schakelt slim. AustriaCard  (Transport)
+
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 21 7A 3A 82 90 00
+	mobob (Transport)
 
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 22 4F 89 82 90 00
 	MoBIB card (Transport)
@@ -4896,6 +4910,9 @@
 
 3B 81 00 20
 	Old MobilCOM GSM (Telecom D1) (Telecommunication)
+
+3B 81 01 00 80
+	Rompetrol Romania Fill&Go Fuel Card (Other)
 
 3B 81 1F 00 CC 52
 	eToken R2 2242
@@ -6898,6 +6915,9 @@
 
 3B 97 95 80 1F 47 80 31 E0 73 FE 21 1B 3C
 	iFree MOGO SIM Card  for test  (Telecommunication)
+
+3B 97 95 80 1F C7 80 31 A0 73 B6 21 1B B4
+	DNP Local5G (Telecommunication)
 
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2010-2015
@@ -9308,6 +9328,9 @@
 3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
 	Oberthur Cosmo V7 64K Dual/128K
 
+3B DB 18 FF 81 B1 FE 75 1F 03 50 4B 43 61 72 64 20 56 31 2E 30 ED
+	Tecos 3 card (Other)
+
 3B DB 18 FF 81 B1 FE 75 1F 03 5A 43 37 2E 35 20 52 45 56 20 41 AE
 	BasicCard Professional ZC7.5-COMBI (Other)
 	http://www.basiccard.com/
@@ -9986,6 +10009,10 @@
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 11 23 10 02 53 41 43 45 81 04 12
 	VISA card issued by UBS, Switzerland
 
+3B EF 00 00 81 31 FE 45 00 31 C1 73 C8 21 10 64 47 4D 31 36 00 90 00 67
+	ING Gold Credit Card (Italy) (Bank)
+	https://www.ing.it/
+
 3B EF 00 00 81 31 FE 45 41 74 41 43 4F 53 32 2E 34 53 45 20 4C 63 37 C9
 	Maestro Polish Alior debit card (Bank)
 
@@ -10104,6 +10131,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 04 01 02 80 00 0F 46 20 04 23 01 00 C4
 	Postbank ec/Maestro (Germany)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 08 43 02 50 00 10 21 20 03 24 05 30 16
+	Bank (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 12 61 02 50 00 10 0A 07 27 22 07 10 22
 	DKB Online Banking Card (Bank)
@@ -11471,6 +11501,10 @@
 
 3B FF 32 00 00 10 80 80 31 E0 5B 47 42 50 00 00 00 00 00 00 02 55
 	UK NatWest BT PayToView Mondex
+
+3B FF 67 00 00 81 31 FE 45 FF 43 72 79 70 74 6E 6F 78 46 49 44 4F 32 30 5F
+	Fast Identification Online card (FIDO2) from Cryptnox manufacturer (Other)
+	https://www.cryptnox.ch
 
 3B FF 91 00 FF 91 81 71 FC 40 00 0A 65 4B 54 50 30 44 32 65 4B 54 50 04 3D 5B 62
 	Indonesian eID (eID)
