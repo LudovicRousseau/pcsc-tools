@@ -2008,6 +2008,10 @@
 3B 6A 00 00 30 30 30 30 33 30 44 33 35 44
 	Building access card (eID)
 
+3B 6A 00 00 30 30 30 30 33 30 44 45 42 41
+	HID Global DuoProx II Low Frequency 125 KHz (HealthCare)
+	https://www.hidglobal.com/sites/default/files/resource_files/prox-duoprox-ii-card-ds-en.pdf
+
 3B 6A 00 00 4A 43 4F 50 31 30 56 32 33 31
 	Dongle Smart Card (MxKey) (Other)
 	http://www.mxkey.biz/
@@ -3756,6 +3760,9 @@
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 40 E8 19 82 90 00
 	France Ile de France Public Transport Card (Transport)
 
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 7B C3 D4 82 90 00
+	Navigo easy -- French (Paris region) transport card (Transport)
+
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 7B C9 93 82 90 00
 	Navigo Easy (Transport)
 	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
@@ -3763,6 +3770,9 @@
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 7D A8 CA 82 90 00
 	Navigo Easy (France) transport card (Transport)
 	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 85 D4 7B 82 90 00
+	Navigo Liberté+ -- French (Paris region) transport card (Transport)
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
@@ -3785,6 +3795,12 @@
 	Personalized MOBIB card (Brussels transports) (Transport)
 	http://www.stib-mivb.be/mobib.html?l=en
 
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 D9 66 F5 82 90 00
+	MOBIB (reseau transport en commun Bruxelles, Belgique)
+	http://www.uclouvain.be/sites/security/mobib.html
+	Calypso application similar to French NAVIGO MOBIB (Transport)
+	http://www.stib-mivb.be/mobib.html?l=en (Transport)
+
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 E7 D7 52 82 90 00
 	MoBIB (Transport)
 	https://mobib.be/nl.html
@@ -3799,6 +3815,10 @@
 
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
+
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 37 D7 AE 82 90 00
+	MOBIB - Brussels (Transport)
+	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=fr
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 49 78 9C 82 90 00
 	MOBIB basic (Transport)
@@ -5210,6 +5230,10 @@
 	Amazon.de VISA Card (Bank)
 	http://lbb.de/amazon
 	CIBC Visa
+
+3B 87 80 01 77 43 32 4C 01 01 00 4C
+	CiPurse L profile with 304 bytes user memory (Other)
+	https://www.infineon.com/cms/en/product/security-smart-card-solutions/cipurse-products/
 
 3B 87 80 01 77 43 32 53 01 00 01 53 77 43 32 53 01 00 01
 	Cipurse ISO 14443-4 Card (Other)
@@ -6777,6 +6801,10 @@
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 85 02 00 E9 83 00 90 00 E7
 	MultiApp ID Dual Citizen EAC 144K CC (with IAS Applet V3) -Contactless Mode
+
+3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 C0 8D
+	Italian Passport (passport)
+	https://www.passaportonline.poliziadistato.it/
 
 3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 FF B2
 	Italian Passport (passport)
@@ -8603,6 +8631,10 @@
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 09 06 92 00 82 90 00 FB
 	Ubigi Transatel esim (Telecommunication)
 
+3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 90
+	Turkish National Electronic Identity Card - TCKK (eID)
+	http://www.ekds.gov.tr
+
 3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9B
 	Turkish Republic Identity Card - Türkiye Cumhuriyeti Kimlik Kartı (TCKK) (eID)
 	http://www.ekds.gov.tr/tckk/t-c-kimlik-karti/tanim
@@ -10186,6 +10218,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0A 1E 13 37 10 7B
 	girocard (Bank)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0B 36 1B 37 10 5A
+	Kreissparkasse bank Girocard (Germany) (Bank)
+	https://www.kskmse.de/de/home/privatkunden/girokonto/girokonto-online.html?n=true&stref=productbox
+
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 20 24 37 10 74
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ... (Bank)
 
@@ -10906,6 +10942,9 @@
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
+
+3B FD 18 00 00 80 31 FE 45 53 43 45 36 30 2D 43 44 30 38 31 2D 46 C4
+	Panama Electronic Signature (JavaCard)
 
 3B FD 18 00 00 80 31 FE 45 73 66 74 65 20 63 64 31 34 34 2D 6E 66 D8
 	SmartCafe Expert 3.2 144K Dual is a contact and contactless technology Java card from G&D with 144K on-board EEPROM for application and data storage. Certified to FIPS 140-2 Level 3 and Common Criteria EAL 5+. Supports specifications ISO 14443A T=CL and ISO 7816 T=1/0. (PKI)
