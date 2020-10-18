@@ -450,9 +450,6 @@
 	Verizon GSM SIM (Telecommunication)
 
 3B 16 96 41 73 74 72 69 64
-	Gemalto .NET v2.0
-
-3B 16 96 41 73 74 72 69 64
 	Gemalto IDPrime v2+ .NET
 
 3B 16 96 77 00 06 01 04 03
@@ -1503,8 +1500,6 @@
 
 3B 66 00 00 90 D1 02 01 10 B1
 	Moneo card (e-purse)
-
-3B 66 00 00 90 D1 02 01 10 B1
 	Card "Bordeaux Ma Ville" (yellow)
 	http://www.bordeaux.fr/ebx/portals/ebx.portal?_nfpb=true&_pageLabel=pgPresStand8&classofcontent=presentationStandard&id=57733
 
@@ -2153,8 +2148,6 @@
 
 3B 6B 00 00 00 31 C0 64 08 44 03 68 0F 90 00
 	Credit card emitted by KBC Brussels, Belgium (Bank)
-
-3B 6B 00 00 00 31 C0 64 08 44 03 68 0F 90 00
 	Advanzia Credit Card (Master Card gold), Germany (IDK if there is a difference between the german one and the other ones) (Bank)
 	https://mastercard.gebuhrenfrei.com/
 
@@ -4806,8 +4799,6 @@
 3B 7F 94 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Gemalto Classic V4
 	Juridic Person's Token (PKI)
-
-3B 7F 94 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FF 82 90 00
 	Uruguayan Identification Card (Cedula de Identidad) (eID)
 
 3B 7F 94 00 00 80 31 80 71 90 67 54 45 4D 44 31 2E 30 90 00
