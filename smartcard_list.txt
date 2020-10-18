@@ -6744,10 +6744,8 @@
 	Contact (7816-10) 2WBP (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 10 .. .. 00 00 00 00 ..
-	Contact (7816-10) 3WBP (as per PCSC std part3)
-
-3B 8F 80 01 80 4F 0C A0 00 00 03 06 10 .. .. 00 00 00 00 ..
 	RFID - FeliCa compatible (as per PCSC std part3)
+	Contact (7816-10) 3WBP (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 11 00 3B 00 00 00 00 42
 	RFID - FeliCa (generic) (as per PCSC std part3)
@@ -9126,8 +9124,6 @@
 	for Identifikation, Digital Signature etc.
 	("should be" Starcos 2.3)
 
-3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
-
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
 
@@ -11337,13 +11333,6 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 05 28 00 0D 90 81 06 00 06 15 58
 	Geldkarte/HBCI (Frankfurter Sparkasse, Germany)
-
-3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D .. .. .. .. 06 15 ..
-	Giesecke & Devrient GmbH
-	ROM Mask=ecD6.3
-	Init-Table=SDP2G3F0.E_2 (BES0), SWP2G3H0.E_1 (CS0)
-	Signaturerstellungseinheit ZKA TUVIT.93125.TU.12.2005 Banking Signature Card, v6.32, Type 3
-	TUVIT.93125.TU.12.2005
 
 3B FF 18 00 FF 81 31 FE 45 65 63 0D 07 63 07 64 00 0D .. .. .. .. 06 15 ..
 	Giesecke & Devrient GmbH
