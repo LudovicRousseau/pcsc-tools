@@ -38,10 +38,18 @@ def check_format():
     # pp.pprint(ATRs)
     sorted_ATRs = list(ATRs)
     sorted_ATRs.sort()
+    uniq_ATRs = sorted(set(sorted_ATRs))
 
     # pp.pprint(sorted_ATRs)
+    # pp.pprint(uniq_ATRs)
 
+    # sorted
     for line in difflib.context_diff(ATRs, sorted_ATRs):
+        print(line)
+        ret_value = True
+
+    # uniq
+    for line in difflib.context_diff(sorted_ATRs, uniq_ATRs):
         print(line)
         ret_value = True
 
