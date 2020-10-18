@@ -2151,6 +2151,9 @@
 	MasterCard, Alfa Bank (Russia) (Bank)
 	https://alfabank.ru/everyday/debit-cards/perekrestok-prepaid/
 
+3B 6B 00 00 00 31 C0 64 08 44 03 68 0F 90 00
+	Credit card emitted by KBC Brussels, Belgium (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 44 03 68 0F 90 00 3B 02 14 50
 	Advanzia Credit Card (Master Card gold), Germany (IDK if there is a difference between the german one and the other ones) (Bank)
 	https://mastercard.gebuhrenfrei.com/
@@ -5971,6 +5974,10 @@
 	BIP (Biglietto Integrato Piemonte) Card, GTT (Gruppo Trasporti Torinese) (Transport)
 	http://bip.piemonte.it/
 
+3B 8C 80 01 50 3A 88 EC 29 E1 F3 5E 11 77 81 E1 60
+	DNI electronico (Spanish electronic ID card) (eID)
+	http://www.dnielectronico.es
+
 3B 8C 80 01 50 3A 96 4B 00 00 00 00 00 00 81 80 BB
 	Ventra Transit Pass (Transport)
 	https://www.ventrachicago.com/how-to/ventra-cards/
@@ -9488,6 +9495,10 @@
 	ST security module for German smart meter gateway (JavaCard)
 	https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03109/TR-03109-2-Anforderungen_an_die_Funktionalitaet.pdf?__blob=publicationFile&v=3
 
+3B DC 18 FF 81 11 C1 80 73 C8 21 13 66 05 03 63 51 00 02 33
+	GoTrust Idem Key  (Other)
+	https://www.gotrustid.com/idem-key
+
 3B DC 18 FF 81 11 FE 80 73 C8 21 13 66 01 06 01 30 80 01 8D
 	Aladdin R.D. JaCarta LT (eID)
 
@@ -10232,6 +10243,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 11 3B 32 37 10 64
 	DKB GiroCard (Bank)
 	https://dkb.de
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 17 28 46 37 10 05
+	Sparkasse Zwickau Maestro card (Bank)
+	https://www.spk-zwickau.de/de/home/privatkunden/girokonto/sparkassencard.html
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 0F 48 37 10 23
 	SparkassenCard (Bank)
