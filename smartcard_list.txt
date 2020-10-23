@@ -3413,6 +3413,9 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 01 F4 1F 82 90 00
 	RAV KAV (israel) transportation card (Transport)
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 0B A9 45 82 90 00
+	Israeli Ravkav card (Transport)
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 96 7A 29 82 90 00
 	Rav-Kav transport card for Israel Ministry of Transport (Transport)
 	https://en.wikipedia.org/wiki/Rav-Kav
