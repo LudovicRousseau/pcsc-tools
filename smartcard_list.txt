@@ -66,6 +66,9 @@
 3B 02 14 50 11
 	Maste visa card (Bank)
 
+3B 02 14 51
+	8A (Bank)
+
 3B 02 36 02
 	EMTG56 0.2
 
@@ -161,6 +164,9 @@
 3B 04 50 D7 F3 0E
 	Ukranian memory card for public phones. Manufacturer: "Kvazar" (Other)
 
+3B 04 60 89
+	Smartcard 3.1 (JavaCard)
+
 3B 04 69 6C 20 65
 	ASE M2 Card 2Kbit (Other)
 
@@ -233,6 +239,10 @@
 	HID Prox H10301 Format
 	26 bit (FAC+CN)
 	https://www.hidglobal.com/sites/default/files/omnikey_contactless_developer_guide.pdf
+
+3B 06 01 00 02 00 96 06
+	EM4200 (eID)
+	https://www.emmicroelectronic.com/product/lf-animal-access-ics/em4200
 
 3B 06 01 00 10 00 06 60
 	Access card for parking garage in South Boston (Other)
@@ -665,6 +675,10 @@
 
 3B 1F 95 80 31 00 73 12 21 13 57 4A 33 0E 1A 32 36 00
 	Telcel Mexico SIM Card (Telecommunication)
+
+3B 1F 96 38 05 03 20 06 17 02 04 40 10 00 07 08 90 00
+	THC20F17BD blank smartcard (Pay TV)
+	http://tsinghuaic.com/product/product.asp?id=12&bid=8552
 
 3B 23 00 00 36 41 81
 	Schlumberger Payflex 4k SAM
@@ -2350,6 +2364,9 @@
 	MasterCard issued by Swedbank Estonia (manufacturer Oberthur)
 	Santander Business Visa Debit
 
+3B 6D 00 00 00 31 C0 71 D6 64 19 16 01 02 84 90 00
+	VISA (JavaCard)
+
 3B 6D 00 00 00 31 C0 71 D6 64 34 C7 01 00 84 90 00
 	DeLaRue ProlifIC
 
@@ -3413,6 +3430,9 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 01 F4 1F 82 90 00
 	RAV KAV (israel) transportation card (Transport)
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 0B A9 45 82 90 00
+	Israeli Ravkav card (Transport)
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 03 96 7A 29 82 90 00
 	Rav-Kav transport card for Israel Ministry of Transport (Transport)
 	https://en.wikipedia.org/wiki/Rav-Kav
@@ -3489,6 +3509,10 @@
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
+
+3B 6F 00 00 80 5A 28 11 42 10 10 12 2B 26 0C D4 5A 82 90 00
+	French transport card Navigo (Transport)
+	https://www.iledefrance-mobilites.fr/je-gere-ma-carte
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 23 A9 E2 29 82 90 00
 	Navigo(French transport) (Transport)
@@ -4204,6 +4228,9 @@
 	HID Global Crescendo C800 (PKI)
 	http://www.hidglobal.com/products/cards-and-credentials/crescendo/c800
 
+3B 7C 18 00 00 86 88 00 00 01 B3 F4 20 55 01 81 B3
+	smart (Telecommunication)
+
 3B 7C 94 00 00 50 52 4F 47 45 58 49 41 43 53 50 32
 	mutual health Martinique (UFR PASS+) (HealthCare)
 
@@ -4548,6 +4575,10 @@
 3B 7F 13 00 00 80 31 C0 52 08 80 64 05 66 99 36 83 83 90 00
 	"la Caixa" (Spain) (VISA Electron) debit card (Bank)
 	https://www.lacaixa.es/
+
+3B 7F 13 00 00 80 31 C0 52 08 89 64 02 00 65 71 83 83 90 00
+	Guardadito | Banco Azteca (Bank)
+	https://www.bancoazteca.com.mx/productos/cuentas/guardadito.html
 
 3B 7F 13 00 00 80 31 C0 52 09 AA 64 05 66 99 36 83 83 90 00
 	Advantis 8k (Bank)
@@ -6364,6 +6395,10 @@
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 FF FF FF BD
 	DKB Visa Credit Card (Bank)
 	https://www.dkb.de
+
+3B 8F 80 01 43 44 32 69 AB 41 20 20 20 20 20 20 FF FF FF 47
+	BKB VISA Card Switzerland (Bank)
+	https://www.bkb.ch/de/privatkunden/konten-und-karten/kreditkarten/world-mastercard-silber-oder-visa-classic/factsheet
 
 3B 8F 80 01 43 55 32 69 AA 20 20 20 20 20 20 20 20 20 20 E9
 	UBS Access Card (Mobile Online Banking, NFC, Switzerland)
@@ -8446,6 +8481,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 44 73 00 82 90 00 B7
 	Bouygues Telecom (French Mobile Provider SIM card) (Telecommunication)
 	https://www.bouyguestelecom.fr
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 51 00 82 90 00 A3
+	Free Mobile (French wireless service provider) SIM card (mini-SIM with micro-SIM cutout) received in 2020-09 (Telecommunication)
+	https://mobile.free.fr/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -10829,6 +10868,9 @@
 	Basiccard ZC5.4 revision M (Other)
 	http://basiccard.com
 
+3B FB 13 00 FF C0 80 75 53 54 4F 4C 4C 4D 31 50 4C 55 53 BD
+	Stoll M1PLUS (Other)
+
 3B FB 18 00 00 40 78 80 59 53 50 59 52 55 53 0B 00 03
 	Spyrus, Inc. Rosetta USB (PKI)
 
@@ -10928,6 +10970,9 @@
 3B FD 13 00 00 81 31 FE 15 80 73 C0 21 C0 57 59 75 62 69 4B 65 79 40
 	Yubico YubiKey 5 NFC (PKI)
 	https://www.yubico.com/product/yubikey-5-nfc
+
+3B FD 13 00 00 81 31 FE 45 00 12 55 53 55 4D 49 44 41 53 00 00 00 F6
+	Midas key diversification card (Other)
 
 3B FD 13 00 00 81 31 FE 45 41 37 30 30 35 43 47 20 32 34 32 52 31 D5
 	Feitian ePass FIDO NFC (Other)
@@ -11176,6 +11221,10 @@
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00
 	BBVA debit card Uruguay. MIFRE Plus compatible. (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 47 07 90 00
+	Chase Visa Debit Card (Bank)
+	https://www.chase.com/bankinghelp
 
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
@@ -11682,6 +11731,9 @@
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0C
 	IDPrime 930 FIPS Level 2 (T=1 CT=96) (BAI3.1) (PKI)
+
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 E0
+	Pakistan National identity card (eID)
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00 D0
 	Portuguese National Identity Card (eID) (eID)
