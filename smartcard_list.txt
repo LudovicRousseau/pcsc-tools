@@ -1384,6 +1384,10 @@
 3B 65 00 00 20 63 CB AD 80
 	Santander Debit Card (Bank)
 
+3B 65 00 00 20 63 CB AD A0
+	VISA Card, issued by Czech bank "Komercni banka" (Bank)
+	https://www.kb.cz/en/
+
 3B 65 00 00 20 63 CB AE 20
 	MasterCard payment card for French Crédit Agricole bank (Bank)
 
@@ -3411,6 +3415,10 @@
 	Montreal OPUS Transportation Card for the STM, STL, RTM and RTL (Transport)
 	http://www.stm.info/en/info/fares/opus-cards-and-other-fare-media
 
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 E2 F6 C6 82 90 00
+	STM Opus Card - Montreal Transit Pay Card (Other)
+	https://en.wikipedia.org/wiki/OPUS_card
+
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 EA 7F 50 82 90 00
 	Montreal transport Opus Card (Transport)
 
@@ -3645,6 +3653,10 @@
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 D6 63 FC 82 90 00
+	Card "Korrigo" region Bretagne, France, Bibus Brest Métropole public transport  (Transport)
+	https://fr.wikipedia.org/wiki/KorriGo
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B C3 15 13 51 82 90 00
 	Korigo card transport for star company (France) (Transport)
@@ -6101,6 +6113,10 @@
 3B 8C 80 01 50 C1 1B A3 F1 00 00 00 00 91 71 71 44
 	Tramway (PKI)
 
+3B 8C 80 01 50 C1 41 64 E3 00 00 00 00 00 71 71 5A
+	Navigo Annuel (France) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/forfait-navigo-annuel
+
 3B 8C 80 01 50 C1 6A 34 72 00 00 00 00 00 71 71 B0
 	Navigo pass (RATP) (Transport)
 	http://www.navigo.fr/
@@ -6846,6 +6862,10 @@
 3B 8F 80 01 86 84 43 54 44 4E 40 9F 3E C4 0D 68 28 04 00 7D
 	Access card to the underground network of guangzhou (Transport)
 
+3B 8F 80 01 FF 43 72 79 70 74 6E 6F 78 46 49 44 4F 32 30 C2
+	Fast Identification Online card (FIDO2) from Cryptnox manufacturer  (Other)
+	https://www.cryptnox.ch
+
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
 
@@ -7206,6 +7226,9 @@
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
 
+3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 42 10 14
+	Airspan USIM (Telecommunication)
+
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 73 10 25
 	module (JavaCard)
 
@@ -7232,6 +7255,9 @@
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 F7 13 00 F3
 	VIETTEL Telecom 4G SIM 128KB (Vietnam) (Telecommunication)
 	http://vietteltelecom.vn/
+
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 19 5C 13 00 56
+	SIM Card of the French mobile carrier "La Poste Mobile" (Telecommunication)
 
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
@@ -7504,6 +7530,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 8D 5F 10 00 C3
 	eUICC for Gemalto (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 8D 79 12 00 E7
+	Verizon Rugged M2M SIM (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 91 88 0E 00 16
 	Lenovo SIM card (Telecommunication)
@@ -8406,6 +8435,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 15 57 4A 33 0E 3B 33 34 00 A5
 	O2 Spain phone SIM (Telecommunication)
 	https://o2online.es/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 0E 3F 33 36 00 A1
+	Bell Mobility MULTI SIM (Telecommunication)
+	https://bell.ca
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
@@ -10611,6 +10644,10 @@
 3B F9 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B7 01
 	J2A040 NXP (JavaCard)
 	https://secure.smartcardsource.com/j2a040-java-smart-card.html
+
+3B F9 13 00 00 81 31 FE 45 53 50 49 56 4B 45 59 37 30 AD
+	PIVKey T840 (Other)
+	https://pivkey.com/
 
 3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
 	Banrisul bank
