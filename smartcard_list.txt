@@ -9703,6 +9703,8 @@
 3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 0C 01 EC C1 73 94 01 80 82 90 00 B3
 	ebee card
 	https://www.ebeeoffice.ca/ebee-home/public
+	Digital Signature Costa Rica (issued since 09/2019) (eID)
+	https://www.mifirmadigital.go.cr/
 
 3B DF 18 FF 81 F1 FE 43 00 1F 03 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 98
 	Mifare SAM AV2
