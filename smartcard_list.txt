@@ -2491,6 +2491,9 @@
 	Yandex money world card (Bank)
 	https://money.yandex.ru
 
+3B 6D 00 00 80 31 80 65 49 53 01 03 01 83 07 90 00
+	MTS Money Bank Card (Bank)
+
 3B 6D 00 00 80 31 80 65 49 53 02 02 01 83 07 90 00
 	MasterCard SMP BANK (Bank)
 	https://smpbank.ru/
@@ -3638,6 +3641,10 @@
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 D9 9C 6F 82 90 00
 	KorriGo (Brittany) transport card (Transport)
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 DA F6 2B 82 90 00
+	Transport card KorriGo (from 2018) for the region of brittany in France (Transport)
+	https://www.star.fr/titres-tarifs/carte-korrigo
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 EF 54 00 82 90 00
 	Korrigo Ter French card for train travels (Transport)
@@ -4930,6 +4937,9 @@
 	Gemalto IDPrime MD840 (eID)
 	https://safenet.gemalto.com/resources/data-protection/idprime-840-product-brief/
 
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 02 F0 82 90 00
+	Swedish MCA (eID)
+
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00
 	Gemalto IDPrime MD 840 (PKI)
 	http://www.gemalto.com/Products/IDPrime_MD/index.html
@@ -5502,6 +5512,10 @@
 3B 88 80 01 52 74 4D 43 00 81 C1 00 61
 	Rutoken 2151 smart card (eID)
 	https://www.rutoken.ru/products/catalogue/id_50.html
+
+3B 88 80 01 52 74 53 43 77 81 83 20 6A
+	Aktiv Rutoken ECP 3.0 NFC (PKI)
+	https://www.rutoken.ru/products/all/rutoken-ecp-nfc/
 
 3B 88 80 01 53 4B 55 50 01 00 00 00 15
 	Silesian public services card (Transport)
@@ -6355,6 +6369,10 @@
 	Smartcard-HSM (Contactless Interface) (PKI)
 	http://www.cardcontact.de/products/sc-hsm.html
 
+3B 8E 80 01 80 31 81 54 48 53 4D 31 73 80 21 40 FF FF 9E
+	SmartCard-HSM RFID (PKI)
+	https://www.smartcard-hsm.com/
+
 3B 8E 80 01 80 91 91 31 C0 64 77 E3 03 00 83 82 90 00 1C
 	Belgian Passport (2005)
 	Thai Passport 2005
@@ -6388,6 +6406,10 @@
 
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00 88
+	ING-VISA-Card (Bank)
+	https://www.ing.de/girokonto/karten-bargeld/
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 34 00 90 00 99
 	G&D Sm@rtCafe Card embedded in a wristband (Bank)
@@ -7176,6 +7198,10 @@
 3B 9C 96 00 58 44 24 03 02 00 20 01 0A 00 90 05
 	Ticket Restaurant Card (Other)
 	http://www.edenred.it/buoni-pasto-welfare-benefit/ticket-restaurant-card/
+
+3B 9C 97 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C0
+	Aktiv Rutoken ECP 3.0 NFC (PKI)
+	https://www.rutoken.ru/products/all/rutoken-ecp-nfc/
 
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
@@ -8152,6 +8178,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 73 30 31 07 46 BE
 	Hologram Developer Global IoT SIM Card (Telecommunication)
 	https://hologram.io/store/global-iot-sim-card/17
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
+	Test Card (Telecommunication)
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
@@ -10068,6 +10097,9 @@
 3B ED 00 00 81 31 80 42 80 31 80 65 B0 89 40 01 F2 83 00 90 00 52
 	VISA Debit card for Taishin International Bank, Taiwan
 
+3B ED 00 00 81 31 FE 45 00 31 C0 71 C6 64 4D 35 33 56 0F 90 00 46
+	Kostadin (Bank)
+
 3B ED 00 FF 81 31 20 75 4D 42 43 20 53 4D 50 20 56 31 2E 31 30 BD
 	Used to Control a Laser Device
 
@@ -10246,6 +10278,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 12 61 02 50 00 10 0A 07 81 1C 07 10 BA
 	German Sparkasse HBCI card (Bank)
 	https://www.sparkasse.de/service/finanzlexikon/hbci-verfahren.html
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 01 02 28 37 20 60
+	MasterCard of SpardaBank Hamburg in Germany (Bank)
+	https://www.sparda-bank-hamburg.de
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 06 12 41 37 20 1E
 	BankCard Sparda-Bank Baden-Württemberg eG (Bank)
