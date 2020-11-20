@@ -403,7 +403,7 @@ sub analyse_TB()
 	if ($counter == 2)
 	{
 		print "Programming param PI2 (PI1 should be ignored): ";
-		if (($value>49)||($value<251))
+		if (($value>49)&&($value<251))
 		{
 			print "$value (dV)";
 		}
