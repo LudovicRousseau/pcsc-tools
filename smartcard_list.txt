@@ -5471,6 +5471,10 @@
 3B 88 80 01 1C F0 E1 11 F7 71 85 00 16
 	CEPAS Card (Concession card issued by Land Transport Authority Singapore) (Transport)
 
+3B 88 80 01 30 41 56 54 00 00 00 07 7D
+	Avtor ID Key (eID)
+	http://avtor.ua/
+
 3B 88 80 01 30 4C 47 12 77 83 D5 00 01
 	elesec - TCOS 3.0 Signature Card (eID)
 	https://www.telesec.de/de/tcos/support/downloadbereich/category/28-leistungsbeschreibung
@@ -7036,6 +7040,10 @@
 
 3B 98 18 81 31 FE 43 30 41 56 54 00 00 00 07 F9
 	Avtor SecureToken 00 00 (Other)
+
+3B 98 18 81 31 FE 45 35 41 56 54 00 00 00 20 DD
+	Avtor Secure Token (eID)
+	https://avtor.ua/
 
 3B 98 30 40 0A A5 03 01 01 01 AD 13 11
 	Belgium Electronic eID card (eID)
