@@ -2107,6 +2107,9 @@
 3B 6B 00 00 00 31 C0 64 08 04 61 20 07 90 00
 	AMEX Bank DI Card (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 04 61 76 07 90 00
+	Alliance Bank Debit Card (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 04 61 77 0F 90 00
 	"Strelka" Russian Federation Travelcard (Transport)
 	http://strelkacard.ru/
@@ -2227,6 +2230,10 @@
 
 3B 6B 00 00 00 31 C1 64 08 60 32 06 0F 90 00
 	Nationwide Building Society VISA Debit card (Bank)
+
+3B 6B 00 00 00 31 C1 64 08 60 32 10 0F 90 00
+	ICA Bank, Mastercard (Bank)
+	https://www.icabanken.se/kort-och-betala/bankkort/
 
 3B 6B 00 00 00 31 C1 64 08 60 32 1F 07 90 00
 	NMRC Card (Transport)
@@ -3964,6 +3971,10 @@
 3B 75 13 00 00 48 09 EA 90 00
 	Carte Vitale (HealthCare)
 	https://en.wikipedia.org/wiki/Carte_Vitale
+
+3B 75 13 00 00 49 09 EA 90 00
+	Vitale Card French Healthcare (HealthCare)
+	https://www.service-public.fr/particuliers/vosdroits/F265
 
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
@@ -6065,6 +6076,10 @@
 3B 8C 80 01 50 77 3B 2D BD 00 00 00 11 00 81 85 94
 	Texas Instruments Dynamic NFC Interface Transponder (RF430CL330H)
 
+3B 8C 80 01 50 78 4B 2C CB 00 00 00 00 B3 71 71 3A
+	... (Transport)
+	https://www.portalviva.pt/
+
 3B 8C 80 01 50 79 19 60 01 00 DD A6 11 F7 71 85 35
 	Transport Traway Montpellier France  (Transport)
 
@@ -6114,6 +6129,10 @@
 
 3B 8C 80 01 50 C0 C8 94 D3 00 00 00 00 B3 71 71 A1
 	pastel (Transport)
+
+3B 8C 80 01 50 C0 CA 56 8F 00 00 00 00 91 71 71 1F
+	Ginko card, France - Besançon transport company (Transport)
+	https://ginko.voyage
 
 3B 8C 80 01 50 C0 E4 50 CA 00 00 00 00 91 71 71 72
 	Transportation card for Lille (France) (Transport)
@@ -7438,6 +7457,7 @@
 3B 9E 96 80 01 41 05 41 00 00 00 00 00 00 00 00 00 90 00 1C
 	ACOS5-64 v3.00 is a FIPS 140-2 Level 3 Certified Cryptographic Smart Card which is fully compliant with ISO7816-1/2/3/4/8/9 and common criteria EAL5+ (chip level) specifications. (PKI)
 	https://www.acs.com.hk/en/products/308/acos5-64-v3.00-cryptographic-card-contact/
+	ACOS5 EVO V4.10
 
 3B 9E 96 80 01 41 05 42 00 00 00 00 00 00 00 00 00 90 00 1F
 	ACOS5 EVO 192KB PKI combined (PKI)
@@ -7539,6 +7559,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 49 0D 00 3F
 	SUPER start package (Estonia, EMT, 4G) (Telecommunication)
 	https://www.super.ee/en/
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7A 7C 0D 00 0A
+	Orange SIM (Telecommunication)
+	http://www.orange.es
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 7B 3E 0E 00 4A
 	SIM card from lapostemobile in France (Telecommunication)
@@ -7830,6 +7854,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 05 86 98 40 18 AE
 	China Unicom USIM Card (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 07 86 98 62 18 8E
+	OYEITIMES MCR3516 SIM Card (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 85 06 86 98 42 18 AB
 	4G LTE blank USIM Green Card (Telecommunication)
@@ -8186,6 +8213,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 73 30 31 07 46 BE
 	Hologram Developer Global IoT SIM Card (Telecommunication)
 	https://hologram.io/store/global-iot-sim-card/17
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 02 48 A9
+	Cardcentrics (Telecommunication)
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
 	Test Card (Telecommunication)
@@ -8551,6 +8581,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 44 73 00 82 90 00 B7
 	Bouygues Telecom (French Mobile Provider SIM card) (Telecommunication)
 	https://www.bouyguestelecom.fr
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 50 31 00 82 90 00 E1
+	telcel sim card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 51 00 82 90 00 A3
 	Free Mobile (French wireless service provider) SIM card (mini-SIM with micro-SIM cutout) received in 2020-09 (Telecommunication)
@@ -9737,6 +9770,10 @@
 	Card store authentification and signature keys (JavaCard)
 	https://ants.gouv.fr/Les-titres/Cartes-Agents/Adhesion/Telechargement-et-support
 
+3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 00 00 EC 00 73 94 00 00 82 90 00 FE
+	NXP Jcop3 P60 ChipDoc v7b4 (JavaCard)
+	https://www.javacardos.com/store/products/10029
+
 3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 0C 01 EC C1 73 94 01 80 82 90 00 B3
 	ebee card
 	https://www.ebeeoffice.ca/ebee-home/public
@@ -9785,6 +9822,9 @@
 
 3B DF 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 82 90 00 DA
 	Finnish identity card given by the City of Helsinki to all members of city council, board and commitees
+
+3B DF 96 00 80 B1 FE 45 1F 83 00 12 27 6F 57 41 49 52 42 55 53 31 07 90 00 EA
+	IDEMIA ID-One Cosmo V8.2 IAS ECC card (eID)
 
 3B DF 96 00 80 B1 FE 45 1F 83 80 73 BC 91 80 F9 A0 00 00 00 77 80 08 02 01 A4
 	Latvian eSignature card (eID)
