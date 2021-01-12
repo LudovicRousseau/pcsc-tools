@@ -1994,6 +1994,10 @@
 3B 69 00 02 41 43 4F 53 4A 76 31 30 31
 	ACOSJ 40K Dual Interface (JavaCard)
 
+3B 69 00 02 41 43 4F 53 4A 76 32 30 33
+	ACS ACOSJ Java Card (JavaCard)
+	https://www.acs.com.hk/en/products/405/acosj-java-card-combi/
+
 3B 69 00 FF 00 64 4A 10 04 32 05 90 00
 	NXP JCOP 20 V2.1 16K
 
@@ -2252,6 +2256,9 @@
 3B 6B 00 00 00 31 C1 64 08 60 32 1F 0F 90 00
 	Fio bank, Mastercard, credit (Bank)
 	https://www.fio.cz/bankovni-sluzby/platebni-karty/kreditni-karty
+
+3B 6B 00 00 00 31 C1 64 08 60 32 20 0F 90 00
+	Twisto (Bank)
 
 3B 6B 00 00 20 90 00 00 00 00 00 B0 A2 BD 69
 	Fudan FM1280 (JavaCard)
@@ -3450,6 +3457,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 EA 7F 50 82 90 00
 	Montreal transport Opus Card (Transport)
 
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 EC E2 4B 82 90 00
+	STM (Transport)
+	http://www.stm.info
+
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
 
@@ -3549,6 +3560,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 10 12 2B 26 0C D4 5A 82 90 00
 	French transport card Navigo (Transport)
 	https://www.iledefrance-mobilites.fr/je-gere-ma-carte
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 03 7A ED 59 82 90 00
+	Navigo Easy (Paris) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 23 A9 E2 29 82 90 00
 	Navigo(French transport) (Transport)
@@ -3817,6 +3832,10 @@
 3B 6F 00 00 80 5A 3B 07 06 15 01 01 79 3E 79 7B 82 90 00
 	Rav Kav (Transport)
 	http://alhakav.mot.gov.il/he/rav-kav
+
+3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 53 72 11 82 90 00
+	Israeli public transport card ("RavKav") (Transport)
+	https://ravkavonline.co.il
 
 3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 56 C5 F4 82 90 00
 	RAVKAV - Israel dual interface transport card (Calypso standard) (Transport)
@@ -5220,6 +5239,10 @@
 	VISA Cléo LCL (Bank)
 	https://particuliers.lcl.fr/quotidien/cartes/carte-visa-cleo/
 
+3B 85 80 01 30 01 01 30 30 34
+	German Health Insurance Card "elektronische Gesundheitskarte" (eGK) / European Health Insurance Card (EHIC) (HealthCare)
+	https://fachportal.gematik.de/karten-und-identitaeten/elektronische-gesundheitskarte
+
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator
 	http://jmrtd.org/)
@@ -6204,6 +6227,9 @@
 3B 8C 80 01 50 C7 25 1C 5A 00 00 00 11 F7 81 81 1F
 	MOBIB Belgian public transport Card (Transport)
 	https://mobib.be/fr.html
+
+3B 8C 80 01 50 CA 24 51 3E 00 00 00 11 F7 81 81 3A
+	belgian mobib transportation card (Transport)
 
 3B 8C 80 01 50 CB FB 07 7E 00 00 00 00 80 81 E1 F4
 	Samsung Digital Center in Seul Access ID card for guests (eID)
@@ -8195,6 +8221,9 @@
 	JavaCOS A22 dual interface Java card - 150K (JavaCard)
 	http://www.smartcardfocus.us/shop/ilp/id~709/javacos-a22-dual-interface-java-card-150k/p/index.shtml
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 00 00 00 26
+	ePass2003 (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 06 00 00 20
 	FEITIAN ePASS 2003 Auto (PKI)
 
@@ -8775,6 +8804,10 @@
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 8E 0E 32 81 00 7A
 	Rogers 3G SIM card
+
+3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 09 12 EE 81 0F 35
+	German SIM card Drillisch (Telefonica) (Telecommunication) (Telecommunication)
+	https://www.drillisch-online.de/
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 0B 11 A4 81 0F 7E
 	Telia Finland Oyj, network operator LTE  (Telecommunication)
@@ -10379,6 +10412,10 @@
 3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 4E
 	comdirect VISA card (Bank)
 	https://www.comdirect.de/konto/karten.html#Visa-Karte
+
+3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 4D
+	Alior Bank SA (Bank)
+	https://www.aliorbank.pl/
 
 3B EF 00 FF 81 31 FE 45 65 63 0D 12 81 01 56 00 1F 00 00 66 86 08 01 22
 	Commerzbank signature card SECCOS (6 or 7) providing RAH security profile (Bank)
