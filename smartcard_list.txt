@@ -1641,6 +1641,10 @@
 	ICBC Debit Card (Bank)
 	http://www.icbc.com.cn/
 
+3B 67 00 00 86 88 47 48 F5 FF 08
+	Industrial and Commercial Bank of China Savings Card (Bank)
+	http://www.icbc.com.cn/icbc/
+
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
 
@@ -3180,6 +3184,10 @@
 3B 6F 00 00 80 31 C0 52 0A 47 64 02 B3 02 37 83 83 90 00
 	Visa debit card issued by the Spanish bank "tubancaja"
 
+3B 6F 00 00 80 31 C0 52 10 68 64 02 B3 02 70 83 83 90 00
+	Santander Brazil VISA Elite Platinum (Bank)
+	https://www.santander.com.br/fazer-cartao-credito/lead/cc-elite-platinum
+
 3B 6F 00 00 80 31 C0 52 11 F4 64 02 B3 02 37 83 83 90 00
 	VISA (Bank)
 
@@ -3460,6 +3468,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 EC E2 4B 82 90 00
 	STM (Transport)
 	http://www.stm.info
+
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 03 63 47 82 90 00
+	OPUS Card  RTC Quebec's Bus system (Canada) (Transport)
+	https://opusenligne.ca
 
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
@@ -6315,6 +6327,9 @@
 3B 8C 80 01 90 67 46 4A 00 68 08 06 00 00 00 00 90
 	Feitian JavaCard - RFID I/F (JavaCard)
 
+3B 8C 80 01 90 67 46 4A 01 00 36 06 00 00 00 00 C7
+	A40CR (eID)
+
 3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01
 	Microsoft Virtual Smart Card 0 (PKI)
 
@@ -8877,6 +8892,9 @@
 	Turkish Republic official electronic ID card with biometric data, e-signature, authentication, secure private-key cryptographic messaging, etc.  (eID)
 	http://bilgem.tubitak.gov.tr/en/icerik/national-identity-card-tr-nc-identity-card
 
+3B 9F 97 81 31 FE 45 80 65 54 43 D3 22 82 31 C0 73 F6 21 80 81 05 D3
+	Turkish eID (Türkiye Cumhuriyeti Kimlik Kartı) (eID)
+
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
 	"ultra fast card, max speed supported for telecom"? (transport)
 
@@ -9782,6 +9800,10 @@
 3B DD 96 00 80 10 FE 80 31 80 63 01 FF C0 73 B3 21 1B 81 05
 	BIFIT iBank 2 USB Key (Bank)
 	http://bifit.ua
+
+3B DD 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 82 48
+	Finnish Digital and Population Services Agency Organisation Card (eID)
+	https://dvv.fi/en/organisation-cards
 
 3B DD 96 00 80 B1 FE 45 1F 83 80 64 05 03 04 00 56 56 44 53 41 45 54 FC
 	VASCO DIGIPASS KEY 101 (Other)
@@ -10743,6 +10765,9 @@
 3B F7 18 00 00 80 31 FE 45 FE 42 47 52 65 49 44 24
 	Bulgarian eID PKI card pilot on IFX SLE78 jTOP (PKI)
 
+3B F7 18 00 00 81 31 FE 45 80 55 43 37 76 70 6B 28
+	Only labeled "J35110", dual interface (JavaCard)
+
 3B F7 18 00 00 81 71 80 42 00 00 63 84 0C 01 90 00 A7
 	Citibank Taiwan ATM Card (Bank)
 	https://www.citibank.com.tw/
@@ -11002,6 +11027,9 @@
 
 3B FA 18 00 00 81 31 FE 45 4A 54 61 78 43 6F 72 65 56 31 B2
 	Taxpayer Portal Authentication for Fiji Revenue & Customs Service taxpayer portal (PKI)
+
+3B FA 18 00 00 81 31 FE 45 4D 4F 54 49 4F 4E 00 00 90 07 60
+	SIM card (Telecommunication)
 
 3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 33 45 4D 56 94
 	NXP JCOP3 J3H082 Java Card 3.0.4 Dual-Interface (JavaCard)
@@ -11493,6 +11521,9 @@
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
 
+3B FF 13 00 FF 91 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 DF
+	Alior Bank MasterCard debit (Bank)
+
 3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 01 00 39
 	SafeNet SC650 (PKI)
 	http://www.safenet-inc.com/data-protection/authentication/smartcard-650/
@@ -11551,6 +11582,9 @@
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 05 03 01 01 01 43 4E 53 10 31 80 64
 	Bit4id J-SIGN 2048 (L) (PKI)
 	https://www.bit4id.com/en/j-sign/
+
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 06 03 01 01 01 43 4E 53 10 31 80 67
+	ST microelettronics JSign3 (HealthCare)
 
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 14 03 01 01 01 43 4E 53 10 31 80 75
 	Smart Card INFOCERT digital key CNS from CST PADOVA (eID)
