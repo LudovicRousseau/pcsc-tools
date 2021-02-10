@@ -1457,6 +1457,9 @@
 	Pass Restaurant Sodexo Pass France (Bank)
 	https://moncompte.sodexopass.fr/
 
+3B 65 00 00 20 63 CB FF 00
+	Crédit Agricole business mastercard (Bank)
+
 3B 65 00 00 26 40 00 90 00
 	Alacard Petroltech (Transport)
 	http://www.alacard.kz/
@@ -1511,6 +1514,10 @@
 3B 66 00 00 32 D0 00 30 02 01
 	Kazakhstan Kazkom Onlinebank (Homebank) PKI client key-card
 	https://www.homebank.kz/
+
+3B 66 00 00 62 C9 01 01 00 00
+	safeview (Pay TV)
+	https://safeviewmedia.com/
 
 3B 66 00 00 66 44 01 01 03 B1
 	Carte etudiant Paris 1 moneo BNP Paribas france (Oberthur)
@@ -2145,6 +2152,9 @@
 3B 6B 00 00 00 31 C0 64 08 10 41 08 07 90 00
 	Bank of America Travel Rewards Visa Signature Credit Card (Issued 2018) (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 10 41 10 0F 90 00
+	Nationwide Building Society regular savings account ATM card (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 10 51 10 0F 90 00
 	Skrill MasterCard (Bank)
 	https://www.skrill.com
@@ -2207,6 +2217,10 @@
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
 	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
+
+3B 6B 00 00 00 31 C0 64 1F 27 01 35 0F 90 00
+	V PAY (Bank)
+	https://www.unicreditbulbank.bg/en/individual-clients/everyday-banking/payments/debit-cards/
 
 3B 6B 00 00 00 31 C0 64 3F 68 01 02 0F 90 00
 	dinacard (Bank)
@@ -3919,6 +3933,10 @@
 	MOBIB Basic (public transport card for Brussels, Belgium) (Transport)
 	https://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en
 
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 08 A3 C1 82 90 00
+	MIVB/STIB MOBIB Card (Transport)
+	https://mobib.be/
+
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
 
@@ -5027,6 +5045,9 @@
 	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
 	Swedish ID card from Skatteverket with an Electronic ID from AB Svenska Pass, issued September 2017 or later (eID)
 	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
+
+3B 7F 96 00 00 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00
+	Swedish national ID card (eID)
 
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
 	Finnish identity card (eID)
@@ -7880,6 +7901,9 @@
 	TV smart card Sky Germany BEtacrypt 1702
 	http://providers.wikidot.com/sky-deutschland
 
+3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 31 2E 32 A0
+	Irdeto ACS V1.2 Pay-TV smartcard (Pay TV)
+
 3B 9F 21 0E 49 52 44 45 54 4F 20 41 43 53 20 56 34 2E 31 9D
 	Foxtel paytv decoder in Australia acs 4.1 Irdeto2
 
@@ -8963,6 +8987,7 @@
 
 3B AC 00 40 2A 00 12 25 00 64 80 00 03 10 00 90 00
 	Sesam Vitale card CPS (Carte Profesionnel de Santé)
+	https://esante.gouv.fr/securite/cartes-et-certificats/CPS
 
 3B AC 00 40 2A 00 12 25 00 64 80 82 02 12 00 90 00
 	Sesam Vitale card CPS (Carte Profesionnel de Santé)
@@ -10518,6 +10543,10 @@
 	Sparkasse KölnBonn Bank (Bank)
 	https://www.sparkasse-koelnbonn.de
 
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 10 14 24 37 10 5C
+	Deutsche Kreditbank AG (Bank)
+	https://www.dkb.de/
+
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 11 3B 32 37 10 64
 	DKB GiroCard (Bank)
 	https://dkb.de
@@ -10538,6 +10567,10 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
+
+3B EF 00 FF 81 31 FE 45 65 63 1D 02 84 02 50 00 23 18 09 20 E7 01 01 21
+	Deutsche Kreditbank AG (DKB AG) bank card (Bank)
+	https://www.dkb.de/info/tan-verfahren/chipTAN/
 
 3B EF 00 FF 81 31 FE 45 80 31 C0 6B 49 42 4D 20 4A 65 74 5A 20 4D 32 39
 	UBS Internet Card (IBM JetZ M2)
@@ -12406,6 +12439,10 @@
 
 3F FD 14 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 42 52 03
 	Airtel Digital TV (Pay TV)
+
+3F FD 15 25 02 50 00 03 33 B0 15 69 FF 4A 50 F0 80 03 4B 4C 03
+	Kabel Deutschland (G02) (Pay TV)
+	https://www.kabeldeutschland.com
 
 3F FD 15 25 02 50 80 0F 41 B0 05 69 FF 4A 50 F0 00 00 41 5A 03
 	astro Pay TV Measat 91.5 E Caid: 0910 Provider: 000000
