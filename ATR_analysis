@@ -84,7 +84,7 @@ sub analyse_TB();
 sub analyse_TC();
 sub analyse_TD();
 sub find_card($@);
-sub analyse_histrorical_bytes();
+sub analyse_historical_bytes();
 sub compact_tlv();
 sub lcs($);
 sub sm($);
@@ -202,7 +202,7 @@ if ($#object+1 > $K)
 	print " ERROR! ATR is too long: " . $extra . " extra byte(s). Truncating.\n";
 	splice @object, $K;
 }
-analyse_histrorical_bytes();
+analyse_historical_bytes();
 
 print "+ TCK = $TCK\n" if (defined $TCK);
 
@@ -573,7 +573,7 @@ sub find_card($@)
 	return 0;
 } # find_card($)
 
-sub analyse_histrorical_bytes()
+sub analyse_historical_bytes()
 {
 	$hb_category = shift @object;
 
@@ -625,13 +625,13 @@ sub analyse_histrorical_bytes()
 
 		/81|82|83|84|85|86|87|88|89|8A|8B|8C|8D|8E|8F/ && do
 		{
-			print " (Reserved for futur use)\n";
+			print " (Reserved for future use)\n";
 			last;
 		};
 
 		print " (proprietary format)\n";
 	}
-} # analyse_histrorical_bytes()
+} # analyse_historical_bytes()
 
 sub compact_tlv()
 {
@@ -907,7 +907,7 @@ sub cs($)
 		/4/ && do { print "by READ BINARY command\n"; last; };
 		/0/ && do { print "by GET RECORD(s) command\n"; last; };
 		/2/ && do { print "by GET DATA command\n"; last; };
-		print "reverved for future use\n";
+		print "reserved for future use\n";
 	}
 
 	if (shift @cs)
