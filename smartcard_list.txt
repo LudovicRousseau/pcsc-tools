@@ -5130,6 +5130,9 @@
 	Beijing Municipal Administration Traffic Card (with cpu) (Transport)
 	http://www.bmac.com.cn/
 
+3B 82 80 01 C9 02 C8
+	Bartl V5.3DI (PKI)
+
 3B 82 81 31 76 43 C0 02 C5
 	CardOS/M2 V2.01(SLE44CxxS)
 
@@ -7574,6 +7577,10 @@
 3B 9E 96 80 01 41 05 42 00 00 00 00 00 00 00 00 00 90 00 1F
 	ACOS5 EVO 192KB PKI combined (PKI)
 
+3B 9E 96 80 01 41 05 43 00 00 00 00 00 00 00 00 00 90 00 1E
+	ACS CryptoMate EVO PKI token (PKI)
+	https://www.acs.com.hk/en/products/494/cryptomate-evo-cryptographic-usb-tokens/
+
 3B 9E 96 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 1D 10 49
 	Maroc Telecom USIM
 
@@ -7943,6 +7950,10 @@
 	SetCOS 4.3.0 32K RSA
 	Instant EID IP2
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
+
+3B 9F 94 80 1F C3 80 31 A0 73 B6 A1 00 67 CF 32 51 CC 9E 6E C0 15
+	OYEITIMES 2G GSM  Blank SIM Card (Other)
+	https://www.aliexpress.com/item/32972705510.html?spm=a2g0s.9042311.0.0.5a564c4daKCdcQ
 
 3B 9F 94 80 1F C3 80 31 E0 73 FE 21 13 63 01 03 02 83 07 90 00 CE
 	Programmable SIM card as one of the requirement for free5GC testing procedure (Telecommunication)
@@ -9869,6 +9880,10 @@
 3B DE 11 00 00 49 43 4F 53 35 33 00 00 00 00 00 00 00 08
 	MyKID (eID)
 
+3B DE 13 00 00 49 43 4F 53 35 33 00 00 00 00 00 00 00 08
+	Malaysian citizens under age of 12 including newborns (non-compulsory) (eID)
+	https://en.wikipedia.org/wiki/Malaysian_identity_card#MyKid
+
 3B DE 18 FF 81 91 FE 1F C3 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 1C
 	SmartCard-HSM 4K USB-Token (JavaCard)
 	https://www.smartcard-hsm.com/features.html#usbstick
@@ -9894,6 +9909,9 @@
 
 3B DF 18 00 81 31 FE 58 80 31 B0 52 02 04 64 05 C9 03 AC 73 B7 B1 D4 22
 	Austrian "e-Card" (=Health Card) of the 4th generation. (HealthCare)
+
+3B DF 18 00 81 31 FE 58 AC 31 B0 52 02 04 64 05 C9 03 AC 73 B7 B1 D4 22
+	e-Card Austria (HealthCare)
 
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
@@ -10836,6 +10854,9 @@
 	Nigerian eID Card (blank card)
 	Chip is NXP JCOP 2.4.1R3
 
+3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
+	Nigerian eID card (eID)
+
 3B F8 13 00 00 81 31 FE 45 50 49 56 4B 45 59 37 30 FF
 	PIVKey CP70 (PKI)
 	https://pivkey.com/
@@ -10879,6 +10900,10 @@
 	VIVOtech SAM
 	NXP JCOP V241
 	NXP J3A081 JavaCard (contact interface)
+
+3B F8 96 00 00 81 31 FE 44 00 73 94 01 C0 0F 90 00 DD
+	fourth-generation Hong Kong permanent identity card (Other)
+	https://en.wikipedia.org/wiki/Hong_Kong_identity_card
 
 3B F8 96 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 32
 	NXP JCOP 2.4.1 (JavaCard)
@@ -11182,6 +11207,9 @@
 3B FB 18 00 00 81 31 FE 45 00 31 C0 64 77 E9 10 00 01 90 00 62
 	ID card for personal of "Govern Illes Balears"
 	http://www.caib.es/sacmicrofront/contenido.do?cont=7584&mkey=M08110610180317195848&&lang=en
+
+3B FB 18 00 00 81 31 FE 45 4A 33 48 31 34 35 43 37 58 33 30 C6
+	COTECH OpenPGP Card - ECC (PKI)
 
 3B FB 91 00 FF 91 81 71 FE 40 00 41 20 00 01 00 81 20 63 CB A0 80 03
 	C*******r, MasterCard credit card, Pass Banque, Oberthur - contactless/PayPass
@@ -12257,6 +12285,10 @@
 3F 6C 00 00 25 A0 30 89 76 00 00 04 01 0C 90 00
 	MCOS 24k EEPROM
 
+3F 6C 00 00 25 A0 31 00 FF 00 00 01 80 04 90 00
+	Motorola Clone Card (Telecommunication)
+	http://web.mclink.it/MK0750/Motorola_files/docuclon.txt
+
 3F 6C 00 00 3C A0 30 9E 61 00 00 01 00 04 90 00
 	Gemplus - British Gas - Gascard
 
@@ -12496,6 +12528,9 @@
 
 3F FF 14 25 03 10 80 33 B0 10 69 FF 4A 50 70 00 00 5A 45 01 00 00
 	Norwegian DVB-C provider Get (www.get.no). NDS Videoguard security card.
+
+3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 53 56 01 00 00
+	Tata Sky India Card (Telecommunication)
 
 3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 48 01 00 00
 	"D-Smart" NDS from Turkie
