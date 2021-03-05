@@ -1711,6 +1711,9 @@
 3B 67 00 00 B7 40 40 44 9B 90 00
 	Handelsbanken frikort maestro (Bank)
 
+3B 67 00 00 B8 40 40 72 9B 90 00
+	Handelsbanken SE Mastercard (Bank)
+
 3B 67 00 00 C1 30 40 01 0B 90 00
 	MC/Maestro card issued by Czech's "Ceskoslovenska obchodni banka"
 
@@ -1739,6 +1742,9 @@
 
 3B 68 00 00 00 02 62 C9 01 45 90 00
 	Politecnico di Milano's PoliCard (issued by Banca Popolare di Sondrio, Mastercard prepaid card) (Bank)
+
+3B 68 00 00 00 53 43 06 60 01 0F 90
+	Capital one master card (Bank)
 
 3B 68 00 00 00 73 C8 40 00 00 90 00
 	Barclaycard Visa Wave & Pay - Chip I/F
@@ -1795,6 +1801,8 @@
 
 3B 68 00 00 01 01 31 00 00 00 90 00
 	VISA ELECTRON Sberbank card (Bank)
+	Submarino MasterCard credit card (Brazil) (Bank)
+	https://www.submarino.com.br/landingpage/ofertas-cartao-submarino
 
 3B 68 00 00 01 02 10 96 00 00 90 00
 	Italian BancoPostaClick Postamat Card (Poste Italiane) -
@@ -2353,6 +2361,8 @@
 	MasterCard debit card: skrill.com card issued by Newcastle Building Society (Bank)
 	https://www.skrill.com
 	Nationwide InvestDirect (UK)
+	MasterCard debit card issued by Santander Brasil (Bank)
+	https://www.santander.com.br
 
 3B 6C 00 00 0F 31 C0 71 D6 64 3E 67 01 00 5D 84
 	Banca Transilvania VISA CARD (Bank)
@@ -2982,6 +2992,10 @@
 
 3B 6E 00 00 57 44 36 19 69 86 93 02 31 18 15 50 06 15
 	WatchData USB Key (Other)
+
+3B 6E 00 00 57 44 36 19 69 86 93 02 35 11 75 42 16 30
+	WATCHDATA USB KEY (Other)
+	https://www.watchdata.com/
 
 3B 6E 00 00 62 6C 75 63 61 72 64 20 32 4B 42 2F 76 34
 	eID Blutronics Blucard 2K
@@ -3867,12 +3881,20 @@
 	RAVKAV - Israel dual interface transport card (Calypso standard) (Transport)
 	https://en.wikipedia.org/wiki/Rav-Kav
 
+3B 6F 00 00 80 5A 3C 06 08 14 01 01 C3 80 5E 38 82 90 00
+	Lisboa VIVA - Lisbon public transport card (Transport)
+	https://www.portalviva.pt/
+
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 A4 6D 02 82 90 00
 	Navigo découverte Paris (Transport)
 	http://www.navigo.fr/titres/le-forfait-navigo-semaine-presentation/
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 29 54 D4 82 90 00
+	Public transportation card (navigo) for Paris and Ile-de-France région, France (Transport)
+	https://www.iledefrance-mobilites.fr/en/tickets-fares/detail/navigo-monthly-ticket
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 40 E8 19 82 90 00
 	France Ile de France Public Transport Card (Transport)
@@ -4725,6 +4747,8 @@
 
 3B 7F 13 00 00 80 31 C0 52 10 A4 64 02 B3 02 70 83 83 90 00
 	EMV Smartcard Reader (Other)
+	Saraiva (Banco do Brasil) - VISA (Bank)
+	https://www.bb.com.br/pbb/pagina-inicial/voce/produtos-e-servicos/cartoes#/
 
 3B 7F 13 00 00 80 31 C0 52 11 2F 64 05 69 93 70 83 83 90 00
 	Banco do Brasil (Bank)
@@ -7424,6 +7448,10 @@
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 19 5C 13 00 56
 	SIM Card of the French mobile carrier "La Poste Mobile" (Telecommunication)
 
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 24 14 00 14
+	Citymesh Connect (Telecommunication)
+	https://citymesh.com/en/solutions/citymesh-connect
+
 3B 9E 95 80 1F C3 80 31 A0 73 BE 21 13 67 29 02 01 04 04 CD 39
 	H3G (?) UMTS USIM card
 	J+ SWIM WIB UMTS SIM Test card
@@ -7744,6 +7772,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 72 10 00 C2
+	Vodafone (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 73 10 00 C3
 	Prepaid public telephone card from Lidl Connect, Germany (Telecommunication)
 	https://www.lidl.de/de/lidl-connect/s7373597
@@ -7998,6 +8029,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 CF B9 02 A0 EE
 	Gotanet SE USIM (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 CF BA 02 A0 ED
+	Gotanet DK USIM (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 37 86 60 9B 32 89 B2 A1
 	China Unicom Travel SIM (Telecommunication)
 	https://www.cuniq.com/hk/data-card/asia/asia-12days.html
@@ -8012,6 +8046,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 83 02 00 00 BA
 	GSM-SIM Beeline RU (Telecommunication)
 	http://beeline.ru
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 AF 01 00 00 95
+	Gotanet SE USIM (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B8 03 00 00 80
 	Zero1 SIM card, Singapore (Telecommunication)
@@ -9946,6 +9983,10 @@
 	NXP Jcop3 P60 ChipDoc v7b4 (JavaCard)
 	https://www.javacardos.com/store/products/10029
 
+3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 04 21 60 10 73 94 01 C0 05 90 00 01
+	Dutch Governement Identity Card using physical  (eID)
+	https://nl.wikipedia.org/wiki/Rijkspas
+
 3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 0C 01 EC C1 73 94 01 80 82 90 00 B3
 	ebee card
 	https://www.ebeeoffice.ca/ebee-home/public
@@ -10537,6 +10578,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 02 4D 36 37 10 05
 	comdirect girocard (Bank)
 	https://www.comdirect.de/konto/karten.html#girocard
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 03 44 31 37 10 0A
+	DKB Banking Card (Bank) (Bank)
+	https://www.dkb.de
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 03 4A 36 37 10 03
 	German Sparkasse, Girocard, GeldCard, girogo, EUROSERV (Bank)
@@ -11892,6 +11937,10 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 13 03 01 11 01 43 4E 53 11 31 80 9C
 	Politecnico di Torino Student Card (eID)
 	http://www.polito.it/
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 16 17 01 11 01 43 4E 53 11 31 80 8D
+	Carta Regionale dei Servizi - Regione Autonoma Friuli Venezia Giulia (HealthCare)
+	https://www.regione.fvg.it/rafvg/cms/RAFVG/GEN/carta-regionale-servizi/
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 42 49 54 34 49 44 20 31 2E 30 00 90 00 91
 	Touch&Sign 2048 (PKI)
