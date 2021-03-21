@@ -2092,6 +2092,9 @@
 3B 6A 00 00 81 3F 01 75 11 01 02 81 01 0A
 	Huada CIU9872B (Java Card 2.2.2) (JavaCard)
 
+3B 6A 00 00 86 65 00 A7 58 C0 55 00 90 00
+	Credit card (Bank)
+
 3B 6A 00 FF 00 31 C1 73 C8 40 00 00 90 00
 	Paypal EMV debit card (Bank)
 
@@ -5073,6 +5076,10 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00
 	Swedish national ID card (eID)
 
+3B 7F 96 00 00 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00
+	Belgian eID v1.8 (eID)
+	https://github.com/Fedict/eid-mw
+
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
 	Finnish identity card (eID)
 	http://vrk.fi/en/citizen-certificate
@@ -5377,6 +5384,10 @@
 3B 86 80 01 57 57 50 61 73 73 36
 	WWPass Passkey (eID)
 	https://www.wwpass.com/passkey
+
+3B 86 80 01 80 54 04 10 01 0F C9
+	Nickel.eu prepaid account (Bank)
+	https://nickel.eu
 
 3B 86 80 01 C1 05 2F 2F 01 BC 7E
 	Contactless interface to St. Petersburg unified card, Russia (Единая карта петербуржца) (Other)
@@ -7545,6 +7556,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 74 10 00 C6
 	vodafone italy sim (Telecommunication)
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 C3 12 00 73
+	3G MTN IRANCELL Sim Card. (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 14 11 00 A6
 	Globe (Telecommunication)
 
@@ -8005,6 +8019,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C3
 	Sysmocom USIM-GR1 (Telecommunication)
 	http://www.sysmocom.de/products/programmable-sysmousim-gr1-sim-card
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 47 44 0E 01 00 55 01 B2
+	China Unicom 4G sim card (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 49 05 0C 86 98 60 18 CC
 	China Unicom USIM 128K 6131H
@@ -8679,6 +8696,9 @@
 	O2 Spain phone SIM (Telecommunication)
 	https://o2online.es/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 15 57 4A 33 0E 3F 33 35 00 A0
+	Telefonica (Germany) SIM Card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 0E 3F 33 36 00 A1
 	Bell Mobility MULTI SIM (Telecommunication)
 	https://bell.ca
@@ -8835,6 +8855,10 @@
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 33 05 81 05 30 00 CE
 	COMPRION M2M eUICC (Telecommunication)
+
+3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 56 57 4A 4D 02 0B 34 44 00 5B
+	Norwegian telenor (Telecommunication)
+	http://www.telenor.no
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 34 54 63 29
 	Orange FR - opa (Telecommunication)
@@ -9233,6 +9257,10 @@
 3B BC 18 00 81 31 20 75 5A 43 33 2E 31 34 20 52 45 56 20 44 45
 	ZeitControl BasicCard Enhanced 3.14 Rev D
 	http://www.basiccard.com/
+
+3B BC 18 00 81 31 20 75 5A 43 33 2E 33 32 20 52 45 56 20 42 47
+	ZeitControl BasicCard (Other)
+	https://ZeitControl
 
 3B BC 94 00 40 14 47 47 33 48 33 35 58 53 32 30 30 30
 	GSM-SIM Era-PL
@@ -10569,6 +10597,9 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 0D 16 3A 37 20 6A
 	BankCard Sparda-Bank West eG (Bank)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 12 0F 24 37 20 72
+	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
+
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 15 3D 47 37 20 24
 	Girocard issued by Comdirect bank AG (Bank)
 
@@ -11486,6 +11517,10 @@
 3B FE 18 00 FF 81 31 FE 45 63 68 61 6E 67 69 6E 67 74 65 63 4A 33 44 5E
 	xgames pki (eID)
 
+3B FE 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 C1 00 00 00 00 00 00 00 00 89
+	Tangem Tap It cryptocurrency hardware wallet (Other)
+	https://tangem.com/
+
 3B FE 91 00 FF 91 81 71 FE 40 00 41 20 00 51 77 91 80 31 80 65 B0 85 03 00 FB
 	 Italian Card Identity (CIE Comune di Parma) (eID)
 	http://www.comune.parma.it/servizi/Servizi-Demografici-Carta-di-identita/Carta-di-identita-Elettronica-CIE_A2_C100_P96.aspx
@@ -11589,6 +11624,9 @@
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00
 	VISA card issued by ING-DiBa AG (Germany) (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 37 07 90 00
+	VISA Credit Card (Postbank), Germany (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00
 	BBVA debit card Uruguay. MIFRE Plus compatible. (Bank)
