@@ -1096,6 +1096,9 @@
 3B 3E 95 00 53 4F 4D 41 2D 63 30 30 37 2D 44 53 31 61
 	Kazakhstan Identity Card (eID)
 
+3B 3E 95 00 53 4F 4D 41 2D 63 30 30 37 2D 44 53 31 62
+	Kazakhstan Identity Card (eID)
+
 3B 3E 95 00 80 31 00 73 FE 21 13 62 00 34 83 81 90 00
 	STMicroelectronics GSM File system sample CARD for ST microcontrollers
 
@@ -2535,6 +2538,9 @@
 3B 6D 00 00 57 44 36 41 01 86 93 07 31 31 32 32 35
 	Watchdata Proxkey (PKI)
 	https://www.watchdata.com/
+
+3B 6D 00 00 57 44 36 41 01 86 93 07 32 31 34 34 31
+	Watchdata USB Key (PKI)
 
 3B 6D 00 00 57 44 36 41 01 86 93 07 32 31 36 34 32
 	Watchdata USB Key (Other)
@@ -5805,6 +5811,9 @@
 	New Zealand e-Passport
 	Philips Semiconductor JCOP41V22
 
+3B 89 80 01 4D 54 43 4F 53 70 02 01 04 39
+	Tajikistan passport (passport)
+
 3B 89 80 01 4D 54 43 4F 53 73 01 02 01 3F
 	Contactless MTCOS
 	http://www.masktech.de/
@@ -7347,6 +7356,9 @@
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
 
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 53 89 74 50 9C
+	China Unicom 128K M2M Card (Telecommunication)
+
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 59 83 79 50 91
 	Vodafone Ukraine (Telecommunication)
 
@@ -7427,6 +7439,9 @@
 
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 73 10 25
 	module (JavaCard)
+
+3B 9E 94 80 1F 47 80 31 E0 73 BE 21 13 66 86 88 82 18 39 42 F5
+	China Unicom 128K Mini USIM (Telecommunication)
 
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
@@ -8172,6 +8187,9 @@
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
 
+3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 17 13 C4 1D 2D 36 49
+	Idemia card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 00 53 04 D0 80 83 05 90 00 BE
 	NTT_DoCoMo (Telecommunication)
 
@@ -8456,6 +8474,9 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 25 51 00 82 90 00 F5
 	R&S CMW-Z06 Multi Test SIM (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 30 32 00 82 90 00 83
+	SFR (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 34 61 00 82 90 00 D4
 	Ting X1 GSM SIM Card (4G, T-Mobile network) (Telecommunication)
@@ -10617,6 +10638,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 03 4A 36 37 10 03
 	German Sparkasse, Girocard, GeldCard, girogo, EUROSERV (Bank)
 
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 05 21 0F 37 10 57
+	girocard maestro Bank (Bank)
+	https://www.girocard.eu/
+
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 30 2F 37 10 65
 	MasterCard German Sparkasse (Bank)
 
@@ -10658,6 +10683,10 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 18 2D 1C 37 10 55
 	Debit card (Germany): ec-cash, GeldKarte(EUR) (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 15 62 02 50 00 10 0A 00 2B 21 07 20 1E
+	EC Card Sparkasse Mittelfranken Sued (Bank)
+	https://www.spkmfrs.de
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
@@ -11246,6 +11275,9 @@
 
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 0F 90 00
 	Stripe Issuing Card (Bank)
+
+3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 10 0F 90 00
+	Varo (Bank)
 
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
