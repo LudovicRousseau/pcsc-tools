@@ -203,6 +203,10 @@
 3B 04 C9 D5 FD 20
 	Bell Canada LaPuce card - prepaid phone card (Telecommunication)
 
+3B 04 F0 F0 36 96
+	Mooltipass Smartcard (Other)
+	https://www.themooltipass.com/
+
 3B 04 FE FE FE FE
 	Lawyers identity card (eID)
 	https://www.abogacia.es/site/aca/que-es-aca-y-que-ventajas-te-ofrece/
@@ -2535,6 +2539,9 @@
 3B 6D 00 00 57 44 29 6C 80 86 93 D6 03 EE 08 2A 3D
 	SCSTA (Transport)
 
+3B 6D 00 00 57 44 36 41 01 86 93 07 30 37 37 36 33
+	Watchdata USB Key (PKI)
+
 3B 6D 00 00 57 44 36 41 01 86 93 07 31 31 32 32 35
 	Watchdata Proxkey (PKI)
 	https://www.watchdata.com/
@@ -3001,6 +3008,10 @@
 
 3B 6E 00 00 57 44 36 19 69 86 93 02 31 18 15 50 06 15
 	WatchData USB Key (Other)
+
+3B 6E 00 00 57 44 36 19 69 86 93 02 33 11 75 42 33 1E
+	Watchdata USB token (white, Serpro Brasil) (Other)
+	https://www.watchdata.com/tokenwatchdata/
 
 3B 6E 00 00 57 44 36 19 69 86 93 02 35 11 75 42 16 30
 	WATCHDATA USB KEY (Other)
@@ -5425,6 +5436,14 @@
 	CiPurse L profile with 304 bytes user memory (Other)
 	https://www.infineon.com/cms/en/product/security-smart-card-solutions/cipurse-products/
 
+3B 87 80 01 77 43 32 53 00 08 00 5B
+	CiPurse S profile (Other)
+	https://www.infineon.com/cms/en/product/security-smart-card-solutions/cipurse-products/
+
+3B 87 80 01 77 43 32 53 00 09 02 58
+	CiPurse S profile (Other)
+	https://www.infineon.com/cms/en/product/security-smart-card-solutions/cipurse-products/
+
 3B 87 80 01 77 43 32 53 01 00 01 53 77 43 32 53 01 00 01
 	Cipurse ISO 14443-4 Card (Other)
 
@@ -5435,6 +5454,10 @@
 3B 87 80 01 77 43 32 54 00 09 05 58
 	CIPURSE (Transport)
 	https://www.osptalliance.org/cipurse-specifications/
+
+3B 87 80 01 77 43 32 54 01 01 00 54
+	CiPurse T profile (Other)
+	https://www.infineon.com/cms/en/product/security-smart-card-solutions/cipurse-products/
 
 3B 87 80 01 77 43 49 50 02 00 01 28
 	CIPURSE (transport)
@@ -5855,6 +5878,9 @@
 	NFC enabled SIM card. (Telecommunication)
 	Electic vehicle charging card of the EMSP Chargepoint
 
+3B 89 80 01 66 53 43 4F 4E 45 44 32 30 7C
+	Alioth 98886 chip (Bank)
+
 3B 89 80 01 80 57 45 4D 56 50 52 4F 43 8F
 	BNP Paribas Visa Classic Card (NFC) (Bank)
 	https://mabanque.bnpparibas/fr/notre-offre/comptes-cartes-et-services/cartes-et-moyens-de-paiement/decouvrir-toutes-les-cartes/carte-visa-classic
@@ -5995,6 +6021,9 @@
 
 3B 8B 80 01 00 31 C0 64 08 44 03 76 00 90 00 36
 	American Express Blue Card (Germany) (Bank)
+
+3B 8B 80 01 00 31 C0 64 08 44 03 93 00 90 00 D3
+	Novacard pp0815-04/20 chip (Bank)
 
 3B 8B 80 01 00 31 C0 64 1F 18 01 00 00 90 00 09
 	Student ID card in Poland (eID)
@@ -9739,6 +9768,10 @@
 3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
 	Oberthur Cosmo V7 64K Dual/128K
 
+3B DB 18 FF 81 91 FE 1F C3 06 09 2B 06 01 04 01 E9 10 05 03 D7
+	SafeSign Default QSCD (NXP JCOP 3 SecID P60) (PKI)
+	https://www.tuv-nederland.nl/assets/files/cerfiticaten/2020/02/security-target-v1.0.pdf
+
 3B DB 18 FF 81 B1 FE 75 1F 03 50 4B 43 61 72 64 20 56 31 2E 30 ED
 	Tecos 3 card (Other)
 
@@ -9790,6 +9823,10 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 12 42 8F 53 65 49 44 0F 90 00 20
 	Latvia eID (eID)
 	https://www.eparaksts.lv/lv/
+
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 10 23 01 00 0F 90 00 63
+	Extremenian Health Service target (HealthCare)
+	https://saludextremadura.ses.es/web/preguntas-frecuentes
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 18 01 00 07 90 00 5A
 	Ercom CRYPTOSMART
