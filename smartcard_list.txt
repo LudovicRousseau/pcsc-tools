@@ -893,6 +893,9 @@
 3B 37 13 00 80 62 21 13 82 90 00
 	Swiss UBS Maestro/CASH Bank Card
 
+3B 39 11 00 26 BF 00 F0 00 00 83 90 00
+	MAGIS Club Access card (Other)
+
 3B 39 13 00 80 64 16 04 01 86 82 90 00
 	The cantonal bank of Baselland (Bank)
 
@@ -2295,6 +2298,10 @@
 
 3B 6B 00 00 00 31 C1 64 08 60 32 20 0F 90 00
 	Twisto (Bank)
+
+3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
+	Sodexo Czech Gastro/Multipass (Other)
+	https://www.sodexo.cz/
 
 3B 6B 00 00 20 90 00 00 00 00 00 B0 A2 BD 69
 	Fudan FM1280 (JavaCard)
@@ -3803,6 +3810,9 @@
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 22 68 D0 82 90 00
 	Public transport card lisbon (Transport)
 	http://www.portalviva.pt
+
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 23 46 E2 82 90 00
+	Lisboa Viva (Transport)
 
 3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 01 00 4B 82 90 00
 	French Military Circulation card (Transport)
@@ -5666,6 +5676,9 @@
 3B 88 80 01 42 41 45 49 44 31 2E 30 6D
 	eID BiH card (eID)
 
+3B 88 80 01 42 41 45 49 44 31 2E 31 6C
+	BiH eID card (eID)
+
 3B 88 80 01 43 43 31 69 AA 20 00 00 DB
 	PostFinance Switzerland (Bank)
 	http://www.postfinance.ch
@@ -5681,6 +5694,9 @@
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A - NXP JCOP
 	NXP J3A081 JavaCard (contactless interface)
+
+3B 88 80 01 50 FF FF 11 77 83 D5 00 69
+	Gematik TSYS eHBA G2.1 (HealthCare)
 
 3B 88 80 01 52 74 4D 43 00 81 C1 00 61
 	Rutoken 2151 smart card (eID)
@@ -6082,6 +6098,10 @@
 
 3B 8B 80 01 50 33 30 38 47 30 50 33 5F 31 30 2B
 	Indonesian ektp (eID)
+
+3B 8B 80 01 53 6F 6C 6F 4B 65 79 20 74 61 70 27
+	Solokeys Solo Tap: 2FA device with NFC (Other)
+	https://solokeys.com/products/solo-tap-usb-a-preorder?variant=27688204271680
 
 3B 8B 80 01 65 4B 54 50 30 44 32 65 4B 54 50 4C
 	NXP smart eID - Indonesia ektp (eID)
@@ -8589,6 +8609,10 @@
 	Chunghwa Telecom (Taiwan) 3G/4G PrePaid card
 	https://www.twgate.net/prepaidcard/product_en.html
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 65 66 74 0E 11 13 91 00 57
+	XLB.LTE Test Card (Telecommunication)
+	http://www.xielibo.com
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 05 31 33 30 00 A6
 	AT&T eUICC (Telecommunication)
 
@@ -8837,6 +8861,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 51 00 82 90 00 A3
 	Free Mobile (French wireless service provider) SIM card (mini-SIM with micro-SIM cutout) received in 2020-09 (Telecommunication)
 	https://mobile.free.fr/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 76 32 00 82 90 00 C4
+	T-Mobile SIM card issued April 2021 (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -11134,6 +11161,9 @@
 	ActivIdentity Activkey Sim (PKI)
 	https://www.hidglobal.com/products/cards-and-credentials/activid/usb-tokens
 
+3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 0F 00 20 46 4E
+	Giesecke & Devrient (DoD Alternate Token) G+D Sm@rtCafe Expert v7.0 144K DI #3 (PKI)
+
 3B F9 96 00 00 81 31 FE 45 45 4F 4E 43 61 72 64 56 31 73
 	eONCard V1 (PKI)
 
@@ -12200,6 +12230,9 @@
 
 3B FF 95 00 FF C0 0A 1F 47 80 31 E0 73 F6 21 13 57 4A 33 20 0B 31 41 41 D5
 	Telenor SIM card (Norway)
+
+3B FF 96 00 00 80 31 FE 45 53 6D 40 72 74 43 61 66 65 20 45 78 70 2E 37 4E
+	haruka (eID)
 
 3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 02 6C 82 90 00 F9
 	Authorization Card (eID)
