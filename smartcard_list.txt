@@ -401,6 +401,9 @@
 3B 16 18 AF 01 02 02 02 00
 	SIM Virgin Mobile (Australia)
 
+3B 16 18 D0 00 0B 01 03 00
+	Cellular SIM  (Telecommunication)
+
 3B 16 94 20 02 01 20 01 0D
 	Rogers SIM Card (phone / cable provider in Canada)
 
@@ -908,6 +911,9 @@
 
 3B 3B .. 00 80 6. A[FE] 03 0[CD] .. .. 83 .. 90 00
 	GemXplore Xpresso V3
+
+3B 3B 02 6F 33 3B DB 96 00 80 1F 03 00 31 C0
+	US Government CAC (PKI)
 
 3B 3B 11 00 2F AF 21 FA 10 00 02 81 83 90 00
 	alo (Telecommunication)
@@ -3524,6 +3530,10 @@
 	STM (Transport)
 	http://www.stm.info
 
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 02 79 5D 82 90 00
+	OPUS is card for storing public transit passes and tickets (Transport)
+	https://opusenligne.ca/
+
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 03 63 47 82 90 00
 	OPUS Card  RTC Quebec's Bus system (Canada) (Transport)
 	https://opusenligne.ca
@@ -3627,6 +3637,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 10 12 2B 26 0C D4 5A 82 90 00
 	French transport card Navigo (Transport)
 	https://www.iledefrance-mobilites.fr/je-gere-ma-carte
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 03 7A 89 AA 82 90 00
+	Île-de-France Mobilités (Navigo Easy) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 03 7A ED 59 82 90 00
 	Navigo Easy (Paris) (Transport)
@@ -3738,6 +3752,10 @@
 	Pass Navigo personnalisé (Paris) (Transport)
 	http://www.navigo.fr/titres/le-forfait-navigo-mois-choix-carte-navigo-carte-decouverte/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 4C 0E FA D0 82 90 00
+	Île-de-France Mobilités (Navigo Nominative) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B EB 8D 82 90 00
 	Korigo card transport for star company (France) (Transport)
 	http://www.star.fr/titres-et-tarifs/carte-korrigo/
@@ -3764,6 +3782,10 @@
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 F8 0B C3 82 90 00
 	Korrigo Card (Transport in Rennes Area in France ) (Transport)
 	https://www.star.fr/titres-tarifs/carte-korrigo/
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 02 1B 8A 82 90 00
+	KorriGo, smart transport card in France region Brittany (Transport)
+	https://www.ter.sncf.com/bretagne/offres/carte-korrigo
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
@@ -5107,6 +5129,9 @@
 	Belgian eID v1.8 (eID)
 	https://github.com/Fedict/eid-mw
 
+3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 FF FE 82 90 00
+	IDCORE 3140 (JavaCard)
+
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
 	Finnish identity card (eID)
 	http://vrk.fi/en/citizen-certificate
@@ -6105,6 +6130,10 @@
 
 3B 8B 80 01 65 4B 54 50 30 44 32 65 4B 54 50 4C
 	NXP smart eID - Indonesia ektp (eID)
+
+3B 8B 80 01 80 66 47 50 00 B8 00 7F 82 90 00 2E
+	Italian Card Identity (eID)
+	https://www.cartaidentita.interno.gov.it/
 
 3B 8B 80 01 80 F9 A0 00 00 03 08 00 00 10 00 C8
 	Probably the same as "JCOP3 SecID P60 CS (JavaCard)" but mated with a contactless Identiv reader (JavaCard)
@@ -10050,6 +10079,10 @@
 3B DE 86 FF 91 01 F1 FB 34 00 1F 07 44 45 53 46 69 72 65 53 41 4D 56 31 2E 30 5D
 	Mifare Desfire SAM Module (after warm reset) (Other)
 
+3B DE 96 FF 81 91 FE 1F C3 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 92
+	SmartCard HSM (PKI)
+	https://www.smartcard-hsm.com/
+
 3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
 	Identity Card in Slovakia with security chip and e-signature
 
@@ -10833,6 +10866,10 @@
 
 3B F4 98 00 FF C1 10 31 FE 55 4D 34 63 76 B4
 	Eutron Digipass 860 (reader + card token)
+
+3B F5 13 00 00 81 31 FE 45 73 74 64 31 30 8F
+	card for NF-e in Brazil (PKI)
+	https://certificadodigital.imprensaoficial.com.br/certificados-digitais/e-cnpj/a3/e-cnpj-a3-cartao
 
 3B F5 18 00 00 81 31 FE 45 4D 79 45 49 44 9A
 	Aventra ActiveSecurity MyEID
@@ -11733,6 +11770,10 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 47 07 90 00
 	Chase Visa Debit Card (Bank)
 	https://www.chase.com/bankinghelp
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 48 07 90 00
+	BBVA blue VISA Debit Card  (Bank)
+	https://www.bbva.es/en/personas/productos/tarjetas/tarjeta-joven-ahora.html
 
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
