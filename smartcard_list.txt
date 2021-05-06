@@ -2305,6 +2305,10 @@
 3B 6B 00 00 00 31 C1 64 08 60 32 20 0F 90 00
 	Twisto (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 77 71 30 0F 90 00
+	Apple Card (from launch) (Bank)
+	https://www.apple.com/apple-card/
+
 3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
 	Sodexo Czech Gastro/Multipass (Other)
 	https://www.sodexo.cz/
@@ -5031,6 +5035,9 @@
 3B 7F 96 00 00 00 31 B8 64 40 F3 85 10 73 94 01 80 82 90 00
 	IAS ECC Type 1
 
+3B 7F 96 00 00 00 6A 44 4E 49 65 00 01 01 55 04 21 0F 65 81
+	DNIe (eID)
+
 3B 7F 96 00 00 00 6A 44 4E 49 65 00 01 77 98 03 11 0F 65 81
 	Electronic Spanish National ID card (eID)
 	http://digital.csic.es/handle/10261/15941
@@ -5121,6 +5128,9 @@
 	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
 	Swedish ID card from Skatteverket with an Electronic ID from AB Svenska Pass, issued September 2017 or later (eID)
 	https://skatteverket.se/privat/folkbokforing/idkort/elegitimationpaidkortet.4.3810a01c150939e893f8169.html
+
+3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 FF FE 82 90 00
+	JavaCard (JavaCard)
 
 3B 7F 96 00 00 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00
 	Swedish national ID card (eID)
@@ -5758,6 +5768,9 @@
 	Resident Identity Card of People Republic of China (Second Generation with RF Feature) (eID)
 	http://www.gov.cn/banshi/2005-08/02/content_19457.htm
 
+3B 88 80 01 E1 E1 F3 5E 13 77 83 00 43
+	ePerso - German ID card (issued 2011) (eID)
+
 3B 88 80 01 E1 F3 5E 11 73 81 A5 00 03
 	US passport (2007)
 
@@ -6167,6 +6180,9 @@
 3B 8C 80 01 50 00 05 02 2D 02 06 00 00 00 81 91 63
 	Local Transport card for Trentino region (Italy) trentino trasporti esercizio (Transport)
 	http://www.ttesercizio.it/
+
+3B 8C 80 01 50 01 A5 CE 19 00 00 00 00 80 81 71 5E
+	VISA Card from Bank BANQUE POPULAIRE (Bank)
 
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
@@ -8268,6 +8284,9 @@
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 17 13 C4 1D 2D 36 49
 	Idemia card (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 32 11 B2 52 C6 79 F3
+	open5gs (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 00 53 04 D0 80 83 05 90 00 BE
 	NTT_DoCoMo (Telecommunication)
 
@@ -8512,6 +8531,9 @@
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
 	MobileOne (Singaporean 3G/GSM operator) SIM card "II(3G-64) M1 3G "
+
+3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 4D 45 22 00 79 02 00 80
+	TMobile (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 02 22 00 80 01 01 27
 	giffgaff USIM (Telecommunication)
@@ -9752,6 +9774,10 @@
 3B D9 18 00 C0 09 10 FE 54 59 46 4F 4E 45 00 00 00
 	Tyfone's SideTap Card (NFC payments)
 
+3B D9 18 FF 81 91 FE 1F C3 54 41 47 4C 49 4F 50 49 56 5B
+	Taglio PIV C2190 (NXP JCOP 3 SecID P60 CS) (eID)
+	https://www.taglio.com/pivcard.html
+
 3B D9 94 00 00 4D 45 02 00 09 01 00 90 00
 	Moviestar. GSM SIM card (Telecommunication)
 
@@ -10188,6 +10214,9 @@
 3B DF 96 00 80 B1 FE 45 1F 83 80 73 BC 91 80 F9 A0 00 00 00 77 80 08 02 01 A4
 	Latvian eSignature card (eID)
 	https://www.lvrtc.lv/e-signature.html
+
+3B DF 96 00 80 B1 FE 45 1F 87 00 31 C1 64 08 92 32 01 73 84 21 E0 05 90 00 C5
+	Company Card for Transport companies (Transport)
 
 3B DF 96 00 81 31 FE 45 41 43 4F 53 2D 49 44 30 30 32 38 2E 30 31 36 6F
 	Sri Lankan driving license [ web: motortraffic.gov.lk ] (eID)
@@ -12256,6 +12285,10 @@
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 47
 	Platforma Canal+ Polska, cameleon card (Pay TV)
 	https://www.flysat.com/canalplus-pl.php
+
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 35 48
+	Canal+ France Nagra3 (Pay TV)
+	https://www.canalplus.com/
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 20 07 33 41 41 1F
 	Swisscom 3G SIM card
