@@ -918,6 +918,9 @@
 3B 3B 11 00 2F AF 21 FA 10 00 02 81 83 90 00
 	alo (Telecommunication)
 
+3B 3B 11 00 2F AF 21 FA 10 00 02 83 83 90 00
+	romanian telecommunication operator obsolete sim (Telecommunication)
+
 3B 3B 11 00 67 AF 10 30 07 00 C0 33 33 90 00
 	Mobicarte Orange
 
@@ -1034,6 +1037,10 @@
 
 3B 3B 96 00 40 88 91 00 00 08 EA 33 33 90 00
 	iraqmanager (eID)
+
+3B 3B 96 00 91 41 10 20 57 09 A0 00 33 90 00
+	old vodafone romania sim (Telecommunication)
+	https://vodafone.ro
 
 3B 3B 96 00 92 42 10 10 5A 02 E0 00 33 90 00
 	Roaming Test SIM (Telecommunication)
@@ -2107,6 +2114,9 @@
 
 3B 6A 00 00 81 3F 01 75 11 01 02 81 01 0A
 	Huada CIU9872B (Java Card 2.2.2) (JavaCard)
+
+3B 6A 00 00 86 65 00 A7 58 C0 46 00 90 00
+	China Merchants Bank card (Bank)
 
 3B 6A 00 00 86 65 00 A7 58 C0 55 00 90 00
 	Credit card (Bank)
@@ -4015,6 +4025,10 @@
 	MIVB/STIB MOBIB Card (Transport)
 	https://mobib.be/
 
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 0A E1 39 82 90 00
+	STIB/MIVB Mobib card (Transport)
+	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=en
+
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
 
@@ -4200,6 +4214,9 @@
 
 3B 78 12 00 00 A0 C4 06 05 8F F1 90 00
 	Satellite cardu, provider: UPC DTH, CAID: 0D02
+
+3B 78 12 00 00 A0 C4 06 06 8F F1 90 00
+	Skylink old card cryptoworks 0d03 (Pay TV)
 
 3B 78 12 00 00 A0 C4 06 07 8F F1 90 00
 	Skylink CZ/SK - Cryptoworks
@@ -5212,6 +5229,9 @@
 3B 82 80 01 03 02 02
 	Visa Credit Card, issued by TargoBank
 
+3B 82 80 01 47 72 36
+	emoney (Transport)
+
 3B 82 80 01 47 92 D6
 	Beijing Bus (Transport)
 
@@ -5944,6 +5964,8 @@
 
 3B 89 80 01 80 57 4A 4D 56 76 35 2E 30 D3
 	PayPal Access Business MasterCard (contactless) (Bank)
+	Coinbase Card, Visa Debit (Paysafe / TCT FCU) (Bank)
+	https://coinbase.com/card
 
 3B 89 80 01 80 64 16 04 02 82 82 90 00 6C
 	Maestro card (from Mastercard) used by BCGE (switzerland) bank (Bank)
@@ -7316,6 +7338,10 @@
 3B 98 94 00 93 91 14 01 0A 06 06 06
 	Orange Spain 64k Sim card
 
+3B 98 94 00 93 91 15 01 04 03 03 03
+	old orange sim (Telecommunication)
+	https://orange.ro
+
 3B 98 94 40 0A A5 03 01 01 01 AD 13 10
 	Belgium Electronic ID card (eID)
 
@@ -8132,6 +8158,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 47 44 0E 01 00 55 01 B2
 	China Unicom 4G sim card (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 47 44 30 01 00 55 01 8C
+	China Unicom USIM Card (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 49 05 0C 86 98 60 18 CC
 	China Unicom USIM 128K 6131H
 
@@ -8534,6 +8563,9 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 4D 45 22 00 79 02 00 80
 	TMobile (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 4D 45 22 00 80 01 00 7A
+	ORANGE SPAIN GSM 4G SIM (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 02 22 00 80 01 01 27
 	giffgaff USIM (Telecommunication)
@@ -12361,6 +12393,9 @@
 3B FF 96 00 FF 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 14
 	JavaCard Bit4Id (JavaCard)
 
+3B FF 96 00 FF 91 81 31 FE 4D 80 31 E0 6B 04 31 05 02 75 55 55 55 55 55 55 79
+	algeria national identity card (eID)
+
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
 
@@ -12402,6 +12437,10 @@
 
 3F 2F 00 80 69 AF 03 07 01 59 00 13 0A 0E 83 3E 9F 16
 	Old Spanish Telefónica Movistar GSM SIM card manufactured by Gemplus
+
+3F 2F 00 80 69 AF 03 07 01 59 00 24 0A 0E 83 3E 9F 16
+	dialog romania now orange (Telecommunication)
+	https://orange.ro
 
 3F 2F 00 80 69 AF 03 07 03 52 00 00 0A 0E 83 3E 9F 16
 	GemXplore 98 V1 16K
