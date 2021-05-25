@@ -115,6 +115,18 @@ const char *cub2 = "";
 const char *cub3 = "";
 const char *cpl = "";
 
+typedef struct
+{
+	const char *pname;
+	Boolean analyse_atr;
+	Boolean stress_card;
+	Boolean print_version;
+	Boolean verbose;
+	Boolean only_list_readers;
+} options_t;
+
+static options_t Options;
+
 static Boolean is_member(const char *  item, const char * list[])
 {
 	int i = 0;
@@ -222,18 +234,6 @@ static void initialize_signal_handlers(void)
 	old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
 }
 
-
-typedef struct
-{
-	const char *pname;
-	Boolean analyse_atr;
-	Boolean stress_card;
-	Boolean print_version;
-	Boolean verbose;
-	Boolean only_list_readers;
-} options_t;
-
-static options_t Options;
 
 static void initialize_options(options_t *options, const char *pname)
 {
