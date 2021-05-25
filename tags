@@ -1,0 +1,20 @@
+Boolean	pcsc_scan.c	/^} Boolean;$/
+Mpcsc_scan	pcsc_scan.c	/^int main(int argc, char *argv[])$/
+initialize_options	pcsc_scan.c	/^static void initialize_options(options_t *options,/
+initialize_signal_handlers	pcsc_scan.c	/^static void initialize_signal_handlers()$/
+initialize_terminal	pcsc_scan.c	/^static void initialize_terminal()$/
+int	pcsc_scan.c	/^typedef void (*sighandler_t)(int);$/
+is_member	pcsc_scan.c	/^static Boolean is_member(const char *  item, const/
+options_t	pcsc_scan.c	/^} options_t;$/
+parse_options	pcsc_scan.c	/^static int parse_options(int argc, char *argv[], o/
+pcsc_stringify_error	pcsc_scan.c	/^const char *pcsc_stringify_error(DWORD rv)$/
+print_pcsc_error	pcsc_scan.c	/^#define print_pcsc_error(fct, rv) \\$/
+print_readers	pcsc_scan.c	/^static void print_readers(const char **readers, in/
+print_version	pcsc_scan.c	/^static void print_version(void)$/
+spin_start	pcsc_scan.c	/^static void spin_start(void)$/
+spin_suspend	pcsc_scan.c	/^static void spin_suspend(void)$/
+spin_update	pcsc_scan.c	/^static void spin_update(void)$/
+stress	pcsc_scan.c	/^static LONG stress(SCARDCONTEXT hContext, const ch/
+test_rv	pcsc_scan.c	/^#define test_rv(fct, rv, hContext) \\$/
+usage	pcsc_scan.c	/^static void usage(const char *pname)$/
+user_interrupt_signal_handler	pcsc_scan.c	/^static void user_interrupt_signal_handler(int sign/

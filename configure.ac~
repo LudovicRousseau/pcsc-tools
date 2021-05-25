@@ -1,0 +1,35 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_INIT(pcsc_scan.c)
+dnl Every other copy of the package version number gets its value from here
+AM_INIT_AUTOMAKE(pcsc_scan, 1.4.27)
+
+dnl create a config.h file (Automake will add -DHAVE_CONFIG_H)
+AM_CONFIG_HEADER(config.h)
+
+AC_SUBST(VERSION)
+
+ISODATE=`date +%Y-%m-%d`
+AC_SUBST(ISODATE)
+
+AC_CANONICAL_HOST
+
+dnl Checks for programs.
+AC_PROG_INSTALL
+AC_PROG_CC
+
+dnl Checks for libraries.
+
+dnl Checks for header files.
+AC_HEADER_STDC
+AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h)
+
+
+AC_HEADER_MAJOR
+dcl AC_CHECK_FUNCS(mkfifo)
+
+dnl Checks for typedefs, structures, and compiler characteristics.
+
+dnl Checks for library functions.
+
+AC_OUTPUT(Makefile pcsc_scan.lsm pcsc_scan.spec)
