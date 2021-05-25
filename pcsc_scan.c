@@ -180,6 +180,10 @@ static void spin_update(void)
 {
 	char patterns[] = {'-', '\\', '|', '/'};
 	char c = patterns[spin_state];
+
+	if (! Options.verbose)
+		return;
+
 	spin_state++;
 	if (spin_state >= sizeof patterns)
 		spin_state = 0;
@@ -189,6 +193,9 @@ static void spin_update(void)
 
 static void spin_suspend(void)
 {
+	if (! Options.verbose)
+		return;
+
 	printf("%s %s", cub2, cub2);
 	fflush(stdout);
 	if (spinning_interrupted)
