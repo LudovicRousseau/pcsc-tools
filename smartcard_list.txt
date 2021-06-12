@@ -2230,6 +2230,7 @@
 	Credit card emitted by KBC Brussels, Belgium (Bank)
 	Advanzia Credit Card (Master Card gold), Germany (IDK if there is a difference between the german one and the other ones) (Bank)
 	https://mastercard.gebuhrenfrei.com/
+	Italian Intesa Sanpaolo Superflash Prepaid Mastercard (Bank)
 
 3B 6B 00 00 00 31 C0 64 08 44 03 76 07 90 00
 	Blu American Express Credit Card (Bank)
@@ -2510,6 +2511,9 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 34 42 33 00 90 00
 	chase (Bank)
 
+3B 6D 00 00 00 73 C8 00 13 64 54 34 44 32 00 90 00
+	Metrobank debit (Bank)
+
 3B 6D 00 00 00 73 C8 00 13 64 54 34 46 31 00 90 00
 	Discover (Bank)
 	https://www.discover.com/credit-cards/
@@ -2775,6 +2779,7 @@
 
 3B 6E 00 00 00 31 C0 65 D3 C2 02 00 05 71 D6 8C 61 35
 	Italian Intesa SanPaolo VISA
+	Intesa Sanpaolo Bancomat & Maestro Card (Bank)
 
 3B 6E 00 00 00 31 C0 65 D3 C2 02 00 05 71 D6 8C 61 39
 	Italian Bancomat (Cassa di Risparmio di Rimini) (bank card)
@@ -2980,6 +2985,9 @@
 	Nationwide InvestDirect (bank)
 	SberBank Gold Credit Card (VISA)
 
+3B 6E 00 00 00 31 C0 71 D6 65 CE 0B 01 41 00 83 90 00
+	Intesa Sanpaolo Bancomat & Maestro Card (Bank)
+
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
 
@@ -3084,6 +3092,7 @@
 	Postepay Evolution - Poste Italiane (mastercard)
 	"la Caixa" (Spain) (VISA Electron) debit card (Bank)
 	https://www.lacaixa.es/
+	Italian Webank.it BPM Banca Popolare di Milano Bancomat & Maestro Card (Bank)
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -3242,6 +3251,10 @@
 	https://www.lansforsakringar.se/
 	ING Direct MasterCard (Bank)
 	https://www.ing.es/tarjetas-ing
+
+3B 6F 00 00 02 31 B8 13 FF 00 00 00 00 00 00 00 0F 90 00
+	Coverflex | Flexible Benefits Platform (Other)
+	https://www.coverflex.com/
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -3748,6 +3761,10 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 77 EE D6 82 90 00
 	Navigo (Paris) - Gamalto SmarCard (Transport)
 	https://www.iledefrance-mobilites.fr/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 7A 7C 32 82 90 00
+	Navigo Pass used mainly on the french SNCF, Optile and RATP transit networks (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 9B C4 F1 82 90 00
 	Navigo Liberté + (Transport)
@@ -6716,6 +6733,10 @@
 	Monzo MasterCard Contactless (Bank)
 	https://monzo.com/
 
+3B 8F 80 01 00 B8 54 31 00 00 90 00 00 00 00 00 FF FF FF BC
+	VISA Debit issued by WIREX. card made by CONTIS / TAG SYSTEMS (Bank)
+	https://wirexapp.com/
+
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 5B
 	DKB-VISA-Card (Bank)
 	https://produkte.dkb.de/?&page=girokonto#kreditkarte
@@ -7425,6 +7446,9 @@
 
 3B 9A 96 00 92 01 66 93 17 00 02 12 04 00
 	GSM SIM Bite.lv prepaid "Toxic"; 2008
+
+3B 9A 96 00 92 01 98 93 17 00 02 28 02 00
+	Hardware USB Key (Other)
 
 3B 9A 96 00 92 02 71 93 16 00 01 07 01 00
 	SIM card (emitted in ~2007) of Ukrainian Telecommunications Operator Kyivstar (Kyivstar GSM) (GSM/UMTS services) (Telecommunication)
@@ -8543,6 +8567,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 73 30 09 48 DB
 	nano sim/usim card (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 75 30 06 62 F8
+	SIM Card (Telecommunication)
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 73 30 31 07 46 BE
 	Hologram Developer Global IoT SIM Card (Telecommunication)
 	https://hologram.io/store/global-iot-sim-card/17
@@ -8679,6 +8706,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 00 89 01 02 28
 	TMobile Prepaid USIM (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 01 02 03 A3
+	USIM LTE MOVISTAR (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 02 01 00 A0
 	vivo (Other)
@@ -10816,6 +10846,9 @@
 	Kreissparkasse bank Girocard (Germany) (Bank)
 	https://www.kskmse.de/de/home/privatkunden/girokonto/girokonto-online.html?n=true&stref=productbox
 
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 1A 17 37 10 7D
+	Bank card issued by Sparkasse (Bank)
+
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0C 20 24 37 10 74
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ... (Bank)
 
@@ -11106,6 +11139,10 @@
 3B F8 11 00 00 81 71 FE 42 00 54 4E 05 19 00 00 00 02 A1
 	Taiwan EasyCard (Transport)
 	https://www.easycard.com.tw/english/index.asp
+
+3B F8 11 20 03 40 FF 03 03 03 03 12 10 90 00
+	Bar Ilan KesefCard from Bezeq (Other)
+	https://halemo.net/web/www.aurora.co.il/english/c_kesefcard.html
 
 3B F8 11 20 03 40 FF FF FF FF FF 12 10 90 00
 	G&D (STARCOS SV 1.1)
