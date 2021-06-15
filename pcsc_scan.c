@@ -115,6 +115,10 @@ const char *cub2 = "";
 const char *cub3 = "";
 const char *cpl = "";
 
+int nocandy = 0; // no eye candy
+time_t start_time;
+
+
 typedef struct
 {
 	const char *pname;
@@ -123,6 +127,7 @@ typedef struct
 	Boolean print_version;
 	Boolean verbose;
 	Boolean only_list_readers;
+	long maxtime; // in seconds
 } options_t;
 
 static options_t Options;
@@ -143,7 +148,15 @@ static void initialize_terminal(void)
 		"Eterm", "rxvt", "rxvt-unicode", "cygwin", 0};
 	const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
 	const char *term = getenv("TERM");
-	if (term == 0)
+
+	/* do not use color if stdout is redirected */
+	if (!isatty(fileno(stdout)))
+	{
+		nocandy = 1;
+		cpl = "\n"; /* can't do previous line,  let's go to the next line. */
+		return;
+	}
+	else if (term == 0)
 	{
 		term = "dumb";
 	}
@@ -169,6 +182,16 @@ static void initialize_terminal(void)
 }
 /* There should be no \033 beyond this line! */
 
+static Boolean reached_maxtime(void)
+{
+	if (Options.maxtime)
+	{
+		time_t t = time(NULL);
+		if (t - start_time > Options.maxtime) return True;
+	}
+	return False;
+}
+
 Boolean spinning_interrupted = False;
 unsigned int spin_state = 0;
 static void spin_start(void)
@@ -181,7 +204,10 @@ static void spin_update(void)
 	char patterns[] = {'-', '\\', '|', '/'};
 	char c = patterns[spin_state];
 
-	if (! Options.verbose)
+	if (reached_maxtime())
+		spinning_interrupted = 1;
+
+	if (! Options.verbose || nocandy)
 		return;
 
 	spin_state++;
@@ -193,7 +219,7 @@ static void spin_update(void)
 
 static void spin_suspend(void)
 {
-	if (! Options.verbose)
+	if (! Options.verbose || nocandy)
 		return;
 
 	printf("%s %s", cub2, cub2);
@@ -252,14 +278,15 @@ static void initialize_options(options_t *options, const char *pname)
 #endif
 	options->stress_card = False;
 	options->print_version = False;
+	options->maxtime = 0;
 	options->verbose = True;
 	options->only_list_readers = False;
 }
 
 #ifdef WIN32
-#define OPTIONS "Vhvrsq"
+#define OPTIONS "Vhvrst:q"
 #else
-#define OPTIONS "Vhnvrsq"
+#define OPTIONS "Vhnvrst:q"
 #endif
 
 static int parse_options(int argc, char *argv[], options_t *options)
@@ -289,6 +316,10 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 's':
 				options->stress_card = True;
+				break;
+
+			case 't':
+				options->maxtime = atol(optarg);
 				break;
 
 			case 'q':
@@ -437,6 +468,7 @@ int main(int argc, char *argv[])
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int pnp = TRUE;
 
+	start_time = time(NULL);
 	initialize_terminal();
 	if (0 != parse_options(argc, argv, &Options))
 	{
@@ -449,7 +481,7 @@ int main(int argc, char *argv[])
 	}
 
 #ifdef WIN32
-	if (Options.verbose)
+	if (Options.verbose && !nocandy)
 	{
 		printf("%sPress shift key to quit%s\n", magenta, color_end);
 	}
@@ -500,7 +532,7 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-	if (Options.verbose)
+	if (Options.verbose && !nocandy)
 	{
 		printf("%sScanning present readers...%s\n", red, color_end);
 	}
@@ -539,7 +571,7 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
-		if (Options.verbose)
+		if (Options.verbose && !nocandy)
 		{
 			printf("%sWaiting for the first reader...%s   ", red, color_end);
 			fflush(stdout);
@@ -579,7 +611,7 @@ get_readers:
 			}
 			spin_suspend();
 		}
-		if (Options.verbose)
+		if (Options.verbose && !nocandy)
 		{
 			printf("found one\n");
 		}
