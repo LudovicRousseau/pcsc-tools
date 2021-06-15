@@ -147,7 +147,9 @@ static void initialize_terminal(void)
 		"Eterm", "rxvt", "rxvt-unicode", "cygwin", 0};
 	const char *no_ansi_cursor_terms[] = {"dumb", "emacs", 0};
 	const char *term = getenv("TERM");
-	if (term == 0)
+
+	/* do not use color if stdout is redirected */
+	if (!isatty(fileno(stdout)) || (NULL == term))
 	{
 		term = "dumb";
 	}
