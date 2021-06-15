@@ -95,7 +95,7 @@ do { \
 
 static void usage(const char *pname)
 {
-	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -s] \n\n", pname, pname);
+	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -s | -t secs ]\n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
 	printf("\t\t  -V : print version number\n");
 	printf("\t\t  -n : no ATR analysis\n");
@@ -103,6 +103,7 @@ static void usage(const char *pname)
 	printf("\t\t  -s : stress mode\n");
 	printf("\t\t  -q : quiet mode\n");
 	printf("\t\t  -v : verbose mode (default)\n");
+	printf("\t\t  -t secs : quit after secs seconds\n");
 	printf("\n");
 }
 
@@ -115,6 +116,8 @@ const char *cub2 = "";
 const char *cub3 = "";
 const char *cpl = "";
 
+time_t start_time;
+
 typedef struct
 {
 	const char *pname;
@@ -123,6 +126,7 @@ typedef struct
 	Boolean print_version;
 	Boolean verbose;
 	Boolean only_list_readers;
+	long maxtime; // in seconds
 } options_t;
 
 static options_t Options;
@@ -169,6 +173,17 @@ static void initialize_terminal(void)
 }
 /* There should be no \033 beyond this line! */
 
+static Boolean reached_maxtime(void)
+{
+	if (Options.maxtime)
+	{
+		time_t t = time(NULL);
+		if (t - start_time > Options.maxtime)
+			return True;
+	}
+	return False;
+}
+
 Boolean spinning_interrupted = False;
 unsigned int spin_state = 0;
 static void spin_start(void)
@@ -180,6 +195,9 @@ static void spin_update(void)
 {
 	char patterns[] = {'-', '\\', '|', '/'};
 	char c = patterns[spin_state];
+
+	if (reached_maxtime())
+		spinning_interrupted = 1;
 
 	if (! Options.verbose)
 		return;
@@ -252,14 +270,15 @@ static void initialize_options(options_t *options, const char *pname)
 #endif
 	options->stress_card = False;
 	options->print_version = False;
+	options->maxtime = 0;
 	options->verbose = True;
 	options->only_list_readers = False;
 }
 
 #ifdef WIN32
-#define OPTIONS "Vhvrsq"
+#define OPTIONS "Vhvrst:q"
 #else
-#define OPTIONS "Vhnvrsq"
+#define OPTIONS "Vhnvrst:q"
 #endif
 
 static int parse_options(int argc, char *argv[], options_t *options)
@@ -289,6 +308,10 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 's':
 				options->stress_card = True;
+				break;
+
+			case 't':
+				options->maxtime = atol(optarg);
 				break;
 
 			case 'q':
@@ -437,6 +460,7 @@ int main(int argc, char *argv[])
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int pnp = TRUE;
 
+	start_time = time(NULL);
 	initialize_terminal();
 	if (0 != parse_options(argc, argv, &Options))
 	{
