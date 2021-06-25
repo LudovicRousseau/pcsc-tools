@@ -57,6 +57,9 @@
 	Cryptoguard card used for pay tv Plustelka (DVB-T2 - Slovak) (Pay TV)
 	https://www.plustelka.sk/
 
+3B 02 10 50
+	Visa  (Bank)
+
 3B 02 14 1C
 	UAE (United Arab Emirates) (eID)
 
@@ -68,6 +71,9 @@
 
 3B 02 14 51
 	8A (Bank)
+
+3B 02 15 40
+	MasterCard  (Bank)
 
 3B 02 36 02
 	EMTG56 0.2
@@ -1598,6 +1604,9 @@
 3B 67 00 00 04 12 45 01 60 01 11
 	Bank ATM card (Bank)
 
+3B 67 00 00 04 12 45 01 60 01 12
+	I & M BANK KENYA (Bank)
+
 3B 67 00 00 04 13 46 01 60 01 11
 	Equity (Bank)
 
@@ -2346,6 +2355,9 @@
 3B 6B 00 00 53 43 00 15 02 02 50 01 0F 90 00
 	Visa (Bank)
 
+3B 6B 00 00 53 43 00 15 08 02 50 01 0F 90 00
+	ALELO-BENEFICIOS (Other)
+
 3B 6B 00 00 80 31 C0 63 48 10 7F 83 E0 90 00
 	ABL card (Bank)
 	asdasd (Bank)
@@ -2944,6 +2956,9 @@
 	Creditcard Deutsche Bank
 	NatWest (UK) Savings account PLUS card
 
+3B 6E 00 00 00 31 C0 71 D6 64 38 D0 03 00 84 90
+	visadebit (Bank)
+
 3B 6E 00 00 00 31 C0 71 D6 65 12 0D 01 81 00 83 90 00
 	VISA Gold (VISA ORO) from the Spanish branch of ING Direct (bank)
 	http://www.ingdirect.es/tarjetas-ing/
@@ -2987,6 +3002,10 @@
 
 3B 6E 00 00 00 31 C0 71 D6 65 CE 0B 01 41 00 83 90 00
 	Intesa Sanpaolo Bancomat & Maestro Card (Bank)
+
+3B 6E 00 00 00 3B 6B 00 00 00 31 C0 64 08 10 41 08 07
+	Bank Of America Signature Visa (Bank)
+	https://www.managerewardsonline.bankofamerica.com/RWDapp/ns/home?mc=SIGRWD&locale=en_US
 
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
@@ -8470,6 +8489,9 @@
 	baicells sim card (Telecommunication)
 	http://www.baicells.com/
 
+3B 9F 95 80 3F C3 A0 80 31 E0 73 FE 21 13 63 8D 43 42 83 F0 90 00 34
+	Taisys Java Csrd (Telecommunication)
+
 3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
 	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
 	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
@@ -9004,6 +9026,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 0A 03 01 81 05 70
 	SMART Prepaid SIM (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 56 54 4C 01 74 81 05 6D
+	Viettel LTE SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 63 01 09 02 01 81 05 3E
 	2degrees Mobile SIM Card New Zealand (Telecommunication)
@@ -10461,6 +10486,10 @@
 	VISA, issued by Austrian bank "Erste Bank"
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
 
+3B E9 00 00 81 31 FE 00 FF 50 65 72 73 6F 53 69 6D 54
+	German PersoSim (eID)
+	https://persosim.secunet.com/en/
+
 3B E9 00 00 81 31 FE 45 43 44 31 69 A9 00 00 00 00 14
 	Mastercard credit card, UBS Switzerland (Bank)
 
@@ -10597,6 +10626,10 @@
 
 3B ED 00 00 81 31 FE 45 00 31 C0 71 C6 64 4D 35 33 56 0F 90 00 46
 	Kostadin (Bank)
+
+3B ED 00 00 81 31 FE 45 00 31 C0 71 C6 64 4D 35 35 4D 0F 90 00
+	ING Credit Card (Bank)
+	https://www.ing.nl/particulier/betalen/creditcards/index.html
 
 3B ED 00 FF 81 31 20 75 4D 42 43 20 53 4D 50 20 56 31 2E 31 30 BD
 	Used to Control a Laser Device
