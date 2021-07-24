@@ -2311,6 +2311,9 @@
 3B 6B 00 00 00 31 C0 64 D0 10 01 00 07 90 00
 	Alfa-Bank (Russia) Master Card (Aeroflot bonus) (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 60 32 06 07 90 00
+	HSBC (Bank)
+
 3B 6B 00 00 00 31 C1 64 08 60 32 06 0F 90 00
 	Nationwide Building Society VISA Debit card (Bank)
 
@@ -2865,6 +2868,9 @@
 
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 27
 	VISA Credit Card issued by Santander Bank (Bank)
+
+3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 2E
+	Sainsbury's Bank MasterCard (Bank)
 
 3B 6E 00 00 00 31 C0 65 F8 D6 02 01 07 71 D6 8C 61 33
 	Tesco Bank Credit Card (VISA) (Bank)
@@ -4307,6 +4313,9 @@
 	Bank of America Travel Rewards Credit Card (Bank)
 	https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/
 
+3B 78 96 00 00 81 00 03 50 01 07 90 00
+	RMA BMCE BANK CARD (Bank)
+
 3B 79 11 00 00 80 54 43 4F 4C 44 82 90 00
 	amazon.de / VISA / LBB Debit Card (Bank)
 
@@ -5209,12 +5218,22 @@
 	Belgian eID v1.8 (eID)
 	https://github.com/Fedict/eid-mw
 
+3B 7F 96 00 00 80 31 80 65 B0 85 04 01 20 F2 00 01 82 90 00
+	Health Insurance Institute of Slovenia - Health Insurance Card Gen. 3 (HealthCare)
+
+3B 7F 96 00 00 80 31 80 65 B0 85 04 01 20 F2 00 02 82 90 00
+	Health Insurance Institute of Slovenia - Professional Card Gen. 3 (HealthCare)
+
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 FF FE 82 90 00
 	IDCORE 3140 (JavaCard)
 
 3B 7F 96 00 00 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00
 	Finnish identity card (eID)
 	http://vrk.fi/en/citizen-certificate
+
+3B 7F 96 00 00 80 31 B8 65 B0 85 04 02 1B 12 00 F6 82 90 00
+	Finnish ID-card v5.0(?) (eID)
+	https://dvv.fi/en/fineid-specifications
 
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
@@ -6236,6 +6255,10 @@
 3B 8B 80 01 65 4B 54 50 30 44 32 65 4B 54 50 4C
 	NXP smart eID - Indonesia ektp (eID)
 
+3B 8B 80 01 80 31 C0 63 05 10 7F 83 00 90 00 61
+	UAB Bank - Prepaid VISA Card (Bank)
+	https://www.uab.com.mm/cards/
+
 3B 8B 80 01 80 66 47 50 00 B8 00 7F 82 90 00 2E
 	Italian Card Identity (eID)
 	https://www.cartaidentita.interno.gov.it/
@@ -6377,6 +6400,10 @@
 
 3B 8C 80 01 50 46 E5 70 EC 23 18 01 00 77 81 97 39
 	Indonesian Driver License
+
+3B 8C 80 01 50 49 7A 51 77 E1 F3 5E 11 77 81 A5 46
+	USA PASSPORT BOOK ICAO  (passport)
+	https://www.icao.int/publications/pages/publication.aspx?docnum=9303
 
 3B 8C 80 01 50 4B 75 AF 41 E1 F3 5E 11 77 81 A5 83
 	USA PASSPORT BOOK ICAO  (passport)
@@ -7556,6 +7583,10 @@
 3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
+
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 84 54 50 B2
+	cambodia (Telecommunication)
+	https://www.smart.com.kh/
 
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 53 89 74 50 9C
 	China Unicom 128K M2M Card (Telecommunication)
@@ -9797,6 +9828,9 @@
 	Austrian "RKS-Card" issued by GlobalTrust (PKI)
 	https://secure.globaltrust.eu/info-rksv.html
 
+3B D2 18 00 81 31 FE 58 C9 04 11
+	Identity Card in Slovakia with security chip and e-signature issued after 2021-06-21 (eID)
+
 3B D2 18 00 81 31 FE 58 CA 60 76
 	CardOS IoT V5.4 (PKI)
 	https://atos.net/wp-content/uploads/2018/11/ct_181127_lpm_cardos_iot_v5-4_fs_en4_web.pdf
@@ -11372,6 +11406,9 @@
 
 3B F9 94 00 00 81 31 FE 65 46 54 20 56 31 30 30 90 00 83
 	ePass 2000
+
+3B F9 96 00 00 80 31 FE 45 4A 54 61 78 43 6F 72 65 56 0F
+	Secure element for fiscal system in Serbia (PKI)
 
 3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 00 00 20 20 27
 	G&D SmartCafe Expert 7 (JavaCard)
