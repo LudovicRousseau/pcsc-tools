@@ -75,6 +75,9 @@
 3B 02 15 40
 	MasterCard  (Bank)
 
+3B 02 30 92 01 24 00 16 07 00 00
+	Credit (Bank)
+
 3B 02 36 02
 	EMTG56 0.2
 
@@ -3027,6 +3030,9 @@
 	Up Day Tronic electronic meal voucher card (Italy) (Other)
 	https://www.day.it/pausa-pranzo-buoni-pasto
 
+3B 6E 00 00 33 30 4A 30 33 86 88 76 70 36 76 33 2E 30
+	Agricultural Bank of China (Bank)
+
 3B 6E 00 00 45 73 74 45 49 44 20 76 65 72 20 31 2E 30
 	Estonian Identity Card (EstEID v1.1 "MULTOS" cold)
 
@@ -3436,6 +3442,13 @@
 3B 6F 00 00 80 31 E0 6B 08 2D 05 02 B8 55 55 55 55 55 55
 	pag seguro Brasil (Bank)
 
+3B 6F 00 00 80 31 E0 6B 08 2E 05 02 B9 55 55 55
+	CAIXA ECONOMICA (Bank)
+	https://www.caixa.gov.br/Paginas/home-caixa.aspx
+
+3B 6F 00 00 80 31 E0 6B 08 2E 05 02 B9 55 55 55 55 55 55
+	CAIXA (Bank)
+
 3B 6F 00 00 80 31 E0 6B 09 25 02 02 09 55 55 55 55 55 55
 	OCA  Card - Master Card credit card (Bank)
 
@@ -3729,6 +3742,10 @@
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 26 53 F8 82 90 00
 	New Navigo card - Paris Sub transport (Transport)
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 28 51 D4 82 90 00
+	Navigo, Paris and Isle of France transport card (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 2A 8F E7 82 90 00
 	Navigo Découverte card, a rechargeable card for travel in Paris, France. (Transport)
@@ -5209,6 +5226,10 @@
 	Mobili'carte (Angoulême mobility services card) (Transport)
 	http://www.mobilite-grandangouleme.fr/
 
+3B 80 01 81
+	NXP Semiconductors VNG OpenPGP Card (Other)
+	https://www.vng.com.vn/
+
 3B 80 80 01 01
 	ISO 14443 Type B without historical bytes
 	Electronic Passport
@@ -5265,6 +5286,9 @@
 3B 82 80 01 03 02 02
 	Visa Credit Card, issued by TargoBank
 
+3B 82 80 01 42 4A 0B
+	Beijing Transport(YKT) (Transport)
+
 3B 82 80 01 47 72 36
 	emoney (Transport)
 
@@ -5306,6 +5330,9 @@
 3B 83 80 01 41 07 05 41
 	ACOS3 Multi-Application Contactless Card (Other)
 	https://www.acs.com.hk/en/products/316/acos3-microprocessor-card-contactless/
+
+3B 83 80 01 41 10 09 5A
+	Card RFID ACS (Other)
 
 3B 83 80 01 81 02 80 01
 	Mifare DESFire EV1 2K (Other)
@@ -5730,6 +5757,10 @@
 3B 88 80 01 11 22 33 44 80 81 71 00 3D
 	FIME Card Emulator (Other)
 	https://www.fime.com/products/terminal-integration/savvi.html
+
+3B 88 80 01 1B E1 F3 5E 11 77 81 00 B9
+	Uruguyan persona ID. Nowadays a eID. (eID)
+	https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/firma-digital/es-cedula-identidad-digital
 
 3B 88 80 01 1C 2D 94 11 F7 71 85 00 BE
 	CEPAS Card (Adult card issued by EZ-Link) (Transport)
@@ -6163,6 +6194,9 @@
 3B 8B 80 01 00 31 C1 64 08 60 32 12 00 90 00 46
 	AMEX Silver Credit (Bank)
 
+3B 8B 80 01 00 31 C1 64 08 60 32 20 00 90 00 74
+	IDEMIA (Other)
+
 3B 8B 80 01 00 31 C1 64 08 92 33 54 00 90 00 F3
 	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
 	http://www.salute.gov.it/portale/lea/dettaglioContenutiLea.jsp?lingua=italiano&id=4693&area=Lea&menu=leaEssn
@@ -6343,6 +6377,10 @@
 
 3B 8C 80 01 50 46 E5 70 EC 23 18 01 00 77 81 97 39
 	Indonesian Driver License
+
+3B 8C 80 01 50 4B 75 AF 41 E1 F3 5E 11 77 81 A5 83
+	USA PASSPORT BOOK ICAO  (passport)
+	https://www.icao.int/publications/pages/publication.aspx?docnum=9303
 
 3B 8C 80 01 50 53 81 57 36 30 AA AA 01 77 81 D7 FE
 	Indonesian ektp (eID)
@@ -8194,6 +8232,9 @@
 	Mongolian MNO Skytel (Telecommunication)
 	https://www.skytel.mn
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 4C 00 90 83 07 90 00 14
+	Obertur Java 2.21 card (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C3
 	Sysmocom USIM-GR1 (Telecommunication)
 	http://www.sysmocom.de/products/programmable-sysmousim-gr1-sim-card
@@ -9080,6 +9121,9 @@
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
+
+3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 64 08 05 03 00 82 90 00 4F
+	NFC-enabled SIM card of MTS Russia. (Telecommunication)
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1F 64 41 26 91 00 82 90 00 B3
 	LTE Lab SIM Ver 1.3 (Telecommunication)
@@ -10142,6 +10186,10 @@
 3B DD 96 FF 80 1F 03 4E 58 50 20 4E 53 43 4F 53 20 34 2E 30 06
 	SCOSTA (Transport)
 
+3B DD 96 FF 81 31 FE 45 80 59 5F 53 74 64 5F 49 6E 69 74 81 05 9B
+	Karta kryptograficzna cryptoCertum 3.5 (PKI)
+	https://www.certum.pl/pl/karty-do-czytnikow/
+
 3B DD 96 FF 81 B1 FE 45 1F 03 00 64 04 05 08 03 73 96 21 D0 00 90 00 C9
 	German public health insurance card ("Gesundheitskarte"), issuer Techniker Krankenkasse
 
@@ -10868,6 +10916,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 06 54 31 37 10 1F
 	Sparkasse (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 07 1D 46 37 10 20
+	DKB (Deutsche Kreditbank) debit card (V-PAY) (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 0A 1E 13 37 10 7B
 	girocard (Bank)
