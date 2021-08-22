@@ -3757,6 +3757,10 @@
 	Navigo Découverte card, a rechargeable card for travel in Paris, France. (Transport)
 	https://parisbytrain.com/paris-train-metro-week-pass-navigo-decouverte/
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 32 83 08 82 90 00
+	Navigo Easy (Paris) (Transport) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 35 8F 16 82 90 00
 	French Navigo passcard to travel in Paris area using RATP & SNCF services (Transport)
 	http://www.navigo.fr/
@@ -4904,6 +4908,10 @@
 
 3B 7F 13 00 00 80 31 C0 52 15 54 64 05 66 98 36 83 83 90 00
 	VISA Card from Banc Sabadell in Spain
+
+3B 7F 13 00 00 80 31 C0 52 15 B8 64 02 00 64 71 83 83 90 00
+	Debit classic card banorte "banco mercantilmdel norte" (Bank)
+	https://www.banorte.com/
 
 3B 7F 13 00 00 80 31 C0 52 15 C7 64 05 69 93 70 83 83 90 00
 	Brazil Bank Debit Cart - Visa Electron (Banco do Brasil) (Bank)
@@ -6241,6 +6249,10 @@
 3B 8B 80 01 20 90 00 00 00 00 00 C3 A4 CC 09 18
 	ID card (Other)
 
+3B 8B 80 01 2A 26 A7 A1 0C 80 41 00 00 07 09 C3
+	T-Mobilitat (Transport)
+	https://t-mobilitat.cat/
+
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
 	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
@@ -6434,6 +6446,9 @@
 3B 8C 80 01 50 78 4B 2C CB 00 00 00 00 B3 71 71 3A
 	... (Transport)
 	https://www.portalviva.pt/
+
+3B 8C 80 01 50 78 F8 72 17 E1 F3 5E 11 77 81 A5 B6
+	US (passport)
 
 3B 8C 80 01 50 79 19 60 01 00 DD A6 11 F7 71 85 35
 	Transport Traway Montpellier France  (Transport)
@@ -8250,6 +8265,9 @@
 3B 9F 94 80 1F C3 80 31 E0 73 FE 21 13 63 01 03 02 83 07 90 00 CE
 	Programmable SIM card as one of the requirement for free5GC testing procedure (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 00 64 40 90 61 00 82 90 00 69
+	softsim (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 07 52 51 83 07 90 00 CC
 	sim card RUS Beeline Krasnodar (Telecommunication)
 
@@ -8962,6 +8980,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 05 06 03 01 44
 	French free.fr 2€/month sim card  (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 06 01 01 01 42
+	Digi Mobil (Telecommunication)
+	https://digi.ro
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
 	https://www.bob.at
@@ -9265,6 +9287,10 @@
 
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 09 06 92 00 82 90 00 FB
 	Ubigi Transatel esim (Telecommunication)
+
+3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05
+	Republic of Turkey Identity Card (eID)
+	https://bilgem.tubitak.gov.tr/en/icerik/national-identity-card-tr-nc-identity-card
 
 3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 90
 	Turkish National Electronic Identity Card - TCKK (eID)
@@ -9963,6 +9989,10 @@
 	German dentist's identity card (eID)
 	http://www.medisign.de/
 
+3B D9 96 FF 81 91 FE 1F C3 43 32 33 30 30 2D 4B 45 59 BA
+	Crescendo Key (USB Type-A) (PKI)
+	https://www.hidglobal.com/products/cards-and-credentials/crescendo/crescendo-key
+
 3B DA 11 FF 81 B1 FE 55 1F 03 00 31 84 73 80 01 80 00 90 00 E4
 	Gnuk OpenPGP Token (PKI)
 	https://www.fsij.org/category/gnuk.html
@@ -10128,6 +10158,10 @@
 3B DB 96 00 81 B1 FE 45 1F 83 80 F9 A0 00 00 03 08 00 00 10 00 98
 	Oberthur Cosmo v7 128K with PIV applet
 	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
+
+3B DB 96 FF 80 B1 FE 45 1F 87 00 31 C1 64 09 37 72 13 0F 90 00 F4
+	French ID Card 2021 (eID)
+	https://ants.gouv.fr/Les-titres/Carte-nationale-d-identite/La-puce-de-la-nouvelle-carte-nationale-d-identite
 
 3B DB 96 FF 81 31 FE 45 80 67 05 34 B5 02 01 06 40 81 05 1B
 	SINA STARCOS 3.5 BX-CombiCard+HSB (Other)
@@ -10996,6 +11030,9 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 15 62 02 50 00 10 0A 00 2B 21 07 20 1E
 	EC Card Sparkasse Mittelfranken Sued (Bank)
 	https://www.spkmfrs.de
+
+3B EF 00 FF 81 31 FE 45 65 63 11 15 62 02 50 00 10 0A 09 AC 03 07 20 B2
+	Girocard Sparkasse Darmstadt (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
@@ -13105,6 +13142,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 54 49 47 45 52 36 30 31 20 52 65 76 4D 38 30 13
 	Spanish pay TV card for GOLTV
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 31 42 30 20 4D 65 72 57 32 30 79
+	Vodafone HUNGARY (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 32 10
 	Telenet CI+ card Belgium (Pay TV)
