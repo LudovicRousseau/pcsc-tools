@@ -7561,9 +7561,8 @@
 	Java card Version 2.2.2 S3FS9FX series Java card  (eID)
 
 3B 9A 96 C0 10 31 FE 5D 00 64 05 7B 01 02 31 80 90 00 76
-	German driver card for the digital tachographs (mandatory for trucks above 3.5 tons)
-	runnig STARCOS 3.4 and prouced by Giesecke & Devrient GmbH
-	http://www.gi-de.com/deu/de/products_and_solutions/products/tachograph_cards/Fahrtenschreiberkarten-5890.jsp
+	EU smart tachograph card (driver/company/control/workshop)
+	https://dtc.jrc.ec.europa.eu/
 
 3B 9B 95 80 1F 43 80 31 A0 73 BE 21 00 53 34 50 01 19
 	True Move GSM UICC (Telecommunication)
@@ -9239,7 +9238,8 @@
 	Gemalto Security Element (PKI)
 
 3B 9F 96 C0 0A 31 FE 45 43 54 31 69 0B 01 00 01 00 00 00 00 00 00 00 0D
-	Tachograph company card issued in Romania (Other)
+	EU smart tachograph card (driver/company/control/workshop)
+	https://dtc.jrc.ec.europa.eu/
 
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
 	Verizon "4G LTE" USIM (Telecommunication)
@@ -11947,8 +11947,8 @@
 	Estonian Identity Card (EstEID v1.1 "MULTOS" warm)
 
 3B FE 96 00 00 80 31 FE 43 80 73 84 00 E0 65 B0 85 04 00 FB 82 90 00 4E
-	tachograph truck card (Transport)
-	http://takografodigitala.gipuzkoa.eus/
+	EU smart tachograph card (driver/company/control/workshop)
+	https://dtc.jrc.ec.europa.eu/
 
 3B FE 96 00 00 81 31 FE 45 80 31 80 66 40 90 A5 10 2E 03 83 01 90 00 6E 90 00
 	Swissbit PS-100u (JavaCard)
