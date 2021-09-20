@@ -1489,6 +1489,10 @@
 	Pass Restaurant Sodexo Pass France (Bank)
 	https://moncompte.sodexopass.fr/
 
+3B 65 00 00 20 63 CB C3 80
+	Apetiz restaurant card (French luncheon vouchers) (Bank)
+	https://www.apetiz.com/faq/?thematic=achats-apetiz-quoi-quand-combien
+
 3B 65 00 00 20 63 CB FF 00
 	Crédit Agricole business mastercard (Bank)
 
@@ -3016,6 +3020,10 @@
 	Bank Of America Signature Visa (Bank)
 	https://www.managerewardsonline.bankofamerica.com/RWDapp/ns/home?mc=SIGRWD&locale=en_US
 
+3B 6E 00 00 00 3B 6F 00 00 80 31 E0 6B 04 54 6B 02 01
+	Visa Prepaid Debit Card (Bank)
+	https://www.visaprepaidprocessing.com/eddcard
+
 3B 6E 00 00 00 62 .. 43 57 41 56 41 4E 54 10 81 90 00
 	Setec SetCOS 4.3.0
 
@@ -3953,6 +3961,10 @@
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 20 9D 05 82 90 00
 	Gent schakelt slim. AustriaCard  (Transport)
 
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 20 BA 62 82 90 00
+	Belgian MOBIB public transport card (Transport)
+	https://mobib.be/en.html
+
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 21 7A 3A 82 90 00
 	mobob (Transport)
 
@@ -4293,6 +4305,9 @@
 
 3B 78 13 00 00 72 75 74 6F 6B 65 6E 6D
 	Aktiv Rutoken Micron
+
+3B 78 14 00 00 00 73 C8 40 00 00
+	e-tazkira (eID)
 
 3B 78 18 00 00 00 73 C8 01 40 00 90 00
 	The Kyrgyz Republic eID (eID)
@@ -6128,6 +6143,10 @@
 	Super SIM X-SIM 16-in-1 (Telecommunication)
 	https://multi-com.eu/,details,id_pr,14881,key,super-sim-16-in-1-card,smenu,gsm.html
 
+3B 8A 80 01 54 69 63 54 6F 6B 20 33 2E 30 08
+	Cryptas TicTok v3 (PKI)
+	https://www.cryptas.com/en/products/tictok-card
+
 3B 8A 80 01 80 31 B8 73 84 01 E0 82 90 00 06
 	German ID Card - Personalausweis
 
@@ -6231,6 +6250,10 @@
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
 	SmartMX (Other)
 
+3B 8B 80 01 00 31 C1 64 09 37 72 13 00 90 00 51
+	French ID Card 2021 (contactless interface) (eID)
+	https://ants.gouv.fr/Les-titres/Carte-nationale-d-identite/La-puce-de-la-nouvelle-carte-nationale-d-identite
+
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
@@ -6299,6 +6322,10 @@
 
 3B 8C 80 01 4F 54 49 44 28 94 F7 C0 00 00 90 00 00
 	French passport (2010-2013)
+
+3B 8C 80 01 50 .. .. .. .. E1 F3 5E 11 77 81 E1 ..
+	Spanish eID, Documento Nacional de Identidad (DNIe) (eID)
+	http://www.dnielectronico.es/
 
 3B 8C 80 01 50 00 00 00 00 00 00 00 00 91 81 A0 ED
 	Belimo VAV-Compact NFC (Other)
@@ -12169,6 +12196,10 @@
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
 
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 60 2A A0 47 12 31
+	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
+	https://www.postbank.de/
+
 3B FF 18 00 FF 81 31 FE 45 00 31 C5 73 C0 01 80 54 76 15 02 01 05 90 00 74
 	SIGILANCE NFC OpenPGP Smart Card (JavaCard)
 	https://www.sigilance.com/
@@ -12880,6 +12911,10 @@
 3F 7F 13 25 02 40 B0 0C 69 FF 4A 50 C0 00 00 52 53 00 00 00
 	Stream Italy NDS 1 (Pay TV)
 
+3F 7F 13 25 02 40 B0 12 69 FF 4A 50 90 47 4C 00 00 00 00 00
+	NDS VideoGuard GL23 Card (Sky Brazil) (Pay TV)
+	https://en.wikipedia.org/wiki/VideoGuard
+
 3F 7F 13 25 02 40 B0 12 69 FF 4A 50 90 54 56 00 00 00 00 00
 	NDS Smartcard (Pay TV)
 
@@ -13037,6 +13072,9 @@
 
 3F FF 14 25 03 10 80 41 B0 01 69 FF 4A 50 70 00 00 5A 4B 01 00 00
 	Pay TV, Viasat Ukraine
+
+3F FF 14 25 03 10 80 41 B0 02 69 FF 4A 50 70 00 00 42 52 01 00 00
+	airtel (Pay TV)
 
 3F FF 14 25 03 10 80 41 B0 02 69 FF 4A 50 70 80 00 41 4F 01 00 14
 	Pay TV
