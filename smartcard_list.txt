@@ -5519,6 +5519,9 @@
 3B 85 80 01 80 73 C8 21 10 0E
 	NXP P71 (SmartMX3 P71D320 JCOP4) (JavaCard)
 
+3B 85 80 01 A0 00 00 00 00 A4
+	Italian Passport (passport)
+
 3B 85 C0 FA 21 63 80 63 01 01 05 1B
 	Public Distribution System
 	http://cg.nic.in/pdsonline/corepds/
@@ -7282,6 +7285,9 @@
 3B 8F 80 01 80 66 B0 07 01 01 07 .. .. .. .. .. .. 90 00 ..
 	Gemalto Santander Optelio TUI R7 with WG10 customized using Contactless interface
 
+3B 8F 80 01 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 29
+	NIST demo PIV card (eID)
+
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	TOP DM GX4 Cards [TOP DM GX4 - contact interface]
 	GemCombiXpresso R4 72K (contactless interface)
@@ -8190,6 +8196,12 @@
 3B 9F 11 80 3F C7 A0 80 31 E0 73 FE 21 1F 63 00 6C 00 83 81 90 00 29
 	Verizon Wireless 4G LTE SIM (Telecommunication)
 
+3B 9F 11 81 11 3D 00 06 75 77 81 02 80 00 00 00 00 00 00 00 00 24
+	Key knob used to grant access to "spaces" offices (coworking). (Other)
+
+3B 9F 11 81 11 3D 00 0A 78 80 70 02 20 63 CB B7 80 00 00 00 00 1C
+	French VISA card "Boursorama Premier" with contactless logo. The back has a mention of OT, probably Oberthur. (Bank)
+
 3B 9F 11 81 11 3D 00 13 78 F7 00 00 00 00 00 00 00 00 00 00 00 BF
 	French driver's license (2015) (Other)
 
@@ -8197,11 +8209,20 @@
 	Navigo (Transportation in Paris) (Transport)
 	http://www.navigo.fr/
 
+3B 9F 11 81 11 3D 10 05 BD 25 50 00 00 00 00 00 00 00 00 00 00 FE
+	Key Knob from a chinese electronic kit (described as 'blank s50', probably mifare) (Other)
+
 3B 9F 11 81 11 3D 10 8E 79 BF 94 00 00 00 00 00 00 00 00 00 00 EF
 	Visitor card at "Cartes Secure Connexions" 2015 event (Other)
 
+3B 9F 11 81 11 3D 10 C6 91 B1 65 00 00 00 00 00 00 00 00 00 00 B0
+	Blank card from a chinese electronic kit (described as 'blank s50', probably mifare) (Other)
+
 3B 9F 11 81 11 3D 10 FD 54 6B 7D 00 00 00 00 00 00 00 00 00 00 8C
 	Electronic Identity  (eID)
+
+3B 9F 11 81 11 3D 12 04 2C DB A2 98 3C 81 00 00 00 00 00 00 00 45
+	business card from a chinese manufacturer ("Realmart") commercial. (Other)
 
 3B 9F 11 81 31 FE 9F 00 6A 6D 54 6F 6B 65 6E 2D 46 00 00 81 90 00 79
 	USB Token mToken CryptoID by Longmai (JavaCard)
@@ -9032,6 +9053,10 @@
 	Bell Mobility MULTI SIM (Telecommunication)
 	https://bell.ca
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 81 04 33 36 00 15
+	HoT Austria SIM Card (Telecommunication)
+	https://hot.at/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
 
@@ -9693,6 +9718,10 @@
 3B BE 11 00 00 41 01 38 05 00 07 00 00 00 00 00 02 90 00
 	EEPROM card (Other)
 
+3B BE 11 00 00 41 01 38 17 CE 01 00 00 00 00 00 01 90 00
+	ACOS3 Contact Microprocessor Card (Other)
+	https://www.acs.com.hk/en/products/306/acos3-microprocessor-card-contact/
+
 3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
 	8 pin (eID)
 
@@ -10244,6 +10273,9 @@
 
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
 	NXP Javacard with Athena SCS OS (JavaCard)
+
+3B DC 96 FF 81 B1 FE 43 1F C3 0B 46 41 52 45 47 4F 53 41 4D 56 32 CC
+	Penis (Pay TV)
 
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
 	National ID Card of Peru issued by RENIEC from Oberthur
@@ -12040,6 +12072,9 @@
 
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 44 35 33 07 90 00
+	BRADESCO-CONTA SALARIO (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00
 	VISA card issued by ING-DiBa AG (Germany) (Bank)
