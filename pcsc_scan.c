@@ -95,11 +95,12 @@ do { \
 
 static void usage(const char *pname)
 {
-	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -s | -t secs ]\n\n", pname, pname);
+	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs ]\n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
 	printf("\t\t  -V : print version number\n");
 	printf("\t\t  -n : no ATR analysis\n");
 	printf("\t\t  -r : only lists readers\n");
+	printf("\t\t  -c : only lists cards\n");
 	printf("\t\t  -s : stress mode\n");
 	printf("\t\t  -q : quiet mode\n");
 	printf("\t\t  -v : verbose mode (default)\n");
@@ -126,6 +127,7 @@ typedef struct
 	Boolean print_version;
 	Boolean verbose;
 	Boolean only_list_readers;
+	Boolean only_list_cards;
 	long maxtime; // in seconds
 } options_t;
 
@@ -275,12 +277,13 @@ static void initialize_options(options_t *options, const char *pname)
 	options->maxtime = 0;
 	options->verbose = True;
 	options->only_list_readers = False;
+	options->only_list_cards = False;
 }
 
 #ifdef WIN32
-#define OPTIONS "Vhvrst:q"
+#define OPTIONS "Vhvrcst:q"
 #else
-#define OPTIONS "Vhnvrst:q"
+#define OPTIONS "Vhnvrcst:q"
 #endif
 
 static int parse_options(int argc, char *argv[], options_t *options)
@@ -306,6 +309,10 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 'r':
 				options->only_list_readers = True;
+				break;
+
+			case 'c':
+				options->only_list_cards = True;
 				break;
 
 			case 's':
@@ -632,7 +639,8 @@ get_readers:
 		nbReaders++;
 	}
 
-	print_readers(readers, nbReaders);
+	if (! Options.only_list_cards)
+		print_readers(readers, nbReaders);
 	if (Options.only_list_readers)
 	{
 		exit(EX_OK);
@@ -849,6 +857,9 @@ get_readers:
 				rgReaderStates_t[current_reader].dwCurrentState = SCARD_STATE_UNAWARE;
 			}
 		} /* for */
+
+		if (Options.only_list_cards)
+			break;
 
 		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t,
 			nbReaders);
