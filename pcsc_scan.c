@@ -309,10 +309,13 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 'r':
 				options->only_list_readers = True;
+				options->verbose = False;
 				break;
 
 			case 'c':
 				options->only_list_cards = True;
+				options->verbose = False;
+				options->analyse_atr = False;
 				break;
 
 			case 's':
