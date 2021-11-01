@@ -575,6 +575,12 @@ get_readers:
 
 	if (SCARD_E_NO_READERS_AVAILABLE == rv || 0 == nbReaders)
 	{
+		if (Options.only_list_cards || Options.only_list_readers)
+		{
+			printf("No reader found.\n");
+			return EX_OK;
+		}
+
 		if (Options.verbose)
 		{
 			printf("%sWaiting for the first reader...%s   ", red, color_end);
