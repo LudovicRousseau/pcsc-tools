@@ -2449,6 +2449,9 @@
 	eID Blutronics Blulogon 4K
 	http://shop.blutronics.com/Prodotti.asp
 
+3B 6C 00 00 4E 54 49 43 31 90 56 0A 4A 03 00 00
+	Tsinghua Tongfang Company (Pay TV)
+
 3B 6C 00 00 4E 54 49 43 33 90 51 02 4A 03 00 00
 	Topas TV (Pay TV)
 
@@ -3886,6 +3889,9 @@
 	Korrigo Card (Transport in Rennes Area in France ) (Transport)
 	https://www.star.fr/titres-tarifs/carte-korrigo/
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 00 55 9A 82 90 00
+	Contact card to handle personal travel tickets in the Britany area. Used by several travel operators like SNCF TER Bretagne, STAR in Rennes, BIBUS in Brest,.... (Transport)
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 02 1B 8A 82 90 00
 	KorriGo, smart transport card in France region Brittany (Transport)
 	https://www.ter.sncf.com/bretagne/offres/carte-korrigo
@@ -4303,6 +4309,9 @@
 
 3B 78 12 00 00 65 C4 05 05 8F F1 90 00
 	Turkie Digiturk Cryptoworks
+
+3B 78 12 00 00 65 C4 05 FF 8F F1 90 00
+	CRYPTOWORKS , CAID:0D22  ISSUER:TIVIDI id:04, bios: v5, pin: unknown, mfid:3F6A (Pay TV)
 
 3B 78 12 00 00 A0 C4 03 06 8F F1 90 00
 	ORF Digital (Irdeto/Cryptoworks) (pay tv)
@@ -5736,6 +5745,9 @@
 3B 88 80 01 00 00 00 00 03 81 91 00 1A
 	Italian healthcare card (TS) National Service Card (CNS) NFC Interface (eID)
 
+3B 88 80 01 00 00 00 00 11 71 71 00 18
+	Contactless card to handle personal travel tickets in the Britany area. Used by several travel operators like SNCF TER Bretagne, STAR in Rennes, BIBUS in Brest,.... (Transport)
+
 3B 88 80 01 00 00 00 00 11 81 81 00 18
 	Rav Kav (Transport)
 	https://ravkavonline.co.il/he/
@@ -6309,6 +6321,10 @@
 	T-Mobilitat (Transport)
 	https://t-mobilitat.cat/
 
+3B 8B 80 01 47 48 41 20 4A 32 34 31 20 50 31 58
+	Republic of Ghana eID (eID)
+	https://nia.gov.gh/
+
 3B 8B 80 01 4E 58 50 2D 4E 46 43 20 32 00 00 38
 	TouchandTravel Touchpoint NFC-Card.
 	Train-Station in Berlin. Use a NFC-compliant phone to check in for a ticket.
@@ -6873,6 +6889,9 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00 88
 	ING-VISA-Card (Bank)
 	https://www.ing.de/girokonto/karten-bargeld/
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00 89
+	SpareBank Visa Card, Norway (Bank)
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 34 00 90 00 99
 	G&D Sm@rtCafe Card embedded in a wristband (Bank)
@@ -9267,6 +9286,9 @@
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 63 F1 00 E8 83 00 90 00 5E
 	UICC CARD (Telecommunication)
 
+3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 64 07 68 9A 00 82 90 00 B4
+	Orange SIM Card (Telecommunication)
+
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 64 08 05 03 00 82 90 00 4F
 	NFC-enabled SIM card of MTS Russia. (Telecommunication)
 
@@ -10714,6 +10736,10 @@
 	VISA, issued by Austrian bank "Erste Bank"
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
 
+3B E9 00 00 81 31 C3 45 99 63 74 69 19 99 12 56 10 EC
+	Compunicate Technologies Inc. (Pay TV)
+	http://www.cti.com.cn/en/product.aspx?m=20140731165252850216
+
 3B E9 00 00 81 31 FE 00 FF 50 65 72 73 6F 53 69 6D 54
 	German PersoSim (eID)
 	https://persosim.secunet.com/en/
@@ -11120,6 +11146,10 @@
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 10 14 24 37 10 5C
 	Deutsche Kreditbank AG (Bank)
 	https://www.dkb.de/
+
+3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 11 2D 4F 37 10 0F
+	Bank card (Bank)
+	https://www.commerzbank.de/
 
 3B EF 00 FF 81 31 FE 45 65 63 11 14 71 05 28 00 1F 00 11 3B 32 37 10 64
 	DKB GiroCard (Bank)
@@ -11750,6 +11780,9 @@
 
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 10 0F 90 00
 	Varo (Bank)
+
+3B FB 13 00 FF 10 80 00 31 C1 64 08 98 62 21 0F 90 00
+	Visa Debit (Bank)
 
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
