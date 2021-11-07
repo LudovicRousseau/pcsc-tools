@@ -130,6 +130,18 @@ Licences:
 History:
 ========
 
+1.5.8 - 7 November 2021, Ludovic ROUSSEAU
+    - 360 new ATRs
+    - ATR_analysis:
+     . fix TB2 parsing error
+     . misc spelling fixes
+    - pcsc_scan:
+     . add maxtime option -t
+     . add the option -c to list cards only once
+     . no spinner in quiet mode (-q)
+     . turn off colour if redirected output
+     . Exit if no reader is found and -c or -r is used
+
 1.5.7 - 7 July 2020, Ludovic ROUSSEAU
     - 116 new ATRs
     - ATR_analysis: Update URL of the online parser
