@@ -59,7 +59,6 @@ LIBS="$saved_LIBS"
 CPPFLAGS="$saved_CPPFLAGS"
 
 dnl Checks for header files.
-AC_HEADER_STDC
 AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h sys/time.h)
 
 
