@@ -813,7 +813,7 @@ get_readers:
 
 			if (rgReaderStates_t[current_reader].dwEventState &
 				SCARD_STATE_MUTE)
-				printf("Unresponsive card, ");
+				printf("Unresponsive card (verify if it was inserted in the right direction), ");
 
 			printf("%s\n", color_end);
 
