@@ -2260,6 +2260,10 @@
 	Maestro debit card, issued by Caixa Geral de Depósitos (Bank)
 	https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartao-Debito-Cauxautomatica-Maestro.aspx
 
+3B 6B 00 00 00 31 C0 64 08 48 41 08 0F 90 00
+	Monizze card. Card use to pay only meal. (Other)
+	http://www.monizze.be
+
 3B 6B 00 00 00 31 C0 64 13 14 02 00 0F 90 00
 	UBA Card PREPAID (Bank)
 
@@ -2338,6 +2342,9 @@
 
 3B 6B 00 00 00 31 C1 64 08 60 32 20 0F 90 00
 	Twisto (Bank)
+
+3B 6B 00 00 00 31 C1 64 08 60 32 21 07 90 00
+	DSK Bank Debit Mastercard (Bank)
 
 3B 6B 00 00 00 31 C1 64 08 77 71 30 0F 90 00
 	Apple Card (from launch) (Bank)
@@ -2603,26 +2610,8 @@
 3B 6D 00 00 57 44 29 6C 80 86 93 D6 03 EE 08 2A 3D
 	SCSTA (Transport)
 
-3B 6D 00 00 57 44 36 41 01 86 93 07 30 37 37 36 33
-	Watchdata USB Key (PKI)
-
-3B 6D 00 00 57 44 36 41 01 86 93 07 31 31 32 32 35
-	Watchdata Proxkey (PKI)
-	https://www.watchdata.com/
-
-3B 6D 00 00 57 44 36 41 01 86 93 07 32 31 34 34 31
-	Watchdata USB Key (PKI)
-
-3B 6D 00 00 57 44 36 41 01 86 93 07 32 31 36 34 32
-	Watchdata USB Key (Other)
-
-3B 6D 00 00 57 44 36 41 01 86 93 07 33 32 35 35 30
-	Watchdata Proxkey (PKI)
-	https://www.watchdata.com/
-
-3B 6D 00 00 57 44 36 41 01 86 93 07 39 .. .. .. ..
-	WatchData Proxkey with VID:PID as 0x163C:0x0417 (PKI)
-	http://www.watchdata.com/class.php?id=19
+3B 6D 00 00 57 44 36 41 01 86 93 .. .. .. .. .. ..
+	WatchData Proxkey (PKI)
 
 3B 6D 00 00 80 31 80 65 49 53 01 00 01 83 07 90 00
 	Yandex money world card (Bank)
@@ -3628,9 +3617,17 @@
 	OPUS Card  RTC Quebec's Bus system (Canada) (Transport)
 	https://opusenligne.ca
 
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 04 D0 7F 82 90 00
+	OPUS Card (Transport)
+	https://en.wikipedia.org/wiki/OPUS_card
+
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 11 13 A6 82 90 00
 	OPUS (Montreal and Quebec transport card) (Transport) (Transport)
 	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
+
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 12 90 FD 82 90 00
+	OPUS Montreal Société des Transports de Montréal Metro and Bus card. (Transport)
+	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media
 
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
@@ -5867,6 +5864,9 @@
 	elesec - TCOS 3.0 Signature Card (eID)
 	https://www.telesec.de/de/tcos/support/downloadbereich/category/28-leistungsbeschreibung
 
+3B 88 80 01 30 AB AB 01 77 81 B7 00 79
+	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
+
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
 
@@ -6600,6 +6600,10 @@
 	Navigo Annuel (France) (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/detail/forfait-navigo-annuel
 
+3B 8C 80 01 50 C1 4C FD 23 00 00 00 00 00 71 71 0E
+	Navigo (Transport)
+	https://www.iledefrance-mobilites.fr/
+
 3B 8C 80 01 50 C1 6A 34 72 00 00 00 00 00 71 71 B0
 	Navigo pass (RATP) (Transport)
 	http://www.navigo.fr/
@@ -6770,6 +6774,9 @@
 
 3B 8D 80 01 80 91 E1 31 80 65 B0 83 11 11 AC 83 00 34
 	TOP DM GX4 Cards [TOP DM GX4 on Gemalto Prox]
+
+3B 8D 80 01 80 91 E1 65 02 30 78 01 13 73 D4 41 40 67
+	passport (passport)
 
 3B 8D 80 01 80 91 E1 65 D0 00 5B 01 02 73 D4 41 40 B7
 	Portuguese Passport (passport)
@@ -8433,6 +8440,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 83 02 00 00 BA
 	GSM-SIM Beeline RU (Telecommunication)
 	http://beeline.ru
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 96 A1 00 00 0C
+	Lycamobile UICC/SIM card. (Telecommunication)
+	https://www.lycamobile.com.au
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 AF 01 00 00 95
 	Gotanet SE USIM (Telecommunication)
@@ -10350,7 +10361,7 @@
 	NXP Javacard with Athena SCS OS (JavaCard)
 
 3B DC 96 FF 81 B1 FE 43 1F C3 0B 46 41 52 45 47 4F 53 41 4D 56 32 CC
-	Penis (Pay TV)
+	Multismartcard SAM (used in proprietary Scheidt&Bachmann Smartcard Reader v2)
 
 3B DD 18 00 81 31 FE 45 80 F9 A0 00 00 00 77 01 00 70 0A 90 00 8B
 	National ID Card of Peru issued by RENIEC from Oberthur
@@ -11440,6 +11451,10 @@
 
 3B F8 11 20 03 40 FF FF FF FF FF 12 10 90 00
 	G&D (STARCOS SV 1.1)
+
+3B F8 13 00 00 10 00 00 73 C8 40 11 00 90 00
+	Vivid Money Visa Debit (Bank)
+	https://vivid.money
 
 3B F8 13 00 00 81 31 FE 15 59 75 62 69 6B 65 79 34 D4
 	Yubico Yubikey 4 OTP+CCID
