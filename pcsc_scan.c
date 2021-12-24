@@ -214,7 +214,7 @@ _Atomic SpinState_t spin_state = SpinStopped;
 
 static void spin_start(void)
 {
-	spin_state = Options.verbose ? SpinRunning : SpinStopped;
+	spin_state = Options.verbose ? SpinRunning : SpinDisabled;
 }
 
 static void spin_stop(void)
