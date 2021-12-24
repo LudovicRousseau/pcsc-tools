@@ -26,6 +26,7 @@
 typedef void (*sighandler_t)(int);
 #include <sysexits.h>
 #include <sys/time.h>
+#include <pthread.h>
 
 #ifdef __APPLE__
 #include <PCSC/wintypes.h>
@@ -48,7 +49,7 @@ typedef enum
 	True = TRUE, False = FALSE
 } Boolean;
 
-#define TIMEOUT 1000	/* 1 second timeout */
+#define TIMEOUT 3600*1000	/* 1 hour timeout */
 
 
 /* command used to parse (on screen) the ATR */
@@ -118,6 +119,7 @@ const char *cub3 = "";
 const char *cpl = "";
 
 time_t start_time;
+_Atomic Boolean Interrupted = False;
 
 typedef struct
 {
@@ -132,6 +134,8 @@ typedef struct
 } options_t;
 
 static options_t Options;
+
+SCARDCONTEXT hContext;
 
 static Boolean is_member(const char *  item, const char * list[])
 {
@@ -170,14 +174,14 @@ static void initialize_terminal(void)
 	}
 	else
 	{
-		cub2 = "\033[2D";
-		cub3 = "\033[3D";
+		cub2 = "\033[2D"; /* move back 2 characters */
+		cub3 = "\033[3D"; /* move back 3 characters */
 		cpl = "\033[";
 	}
 }
 /* There should be no \033 beyond this line! */
 
-static Boolean reached_maxtime(void)
+static Boolean should_exit(void)
 {
 	if (Options.maxtime)
 	{
@@ -185,82 +189,99 @@ static Boolean reached_maxtime(void)
 		if (t - start_time > Options.maxtime)
 			return True;
 	}
+
+#ifdef WIN32
+	if (GetKeyState(VK_SHIFT) & 0x80)
+		return True;
+#endif
+
+	if (Interrupted)
+		return True;
+
 	return False;
 }
 
-Boolean spinning_interrupted = False;
-unsigned int spin_state = 0;
+typedef enum
+{
+	SpinDisabled = -2,
+	SpinStopped = -1,
+	SpinRunning = 0
+} SpinState_t;
+
+_Atomic SpinState_t spin_state = SpinStopped;
+
 static void spin_start(void)
 {
-	spin_state = 0;
+	spin_state = Options.verbose ? SpinRunning : SpinStopped;
 }
 
-static void spin_update(void)
+static void spin_stop(void)
+{
+	spin_state = SpinStopped;
+
+	/* clean previous output */
+	printf("%s %s ", cub2, cub2);
+	fflush(stdout);
+}
+
+static void *spin_update(void *p)
 {
 	char patterns[] = {'-', '\\', '|', '/'};
-	char c = patterns[spin_state];
 
-	if (reached_maxtime())
-		spinning_interrupted = 1;
+	/* 100 ms wait */
+	struct timespec wait_time = {.tv_sec = 0, .tv_nsec = 1000*1000*100};
 
-	if (! Options.verbose)
-		return;
+	(void)p;
 
-	spin_state++;
-	if (spin_state >= sizeof patterns)
-		spin_state = 0;
-	printf("%s %c ", cub3, c);
-	fflush(stdout);
-}
-
-static void spin_suspend(void)
-{
-	if (! Options.verbose)
-		return;
-
-	printf("%s %s", cub2, cub2);
-	fflush(stdout);
-	if (spinning_interrupted)
+again:
+	/* wait untill spinning starts */
+	do
 	{
-		printf("\n");
-		exit(EX_OK);
-	}
-}
+		if (should_exit())
+		{
+			if (SpinDisabled == spin_state)
+			{
+				SCardCancel(hContext);
+				pthread_exit(NULL);
+			}
+		}
 
-static sighandler_t old_interrupt_signal_handler;
-#define EX_USER_INTERRUPT (1)
+		nanosleep(&wait_time, NULL);
+	} while (spin_state < 0);
+
+	do
+	{
+		char c = patterns[spin_state];
+
+		if (should_exit())
+		{
+			SCardCancel(hContext);
+			pthread_exit(NULL);
+		}
+
+		spin_state++;
+		if (spin_state >= (int)sizeof patterns)
+			spin_state = SpinRunning;
+		printf("%s %c ", cub3, c);
+		fflush(stdout);
+
+		nanosleep(&wait_time, NULL);
+	} while (spin_state >= SpinRunning);
+
+	goto again;
+
+	return NULL;
+}
 
 static void user_interrupt_signal_handler(int signal)
 {
-	if (spinning_interrupted)
-	{
-		/*
-		 * If the user interrupts twice, before the program exits,
-		 * then we call the old interrupt signal handler,
-		 * or by default we exit.
-		 */
-
-		if (old_interrupt_signal_handler == SIG_IGN)
-		{
-			return;
-		}
-
-		if (old_interrupt_signal_handler == SIG_DFL)
-		{
-			exit(EX_USER_INTERRUPT);
-		}
-
-		old_interrupt_signal_handler(signal);
-	}
-	else
-	{
-		spinning_interrupted = True;
-	}
+	(void)signal;
+	Interrupted = True;
 }
 
 static void initialize_signal_handlers(void)
 {
-	old_interrupt_signal_handler = signal(SIGINT, user_interrupt_signal_handler);
+	signal(SIGINT, user_interrupt_signal_handler);
 }
 
 
@@ -409,6 +430,9 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 			ret_rv = rv;
 			break;
 		}
+
+		if (Interrupted)
+			exit(EX_OSERR);
 	}
 
 	gettimeofday(&time_end, NULL);
@@ -460,7 +484,6 @@ int main(int argc, char *argv[])
 #else
 	LONG rv;
 #endif
-	SCARDCONTEXT hContext;
 	SCARD_READERSTATE *rgReaderStates_t = NULL;
 	SCARD_READERSTATE rgReaderStates[1];
 	DWORD dwReaders = 0, dwReadersOld;
@@ -471,6 +494,7 @@ int main(int argc, char *argv[])
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
 	int pnp = TRUE;
+	pthread_t spin_pthread;
 
 	start_time = time(NULL);
 	initialize_terminal();
@@ -596,14 +620,9 @@ get_readers:
 			do
 			{
 				rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates, 1);
-				spin_update();
-#ifdef WIN32
-				if (GetKeyState(VK_SHIFT) & 0x80)
-					spinning_interrupted = TRUE;
-#endif
 			}
-			while ((SCARD_E_TIMEOUT == rv) && !spinning_interrupted);
-			spin_suspend();
+			while (SCARD_E_TIMEOUT == rv);
+			spin_stop();
 
 			test_rv("SCardGetStatusChange", rv, hContext);
 		}
@@ -611,15 +630,14 @@ get_readers:
 		{
 			rv = SCARD_S_SUCCESS;
 			spin_start();
-			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld) && !spinning_interrupted)
+			while ((SCARD_S_SUCCESS == rv) && (dwReaders == dwReadersOld))
 			{
 				rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 				if (SCARD_E_NO_READERS_AVAILABLE == rv)
 					rv = SCARD_S_SUCCESS;
 				sleep(1);
-				spin_update();
 			}
-			spin_suspend();
+			spin_stop();
 		}
 		if (Options.verbose)
 		{
@@ -681,6 +699,9 @@ get_readers:
 		nbReaders++;
 	}
 
+	/* start spining thread */
+	rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
+
 #ifdef WIN32
 	int oldNbReaders;
 	int oldNbReaders_init = FALSE;
@@ -691,7 +712,10 @@ get_readers:
 	 * We only stop in case of an error
 	 */
 	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
-	while (((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT)) && !spinning_interrupted)
+
+	spin_stop();
+
+	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
 		time_t t;
 
@@ -711,7 +735,6 @@ get_readers:
 					SCARD_STATE_CHANGED)
 #endif
 			{
-				spin_suspend();
 				goto get_readers;
 			}
 		}
@@ -721,14 +744,12 @@ get_readers:
 			if ((SCardListReaders(hContext, NULL, NULL, &dwReaders)
 				== SCARD_S_SUCCESS) && (dwReaders != dwReadersOld))
 			{
-				spin_suspend();
 				goto get_readers;
 			}
 		}
 
 		if (rv != SCARD_E_TIMEOUT)
 		{
-			spin_suspend();
 			/* Timestamp the event as we get notified */
 			t = time(NULL);
 			printf("\n%s", ctime(&t));
@@ -760,8 +781,6 @@ get_readers:
 			 * changed because we did not pass through the continue statement
 			 * above.
 			 */
-
-			spin_suspend();
 
 			/* Specify the current reader's number and name */
 			printf(" Reader %d: %s%s%s\n", current_reader,
@@ -861,7 +880,7 @@ get_readers:
 				do
 				{
 					rv = stress(hContext, rgReaderStates_t[current_reader].szReader);
-				} while (SCARD_S_SUCCESS == rv && ! spinning_interrupted);
+				} while (SCARD_S_SUCCESS == rv);
 
 				rgReaderStates_t[current_reader].dwCurrentState = SCARD_STATE_UNAWARE;
 			}
@@ -870,25 +889,27 @@ get_readers:
 		if (Options.only_list_cards)
 			break;
 
+		spin_start();
+
 		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t,
 			nbReaders);
 
-		spin_update();
-
-#ifdef WIN32
-	if (GetKeyState(VK_SHIFT) & 0x80)
-		spinning_interrupted = TRUE;
-#endif
+		spin_stop();
 	} /* while */
-
-	spin_suspend();
 
 	/* A reader disappeared */
 	if (SCARD_E_UNKNOWN_READER == rv)
 		goto get_readers;
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
-	test_rv("SCardGetStatusChange", rv, hContext);
+	if (rv != SCARD_E_CANCELLED)
+		test_rv("SCardGetStatusChange", rv, hContext);
+	else
+	{
+		printf("%s", cub3);
+		fflush(stdout);
+		pthread_join(spin_pthread, NULL);
+	}
 
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
