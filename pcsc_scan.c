@@ -369,7 +369,7 @@ static int parse_options(int argc, char *argv[], options_t *options)
 	return EX_OK;
 }
 
-static LONG stress(SCARDCONTEXT hContext, const char *readerName)
+static LONG stress(SCARDCONTEXT hContext2, const char *readerName)
 {
 	LONG rv, ret_rv = SCARD_S_SUCCESS;
 	SCARDHANDLE hCard;
@@ -382,7 +382,7 @@ static LONG stress(SCARDCONTEXT hContext, const char *readerName)
 	}
 	else
 		printf("\n");
-	rv = SCardConnect(hContext, readerName, SCARD_SHARE_SHARED,
+	rv = SCardConnect(hContext2, readerName, SCARD_SHARE_SHARED,
 			SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
 	if (rv != SCARD_S_SUCCESS)
 	{
