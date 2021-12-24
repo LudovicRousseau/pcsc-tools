@@ -99,7 +99,9 @@ static void usage(const char *pname)
 	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs ]\n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
 	printf("\t\t  -V : print version number\n");
+#ifndef WIN32
 	printf("\t\t  -n : no ATR analysis\n");
+#endif
 	printf("\t\t  -r : only lists readers\n");
 	printf("\t\t  -c : only lists cards\n");
 	printf("\t\t  -s : stress mode\n");
@@ -301,10 +303,11 @@ static void initialize_options(options_t *options, const char *pname)
 	options->only_list_cards = False;
 }
 
+#define OPTIONS_BASE "Vhvrcst:q"
 #ifdef WIN32
-#define OPTIONS "Vhvrcst:q"
+#define OPTIONS OPTIONS_BASE
 #else
-#define OPTIONS "Vhnvrcst:q"
+#define OPTIONS OPTIONS_BASE "n"
 #endif
 
 static int parse_options(int argc, char *argv[], options_t *options)
