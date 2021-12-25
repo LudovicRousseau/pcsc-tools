@@ -543,6 +543,9 @@ int main(int argc, char *argv[])
 		}
 	}
 
+	/* start spining thread */
+	rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
+
 get_readers:
 	/* free memory possibly allocated in a previous loop */
 	if (NULL != readers)
@@ -701,9 +704,6 @@ get_readers:
 		rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
 		nbReaders++;
 	}
-
-	/* start spining thread */
-	rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
 
 #ifdef WIN32
 	int oldNbReaders;
