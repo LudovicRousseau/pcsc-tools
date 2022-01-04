@@ -3229,6 +3229,10 @@
 	Visa credit card, issued by Klarna (Bank) (Bank)
 	https://www.klarna.com/se/kort/
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 49 30 36 00 90 00
+	neat MasterCard  (Bank)
+	https://www.neatcommerce.com/
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 49 31 31 00 90 00
 	Banca Popolare Di Sondrio (IT) - Ateneo+ Card for University of Brescia (Bank)
 	https://www.ateneopiu.it/home
@@ -3597,6 +3601,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 2B 93 49 A8 3F 82 90 00
 	Montreal OPUS Transportation Card for the STM, STL, RTM and RTL (Transport)
 	http://www.stm.info/en/info/fares/opus-cards-and-other-fare-media
+
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 D9 5A 43 82 90 00
+	Transport card for the Quebec Province in Canada, namely the ARTM Transport Agency and others… (Transport)
+	https://opusenligne.ca/
 
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C1 E2 F6 C6 82 90 00
 	STM Opus Card - Montreal Transit Pay Card (Other)
@@ -4020,6 +4028,10 @@
 	Lisboa Viva, Lisbon public transport card (Transport)
 	https://www.portalviva.pt/
 
+3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 32 4D 6F 82 90 00
+	Lisboa Viva card, public transport card of Lisbon (Portugal) (Transport)
+	https://www.portalviva.pt
+
 3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 35 ED CE 82 90 00
 	Lisbon Transportation SmartCard (Transport)
 
@@ -4053,6 +4065,9 @@
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 A4 6D 02 82 90 00
 	Navigo découverte Paris (Transport)
 	http://www.navigo.fr/titres/le-forfait-navigo-semaine-presentation/
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 B3 C8 1B 82 90 00
+	Transport card for Paris (France) and its region. Market name is Navigo (Transport)
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 29 54 D4 82 90 00
 	Public transportation card (navigo) for Paris and Ile-de-France région, France (Transport)
@@ -6616,6 +6631,10 @@
 	Navigo Easy (France) transport card (Transport)
 	https://www.ratp.fr/titres-et-tarifs/passe-navigo-easy
 
+3B 8C 80 01 50 C2 B9 36 86 00 00 00 00 00 71 71 96
+	Passe Navigo (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-decouverte
+
 3B 8C 80 01 50 C7 25 1C 5A 00 00 00 11 F7 81 81 1F
 	MOBIB Belgian public transport Card (Transport)
 	https://mobib.be/fr.html
@@ -6742,6 +6761,10 @@
 
 3B 8D 80 01 00 73 C8 00 13 64 54 37 47 31 00 90 00 45
 	Tangerine ATM/ABM Card
+
+3B 8D 80 01 00 85 14 10 10 85 01 11 20 02 75 90 00 CF
+	Sahl Payment Card (Other)
+	https://www.english.sahlpay.app/
 
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
@@ -7769,6 +7792,9 @@
 3B 9D 95 80 3F C7 A0 80 31 A0 73 BE 21 13 51 05 83 05 90 00 7C
 	NTT docomo Xi(LTE) DN05(DNP) Pink SIM (Telecommunication)
 
+3B 9D 96 00 53 49 23 03 03 00 20 00 04 00 F5 90 00
+	shell (Transport)
+
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
 
@@ -8556,8 +8582,14 @@
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 17 13 C4 1D 2D 36 49
 	Idemia card (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 17 94 AA 28 99 3F 28
+	Glaier Programable LTE USIM Card  (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 32 11 B2 52 C6 79 F3
 	open5gs (Telecommunication)
+
+3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 32 15 A9 8F D7 09 50
+	LTE Card (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 00 53 04 D0 80 83 05 90 00 BE
 	NTT_DoCoMo (Telecommunication)
@@ -12152,6 +12184,10 @@
 3B FF 11 00 FF 81 31 FE 95 80 F9 D2 76 00 00 25 54 44 01 00 83 00 00 00 A0
 	GiroCard Haspa Hamburger Sparkasse (Bank)
 	https://www.haspa.de/privatkunden/ihr-online-banking/unser-angebot/haspa-digital-services-96198/
+
+3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
+	BVG Guthabenkarte (Prepaid Payment Card for Berlin/Brandenburg Public Transport) (Transport)
+	https://www.bvg.de/de/service-und-kontakt/guthabenkarte
 
 3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 04 EC C1 73 94 01 80 82 90 00 52
 	AKD kID (eID)
