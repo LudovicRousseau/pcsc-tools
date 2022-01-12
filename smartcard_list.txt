@@ -4495,7 +4495,7 @@
 3B 7A 96 00 00 80 65 A2 01 20 01 3D 72 D6 41
 	Oman eID (eID)
 
-3B 7A 97 00 00 80 65 B0 85 20 04 02 72 D6 41
+3B 7A 97 00 00 80 65 B0 85 20 04 02 72 D6 4.
 	OMAN EID CARD (eID)
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
@@ -6062,6 +6062,9 @@
 	Found a reference pointing to NXP
 	http://www.usingrfid.com/news/read.asp?lc=l17607hx1500zk
 
+3B 89 80 01 45 50 43 4F 53 56 35 2E 39 36
+	EPCOSV5.9 (eID)
+
 3B 89 80 01 4A 43 4F 50 32 34 32 52 32 4A
 	NXP JCOP J3D
 
@@ -6916,6 +6919,10 @@
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
 
+3B 8F 80 01 00 31 C1 73 C8 00 10 64 57 49 49 43 00 90 00 B5
+	ICC Solutions Card for Certification (Other)
+	https://www.iccsolutions.com/
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00 88
 	ING-VISA-Card (Bank)
 	https://www.ing.de/girokonto/karten-bargeld/
@@ -7516,6 +7523,9 @@
 	au IC-card ver.001 (for CDMA2000) (Telecommunication)
 	https://ja.wikipedia.org/wiki/Au_IC%E3%82%AB%E3%83%BC%E3%83%89
 
+3B 97 11 00 02 02 04 22 00 3F 03
+	China Unicom (Telecommunication)
+
 3B 97 11 80 1F 41 80 31 A0 73 BE 21 00 A6
 	Comprion UT3 simulator SIM (Other)
 
@@ -7693,6 +7703,9 @@
 
 3B 9B 97 C0 0A 31 FE 45 80 67 05 67 B6 04 01 00 00 81 05 FE
 	Company Card for Tachograph Data (Transport)
+
+3B 9C 11 00 68 86 8D 0C 86 98 02 56 40 8B 05 00
+	China Mobile (Telecommunication)
 
 3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 00 04 08
 	XPlusTV & INXCT Access Card-9 (FIRECrypt)
@@ -9319,6 +9332,10 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 33 05 81 05 30 00 CE
 	COMPRION M2M eUICC (Telecommunication)
 
+3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 60 01 00 69
+	eSIM GSMA Card (Telecommunication)
+	https://www.gsma.com/newsroom/wp-content/uploads/SGP.22_v2.2.pdf
+
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 56 57 4A 4D 02 0B 34 44 00 5B
 	Norwegian telenor (Telecommunication)
 	http://www.telenor.no
@@ -9771,6 +9788,9 @@
 	GSM SIM (Tele2, Estonia)
 	GSM SIM Elisa Estonia; 2007
 	GSM SIM from 'fonic' Germany
+
+3B BC 94 00 40 14 47 47 33 53 34 43 45 43 32 30 30 30
+	Era-PL SIM Card (Telecommunication)
 
 3B BD 18 00 81 31 FE 45 80 51 02 67 04 14 B1 01 01 02 00 81 05 3D
 	Austrian "e-Card" (=Health Card)
@@ -11216,11 +11236,17 @@
 	EC Card Sparkasse Mittelfranken Sued (Bank)
 	https://www.spkmfrs.de
 
+3B EF 00 FF 81 31 FE 45 65 63 11 15 62 02 50 00 10 0A 00 2E FC 07 20 C6
+	maestro BankCard (Bank)
+
 3B EF 00 FF 81 31 FE 45 65 63 11 15 62 02 50 00 10 0A 09 AC 03 07 20 B2
 	Girocard Sparkasse Darmstadt (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
+
+3B EF 00 FF 81 31 FE 45 65 63 1D 02 84 02 50 00 23 05 09 A0 D9 01 01 82
+	Debit card (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 1D 02 84 02 50 00 23 18 09 20 E7 01 01 21
 	Deutsche Kreditbank AG (DKB AG) bank card (Bank)
@@ -12188,6 +12214,10 @@
 3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
 	BVG Guthabenkarte (Prepaid Payment Card for Berlin/Brandenburg Public Transport) (Transport)
 	https://www.bvg.de/de/service-und-kontakt/guthabenkarte
+
+3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 1D 00 00 00 00 00 00 00
+	albo (Bank)
+	https://www.albo.mx/
 
 3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 04 EC C1 73 94 01 80 82 90 00 52
 	AKD kID (eID)
