@@ -1990,7 +1990,7 @@
 	Schlumberger MicroPayflex S card
 
 3B 69 00 00 49 44 35 30 56 31 2E .. ..
-	eID Card to user autheticate and save paswords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
+	eID Card to user authenticate and save paswords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
 	https://identos.com/id50-password-manager/
 
 3B 69 00 00 49 44 36 30 56 31 2E .. ..
@@ -3427,7 +3427,7 @@
 	https://www.bankain.si/BIN/vstopna.seam
 
 3B 6F 00 00 80 31 E0 6B 04 52 05 02 BB 55 55 55 55 55 55
-	AlfaBROU - Mastercard (prepaid card emited by Banco Republica - Uruguay) (Bank)
+	AlfaBROU - Mastercard (prepaid card emitted by Banco Republica - Uruguay) (Bank)
 	https://www.brou.com.uy/personas/tarjetas/prepaga-alfabrou
 
 3B 6F 00 00 80 31 E0 6B 04 52 05 02 FD 55 55 55 55 55 55
@@ -3823,7 +3823,7 @@
 	Navigo (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 64 E7 35 82 90 00
-	Navigo pass, Paris (France) trasport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
+	Navigo pass, Paris (France) transport network (https://en.wikipedia.org/wiki/Navigo_pass) (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 65 62 F7 82 90 00
 	French NAVIGO Card (simple Navigo model, not annual or Imagin'R) (Transport)
@@ -7227,7 +7227,7 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 6B
 	buss/train pass for use with Skånetrafiken (www.skanetrafiken.se) busses and trains.
-	public libary of Düsseldorf
+	public library of Düsseldorf
 	http://www.duesseldorf.de/stadtbuechereien/
 	specialized Mifare Ultralight card
 
@@ -10548,7 +10548,7 @@
 	http://www.smartcardfocus.com/shop/ilp/id~265/p/index.shtml
 
 3B DF 18 FF 81 91 FE 1F C3 00 31 38 64 47 90 EC C2 73 14 01 50 82 90 00 BA
-	Card store authentification and signature keys (JavaCard)
+	Card store authentication and signature keys (JavaCard)
 	https://ants.gouv.fr/Les-titres/Cartes-Agents/Adhesion/Telechargement-et-support
 
 3B DF 18 FF 81 91 FE 1F C3 00 31 B8 64 00 00 EC 00 73 94 00 00 82 90 00 FE
@@ -10964,7 +10964,7 @@
 	Optelio D72 FXR1 (MD) T=1
 
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
-	IBM JCOP "Java Card 2.1.1" et "Open Plaform 2.0.1"
+	IBM JCOP "Java Card 2.1.1" et "Open Platform 2.0.1"
 
 3B EE 00 00 81 31 FE 45 80 31 80 66 40 90 93 06 0F 17 83 01 90 00 FD
 	Health insurance (HealthCare)
@@ -12343,7 +12343,7 @@
 	https://tscns.regione.sardegna.it/
 
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 11 01 43 4E 53 11 31 80 7B
-	Italian National Fire Corps  -special indentification card (eID)
+	Italian National Fire Corps  -special identification card (eID)
 
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 21 01 43 4E 53 10 31 80 4A
 	Oberthur ID-One Cosmo V7-n it's a java card 2.2.2
