@@ -3901,6 +3901,10 @@
 	KorriGo, smart transport card in France region Brittany (Transport)
 	https://www.ter.sncf.com/bretagne/offres/carte-korrigo
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 03 FB 01 82 90 00
+	origo (France)  (Transport)
+	https://www.breizhgo.bzh/se-deplacer-en-bretagne/KorriGo
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -4971,6 +4975,9 @@
 3B 7F 13 00 00 80 31 C0 52 15 54 64 05 66 98 36 83 83 90 00
 	VISA Card from Banc Sabadell in Spain
 
+3B 7F 13 00 00 80 31 C0 52 15 63 64 02 00 64 71 83 83 90 00
+	VISA CREDIT (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 15 B8 64 02 00 64 71 83 83 90 00
 	Debit classic card banorte "banco mercantilmdel norte" (Bank)
 	https://www.banorte.com/
@@ -5594,6 +5601,10 @@
 3B 86 80 01 39 30 43 30 32 31 7E
 	Chase Freedom VISA card
 
+3B 86 80 01 43 68 69 70 31 37 33
+	PostFinance Switzerland (Bank)
+	http://www.postfinance.ch
+
 3B 86 80 01 44 49 20 30 32 4D 65
 	Lufthansa Miles & More Gold MasterCard PayPass
 	Raiffeizen Bank, Russia, MasterCard paypass card
@@ -5728,6 +5739,10 @@
 3B 88 01 4B 41 5A 54 4F 4B 45 4E 82
 	Kaztoken (eID)
 	http://kaztoken.kz/
+
+3B 88 01 80 56 53 6F 6C 6F 20 32 72
+	SoloKeys Solo 2 Security Key (PKI)
+	https://github.com/solokeys/solo2
 
 3B 88 80 01 00 00 00 00 00 00 00 00 09
 	Personalausweis (German Identity Card) (eID)
@@ -6113,6 +6128,11 @@
 3B 89 80 01 53 50 4B 32 35 44 49 90 00 DA
 	SPK 2.5 D1
 
+3B 89 80 01 53 77 69 73 73 50 61 73 73 74
+	SwissPass - key to mobility and leisure in Switzerland (Transport)
+	https://www.swisspass.ch
+	https://www.allianceswisspass.ch/de/informationen-ov-nutzende/SwissPass
+
 3B 89 80 01 66 49 46 58 42 53 32 47 6F 32
 	Blockchain Security 2Go (JavaCard)
 	https://github.com/Infineon/Blockchain
@@ -6138,6 +6158,10 @@
 	PayPal Access Business MasterCard (contactless) (Bank)
 	Coinbase Card, Visa Debit (Paysafe / TCT FCU) (Bank)
 	https://coinbase.com/card
+
+3B 89 80 01 80 64 16 04 01 86 82 90 00 6B
+	LUKB (Bank)
+	https://www.lukb.ch
 
 3B 89 80 01 80 64 16 04 02 82 82 90 00 6C
 	Maestro card (from Mastercard) used by BCGE (switzerland) bank (Bank)
@@ -6303,6 +6327,10 @@
 3B 8B 80 01 00 31 C1 64 08 60 32 12 00 90 00 46
 	AMEX Silver Credit (Bank)
 
+3B 8B 80 01 00 31 C1 64 08 60 32 1F 00 90 00 4B
+	Hanseatic Bank Visa Card (Bank)
+	https://www.hanseaticbank.de/kreditkarte/genialcard
+
 3B 8B 80 01 00 31 C1 64 08 60 32 20 00 90 00 74
 	IDEMIA (Other)
 
@@ -6312,6 +6340,10 @@
 
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
 	SmartMX (Other)
+
+3B 8B 80 01 00 31 C1 64 09 24 33 1E 00 90 00 0E
+	Cumulus Mastercard (Bank)
+	https://www.migros.ch/cumulus/mastercard
 
 3B 8B 80 01 00 31 C1 64 09 37 72 13 00 90 00 51
 	French ID Card 2021 (contactless interface) (eID)
@@ -6956,6 +6988,10 @@
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 FF FF FF BD
 	DKB Visa Credit Card (Bank)
 	https://www.dkb.de
+
+3B 8F 80 01 43 43 31 69 A9 20 00 00 20 20 20 20 20 20 20 FF
+	Reka (Bank)
+	https://reka.ch
 
 3B 8F 80 01 43 44 32 69 AB 41 20 20 20 20 20 20 FF FF FF 47
 	BKB VISA Card Switzerland (Bank)
@@ -8768,6 +8804,9 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 39 00 00 1F
 	Feitian ePass2003 (PKI)
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 06 31 71 DF 00 00 00 00 00 24
+	FT ePass2003Auto USB Token (PKI)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
