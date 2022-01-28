@@ -291,7 +291,7 @@ static void initialize_signal_handlers(void)
 static void initialize_options(options_t *options, const char *pname)
 {
 	options->pname = pname;
-#ifdef WIN32
+#if defined(WIN32) || defined(__APPLE__)
 	options->analyse_atr = False;
 #else
 	options->analyse_atr = True;
