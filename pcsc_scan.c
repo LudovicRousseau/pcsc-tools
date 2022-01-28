@@ -642,6 +642,12 @@ get_readers:
 				if (SCARD_E_NO_READERS_AVAILABLE == rv)
 					rv = SCARD_S_SUCCESS;
 				sleep(1);
+
+				if (should_exit())
+				{
+					printf("\n");
+					exit(EX_OK);
+				}
 			}
 			spin_stop();
 		}
