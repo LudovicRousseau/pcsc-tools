@@ -1269,6 +1269,9 @@
 3B 5F 96 00 80 5A 2C 11 00 10 10 00 FF FF FF FF 82 90 00
 	Calypso (Transport)
 
+3B 60 00 00
+	Meano (Bank)
+
 3B 61 00 00 80
 	blank A40CR card (JavaCard)
 
@@ -3954,6 +3957,9 @@
 3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 23 46 E2 82 90 00
 	Lisboa Viva (Transport)
 
+3B 6F 00 00 80 5A 2C 06 08 10 10 05 93 23 7A 11 82 90 00
+	Portuguese Lisboa Viva Viagem Transport Card (Transport)
+
 3B 6F 00 00 80 5A 2C 11 C3 10 10 05 7B 01 00 4B 82 90 00
 	French Military Circulation card (Transport)
 
@@ -5537,6 +5543,10 @@
 	VISA Caisse d'Epargne  (Bank)
 	VISA BNP Paribas (NFC) (Bank)
 
+3B 85 80 01 20 63 CB B7 00 3B
+	Visa card issued by OTP Bank (Hungary) (Bank)
+	https://www.otpbank.hu/portal/en/Retail/Bankcards
+
 3B 85 80 01 20 63 CB B7 20 1B
 	Halifax Clarity Mastercard (Bank)
 
@@ -5703,6 +5713,10 @@
 
 3B 87 80 01 80 31 B8 73 84 01 E0 19
 	Personalausweis (German Identity Card) (eID)
+
+3B 87 80 01 80 31 B8 73 86 01 E0 1B
+	Personalausweis (German Identity Card) (eID)
+	https://www.personalausweisportal.de/
 
 3B 87 80 01 80 31 B9 73 84 21 60 B8
 	Hungarian eID (2016) (eID)
@@ -6552,6 +6566,10 @@
 
 3B 8C 80 01 50 54 67 13 79 00 00 00 00 F7 81 C1 B3
 	Tessera Sanitaria italian health care card (HealthCare)
+
+3B 8C 80 01 50 5C 4B 71 A1 52 74 53 43 77 81 83 D9
+	RUTOKEN ECP 3.0 (PKI)
+	https://www.rutoken.ru/products/catalogue/id_114.html
 
 3B 8C 80 01 50 5C F5 A9 45 30 AA AA 01 77 81 D7 08
 	Indonesia ektp (eID)
@@ -10724,6 +10742,9 @@
 3B E5 00 FF 81 31 FE 45 80 73 C6 01 08 2D
 	MUFG (.jp) (Bank)
 
+3B E6 00 00 80 31 80 66 B1 A3 04 01 11 0B 83
+	Java Jcop J2A040 (JavaCard)
+
 3B E6 00 00 80 31 80 66 B1 A3 04 01 11 0B 83 00 90 00
 	VISA Credit Card (Bank)
 
@@ -11514,6 +11535,10 @@
 
 3B F7 13 00 00 81 31 FE 45 4A 43 4F 50 32 34 .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
+
+3B F7 13 00 00 81 31 FE 45 80 65 4A 50 30 31 04 15
+	Nichizeiren Denshi-shomei (eID)
+	https://www.nichizeiren.or.jp/taxaccount/auth/fifth/
 
 3B F7 18 00 00 80 31 FE 45 73 66 74 65 2D 6E 66 C4
 	SmartCafe Expert 3.2 72K
@@ -13223,6 +13248,10 @@
 
 3F FD 11 25 02 50 80 0F 41 B0 0D 69 FF 4A 50 F0 80 00 56 54 03
 	Viasat (Pay TV)
+
+3F FD 11 25 02 50 80 0F 41 B0 0F 69 FF 4A 50 F0 80 00 5A 4A 03
+	Telekom Romania Communications (DVB-C) (Pay TV)
+	https://www.telekom.ro/
 
 3F FD 13 25 02 50 00 0F 33 B0 0F 69 FF 4A 50 D0 00 00 53 59 02
 	Sky Digital (DSS satellite TV card) 2009 issue
