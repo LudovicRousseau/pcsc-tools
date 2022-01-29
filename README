@@ -130,6 +130,13 @@ Licences:
 History:
 ========
 
+1.6.0 - 29 January 2022, Ludovic ROUSSEAU
+    - 48 new ATRs
+    - pcsc_scan:
+     . drastically reduce the number of SCardGetStatusChange() calls
+     . faster spinning animation
+     . handle Ctrl-C on macOS
+
 1.5.8 - 7 November 2021, Ludovic ROUSSEAU
     - 360 new ATRs
     - ATR_analysis:
