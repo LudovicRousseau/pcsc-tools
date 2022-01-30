@@ -5720,7 +5720,7 @@
 
 3B 87 80 01 80 31 B9 73 84 21 60 B8
 	Hungarian eID (2016) (eID)
-	http://kekkh.gov.hu/Eszemelyi/
+	https://eszemelyi.hu/en/
 
 3B 87 80 01 80 31 C0 73 D6 20 C0 32
 	RFID GeldKarte (girogo)
