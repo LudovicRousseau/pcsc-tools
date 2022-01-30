@@ -6311,6 +6311,8 @@
 
 3B 8B 80 01 00 31 C0 64 08 44 03 76 00 90 00 36
 	American Express Blue Card (Germany) (Bank)
+	Mastercard issued by OTP Bank (Hungary) (Bank)
+	https://www.otpbank.hu/portal/en/Retail/Bankcards
 
 3B 8B 80 01 00 31 C0 64 08 44 03 93 00 90 00 D3
 	Novacard pp0815-04/20 chip (Bank)
