@@ -12280,6 +12280,8 @@
 3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
 	BVG Guthabenkarte (Prepaid Payment Card for Berlin/Brandenburg Public Transport) (Transport)
 	https://www.bvg.de/de/service-und-kontakt/guthabenkarte
+	Revolut Visa Glow-in-the-dark
+	https://revolut.com/
 
 3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 1D 00 00 00 00 00 00 00
 	albo (Bank)
