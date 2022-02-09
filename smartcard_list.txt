@@ -1476,6 +1476,10 @@
 3B 65 00 00 20 63 CB BD 00
 	Crédit Mutuel Arkea (Bank)
 
+3B 65 00 00 20 63 CB BD 80
+	CARD ONEY BANQUE VISA CREDIT (Bank)
+	https://www.oney.fr/
+
 3B 65 00 00 20 63 CB C0 00
 	Nickel Credit Card (Bank)
 	https://nickel.eu
@@ -6929,6 +6933,9 @@
 	BPP Digital pre-paid VISA card (Bank)
 	https://bpp.com.br/
 
+3B 8E 80 01 80 31 80 66 B1 C5 24 01 00 ED 83 00 90 00 F7
+	Mastercard (Bank)
+
 3B 8E 80 01 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 18
 	Smartcard-HSM (Contactless Interface) (PKI)
 	http://www.cardcontact.de/products/sc-hsm.html
@@ -6979,6 +6986,10 @@
 	ING-VISA-Card (Bank)
 	https://www.ing.de/girokonto/karten-bargeld/
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00 F9
+	Ukrainian International resere bank (ex Sberbak RF) debit card (Bank)
+	https://www.sbrf.com.ua/
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00 89
 	SpareBank Visa Card, Norway (Bank)
 
@@ -7000,6 +7011,9 @@
 3B 8F 80 01 00 B8 54 31 00 00 90 00 00 00 00 00 FF FF FF BC
 	VISA Debit issued by WIREX. card made by CONTIS / TAG SYSTEMS (Bank)
 	https://wirexapp.com/
+
+3B 8F 80 01 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00 D1
+	Revolut Mastercard (Bank)
 
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 5B
 	DKB-VISA-Card (Bank)
@@ -8853,6 +8867,9 @@
 	Feitian ePass2003Auto (PKI)
 	https://www.ftsafe.com/Products/PKI/Standard/Specification
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 06 00 00 67
+	Epass2003 (PKI)
+
 3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
 	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
 
@@ -8912,6 +8929,10 @@
 3B 9F 96 80 1F C3 80 31 E0 73 FA 21 00 63 31 60 23 83 10 90 00 BE
 	TAISYS SIMoME JAR (JavaCard)
 	http://www.taisys.com/p-detail?id=39beTne-hf4u2Y5DnWghweplyFR-dUUf1-xpy55cWQ
+
+3B 9F 96 80 1F C3 80 31 E0 73 FE 21 00 67 11 01 67 40 06 00 77 89
+	Beni's UICC 4G LTE  (Telecommunication)
+	https://cslgroup.co.id/
 
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
@@ -9120,6 +9141,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 06 02 01 02 7D
 	Morpho USIM (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 08 02 01 02 73
+	Bouygues Telecom SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 93 30 01 11 02 01 02 6A
 	R&S CMW-Z04 Mini-UICC Test Card (Telecommunication)
@@ -9515,6 +9539,9 @@
 
 3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 08 01 12 04 01 04 5B
 	Tmobile Sim card  (Telecommunication)
+
+3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 14 01 02 02 01 02 57
+	Orange SIM from Egypt (Telecommunication)
 
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 08 56 21 00 82 90 00 19
 	eSIM card (Telecommunication)
@@ -10185,6 +10212,9 @@
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 41 1A 2B
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
+
+3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F DF
+	US DoD Common Access Card (IDEMIA Cosmo v8) (PKI)
 
 3B D8 18 00 80 B1 FE 45 1F 07 80 31 C1 64 08 06 92 0F D5
 	Oberthur Cosmo v8 (PKI)
@@ -11615,6 +11645,10 @@
 3B F8 13 00 00 81 31 FE 45 FF 4A 32 41 30 34 30 00 12
 	MIDAS Card Diversification Key JavaCard (J2A040) (Bank)
 	https://github.com/kategray/midas
+
+3B F8 13 00 FF 10 80 53 43 06 63 01 0F 90 00 00
+	Affinity CUIA Debit (JavaCard)
+	https://www.affinitycuia.org
 
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
