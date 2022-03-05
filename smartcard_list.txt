@@ -2365,6 +2365,10 @@
 	Sodexo Czech Gastro/Multipass (Other)
 	https://www.sodexo.cz/
 
+3B 6B 00 00 00 31 C1 64 09 64 41 36 0F 90 00
+	VISA Business Folio AS /Norway (Sparebanken Vest) [IDEMIA] (Bank)
+	https://folio.no/
+
 3B 6B 00 00 20 90 00 00 00 00 00 B0 A2 BD 69
 	Fudan FM1280 (JavaCard)
 
@@ -4376,6 +4380,9 @@
 3B 78 18 00 00 00 73 C8 40 00 00 00 00 90 00
 	VERISOFT REWARDO LOYALTY CARD and CUSTOM PERSONALIZATION PROJECTS FOR EXTERNAL ENTITIES (Loyalty)
 	http://www.verisoft.com
+
+3B 78 18 00 00 00 73 C8 40 13 00 90 00
+	Mastercard (Bank)
 
 3B 78 18 00 00 54 48 20 4E 49 44 20 3.
 	Thailand National ID (eID)
@@ -6460,6 +6467,9 @@
 3B 8C 80 01 50 01 BA 13 7E 00 00 00 00 B3 71 71 38
 	Mobib (Brussels public transportation card)
 
+3B 8C 80 01 50 01 C6 2E 39 00 00 00 00 80 81 71 FD
+	edenred (Loyalty)
+
 3B 8C 80 01 50 03 A1 29 CF 00 00 00 00 11 81 81 08
 	rav-kav, Israel transport card (Transport)
 	http://www.egged.co.il/Article-786-Rav-Kav-Card.aspx
@@ -6693,6 +6703,10 @@
 3B 8C 80 01 50 C2 B9 36 86 00 00 00 00 00 71 71 96
 	Passe Navigo (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-decouverte
+
+3B 8C 80 01 50 C3 26 AF 0C 00 00 00 00 00 71 71 1B
+	Navigo Mobility Paris transport's Card (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/liste?d=forfaits
 
 3B 8C 80 01 50 C7 25 1C 5A 00 00 00 11 F7 81 81 1F
 	MOBIB Belgian public transport Card (Transport)
@@ -8779,6 +8793,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 40 61 41 00 82 90 00 A2
 	SIM card (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 40 67 62 00 82 90 00 87
+	ATT SIM card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 41 12 01 00 82 90 00 90
 	MTS SIM card (Russia) (Telecommunication)
 	http://www.mts.ru/
@@ -8866,6 +8883,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 34 00 25 71 DF 00 00 03 6A 82 F9
 	Feitian ePass2003Auto (PKI)
 	https://www.ftsafe.com/Products/PKI/Standard/Specification
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 00 00 00 61
+	FT ePass2003Auto 00 00 (PKI)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 06 00 00 67
 	Epass2003 (PKI)
@@ -9371,6 +9391,13 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 0A 03 01 81 05 70
 	SMART Prepaid SIM (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 0A 03 04 81 05 75
+	Smart Telecom (PH) (Telecommunication)
+	https://smart.com.ph/Prepaid/sim-and-phones/lte-prepaid-sim
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 0D 01 00 81 05 74
+	vodacom_sim (Pay TV)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 56 54 4C 01 74 81 05 6D
 	Viettel LTE SIM (Telecommunication)
 
@@ -9418,6 +9445,10 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 60 01 00 69
 	eSIM GSMA Card (Telecommunication)
 	https://www.gsma.com/newsroom/wp-content/uploads/SGP.22_v2.2.pdf
+
+3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 50 00 19
+	st33g1m2 (Telecommunication)
+	https://www.st.com/en/secure-mcus/st33g1m2.html
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 56 57 4A 4D 02 0B 34 44 00 5B
 	Norwegian telenor (Telecommunication)
@@ -12191,6 +12222,9 @@
 3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 4C 31 32 38 43 52 57
 	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
 	http://www.usmartcards.co.uk/cards/universal-jcard-contact-with-infineon-sle78-white-gloss-pvc-card.html
+
+3B FE 13 00 00 10 80 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
+	Sberbank of Russia MIR debit card (Bank)
 
 3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
 	LOT test card (JavaCard)
