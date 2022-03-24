@@ -182,6 +182,9 @@
 3B 04 7F 01 00 00
 	Russian memory card for payphones. Manufacturer: "Exiton" (Other)
 
+3B 04 82 23 10 91
+	VISA DEBIT (Bank)
+
 3B 04 92 23 10 91
 	Siemens SLE 4432/42 card
 
@@ -1286,6 +1289,9 @@
 
 3B 64 00 FF 80 62 02 A2
 	VISA credit card (Nordea bank)
+
+3B 65 00 00 20 63 CB 30 20
+	CB / VISA La Banque Postale (IDEMIA) (Bank)
 
 3B 65 00 00 20 63 CB 47 00
 	Orga SmartyPlus DATA STORE issued by MORPHO CARDS PERU
@@ -4400,6 +4406,9 @@
 	Bank of America Travel Rewards Credit Card (Bank)
 	https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/
 
+3B 78 96 00 00 53 43 06 62 01 07 90 00
+	ATM Card (Bank)
+
 3B 78 96 00 00 81 00 03 50 01 07 90 00
 	RMA BMCE BANK CARD (Bank)
 
@@ -6251,6 +6260,9 @@
 	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NXP JCOP 41 v2.2.1 72k RFID I/F
 
+3B 8A 80 01 53 45 20 44 45 53 46 69 72 65 57
+	NXP-Mifare DESFire EV1 2k (used as a company ID card) (eID)
+
 3B 8A 80 01 53 4F 53 53 45 02 03 25 01 03 74
 	Super SIM X-SIM 16-in-1 (Telecommunication)
 	https://multi-com.eu/,details,id_pr,14881,key,super-sim-16-in-1-card,smenu,gsm.html
@@ -6502,6 +6514,10 @@
 
 3B 8C 80 01 50 18 61 88 CE E1 F3 5E 11 77 81 C7 0E
 	French passport (2007-2008)
+
+3B 8C 80 01 50 19 1B 6C C2 00 00 00 00 00 81 77 07
+	Rabobank bankcard (dutch) (Bank)
+	https://www.rabobank.nl/particulieren/betalen/betaalpas
 
 3B 8C 80 01 50 19 E3 BB 3D 00 00 00 00 00 81 77 D7
 	ING/Maestro bank card (Bank)
@@ -7831,6 +7847,10 @@
 3B 9C 95 80 81 1F 03 90 67 46 4A 01 01 17 06 F2 72 7E 00 00
 	A40CR (JavaCard)
 
+3B 9C 95 81 31 FE 9F 90 67 46 4A 01 02 53 05 01 72 FE 00 FB
+	Feitian Biopass K27 (PKI)
+	https://www.ftsafe.com/Products/FIDO/Bio
+
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
 	Aktiv Rutoken ECP SC T0
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
@@ -7853,6 +7873,10 @@
 3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 05 41
 	MTCOS  (eID)
 	http://www.masktech.com/Products/MTCOS-Professional/11/en
+
+3B 9D 18 81 31 FC 35 80 31 C0 69 4D 54 43 4F 53 73 02 05 05 D3
+	Lithuanian e-ID Card (eID)
+	https://www.nsc.vrm.lt/default_en.htm
 
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec smartcard running Miocos 2.0 on an Atmel AT90SC646
@@ -8942,6 +8966,9 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
 	Test Card (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
+	Softbank (C2) USIM card (Telecommunication)
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
@@ -12398,6 +12425,10 @@
 	Scotiabank Passport Visa Infinite credit card (Bank)
 	https://www.scotiabank.com/ca/en/personal/credit-cards/visa/passport-infinite-card.html
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 43 07 90 00
+	MasterCard issued by President's Choice Bank (Canada)  (Bank)
+	http://pcfinancial.ca/mastercard
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 47 07 90 00
 	Chase Visa Debit Card (Bank)
 	https://www.chase.com/bankinghelp
@@ -12437,6 +12468,9 @@
 
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
+
+3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
+	Deutsche Kreditbank Debit (Bank)
 
 3B FF 13 00 FF 91 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 DF
 	Alior Bank MasterCard debit (Bank)
