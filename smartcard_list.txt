@@ -2339,6 +2339,9 @@
 3B 6B 00 00 00 31 C1 64 08 60 32 06 07 90 00
 	HSBC (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 60 32 06 0F 90
+	VISA (National Bank) (eID)
+
 3B 6B 00 00 00 31 C1 64 08 60 32 06 0F 90 00
 	Nationwide Building Society VISA Debit card (Bank)
 
@@ -2487,6 +2490,9 @@
 
 3B 6C 00 02 36 61 86 38 4B 8C 13 04 62 03 59 8A
 	Nagravision, Swiss mode
+
+3B 6C 00 FF 50 56 4A 43 4F 50 32 31 56 32 33 31
+	Al Etihad (Bank)
 
 3B 6C 00 FF 80 73 C8 21 13 66 01 06 11 59 00 01
 	Visa Crypto Business Electron by neyvabank.ru (Bank)
@@ -3212,6 +3218,9 @@
 	Debit Card for Santander Universidades PT (Bank)
 	https://www.santander.pt/pt_PT/Particulares/Universitarios.html
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 41 4D 33 47
+	CHASE DEBIT VISA (JavaCard)
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 31 00 90 00
 	Beutsche Bank Business mastercard credit (Bank)
 	https://www.deutsche-bank.de/gk/zahlungsverkehr/zahlungsverkehr-im-ueberblick/kreditkarte.html
@@ -3318,6 +3327,10 @@
 3B 6F 00 00 02 31 B8 13 FF 00 00 00 00 00 00 00 0F 90 00
 	Coverflex | Flexible Benefits Platform (Other)
 	https://www.coverflex.com/
+
+3B 6F 00 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
+	Postepay Evolution (Bank)
+	https://postepay.poste.it/prodotti/postepay-evolution.html
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -5652,6 +5665,10 @@
 3B 86 80 01 4B 4F 4E 41 12 20 3E
 	Citibank Russia, Mastercard paypass
 
+3B 86 80 01 4B 4F 4E 41 13 21 3E
+	Vivid Money Visa Debit (Bank)
+	https://vivid.money
+
 3B 86 80 01 4B 4F 4E 41 14 11 09
 	Mastercard paypass enabled credit card
 
@@ -6449,6 +6466,10 @@
 	EIDVirtual (USB key emulated as a virtual smart card) (PKI)
 	http://www.mysmartlogon.com/eidvirtual/
 
+3B 8C 01 80 5A 4E 69 74 72 6F 6B 65 79 20 33 7D
+	"Nitrokey 3C NFC" USB authentication and security token (Other)
+	https://shop.nitrokey.com/shop/product/nk3cn-nitrokey-3c-nfc-148
+
 3B 8C 40 FA 80 81 05 52 01 01 A0 00 00 01 50 01
 	Algerian Postal Services Current Account Card (Bank)
 
@@ -6575,6 +6596,10 @@
 3B 8C 80 01 50 3A 96 4B 00 00 00 00 00 00 81 80 BB
 	Ventra Transit Pass (Transport)
 	https://www.ventrachicago.com/how-to/ventra-cards/
+
+3B 8C 80 01 50 3B F0 33 0B 30 AB AB 01 77 81 B7 DE
+	Italian health card - national service card (HealthCare)
+	https://sistemats1.sanita.finanze.it/portale/tessera-sanitaria
 
 3B 8C 80 01 50 43 E0 F5 F4 31 01 06 00 77 81 77 48
 	Indonesian Driver License
@@ -7044,6 +7069,10 @@
 
 3B 8F 80 01 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00 D1
 	Revolut Mastercard (Bank)
+
+3B 8F 80 01 31 01 F1 56 40 11 00 19 00 00 00 00 FF FF FF 2E
+	BVG Guthabenkarte (Prepaid Payment Card for Berlin/Brandenburg Public Transport) (Transport)
+	https://www.bvg.de/de/service-und-kontakt/guthabenkarte
 
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 5B
 	DKB-VISA-Card (Bank)
@@ -8657,6 +8686,9 @@
 	T-Mobile Nederlands
 	http://www.tmobile.nl
 
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 05 09 04 00 00 91
+	SIM card (Telecommunication)
+
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 09 09 01 00 00 98
 	German SIM card (T-Mobile) (Telecommunication)
 
@@ -9798,6 +9830,10 @@
 3B B8 13 00 81 31 FA 52 43 48 54 4D 4F 49 43 41 A5
 	citizen digital certificate (PKI)
 	http://moica.nat.gov.tw/
+
+3B B8 97 00 81 31 FE 45 FF FF 14 82 30 50 23 00 F1
+	UAE Emirates ID (eID)
+	https://www.icp.gov.ae
 
 3B B9 18 00 81 31 FE 9E 80 73 FF 61 40 83 00 00 00 DF
 	Serbian Identity Card
