@@ -10218,7 +10218,8 @@
 	http://atos.net/NR/rdonlyres/17C7BDD0-225B-4A58-B9A4-438EA3F3238A/0/74743_20120830_160149_cardos_v5_0__datenblatt_en.pdf
 
 3B D2 18 00 81 31 FE 58 C9 02 17
-	WVDP (West Valley Demonstration Project?) (PKI)
+	Atos CardOS 5.3 (PKI)
+	http://www.atos.net/cardos
 
 3B D2 18 00 81 31 FE 58 C9 03 16
 	Austrian "RKS-Card" issued by GlobalTrust (PKI)
