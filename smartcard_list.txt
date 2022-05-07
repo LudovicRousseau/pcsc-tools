@@ -101,7 +101,7 @@
 	ASE M2 Card (I2C) (Other)
 
 3B 04 00 04 00 00
-	Italian healtcare card (TS) National Service Card (CNS) - Regione Lazio - (HealthCare)
+	Italian healthcare card (TS) National Service Card (CNS) - Regione Lazio - (HealthCare)
 	http://cns.regione.lazio.it
 
 3B 04 01 02 03 04
@@ -1241,7 +1241,7 @@
 	Easyflex FastOS 2.0 / Schlumberger
 
 3B 5B 96 00 00 31 C0 64 BA FC 10 00 0F 90 00
-	SERGAS - Galician Healtcare Service (Spain) (HealthCare)
+	SERGAS - Galician Healthcare Service (Spain) (HealthCare)
 	https://www.sergas.gal
 
 3B 5B 96 00 00 31 C0 64 C6 FC 10 00 01 90 00
@@ -5946,7 +5946,7 @@
 	https://www.telesec.de/de/tcos/support/downloadbereich/category/28-leistungsbeschreibung
 
 3B 88 80 01 30 AB AB 01 77 81 B7 00 79
-	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
+	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
@@ -6391,7 +6391,7 @@
 	IDEMIA (Other)
 
 3B 8B 80 01 00 31 C1 64 08 92 33 54 00 90 00 F3
-	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
+	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 	http://www.salute.gov.it/portale/lea/dettaglioContenutiLea.jsp?lingua=italiano&id=4693&area=Lea&menu=leaEssn
 
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
@@ -10710,7 +10710,7 @@
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
 
 3B DF 18 00 81 31 FE 7D 00 6B 02 0C 01 82 01 11 01 43 4E 53 10 31 80 FC
-	Italian healtcare card (TS) National Service Card (CNS) (HealthCare)
+	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 
 3B DF 18 00 81 31 FE 7D 00 6B 04 0C 01 84 01 11 01 43 4E 53 10 31 80 FC
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
@@ -11462,7 +11462,7 @@
 	MasterCard ETEC InterOp 27. This is an dual-app Maestro/MasterCard Credit EMV test card
 
 3B F0 13 00 00 81 31 FE 45 E8
-	Healt care card Romania (HealthCare)
+	Healthcare card Romania (HealthCare)
 	http://www.cnas.ro/casmb/national-page/cardul-national-de-asigurari-de-sanatate-2.html
 
 3B F0 13 00 FF 91 81 B1 FE 46 1F 03 19
