@@ -779,6 +779,9 @@
 	ITTAS CNA Smart Card Reader (PKI)
 	https://www.ittas.by/en/solutions/cna-cryptographic-protection-of-information
 
+3B 27 00 2A 2A 43 52 59 50 54
+	PAY TV (Pay TV)
+
 3B 27 00 80 65 A2 .. 01 01 37
 	Gemplus GemSAFE Smart Card (4K)
 
@@ -1498,6 +1501,9 @@
 	CIC (Bank)
 	https://www.cic.fr/
 
+3B 65 00 00 20 63 CB C3 00
+	CIC Credit Card (Bank)
+
 3B 65 00 00 20 63 CB C3 10
 	Pass Restaurant Sodexo Pass France (Bank)
 	https://moncompte.sodexopass.fr/
@@ -1556,6 +1562,10 @@
 
 3B 66 00 00 05 12 01 01 01 B1
 	Lyon1 student card (Moneo compatible)
+
+3B 66 00 00 11 22 33 44 55 66
+	Sodexo Restaurant Pass Card (Turkey) (Loyalty)
+	https://www.sodexoavantaj.com/yemek-karti
 
 3B 66 00 00 31 4B 01 01 00 80
 	VISA credit card (Skandiabanken)
@@ -3760,6 +3770,10 @@
 	rav-kav (Transport)
 	http://nohal.mot.gov.il/%d7%94%d7%92%d7%93%d7%a8%d7%95%d7%aa%20%d7%91%d7%a0%d7%95%d7%a9%d7%90%20%d7%9b%d7%a8%d7%98%d7%95%d7%a1%20%d7%97%d7%9b%d7%9d.aspx
 
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 04 90 EF CB 82 90 00
+	Rav-Kav Israel (Transport)
+	https://ravkavonline.co.il
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 66 0B 73 82 90 00
 	Rav-Kav: Israel's Travel Card (Transport)
 
@@ -4102,6 +4116,10 @@
 3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 56 C5 F4 82 90 00
 	RAVKAV - Israel dual interface transport card (Calypso standard) (Transport)
 	https://en.wikipedia.org/wiki/Rav-Kav
+
+3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 C3 C3 31 82 90 00
+	Rav-Kav Israel (Transport)
+	https://ravkavonline.co.il
 
 3B 6F 00 00 80 5A 3C 06 08 14 01 01 C3 80 5E 38 82 90 00
 	Lisboa VIVA - Lisbon public transport card (Transport)
@@ -6464,6 +6482,10 @@
 	Italian Card Identity (eID)
 	https://www.cartaidentita.interno.gov.it/
 
+3B 8B 80 01 80 66 47 50 00 B8 00 94 82 90 00 C5
+	Italian Electronic Contactless Identity Card v. 3.0 (CIE 3.0) (eID)
+	https://www.cartaidentita.interno.gov.it/
+
 3B 8B 80 01 80 F9 A0 00 00 03 08 00 00 10 00 C8
 	Probably the same as "JCOP3 SecID P60 CS (JavaCard)" but mated with a contactless Identiv reader (JavaCard)
 
@@ -8630,6 +8652,10 @@
 	U Mobile POWER Prepaid (Telecommunication)
 	http://www.u.com.my/prepaid
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 CD A1 00 12 46
+	Beeline SIM card (RUS) (Telecommunication)
+	https://beeline.ru
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 4D 03 00 00 75
 	Prepaid SIM card MOCHE (Portugal) (Telecommunication)
 
@@ -9347,6 +9373,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 0E 3F 33 34 00 A3
 	Telecommunication (SIM or USIM card) T-Mobile Communications (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 0E 3F 33 35 00 A2
+	Megafon (RUS) SIM Card (Telecommunication)
+	https://megafon.ru
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 0E 3F 33 36 00 A1
 	Bell Mobility MULTI SIM (Telecommunication)
 	https://bell.ca
@@ -9823,6 +9853,10 @@
 
 3B B7 11 00 81 31 90 53 B5 .. .. .. .. .. .. ..
 	CardOS EM/V1.4 (SLE44CR80S)
+
+3B B7 11 00 81 31 FE 43 20 25 85 47 02 20 28 66
+	Research Institute of Applied Information Technologies (Other)
+	http://dodatok.osvita.net/
 
 3B B7 11 00 81 31 FE 43 20 28 3F B5 03 20 31 3B
 	Research Institute of Applied Information Technologies (Other)
@@ -12225,6 +12259,9 @@
 
 3B FD 13 00 00 81 31 FE 45 54 3D 31 4A 32 31 33 36 4B 56 32 33 31 DC
 	ic Card (JavaCard)
+
+3B FD 13 00 00 81 31 FE 45 80 31 81 53 53 44 31 73 84 21 C0 81 07 30
+	Personal Info Card (eID)
 
 3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 A1 C5 00 90 00
 	IBKR Prepaid MasterCard, Issued by Peoples Trust Company (Bank)
