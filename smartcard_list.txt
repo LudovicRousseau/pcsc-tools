@@ -596,6 +596,9 @@
 3B 19 96 80 67 93 27 01 02 02 04 01
 	Orange SIM card (Telecommunication)
 
+3B 19 96 80 67 94 09 01 01 04 01 04
+	Morpho EIRENE GSM-R Card (Telecommunication)
+
 3B 19 96 80 67 94 16 02 03 01 01 01
 	Movistar Argentina Usim Card (Telecommunication)
 	www.movistar.com.ar
@@ -1512,6 +1515,10 @@
 	Apetiz restaurant card (French luncheon vouchers) (Bank)
 	https://www.apetiz.com/faq/?thematic=achats-apetiz-quoi-quand-combien
 
+3B 65 00 00 20 63 CB C6 00
+	AuMax / Credit Mutuel (Bank)
+	https://www.aumaxpourmoi.fr/
+
 3B 65 00 00 20 63 CB FF 00
 	Crédit Agricole business mastercard (Bank)
 
@@ -2195,6 +2202,10 @@
 3B 6B 00 00 00 31 C0 64 00 27 34 00 0F 90 00
 	American Express Chip and Signature Card (Contact) ()
 	https://americanexpress.com/chipandsignature
+
+3B 6B 00 00 00 31 C0 64 08 04 61 05 07 90 00
+	TBC Bank Mastercard (Georgia) (Bank)
+	https://www.tbcbank.ge/web/en/cards-and-subscription-plans
 
 3B 6B 00 00 00 31 C0 64 08 04 61 12 07 90 00
 	Visa Electron. BSB Bank. Belarus (Bank)
@@ -4506,6 +4517,9 @@
 	Israeli Identity Card (eID)
 	http://smartid.gov.il/English/Pages/default.aspx
 
+3B 79 96 00 00 20 01 01 06 01 00 01 00 E9
+	Casino (Other)
+
 3B 79 96 00 00 54 48 20 4E 49 44 20 31 3.
 	Thai National ID Card (eID)
 
@@ -5369,6 +5383,9 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 04 01 20 F2 00 02 82 90 00
 	Health Insurance Institute of Slovenia - Professional Card Gen. 3 (HealthCare)
 
+3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 C1 82 90 00
+	Gemalto USB (eID)
+
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 FF FE 82 90 00
 	IDCORE 3140 (JavaCard)
 
@@ -6128,6 +6145,10 @@
 	TCOS 3.0 release 2 on Philips P5CD080 (PKI)
 	https://www.digchip.com/datasheets/parts/datasheet/1019/P5CD080.php
 
+3B 89 80 01 02 4D 4B 4D 57 4B 53 4B 54 11
+	Polish National ID (eID)
+	https://www.gov.pl/web/e-dowod/
+
 3B 89 80 01 31 31 31 30 54 43 4F 53 50 52
 	Seven-Eleven Value Card / Smart Purse - Thailand (Contactless) (Other)
 	http://www.7eleven.co.th/about7card.php
@@ -6433,6 +6454,10 @@
 3B 8B 80 01 00 31 C1 64 09 37 72 13 00 90 00 51
 	French ID Card 2021 (contactless interface) (eID)
 	https://ants.gouv.fr/Les-titres/Carte-nationale-d-identite/La-puce-de-la-nouvelle-carte-nationale-d-identite
+
+3B 8B 80 01 00 31 C1 64 09 64 41 36 00 90 00 14
+	Monzo (Bank)
+	https://monzo.com/
 
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
@@ -8961,6 +8986,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 06 31 71 DF 00 00 00 00 00 24
 	FT ePass2003Auto USB Token (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 32 38 71 DF 00 00 06 00 00 1F
+	token (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
@@ -9238,6 +9266,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 3F 33 34 00 A7
 	SIM Card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 81 04 33 33 00 14
+	PureTalk SIM Card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
@@ -12896,6 +12927,10 @@
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 16 17 01 11 01 43 4E 53 11 31 80 8D
 	Carta Regionale dei Servizi - Regione Autonoma Friuli Venezia Giulia (HealthCare)
 	https://www.regione.fvg.it/rafvg/cms/RAFVG/GEN/carta-regionale-servizi/
+
+3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 17 17 01 11 01 43 4E 53 11 31 80 8C
+	european health insurance card and Regional (ItalY - Provincia Autonoma di Trento) Service Card (CPS) (eID)
+	https://www.provincia.tn.it/Servizi/Attivare-la-Carta-Provinciale-dei-Servizi-CPS#cos_e
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 42 49 54 34 49 44 20 31 2E 30 00 90 00 91
 	Touch&Sign 2048 (PKI)
