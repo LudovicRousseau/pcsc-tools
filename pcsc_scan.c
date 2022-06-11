@@ -608,6 +608,7 @@ get_readers:
 		if (Options.only_list_cards || Options.only_list_readers)
 		{
 			printf("No reader found.\n");
+			(void)SCardReleaseContext(hContext);
 			return EX_OK;
 		}
 
