@@ -683,6 +683,7 @@ get_readers:
 		print_readers(readers, nbReaders);
 	if (Options.only_list_readers)
 	{
+		(void)SCardReleaseContext(hContext);
 		exit(EX_OK);
 	}
 
@@ -691,6 +692,7 @@ get_readers:
 	if (NULL == rgReaderStates_t)
 	{
 		fprintf(stderr, "%s: Not enough memory for readers states\n", Options.pname);
+		(void)SCardReleaseContext(hContext);
 		exit(EX_OSERR);
 	}
 
