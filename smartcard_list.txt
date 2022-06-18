@@ -272,6 +272,10 @@
 3B 06 01 01 02 00 00 01
 	HID0009P (eID)
 
+3B 06 01 01 18 03 82 09
+	HID ProxKey III (125kHz) (eID)
+	https://www.hidglobal.com/products/cards-and-credentials/hid-proximity/1346
+
 3B 06 01 02 10 .. .. ..
 	ISOProx II Card:
 	http://www.hidglobal.com/documents/isoprox_ds_en.pdf
@@ -494,6 +498,10 @@
 3B 16 96 D0 00 D4 07 2C 00
 	Vodafone India Postpaid / Local Operator 3G
 
+3B 16 96 D0 01 6C A7 0D 00
+	Ukrainian Telecommunications Operator MTS (old simcard, now rebranded to Vodafone UA) (Telecommunication)
+	https://www.vodafone.ua
+
 3B 17 11 80 65 AF 03 42 00 D8
 	TELE2 SPB SIM Russia
 
@@ -643,6 +651,10 @@
 3B 1E 13 00 69 45 4D 43 45 66 32 28 F8 6B 00 90 00
 	ECHS (Ex-servicemen Contributory Health Scheme) Card (HealthCare)
 	http://echs.gov.in/
+
+3B 1E 95 80 67 21 54 4D 4D 04 12 0E 71 32 82 9F 00
+	SIM card of old Ukrainian Telecommunications Operator Ace&Base (deriving from Kyivstar) (Telecommunication)
+	https://kyivstar.ua/uk/mm
 
 3B 1F 11 00 67 42 41 46 49 53 45 53 52 66 FF 81 90 00
 	Finnish student id card
@@ -3687,6 +3699,10 @@
 	OPUS Card (Transport)
 	https://en.wikipedia.org/wiki/OPUS_card
 
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 10 E9 56 82 90 00
+	Montréal Public transport Card (OPUS) (Transport)
+	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
+
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 11 13 A6 82 90 00
 	OPUS (Montreal and Quebec transport card) (Transport) (Transport)
 	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
@@ -5411,6 +5427,10 @@
 	NXP Semiconductors VNG OpenPGP Card (Other)
 	https://www.vng.com.vn/
 
+3B 80 1F C7 80 31 E0 73 FE 21 11 63 40 71 63 83 07 90 00 9A
+	Intertelecom UA RUIM card (Telecommunication)
+	https://www.intertelecom.ua/
+
 3B 80 80 01 01
 	ISO 14443 Type B without historical bytes
 	Electronic Passport
@@ -5635,6 +5655,9 @@
 3B 85 80 01 20 63 CB B8 80 B4
 	VISA Cléo LCL (Bank)
 	https://particuliers.lcl.fr/quotidien/cartes/carte-visa-cleo/
+
+3B 85 80 01 20 63 CB C6 00 4A
+	Gold Mastercard Credit Agricole (Bank)
 
 3B 85 80 01 30 01 01 30 30 34
 	German Health Insurance Card "elektronische Gesundheitskarte" (eGK) / European Health Insurance Card (EHIC) (HealthCare)
@@ -7102,6 +7125,10 @@
 	ING-VISA-Card (Bank)
 	https://www.ing.de/girokonto/karten-bargeld/
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 31 07 90 00 89
+	NAB VISA Debit (Bank)
+	https://www.nab.com.au/
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00 F9
 	Ukrainian International resere bank (ex Sberbak RF) debit card (Bank)
 	https://www.sbrf.com.ua/
@@ -7705,6 +7732,10 @@
 
 3B 95 97 40 F0 1A 16 0A 19 41
 	SG50 (Samsung Chip) (Telecommunication)
+
+3B 96 00 41 21 92 00 00 62 24 33 33 90 00
+	Ukrainian Telecommunications Operator Kyivstar (old simcard) (Telecommunication)
+	https://kyivstar.ua/uk/mm
 
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
@@ -9500,6 +9531,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 51 00 82 90 00 A3
 	Free Mobile (French wireless service provider) SIM card (mini-SIM with micro-SIM cutout) received in 2020-09 (Telecommunication)
 	https://mobile.free.fr/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 52 00 82 90 00 A0
+	Woolworths Mobile Prepaid SIM (Telecommunication)
+	https://mobile.woolworths.com.au/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 76 32 00 82 90 00 C4
 	T-Mobile SIM card issued April 2021 (Telecommunication)
@@ -11864,6 +11899,10 @@
 	NXP JCOP V241
 	NXP J3A081 JavaCard (contact interface)
 
+3B F8 96 00 00 80 31 FE 47 00 73 C8 40 00 00 90 00 0D
+	Italian driver tachograph smartcard (Transport)
+	https://www.to.camcom.it/cartatachigrafica
+
 3B F8 96 00 00 81 31 FE 44 00 73 94 01 C0 0F 90 00 DD
 	fourth-generation Hong Kong permanent identity card (Other)
 	https://en.wikipedia.org/wiki/Hong_Kong_identity_card
@@ -12553,6 +12592,10 @@
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00
 	VISA card issued by ING-DiBa AG (Germany) (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 31 07 90 00
+	NAB VISA Debit (contact interface) (Bank)
+	https://www.nab.com.au/
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 37 07 90 00
 	VISA Credit Card (Postbank), Germany (Bank)
