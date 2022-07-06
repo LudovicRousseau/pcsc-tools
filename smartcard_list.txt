@@ -2330,6 +2330,9 @@
 	V PAY (Bank)
 	https://www.unicreditbulbank.bg/en/individual-clients/everyday-banking/payments/debit-cards/
 
+3B 6B 00 00 00 31 C0 64 3F 68 01 00 07 90 00
+	JCOP empty card (JavaCard)
+
 3B 6B 00 00 00 31 C0 64 3F 68 01 02 0F 90 00
 	dinacard (Bank)
 
@@ -2410,6 +2413,10 @@
 3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
 	Sodexo Czech Gastro/Multipass (Other)
 	https://www.sodexo.cz/
+
+3B 6B 00 00 00 31 C1 64 09 29 62 25 0F 90 00
+	SANTANDER BASIC CASH CARD (Bank)
+	https://www.santander.co.uk/assets/s3fs-public/2018-09/Basic%20Current%20Account%20KFD.pdf
 
 3B 6B 00 00 00 31 C1 64 09 64 41 36 0F 90 00
 	VISA Business Folio AS /Norway (Sparebanken Vest) [IDEMIA] (Bank)
@@ -3806,6 +3813,9 @@
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 69 51 7A 82 90 00
 	Card for bus (Transport)
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2D C2 E8 E2 70 82 90 00
+	ravkav (Transport)
 
 3B 6F 00 00 80 5A 28 01 02 20 12 21 03 34 65 77 82 90 00
 	ONYGO! pass
@@ -5695,6 +5705,9 @@
 3B 86 40 20 68 01 01 02 04 AC
 	Activcard Gold, SchlumbergerSema Cryptoflex 8k
 
+3B 86 40 FA 80 81 01 52 03 01
+	SCOSTA (JavaCard)
+
 3B 86 80 01 00 04 9A EE 00 CA BD
 	ASK CPL 528
 
@@ -7169,6 +7182,10 @@
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 FF FF FF BD
 	DKB Visa Credit Card (Bank)
 	https://www.dkb.de
+
+3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 58
+	comdirect Visa debit (Bank)
+	https://www.comdirect.de
 
 3B 8F 80 01 43 43 31 69 A9 20 00 00 20 20 20 20 20 20 20 FF
 	Reka (Bank)
@@ -9624,6 +9641,9 @@
 	eSIM GSMA Card (Telecommunication)
 	https://www.gsma.com/newsroom/wp-content/uploads/SGP.22_v2.2.pdf
 
+3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 60 61 00 09
+	ting (Telecommunication)
+
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 50 00 19
 	st33g1m2 (Telecommunication)
 	https://www.st.com/en/secure-mcus/st33g1m2.html
@@ -9686,6 +9706,9 @@
 
 3B 9F 96 C0 0A 1F C3 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DA
 	SIM SFR Pro (French Mobile Operator)
+
+3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 13 1B 81 0F FA
+	Tinkoff SIM card (Telecommunication)
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DE
 	H3G (Italy) UMTS USIM card
@@ -10512,6 +10535,10 @@
 3B DA 18 FF 81 91 FE 1F C3 50 56 4A 43 4F 50 33 53 49 44 72
 	J3H145 (P6 SecID) purchased from FUTAKO Ltd., Taiwan (JavaCard)
 	http://www.javacardsdk.com
+
+3B DA 18 FF 81 91 FE 1F C3 80 64 12 11 11 10 73 C0 C1 80 1B
+	Belarus national identity card (passport)
+	https://eng.belta.by/infographica/view/id-cards-in-belarus-7095/
 
 3B DA 18 FF 81 B1 FE 45 1F C3 54 69 63 54 6F 6B 20 32 2E 30 68
 	TikTok 2.0 (PKI)
@@ -12079,6 +12106,10 @@
 3B FA 18 00 00 81 31 FE 45 06 08 60 84 10 01 87 6F 06 02 FE
 	Card used by the Dutch health insurers to give medical personell access to patient insurance information
 
+3B FA 18 00 00 81 31 FE 45 46 53 4A 43 4F 50 34 53 49 44 80
+	NXP Java Card JCOP4 P71 GP2.3 JC3.0.5 (JavaCard)
+	https://www.javacardsdk.com/product/j3r180sim/
+
 3B FA 18 00 00 81 31 FE 45 4A 33 41 30 34 30 56 32 34 31 84
 	NXP J3A 40K
 	Java Card v2.2.2 - Global Platform v2.2.1
@@ -13170,6 +13201,10 @@
 3B FF 96 00 00 81 31 FE 55 00 6B 02 09 04 03 01 01 01 43 4E 53 10 31 80 EB
 	Aruba PEC SpA digital signature card made by Incard (eID)
 	https://www.pec.it/download-software-driver.aspx
+
+3B FF 96 00 00 C0 0A 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 AB
+	French National Identity Card (eID) (eID)
+	https://www.interieur.gouv.fr/actualites/actu-du-ministere/nouvelle-carte-nationale-didentite
 
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
