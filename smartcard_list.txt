@@ -1479,6 +1479,7 @@
 
 3B 65 00 00 20 63 CB B7 20
 	Lloyds Bank Platinum Mastercard Credit (Bank)
+	Crédit Agricole Prepaid - Mastercard
 
 3B 65 00 00 20 63 CB B7 80
 	VISA Credit Card (Bank)
@@ -2276,6 +2277,9 @@
 	VISA debit card (ActivoBank, Portugal) (Bank)
 	https://www.activobank.pt
 
+3B 6B 00 00 00 31 C0 64 08 44 03 05 01 90 00
+	mastercard (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 44 03 05 0F 90 00
 	Visa (Bank)
 
@@ -2305,6 +2309,7 @@
 3B 6B 00 00 00 31 C0 64 08 44 03 76 0F 90 00
 	Maestro debit card, issued by Caixa Geral de Depósitos (Bank)
 	https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartao-Debito-Cauxautomatica-Maestro.aspx
+	Crédit Agricole Bank Card - Bancomat / Maestro
 
 3B 6B 00 00 00 31 C0 64 08 48 41 08 0F 90 00
 	Monizze card. Card use to pay only meal. (Other)
@@ -3717,6 +3722,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 12 90 FD 82 90 00
 	OPUS Montreal Société des Transports de Montréal Metro and Bus card. (Transport)
 	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media
+
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 1B AF B4 82 90 00
+	OPUS card (Transport)
+	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
 
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 03 DC B3 1B 82 90 00
 	Card Transport "Lignes d'Azur" of "Métropole Nice Côte d'Azur"
@@ -5447,6 +5456,8 @@
 	Spanish passport (2012)
 	Canadian Passport
 	Venez_Prox
+	Carta nazionale dei servizi
+	https://www.agid.gov.it/it/piattaforme/carta-nazionale-servizi
 
 3B 81 00 20
 	Old MobilCOM GSM (Telecom D1) (Telecommunication)
@@ -5658,6 +5669,7 @@
 
 3B 85 80 01 20 63 CB B7 20 1B
 	Halifax Clarity Mastercard (Bank)
+	Crédit Agricole Prepaid - Mastercard
 
 3B 85 80 01 20 63 CB B7 80 BB
 	First Direct Debit (Bank)
@@ -5769,6 +5781,10 @@
 3B 86 80 01 C1 05 2F 2F 01 BC 7E
 	Contactless interface to St. Petersburg unified card, Russia (Единая карта петербуржца) (Other)
 	https://ekp.spb.ru/
+
+3B 86 80 01 F0 49 38 DE 0C 30 64
+	بلیت مترو (Transport)
+	https://ezpay.ir/
 
 3B 86 81 31 70 34 45 50 41 20 45 4B 08
 	Austrian Quick E-purse "Einreichkarte" (transfer card)
@@ -6439,6 +6455,7 @@
 	American Express Blue Card (Germany) (Bank)
 	Mastercard issued by OTP Bank (Hungary) (Bank)
 	https://www.otpbank.hu/portal/en/Retail/Bankcards
+	Crédit Agricole Bank Card - Bancomat / Maestro
 
 3B 8B 80 01 00 31 C0 64 08 44 03 93 00 90 00 D3
 	Novacard pp0815-04/20 chip (Bank)
@@ -7482,6 +7499,8 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
+	OV Chipkaart
+	https://www.ov-chipkaart.nl/home.htm
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
@@ -8437,6 +8456,10 @@
 	Prepaid public telephone card from Lidl Connect, Germany (Telecommunication)
 	https://www.lidl.de/de/lidl-connect/s7373597
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 77 10 00 C7
+	SIM Card  Model X1 for Ting Mobile Carrier (Telecommunication)
+	https://tingmobile.com/
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 A7 0F 00 08
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
 	http://www.movistar.es/
@@ -8868,6 +8891,9 @@
 
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 13 67 D0 02 04 09 01 00 00 05
 	T-Mobile SIM card issued in Germany 2012
+
+3B 9F 95 80 1F C7 80 31 E0 73 F6 21 00 00 00 86 53 83 00 90 00 61
+	Zong (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 E0 73 F6 21 13 67 4D 45 15 00 39 01 02 F4
 	Vivo 4G LTE SIM Card (Telecommunication)
@@ -10868,6 +10894,7 @@
 3B DF 18 00 81 31 FE 7D 00 6B 04 0C 01 84 01 11 01 43 4E 53 10 31 80 FC
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 	http://www.regione.toscana.it/cartasanitaria
+	https://www.agid.gov.it/it/piattaforme/carta-nazionale-servizi
 
 3B DF 18 00 81 31 FE 7D 00 6B 15 0C 01 80 01 11 01 43 4E 53 10 31 80 E9
 	Provider: Actalis S.p.A.
@@ -12027,6 +12054,9 @@
 3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 0F 00 20 46 4E
 	Giesecke & Devrient (DoD Alternate Token) G+D Sm@rtCafe Expert v7.0 144K DI #3 (PKI)
 
+3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 47 43 4E 33 5E
+	Serbian Identity Card (eID)
+
 3B F9 96 00 00 81 31 FE 45 45 4F 4E 43 61 72 64 56 31 73
 	eONCard V1 (PKI)
 
@@ -12142,6 +12172,9 @@
 
 3B FA 18 00 FF 10 00 4A 54 61 78 43 6F 72 65 56 31
 	NXP JCOP4 J3R200 P71 (JavaCard)
+
+3B FA 18 00 FF 80 31 FE 45 00 31 80 73 94 41 00 00 90 00 90
+	Kazakhstan Identity Card 2022 (eID)
 
 3B FA 18 00 FF 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 65
 	TrubDemax healthcare card
@@ -12614,12 +12647,20 @@
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 82 11 06 44 14 D3 34 70 77 90 00
+	Visa Debit (Bank)
+	https://www.chase.com/
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 44 35 33 07 90 00
 	BRADESCO-CONTA SALARIO (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 31 30 07 90 00
 	Tangerine MasterCard (Bank)
 	https://www.tangerine.ca/en/products/spending/creditcard/money-back/
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 31 37 07 90 00
+	PayPal Business Debit mastercard (Bank)
+	https://www.paypal.com/merchantapps/appcenter/makepayments/bdmc
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00
 	VISA card issued by ING-DiBa AG (Germany) (Bank)
@@ -12790,6 +12831,10 @@
 
 3B FF 18 00 FF 81 31 50 45 65 63 .. .. .. .. .. .. .. .. .. .. .. .. .. ..
 	GeldKarte v3 (Germany)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 50 73 20 47 12 D8
+	Commerzbank maestro (Bank)
+	https://www.commerzbank.de/konten-zahlungsverkehr/produkte/girokonten/kostenloses-girokonto/
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 60 2A A0 47 12 31
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
