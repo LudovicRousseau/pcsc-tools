@@ -153,6 +153,9 @@
 	prepaid payphone card, issued by Lietuvos Telekomas (now Teo LT)
 	https://www.teo.lt/
 
+3B 04 19 0C F6 00
+	USWest TeleCard for Millennium Payphones (Other)
+
 3B 04 1B F4 3F 54
 	German TelefonKarte 50DM. Memory card with Solaic chip (Other)
 
@@ -582,6 +585,10 @@
 3B 18 94 53 20 07 AD 0A 05 FF 02
 	GSM SIM Beeline Kazakhstan (Telecommunication)
 	http://beeline.kz/
+
+3B 18 96 26 21 55 04 01 03 00 01
+	OBILedit Forensic SIM Cloning card (Telecommunication)
+	https://www.mobiledit.com/connection-kit
 
 3B 19 14 55 90 01 01 01 00 05 08 B0
 	Schlumberger Multiflex 8k
@@ -1310,6 +1317,9 @@
 
 3B 65 00 00 20 63 CB 30 20
 	CB / VISA La Banque Postale (IDEMIA) (Bank)
+
+3B 65 00 00 20 63 CB 30 40
+	Crédit Mutuel Debit card (Bank)
 
 3B 65 00 00 20 63 CB 47 00
 	Orga SmartyPlus DATA STORE issued by MORPHO CARDS PERU
@@ -2422,6 +2432,10 @@
 3B 6B 00 00 00 31 C1 64 09 29 62 25 0F 90 00
 	SANTANDER BASIC CASH CARD (Bank)
 	https://www.santander.co.uk/assets/s3fs-public/2018-09/Basic%20Current%20Account%20KFD.pdf
+
+3B 6B 00 00 00 31 C1 64 09 64 41 36 07 90 00
+	HSBC UK Visa Debit Card (Bank)
+	https://www.hsbc.co.uk/content/dam/hsbc/gb/pdf/help/hsbc-visa-debit-card-guide.pdf
 
 3B 6B 00 00 00 31 C1 64 09 64 41 36 0F 90 00
 	VISA Business Folio AS /Norway (Sparebanken Vest) [IDEMIA] (Bank)
@@ -6396,6 +6410,9 @@
 3B 8A 80 01 80 31 F8 73 F7 41 E0 82 90 00 75
 	ePerso - German ID card
 
+3B 8A 80 01 80 64 12 11 11 10 73 C0 C1 80 1F
+	Belarussian ID card (eID)
+
 3B 8A 80 01 80 65 A2 01 01 01 3D 72 D6 43 97
 	Gemplus GemXpresso Pro R3 E32 PK (combi)
 	MultiApp ID Dual Citizen EAC 80K CC / IDClassic 3340 (old name: Classic TPC DM) (with MPCOS Applet installed by default) - Contactless Mode with Prox DU
@@ -6960,6 +6977,12 @@
 3B 8D 01 80 FB A0 00 00 03 97 42 54 46 59 04 01 CF
 	Microsoft Virtual Smartcard Provider shared through VMWare Workstation. (Other)
 	https://technet.microsoft.com/en-us/library/dn593708%28v=ws.11%29.aspx
+
+3B 8D 80 01 00 04 D0 84 21 86 64 00 00 00 00 00 00 9F
+	ABC UnionPay card with QuickPass contactless interface  (Bank)
+
+3B 8D 80 01 00 31 80 71 8E 64 52 D9 04 00 82 90 00 BB
+	AwesomeCard (Bank)
 
 3B 8D 80 01 00 73 C8 00 13 64 47 37 42 37 00 90 00 55
 	TD Canada Trust Visa
@@ -9760,6 +9783,9 @@
 	EU smart tachograph card (driver/company/control/workshop)
 	https://dtc.jrc.ec.europa.eu/
 
+3B 9F 96 C0 0A 31 FE 45 75 4A 61 76 65 6C 69 6E 2D 4F 53 20 31 2E 30 51
+	Vietnam ID Card (eID)
+
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
 	Verizon "4G LTE" USIM (Telecommunication)
 
@@ -12486,6 +12512,9 @@
 3B FD 96 00 00 81 31 FE 45 00 00 01 61 63 86 20 00 00 00 00 00 00 C5
 	Renap Guatemala (eID)
 
+3B FD 96 00 00 81 31 FE 45 00 00 01 66 87 03 80 00 00 00 00 00 00 03
+	DPI (Documento Personal de Identificación) Guatemala (eID)
+
 3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 4C 31 32 38 43 52 57
 	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
 	http://www.usmartcards.co.uk/cards/universal-jcard-contact-with-infineon-sle78-white-gloss-pvc-card.html
@@ -13191,6 +13220,9 @@
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 35 48
 	Canal+ France Nagra3 (Pay TV)
 	https://www.canalplus.com/
+
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 38 32 20 52 65 76 52 30 38
+	CANALSAT, mediaguard key (Pay TV)
 
 3B FF 95 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 20 07 33 41 41 1F
 	Swisscom 3G SIM card
