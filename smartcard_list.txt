@@ -11255,6 +11255,8 @@
 3B EA 00 00 81 31 FE 45 00 31 C1 73 C8 40 00 00 90 00 7A
 	Nigerian eID Card (cold reset)
 	Chip is NXP JCOP 2.4.1R3
+	Dual BCR Signum Mastercard (bank) + Digital Signature Costa Rica (eID)
+	https://bancobcr.com/wps/portal/bcr/bancobcr/personas/tarjetas/signum_firma_digital/
 
 3B EA 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 49 00 FE
 	UBS VISA Gold Card
