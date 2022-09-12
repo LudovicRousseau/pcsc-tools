@@ -996,10 +996,6 @@
 3B 3B 7F 38 00 00 00 6A 44 4E 49 65 20 02 4C
 	DNI (eID)
 
-3B 3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 1C 02 14 50
-	all transport travel pass (Transport)
-	http://www.metro.spb.ru/cnblt41.html
-
 3B 3B 94 00 00 64 05 3E 03 0F 31 80 0E 90 00
 	Slovenian national health insurance card
 
@@ -1261,6 +1257,9 @@
 
 3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D A2 13 10 91
 	VISA (Bank)
+
+3B 50 11 00
+	JAVA (JavaCard)
 
 3B 57 18 02 93 02 01 01 01 90 00
 	Easyflex FastOS 2.0 / Schlumberger
@@ -3284,6 +3283,9 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 41 4D 33 47
 	CHASE DEBIT VISA (JavaCard)
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 41 4D 33 47 07 90 00
+	Java (JavaCard)
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 31 00 90 00
 	Beutsche Bank Business mastercard credit (Bank)
 	https://www.deutsche-bank.de/gk/zahlungsverkehr/zahlungsverkehr-im-ueberblick/kreditkarte.html
@@ -4546,6 +4548,9 @@
 3B 79 18 00 00 80 63 55 50 01 83 07 90 00
 	TEST SAM Card (espark) (Other)
 
+3B 79 18 00 00 80 63 55 56 11 83 03 90 00
+	Hi-Pass (Other)
+
 3B 79 18 00 00 80 63 55 56 12 83 07 90 00
 	'hi-pass+ Prepaid hi-pass Card' pay charge of South Korean Highway Tollgate. Sold by 'SM hiplus' (Transport)
 	http://www.hipluscard.co.kr/
@@ -4818,6 +4823,10 @@
 3B 7D 95 00 00 80 31 80 65 B0 83 11 .. .. 83 00 90 00
 	Portuguese ID Card (eID)
 	http://www.cartaodecidadao.pt/
+
+3B 7D 96 00 00 80 31 80 65 B0 75 49 17 0F 83 00 90 00
+	DoD CAC card issued ~October 2020, Gemalto TOP DL V2.1 144K, Geneva Conventions Identification Card (PKI)
+	https://www.cac.mil/
 
 3B 7D 96 00 00 80 31 80 65 B0 83 02 01 F3 83 00 90 00
 	Gemalto IDClassic 340
@@ -7121,6 +7130,11 @@
 	bPay by barclaycard - contactless pre-paid Visa
 	BPP Digital pre-paid VISA card (Bank)
 	https://bpp.com.br/
+	Mastercard credit card for Standard Chartered Bank, Pakistan also Mastercard debit card for JS Bank, Pakistan (Bank)
+
+3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 90 00 1C 02 14 50
+	all transport travel pass (Transport)
+	http://www.metro.spb.ru/cnblt41.html
 
 3B 8E 80 01 80 31 80 66 B1 C5 24 01 00 ED 83 00 90 00 F7
 	Mastercard (Bank)
@@ -7297,6 +7311,9 @@
 3B 8F 80 01 80 31 E0 6B 04 31 05 02 D1 55 55 55 .. .. .. ..
 	Revolut Prepaid Mastercard (Contactless) (Bank)
 	https://revolut.com/
+
+3B 8F 80 01 80 31 E0 6B 04 53 F5 02 5B 55 55 55 55 55 55 CF
+	Mastercard debit card for Askari Bank, Pakistan (Bank)
 
 3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
 	Air Miles American Express card (contactless) (Bank)
@@ -8701,6 +8718,9 @@
 	Instant EID IP2
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1a2
 
+3B 9F 94 80 1F C3 80 31 A0 73 20 21 08 05 50 09 40 09 5E 01 02 74
+	Yemen Mobile SIM Card Yemen (YE) (Telecommunication)
+
 3B 9F 94 80 1F C3 80 31 A0 73 B6 A1 00 67 CF 32 51 CC 9E 6E C0 15
 	OYEITIMES 2G GSM  Blank SIM Card (Other)
 	https://www.aliexpress.com/item/32972705510.html?spm=a2g0s.9042311.0.0.5a564c4daKCdcQ
@@ -8908,6 +8928,9 @@
 
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 32 15 A9 8F D7 09 50
 	LTE Card (Telecommunication)
+
+3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 32 16 C3 F1 48 49 98
+	LTE USIM as used for Private LTE Networks. Manufacturer "Huahong" in China (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 A0 73 BE 21 00 53 04 D0 80 83 05 90 00 BE
 	NTT_DoCoMo (Telecommunication)
@@ -9645,6 +9668,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 56 54 4C 01 74 81 05 6D
 	Viettel LTE SIM (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 56 54 4C 01 76 81 05 6F
+	Viettel Telecom (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 63 01 09 02 01 81 05 3E
 	2degrees Mobile SIM Card New Zealand (Telecommunication)
 	http://2degreesmobile.co.nz
@@ -9739,6 +9765,10 @@
 
 3B 9F 96 81 31 FE 5D 00 64 04 28 01 02 31 C0 73 F7 01 D0 00 90 00 65
 	German eTicketing SAM (Transport)
+	https://www.eticket-deutschland.de/
+
+3B 9F 96 81 31 FE 6D 00 64 04 28 01 02 31 C0 73 F7 01 D0 00 90 00 55
+	VDV-KA Secure Access Module (German Public Transport) (Transport)
 	https://www.eticket-deutschland.de/
 
 3B 9F 96 81 31 FE 9D 00 64 05 A0 03 04 31 C0 73 F7 01 D0 00 90 00 28
@@ -11929,6 +11959,12 @@
 3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 B7
 	Nigerian eID Card (blank card)
 	Chip is NXP JCOP 2.4.1R3
+	Bank of Hawaii (Bank)
+	https://www.boh.com/
+	LA BANQUE POSTALE (Bank)
+	https://www.labanquepostale.fr/
+	bnpparibas (Bank)
+	http://www.bnpparibas.com/
 
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
