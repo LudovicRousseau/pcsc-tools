@@ -4321,6 +4321,7 @@
 
 3B 6F 00 00 80 66 B0 07 01 01 07 07 53 02 31 24 82 90 00
 	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard)
+	Client bizness card (Bank)
 
 3B 6F 00 00 80 66 B0 07 01 01 77 .. .. .. .. .. .. 90 00
 	Other Optelio Card (Santander)
@@ -6098,6 +6099,10 @@
 	VISA credit card with NFC payment function (Bank)
 	http://www.visa.ca/en/personal/visa-paywave/index.jsp
 
+3B 88 80 01 44 31 31 43 52 32 2E 30 70
+	javacard.pro card (JavaCard)
+	https://javacard.pro/
+
 3B 88 80 01 46 49 44 45 53 4D 4F 31 67
 	Fidesmo card (install or uninstall JavaCard applets or Mifare-based services on the field, using the Fidesmo Android App. (JavaCard))
 	https://developer.fidesmo.com/
@@ -6631,6 +6636,9 @@
 	Local Transport card for Trentino region (Italy) trentino trasporti esercizio (Transport)
 	http://www.ttesercizio.it/
 
+3B 8C 80 01 50 01 97 E9 BE 00 00 00 00 80 81 71 EC
+	VISA card from bank LA BANQUE POSTALE (Bank)
+
 3B 8C 80 01 50 01 A5 CE 19 00 00 00 00 80 81 71 5E
 	VISA Card from Bank BANQUE POPULAIRE (Bank)
 
@@ -6714,6 +6722,10 @@
 
 3B 8C 80 01 50 2C 8D 21 4B 23 18 01 00 77 81 97 CD
 	Indonesian Driver License
+
+3B 8C 80 01 50 2F E0 AF A1 00 00 00 00 00 81 77 6A
+	Rabo Wereldpas (Maestro) (Bank)
+	https://www.rabobank.nl/
 
 3B 8C 80 01 50 35 A4 5B 65 00 00 00 00 80 81 71 82
 	Trenitalia cartafreccia (Transport)
@@ -7188,6 +7200,10 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 31 30 07 90 00 8A
 	master card (Bank)
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 31 37 07 90 00 8D
+	AirPlus International Mastercard (Bank)
+	https://www.airplus.com/
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 30 07 90 00 88
 	ING-VISA-Card (Bank)
 	https://www.ing.de/girokonto/karten-bargeld/
@@ -7240,6 +7256,14 @@
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 58
 	comdirect Visa debit (Bank)
 	https://www.comdirect.de
+
+3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 32 20 FF FF FF BE
+	comdirect, VISA Debit (Bank)
+	https://www.comdirect.de/konto/karten.html#bankkarte
+
+3B 8F 80 01 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 77
+	DKB Visa (Debit) (Bank)
+	https://www.dkb.de/
 
 3B 8F 80 01 43 43 31 69 A9 20 00 00 20 20 20 20 20 20 20 FF
 	Reka (Bank)
@@ -7536,6 +7560,8 @@
 	Electic vehicle charging card of the EMSP EinfachStromLaden of Maingau-Energie, Germany
 	Scouter carsharing customer card in Germany
 	https://scouter.de/
+	DKV Euro Service +charge (Transport)
+	https://www.dkv-mobility.com/en/fuelling/fuel-card/dkv-card-charge/
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
@@ -10500,6 +10526,10 @@
 	Athena IDProtect - Cryptographic Java Card
 	http://www.athena-scs.com/product.asp?pid=32
 
+3B D5 96 02 80 31 FE 65 4F 73 45 49 44 1F
+	AVR128DA32 microcontroller based open source EID smartcard with RSA and ECC.  (eID)
+	https://oseid.sourceforge.io/
+
 3B D5 96 FF 81 91 FE 1F C3 43 32 33 30 30 CC
 	HID Global - Crescendo C2300 (PKI)
 	https://www.hidglobal.com/products/cards-and-credentials/crescendo/c2300
@@ -10830,6 +10860,9 @@
 
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
 	NXP Javacard with Athena SCS OS (JavaCard)
+
+3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 35 07 73 FF A1 C0 3C
+	NXP JCOP 4, J3R200P0X3U/0ZA16CP NXD6.2 (JavaCard)
 
 3B DC 96 FF 81 B1 FE 43 1F C3 0B 46 41 52 45 47 4F 53 41 4D 56 32 CC
 	Multismartcard SAM (used in proprietary Scheidt&Bachmann Smartcard Reader v2)
@@ -12758,6 +12791,10 @@
 	Desjardins Bonus Visa credit card (Bank)
 	https://www.desjardins.com/ca/personal/loans-credit/credit-cards/bonus-visa/index.jsp
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 32 42 4E 07 90 00
+	Interact, Visa Debit Bank of Novia Scotia (Bank)
+	https://www.scotiabank.com/global/en/credit-card-terms-and-conditions.html
+
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
 
@@ -13549,6 +13586,9 @@
 
 3F 6D 00 00 80 31 80 65 B0 05 01 02 5E 92 00 90 00
 	Gemplus GemXpresso 32K
+
+3F 76 13 25 04 21 B0 11 4A 50 03
+	DSS/DTV F (P1; first generation access card) (Pay TV)
 
 3F 77 13 00 00 C1 14 00 A2 68 90 00
 	Boxer DTV Sweden (Pay TV)
