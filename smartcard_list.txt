@@ -2319,6 +2319,7 @@
 	Maestro debit card, issued by Caixa Geral de Depósitos (Bank)
 	https://www.cgd.pt/Particulares/Cartoes/Cartoes-de-Debito/Pages/Cartao-Debito-Cauxautomatica-Maestro.aspx
 	Crédit Agricole Bank Card - Bancomat / Maestro
+	Danske Bank Mastercard Debit
 
 3B 6B 00 00 00 31 C0 64 08 48 41 08 0F 90 00
 	Monizze card. Card use to pay only meal. (Other)
@@ -2336,6 +2337,7 @@
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 15 0F 90 00
 	VISA Debit card for HSBC, Australia
+	Danske Bank Mastercard Debit
 
 3B 6B 00 00 00 31 C0 64 1F 27 01 1C 07 90 00
 	Raiffeizen Bank, Russia, MasterCard paypass card (Bank)
@@ -2768,6 +2770,7 @@
 
 3B 6D 00 00 80 31 80 65 B0 89 40 01 F2 83 00 90 00
 	PSAM Card
+	Nordea Mastercard Card
 
 3B 6D 00 00 80 67 A1 11 01 01 64 08 55 83 0E 90 00
 	Italian Intesa SanPaolo Maestro
@@ -2868,7 +2871,7 @@
 	Barclays Visa DEBIT
 
 3B 6E 00 00 00 31 C0 65 BC D0 02 01 06 71 D6 8C 61 43
-	S-pankki (Finland) Visa Debit
+	S-Pankki (Finland) Visa Debit
 
 3B 6E 00 00 00 31 C0 65 BC D1 02 01 01 71 D6 8C 61 33
 	Travelex Cash Passport - Prepaid MasterCard Currency Card
@@ -3209,6 +3212,8 @@
 	Optelio Cards (D72 R4 WR)
 	Nordea (a Skandinavian bank) eID card
 	http://linux.fi/wiki/Nordea_eID
+	Nordea Mastercard card
+	Nordea Visa card
 	RBC Royal Bank Client Card (bank in Canada)
 	Banco Santander TUI/USC R7
 	Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard) (Bank)
@@ -3315,6 +3320,7 @@
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00
 	VISA card, issued by OP Financial Group, Finland (Bank)
+	VISA card, issued by S-Pankki, Finland (Bank)
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00
 	Visa credit card, issued by Klarna (Bank) (Bank)
