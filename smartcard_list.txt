@@ -63,6 +63,9 @@
 3B 02 14 1C
 	UAE (United Arab Emirates) (eID)
 
+3B 02 14 35
+	cartão cidadão (eID)
+
 3B 02 14 50
 	Schlumberger Multiflex 3k
 
@@ -3226,6 +3229,7 @@
 	"la Caixa" (Spain) (VISA Electron) debit card (Bank)
 	https://www.lacaixa.es/
 	Italian Webank.it BPM Banca Popolare di Milano Bancomat & Maestro Card (Bank)
+	Sberbank of Russia MIR debit card (Bank)
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -4193,6 +4197,10 @@
 	Lisboa VIVA - Lisbon public transport card (Transport)
 	https://www.portalviva.pt/
 
+3B 6F 00 00 80 5A 3C 06 08 14 01 01 C4 D5 22 FB 82 90 00
+	Navegant Perdonal Card  - Transportes Metropolitanos de Lisboa (Transport)
+	https://www.navegante.pt/
+
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 27 4A C8 90 82 90 00
 	Gemalto Celego G1 (Transport)
 
@@ -4230,6 +4238,10 @@
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C1 85 D4 7B 82 90 00
 	Navigo Liberté+ -- French (Paris region) transport card (Transport)
+
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 A4 0D 5F 82 90 00
+	"Pass Navigo Découverte" - Parisian transport card (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-decouverte
 
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
@@ -4644,6 +4656,10 @@
 
 3B 7A 97 00 00 80 65 B0 85 20 04 02 72 D6 4.
 	OMAN EID CARD (eID)
+
+3B 7A 97 00 00 80 65 B0 85 21 04 02 72 D6 41
+	Oman eID (eID) (eID)
+	https://idp.pki.ita.gov.om/
 
 3B 7B .. 00 00 80 62 0. 51 56 46 69 6E 45 49 44
 	Setec SetCOS 5.1.0
@@ -5447,6 +5463,10 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 85 04 01 20 F2 00 02 82 90 00
 	Health Insurance Institute of Slovenia - Professional Card Gen. 3 (HealthCare)
+
+3B 7F 96 00 00 80 31 80 65 B0 85 05 00 11 12 0F FF 82 90 00
+	LuxTrust card (Luxembourg qualified electronic signature / authentication system) (Other)
+	https://www.luxtrust.com/en/professionals/smartcard
 
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 C1 82 90 00
 	Gemalto USB (eID)
@@ -7568,6 +7588,7 @@
 	https://scouter.de/
 	DKV Euro Service +charge (Transport)
 	https://www.dkv-mobility.com/en/fuelling/fuel-card/dkv-card-charge/
+	Andante (Transport)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
@@ -7613,6 +7634,10 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 43 44 60 02 01 E4 EF
 	"Andante" Card, Porto (Portugal) metro card. (ISO14443 B CTS/CTM512B) (Transport)
 	http://www.transportespublicos.pt/en/glossary/andante-ticket-system/
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 FF B0 00 00 00 00 20
+	Chinese ID Card (eID)
+	https://en.wikipedia.org/wiki/Resident_Identity_Card
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 09 .. .. 00 00 00 00 ..
 	RFID - ISO 15693 Part 1 (as per PCSC std part3)
@@ -9100,6 +9125,9 @@
 	baicells sim card (Telecommunication)
 	http://www.baicells.com/
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE A1 1F 64 41 80 51 00 82 90 00 D6
+	AT&T SIM Card (Telecommunication)
+
 3B 9F 95 80 3F C3 A0 80 31 E0 73 FE 21 13 63 8D 43 42 83 F0 90 00 34
 	Taisys Java Csrd (Telecommunication)
 
@@ -9659,6 +9687,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 76 32 00 82 90 00 C4
 	T-Mobile SIM card issued April 2021 (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 04 01 00 82 6A 82 EC
+	SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -10883,6 +10914,10 @@
 3B DD 18 00 81 31 FE 45 90 4C 41 54 56 49 41 2D 65 49 44 90 00 8C
 	Identity card (eID) Republic of Latvia
 	http://www.pmlp.gov.lv/lv/pakalpojumi/passes/eid.html
+
+3B DD 18 FF 81 91 FE 1F C3 00 66 46 53 08 03 00 36 71 DF 00 00 80 68
+	Feitian FIDO NFC Plus K9 Security Key (Other)
+	https://www.ftsafe.com/products/FIDO/NFC
 
 3B DD 18 FF C0 80 B1 FE 45 1F C3 00 68 D2 76 00 00 28 04 04 11 00 90 00 C9
 	Russian Federation driver card for the digital tachograph
@@ -12796,6 +12831,9 @@
 	https://www.bbva.es/en/personas/productos/tarjetas/tarjeta-joven-ahora.html
 	Desjardins Bonus Visa credit card (Bank)
 	https://www.desjardins.com/ca/personal/loans-credit/credit-cards/bonus-visa/index.jsp
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
+	National Bank Debit Card with expiration date and cvv code (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 32 42 4E 07 90 00
 	Interact, Visa Debit Bank of Novia Scotia (Bank)
