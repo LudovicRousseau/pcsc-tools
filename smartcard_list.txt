@@ -1984,6 +1984,10 @@
 	Holvi Payment Master Card (Bank)
 	http://www.holvi.com
 
+3B 68 00 00 99 01 00 C1 03 04 22 01
+	Robinhood Debit  (Bank)
+	https://robinhood.com/us/en/
+
 3B 68 00 00 99 02 00 D1 03 04 22 01
 	N26 business debit card (Bank)
 	https://n26.com/en-de/business-account
@@ -2109,7 +2113,7 @@
 3B 69 00 02 41 43 4F 53 4A 76 31 30 31
 	ACOSJ 40K Dual Interface (JavaCard)
 
-3B 69 00 02 41 43 4F 53 4A 76 32 30 33
+3B 69 00 02 41 43 4F 53 4A 76 32 30 3.
 	ACS ACOSJ Java Card (JavaCard)
 	https://www.acs.com.hk/en/products/405/acosj-java-card-combi/
 
@@ -3201,6 +3205,10 @@
 3B 6E 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	Opencard, new card in Prague, Czech Republic (transport card)
 
+3B 6E 00 00 80 31 08 72 14 22 57 44 58 54 4B 4E 30 31
+	DX-Token (eID)
+	https://www.dexon.ind.br/produtos-dxtoken
+
 3B 6E 00 00 80 31 80 65 B0 03 01 01 5E 83 00 00 90 00
 	FirstUSA Visa
 
@@ -3282,12 +3290,19 @@
 3B 6E 00 FF 47 44 2D 47 50 2D 33 32 56 34 2D 44 45 53
 	Mastercard Ourocard Platinum from Banco do Brasil
 
+3B 6F 00 00 00 00 4A 30 0A 86 45 4A 5A 23 10 44 43 33 30
+	Personal Card (eID)
+
 3B 6F 00 00 00 31 C0 68 43 53 50 45 4D 56 03 00 07 90 00
 	SOCCARDRT (HealthCare)
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 41 44 32 31 00 90 00
 	Debit Card for Santander Universidades PT (Bank)
 	https://www.santander.pt/pt_PT/Particulares/Universitarios.html
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 41 44 35 30 00 90 00
+	Discover Cashback Debit (Bank)
+	https://www.discover.com/online-banking/
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 41 4D 33 47
 	CHASE DEBIT VISA (JavaCard)
@@ -4300,6 +4315,9 @@
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 49 78 9C 82 90 00
 	MOBIB basic (Transport)
 	http://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en#contentBodyList1
+
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 5A 86 3C 82 90 00
+	mobib transportation card (Transport)
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 74 8A 25 82 90 00
 	Mobib (Brussels transport card) for the STIB-MIVB network (Transport)
@@ -6422,6 +6440,9 @@
 3B 8A 80 01 00 64 05 76 02 03 31 80 90 00 3C
 	T-System Contactless TCOS Min
 
+3B 8A 80 01 43 32 33 30 30 2D 46 49 50 53 68
+	Crescendo 2300 FIPS (contactless interface) (PKI)
+
 3B 8A 80 01 4A 33 41 30 38 31 56 32 34 31 6B
 	NXP JCOP CJ3A081 (NFC) (JavaCard)
 	NXP JCOP 80K - J3A081V241
@@ -6643,6 +6664,10 @@
 
 3B 8C 80 01 04 43 FD .. .. .. .. .. .. .. .. .. ..
 	RFID - NFC Forum tag type 3 (FeliCa)
+
+3B 8C 80 01 0C 75 77 80 02 C1 05 2F 2F 00 35 C7 B7
+	Mifare Plus S (Other)
+	https://www.nxp.com/products/no-longer-manufactured/mifare-plus-s-2k-4k:MIFARE_PLUS_S_2K_4K
 
 3B 8C 80 01 4F 54 49 44 28 94 B3 C0 01 00 90 00 45
 	Belgian passport (2009-2013)
@@ -7597,6 +7622,10 @@
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 68
 	RFID - ISO 14443 Type A - NXP Mifare Ultralight or UltralightC
+	Tempmate S1 Data Logger (Other)
+	https://www.tempmate.com/
+	prepaid bus card (Transport)
+	https://www.t-l.ch/abos-billets/billets/carte-prepayee
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 FF 00 00 00 00 94
 	ACTV (Italy) prepaid transport ticket
@@ -8326,6 +8355,9 @@
 	Vodafone Hungary SIM Card (Telecommunication)
 	http://vodafone.hu
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 7C 0F 00 D0
+	Cricket SIM card (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 8C 12 00 3D
 	Telkomsel SIM card (Telecommunication)
 	https://www.telkomsel.com/en/kartu-as
@@ -8619,6 +8651,10 @@
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 73 15 00 3A
+	Twilio Super SIM (Telecommunication)
+	https://www.twilio.com/iot/super-sim-card
 
 3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
 	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
@@ -9283,6 +9319,9 @@
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 03 22 01 21 01 00 87
 	Rain 4G 5G Internet Service provider  (Telecommunication)
 	https://www.rain.co.za
+
+3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 03 22 01 21 02 00 84
+	T-Mobile Sim Card (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 11 63 3F 01 11 83 07 90 00 E4
 	VR-Bank VRNetworld HBCI Card (Bank)
@@ -10711,6 +10750,9 @@
 3B DA 96 FF 81 31 FE 45 80 56 31 B8 53 49 43 41 81 05 7B
 	STARCOS 3.5 ID ECC C1R (PKI)
 	https://www.gi-de.com/fileadmin/user_upload/MS/Certificates/STARCOS35_ID_ECC_TABLES.pdf
+
+3B DA 96 FF 81 91 FE 1F C3 43 32 33 30 30 2D 46 49 50 53 E2
+	Crescendo 2300 FIPS (JavaCard)
 
 3B DA 96 FF 81 B1 FE 45 1F 07 80 58 49 43 41 20 56 32 2E 30 E9
 	Starcos chip card from Giesecke & Devrient  (PKI)
@@ -12538,6 +12580,10 @@
 3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 A1 C5 00 90 00
 	IBKR Prepaid MasterCard, Issued by Peoples Trust Company (Bank)
 	https://www.interactivebrokers.com/en/index.php?f=26451
+
+3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 A1 D5 00 90 00
+	PayPal Business Debit Mastercard (Bank)
+	https://www.paypal.com/merchantapps/appcenter/makepayments/bdmc
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
