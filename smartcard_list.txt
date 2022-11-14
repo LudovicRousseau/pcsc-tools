@@ -2433,6 +2433,13 @@
 	American Express UK Euro ICC charge card (Bank)
 	https://www.americanexpress.com/icc/cards/the-basic-international-currency-card.html
 
+3B 6B 00 00 00 31 C1 64 08 98 62 00 07 90 00
+	EquaBank Master Card (Bank)
+	https://equabank.cz
+
+3B 6B 00 00 00 31 C1 64 08 98 62 00 0F 90 00
+	NovaKBM Visa Debit (Bank)
+
 3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
 	Sodexo Czech Gastro/Multipass (Other)
 	https://www.sodexo.cz/
@@ -5403,6 +5410,10 @@
 	CERES Spanish SmartCard from the "Fabrica Nacional de Moneda y Timbre" (FNMT) (eID)
 	http://www.cert.fnmt.es/
 
+3B 7F 96 00 00 00 6A 54 49 46 33 00 01 01 55 04 22 03 90 00
+	DNIe Spain (eID)
+	https://www.dnielectronico.es/PortalDNIe/
+
 3B 7F 96 00 00 00 B8 54 31 10 07 90 00 00 00 00 00 00 00 00
 	Mastercard  (Bank)
 
@@ -6114,6 +6125,10 @@
 3B 88 80 01 30 AB AB 01 77 81 B7 00 79
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 
+3B 88 80 01 31 01 09 00 00 00 00 00 30
+	Indonesian Electronic Driving License (e-SIM) (Other)
+	https://polri.go.id/sim, https://www.digitalkorlantas.id/sim/
+
 3B 88 80 01 31 CC CC 01 77 81 C1 00 0E
 	Ideal v 1.4 (Transport)
 
@@ -6439,6 +6454,10 @@
 
 3B 8A 80 01 00 64 05 76 02 03 31 80 90 00 3C
 	T-System Contactless TCOS Min
+
+3B 8A 80 01 30 37 39 31 34 31 5F 30 30 31 6F
+	Electronic Citizen Identity Card (e-ID Card) (eID)
+	https://www.e-ktp.com/
 
 3B 8A 80 01 43 32 33 30 30 2D 46 49 50 53 68
 	Crescendo 2300 FIPS (contactless interface) (PKI)
@@ -6767,6 +6786,10 @@
 	Paris transportation card (Pass Navigo) (Transport)
 	https://fr.wikipedia.org/wiki/Passe_Navigo
 
+3B 8C 80 01 50 27 52 31 81 00 00 00 00 00 71 81
+	Calypso (Transport)
+	https://www.innovatron.fr/CalypsoFuncSpecification.pdf
+
 3B 8C 80 01 50 27 B1 F7 6B 00 00 00 00 00 71 71 57
 	Navigo (public transportation in Île-de-France), IDF Mobilités (Transport)
 	https://www.iledefrance-mobilites.fr/l-innovation/navigo/
@@ -6948,6 +6971,10 @@
 3B 8C 80 01 50 C3 26 AF 0C 00 00 00 00 00 71 71 1B
 	Navigo Mobility Paris transport's Card (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/liste?d=forfaits
+
+3B 8C 80 01 50 C4 14 66 C3 00 00 00 00 00 71 71 28
+	Navigo easy (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
 
 3B 8C 80 01 50 C7 25 1C 5A 00 00 00 11 F7 81 81 1F
 	MOBIB Belgian public transport Card (Transport)
@@ -7349,6 +7376,9 @@
 3B 8F 80 01 56 69 6E 50 61 79 53 79 73 20 50 75 72 73 65 2F
 	JCOP (Other)
 
+3B 8F 80 01 80 31 80 65 49 54 4A 34 42 12 0F FF 82 90 00 8B
+	Identity Card (eID)
+
 3B 8F 80 01 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00 ..
 	IDPrime MD 3810 T=Contactless (Prox DU)
 
@@ -7378,6 +7408,10 @@
 3B 8F 80 01 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00 4D
 	Finnish electronic identity card (eID)
 	https://vrk.fi/en/electronic-identity-and-certificates
+
+3B 8F 80 01 80 31 D8 65 B0 85 05 00 11 12 75 20 82 90 00 76
+	Swedish national ID card (eID)
+	https://polisen.se/en/services-and-permits/passport-and-national-id-card/check-validity-online-for-passports-and-national-id-cards/
 
 3B 8F 80 01 80 31 E0 6B 04 21 05 02 72 55 55 55 55 55 55 64
 	Banamex/Citi Bank Bsmart MasterCard Paypass (Bank)
@@ -8216,6 +8250,10 @@
 
 3B 9E 94 80 1F 47 80 31 E0 73 BE 21 13 66 86 88 82 18 39 42 F5
 	China Unicom 128K Mini USIM (Telecommunication)
+
+3B 9E 94 80 1F 47 80 31 E0 73 FE 21 13 66 86 88 02 12 65 32 13
+	MTS Moscow (Russia) SIM card (Telecommunication)
+	https://moskva.mts.ru/personal
 
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
