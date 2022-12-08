@@ -4723,7 +4723,8 @@
 	https://github.com/OpenSC/OpenSC/wiki/Finnish-FINEID
 
 3B 7B 94 00 00 80 62 1[12] 51 56 46 69 6E 45 49 44
-	Finnish Electronic ID card (fineid card www.fineid.fi)
+	Finnish Electronic ID card for persons (Former FINeID card)
+	https://dvv.fi/en/citizen-certificate-and-electronic-identity
 
 3B 7B 94 00 00 80 65 52 16 07 86 53 83 00 90 00
 	Truemove H Thailand (Telecommunication)
