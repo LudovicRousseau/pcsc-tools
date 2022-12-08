@@ -4720,7 +4720,7 @@
 3B 7B 18 00 00 80 62 01 54 56 46 69 6E 45 49 44
 	FineID identity card for organizations
 	http://fineid.fi/default.aspx?id=491
-	http://www.opensc-project.org/opensc/wiki/FinnishEid
+	https://github.com/OpenSC/OpenSC/wiki/Finnish-FINEID
 
 3B 7B 94 00 00 80 62 1[12] 51 56 46 69 6E 45 49 44
 	Finnish Electronic ID card (fineid card www.fineid.fi)
