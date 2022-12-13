@@ -165,6 +165,10 @@
 3B 04 2A FF 32 00
 	Mac Gray Intelligent Laundry Systems laundry card
 
+3B 04 37 E4 09 EC
+	prepaid payphone card, issued by Deutsche Telekom "Telefonkarte Comfort als klassische Karte" (Other)
+	https://tkc.telekom-dienste.de/
+
 3B 04 41 11 77 81
 	Sample Mifare DESFire contactless smartcard from Phillips
 
@@ -484,6 +488,9 @@
 
 3B 16 95 D0 01 6C FD 0D 00
 	Virgin Mobile SIM card (SIM)
+
+3B 16 95 D0 01 7B 01 0E 00
+	Vivo Brasil - SIM Card (Telecommunication)
 
 3B 16 95 D0 01 7B DA 0D 00
 	Verizon GSM SIM (Telecommunication)
@@ -5158,6 +5165,9 @@
 	Visa Infinite issued by Banco do Brasil (www.bb.com.br)
 	Manufactured by Giesecke & Devrient (G&D www.gi-de.com)
 
+3B 7F 13 00 00 80 31 C0 52 13 07 64 02 B3 02 37 83 83 90 00
+	Banco do Brasil ELO Debito (Brazil) (Bank)
+
 3B 7F 13 00 00 80 31 C0 52 13 0B 64 02 B3 02 37 83 83 90 00
 	Visa Ourocard Platinum from Banco do Brasil
 
@@ -5503,6 +5513,10 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 05 00 11 12 0F FF 82 90 00
 	LuxTrust card (Luxembourg qualified electronic signature / authentication system) (Other)
 	https://www.luxtrust.com/en/professionals/smartcard
+
+3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 68 82 90 00
+	qualified certificate (eID)
+	https://www.elektronicznypodpis.pl/en/offer/qualified-certificates/
 
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 C1 82 90 00
 	Gemalto USB (eID)
@@ -5931,6 +5945,9 @@
 
 3B 87 80 01 80 31 98 73 84 01 E0 39
 	Austrian Passport
+
+3B 87 80 01 80 31 98 73 86 01 E0 3B
+	German passport (passport)
 
 3B 87 80 01 80 31 B8 73 84 01 E0 19
 	Personalausweis (German Identity Card) (eID)
@@ -7316,6 +7333,10 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00 F9
 	Ukrainian International resere bank (ex Sberbak RF) debit card (Bank)
 	https://www.sbrf.com.ua/
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00 8B
+	S-Etukortti Visa (Bank)
+	https://www.s-pankki.fi/fi/s-etukortti-visa
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00 89
 	SpareBank Visa Card, Norway (Bank)
@@ -8712,6 +8733,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A D9 13 00 E2
 	sim (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A E8 13 00 D3
+	Twilio Super SIM card (Telecommunication)
+	https://www.twilio.com/iot/super-sim-card
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
 	4G-LTE (Telecommunication)
@@ -12152,6 +12177,7 @@
 	https://www.labanquepostale.fr/
 	bnpparibas (Bank)
 	http://www.bnpparibas.com/
+	Jcop040 (JavaCard)
 
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
@@ -12402,6 +12428,10 @@
 3B FA 18 00 00 81 31 FE 45 4A 33 41 30 38 31 56 32 34 31 89
 	NXP JCOP CJ3A081
 	http://www.usmartcards.com/media/downloads/492/NXP%20P5CX012%2002X%2040%2073%2080%20144%20%20%202011.pdf
+
+3B FA 18 00 00 81 31 FE 45 4A 33 44 30 38 31 56 32 34 32 8F
+	AustriaCard Dual Interface Unpersonalized EMV Cards  (Bank)
+	https://www.austriacard.com
 
 3B FA 18 00 00 81 31 FE 45 4A 43 4F 50 34 31 56 32 32 31 9D
 	NXP JCOP 41 v2.2.1 72k SmartCard I/F
@@ -13526,6 +13556,9 @@
 	French National Identity Card (eID) (eID)
 	https://www.interieur.gouv.fr/actualites/actu-du-ministere/nouvelle-carte-nationale-didentite
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
+	debit card (Bank)
+
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
 
@@ -13720,6 +13753,9 @@
 
 3F 69 00 00 24 AF 01 70 01 01 FF 90 00
 	French GSM SIM card (900MHz)
+
+3F 69 00 00 25 AF 01 70 01 03 FF 90 00
+	French Gift Card (Loyalty)
 
 3F 6A 00 00 00 64 01 50 01 0C 82 01 01 A9
 	Credit Card café Selecta
