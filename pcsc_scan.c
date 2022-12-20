@@ -297,7 +297,6 @@ static void initialize_options(options_t *options, const char *pname)
 	options->analyse_atr = True;
 #endif
 	options->stress_card = False;
-	options->print_version = False;
 	options->maxtime = 0;
 	options->verbose = True;
 	options->only_list_readers = False;
@@ -332,7 +331,8 @@ static int parse_options(int argc, char *argv[], options_t *options)
 				break;
 
 			case 'V':
-				options->print_version = True;
+				print_version();
+				exit(EX_OK);
 				break;
 
 			case 'v':
@@ -506,10 +506,9 @@ int main(int argc, char *argv[])
 	{
 		exit(EX_USAGE);
 	}
-	if (Options.print_version)
+	if (Options.verbose)
 	{
 		print_version();
-		exit(EX_OK);
 	}
 
 #ifdef WIN32
