@@ -311,6 +311,13 @@ static void initialize_options(options_t *options, const char *pname)
 #define OPTIONS OPTIONS_BASE "n"
 #endif
 
+static void print_version(void)
+{
+	printf("PC/SC device scanner\n");
+	printf("V %s (c) 2001-2018, Ludovic Rousseau <ludovic.rousseau@free.fr>\n",
+			PACKAGE_VERSION);
+}
+
 static int parse_options(int argc, char *argv[], options_t *options)
 {
 	const char *pname = argv[0];
@@ -471,13 +478,6 @@ static void print_readers(const char **readers, int nbReaders)
 	{
 		printf("%s%d: %s%s\n", blue, i, readers[i], color_end);
 	}
-}
-
-static void print_version(void)
-{
-	printf("PC/SC device scanner\n");
-	printf("V %s (c) 2001-2018, Ludovic Rousseau <ludovic.rousseau@free.fr>\n",
-			PACKAGE_VERSION);
 }
 
 int main(int argc, char *argv[])
