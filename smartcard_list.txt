@@ -5454,6 +5454,10 @@
 3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 0F FE 82 90 00
 	Gemalto IDPrime MD
 
+3B 7F 96 00 00 80 31 80 65 B0 84 41 3D F6 12 FF FE 82 90 00
+	THALES IDCore 30 B (JavaCard)
+	https://cpl.thalesgroup.com/access-management/idcore-java-card
+
 3B 7F 96 00 00 80 31 80 65 B0 84 53 4C 0F 12 03 7B 82 90 00
 	Serbian International Student Identity Card (ISIC) (eID)
 	https://www.gpa.rs/kartice
@@ -7894,6 +7898,10 @@
 3B 90 96 81 11 FE 68
 	Xirka (eID)
 
+3B 90 96 91 81 B1 FE 55 1F C7 D4
+	iClass SE Processor (Other)
+	https://www.hidglobal.com/products/embedded-modules/iclass-se/sio-processor
+
 3B 91 94 80 1F 03 23 BA
 	China black(COS) SIM, does not support clock stop
 
@@ -10260,6 +10268,9 @@
 	UAE Emirates ID (eID)
 	https://www.icp.gov.ae
 
+3B B8 97 00 C0 08 31 FE 45 FF FF 14 82 30 50 23 00 B8
+	Infineon SECORA ID X (JavaCard)
+
 3B B9 18 00 81 31 FE 9E 80 73 FF 61 40 83 00 00 00 DF
 	Serbian Identity Card
 	This is the new Serbian biometric identity card (every adult cityzen
@@ -10723,6 +10734,7 @@
 
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F9
 	NASA Personal Identity Verification (PIV) card (eID)
+	IDEMIA Cosmo V8.0 with a PIV applet
 
 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52 11 19 F8
 	Secure badge (PKI)
@@ -10736,6 +10748,7 @@
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 41 1A 2B
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
+	IDEMIA Cosmo V8.1 with a PIV applet
 
 3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F DF
 	US DoD Common Access Card (IDEMIA Cosmo v8) (PKI)
@@ -10838,6 +10851,14 @@
 
 3B DA 95 00 40 0A 25 08 00 40 53 43 4F 53 54 41
 	Card used for issuing commodity to benificiary for rice, wheat and more (Other)
+
+3B DA 96 FF 80 31 FE 45 4D 69 6E 69 4C 6F 61 64 65 72 AB
+	iClass SE Processor (Miniloader Mode) (Other)
+	https://www.hidglobal.com/products/embedded-modules/iclass-se/sio-processor
+
+3B DA 96 FF 80 31 FE 45 53 6E 6D 70 4C 6F 61 64 65 72 A8
+	iClass SE Processor (SNMP Loader Mode) (Other)
+	https://www.hidglobal.com/products/embedded-modules/iclass-se/sio-processor
 
 3B DA 96 FF 81 31 FE 45 80 56 31 B8 53 49 43 41 81 05 7B
 	STARCOS 3.5 ID ECC C1R (PKI)
@@ -11212,6 +11233,10 @@
 3B DF 18 FF 81 F1 FE 43 00 3F 07 83 4D 49 46 41 52 45 20 53 41 4D 20 41 56 33 30 11
 	NXP SAM AV3 module
 
+3B DF 18 FF 91 01 31 FE 46 80 31 90 52 41 02 64 05 02 00 AC 73 D6 22 C0 99
+	Acos-ID (AUSTRIACARD’s Operating System) (Other)
+	https://www.austriacard.com/digital-security/solutions/card-solutions/acos-id/
+
 3B DF 94 FF C0 80 B1 FE 45 1F 03 00 6A D2 76 00 00 28 04 15 FA 10 04 00 90 00 6B
 	UK Digital Tacho card (Other)
 
@@ -11275,6 +11300,14 @@
 3B DF 96 FF 81 31 FE 45 80 5B 44 45 2E 42 4E 4F 54 4B 31 30 30 81 05 A0
 	BeA - Certification Card for German Solicitors (Other)
 	https://bea.bnotk.de/
+
+3B DF 96 FF 81 B1 FE 45 1F 87 00 31 B9 64 09 37 72 13 73 84 01 E0 00 00 00 00
+	National Identity Card of Slovakia (eID) (eID)
+	https://en.wikipedia.org/wiki/Slovak_identity_card
+
+3B DF 96 FF 91 01 31 FE 46 80 31 90 52 41 02 64 05 02 00 AC 73 D6 22 C0 17
+	Acos-ID (AUSTRIACARD’s Operating System) (Other)
+	https://www.austriacard.com/digital-security/solutions/card-solutions/acos-id/
 
 3B DF 97 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 21
 	Austrian healthcare insurance identification card (HealthCare)
@@ -12337,6 +12370,9 @@
 3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 47 43 4E 33 5E
 	Serbian Identity Card (eID)
 
+3B F9 96 00 00 80 31 FE 45 53 43 45 37 20 47 4E 33 5E
+	Serbian Identity Card (eID)
+
 3B F9 96 00 00 81 31 FE 45 45 4F 4E 43 61 72 64 56 31 73
 	eONCard V1 (PKI)
 
@@ -13066,6 +13102,9 @@
 	health card (HealthCare)
 	https://tscns.regione.sardegna.it/
 
+3B FF 18 00 00 81 31 FE 45 00 6B 05 05 91 20 01 F1 01 43 4E 53 10 31 80 38
+	Italian Health Card (TS) and Citizen's Card (CNS) based on IDEMIA ID-One CNS v2 on Cosmo 9.1 (HealthCare)
+
 3B FF 18 00 00 81 31 FE 45 00 6B 11 05 07 00 01 11 01 43 4E 53 11 31 80 7B
 	Italian National Fire Corps  -special identification card (eID)
 
@@ -13544,6 +13583,10 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00 D0
 	Portuguese National Identity Card (eID) (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
+
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 0F FC 82 90 00 02
+	THALES SafeNet IDPrime 3940 Fido (PKI)
+	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
 
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
