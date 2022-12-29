@@ -130,6 +130,11 @@ Licences:
 History:
 ========
 
+1.6.1 - 30 December 2022, Ludovic ROUSSEAU
+    - 196 new ATRs
+    - use colors on NetBSD ("wsvt25" terminal)
+    - pcsc_scan: always print the version in verbose mode
+
 1.6.0 - 29 January 2022, Ludovic ROUSSEAU
     - 48 new ATRs
     - pcsc_scan:
