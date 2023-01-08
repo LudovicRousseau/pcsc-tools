@@ -2250,6 +2250,9 @@
 	Portuguese National Identity Card (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
 
+3B 6B 00 00 00 31 C0 64 08 04 61 14 07 90 00
+	Belarusbank VISA credit card (Belarus) (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 04 61 20 07 90 00
 	AMEX Bank DI Card (Bank)
 
@@ -2575,6 +2578,9 @@
 
 3B 6C 00 00 80 66 B1 A3 04 01 11 0B 83 00 90 00
 	NAVY F.C.U. (JavaCard)
+
+3B 6C 00 00 80 66 B1 A3 30 40 11 10 B8 30 09 00
+	Visa debit  (Bank)
 
 3B 6C 00 02 36 61 86 38 4B 8C 13 04 62 03 59 8A
 	Nagravision, Swiss mode
@@ -5878,6 +5884,12 @@
 	WWPass Passkey (eID)
 	https://www.wwpass.com/passkey
 
+3B 86 80 01 80 31 C1 52 11 18 2C
+	IDEMIA Cosmo V8.0 with a PIV applet (contactless) (PKI)
+
+3B 86 80 01 80 31 C1 52 41 1A 7E
+	IDEMIA Cosmo V8.1 with a PIV applet (contactless) (PKI)
+
 3B 86 80 01 80 54 04 10 01 0F C9
 	Nickel.eu prepaid account (Bank)
 	https://nickel.eu
@@ -6242,6 +6254,9 @@
 3B 88 80 01 D1 03 86 05 00 80 80 00 58
 	Resident Identity Card of People Republic of China (Second Generation with RF Feature) (eID)
 	http://www.gov.cn/banshi/2005-08/02/content_19457.htm
+
+3B 88 80 01 E1 68 6C 17 77 83 95 00 9A
+	Algerian ID card  (eID)
 
 3B 88 80 01 E1 E1 F3 5E 13 77 83 00 43
 	ePerso - German ID card (issued 2011) (eID)
@@ -8959,6 +8974,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 07 86 98 62 18 8E
 	OYEITIMES MCR3516 SIM Card (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 09 86 98 62 18 80
+	Oyeitimes 5G ISIM R16 (Telecommunication)
+	https://www.oyeitimes.com/detail.php?id=535&ids=565&idt=&ide=&dd=1410
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 86 85 06 86 98 42 18 AB
 	4G LTE blank USIM Green Card (Telecommunication)
 	http://grcard.en.alibaba.com/product/60076835567-209365843/4G_LTE_blank_usim_card_for_4G_network.html
@@ -9531,6 +9550,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 02 01 00 A0
 	vivo (Other)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 46 01 49 01 00 8A
+	T-Mobile Poland pre-paid SIM card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
@@ -10958,6 +10980,10 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 0F 90 00 0D
 	ID-One PIV (that's the only non-numeric identifying mark) (PKI)
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 BA FC 10 00 07 90 00 0F
+	Oberthur ID-One Cosmo v7.0 80K (eID)
+	https://www.ssi.gouv.fr/uploads/IMG/certificat/ANSSI-CC-cible_2011-64en.pdf
+
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 BE 1B 01 00 01 90 00 FB
 	Bank card
 
@@ -11030,6 +11056,9 @@
 3B DC 18 FF 81 91 FE 1F C3 06 0A 2B 06 01 04 01 E9 10 05 02 03 D1
 	Caregiver card for Dutch Medical System called UZI (Unieke Zorgverlener Identificatie, Caring Unique Identification) (HealthCare)
 	https://www.uziregister.nl/
+
+3B DC 18 FF 81 91 FE 1F C3 06 0A 2B 06 01 04 01 E9 10 05 02 04 D6
+	UZI (HealthCare)
 
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 01 06 01 30 04 01 55
 	Athena IDProtect Key Laser
@@ -13102,6 +13131,10 @@
 	health card (HealthCare)
 	https://tscns.regione.sardegna.it/
 
+3B FF 18 00 00 81 31 FE 45 00 6B 05 05 20 00 01 F1 01 43 4E 53 10 31 80 A9
+	national health service card (HealthCare)
+	https://ca.arubapec.it/downloads/MU_LINUX.zip
+
 3B FF 18 00 00 81 31 FE 45 00 6B 05 05 91 20 01 F1 01 43 4E 53 10 31 80 38
 	Italian Health Card (TS) and Citizen's Card (CNS) based on IDEMIA ID-One CNS v2 on Cosmo 9.1 (HealthCare)
 
@@ -13598,6 +13631,9 @@
 3B FF 96 00 00 C0 0A 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 AB
 	French National Identity Card (eID) (eID)
 	https://www.interieur.gouv.fr/actualites/actu-du-ministere/nouvelle-carte-nationale-didentite
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 07 09 E0 F9 02 00 61
+	Sparkasse Ingolstadt (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
