@@ -15,6 +15,7 @@ pcscdir = $(datarootdir)/pcsc
 man_MANS = pcsc_scan.1 $(PERL_MANPAGES)
 
 EXTRA_DIST = Changelog $(PERL_BINS) $(PERL_MANPAGES) $(pcsc_DATA) \
+	LICENCE \
 	gscriptor.desktop test.script
 
 Changelog:
