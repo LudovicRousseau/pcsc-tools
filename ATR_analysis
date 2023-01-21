@@ -249,7 +249,7 @@ sub update_smartcard_list($$)
 
 		if ($^O =~ "darwin")
 		{
-			system("curl $url --output $file");
+			system("curl --silent --show-error $url --output $file");
 		}
 		else
 		{
