@@ -249,11 +249,11 @@ sub update_smartcard_list($$)
 
 		if ($^O =~ "darwin")
 		{
-			system("curl --silent --show-error $url --output $file");
+			system("curl --silent --show-error --user-agent 'ATR_analysis curl' $url --output $file");
 		}
 		else
 		{
-			system("wget --quiet $url --output-document=$file ; touch $file");
+			system("wget --quiet $url --user-agent='ATR_analysis wget' --output-document=$file ; touch $file");
 		}
 
 		# did an update
