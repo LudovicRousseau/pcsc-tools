@@ -270,7 +270,7 @@ if ($found == 1)
 {
 	# ATR not found
 	my $file = $SMARTCARD_LIST[0];
-	my $url = "http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt";
+	my $url = "https://pcsc-tools.apdu.fr/smartcard_list.txt";
 
 	# update the ATR list
 	if (update_smartcard_list($file, $url))
