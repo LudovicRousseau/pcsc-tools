@@ -5545,8 +5545,15 @@
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
 
+3B 7F 96 00 80 31 80 65 B0 84 41 3D F6 12 00 4C 82 90 00
+	Black (PKI)
+	https://certificadodigital.imprensaoficial.com.br
+
 3B 7F 97 00 00 00 31 C1 73 C8 21 10 64 57 53 34 30 00 90 00
 	PNC Bank VISA card (Bank)
+
+3B 7F 97 00 00 80 31 80 65 B0 84 66 69 39 12 FF FE 82 90 00
+	IDCore3230 build 6.8, test APDU applet (JavaCard)
 
 3B 7F 98 00 00 80 5A 07 04 04 00 01 02 02 84 58 F2 82 90 00
 	Mobili'carte (Angoulême mobility services card) (Transport)
@@ -6649,6 +6656,9 @@
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 	http://www.salute.gov.it/portale/lea/dettaglioContenutiLea.jsp?lingua=italiano&id=4693&area=Lea&menu=leaEssn
 
+3B 8B 80 01 00 31 C1 64 08 98 62 00 00 90 00 FC
+	ERSTE Bank creditcard (mastercard) (Bank)
+
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
 	SmartMX (Other)
 
@@ -7329,6 +7339,9 @@
 
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 82 90 00 0E
 	Contactless CPS v3 Card (Carte de Professionnel de Santé)
+
+3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 FF FF FF E3
+	Card used in public French hospital (Other)
 
 3B 8F 80 01 00 31 C1 73 C8 00 10 64 57 49 49 43 00 90 00 B5
 	ICC Solutions Card for Certification (Other)
@@ -12240,6 +12253,8 @@
 	bnpparibas (Bank)
 	http://www.bnpparibas.com/
 	Jcop040 (JavaCard)
+	Visa debit classic (Bank)
+	http://www.jpmorganchase.com/
 
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
@@ -13610,6 +13625,9 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0C
 	IDPrime 930 FIPS Level 2 (T=1 CT=96) (BAI3.1) (PKI)
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 66 69 FB 12 FF FE 82 90 00 F1
+	IDCore3230 build 6.8, test APDU applet (JavaCard)
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 E0
 	Pakistan National identity card (eID)
 
@@ -13631,6 +13649,9 @@
 3B FF 96 00 00 C0 0A 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 AB
 	French National Identity Card (eID) (eID)
 	https://www.interieur.gouv.fr/actualites/actu-du-ministere/nouvelle-carte-nationale-didentite
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
+	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 07 09 E0 F9 02 00 61
 	Sparkasse Ingolstadt (Bank)
@@ -13665,6 +13686,9 @@
 
 3B FF 97 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0D
 	IDPrime 3930 FIPS Level 3 (T=1 CT=97) (BAI6) (PKI)
+
+3B FF 97 00 00 81 31 FE 43 80 31 80 65 B0 84 66 69 39 12 FF FE 82 90 00 32
+	IDCore3230 build 6.8, test APDU applet (JavaCard)
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
