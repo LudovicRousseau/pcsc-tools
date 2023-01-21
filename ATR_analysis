@@ -46,7 +46,7 @@ use Chipcard::PCSC::Card;
 use File::stat;
 
 # default value for XDG_CACHE_HOME
-# http://standards.freedesktop.org/basedir-spec/basedir-spec-latest.html
+# https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html
 my $Cache = "$ENV{HOME}/.cache";
 
 # check if XDG_CACHE_HOME env variable is set
