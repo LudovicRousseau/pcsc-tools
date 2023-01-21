@@ -101,7 +101,7 @@ getopts("vh");
 
 if ($opt_v)
 {
-	print "Version: 1.7, (c) 2002-2023, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
+	print "Version: 1.8, (c) 2002-2023, Ludovic Rousseau <ludovic.rousseau\@free.fr>\n";
 	print "This software is free software (GNU General Public License)\n";
 	exit;
 }
