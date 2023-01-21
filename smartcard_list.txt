@@ -22,7 +22,7 @@
 # The list is sorted for edition purposes
 #
 # You can get the latest version of this file from:
-# http://ludovic.rousseau.free.fr/softwares/pcsc-tools/smartcard_list.txt
+# https://pcsc-tools.apdu.fr/smartcard_list.txt
 #
 
 # syntax:
