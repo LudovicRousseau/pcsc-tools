@@ -91,9 +91,9 @@ The tools provided are:
 You will need the package pcsc-perl [3] to be able to use scriptor and
 gscriptor.
 
-[1] http://pcsclite.alioth.debian.org/
-[2] http://linuxnet.com/
-[3] http://ludovic.rousseau.free.fr/softwares/pcsc-perl/
+[1] https://pcsclite.apdu.fr/
+[2] https://muscle.apdu.fr/
+[3] https://pcsc-perl.apdu.fr/
 
 
 Authors:
