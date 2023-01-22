@@ -3,9 +3,9 @@ pcsc-tools
 
 Project home page
 -----------------
-http://ludovic.rousseau.free.fr/softwares/pcsc-tools/
+https://pcsc-tools.apdu.fr/
 
-To get a ``.tar.bz2`` archive of the project please go to http://ludovic.rousseau.free.fr/softwares/pcsc-tools/
+To get a ``.tar.bz2`` archive of the project please go to https://pcsc-tools.apdu.fr/
 
 Source code
 -----------
