@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.6.2 - 22 January 2023, Ludovic ROUSSEAU
+    - 18 new ATRs
+    - smartcard_list.txt moved to https://pcsc-tools.apdu.fr/smartcard_list.txt
+
 1.6.1 - 30 December 2022, Ludovic ROUSSEAU
     - 196 new ATRs
     - use colors on NetBSD ("wsvt25" terminal)
