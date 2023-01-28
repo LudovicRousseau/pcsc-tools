@@ -9,17 +9,16 @@ ATR_analysis \- analyse a smart card ATR
 is used to parse the ATR (Answer To Reset) sent by a smart card.
 .P
 The command also tries to find the card model using an ATR database
-stored in a text file
+stored in a text file called
 .IR smartcard_list.txt .
 
 The
 .I smartcard_list.txt
 file is searched in 
-.IR ./ ,
-.I /usr/local/pcsc/
+.IR $XDG_CACHE_HOME/smartcard_list.txt ,
+.I $HOME/.smartcardlist.txt
 and
-.I /usr/share/pcsc/
-directories.
+.IR @pcsc_dir@/smartcard_list.txt .
 .P
 Example:
  $ ATR_analysis '3B A7 00 40 18 80 65 A2 08 01 01 52'

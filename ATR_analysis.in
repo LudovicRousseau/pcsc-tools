@@ -56,7 +56,7 @@ if (exists($ENV{XDG_CACHE_HOME}))
 }
 
 # file containing the smart card models
-my @SMARTCARD_LIST = ( "$Cache/smartcard_list.txt", "$ENV{HOME}/.smartcard_list.txt", "/usr/local/pcsc/smartcard_list.txt", "/usr/share/pcsc/smartcard_list.txt", "/usr/local/share/pcsc/smartcard_list.txt");
+my @SMARTCARD_LIST = ( "$Cache/smartcard_list.txt", "$ENV{HOME}/.smartcard_list.txt", "@pcsc_dir@/smartcard_list.txt");
 
 our ($opt_v, $opt_h);
 my ($atr, %TS, @Fi, @FMax, @Di, @XI, @UI, $T, $value, $counter, $line, $TCK);

@@ -61,6 +61,10 @@ CPPFLAGS="$saved_CPPFLAGS"
 dnl Checks for header files.
 AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h sys/time.h)
 
+# Substitute
+AX_RECURSIVE_EVAL($datarootdir, datarootdir_exp)
+pcsc_dir=${datarootdir_exp}/pcsc
+AC_SUBST(pcsc_dir)
 
 AC_HEADER_MAJOR
 dnl AC_CHECK_FUNCS(mkfifo)
@@ -69,5 +73,17 @@ dnl Checks for typedefs, structures, and compiler characteristics.
 
 dnl Checks for library functions.
 
-AC_CONFIG_FILES([Makefile])
+cat << EOF
+
+pcsc-tools has been configured with following options:
+
+pcsc_dir: ${pcsc_dir}
+
+EOF
+
+AC_CONFIG_FILES([
+	Makefile
+	ATR_analysis
+	ATR_analysis.1p
+	])
 AC_OUTPUT
