@@ -52,9 +52,6 @@ typedef enum
 #define TIMEOUT 3600*1000	/* 1 hour timeout */
 
 
-/* command used to parse (on screen) the ATR */
-#define ATR_PARSER "ATR_analysis"
-
 #ifndef SCARD_E_NO_READERS_AVAILABLE
 #define SCARD_E_NO_READERS_AVAILABLE 0x8010002E
 #endif
@@ -291,10 +288,10 @@ static void initialize_signal_handlers(void)
 static void initialize_options(options_t *options, const char *pname)
 {
 	options->pname = pname;
-#if defined(WIN32) || defined(__APPLE__)
-	options->analyse_atr = False;
-#else
+#if defined(ATR_PARSER)
 	options->analyse_atr = True;
+#else
+	options->analyse_atr = False;
 #endif
 	options->stress_card = False;
 	options->maxtime = 0;
@@ -881,6 +878,8 @@ get_readers:
 					sprintf(atr_command, ATR_PARSER " '%s'", atr);
 					if (system(atr_command))
 						perror(atr_command);
+
+					printf("\n");
 				}
 			}
 

@@ -20,13 +20,16 @@ AC_PROG_INSTALL
 AC_PROG_CC
 
 # Check for some target-specific stuff
+ATR_PARSER="ATR_analysis"
 case "$host" in
 *-*-darwin*)
 	PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
 	PCSC_PATH="PCSC/"
+	ATR_PARSER="no"
     ;;
 *-*-msys)
 	PCSC_LIBS=-lwinscard
+	ATR_PARSER="no"
 	;;
 esac
 
@@ -58,6 +61,15 @@ AC_TRY_LINK_FUNC(SCardEstablishContext,
 LIBS="$saved_LIBS"
 CPPFLAGS="$saved_CPPFLAGS"
 
+# --enable-parser=foobar
+AC_ARG_ENABLE(ATRparser,
+	AS_HELP_STRING([--enable-ATRparser=foobar], [pathname of the ATR parser to use]),
+	[ ATRparser="${enableval}" ], [ ATRparser="no" ] )
+if test "$ATRparser" != no
+then
+	AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATRparser", [ATR parser to use])
+fi
+
 dnl Checks for header files.
 AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h sys/time.h)
 
@@ -77,7 +89,8 @@ cat << EOF
 
 pcsc-tools has been configured with following options:
 
-pcsc_dir: ${pcsc_dir}
+pcsc_dir:   ${pcsc_dir}
+ATR parser: ${ATRparser}
 
 EOF
 
