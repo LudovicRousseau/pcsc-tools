@@ -292,6 +292,7 @@ static void initialize_options(options_t *options, const char *pname)
 	options->analyse_atr = True;
 #else
 	options->analyse_atr = False;
+#define ATR_PARSER ""
 #endif
 	options->stress_card = False;
 	options->maxtime = 0;
