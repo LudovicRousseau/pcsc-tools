@@ -231,7 +231,7 @@ sub arrange_widgets () {
 
 }
 
-################# weave and show tha application main window #################
+################# weave and show the application main window #################
 
 arrange_widgets();
 ReadConfigFile();
@@ -267,7 +267,7 @@ sub ReaderConfig {
     my $rdbT01 = Gtk3::RadioButton->new_with_label_from_widget($rdbT0, "T=0 or T=1");
     my $rdbRAW = Gtk3::RadioButton->new_with_label_from_widget($rdbT0, "T=RAW");
 
-    # check the radio button with the last prefered protocol if any
+    # check the radio button with the last preferred protocol if any
     if (defined $hConfig {'protocol'}) {
         $rdbT0->set_active(TRUE)  if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_T0);
         $rdbT1->set_active(TRUE)  if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_T1);
@@ -296,7 +296,7 @@ sub ReaderConfig {
     # We select the first reader (default choice)
     $cboReaders->set_active(0);
 
-    # Select the last prefered reader if any
+    # Select the last preferred reader if any
     if (defined $hConfig {'reader'}) {
         my $i = 0;
         my $reader = $hConfig {'reader'};
@@ -389,7 +389,7 @@ sub ReadScriptFile {
     $txtScript->get_buffer->set_text("");
     ($txtScript->get_buffer)->insert_at_cursor($_) while (<FILE>);
     close (FILE);
-    # Upon succesfull completion, we also set the window title as well
+    # Upon successful completion, we also set the window title as well
     # as the current ScriptfileName in the configuration hash
     $hConfig{'script'} = $strScriptFileName;
     $wndMain->set_title ("$strAppName - <$strBaseFileName>");
@@ -404,7 +404,7 @@ sub WriteScriptFile {
     my $textbuffer = $txtScript->get_buffer;
     print FILE $textbuffer->get_text($textbuffer->get_start_iter, $textbuffer->get_end_iter, 1);
     close (FILE);
-    # Upon successfull completion, we also set the window title as well
+    # Upon successful completion, we also set the window title as well
     # as the current ScriptfileName in the configuration hash
     $hConfig{'script'} = $strScriptFileName;
     $wndMain->set_title ("$strAppName - <$strBaseFileName>");
@@ -439,7 +439,7 @@ sub SaveScriptFile {
     if (exists $hConfig{'script'}) {
         my $file = $hConfig{'script'};
         if (WriteScriptFile ($file)) {
-            $txtInfo->set_text("Successfuly saved script to $file");
+            $txtInfo->set_text("Successfully saved script to $file");
             $infoBar->set_message_type('GTK_MESSAGE_INFO');
             $infoBar->show;
         } else {
@@ -462,7 +462,7 @@ sub SaveAsScriptFile {
             $infoBar->show;
         } else {
             if (WriteScriptFile ($file)) {
-                $txtInfo->set_text("Successfuly saved script to $file");
+                $txtInfo->set_text("Successfully saved script to $file");
                 $infoBar->set_message_type('GTK_MESSAGE_INFO');
                 $infoBar->show;
             } else {
@@ -556,7 +556,7 @@ sub RefreshResult {
 				foreach $tmp_value (@$tmpLine) {
 					# TODO: enhance filtering of non-printable chars
 					# TODO: how can we use array_to_ascii here??? maybe
-					# enhence the function so it can directly receive
+					# enhance the function so it can directly receive
 					# ranges of chars to ignore optionally?
 					if (($tmp_value >= 0x20) && ($tmp_value < 0x80)) {
 						$tmp_text .= chr ($tmp_value);
