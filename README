@@ -1,7 +1,7 @@
 Some tools to be used with smart cards and PC/SC
 ================================================
 
-This archive contains some tools usefull for a PC/SC user.
+This archive contains some tools useful for a PC/SC user.
 PC/SC lite [1] from MUSCLE [2].
 
 The tools provided are:
@@ -234,7 +234,7 @@ History:
     - minor fixes
 
 1.4.20 - 16 June 2012, Ludovic ROUSSEAU
-    - Makefile: Add arguments to CFLAGS instead of overwritting them
+    - Makefile: Add arguments to CFLAGS instead of overwriting them
     - 3 new ATRs
 
 1.4.19 - 13 June 2012, Ludovic ROUSSEAU
@@ -294,7 +294,7 @@ History:
 1.4.10 - 10 August 2007, Ludovic ROUSSEAU
     - 25 new ATR
     - scriptor: correctly display the ISO7816 error code even when the
-      line is splitted
+      line is split
     - gscriptor: the line continuation feature was broken
 
 1.4.9 - 1 June 2007, Ludovic ROUSSEAU
