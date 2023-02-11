@@ -34,7 +34,7 @@ batch file. The syntax of the commands is the same as for scriptor(1).
 \fBscriptor\fP(1) is in text mode. \fBgscriptor\fP(1) uses a Perl-Gtk
 graphical user interface and may be more user friendly.
 
-See \fBscriptor\fP(1) for details on the comands format.
+See \fBscriptor\fP(1) for details on the commands format.
 .SH OPTIONS
 none
 .SH SEE ALSO
