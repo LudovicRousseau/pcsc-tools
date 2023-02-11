@@ -339,7 +339,7 @@ sub analyse_TA()
 
 		if ($F & 0x1)
 		{
-			print " - implicity defined";
+			print " - implicitly defined";
 		}
 		else
 		{
