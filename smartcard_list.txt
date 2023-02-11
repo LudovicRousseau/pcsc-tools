@@ -181,7 +181,7 @@
 	I2C card
 
 3B 04 50 D7 F3 0E
-	Ukranian memory card for public phones. Manufacturer: "Kvazar" (Other)
+	Ukrainian memory card for public phones. Manufacturer: "Kvazar" (Other)
 
 3B 04 60 89
 	Smartcard 3.1 (JavaCard)
@@ -753,7 +753,7 @@
 	Conax
 
 3B 24 00 00 00 00 00
-	MultiChoice satelite TV Card Eutelsat 36B at 35.9°E
+	MultiChoice satellite TV Card Eutelsat 36B at 35.9°E
 	http://www.lyngsat.com/Eutelsat-36B.html
 
 3B 24 00 00 E2 92 67
@@ -1899,7 +1899,7 @@
 	https://www.itau.com.br
 
 3B 68 00 00 01 01 30 96 00 00 90 00
-	Edenred - French Restauration e-Ticket card (2013) (Other)
+	Edenred - French Restoration e-Ticket card (2013) (Other)
 	https://www.edenred.fr/ticket-restaurant
 
 3B 68 00 00 01 01 31 00 00 00 90 00
@@ -2056,7 +2056,7 @@
 	Schlumberger MicroPayflex S card
 
 3B 69 00 00 49 44 35 30 56 31 2E .. ..
-	eID Card to user authenticate and save paswords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
+	eID Card to user authenticate and save passwords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
 	https://identos.com/id50-password-manager/
 
 3B 69 00 00 49 44 36 30 56 31 2E .. ..
@@ -3403,7 +3403,7 @@
 	Spanish UCAM University smart ID card - (M.Mar OS) - Also used by many others spanish universities
 
 3B 6F 00 00 00 66 4D 45 66 80 03 .. 53 06 61 03 F0 90 00
-	Millenium Card (www.coruna.es/millennium) municipal city card for A Coruña, Spain.
+	Millennium Card (www.coruna.es/millennium) municipal city card for A Coruña, Spain.
 	electronic wallet for paying services like parking meter or public service (bus) transportation.
 
 3B 6F 00 00 00 66 4D 45 66 80 03 0C 53 06 61 05 F0 90 00
@@ -4503,7 +4503,7 @@
 	https://egov.kz/
 
 3B 78 12 00 00 47 C4 03 00 8F F1 90 00
-	Sattelite bg 23.5 East cryptoworks card
+	Satellite bg 23.5 East cryptoworks card
 
 3B 78 12 00 00 54 C4 01 07 8F F1 90 00
 	XtraMusic listening card (Pay TV)
@@ -4724,7 +4724,7 @@
 	IDClassic 3XX Cards (without MPCOS Applet - FIPS)
 
 3B 7B 11 00 00 31 FE 45 43 6F 6D 62 4F 53 20 00
-	Debit card emmited by Société Générale Morocco (Bank)
+	Debit card emitted by Société Générale Morocco (Bank)
 
 3B 7B 18 00 00 00 31 C0 64 77 E3 03 00 82 90 00
 	Oberthur Cosmopolic 64K v5.2 D
@@ -4912,7 +4912,7 @@
 	Gemalto IDClassic 340
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 00 C8 83 00 90 00
-	GEMALTO Clasic TPC IM CC
+	GEMALTO Classic TPC IM CC
 
 3B 7D 96 00 00 80 31 80 65 B0 83 11 11 AC 83 00 90 00
 	GEMALTO WM GX4 72 DHS TSA
@@ -5157,7 +5157,7 @@
 
 3B 7F 13 00 00 80 31 C0 52 0D EA 64 05 66 94 61 83 83 90 00
 	Universitat Rovira i Virgili Identification Card
-	This card enables his/her propietary to sign documents and to access to rooms, laboratories and classes.
+	This card enables his/her proprietary to sign documents and to access to rooms, laboratories and classes.
 
 3B 7F 13 00 00 80 31 C0 52 0E D4 64 05 66 96 61 83 83 90 00
 	BBVA Blue Card (VISA)
@@ -5613,7 +5613,7 @@
 	http://www.blutspende-nordost.de/
 	Greater Toronto/Hamilton/Ottawa PRESTO contactless fare card
 	http://en.wikipedia.org/wiki/Presto_card
-	Electic vehicle charging card of the EMSP EnBW Energie Baden-Württemberg AG, Tarif ADAC e-Charge, Germany
+	Electric vehicle charging card of the EMSP EnBW Energie Baden-Württemberg AG, Tarif ADAC e-Charge, Germany
 
 3B 81 80 01 81 81
 	Ticket (Transport)
@@ -6460,7 +6460,7 @@
 
 3B 89 80 01 66 52 57 45 32 50 52 4F 4D 1C
 	NFC enabled SIM card. (Telecommunication)
-	Electic vehicle charging card of the EMSP Chargepoint
+	Electric vehicle charging card of the EMSP Chargepoint
 
 3B 89 80 01 66 53 43 4F 4E 45 44 32 30 7C
 	Alioth 98886 chip (Bank)
@@ -6975,7 +6975,7 @@
 	http://www.dnielectronico.es/
 
 3B 8C 80 01 50 92 BF 3B C0 00 00 00 00 00 71 71 8B
-	Venice Public Trasport Card (Transport)
+	Venice Public Transport Card (Transport)
 	https://www.veneziaunica.it/
 
 3B 8C 80 01 50 93 19 5E 30 00 00 00 00 00 71 71 B9
@@ -7725,7 +7725,7 @@
 	RFID - ISO 14443 Type A Part 3 (as per PCSC std part3)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 00 00 00 00 00 6B
-	buss/train pass for use with Skånetrafiken (www.skanetrafiken.se) busses and trains.
+	bus/train pass for use with Skånetrafiken (www.skanetrafiken.se) buses and trains.
 	public library of Düsseldorf
 	http://www.duesseldorf.de/stadtbuechereien/
 	specialized Mifare Ultralight card
@@ -7739,9 +7739,9 @@
 	vivotech ViVOcard Contactless Test Card
 	Bangkok BTS Sky SmartPass
 	Mifare Classic 1K (block 0 re-writeable)
-	Electic vehicle charging card of the German Telekom, acting as EMSP GetCharge
-	Electic vehicle charging card of the EMSP Stadtwerke Muenchen (SWM), ladenetz.de, Germany
-	Electic vehicle charging card of the EMSP EinfachStromLaden of Maingau-Energie, Germany
+	Electric vehicle charging card of the German Telekom, acting as EMSP GetCharge
+	Electric vehicle charging card of the EMSP Stadtwerke Muenchen (SWM), ladenetz.de, Germany
+	Electric vehicle charging card of the EMSP EinfachStromLaden of Maingau-Energie, Germany
 	Scouter carsharing customer card in Germany
 	https://scouter.de/
 	DKV Euro Service +charge (Transport)
@@ -8055,11 +8055,11 @@
 	ETSI 102 230 Test case 5.2.5.3. Comprion IT3 SIM emulator (Telecommunication)
 
 3B 97 11 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5F
-	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2006-2010
+	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controller et atelier/workshop, 2006-2010
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
 3B 97 13 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5D
-	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2005-2006
+	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controller et atelier/workshop, 2005-2006
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
 3B 97 94 80 1F 43 80 31 E0 73 FE 21 1B 39
@@ -8079,7 +8079,7 @@
 	DNP Local5G (Telecommunication)
 
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
-	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controler et atelier/workshop, 2010-2015
+	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controller et atelier/workshop, 2010-2015
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
 
 3B 97 97 81 71 FE 24 00 77 43 53 4D 01 02 03 00
@@ -9171,7 +9171,7 @@
 	Idemia card (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 17 94 AA 28 99 3F 28
-	Glaier Programable LTE USIM Card  (Telecommunication)
+	Glaier Programmable LTE USIM Card  (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 32 11 B2 52 C6 79 F3
 	open5gs (Telecommunication)
@@ -11020,7 +11020,7 @@
 	http://blog.goranrakic.com/archives/2011/07/citanje_saobracajne_dozvole_sa_cipom.html
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 1A 71 01 00 07 90 00 33
-	ChamberSign Gemalto USB Shell Token V2 - Certificat Audacio ** (eID)
+	ChamberSign Gemalto USB Shell Token V2 - Certificate Audacio ** (eID)
 	http://www.chambersign.fr/certificat-rgs-audacio/
 
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 B0 FC 10 00 07 90 00 05
@@ -12527,11 +12527,11 @@
 3B FA 18 00 00 81 31 FE 45 06 08 2A 84 10 01 87 6E 08 07 BE
 	Rijkspas (identification card dutch government employees) (eID)
 	https://nl.wikipedia.org/wiki/Rijkspas
-	Dutch goverment multifunctional smartcard (Other)
+	Dutch government multifunctional smartcard (Other)
 	https://nl.wikipedia.org/wiki/Rijkspas
 
 3B FA 18 00 00 81 31 FE 45 06 08 60 84 10 01 87 6F 06 02 FE
-	Card used by the Dutch health insurers to give medical personell access to patient insurance information
+	Card used by the Dutch health insurers to give medical personnel access to patient insurance information
 
 3B FA 18 00 00 81 31 FE 45 46 53 4A 43 4F 50 34 53 49 44 80
 	NXP Java Card JCOP4 P71 GP2.3 JC3.0.5 (JavaCard)
@@ -13968,7 +13968,7 @@
 
 3F 77 18 00 00 C2 EB 41 02 6C 90 00
 	Elite HD10+ (Pay TV)
-	Sattelite cryptoworks card - Smart card Viaccess (Telesat - belgium) (Pay TV)
+	Satellite cryptoworks card - Smart card Viaccess (Telesat - belgium) (Pay TV)
 
 3F 77 18 00 00 C2 EB 45 02 6C 90 00
 	facetv (Other)
@@ -14227,7 +14227,7 @@
 	http://www.dishnetwork.com/
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42
-	NTL digial TV card (Nagravision)
+	NTL digital TV card (Nagravision)
 
 3F FF 95 00 FF 91 81 71 A0 47 00 44 4E 41 53 50 30 31 31 20 52 65 76 42 30 36 4E
 	Telewest Broadband (Nagravision)
@@ -14270,7 +14270,7 @@
 	UM02 card from German Unitymedia cable TV provider
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 34 32 20 52 65 76 47 43 34 63
-	HD+ card used by the satelite company astra for decryption of the HDTV channels of RTL, VOX, Sat1 and ProSieben. Nagravision V3 is used for the encryption.
+	HD+ card used by the satellite company astra for decryption of the HDTV channels of RTL, VOX, Sat1 and ProSieben. Nagravision V3 is used for the encryption.
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
 	Nagra 3 Digital Plus Spain
