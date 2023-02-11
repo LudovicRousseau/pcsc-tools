@@ -318,7 +318,7 @@ sub ReaderConfig {
 	$hbxButtonBox->pack_end($btnCancel, 0, 0, 10);
 	$hbxButtonBox->pack_end($btnOK, 0, 0, 10);
 
-	# Select the last prefered protocol if any
+	# Select the last preferred protocol if any
 	if (defined $hConfig {'protocol'}) {
 		$rdbT0->set_active(1)  if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_T0);
 		$rdbT1->set_active(1)  if ($hConfig {'protocol'} == $Chipcard::PCSC::SCARD_PROTOCOL_T1);
@@ -395,7 +395,7 @@ sub ReadScriptFile {
 	}
 	$txtScript->thaw();
 	close (FILE);
-	# Upon succesfull completion, we also set the window title as well
+	# Upon successful completion, we also set the window title as well
 	# as the current ScriptfileName in the configuration hash
 	$hConfig{'script'} = $strScriptFileName;
 	$wndMain->set_title ("$strAppName - <$strBaseFileName>");
@@ -409,7 +409,7 @@ sub WriteScriptFile {
 	return 0 unless open (FILE, ">$strScriptFileName");
 	print FILE $txtScript->get_chars (0,-1);
 	close (FILE);
-	# Upon successfull completion, we also set the window title as well
+	# Upon successful completion, we also set the window title as well
 	# as the current ScriptfileName in the configuration hash
 	$hConfig{'script'} = $strScriptFileName;
 	$wndMain->set_title ("$strAppName - <$strBaseFileName>");
@@ -516,7 +516,7 @@ sub RefreshResult {
 				} else {
 					# TODO: enhance filtering of non-printable chars
 					# TODO: how can we use array_to_ascii here ??? maybe
-					# enhence the function so it can directly receive
+					# enhance the function so it can directly receive
 					# ranges of chars to ignore optionally ?
 					if (($tmp_value > 0x20) && ($tmp_value < 0x80)) {
 						$txtResult->insert_text (chr ($tmp_value), $txtResult->get_length);
