@@ -234,7 +234,7 @@ static void *spin_update(void *p)
 	(void)p;
 
 again:
-	/* wait untill spinning starts */
+	/* wait until spinning starts */
 	do
 	{
 		if (should_exit())
