@@ -6606,6 +6606,10 @@
 	Estonian Identity Card (eID)
 	http://id.ee/
 
+3B 8B 80 01 00 12 42 8F 53 65 49 44 0F 90 00 71
+	Latvia eID card (eID)
+	https://www.pmlp.gov.lv/en/identity-card-eid
+
 3B 8B 80 01 00 31 C0 64 08 04 61 00 00 90 00 62
 	NUMBER26 Maestro Card (Bank)
 	https://number26.eu
@@ -7060,6 +7064,10 @@
 3B 8C 80 01 50 C4 14 66 C3 00 00 00 00 00 71 71 28
 	Navigo easy (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
+
+3B 8C 80 01 50 C5 17 70 F0 00 00 00 00 80 81 71 7F
+	SumUp Limited Apple Pay Virtual Card (Bank)
+	https://sumup.co.uk
 
 3B 8C 80 01 50 C7 25 1C 5A 00 00 00 11 F7 81 81 1F
 	MOBIB Belgian public transport Card (Transport)
@@ -9326,6 +9334,10 @@
 	baicells sim card (Telecommunication)
 	http://www.baicells.com/
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 67 57 44 53 4C 45 39 37 94
+	SIM card MTS Russia (Telecommunication)
+	https://moskva.mts.ru/personal
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE A1 1F 64 41 80 51 00 82 90 00 D6
 	AT&T SIM Card (Telecommunication)
 
@@ -9452,7 +9464,8 @@
 	Cardcentrics (Telecommunication)
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
-	Test Card (Telecommunication)
+	sysmoISIM-SJA2 (Telecommunication)
+	https://osmocom.org/projects/cellular-infrastructure/wiki/SysmoISIM-SJA2
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
 	Softbank (C2) USIM card (Telecommunication)
@@ -9900,6 +9913,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 04 01 00 82 6A 82 EC
 	SIM (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 05 51 00 82 90 00 C5
+	Sim card Team Telecom Armenia (Telecommunication)
+	https://www.telecomarmenia.am/hy/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -10418,6 +10435,10 @@
 3B BA 96 00 81 31 86 5D 00 64 05 7B 02 03 31 80 90 00 7D
 	TeleSec NetKey Card
 	Deutsche Post card (tcos)
+
+3B BB 18 00 81 31 FE 45 80 67 05 18 B1 02 01 84 00 81 05 E0
+	STARCOS Smart Card (Other)
+	https://www.gi-de.com/de/identities/unternehmenssicherheit/signaturkarte
 
 3B BB 18 00 C0 10 31 FE 45 80 67 04 12 B0 03 03 00 00 81 01 38
 	Giesecke & Devrient Star Sign Card, STARCOS 3.0 DI, 72 KB, RSA2048 bit
@@ -12499,6 +12520,9 @@
 3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 3. 3. 56 32 33 32 ..
 	JCOPxx/yy v2.3.2 (see hist bytes for more info)
 
+3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31
+	J2A040 JCOP (JavaCard)
+
 3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 32 31 56 32 33 31 91
 	NXP JCOP 21 V2.3.1 36K
 
@@ -13114,6 +13138,10 @@
 	Interact, Visa Debit Bank of Novia Scotia (Bank)
 	https://www.scotiabank.com/global/en/credit-card-terms-and-conditions.html
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00
+	Debit payment card (Rabobank NL) (Bank)
+	https://www.rabobank.nl/en/business/making-and-receiving-payments/payments/paying-with-your-bank-card
+
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
 
@@ -13666,6 +13694,10 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0C
 	IDPrime 930 FIPS Level 2 (T=1 CT=96) (BAI3.1) (PKI)
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 65 66 FB 12 0F FC 82 90 00 0F
+	SmartID 3930 FIDO Contact and Contactless card (PKI)
+	https://www.smartcardfocus.com/shop/ilp/id~962/safenet-idprime-3930-fido-dual-interface-fips-l2/p/index.shtml
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 66 69 FB 12 FF FE 82 90 00 F1
 	IDCore3230 build 6.8, test APDU applet (JavaCard)
 
@@ -13693,6 +13725,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 03 08 C0 B7 02 00 0A
+	German Debitcard from Sparkasse (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 07 09 E0 F9 02 00 61
 	Sparkasse Ingolstadt (Bank)
@@ -14315,6 +14350,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 30 17
 	HD+ HD04b Card (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 34 13
+	claro card honduras central america "NAGRA" (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 42 65
 	Nagra Kudelski / Canalsat Reunion (Pay TV)
