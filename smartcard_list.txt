@@ -5039,7 +5039,7 @@
 
 3B 7E 94 00 00 80 25 D2 03 10 01 00 56 00 00 00 02 02 00
 	Official Czech Republic identity card issued since 7/2018 (eID)
-	https://www.eidentita.cz/
+	https://info.identitaobcana.cz/eop/
 
 3B 7E 94 00 00 80 31 80 66 47 50 91 45 03 13 83 0F 90 00
 	JTOP Trusted Logic
