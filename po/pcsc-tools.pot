@@ -1,0 +1,212 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Ludovic Rousseau
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: https://github.com/LudovicRousseau/pcsc-tools/issues\n"
+"POT-Creation-Date: 2023-03-19 11:17+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gscriptor:188
+msgid "_File"
+msgstr ""
+
+#: ../gscriptor:189
+msgid "_New"
+msgstr ""
+
+#: ../gscriptor:189
+msgid "Create a new file"
+msgstr ""
+
+#: ../gscriptor:190
+msgid "_Open"
+msgstr ""
+
+#: ../gscriptor:190
+msgid "Open a file"
+msgstr ""
+
+#: ../gscriptor:191
+msgid "_Save"
+msgstr ""
+
+#: ../gscriptor:191
+msgid "Save current file"
+msgstr ""
+
+#: ../gscriptor:192
+msgid "Save _As..."
+msgstr ""
+
+#: ../gscriptor:192
+msgid "Save to a file"
+msgstr ""
+
+#: ../gscriptor:193
+msgid "_Quit"
+msgstr ""
+
+#: ../gscriptor:193
+msgid "Quit"
+msgstr ""
+
+#: ../gscriptor:194
+msgid "R_eader"
+msgstr ""
+
+#: ../gscriptor:195
+msgid "_Connect"
+msgstr ""
+
+#: ../gscriptor:195
+msgid "Connect to the current Reader"
+msgstr ""
+
+#: ../gscriptor:196
+msgid "Reco_nnect"
+msgstr ""
+
+#: ../gscriptor:196
+msgid "Reconnect to the current Reader"
+msgstr ""
+
+#: ../gscriptor:197
+msgid "_Disconnect"
+msgstr ""
+
+#: ../gscriptor:197
+msgid "Disconnect from the current Reader"
+msgstr ""
+
+#: ../gscriptor:198
+msgid "_Status"
+msgstr ""
+
+#: ../gscriptor:198
+msgid "Display the current Reader's status"
+msgstr ""
+
+#: ../gscriptor:199
+msgid "Ru_n"
+msgstr ""
+
+#: ../gscriptor:200
+msgid "_Run Script"
+msgstr ""
+
+#: ../gscriptor:200
+msgid "Run Script on current Reader"
+msgstr ""
+
+#: ../gscriptor:201
+msgid "C_lear Results"
+msgstr ""
+
+#: ../gscriptor:201
+msgid "Clear the Results Area"
+msgstr ""
+
+#: ../gscriptor:202
+msgid "_Settings"
+msgstr ""
+
+#: ../gscriptor:203
+msgid "Reader"
+msgstr ""
+
+#: ../gscriptor:203
+msgid "Select the Reader"
+msgstr ""
+
+#: ../gscriptor:204
+msgid "_Help"
+msgstr ""
+
+#: ../gscriptor:205
+msgid "_About"
+msgstr ""
+
+#: ../gscriptor:205
+msgid "About"
+msgstr ""
+
+#: ../gscriptor:490
+msgid ""
+"The current work will be lost!\n"
+"Are you sure you want to continue?"
+msgstr ""
+
+#: ../gscriptor:600
+msgid ""
+"The card is already connected...\n"
+"Do you want to reconnect?"
+msgstr ""
+
+#: ../gscriptor:642
+msgid ""
+"The Chipcard::PCSC:Card object is not connected...\n"
+" Do you want to connect?"
+msgstr ""
+
+#: ../gscriptor:738
+msgid ""
+"The reader is not connected...\n"
+" Do you want to connect?"
+msgstr ""
+
+#: ../gscriptor:831
+msgid ""
+"The Chipcard::PCSC::Card object is not connected!\n"
+"Do you want to connect?"
+msgstr ""
+
+#: ../scriptor:47
+msgid "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n"
+msgstr ""
+
+#: ../scriptor:48
+msgid "          -h: this help\n"
+msgstr ""
+
+#: ../scriptor:49
+msgid "   -r reader: specify to use the PCSC smart card reader named reader\n"
+msgstr ""
+
+#: ../scriptor:50
+msgid "              By defaults the first one found is used so you\n"
+msgstr ""
+
+#: ../scriptor:51
+msgid "              don't have to specify anything if you just have\n"
+msgstr ""
+
+#: ../scriptor:52
+msgid "              one reader\n"
+msgstr ""
+
+#: ../scriptor:53
+msgid " -p protocol: protocol to use among T=0 and T=1.\n"
+msgstr ""
+
+#: ../scriptor:54
+msgid "              Default is to let pcsc-lite choose the protocol\n"
+msgstr ""
+
+#: ../scriptor:55
+msgid "          -u: use unbuffered stdout\n"
+msgstr ""
+
+#: ../scriptor:56
+msgid "        file: file containing APDUs\n"
+msgstr ""

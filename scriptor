@@ -25,6 +25,12 @@ use Chipcard::PCSC::Card;
 use strict;
 use warnings;
 
+use Locale::TextDomain ('pcsc-tools');
+use Locale::Messages qw (LC_MESSAGES);
+use POSIX qw (setlocale);
+# Set the locale according to our environment.
+setlocale (LC_MESSAGES, '');
+
 my %options;
 
 my $hContext = new Chipcard::PCSC();
@@ -38,16 +44,16 @@ die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless 
 getopts ("hr:p:u" , \%options);
 
 if ($options{h}) {
-	print "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n";
-	print "          -h: this help\n";
-	print "   -r reader: specify to use the PCSC smart card reader named reader\n";
-	print "              By defaults the first one found is used so you\n";
-	print "              don't have to specify anything if you just have\n";
-	print "              one reader\n";
-	print " -p protocol: protocol to use among T=0 and T=1.\n";
-	print "              Default is to let pcsc-lite choose the protocol\n";
-	print "          -u: use unbuffered stdout\n";
-	print "        file: file containing APDUs\n";
+	print __("Usage:") . " $0 " . __("[-h] [-r reader] [-p protocol] [-u] [file]\n");
+	print __("          -h: this help\n");
+	print __("   -r reader: specify to use the PCSC smart card reader named reader\n");
+	print __("              By defaults the first one found is used so you\n");
+	print __("              don't have to specify anything if you just have\n");
+	print __("              one reader\n");
+	print __(" -p protocol: protocol to use among T=0 and T=1.\n");
+	print __("              Default is to let pcsc-lite choose the protocol\n");
+	print __("          -u: use unbuffered stdout\n");
+	print __("        file: file containing APDUs\n");
 	exit (0);
 }
 
