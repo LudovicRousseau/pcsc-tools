@@ -2,18 +2,7 @@
 
 # Add more languages here!  Beware that this is a makefile snippet and
 # you have to adhere to make syntax.
-LINGUAS = de \
-	  de_AT \
-	  it \
-	  ru \
-	  fr \
-	  ar \
-	  ar_SA \
-	  ga \
-	  pt \
-	  pt_BR \
-	  nl \
-          cs
+LINGUAS = ru
 
 # Textdomain for our package.
 TEXTDOMAIN = pcsc-tools
