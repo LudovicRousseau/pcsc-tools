@@ -35,7 +35,7 @@ use Chipcard::PCSC::Card;
 
 use Locale::TextDomain ('pcsc-tools');
 use Locale::Messages qw (LC_MESSAGES);
-use POSIX qw ('setlocale');
+use POSIX ('setlocale');
 # Set the locale according to our environment.
 setlocale (LC_MESSAGES, '');
 
