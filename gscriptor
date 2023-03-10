@@ -33,6 +33,11 @@ use Carp;
 use Chipcard::PCSC;
 use Chipcard::PCSC::Card;
 
+use Locale::TextDomain ('pcsc-tools');
+use Locale::Messages qw (LC_MESSAGES);
+use POSIX qw ('setlocale');
+# Set the locale according to our environment.
+setlocale (LC_MESSAGES, '');
 
 my $strAppName = "gscriptor";
 my $strConfigFileName = "$ENV{HOME}/.$strAppName";
@@ -180,9 +185,9 @@ sub arrange_widgets () {
 
     my @appActions = (
         # name,                stock id,        label,            shortcut,            tooltip,                            action
-        [ "FileMenu",          undef,           "_File" ],
-        [ "New",              'gtk-new',        "_New",           "<control>N",        "Create a new file",                \&NewScriptFile ],
-        [ "Open",             'gtk-open',       "_Open",          "<control>O",        "Open a file",                      \&LoadScriptFile ],
+        [ "FileMenu",          undef,           __("_File") ],
+        [ "New",              'gtk-new',        __("_New"),           "<control>N",        "Create a new file",                \&NewScriptFile ],
+        [ "Open",             'gtk-open',       __("_Open"),          "<control>O",        "Open a file",                      \&LoadScriptFile ],
         [ "Save",             'gtk-save',       "_Save",          "<control>S",        "Save current file",                \&SaveScriptFile ],
         [ "SaveAs",           'gtk-save',       "Save _As...",    "<control><shift>S", "Save to a file",                   \&SaveAsScriptFile ],
         [ "Quit",             'gtk-quit',       "_Quit",          "<control>Q",        "Quit",                             \&CloseAppWindow ],

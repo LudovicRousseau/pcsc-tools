@@ -25,6 +25,12 @@ use Chipcard::PCSC::Card;
 use strict;
 use warnings;
 
+use Locale::TextDomain ('pcsc-tools');
+use Locale::Messages qw (LC_MESSAGES);
+use POSIX qw ('setlocale');
+# Set the locale according to our environment.
+setlocale (LC_MESSAGES, '');
+
 my %options;
 
 my $hContext = new Chipcard::PCSC();
