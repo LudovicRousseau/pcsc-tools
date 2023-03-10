@@ -44,7 +44,7 @@ die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless 
 getopts ("r:p:u" , \%options);
 
 if ($options{h}) {
-	print __("Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n");
+	print "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n";
 	print __("          -h: this help\n");
 	print __("   -r reader: specify to use the PCSC smart card reader named reader\n");
 	print __("              By defaults the first one found is used so you\n");

@@ -1,208 +1,199 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Ludovic Rousseau
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
-msgid ""
-msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: https://github.com/LudovicRousseau/pcsc-tools/issues\n"
-"POT-Creation-Date: 2023-03-10 08:56+0300\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: 8bit\n"
-
 #: ../gscriptor:188
 msgid "_File"
-msgstr ""
+msgstr "_Файл"
 
 #: ../gscriptor:189
 msgid "_New"
-msgstr ""
+msgstr "_Новый"
 
 #: ../gscriptor:189
 msgid "Create a new file"
-msgstr ""
+msgstr "Создать новый файл"
 
 #: ../gscriptor:190
 msgid "_Open"
-msgstr ""
+msgstr "_Открыть"
 
 #: ../gscriptor:190
 msgid "Open a file"
-msgstr ""
+msgstr "Открыть файл"
 
 #: ../gscriptor:191
 msgid "_Save"
-msgstr ""
+msgstr "_Сохранить"
 
 #: ../gscriptor:191
 msgid "Save current file"
-msgstr ""
+msgstr "Сохранить файл"
 
 #: ../gscriptor:192
 msgid "Save _As..."
-msgstr ""
+msgstr "Сохранить как..."
 
 #: ../gscriptor:192
 msgid "Save to a file"
-msgstr ""
+msgstr "Сохранить в файл"
 
 #: ../gscriptor:193
 msgid "_Quit"
-msgstr ""
+msgstr "_Выход"
 
 #: ../gscriptor:193
 msgid "Quit"
-msgstr ""
+msgstr "Выйти из программы"
 
 #: ../gscriptor:194
 msgid "R_eader"
-msgstr ""
+msgstr "Считыватель"
 
 #: ../gscriptor:195
 msgid "_Connect"
-msgstr ""
+msgstr "_Подключить"
 
 #: ../gscriptor:195
 msgid "Connect to the current Reader"
-msgstr ""
+msgstr "Подключиться к выбранному считывателю"
 
 #: ../gscriptor:196
 msgid "Reco_nnect"
-msgstr ""
+msgstr "Переподключить"
 
 #: ../gscriptor:196
 msgid "Reconnect to the current Reader"
-msgstr ""
+msgstr "Посторное подключение к считывателю"
 
 #: ../gscriptor:197
 msgid "_Disconnect"
-msgstr ""
+msgstr "_Отключить"
 
 #: ../gscriptor:197
 msgid "Disconnect from the current Reader"
-msgstr ""
+msgstr "Отключить считыватель"
 
 #: ../gscriptor:198
 msgid "_Status"
-msgstr ""
+msgstr "_Статус"
 
 #: ../gscriptor:198
 msgid "Display the current Reader's status"
-msgstr ""
+msgstr "Показать статус подключения к считывателю"
 
 #: ../gscriptor:199
 msgid "Ru_n"
-msgstr ""
+msgstr "Выполнить"
 
 #: ../gscriptor:200
 msgid "_Run Script"
-msgstr ""
+msgstr "Выполнить скрипт"
 
 #: ../gscriptor:200
 msgid "Run Script on current Reader"
-msgstr ""
+msgstr "Выполнить скрипт на выбранном считывателе"
 
 #: ../gscriptor:201
 msgid "C_lear Results"
-msgstr ""
+msgstr "Очистить"
 
 #: ../gscriptor:201
 msgid "Clear the Results Area"
-msgstr ""
+msgstr "Очистить поле результатов"
 
 #: ../gscriptor:202
 msgid "_Settings"
-msgstr ""
+msgstr "_Настройки"
 
 #: ../gscriptor:203
 msgid "Reader"
-msgstr ""
+msgstr "Считыватель"
 
 #: ../gscriptor:203
 msgid "Select the Reader"
-msgstr ""
+msgstr "Выбрать считыватель"
 
 #: ../gscriptor:204
 msgid "_Help"
-msgstr ""
+msgstr "_Помощь"
 
 #: ../gscriptor:205
 msgid "_About"
-msgstr ""
+msgstr "О программе"
 
 #: ../gscriptor:205
 msgid "About"
-msgstr ""
+msgstr "О программе"
 
 #: ../gscriptor:490
 msgid ""
 "The current work will be lost!\n"
 "Are you sure you want to continue?"
 msgstr ""
+"Существующие результаты будут утеряны!\n"
+"Желаете продолжить?"
 
 #: ../gscriptor:600
 msgid ""
 "The card is already connected...\n"
 "Do you want to reconnect?"
 msgstr ""
+"Смарт-карта уже подключена...\n"
+"Желаете переподключить?"
 
 #: ../gscriptor:642
 msgid ""
 "The Chipcard::PCSC:Card object is not connected...\n"
 " Do you want to connect?"
 msgstr ""
+"Chipcard::PCSC:Card не подключена...\n"
+"Желаете подключить?"
 
 #: ../gscriptor:738
 msgid ""
 "The reader is not connected...\n"
 " Do you want to connect?"
 msgstr ""
+"Считыватель не подключен...\n"
+"Желаете подключить?"
 
 #: ../gscriptor:831
 msgid ""
 "The Chipcard::PCSC::Card object is not connected!\n"
 "Do you want to connect?"
 msgstr ""
+"Chipcard::PCSC::Card не подключен!\n"
+"Желаете подключить?"
 
 #: ../scriptor:48
 msgid "          -h: this help\n"
-msgstr ""
+msgstr "          -h: справка\n"
 
 #: ../scriptor:49
 msgid "   -r reader: specify to use the PCSC smart card reader named reader\n"
-msgstr ""
+msgstr "   -r reader: указать имя используемого считывателя смарт-карт\n"
 
 #: ../scriptor:50
 msgid "              By defaults the first one found is used so you\n"
-msgstr ""
+msgstr "              по-умолчанию используется первый из найденых\n"
 
 #: ../scriptor:51
 msgid "              don't have to specify anything if you just have\n"
-msgstr ""
+msgstr "              не требуется задавать это значение, если у вас\n"
 
 #: ../scriptor:52
 msgid "              one reader\n"
-msgstr ""
+msgstr "              только один считываытель\n"
 
 #: ../scriptor:53
 msgid " -p protocol: protocol to use among T=0 and T=1.\n"
-msgstr ""
+msgstr " -p protocol: протокол используемый между T=0 и T=1.\n"
 
 #: ../scriptor:54
 msgid "              Default is to let pcsc-lite choose the protocol\n"
-msgstr ""
+msgstr "              По-умолчанию pcsc-lite сам выбирает нужный протокол\n"
 
 #: ../scriptor:55
 msgid "          -u: use unbuffered stdout\n"
-msgstr ""
+msgstr "          -u: ипользовать небуферизированный stdout\n"
 
 #: ../scriptor:56
 msgid "        file: file containing APDUs\n"
-msgstr ""
+msgstr "        file: файл содержащий APDUs\n"
