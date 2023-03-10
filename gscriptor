@@ -186,23 +186,23 @@ sub arrange_widgets () {
     my @appActions = (
         # name,                stock id,        label,            shortcut,            tooltip,                            action
         [ "FileMenu",          undef,           __("_File") ],
-        [ "New",              'gtk-new',        __("_New"),           "<control>N",        "Create a new file",                \&NewScriptFile ],
-        [ "Open",             'gtk-open',       __("_Open"),          "<control>O",        "Open a file",                      \&LoadScriptFile ],
-        [ "Save",             'gtk-save',       "_Save",          "<control>S",        "Save current file",                \&SaveScriptFile ],
-        [ "SaveAs",           'gtk-save',       "Save _As...",    "<control><shift>S", "Save to a file",                   \&SaveAsScriptFile ],
-        [ "Quit",             'gtk-quit',       "_Quit",          "<control>Q",        "Quit",                             \&CloseAppWindow ],
-        [ "ReaderMenu",        undef,           "R_eader" ],
-        [ "ReaderConnect",     undef,           "_Connect",       "<control>C",        "Connect to the current Reader",    \&ConnectDefaultReader ],
-        [ "ReaderReconnect",  'gtk-redo',       "Reco_nnect",     undef,               "Reconnect to the current Reader",  \&ReconnectDefaultReader ],
-        [ "ReaderDisconnect",  undef,           "_Disconnect",    "<control>D",        "Disconnect from the current Reader",  \&DisconnectDefaultReader ],
-        [ "ReaderStatus",     'gtk-properties', "_Status",        undef,               "Display the current Reader's status", \&DefaultReaderStatus ],
-        [ "RunMenu",           undef,           "Ru_n" ],
-        [ "Run",              'gtk-execute',    "_Run Script",    undef,               "Run Script on current Reader",     \&RunScript ],
-        [ "Clear",            'gtk-clear',      "C_lear Results", undef,               "Clear the Results Area",           \&ClearResult ],
-        [ "SettingsMenu",     'gtk-preferences', "_Settings" ],
-        [ "SelectReader",     'gtk-preferences', "Reader",        "<control>P",        "Select the Reader",                \&ReaderConfig ],
-        [ "HelpMenu",          undef,           "_Help" ],
-        [ "About",             undef,           "_About",         "<control>A",        "About",                            \&About ],
+        [ "New",              'gtk-new',        __("_New"),           "<control>N",        __("Create a new file"),                \&NewScriptFile ],
+        [ "Open",             'gtk-open',       __("_Open"),          "<control>O",        __("Open a file"),                      \&LoadScriptFile ],
+        [ "Save",             'gtk-save',       __("_Save"),          "<control>S",        __("Save current file"),                \&SaveScriptFile ],
+        [ "SaveAs",           'gtk-save',       __("Save _As..."),    "<control><shift>S", __("Save to a file"),                   \&SaveAsScriptFile ],
+        [ "Quit",             'gtk-quit',       __("_Quit"),          "<control>Q",        __("Quit"),                             \&CloseAppWindow ],
+        [ "ReaderMenu",        undef,           __("R_eader") ],
+        [ "ReaderConnect",     undef,           __("_Connect"),       "<control>C",        __("Connect to the current Reader"),    \&ConnectDefaultReader ],
+        [ "ReaderReconnect",  'gtk-redo',       __("Reco_nnect"),     undef,               __("Reconnect to the current Reader"),  \&ReconnectDefaultReader ],
+        [ "ReaderDisconnect",  undef,           __("_Disconnect"),    "<control>D",        __("Disconnect from the current Reader"),  \&DisconnectDefaultReader ],
+        [ "ReaderStatus",     'gtk-properties', __("_Status"),        undef,               __("Display the current Reader's status"), \&DefaultReaderStatus ],
+        [ "RunMenu",           undef,           __("Ru_n") ],
+        [ "Run",              'gtk-execute',    __("_Run Script"),    undef,               __("Run Script on current Reader"),     \&RunScript ],
+        [ "Clear",            'gtk-clear',      __("C_lear Results"), undef,               __("Clear the Results Area"),           \&ClearResult ],
+        [ "SettingsMenu",     'gtk-preferences', __("_Settings") ],
+        [ "SelectReader",     'gtk-preferences', __("Reader"),        "<control>P",        __("Select the Reader"),                \&ReaderConfig ],
+        [ "HelpMenu",          undef,           __("_Help") ],
+        [ "About",             undef,           __("_About"),         "<control>A",        __("About"),                            \&About ],
     );
 
     my $ui = Gtk3::UIManager->new();
@@ -487,7 +487,7 @@ sub LoadScriptFile {
             [qw( modal destroy-with-parent )],
             'GTK_MESSAGE_QUESTION',
             'ok',
-            "The current work will be lost!\nAre you sure you want to continue?"
+            __("The current work will be lost!\nAre you sure you want to continue?")
         );
         $dialog->add_button('gtk-cancel', 'cancel');
         if ( 'ok' eq $dialog->run ) {
@@ -597,7 +597,7 @@ sub ConnectDefaultReader {
                 [qw( modal destroy-with-parent )],
                 'GTK_MESSAGE_QUESTION',
                 'gtk-ok',
-                "The card is already connected...\nDo you want to reconnect?"
+                __("The card is already connected...\nDo you want to reconnect?")
             );
             $dialog->add_button('gtk-cancel', 'cancel');
             if ( 'ok' eq $dialog->run ) {
@@ -639,7 +639,7 @@ sub ReconnectDefaultReader {
             [qw( modal destroy-with-parent )],
             'GTK_MESSAGE_QUESTION',
             'ok',
-            "The Chipcard::PCSC:Card object is not connected...\n Do you want to connect?"
+            __("The Chipcard::PCSC:Card object is not connected...\n Do you want to connect?")
         );
         $dialog->add_button('gtk-cancel', 'cancel');
         if ( 'ok' eq $dialog->run ) {
@@ -735,7 +735,7 @@ sub DefaultReaderStatus {
             [qw( modal destroy-with-parent )],
             'GTK_MESSAGE_QUESTION',
             'ok',
-            "The reader is not connected...\n Do you want to connect?"
+            __("The reader is not connected...\n Do you want to connect?")
         );
         $dialog->add_button('gtk-cancel', 'cancel');
         if ( 'ok' eq $dialog->run ) {
@@ -828,7 +828,7 @@ sub RunScript {
             [qw( modal destroy-with-parent )],
             'GTK_MESSAGE_QUESTION',
             'ok',
-            "The Chipcard::PCSC::Card object is not connected!\nDo you want to connect?"
+            __("The Chipcard::PCSC::Card object is not connected!\nDo you want to connect?")
         );
         $dialog->add_button('gtk-cancel', 'cancel');
         if ( 'ok' eq $dialog->run ) {
