@@ -1306,6 +1306,10 @@
 3B 5F 96 00 80 5A 2C 11 00 10 10 00 FF FF FF FF 82 90 00
 	Calypso (Transport)
 
+3B 5F 96 00 80 5A 3F 06 08 14 01 01 C5 46 EB DC 82 90 00
+	Multi-Transport Pass (Navegante) (Metro, Bus, Electric, Boat) Carris Metropolitano, PT (Transport)
+	https://www.navegante.pt/
+
 3B 60 00 00
 	Meano (Bank)
 
@@ -1550,6 +1554,10 @@
 3B 65 00 00 20 63 CB C6 00
 	AuMax / Credit Mutuel (Bank)
 	https://www.aumaxpourmoi.fr/
+
+3B 65 00 00 20 63 CB C6 80
+	BNP Paribas Visa Classic Card (Bank)
+	https://mabanque.bnpparibas/en/managing-your-accounts/cards-and-payment-methods/all-cards/visa-classic-card
 
 3B 65 00 00 20 63 CB FF 00
 	Crédit Agricole business mastercard (Bank)
@@ -1889,6 +1897,7 @@
 	CaixaBank Visa Electron (Bank)
 	https://www.lacaixa.cat/
 	American Express Canada Credit Card (Bank)
+	Alfa-bank Russia Visa
 
 3B 68 00 00 00 73 C8 40 13 00 90 7D
 	NextCard - Mastercard Debit card - Intesa Sanpaolo Bank (Italy) (Bank)
@@ -1998,6 +2007,7 @@
 3B 68 00 00 99 02 00 D1 03 04 22 01
 	N26 business debit card (Bank)
 	https://n26.com/en-de/business-account
+	Visa cards from Inecobank, Armenia
 
 3B 68 00 00 9D 03 02 01 01 56 49 53
 	Visa Card - SberBank / Russia
@@ -4081,6 +4091,10 @@
 	origo (France)  (Transport)
 	https://www.breizhgo.bzh/se-deplacer-en-bretagne/KorriGo
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 0C 7E 79 82 90 00
+	Transportation card delivered by STAR (Transportation service from the city of Rennes, France) (Transport)
+	https://www.star.fr/titres-et-tarifs/carte-korrigo/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -4225,6 +4239,10 @@
 3B 6F 00 00 80 5A 34 07 06 15 00 01 79 17 A7 E2 82 90 00
 	Rav-Kav multi-line travel ticket used in the public transportation system in Israel (Transport)
 	https://www.gov.il/en/departments/guides/multi_line_card
+
+3B 6F 00 00 80 5A 34 07 06 15 00 01 79 2A 4B 5C 82 90 00
+	Rav Kav Transit Payment Card (Israel) (Transport)
+	https://ravkavonline.co.il/
 
 3B 6F 00 00 80 5A 3B 07 06 15 01 01 79 3E 79 7B 82 90 00
 	Rav Kav (Transport)
@@ -6305,6 +6323,10 @@
 	DNIE Spain (eID) Contactless (eID)
 	http://www.dnielectronico.es/PortalDNIe/
 
+3B 88 80 01 E1 F3 5E 11 77 81 E1 60 23
+	DNIe v4 (Spanish eID) - contactless interface (PC/SC wrapped 14443 Type B ATR) (eID)
+	https://www.dnielectronico.es
+
 3B 88 80 01 E1 F3 5E 11 77 83 00 00 A0
 	Residence permit (eID)
 	http://de.wikipedia.org/wiki/Aufenthaltstitel
@@ -6791,6 +6813,9 @@
 	Local Transport card for Trentino region (Italy) trentino trasporti esercizio (Transport)
 	http://www.ttesercizio.it/
 
+3B 8C 80 01 50 00 CA 46 4D 00 00 00 00 80 81 71 EC
+	Visa Classic (Bank)
+
 3B 8C 80 01 50 01 97 E9 BE 00 00 00 00 80 81 71 EC
 	VISA card from bank LA BANQUE POSTALE (Bank)
 
@@ -7175,6 +7200,10 @@
 
 3B 8D 80 01 00 31 80 71 8E 64 52 D9 04 00 82 90 00 BB
 	AwesomeCard (Bank)
+
+3B 8D 80 01 00 31 C1 73 C8 40 00 52 A5 10 00 90 00 70
+	NXP P71 SmartMX3 (JavaCard)
+	https://www.nxp.com/products/security-and-authentication/security-controllers/smartmx3-p71d321-secure-and-flexible-microcontroller:SMARTMX3-P71D321
 
 3B 8D 80 01 00 73 C8 00 13 64 47 37 42 37 00 90 00 55
 	TD Canada Trust Visa
@@ -11090,6 +11119,9 @@
 	Oberthur Cosmo v7 128K with PIV applet
 	http://www.smartcardfocus.com/shop/ilp/id~410/p/index.shtml
 
+3B DB 96 FF 80 B1 FE 45 1F 87 00 31 C1 64 09 33 64 49 0F 90 00 BC
+	cnie Carte Nationale d'Identité Électronique (eID)
+
 3B DB 96 FF 80 B1 FE 45 1F 87 00 31 C1 64 09 37 72 13 0F 90 00 F4
 	French ID Card 2021 (eID)
 	https://ants.gouv.fr/nos-missions/les-titres-produits-par-l-ants/les-documents-d-identite/la-puce-de-la-nouvelle-carte-nationale-didentite
@@ -12340,6 +12372,10 @@
 	Affinity CUIA Debit (JavaCard)
 	https://www.affinitycuia.org
 
+3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 01 30 50 23 10 0D
+	Walden Mutual Bank (Bank)
+	https://www.waldenmutual.com/sustainable-bank-for-individuals#footnote-s0-4
+
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
 
@@ -12537,6 +12573,9 @@
 
 3B FA 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. .. .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
+
+3B FA 13 00 00 81 31 FE 54 A4 34 F5 03 23 31 91
+	Jcop (JavaCard)
 
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
