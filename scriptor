@@ -35,7 +35,7 @@ my $echo;
 
 die ("Could not create Chipcard::PCSC object: $Chipcard::PCSC::errno\n") unless defined $hContext;
 
-getopts ("r:p:u" , \%options);
+getopts ("hr:p:u" , \%options);
 
 if ($options{h}) {
 	print "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n";
