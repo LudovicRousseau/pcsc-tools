@@ -1,0 +1,221 @@
+# French l10n
+# Copyright (C) 2023 Ludovic Rousseau
+# This file is distributed under the same license as the pcsc-tools package.
+# Ludovic Rousseau <ludovic.rousseau@free.fr>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pcsc-tools 1.6.2\n"
+"Report-Msgid-Bugs-To: https://github.com/LudovicRousseau/pcsc-tools/issues\n"
+"POT-Creation-Date: 2023-03-19 11:17+0100\n"
+"PO-Revision-Date: 2023-03-19 11:19+CET\n"
+"Last-Translator: Ludovic Rousseau <ludovic.rousseau@free.fr>\n"
+"Language-Team: French <fr@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../gscriptor:188
+msgid "_File"
+msgstr "_Fichier"
+
+#: ../gscriptor:189
+msgid "_New"
+msgstr "_Nouveau"
+
+#: ../gscriptor:189
+msgid "Create a new file"
+msgstr "Créer un nouveau fichier"
+
+#: ../gscriptor:190
+msgid "_Open"
+msgstr "_Ouvrir"
+
+#: ../gscriptor:190
+msgid "Open a file"
+msgstr "Ouvrir un fichier"
+
+#: ../gscriptor:191
+msgid "_Save"
+msgstr "_Sauver"
+
+#: ../gscriptor:191
+msgid "Save current file"
+msgstr "Sauver le fichier courant"
+
+#: ../gscriptor:192
+msgid "Save _As..."
+msgstr "Sauver sous..."
+
+#: ../gscriptor:192
+msgid "Save to a file"
+msgstr "Sauver dans un fichier"
+
+#: ../gscriptor:193
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: ../gscriptor:193
+msgid "Quit"
+msgstr "Quitter"
+
+#: ../gscriptor:194
+msgid "R_eader"
+msgstr "L_ecteur"
+
+#: ../gscriptor:195
+msgid "_Connect"
+msgstr "_Connecter"
+
+#: ../gscriptor:195
+msgid "Connect to the current Reader"
+msgstr "Connecter au lecteur courant"
+
+#: ../gscriptor:196
+msgid "Reco_nnect"
+msgstr "Reconnecter"
+
+#: ../gscriptor:196
+msgid "Reconnect to the current Reader"
+msgstr "Reconnecter au lecteur courant"
+
+#: ../gscriptor:197
+msgid "_Disconnect"
+msgstr "_Déconnecter"
+
+#: ../gscriptor:197
+msgid "Disconnect from the current Reader"
+msgstr "Déconnecter du lecteur courant"
+
+#: ../gscriptor:198
+msgid "_Status"
+msgstr "État"
+
+#: ../gscriptor:198
+msgid "Display the current Reader's status"
+msgstr "Afficher l'état courant du lecteur"
+
+#: ../gscriptor:199
+msgid "Ru_n"
+msgstr "Exécuter"
+
+#: ../gscriptor:200
+msgid "_Run Script"
+msgstr "Exécuter le script"
+
+#: ../gscriptor:200
+msgid "Run Script on current Reader"
+msgstr "Exécuter le script sur le lecteur courant"
+
+#: ../gscriptor:201
+msgid "C_lear Results"
+msgstr "Éffacer les résultats"
+
+#: ../gscriptor:201
+msgid "Clear the Results Area"
+msgstr "Éffacer la zone de résultats"
+
+#: ../gscriptor:202
+msgid "_Settings"
+msgstr "Configuration"
+
+#: ../gscriptor:203
+msgid "Reader"
+msgstr "Lecteur"
+
+#: ../gscriptor:203
+msgid "Select the Reader"
+msgstr "Selection du lecteur"
+
+#: ../gscriptor:204
+msgid "_Help"
+msgstr "Aide"
+
+#: ../gscriptor:205
+msgid "_About"
+msgstr "À propos"
+
+#: ../gscriptor:205
+msgid "About"
+msgstr "À propos"
+
+#: ../gscriptor:490
+msgid ""
+"The current work will be lost!\n"
+"Are you sure you want to continue?"
+msgstr ""
+"Le travail courant sera perdu !\n"
+"Voulez vous vraiment continuer ?"
+
+#: ../gscriptor:600
+msgid ""
+"The card is already connected...\n"
+"Do you want to reconnect?"
+msgstr ""
+"La carte est déjà connectée...\n"
+"Voulez vous la reconnecter ?"
+
+#: ../gscriptor:642
+msgid ""
+"The Chipcard::PCSC:Card object is not connected...\n"
+" Do you want to connect?"
+msgstr ""
+"L'objet Chipcard::PCSC:Card ne peut pas être connecté...\n"
+"Voulez vous le reconnecter ?"
+
+#: ../gscriptor:738
+msgid ""
+"The reader is not connected...\n"
+" Do you want to connect?"
+msgstr ""
+"Le lecteur n'est pas connecté...\n"
+"Voulez-vous le connecter ?"
+
+#: ../gscriptor:831
+msgid ""
+"The Chipcard::PCSC::Card object is not connected!\n"
+"Do you want to connect?"
+msgstr ""
+"L'objet Chipcard::PCSC:Card ne peut pas être connecté!\n"
+"Voulez vous le reconnecter ?"
+
+#: ../scriptor:47
+msgid "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n"
+msgstr ""
+
+#: ../scriptor:48
+msgid "          -h: this help\n"
+msgstr "          -h: cette aide\n"
+
+#: ../scriptor:49
+msgid "   -r reader: specify to use the PCSC smart card reader named reader\n"
+msgstr "  -r lecteur: spécifie le nom PCSC du lecteur à utiliser\n"
+
+#: ../scriptor:50
+msgid "              By defaults the first one found is used so you\n"
+msgstr "              Par défaut le premier lecteur trouvé est utilisé\n"
+
+#: ../scriptor:51
+msgid "              don't have to specify anything if you just have\n"
+msgstr "              comme ça vous n'avez rien à spécifier si vous\n"
+
+#: ../scriptor:52
+msgid "              one reader\n"
+msgstr "              n'avez qu'un seul lecteur\n"
+
+#: ../scriptor:53
+msgid " -p protocol: protocol to use among T=0 and T=1.\n"
+msgstr "-p protocole: protocole à utiliser entre T=0 et T=1.\n"
+
+#: ../scriptor:54
+msgid "              Default is to let pcsc-lite choose the protocol\n"
+msgstr "              Par défaut pcsc-lite choisi le protocole\n"
+
+#: ../scriptor:55
+msgid "          -u: use unbuffered stdout\n"
+msgstr "          -u: utiliser un stdout non bufferisé\n"
+
+#: ../scriptor:56
+msgid "        file: file containing APDUs\n"
+msgstr "     fichier: fichier contenant les APDUs\n"
