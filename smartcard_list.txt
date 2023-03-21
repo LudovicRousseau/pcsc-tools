@@ -2348,6 +2348,9 @@
 	Crédit Agricole Bank Card - Bancomat / Maestro
 	Danske Bank Mastercard Debit
 
+3B 6B 00 00 00 31 C0 64 08 44 03 77 07 90 00
+	Sber bank VISA with Novacard chip (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 48 41 08 0F 90 00
 	Monizze card. Card use to pay only meal. (Other)
 	http://www.monizze.be
@@ -2445,6 +2448,9 @@
 3B 6B 00 00 00 31 C1 64 08 60 32 21 07 90 00
 	DSK Bank Debit Mastercard (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 60 32 42 0F 90 00
+	Westpac Handybank EFTPOS/ATM Card (Bank)
+
 3B 6B 00 00 00 31 C1 64 08 77 71 30 0F 90 00
 	Apple Card (from launch) (Bank)
 	https://www.apple.com/apple-card/
@@ -2463,6 +2469,10 @@
 3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
 	Sodexo Czech Gastro/Multipass (Other)
 	https://www.sodexo.cz/
+
+3B 6B 00 00 00 31 C1 64 09 24 33 1E 0F 90 00
+	Cembra Money Bank - Certo! Mastercard credit card (Bank)
+	https://certo-card.ch/certo/de/
 
 3B 6B 00 00 00 31 C1 64 09 29 62 25 0F 90 00
 	SANTANDER BASIC CASH CARD (Bank)
@@ -2817,6 +2827,10 @@
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
+
+3B 6D 00 FF 00 31 C1 73 C8 40 00 52 A1 D8 00 90 00
+	Discover it Credit Card (Bank)
+	https://www.discover.com/credit-cards/cash-back/it-card.html
 
 3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 0[15]
 	Giesecke & Devrient CardToken 350 (ICCD)
@@ -3602,6 +3616,9 @@
 3B 6F 00 00 80 31 E0 6B 04 52 05 02 FE 55 55 55 55 55 55
 	CITIBanamex "Perfiles" debit card (Bank)
 	https://www.banamex.com/es/personas/cuentas/cuenta-perfiles.html
+
+3B 6F 00 00 80 31 E0 6B 04 54 6B 02 6D 55 55 55 55 55 55
+	Mastercard Credit/Debit Card (Bank)
 
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
@@ -6068,6 +6085,9 @@
 3B 88 80 01 00 00 00 00 00 71 81 00 F9
 	Navigo Découverte (RFID interface) (Transport)
 
+3B 88 80 01 00 00 00 00 00 81 70 00 F8
+	Qantas Frequent Flyer Loyalty Card - Contactless (Loyalty)
+
 3B 88 80 01 00 00 00 00 00 81 77 00 FF
 	KBC Maestro card (Bank)
 
@@ -6573,6 +6593,10 @@
 	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NXP JCOP 41 v2.2.1 72k RFID I/F
 
+3B 8A 80 01 50 56 4A 43 4F 50 33 45 4D 56 76
+	NXP JCOP3 J3H082 Java Card 3.0.4 Dual-Interface (JavaCard) (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop3-j3h082-java-card-3-0-4-j3h081-dual-interface/
+
 3B 8A 80 01 53 45 20 44 45 53 46 69 72 65 57
 	NXP-Mifare DESFire EV1 2k (used as a company ID card) (eID)
 
@@ -6693,6 +6717,9 @@
 
 3B 8B 80 01 00 31 C1 64 08 60 32 20 00 90 00 74
 	IDEMIA (Other)
+
+3B 8B 80 01 00 31 C1 64 08 60 32 42 00 90 00 16
+	Westpac Handybank EFTPOS/ATM Card - Contactless (Bank)
 
 3B 8B 80 01 00 31 C1 64 08 92 33 54 00 90 00 F3
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
@@ -7559,6 +7586,9 @@
 
 3B 8F 80 01 80 31 E0 6B 04 53 F5 02 5B 55 55 55 55 55 55 CF
 	Mastercard debit card for Askari Bank, Pakistan (Bank)
+
+3B 8F 80 01 80 31 E0 6B 04 54 6B 02 6D 55 55 55 55 55 55 60
+	Mastercard Credit/Debit Card - Contactless (Bank)
 
 3B 8F 80 01 80 31 E0 6B 06 16 05 02 8C 55 55 55 55 55 55 AF
 	Air Miles American Express card (contactless) (Bank)
@@ -12629,6 +12659,10 @@
 3B FA 18 00 00 91 01 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 82
 	Supposed P71 SecID purchased from a Chinese manufacturer (JavaCard)
 
+3B FA 18 00 00 91 01 31 FE 45 6B D1 93 6A C2 F2 85 47 E1 64 CC
+	J3R180, NXP JCOP4 JC3.0.5 Classic, GP2.3, SECID (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
+
 3B FA 18 00 02 C1 0A 31 FE 58 4B 53 77 69 73 73 53 69 67 6E 89
 	SuisseId card (used for qualified signatures)
 	http://postsuisseid.ch/de/suisseid
@@ -12719,6 +12753,9 @@
 3B FB 13 00 FF 10 80 00 31 C1 64 09 24 33 1E 0F 90 00
 	TransferWise Debit Card (Bank)
 	https://wise.com/
+
+3B FB 13 00 FF 10 80 00 31 C1 64 09 64 41 36 0F 90 00
+	Truist Business Debit (Bank)
 
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
