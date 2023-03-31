@@ -1,8 +1,5 @@
 # Makefile for various po files.
 
-srcdir = .
-libdir = ../lib
-
 MSGMERGE  = msgmerge
 MSGFMT    = msgfmt
 XGETTEXT  = xgettext
@@ -17,7 +14,7 @@ TD = $(strip $(TEXTDOMAIN))
 
 default: help
 
-all: $(TD).pot update-po update-mo install
+all: update-mo
 
 help:
 	@echo "Available targets:"
@@ -25,7 +22,7 @@ help:
 	@echo "  update-po                 - merge po files"
 	@echo "  update-mo                 - regenerate mo files"
 	@echo "  install                   - install mo files"
-	@echo "  all                       - all of the above"
+	@echo "  all                       - update-mo target"
 
 POTFILES = $(srcdir)/POTFILES \
 	$(shell cat $(srcdir)/POTFILES) 
@@ -46,15 +43,34 @@ $(TD).pot: $(POTFILES)
 
 install: $(MO_FILES)
 	cd $(srcdir); \
-	targetdir='$(libdir)/LocaleData'; \
+	targetdir='$(DESTDIR)$(localedir)'; \
 	languages='$(LINGUAS)'; \
 	for lang in $$languages; do \
-		mkdir -p "$$targetdir/$$lang/LC_MESSAGES" || exit 1; \
+		dest="$$targetdir/$$lang/LC_MESSAGES"; \
+		mkdir -p $$dest && chmod +w $$dest || exit 1; \
 		dest="$$targetdir/$$lang/LC_MESSAGES/$(TD).mo"; \
 		cat="$$lang.gmo"; \
 		echo "installing $$cat as $$dest"; \
-		cp -f $$cat $$dest && chmod 644 $$dest || exit 1; \
+		cp -f $(abs_builddir)/$$cat $$dest && chmod 644 $$dest || exit 1; \
 	done
+
+uninstall:
+	cd $(srcdir); \
+	targetdir='$(DESTDIR)$(localedir)'; \
+	languages='$(LINGUAS)'; \
+	for lang in $$languages; do \
+		dest="$$targetdir/$$lang/LC_MESSAGES/$(TD).mo"; \
+		rm $$dest || exit 1; \
+	done
+
+distclean:
+	cd $(srcdir); \
+	languages='$(LINGUAS)'; \
+	for lang in $$languages; do \
+		cat="$$lang.gmo"; \
+		rm $(abs_builddir)/$$cat || exit 1; \
+	done; \
+	rm $(abs_builddir)/Makefile
 
 update-mo: $(MO_FILES)
 
@@ -76,8 +92,7 @@ update-po:
           fi; \
         done
 
-.SUFFIXES:
-.SUFFIXES: .po .gmo
+SUFFIXES: .po .gmo
 
 .po.gmo:
 	$(MSGFMT) --check --statistics --verbose -o $@ $<
