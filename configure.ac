@@ -98,5 +98,6 @@ AC_CONFIG_FILES([
 	Makefile
 	ATR_analysis
 	ATR_analysis.1p
+	po/Makefile
 	])
 AC_OUTPUT

@@ -1,3 +1,5 @@
+SUBDIRS = po
+
 PERL_BINS = ATR_analysis.in scriptor gscriptor
 PERL_MANPAGES = ATR_analysis.1p.in scriptor.1p gscriptor.1p
 
