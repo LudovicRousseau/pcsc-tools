@@ -1510,6 +1510,9 @@
 3B 65 00 00 20 63 CB B9 00
 	Mastercard (Bank)
 
+3B 65 00 00 20 63 CB BC
+	jcop040 (JavaCard)
+
 3B 65 00 00 20 63 CB BC 00
 	Credit Agricole MasterCard Societaire (France) (Bank)
 	https://www.ca-centrefrance.fr/moyens-de-paiement/carte-bancaire-societaire.html
@@ -3820,6 +3823,9 @@
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 12 90 FD 82 90 00
 	OPUS Montreal Société des Transports de Montréal Metro and Bus card. (Transport)
 	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media
+
+3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 15 C4 11 82 90 00
+	Montreal OPUS Transportation Card for the STM, STL, RTM and RTL (Transport) (Transport)
 
 3B 6F 00 00 80 5A 08 06 08 20 12 23 C2 1B AF B4 82 90 00
 	OPUS card (Transport)
@@ -6322,6 +6328,9 @@
 3B 88 80 01 E1 E1 F3 5E 13 77 83 00 43
 	ePerso - German ID card (issued 2011) (eID)
 
+3B 88 80 01 E1 F3 5E 11 33 81 97 00 71
+	DK passport (passport)
+
 3B 88 80 01 E1 F3 5E 11 73 81 A5 00 03
 	US passport (2007)
 
@@ -7457,6 +7466,10 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00 89
 	SpareBank Visa Card, Norway (Bank)
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00 9E
+	TIM Pay - HYPE (Mastercard debit card) (Bank)
+	https://www.tim.it/fisso-e-mobile/mobile/servizi/tim-pay
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 34 00 90 00 99
 	G&D Sm@rtCafe Card embedded in a wristband (Bank)
 	https://www.gi-de.com/en/au/mobile-security/industries/financial-institutions/wearables/
@@ -8107,6 +8120,9 @@
 
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
+
+3B 96 94 80 1F C6 D0 01 9F CB 10 00 CE
+	jawwal (Telecommunication)
 
 3B 96 95 80 1F C3 D0 07 83 02 54 00 5D
 	au IC-card ver.001 (for CDMA2000) (Telecommunication)
@@ -9632,6 +9648,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 42 47 01 11 00 00 01 CC
+	Bank of Hawai'i (Bank)
+	https://www.boh.com/
+
 3B 9F 96 80 1F C7 80 31 A0 73 BE 21 13 67 43 20 07 18 00 00 01 00
 	sysmoUSIM-SJS1 (Telecommunication) (Telecommunication)
 	http://www.sysmocom.de/products/sysmousim-sjs1-sim-usim
@@ -9671,6 +9691,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 02 01 00 A0
 	vivo (Other)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 20 02 00 81
+	VALID brand SIM card from T-Mobile (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 46 01 49 01 00 8A
 	T-Mobile Poland pre-paid SIM card (Telecommunication)
@@ -10067,6 +10090,10 @@
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 60 61 00 09
 	ting (Telecommunication)
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 11 EE
+	eSIM.me pluggable eSIM (Telecommunication)
+	https://esim.me/
 
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 50 00 19
 	st33g1m2 (Telecommunication)
@@ -13002,6 +13029,9 @@
 	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
 	http://www.usmartcards.co.uk/cards/universal-jcard-contact-with-infineon-sle78-white-gloss-pvc-card.html
 
+3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 24
+	J3R180 (JavaCard)
+
 3B FE 13 00 00 10 80 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
 	Sberbank of Russia MIR debit card (Bank)
 
@@ -13684,6 +13714,10 @@
 
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
+
+3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 32 30 20 52 65 76 53 34 30
+	Nagra card  Canal+ (Polish TV provider) (Pay TV)
+	https://pl.canalplus.com/
 
 3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 32 30 20 52 65 76 53 34 30 F1
 	NC+ Polland (Pay TV)
