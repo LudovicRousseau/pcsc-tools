@@ -6,3 +6,4 @@ Terminal=false
 Type=Application
 Categories=Utility;GTK;
 Keywords=smartcard;apdu;
+Icon=@pcsc_dir@/gscriptor.png

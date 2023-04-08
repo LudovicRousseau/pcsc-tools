@@ -10,8 +10,12 @@ pcsc_scan_LDADD = $(PCSC_LIBS)
 
 bin_SCRIPTS = $(subst .in, , $(PERL_BINS))
 
-pcsc_DATA = smartcard_list.txt
+pcsc_DATA = smartcard_list.txt gscriptor.png
 pcscdir = $(pcsc_dir)
+
+desktopdir = $(datadir)/applications
+desktop_in_files = gscriptor.desktop.in
+desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
 #  install the man pages
 man_MANS = pcsc_scan.1 $(subst .in, , $(PERL_MANPAGES))

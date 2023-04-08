@@ -99,5 +99,6 @@ AC_CONFIG_FILES([
 	ATR_analysis
 	ATR_analysis.1p
 	po/Makefile
+	gscriptor.desktop
 	])
 AC_OUTPUT
