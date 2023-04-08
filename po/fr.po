@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pcsc-tools 1.6.2\n"
 "Report-Msgid-Bugs-To: https://github.com/LudovicRousseau/pcsc-tools/issues\n"
-"POT-Creation-Date: 2023-03-19 11:17+0100\n"
+"POT-Creation-Date: 2023-04-11 21:56+0200\n"
 "PO-Revision-Date: 2023-03-19 11:19+CET\n"
 "Last-Translator: Ludovic Rousseau <ludovic.rousseau@free.fr>\n"
 "Language-Team: French <fr@li.org>\n"
@@ -16,131 +16,171 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../gscriptor:188
+#: ../gscriptor:68
+msgid "Wrap lines"
+msgstr ""
+
+#: ../gscriptor:69
+msgid "Run"
+msgstr "Exécuter"
+
+#: ../gscriptor:140
+msgid "Script"
+msgstr ""
+
+#: ../gscriptor:141
+msgid "Result"
+msgstr "Résultat"
+
+#: ../gscriptor:193
 msgid "_File"
 msgstr "_Fichier"
 
-#: ../gscriptor:189
+#: ../gscriptor:194
 msgid "_New"
 msgstr "_Nouveau"
 
-#: ../gscriptor:189
+#: ../gscriptor:194
 msgid "Create a new file"
 msgstr "Créer un nouveau fichier"
 
-#: ../gscriptor:190
+#: ../gscriptor:195
 msgid "_Open"
 msgstr "_Ouvrir"
 
-#: ../gscriptor:190
+#: ../gscriptor:195
 msgid "Open a file"
 msgstr "Ouvrir un fichier"
 
-#: ../gscriptor:191
+#: ../gscriptor:196
 msgid "_Save"
 msgstr "_Sauver"
 
-#: ../gscriptor:191
+#: ../gscriptor:196
 msgid "Save current file"
 msgstr "Sauver le fichier courant"
 
-#: ../gscriptor:192
+#: ../gscriptor:197
 msgid "Save _As..."
 msgstr "Sauver sous..."
 
-#: ../gscriptor:192
+#: ../gscriptor:197
 msgid "Save to a file"
 msgstr "Sauver dans un fichier"
 
-#: ../gscriptor:193
+#: ../gscriptor:198
 msgid "_Quit"
 msgstr "_Quitter"
 
-#: ../gscriptor:193
+#: ../gscriptor:198
 msgid "Quit"
 msgstr "Quitter"
 
-#: ../gscriptor:194
+#: ../gscriptor:199
 msgid "R_eader"
 msgstr "L_ecteur"
 
-#: ../gscriptor:195
+#: ../gscriptor:200
 msgid "_Connect"
 msgstr "_Connecter"
 
-#: ../gscriptor:195
+#: ../gscriptor:200
 msgid "Connect to the current Reader"
 msgstr "Connecter au lecteur courant"
 
-#: ../gscriptor:196
+#: ../gscriptor:201
 msgid "Reco_nnect"
 msgstr "Reconnecter"
 
-#: ../gscriptor:196
+#: ../gscriptor:201
 msgid "Reconnect to the current Reader"
 msgstr "Reconnecter au lecteur courant"
 
-#: ../gscriptor:197
+#: ../gscriptor:202
 msgid "_Disconnect"
 msgstr "_Déconnecter"
 
-#: ../gscriptor:197
+#: ../gscriptor:202
 msgid "Disconnect from the current Reader"
 msgstr "Déconnecter du lecteur courant"
 
-#: ../gscriptor:198
+#: ../gscriptor:203
 msgid "_Status"
 msgstr "État"
 
-#: ../gscriptor:198
+#: ../gscriptor:203
 msgid "Display the current Reader's status"
 msgstr "Afficher l'état courant du lecteur"
 
-#: ../gscriptor:199
+#: ../gscriptor:204
 msgid "Ru_n"
 msgstr "Exécuter"
 
-#: ../gscriptor:200
+#: ../gscriptor:205
 msgid "_Run Script"
 msgstr "Exécuter le script"
 
-#: ../gscriptor:200
+#: ../gscriptor:205
 msgid "Run Script on current Reader"
 msgstr "Exécuter le script sur le lecteur courant"
 
-#: ../gscriptor:201
+#: ../gscriptor:206
 msgid "C_lear Results"
 msgstr "Éffacer les résultats"
 
-#: ../gscriptor:201
+#: ../gscriptor:206
 msgid "Clear the Results Area"
 msgstr "Éffacer la zone de résultats"
 
-#: ../gscriptor:202
+#: ../gscriptor:207
 msgid "_Settings"
 msgstr "Configuration"
 
-#: ../gscriptor:203
+#: ../gscriptor:208 ../gscriptor:272
 msgid "Reader"
 msgstr "Lecteur"
 
-#: ../gscriptor:203
+#: ../gscriptor:208
 msgid "Select the Reader"
 msgstr "Selection du lecteur"
 
-#: ../gscriptor:204
+#: ../gscriptor:209
 msgid "_Help"
 msgstr "Aide"
 
-#: ../gscriptor:205
+#: ../gscriptor:210
 msgid "_About"
 msgstr "À propos"
 
-#: ../gscriptor:205
+#: ../gscriptor:210
 msgid "About"
 msgstr "À propos"
 
-#: ../gscriptor:490
+#: ../gscriptor:249
+msgid "welcome to the "
+msgstr "bienvenu sur l'application "
+
+#: ../gscriptor:249
+msgid " application! - not connected"
+msgstr " ! - pas connecté"
+
+#: ../gscriptor:255
+msgid "Can not open"
+msgstr ""
+
+#: ../gscriptor:274
+msgid "Protocol"
+msgstr "Protocole"
+
+#: ../gscriptor:349
+msgid "New configuration !"
+msgstr ""
+
+#: ../gscriptor:354
+msgid "Preserving old configuration"
+msgstr ""
+
+#: ../gscriptor:431 ../gscriptor:495
 msgid ""
 "The current work will be lost!\n"
 "Are you sure you want to continue?"
@@ -148,7 +188,20 @@ msgstr ""
 "Le travail courant sera perdu !\n"
 "Voulez vous vraiment continuer ?"
 
-#: ../gscriptor:600
+#: ../gscriptor:452 ../gscriptor:475
+msgid "Successfully saved script to"
+msgstr ""
+
+#: ../gscriptor:456 ../gscriptor:470 ../gscriptor:479 ../gscriptor:514
+#: ../gscriptor:519
+msgid "Can't open"
+msgstr ""
+
+#: ../gscriptor:531
+msgid "Action Cancelled..."
+msgstr ""
+
+#: ../gscriptor:605
 msgid ""
 "The card is already connected...\n"
 "Do you want to reconnect?"
@@ -156,7 +209,25 @@ msgstr ""
 "La carte est déjà connectée...\n"
 "Voulez vous la reconnecter ?"
 
-#: ../gscriptor:642
+#: ../gscriptor:615 ../gscriptor:633
+msgid "Connected to"
+msgstr "Connecté à"
+
+#: ../gscriptor:617
+msgid "Can not connect to the reader named"
+msgstr "Ne peut pas se connecter au lecteur"
+
+#: ../gscriptor:623
+msgid ""
+"No default reader has been configured.\n"
+"Please make sure you have configured a reader first."
+msgstr ""
+
+#: ../gscriptor:635
+msgid "Can not reconnect to the reader named"
+msgstr "Ne peut pas se reconnecter au lecteur"
+
+#: ../gscriptor:647
 msgid ""
 "The Chipcard::PCSC:Card object is not connected...\n"
 " Do you want to connect?"
@@ -164,7 +235,23 @@ msgstr ""
 "L'objet Chipcard::PCSC:Card ne peut pas être connecté...\n"
 "Voulez vous le reconnecter ?"
 
-#: ../gscriptor:738
+#: ../gscriptor:661
+msgid "Can not disconnect from the reader named"
+msgstr "Ne peut pas se déconnecter du lecteur"
+
+#: ../gscriptor:665
+msgid "not connected"
+msgstr "pas connecté"
+
+#: ../gscriptor:668
+msgid "The Chipcard::PCSC::Card object is not connected!"
+msgstr "L'objet Chipcard::PCSC:Card n'est pas connecté!"
+
+#: ../gscriptor:733
+msgid "Can not retrieve reader status:\n"
+msgstr ""
+
+#: ../gscriptor:743
 msgid ""
 "The reader is not connected...\n"
 " Do you want to connect?"
@@ -172,7 +259,41 @@ msgstr ""
 "Le lecteur n'est pas connecté...\n"
 "Voulez-vous le connecter ?"
 
-#: ../gscriptor:831
+#: ../gscriptor:765
+msgid ""
+"Beginning script execution...\n"
+"\n"
+msgstr ""
+"Début d'exécution du script...\n"
+"\n"
+
+#: ../gscriptor:812
+msgid "Sending: "
+msgstr "Envoyé : "
+
+#: ../gscriptor:818
+msgid "Received: "
+msgstr "Reçu : "
+
+#: ../gscriptor:822
+msgid "Transmit failed:"
+msgstr ""
+
+#: ../gscriptor:822
+msgid "Stopping script execution"
+msgstr "Fin d'exécution du script"
+
+#: ../gscriptor:825
+msgid ""
+"\n"
+"Errors During Script Execution:"
+msgstr ""
+
+#: ../gscriptor:829
+msgid "Script was executed without error...\n"
+msgstr "Script exécuté sans erreur...\n"
+
+#: ../gscriptor:836
 msgid ""
 "The Chipcard::PCSC::Card object is not connected!\n"
 "Do you want to connect?"
@@ -181,7 +302,11 @@ msgstr ""
 "Voulez vous le reconnecter ?"
 
 #: ../scriptor:47
-msgid "Usage: $0 [-h] [-r reader] [-p protocol] [-u] [file]\n"
+msgid "Usage:"
+msgstr ""
+
+#: ../scriptor:47
+msgid "[-h] [-r reader] [-p protocol] [-u] [file]\n"
 msgstr ""
 
 #: ../scriptor:48
