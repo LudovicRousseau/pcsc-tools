@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.6.2\n"
+"Project-Id-Version: 1.6.3\n"
 "Report-Msgid-Bugs-To: https://github.com/LudovicRousseau/pcsc-tools/issues\n"
 "POT-Creation-Date: 2023-04-11 21:56+0200\n"
 "PO-Revision-Date: 2023-04-09 11:56+0300\n"
@@ -13,22 +13,19 @@ msgstr ""
 
 #: ../gscriptor:68
 msgid "Wrap lines"
-msgstr ""
+msgstr "перенос строк"
 
 #: ../gscriptor:69
-#, fuzzy
 msgid "Run"
-msgstr "Выполнить"
+msgstr "Старт"
 
 #: ../gscriptor:140
-#, fuzzy
 msgid "Script"
-msgstr "Выполнить скрипт"
+msgstr "Скрипт"
 
 #: ../gscriptor:141
-#, fuzzy
 msgid "Result"
-msgstr "Очистить"
+msgstr "Результат"
 
 #: ../gscriptor:193
 msgid "_File"
@@ -92,7 +89,7 @@ msgstr "Переподключить"
 
 #: ../gscriptor:201
 msgid "Reconnect to the current Reader"
-msgstr "Посторное подключение к считывателю"
+msgstr "Повторное подключение к считывателю"
 
 #: ../gscriptor:202
 msgid "_Disconnect"
@@ -156,28 +153,27 @@ msgstr "О программе"
 
 #: ../gscriptor:249
 msgid "welcome to the "
-msgstr ""
+msgstr "Добро пожаловать в "
 
 #: ../gscriptor:249
-#, fuzzy
 msgid " application! - not connected"
-msgstr "Переподключить"
+msgstr " , считыватель - не подключен"
 
 #: ../gscriptor:255
 msgid "Can not open"
-msgstr ""
+msgstr "Не могу открыть"
 
 #: ../gscriptor:274
 msgid "Protocol"
-msgstr ""
+msgstr "Протокол"
 
 #: ../gscriptor:349
 msgid "New configuration !"
-msgstr ""
+msgstr "Новая конфигурация !"
 
 #: ../gscriptor:354
 msgid "Preserving old configuration"
-msgstr ""
+msgstr "Сохранение старой конфигурации"
 
 #: ../gscriptor:431 ../gscriptor:495
 msgid ""
@@ -189,16 +185,16 @@ msgstr ""
 
 #: ../gscriptor:452 ../gscriptor:475
 msgid "Successfully saved script to"
-msgstr ""
+msgstr "Скрипт сохранен в"
 
 #: ../gscriptor:456 ../gscriptor:470 ../gscriptor:479 ../gscriptor:514
 #: ../gscriptor:519
 msgid "Can't open"
-msgstr ""
+msgstr "Не могу открыть"
 
 #: ../gscriptor:531
 msgid "Action Cancelled..."
-msgstr ""
+msgstr "Действие отменено..."
 
 #: ../gscriptor:605
 msgid ""
@@ -209,25 +205,24 @@ msgstr ""
 "Желаете переподключить?"
 
 #: ../gscriptor:615 ../gscriptor:633
-#, fuzzy
 msgid "Connected to"
-msgstr "_Подключить"
+msgstr "подключен к"
 
 #: ../gscriptor:617
-#, fuzzy
 msgid "Can not connect to the reader named"
-msgstr "Подключиться к выбранному считывателю"
+msgstr "Не удается подключиться к считывателю"
 
 #: ../gscriptor:623
 msgid ""
 "No default reader has been configured.\n"
 "Please make sure you have configured a reader first."
 msgstr ""
+"Считыватель по-умолчанию не был настроен.\n"
+"Убедитесь что выполнена настройка считывателя."
 
 #: ../gscriptor:635
-#, fuzzy
 msgid "Can not reconnect to the reader named"
-msgstr "Посторное подключение к считывателю"
+msgstr "Не удается переподключиться к считывателю"
 
 #: ../gscriptor:647
 msgid ""
@@ -238,25 +233,20 @@ msgstr ""
 "Желаете подключить?"
 
 #: ../gscriptor:661
-#, fuzzy
 msgid "Can not disconnect from the reader named"
-msgstr "Отключить считыватель"
+msgstr "Не удается отключить считыватель"
 
 #: ../gscriptor:665
-#, fuzzy
 msgid "not connected"
-msgstr "Переподключить"
+msgstr "не подключен"
 
 #: ../gscriptor:668
-#, fuzzy
 msgid "The Chipcard::PCSC::Card object is not connected!"
-msgstr ""
-"Chipcard::PCSC::Card не подключен!\n"
-"Желаете подключить?"
+msgstr "Chipcard::PCSC::Card не подключен!"
 
 #: ../gscriptor:733
 msgid "Can not retrieve reader status:\n"
-msgstr ""
+msgstr "Не удается получить статус считывателя:\n"
 
 #: ../gscriptor:743
 msgid ""
@@ -271,32 +261,36 @@ msgid ""
 "Beginning script execution...\n"
 "\n"
 msgstr ""
+"Начинается выполнение скрипта...\n"
+"\n"
 
 #: ../gscriptor:812
 msgid "Sending: "
-msgstr ""
+msgstr "Отправлено: "
 
 #: ../gscriptor:818
 msgid "Received: "
-msgstr ""
+msgstr "Получено: "
 
 #: ../gscriptor:822
 msgid "Transmit failed:"
-msgstr ""
+msgstr "Передача не удалась:"
 
 #: ../gscriptor:822
 msgid "Stopping script execution"
-msgstr ""
+msgstr "Остановка выполнения скрипта"
 
 #: ../gscriptor:825
 msgid ""
 "\n"
 "Errors During Script Execution:"
 msgstr ""
+"\n"
+"Ошибки в ходе выполнения скрипта:"
 
 #: ../gscriptor:829
 msgid "Script was executed without error...\n"
-msgstr ""
+msgstr "Скрипт выполнен без ошибок...\n"
 
 #: ../gscriptor:836
 msgid ""
@@ -308,7 +302,7 @@ msgstr ""
 
 #: ../scriptor:47
 msgid "Usage:"
-msgstr ""
+msgstr "Использование:"
 
 #: ../scriptor:47
 msgid "[-h] [-r reader] [-p protocol] [-u] [file]\n"
