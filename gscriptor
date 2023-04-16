@@ -584,7 +584,8 @@ sub RefreshResult {
 		} else {
 			$textbuffer->insert ($iter, $tmpLine);
 			$state = 0;
-			$state = 1 if ($tmpLine =~ m/Received/);
+			my $r = __("Received: ");
+			$state = 1 if ($tmpLine =~ m/$r/);
 		}
 	}
 }
