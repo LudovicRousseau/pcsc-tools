@@ -19,6 +19,11 @@ dnl Checks for programs.
 AC_PROG_INSTALL
 AC_PROG_CC
 
+AC_CHECK_PROG([found_msgfmt], [msgfmt], [yes])
+if test x$found_msgfmt != xyes; then
+  AC_MSG_ERROR([msgfmt not found. Please install gettext])
+fi
+
 # Check for some target-specific stuff
 ATR_PARSER="ATR_analysis"
 case "$host" in
