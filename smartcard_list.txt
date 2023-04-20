@@ -3371,6 +3371,9 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 34 00 90 00
 	bancomat Banca Popolare Milano + maestro debit card + rfid (Bank)
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 31 36 00 90 00
+	Highest level of DNB AS (Norway (Bank)
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 31 00 90 00
 	BBVA Antes Card (Spain) (VISA) prepaid card (Bank)
 	https://www.bbva.es/eng/productos/ficha/tarjeta-antes-bbva/0T00000225
@@ -4338,6 +4341,10 @@
 
 3B 6F 00 00 80 5A 3C 13 30 14 10 01 C3 56 83 97 82 90 00
 	"oura" card for leman express and ter sncf rhone-alpes (Transport)
+
+3B 6F 00 00 80 5A 3C 13 30 14 10 01 C4 F8 11 30 82 90 00
+	Oùra card which allows to travel across many transport networks of France region: Auvergne-Rhône-Alpes (Transport)
+	https://www.oura.com/
 
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C0 2E F7 F8 82 90 00
 	MOBIB basic Brussels (with NFC) (Transport)
@@ -6595,6 +6602,10 @@
 	NXP JCOP CJ3A081 (NFC) (JavaCard)
 	NXP JCOP 80K - J3A081V241
 
+3B 8A 80 01 4A 33 52 31 38 30 2D 32 35 35 06
+	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
+
 3B 8A 80 01 4A 43 4F 50 33 31 56 32 33 32 7A
 	Snapper New Zealand (JCOP)
 
@@ -7241,6 +7252,9 @@
 	NXP P71 SmartMX3 (JavaCard)
 	https://www.nxp.com/products/security-and-authentication/security-controllers/smartmx3-p71d321-secure-and-flexible-microcontroller:SMARTMX3-P71D321
 
+3B 8D 80 01 00 31 C1 73 C8 40 00 52 A5 10 00 90 FF 8F
+	NXP Smart MX3 P71D321 (JavaCard)
+
 3B 8D 80 01 00 73 C8 00 13 64 47 37 42 37 00 90 00 55
 	TD Canada Trust Visa
 
@@ -7548,6 +7562,10 @@
 
 3B 8F 80 01 56 69 6E 50 61 79 53 79 73 20 50 75 72 73 65 2F
 	JCOP (Other)
+
+3B 8F 80 01 80 31 80 65 49 54 4A 34 42 12 0F FF 82 90 00
+	Italian Identity Card CIE (eID) (eID)
+	https://www.cartaidentita.interno.gov.it/en/home/
 
 3B 8F 80 01 80 31 80 65 49 54 4A 34 42 12 0F FF 82 90 00 8B
 	Identity Card (eID)
@@ -8424,6 +8442,9 @@
 3B 9D 96 00 53 49 23 03 03 00 20 00 04 00 F5 90 00
 	shell (Transport)
 
+3B 9D 96 80 1F C7 80 31 E0 73 FE 21 13 65 4C 04 04 02 00 96
+	China umion 5G SIM (Telecommunication)
+
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
 
@@ -8884,6 +8905,9 @@
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 1D 15 00 4A
+	Telia Sim card for IoT (Telecommunication)
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 73 15 00 3A
 	Twilio Super SIM (Telecommunication)
@@ -12402,6 +12426,7 @@
 	Jcop21 (JavaCard)
 	Visa debit classic (Bank)
 	http://www.jpmorganchase.com/
+	JPMorgan Chase (Bank)
 
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
@@ -13237,6 +13262,10 @@
 	Desjardins Bonus Visa credit card (Bank)
 	https://www.desjardins.com/ca/personal/loans-credit/credit-cards/bonus-visa/index.jsp
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 34 30 07 90 00
+	PNC BUSINESS VISA DEBIT (Bank)
+	https://www.pnc.com/en/small-business/payments-and-processing/payment-cards/pnc-bank-visa-business-debit-card.html
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
 	National Bank Debit Card with expiration date and cvv code (Bank)
 
@@ -13247,6 +13276,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00
 	Debit payment card (Rabobank NL) (Bank)
 	https://www.rabobank.nl/en/business/making-and-receiving-payments/payments/paying-with-your-bank-card
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 43 4E 07 90 00
+	Chase Freedom Unlimited Credit Card (Bank)
 
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
@@ -13355,6 +13387,10 @@
 
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 14 03 01 01 01 43 4E 53 10 31 80 75
 	Smart Card INFOCERT digital key CNS from CST PADOVA (eID)
+
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 17 17 01 01 01 43 4E 53 10 31 80 62
+	Carta Nazionale dei Servizi (CNS) Centro Servizi Territoriali (CST) (PKI)
+	http://cst.provincia.padova.it/category/faq/firma-digitale
 
 3B FF 18 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 7C
 	Giesecke & Devrient Sm@rtCafé Expert 2.0
