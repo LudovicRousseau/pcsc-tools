@@ -399,6 +399,9 @@
 3B 13 96 13 09 17
 	Teacher Card (Other)
 
+3B 14 11 CA 4D DE AD
+	Tricolor (Telecommunication)
+
 3B 15 11 12 CA 07 00 DB
 	Tricolor TV center card (Pay TV)
 
@@ -2451,6 +2454,10 @@
 3B 6B 00 00 00 31 C1 64 08 60 32 21 07 90 00
 	DSK Bank Debit Mastercard (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 60 32 22 0F 90 00
+	Universidade de Aveiro (ID Card) (eID)
+	https://www.ua.pt/pt/sas/cartao
+
 3B 6B 00 00 00 31 C1 64 08 60 32 42 0F 90 00
 	Westpac Handybank EFTPOS/ATM Card (Bank)
 
@@ -4261,6 +4268,10 @@
 3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 48 BB CC 82 90 00
 	Lisbon Metro Monthly Student Pass (Transport)
 	https://www.metrolisboa.pt/
+
+3B 6F 00 00 80 5A 2D 06 08 10 10 05 93 5C 42 FB 82 90 00
+	Comboios de Portugal Transit Card (Transport)
+	https://www.cp.pt/passageiros/pt/consultar-horarios/precos/cartao-cp
 
 3B 6F 00 00 80 5A 34 07 06 15 00 01 79 17 A7 E2 82 90 00
 	Rav-Kav multi-line travel ticket used in the public transportation system in Israel (Transport)
@@ -7040,6 +7051,10 @@
 3B 8C 80 01 50 7E 00 71 D2 00 00 00 00 00 71 71 80
 	Unica (= Just one) joined train and public transport card for Italian region Emilia Romagna (evolution of MiMuovo) (Transport)
 
+3B 8C 80 01 50 7E 0A 66 C2 00 00 00 00 00 71 71 8D
+	"UNICA" card for the subscription to trains and buses of the Trenitalia TPER company (Transport)
+	https://www.trenitalia.com/it/treni_regionali/smart-card-unica.html
+
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
 
@@ -7859,6 +7874,8 @@
 	https://www.tempmate.com/
 	prepaid bus card (Transport)
 	https://www.t-l.ch/abos-billets/billets/carte-prepayee
+	Gamestate rechargable play card (Other)
+	https://shop.gamestate.com/
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 FF 00 00 00 00 94
 	ACTV (Italy) prepaid transport ticket
@@ -8262,6 +8279,10 @@
 3B 99 94 00 91 99 93 12 00 01 16 02 00
 	ORGA test systems - GSM Phase 2+ Test SIM
 
+3B 99 95 00 00 15 06 03 01 05 04 01 00
+	Skylink CDMA R-UIM card (Telecommunication)
+	https://en.wikipedia.org/wiki/Sky_Link_(Russia)
+
 3B 9A 18 00 82 62 75 93 11 00 01 02 02 00
 	Supersim 6 in 1 (Telecommunication)
 
@@ -8445,6 +8466,9 @@
 3B 9D 96 80 1F C7 80 31 E0 73 FE 21 13 65 4C 04 04 02 00 96
 	China umion 5G SIM (Telecommunication)
 
+3B 9D 96 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 04 C5
+	Mozambique ID Card (eID)
+
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
 
@@ -8483,6 +8507,9 @@
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6D E8 0C 00 8A
 	Mobile TeleSystems (MTS) GSM SIM
 	http://www.mts.ru/
+
+3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 6B 0F 00 C6
+	Proximus (Belgium) SIM, unactivated (Telecommunication)
 
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 8D 0F 00 20
 	StarHub Happy Prepaid SIM (Telecommunication)
@@ -9546,6 +9573,9 @@
 3B 9F 96 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 0E 25 33 32 00 3B
 	SMART prepaid card, Estonia (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 A0 73 BE 21 11 63 00 00 01 83 05 90 00 89
+	jio sim card (Telecommunication)
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 73 30 09 48 DB
 	nano sim/usim card (Telecommunication)
 
@@ -10122,6 +10152,9 @@
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 50 00 19
 	st33g1m2 (Telecommunication)
 	https://www.st.com/en/secure-mcus/st33g1m2.html
+
+3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 16 57 4A 4D 02 02 33 45 63 77
+	ISIS-Ready T-Mobile Sim Card (Telecommunication)
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 56 57 4A 4D 02 0B 34 44 00 5B
 	Norwegian telenor (Telecommunication)
@@ -11281,6 +11314,10 @@
 3B DD 18 00 81 31 FE 45 90 4C 41 54 56 49 41 2D 65 49 44 90 00 8C
 	Identity card (eID) Republic of Latvia
 	http://www.pmlp.gov.lv/lv/pakalpojumi/passes/eid.html
+
+3B DD 18 00 81 91 FE 1F C3 00 66 46 53 08 03 00 36 71 DF 00 00 80 97
+	Feitian K9Plus - ePass FIDO-NFC with PIV  (Other)
+	https://ftsafe.com/products/FIDO/NFC
 
 3B DD 18 FF 81 91 FE 1F C3 00 66 46 53 08 03 00 36 71 DF 00 00 80 68
 	Feitian FIDO NFC Plus K9 Security Key (Other)
@@ -13276,6 +13313,10 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00
 	Debit payment card (Rabobank NL) (Bank)
 	https://www.rabobank.nl/en/business/making-and-receiving-payments/payments/paying-with-your-bank-card
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 42 4E 07 90 00
+	Portuguese "BancoCTT" Bank Card (Bank)
+	https://www.bancoctt.pt/o-seu-dia-a-dia/cartao-de-credito-banco-ctt
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 43 4E 07 90 00
 	Chase Freedom Unlimited Credit Card (Bank)
