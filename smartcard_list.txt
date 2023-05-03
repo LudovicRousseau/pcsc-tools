@@ -10898,6 +10898,7 @@
 
 3B D2 18 00 81 31 FE 58 C9 04 11
 	Identity Card in Slovakia with security chip and e-signature issued after 2021-06-21 (eID)
+	D-TRUST Card 4.1 Standard, qualified signature card
 
 3B D2 18 00 81 31 FE 58 CA 60 76
 	CardOS IoT V5.4 (PKI)
