@@ -1309,6 +1309,10 @@
 3B 5F 96 00 80 5A 2C 11 00 10 10 00 FF FF FF FF 82 90 00
 	Calypso (Transport)
 
+3B 5F 96 00 80 5A 3F 06 08 14 01 01 C5 46 DE DC 82 90 00
+	Navegante® Personalizado (Lisbon public transportation card) (Transport)
+	https://www.navegante.pt/viajar/cartoes
+
 3B 5F 96 00 80 5A 3F 06 08 14 01 01 C5 46 EB DC 82 90 00
 	Multi-Transport Pass (Navegante) (Metro, Bus, Electric, Boat) Carris Metropolitano, PT (Transport)
 	https://www.navegante.pt/
@@ -5613,6 +5617,9 @@
 	Finnish ID-card v5.0(?) (eID)
 	https://dvv.fi/en/fineid-specifications
 
+3B 7F 96 00 00 80 31 B8 65 B0 85 05 00 11 12 24 60 82 90 00
+	wasim finnish id (eID)
+
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
 
@@ -7465,6 +7472,10 @@
 3B 8F 80 01 00 31 B8 64 04 B0 EC C1 73 94 01 80 FF FF FF E3
 	Card used in public French hospital (Other)
 
+3B 8F 80 01 00 31 B9 64 09 37 72 13 73 84 01 E0 00 00 00 AB
+	National Identity Card of Slovakia (NFC interface) (eID)
+	https://en.wikipedia.org/wiki/Slovak_identity_card
+
 3B 8F 80 01 00 31 C1 73 C8 00 10 64 57 49 49 43 00 90 00 B5
 	ICC Solutions Card for Certification (Other)
 	https://www.iccsolutions.com/
@@ -7629,6 +7640,9 @@
 3B 8F 80 01 80 31 E0 6B 04 31 05 02 D1 55 55 55 .. .. .. ..
 	Revolut Prepaid Mastercard (Contactless) (Bank)
 	https://revolut.com/
+
+3B 8F 80 01 80 31 E0 6B 04 52 05 02 FD 55 55 55 FF FF FF 32
+	C6 Bank Card (Bank)
 
 3B 8F 80 01 80 31 E0 6B 04 53 F5 02 5B 55 55 55 55 55 55 CF
 	Mastercard debit card for Askari Bank, Pakistan (Bank)
@@ -8360,6 +8374,9 @@
 3B 9C 13 11 81 64 72 65 61 6D 63 72 79 70 74 90 05 99
 	FireCrypt, access card 9 (Pay TV)
 
+3B 9C 18 81 21 45 5A 43 33 2E 33 34 20 52 45 56 20 44 67
+	MS-Protect safecard for access system (eID)
+
 3B 9C 94 00 68 86 8D 0A 86 98 02 56 C2 00 05 00
 	G3 & GSM & Blank SIM card: to be programmed for OpenBTS with pySim-prog (Telecommunication)
 
@@ -8870,6 +8887,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 E6 0F 00 49
 	SIM O2 CZ (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 09 12 00 0E
+	SIM/USIM (SPAIN) - ORANGE ESPAGNE VIRTUAL, S.A.U. (Orange / Jazztel / SIMYO) (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 59 14 00 58
 	USIM card of of Ukrainian Telecommunications Operator Kyivstar, emitted after 2016 (Kyivstar GSM) (GSM/UMTS/LTE services) (Telecommunication) (Telecommunication)
 	https://kyivstar.ua/uk/4g
@@ -8915,6 +8935,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BD
 	Mobile Vikings SIM Card (Telecommunication)
 	https://mobilevikings.com
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 8F 14 00 B3
+	Telefonica USIM (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A D3 13 00 E8
 	sim card from Mobilcom Debitel Telefonica (Telecommunication)
@@ -9535,6 +9558,10 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 00 00 00 61
 	FT ePass2003Auto 00 00 (PKI)
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 03 90 00 F2
+	HyperPKI USB Token (PKI)
+	https://www.hypersecu.com/hyperpki
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 06 00 00 67
 	Epass2003 (PKI)
@@ -12025,6 +12052,10 @@
 	ComCard MFC 4.1
 
 
+3B EF 00 FF 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 66
+	EUROBANK GR (Bank)
+	NBG BANK (Bank)
+
 3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 4E
 	comdirect VISA card (Bank)
 	https://www.comdirect.de/konto/karten.html#Visa-Karte
@@ -12745,6 +12776,9 @@
 3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 33 45 4D 56 94
 	NXP JCOP3 J3H082 Java Card 3.0.4 Dual-Interface (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop3-j3h082-java-card-3-0-4-j3h081-dual-interface/
+
+3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 93
+	National Health Insurance (Taiwan) (HealthCare)
 
 3B FA 18 00 00 91 01 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 82
 	Supposed P71 SecID purchased from a Chinese manufacturer (JavaCard)
