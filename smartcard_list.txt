@@ -1538,6 +1538,9 @@
 	CARD ONEY BANQUE VISA CREDIT (Bank)
 	https://www.oney.fr/
 
+3B 65 00 00 20 63 CB BF 00
+	Credit Agricole SA (france) (Bank)
+
 3B 65 00 00 20 63 CB C0 00
 	Nickel Credit Card (Bank)
 	https://nickel.eu
@@ -8017,6 +8020,9 @@
 3B 8F 80 01 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 29
 	NIST demo PIV card (eID)
 
+3B 8F 80 01 80 91 00 31 80 65 B0 84 05 00 25 83 01 90 00 CD
+	Contactless IDCore3230 build 6.8, test APDU applet (JavaCard)
+
 3B 8F 80 01 80 91 E1 31 80 65 B0 83 11 00 AC 83 00 90 00 B7
 	TOP DM GX4 Cards [TOP DM GX4 - contact interface]
 	GemCombiXpresso R4 72K (contactless interface)
@@ -8863,6 +8869,12 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 12 10 00 A2
 	OpenAirInerface (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 18 11 00 A9
+	WinEMP NRI License Card (Other)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 22 11 00 93
+	Lebara (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 58 11 00 E9
 	Vodafone CZ: SIMPLUS V128 LTE (Telecommunication)
 
@@ -8956,8 +8968,15 @@
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 7A 12 00 F6
+	Spectrun USA Sim Card (Telecommunication)
+
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 1D 15 00 4A
 	Telia Sim card for IoT (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 27 15 00 70
+	verymobile wind 3 (Telecommunication)
+	https://verymobile.it/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 73 15 00 3A
 	Twilio Super SIM (Telecommunication)
@@ -9687,6 +9706,10 @@
 	Taiwan Star Telecom Corporation Limited (Telecommunication)
 	https://www.tstartel.com/CWS/
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 24 71 00 82 90 00 D4
+	RWG Mobile SIM Card (Telecommunication)
+	https://www.rwgmobile.wales/rates-plans-eng-per/
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 24 91 00 82 90 00 34
 	Fido Canada (Telecommunication)
 
@@ -9896,6 +9919,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 16 02 07 05 02 02 5A
 	CSL Mobile / PCCW SIM Card (Telecommunication)
 	http://www.hkcsl.com/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 16 02 12 01 01 01 4B
+	Airtel India Sim Card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 02 02 03 01 42
 	Telenor SIM card (Hungary) (Telecommunication)
@@ -10175,6 +10201,9 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 11 EE
 	eSIM.me pluggable eSIM (Telecommunication)
 	https://esim.me/
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 63 3A 20 4E 83 00 90 00 31
+	eSIM (Telecommunication)
 
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 50 00 19
 	st33g1m2 (Telecommunication)
@@ -11025,6 +11054,10 @@
 3B D8 18 FF 81 B1 FE 45 1F 03 80 64 04 1A B4 03 81 05 61
 	D-Trust multicard advanced 3.1
 	German public health insurance card ("Gesundheitskarte"), issuer SBK "Siemens Betriebskrankenkasse"
+
+3B D8 96 00 80 31 FE 44 00 53 12 00 84 0F 90 00 1F
+	Cape Verde National Identity Card (CNI) (eID)
+	https://sniac.cv/cartao-nacional-de-identificacao/
 
 3B D8 96 00 81 B1 FE 45 1F 07 43 48 54 47 50 4B 49 4A DD
 	Citizen Digital Certificate, Taiwan (PKI)
@@ -12496,6 +12529,8 @@
 	Visa debit classic (Bank)
 	http://www.jpmorganchase.com/
 	JPMorgan Chase (Bank)
+	Visa (Bank)
+	https://unitedfcu.com/
 
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
