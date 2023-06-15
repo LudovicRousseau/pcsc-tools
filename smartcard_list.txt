@@ -7002,6 +7002,9 @@
 	Italian health card - national service card (HealthCare)
 	https://sistemats1.sanita.finanze.it/portale/tessera-sanitaria
 
+3B 8C 80 01 50 43 8E AE 7B 30 AB AB 01 77 81 B7 35
+	Italian healthcare card (TS) National Service Card (CNS) (HealthCare) - Regione Liguria (HealthCare)
+
 3B 8C 80 01 50 43 E0 F5 F4 31 01 06 00 77 81 77 48
 	Indonesian Driver License
 
@@ -7941,6 +7944,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0A .. .. 00 00 00 00 ..
 	RFID - ISO 15693 Part 2 (as per PCSC std part3)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 0A 00 18 00 00 00 00 7A
+	HID ICLASS DL (eID)
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 0A 00 1C 00 00 00 00 7E
 	RFID - HID iCLASS 16K CL
 
@@ -8395,6 +8401,9 @@
 3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
+
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 15 74 50 03
+	SIM Card (Telecommunication)
 
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 84 54 50 B2
 	cambodia (Telecommunication)
@@ -9410,6 +9419,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1A 32 36 00 82
 	TELUS 3G SIM Card
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1E 32 36 00 86
+	SIM Enreach (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 88 83 07 90 00 06
 	SHOW or UPlus USIM (Telecommunication)
 
@@ -9726,6 +9738,9 @@
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 13 12 18 03 1E
 	SIM card (Telecommunication)
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 13 12 18 04 19
+	T-Mobile NL SIM only (Telecommunication)
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 E2 0F 18 01 F0
 	Telekom Sim card (Telecommunication)
 
@@ -9855,6 +9870,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 3F 33 34 00 A7
 	SIM Card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 81 01 33 00 17
+	Telefonica M2M Global SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 81 04 33 33 00 14
 	PureTalk SIM Card (Telecommunication)
@@ -10007,6 +10025,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 81 04 33 36 00 15
 	HoT Austria SIM Card (Telecommunication)
 	https://hot.at/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 82 03 33 39 00 1E
+	Sm@rtSIM Zeta (Giesecke & Devrient SIM) (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
@@ -11742,6 +11763,10 @@
 3B E8 00 00 40 FA 00 73 C8 40 11 00 90 00
 	KEBTechnology KONA USB SmartCard (Other)
 
+3B E8 00 00 80 31 FE 45 00 73 C8 40 13 00 90 7D E7
+	National Health System of Spain - Consejeria de Sanidad y Servicios Sociales - JUNTA DE EXTREMADURA (HealthCare)
+	https://www.juntaex.es/es/lajunta/consejo-de-gobierno/vicepresidencia-segunda-y-consejeria-de-sanidad-y-servicios-sociales/servicio-extremeno-de-salud
+
 3B E8 00 00 81 31 20 45 00 73 C8 40 00 00 90 00 56
 	Visa credit card for Standard Chartered, Taiwan
 
@@ -13426,6 +13451,7 @@
 
 3B FF 13 00 FF 91 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 DF
 	Alior Bank MasterCard debit (Bank)
+	Comdirect (Deutsch Bank) débit VISA (AUSTRIACARD 56015/001) (Bank)
 
 3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 01 00 39
 	SafeNet SC650 (PKI)
@@ -13550,6 +13576,9 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 60 2A A0 47 12 31
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
 	https://www.postbank.de/
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
+	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
 
 3B FF 18 00 FF 81 31 FE 45 00 31 C5 73 C0 01 80 54 76 15 02 01 05 90 00 74
 	SIGILANCE NFC OpenPGP Smart Card (JavaCard)
@@ -14392,6 +14421,10 @@
 3F FD 13 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 F0 00 00 50 31 03
 	Sky Germany V14 NDS card (Pay TV)
 	http://www.wikipedia.org/wiki/Sky_Deutschland
+
+3F FD 13 25 02 50 80 0F 41 B0 0F 69 FF 4A 50 F0 80 00 5A 4A 03
+	Orange Romania (DVB-C) (Pay TV)
+	https://www.orange.ro/
 
 3F FD 13 25 02 50 80 0F 55 B0 02 69 FF 4A 50 F0 80 00 50 31 03
 	SKY DE V15 (Pay TV)
