@@ -2364,6 +2364,9 @@
 3B 6B 00 00 00 31 C0 64 08 44 03 77 07 90 00
 	Sber bank VISA with Novacard chip (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 44 03 93 0F 90 00
+	MIR card (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 48 41 08 0F 90 00
 	Monizze card. Card use to pay only meal. (Other)
 	http://www.monizze.be
@@ -2691,6 +2694,9 @@
 
 3B 6D 00 00 00 66 4D 45 31 53 05 06 53 03 61 04 F0
 	FutureCard Ind. LLC / Feb-18 | Blank card for programming (JavaCard)
+
+3B 6D 00 00 00 73 C8 00 13 64 47 37 42 37 00 90 00
+	VISA DEBIT CLASSIC BANK OF AMERICA (Bank)
 
 3B 6D 00 00 00 73 C8 00 13 64 47 37 45 32 00 90 00
 	Canada TD Bank Visa Debit/Interac Debit Card (Bank)
@@ -3302,6 +3308,7 @@
 	https://www.lacaixa.es/
 	Italian Webank.it BPM Banca Popolare di Milano Bancomat & Maestro Card (Bank)
 	Sberbank of Russia MIR debit card (Bank)
+	MasterCard bank card by OTP Bank (Hungary)
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -7068,6 +7075,9 @@
 	"UNICA" card for the subscription to trains and buses of the Trenitalia TPER company (Transport)
 	https://www.trenitalia.com/it/treni_regionali/smart-card-unica.html
 
+3B 8C 80 01 50 7E DE 1E 06 00 88 3C 1F 77 81 95 2D
+	Bahrain CPR (eID)
+
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
 
@@ -8402,12 +8412,18 @@
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
 
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 15 74 01 52
+	VI india  (Telecommunication)
+
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 15 74 50 03
 	SIM Card (Telecommunication)
 
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 84 54 50 B2
 	cambodia (Telecommunication)
 	https://www.smart.com.kh/
+
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 85 74 52 91
+	Airtel india (Telecommunication)
 
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 53 89 74 50 9C
 	China Unicom 128K M2M Card (Telecommunication)
@@ -8970,6 +8986,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A E8 13 00 D3
 	Twilio Super SIM card (Telecommunication)
 	https://www.twilio.com/iot/super-sim-card
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A F2 14 00 CE
+	Tello (Telecommunication)
+	https://tello.com/
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
 	4G-LTE (Telecommunication)
@@ -9735,6 +9755,10 @@
 	Ting X1 GSM SIM Card (4G, T-Mobile network) (Telecommunication)
 	https://ting.com/shop/gsmSIM
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 65 CA 01 0E 02 09 81 05 99
+	Liquid Telecom Zambia (Telecommunication)
+	https://zm.liquidhome.tech/
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 06 13 12 18 03 1E
 	SIM card (Telecommunication)
 
@@ -9816,6 +9840,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 46 01 49 01 00 8A
 	T-Mobile Poland pre-paid SIM card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 A1 57 57 4A 4D 02 0B 61 10 00 5B
+	G+D Mobile Security for private 5G USIM (Telecommunication)
+	https://www.gi-de.com/en/connectivity/mobile-network-operator/5g#5g-sim
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 .. 63 .. .. .. 83 .. 90 00 ..
 	TIM (Italy) 128KB GSM SIM
@@ -11062,6 +11090,10 @@
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
 	IDEMIA Cosmo V8.1 with a PIV applet
+
+3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F
+	US Government CAC (PKI) / IDEMIA Cosmo v8 (PKI)
+	https://www.idemia.com/id-one-piv-card
 
 3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F DF
 	US DoD Common Access Card (IDEMIA Cosmo v8) (PKI)
@@ -13320,6 +13352,8 @@
 	https://www.bvg.de/de/service-und-kontakt/guthabenkarte
 	Revolut Visa Glow-in-the-dark
 	https://revolut.com/
+	MasterCard debit - PayCenter - Corporate Benefit "Sachbezugskarte" (Bank)
+	https://paycenter.de/sachbezugskarte/
 
 3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 1D 00 00 00 00 00 00 00
 	albo (Bank)
@@ -13445,6 +13479,10 @@
 
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
+
+3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00 94
+	AirPlus MasterCard Commercial (Bank)
+	https://www.airplus.com/us/en/products-solutions/products/corporate-cards/corporate-cards.html
 
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
 	Deutsche Kreditbank Debit (Bank)
@@ -14017,6 +14055,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 07 09 E0 F9 02 00 61
 	Sparkasse Ingolstadt (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 14 07 10 B8 02 00 CD
+	Sparkasse Aachen - german Maestro/Girocard (S-Payment TGI 50380969) (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
