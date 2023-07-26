@@ -1498,6 +1498,9 @@
 	Visa card distributed by "Boursorama Banque" (French Bank) (Bank)
 	https://www.visa.fr/
 
+3B 65 00 00 20 63 CB B6 00
+	Maestro Bank Card with chip (Bank)
+
 3B 65 00 00 20 63 CB B6 20
 	MasterCard credit card, issued by Swedbank LT (Bank)
 
@@ -3962,6 +3965,14 @@
 	ONYGO! pass
 	http://www.region-basse-normandie.fr/pass-onygo
 
+3B 6F 00 00 80 5A 28 01 02 20 12 21 C1 2A D1 C8 82 90 00
+	SIMPLI CITES (Transport)
+	https://www.fluo.eu/
+
+3B 6F 00 00 80 5A 28 01 02 20 12 21 C3 65 AF 0F 82 90 00
+	SIMPLI CITE Stan (France) (Transport)
+	https://www.reseau-stan.com/
+
 3B 6F 00 00 80 5A 28 11 42 10 10 12 2B 26 0C D4 5A 82 90 00
 	French transport card Navigo (Transport)
 	https://www.iledefrance-mobilites.fr/je-gere-ma-carte
@@ -4315,6 +4326,10 @@
 	Lisboa VIVA - Lisbon public transport card (Transport)
 	https://www.portalviva.pt/
 
+3B 6F 00 00 80 5A 3C 06 08 14 01 01 C4 D4 FE C4 82 90 00
+	Metropolitan Transports of Lisbon NAVEGANTE Card (Transport)
+	https://www.navegante.pt/viajar/cartoes
+
 3B 6F 00 00 80 5A 3C 06 08 14 01 01 C4 D5 22 FB 82 90 00
 	Navegant Perdonal Card  - Transportes Metropolitanos de Lisboa (Transport)
 	https://www.navegante.pt/
@@ -4650,6 +4665,9 @@
 
 3B 78 18 00 FF 00 73 C8 40 00 00 90 00
 	NAB Visa Debit - Contact I/F (Bank)
+
+3B 78 94 00 00 86 84 04 49 30 31 06 04
+	bank of china Debit Card (Bank)
 
 3B 78 96 00 00 00 73 C8 40 00 00 90 00
 	SAM card for acquirer module by lanit.ru (Bank)
@@ -5532,6 +5550,9 @@
 3B 7F 96 00 00 31 00 DE 52 50 01 00 15 00 00 00 00 00 00 00
 	VALES (Bank)
 
+3B 7F 96 00 00 80 31 80 58 43 65 72 74 75 6D 30 31 82 90 00
+	Certum Electronic Seal (PKI)
+
 3B 7F 96 00 00 80 31 80 65 55 85 03 00 EF 12 41 40 82 90 00
 	Civil ID  (eID)
 
@@ -5885,6 +5906,10 @@
 
 3B 85 80 01 20 63 CB C6 00 4A
 	Gold Mastercard Credit Agricole (Bank)
+
+3B 85 80 01 30 01 01 30 10 14
+	German public health insurance card („Gesundheitskarte“), 2.1 generation (G2.1), issuer Techniker Krankenkasse (HealthCare) (HealthCare)
+	https://www.gematik.de/telematikinfrastruktur/egk
 
 3B 85 80 01 30 01 01 30 30 34
 	German Health Insurance Card "elektronische Gesundheitskarte" (eGK) / European Health Insurance Card (EHIC) (HealthCare)
@@ -6645,6 +6670,9 @@
 	NXP JCOP3 J3H082 Java Card 3.0.4 Dual-Interface (JavaCard) (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop3-j3h082-java-card-3-0-4-j3h081-dual-interface/
 
+3B 8A 80 01 50 56 4A 43 4F 50 34 53 49 44 71
+	J3R180 via ifdnfc (JavaCard)
+
 3B 8A 80 01 53 45 20 44 45 53 46 69 72 65 57
 	NXP-Mifare DESFire EV1 2k (used as a company ID card) (eID)
 
@@ -6880,6 +6908,9 @@
 	Spanish eID, Documento Nacional de Identidad (DNIe) (eID)
 	http://www.dnielectronico.es/
 
+3B 8C 80 01 50 00 00 00 00 00 00 00 00 80 81 45 19
+	a12 (Telecommunication)
+
 3B 8C 80 01 50 00 00 00 00 00 00 00 00 91 81 A0 ED
 	Belimo VAV-Compact NFC (Other)
 	http://www.belimo.ch/pdf/e/flyer_nfc_en.pdf
@@ -6909,6 +6940,10 @@
 
 3B 8C 80 01 50 04 46 3E C3 E1 F3 5E 11 77 81 A1 E8
 	Spanish ID (eID)
+
+3B 8C 80 01 50 05 09 CE 35 00 00 00 00 33 71 A1 49
+	Libertan transport card from Nantes (France), based on Calypso (Transport)
+	https://www.tan.fr/fr/abonnements-libertan-1
 
 3B 8C 80 01 50 05 A9 66 96 00 00 00 00 80 81 71 71
 	Hello bank! VISA CLASSIC Card (Bank)
@@ -7136,6 +7171,10 @@
 
 3B 8C 80 01 50 C0 F1 DE 70 00 00 00 00 91 71 71 53
 	isodep, NfcB (Transport)
+
+3B 8C 80 01 50 C1 0D 7D 5E 00 00 00 00 B3 71 71 01
+	Pastel transport card from Toulouse (France), based on Calypso (Transport)
+	https://www.tisseo.fr/les-tarifs/ou-acheter/la-carte-pastel
 
 3B 8C 80 01 50 C1 10 BB A9 00 00 00 00 91 71 71 0F
 	Divia card (passport)
@@ -7379,6 +7418,10 @@
 
 3B 8E 80 01 10 38 77 A7 80 91 E1 65 D0 00 42 00 00 82 72
 	Czech Republic e-Passport (issued Feb 2009)
+
+3B 8E 80 01 10 78 33 D4 02 00 64 04 11 01 01 31 80 FF BD
+	Second generation German passport (passport)
+	https://www.cs.bham.ac.uk/~tpc/Papers/PassportTrace.pdf
 
 3B 8E 80 01 11 78 B3 C0 02 4F 54 49 44 28 94 B3 FF FF 0E
 	Civilian passport NFC tag (passport)
@@ -9610,6 +9653,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 00 00 00 61
 	FT ePass2003Auto 00 00 (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 03 6A 82 8A
+	Feitian epass2003 Auto (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 03 90 00 F2
 	HyperPKI USB Token (PKI)
 	https://www.hypersecu.com/hyperpki
@@ -9676,6 +9722,9 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
 	Softbank (C2) USIM card (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 73 30 31 09 4B BF
+	NB-IoT SIM (Telecommunication)
 
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
@@ -10056,6 +10105,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 82 03 33 39 00 1E
 	Sm@rtSIM Zeta (Giesecke & Devrient SIM) (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 82 04 33 39 00 19
+	NB-IoT SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
@@ -11645,6 +11697,10 @@
 	Sri Lankan driving license [ web: motortraffic.gov.lk ] (eID)
 	http://www.motortraffic.gov.lk/web/index.php?option=com_content&view=article&id=83&Itemid=140&lang=en
 
+3B DF 96 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 20
+	Austrian health insurance card "e-card" (HealthCare)
+	https://de.wikipedia.org/wiki/E-card_(Chipkarte)
+
 3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
 	Test PIV Cards available for sale from NIST
 	http://csrc.nist.gov/groups/SNS/piv/testcards.html
@@ -12305,6 +12361,9 @@
 
 3B EF 00 FF 81 31 FF 65 49 42 4D 20 4D 46 43 39 32 32 39 32 38 39 30 17
 	IBM MFC 4.22 (University of Cambridge smartchip card)
+
+3B F0 11 00 FF 01
+	Not a physical smart card. But a JavaCard simulator ATR with default configuration. (JavaCard)
 
 3B F0 12 00 FF 91 81 B1 7C 45 1F 01 9B
 	Japanese Chijou Digital B-CAS Card (pay TV) (Pay TV)
@@ -13560,6 +13619,10 @@
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 06 03 01 01 01 43 4E 53 10 31 80 67
 	ST microelettronics JSign3 (HealthCare)
 
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 07 03 01 01 01 43 4E 53 10 31 80 66
+	Aruba digital signing card (eID)
+	https://www.aruba.it
+
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 14 03 01 01 01 43 4E 53 10 31 80 75
 	Smart Card INFOCERT digital key CNS from CST PADOVA (eID)
 
@@ -14049,6 +14112,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
+	Raiffeiesenbank Girocard Maestro (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 03 08 C0 B7 02 00 0A
 	German Debitcard from Sparkasse (Bank)
