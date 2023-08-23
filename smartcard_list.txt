@@ -4298,6 +4298,10 @@
 	Comboios de Portugal Transit Card (Transport)
 	https://www.cp.pt/passageiros/pt/consultar-horarios/precos/cartao-cp
 
+3B 6F 00 00 80 5A 2E 13 02 00 01 01 04 EF 83 42 82 90 00
+	Oùra Auvergne-Rhône-Alpes (Transport)
+	https://www.oura.com
+
 3B 6F 00 00 80 5A 34 07 06 15 00 01 79 17 A7 E2 82 90 00
 	Rav-Kav multi-line travel ticket used in the public transportation system in Israel (Transport)
 	https://www.gov.il/en/departments/guides/multi_line_card
@@ -5152,6 +5156,7 @@
 
 3B 7F .. 00 00 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00
 	IDPrime MD 8840, 3840, 3810, 840 and 830 Cards T=0
+	IDPrime 930 (JavaCard)
 
 3B 7F 01 00 FE 58 43 4F 53 76 32 35 31 28 63 29 50 46 42 4D
 	XCOS is an Experimental Card Operating System for Atmel based smartcards (Funcard, etc..) (Other)
@@ -5637,6 +5642,12 @@
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 C1 82 90 00
 	Gemalto USB (eID)
 
+3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 0F FE 82 90 00
+	Thales (Gemalto) IDPrime 941 (PKI)
+	https://cpl.thalesgroup.com/de/access-management/idprime-md-pki-smart-cards
+	Thales SafeNet IDPrime 940B (PKI)
+	https://cpl.thalesgroup.com/resources/access-management/idprime-940-product-brief
+
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 FF FE 82 90 00
 	IDCORE 3140 (JavaCard)
 
@@ -6003,6 +6014,10 @@
 3B 86 80 01 57 57 50 61 73 73 36
 	WWPass Passkey (eID)
 	https://www.wwpass.com/passkey
+
+3B 86 80 01 80 14 34 37 30 00 A0
+	Malta eID Identity Card (eID)
+	https://www.identitymalta.com/
 
 3B 86 80 01 80 31 C1 52 11 18 2C
 	IDEMIA Cosmo V8.0 with a PIV applet (contactless) (PKI)
@@ -7084,6 +7099,10 @@
 	Chicago CTA Ventra Transit card
 	https://www.ventrachicago.com/
 
+3B 8C 80 01 50 68 DD A5 B1 1C 00 00 11 77 81 85 82
+	EZ-Link Card (issued by Land Transport Authority Singapore) (Transport)
+	https://www.ezlink.com.sg/ez-link-faqs/ez-link-card/
+
 3B 8C 80 01 50 71 0C F3 C8 00 00 00 00 B3 71 71 A8
 	MOBIB CARD BELGIUM (Transport)
 
@@ -7541,6 +7560,10 @@
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 31 30 07 90 00 8A
 	master card (Bank)
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 31 33 07 90 00 89
+	CheBanca! nexi debit card (Bank)
+	https://www.chebanca.it/
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 31 37 07 90 00 8D
 	AirPlus International Mastercard (Bank)
@@ -8815,6 +8838,9 @@
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F EF 10 00 60
 	Infineon SLU14MCO480K2 (JavaCard)
 
+3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 10 15 00 46
+	Kyivstar USIM-card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 13 62 00 49 83 81 90 00 07
 	Claro Brazil SIM card (Telecommunication)
 
@@ -8927,6 +8953,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 1E 11 00 AE
 	Zevvle SIM Card (Telecommunication)
 	https://zevvle.com
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 74 10 00 C5
+	USIM of Vodafone Germany (MCC 262, MNC 2) (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 DD 12 00 6E
 	USIM (Telecommunication)
@@ -9267,6 +9296,10 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 63 21 15 06 83 07 90 00 F8
 	Maroc Telecom 4G+ (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 67 00 00 00 00 00 00 70 AA
+	OMANTEL (Telecommunication)
+	https://portal.omantel.om/Personal/mobile/hayyak
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 67 61 21 0D 10 00 00 70 F7
 	Celcom XPAX (Telecommunication)
@@ -9709,6 +9742,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 73 30 31 07 46 BE
 	Hologram Developer Global IoT SIM Card (Telecommunication)
 	https://hologram.io/store/global-iot-sim-card/17
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 75 30 31 13 62 88
+	Zimbabwe sim card provider: ECONET (Telecommunication)
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 52 75 31 04 51 D5
 	Test card provided with 4G/5G network from Amarisoft (Telecommunication)
@@ -10298,6 +10334,10 @@
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 60 61 00 09
 	ting (Telecommunication)
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 04 FB
+	The eSIM.me Card (Telecommunication)
+	https://esim.me/
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 11 EE
 	eSIM.me pluggable eSIM (Telecommunication)
@@ -11363,6 +11403,10 @@
 	Oberthur ID-One Cosmo v7.0 80K (eID)
 	https://www.ssi.gouv.fr/uploads/IMG/certificat/ANSSI-CC-cible_2011-64en.pdf
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 BA FC 10 00 0F 90 00 07
+	Oberthur ID-One Cosmo v7.0 (PKI)
+	https://csrc.nist.rip/groups/STM/cmvp/documents/140-1/140sp/140sp1236.pdf
+
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 C0 64 BE 1B 01 00 01 90 00 FB
 	Bank card
 
@@ -11734,6 +11778,9 @@
 
 3B DF 97 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 78
 	NASA PIV Card (Other)
+
+3B E0 00 00 81 31 10 45 05
+	Emoney indonesia (Bank)
 
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
@@ -12572,6 +12619,9 @@
 
 3B F7 11 00 01 40 96 70 71 09 0E 6C B6 D6
 	Carte pour décodeur télé de Neuf Telecom TV
+
+3B F7 13 00 00 81 31 FE 45 00 C0 8A C8 0C 65 81 85
+	NXP JCop (JavaCard)
 
 3B F7 13 00 00 81 31 FE 45 46 4F 4D 53 4F 4D 53 A9
 	Health card Russian Federation
@@ -13443,6 +13493,10 @@
 3B FF 13 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 33 33 30 06 00 D2
 	Datakey DCOS model 330 (DKCCOS 6.0 token)
 
+3B FF 13 00 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
+	TURKEY A101 HADI APP CARD (Bank)
+	https://a101hadi.a101.com.tr/
+
 3B FF 13 00 FF 10 00 00 31 C1 73 82 11 06 44 14 D3 34 70 77 90 00
 	Visa Debit (Bank)
 	https://www.chase.com/
@@ -13677,6 +13731,10 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 60 2A A0 47 12 31
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
 	https://www.postbank.de/
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 90 73 60 47 12 71
+	Debit card (Germany): Deutsche Kreditbank (DKB), ec-cash,  (Bank)
+	https://www.dkb.de/privatkunden/karten/girocard
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
 	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
@@ -14081,6 +14139,9 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0C
 	IDPrime 930 FIPS Level 2 (T=1 CT=96) (BAI3.1) (PKI)
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 65 66 FB 12 01 78 82 90 00 85
+	eToken 5110+ FIPS 140-2 Level 2 (JavaCard)
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 65 66 FB 12 0F FC 82 90 00 0F
 	SmartID 3930 FIDO Contact and Contactless card (PKI)
 	https://www.smartcardfocus.com/shop/ilp/id~962/safenet-idprime-3930-fido-dual-interface-fips-l2/p/index.shtml
@@ -14182,6 +14243,9 @@
 
 3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
 	GSM-SIM e-plus (1800MHz)
+
+3F 2F 00 80 69 AF 02 04 01 36 00 00 0A 0E 83 3E 9F 16
+	Telia Mobitel GSM (Telecommunication)
 
 3F 2F 00 80 69 AF 02 04 01 36 00 02 0A 0E 83 3E 9F 16
 	GSM-SIM D2 CallYa (900MHz)
