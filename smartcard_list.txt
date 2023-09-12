@@ -1116,6 +1116,9 @@
 3B 3C 94 00 42 31 11 A2 12 02 09 51 83 80 90 00
 	Omnitel IT 16K GSM SIM card
 
+3B 3C 94 00 44 31 11 F0 00 00 2C AE 83 83 90 00
+	Movistar Spain (Telecommunication)
+
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
 
@@ -1316,6 +1319,10 @@
 3B 5F 96 00 80 5A 3F 06 08 14 01 01 C5 46 EB DC 82 90 00
 	Multi-Transport Pass (Navegante) (Metro, Bus, Electric, Boat) Carris Metropolitano, PT (Transport)
 	https://www.navegante.pt/
+
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 32 5F DE 82 90 00
+	Montréal metropolitan area and Québec city area OPUS card (Transport)
+	https://www.carteopus.info/
 
 3B 60 00 00
 	Meano (Bank)
@@ -4152,6 +4159,10 @@
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 0C 7E 79 82 90 00
 	Transportation card delivered by STAR (Transportation service from the city of Rennes, France) (Transport)
 	https://www.star.fr/titres-et-tarifs/carte-korrigo/
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 0D D3 82 82 90 00
+	ZOU! for Région Sud (Transport)
+	https://zou.maregionsud.fr/ma-carte-zou/
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
@@ -8068,6 +8079,8 @@
 	(also: Hayakaken, ICOCA, Kitaca, manaca, nimoca, PASMO, PiTaPa, SUGOCA, TOICA)
 	https://en.wikipedia.org/wiki/Suica
 	Octopus, MTR network from Hong Kong, 2014
+	e-Amusement card (Other)
+	https://en.wikipedia.org/wiki/E-Amusement
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 40 .. .. 00 00 00 00 ..
 	RFID - Low Frequency < 135 kHz (as per PCSC std part3)
@@ -8407,6 +8420,9 @@
 3B 9A 94 00 92 02 75 93 11 00 01 02 02 ..
 	SuperSIM (X-sim)
 
+3B 9A 94 00 92 02 90 93 11 00 01 34 02 00
+	Orange Spain (Telecommunication)
+
 3B 9A 96 00 92 01 36 93 17 00 02 04 03 00
 	GSM-SIM EMT "Simpel" (prepaid, Estonia)
 	https://www.emt.ee/web/simpel
@@ -8464,6 +8480,10 @@
 
 3B 9C 18 81 21 45 5A 43 33 2E 33 34 20 52 45 56 20 44 67
 	MS-Protect safecard for access system (eID)
+
+3B 9C 18 81 21 75 5A 43 33 2E 33 34 20 52 45 56 20 44 57
+	ZC3.34  (Other)
+	https://www.zeitcontrol.de/Smart-card-BasicCard-Enhanced-ZC334-SIM-cut
 
 3B 9C 94 00 68 86 8D 0A 86 98 02 56 C2 00 05 00
 	G3 & GSM & Blank SIM card: to be programmed for OpenBTS with pySim-prog (Telecommunication)
@@ -8781,6 +8801,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 19 15 13 00
 	ABS-CBN (Telecommunication)
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BE
+	KPN, Netherlands (Telecommunication)
+
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
 
@@ -9038,6 +9061,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 36 14 00 04
 	SIM (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 6D 14 00 51
+	Mobitel SIM from Sri Lanka (Telecommunication)
+	https://mobitel.lk/
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 72 13 00 49
 	SIM Card OI (Brazil) (Telecommunication)
 
@@ -9071,6 +9098,10 @@
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F 7A 12 00 F6
 	Spectrun USA Sim Card (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 11 15 00 46
+	SIM Card for French mobile provider Unyc (Telecommunication)
+	https://www.unyc.io/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 1D 15 00 4A
 	Telia Sim card for IoT (Telecommunication)
@@ -10696,6 +10727,9 @@
 	UAE Emirates ID (eID)
 	https://www.icp.gov.ae
 
+3B B8 97 00 81 3F E4 5F FF F1 48 23 05 02 30 0F
+	UAE Emirates ID (eID)
+
 3B B8 97 00 C0 08 31 FE 45 FF FF 14 82 30 50 23 00 B8
 	Infineon SECORA ID X (JavaCard)
 
@@ -11433,6 +11467,9 @@
 3B DB 96 00 80 B1 FE 45 1F 83 45 53 54 4F 4E 49 41 2D 65 49 44 55
 	Estonian Identity Card (ID-One Cosmo v8.1) (eID)
 
+3B DB 96 00 80 B1 FE 45 1F 87 00 31 C1 64 09 58 22 36 07 90 00 19
+	Idemia Solvo Fly 40 (JavaCard)
+
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 08 00 00 10 00 18
 	Oberthur CS PIV End Point v1.08 FIPS201 Certified
 
@@ -12105,6 +12142,10 @@
 
 3B EE 00 00 81 31 80 43 80 31 80 66 B1 A1 11 01 A0 F6 83 00 90 00
 	Optelio D72 FXR1 (MD) T=1
+
+3B EE 00 00 81 31 80 43 80 31 80 66 B1 A3 04 01 11 0B 83 00 90 00 D4
+	Japan Post Bank cash card (Bank)
+	https://www.jp-bank.japanpost.jp/kojin/chokin/sogou/kj_cho_sg_iccard.html
 
 3B EE 00 00 81 31 FE 45 00 31 80 71 86 65 01 67 02 A0 0A 83 90 00 1B
 	IBM JCOP "Java Card 2.1.1" et "Open Platform 2.0.1"
