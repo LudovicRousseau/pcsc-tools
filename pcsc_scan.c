@@ -493,8 +493,10 @@ static void displayChangedStatus(SCARD_READERSTATE rgReaderStates[], int count)
 	for (int i=0; i<count; i++)
 	{
 		SCARD_READERSTATE r = rgReaderStates[i];
-		printf("Reader: %s, 0x%04X -> 0x%04X",
+		printf("%d: %s, %d, 0x%04X -> 0x%04X",
+			i,
 			r.szReader,
+			r.dwEventState >> 16,
 			(int)(r.dwCurrentState & 0xFFFF),
 			(int)(r.dwEventState & 0xFFFF));
 		for (int b=0; b<11; b++)
