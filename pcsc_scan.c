@@ -26,6 +26,7 @@
 #include <sysexits.h>
 #include <sys/time.h>
 #include <pthread.h>
+#include <stdbool.h>
 
 #ifdef __APPLE__
 #include <PCSC/wintypes.h>
@@ -37,16 +38,6 @@
 #ifdef HAVE_CONFIG_H
 #include "config.h"
 #endif
-
-#ifndef TRUE
-#define TRUE 1
-#define FALSE 0
-#endif
-
-typedef enum
-{
-	True = TRUE, False = FALSE
-} Boolean;
 
 #define TIMEOUT 3600*1000	/* 1 hour timeout */
 
@@ -118,18 +109,18 @@ const char *cub3 = "";
 const char *cpl = "";
 
 time_t start_time;
-_Atomic Boolean Interrupted = False;
+_Atomic bool Interrupted = false;
 
 typedef struct
 {
 	const char *pname;
-	Boolean analyse_atr;
-	Boolean stress_card;
-	Boolean print_version;
-	Boolean verbose;
-	Boolean only_list_readers;
-	Boolean only_list_cards;
-	Boolean debug;
+	bool analyse_atr;
+	bool stress_card;
+	bool print_version;
+	bool verbose;
+	bool only_list_readers;
+	bool only_list_cards;
+	bool debug;
 	long maxtime; // in seconds
 } options_t;
 
@@ -137,7 +128,7 @@ static options_t Options;
 
 SCARDCONTEXT hContext;
 
-static Boolean is_member(const char *  item, const char * list[])
+static bool is_member(const char *  item, const char * list[])
 {
 	int i = 0;
 	while (list[i] && 0 != strcmp(item, list[i]))
@@ -182,24 +173,24 @@ static void initialize_terminal(void)
 }
 /* There should be no \033 beyond this line! */
 
-static Boolean should_exit(void)
+static bool should_exit(void)
 {
 	if (Options.maxtime)
 	{
 		time_t t = time(NULL);
 		if (t - start_time > Options.maxtime)
-			return True;
+			return true;
 	}
 
 #ifdef WIN32
 	if (GetKeyState(VK_SHIFT) & 0x80)
-		return True;
+		return true;
 #endif
 
 	if (Interrupted)
-		return True;
+		return true;
 
-	return False;
+	return false;
 }
 
 typedef enum
@@ -277,7 +268,7 @@ again:
 static void user_interrupt_signal_handler(int signal)
 {
 	(void)signal;
-	Interrupted = True;
+	Interrupted = true;
 }
 
 static void initialize_signal_handlers(void)
@@ -290,16 +281,16 @@ static void initialize_options(options_t *options, const char *pname)
 {
 	options->pname = pname;
 #if defined(ATR_PARSER)
-	options->analyse_atr = True;
+	options->analyse_atr = true;
 #else
-	options->analyse_atr = False;
+	options->analyse_atr = false;
 #define ATR_PARSER ""
 #endif
-	options->stress_card = False;
+	options->stress_card = false;
 	options->maxtime = 0;
-	options->verbose = True;
-	options->only_list_readers = False;
-	options->only_list_cards = False;
+	options->verbose = true;
+	options->only_list_readers = false;
+	options->only_list_cards = false;
 }
 
 #define OPTIONS_BASE "Vhvrcst:qd"
@@ -326,7 +317,7 @@ static int parse_options(int argc, char *argv[], options_t *options)
 		switch (opt)
 		{
 			case 'n':
-				options->analyse_atr = False;
+				options->analyse_atr = false;
 				break;
 
 			case 'V':
@@ -335,22 +326,22 @@ static int parse_options(int argc, char *argv[], options_t *options)
 				break;
 
 			case 'v':
-				options->verbose = True;
+				options->verbose = true;
 				break;
 
 			case 'r':
-				options->only_list_readers = True;
-				options->verbose = False;
+				options->only_list_readers = true;
+				options->verbose = false;
 				break;
 
 			case 'c':
-				options->only_list_cards = True;
-				options->verbose = False;
-				options->analyse_atr = False;
+				options->only_list_cards = true;
+				options->verbose = false;
+				options->analyse_atr = false;
 				break;
 
 			case 's':
-				options->stress_card = True;
+				options->stress_card = true;
 				break;
 
 			case 't':
@@ -358,7 +349,7 @@ static int parse_options(int argc, char *argv[], options_t *options)
 				break;
 
 			case 'q':
-				options->verbose = False;
+				options->verbose = false;
 				break;
 
 			case 'h':
@@ -366,7 +357,7 @@ static int parse_options(int argc, char *argv[], options_t *options)
 				exit(EX_OK);
 
 			case 'd':
-				options->debug = True;
+				options->debug = true;
 				break;
 
 			default:
@@ -537,7 +528,7 @@ int main(int argc, char *argv[])
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
-	int pnp = TRUE;
+	bool pnp = true;
 	pthread_t spin_pthread;
 
 	start_time = time(NULL);
@@ -573,7 +564,7 @@ int main(int argc, char *argv[])
 		{
 			printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
 		}
-		pnp = FALSE;
+		pnp = false;
 	}
 	else
 	{
@@ -759,7 +750,7 @@ get_readers:
 
 #ifdef WIN32
 	int oldNbReaders;
-	int oldNbReaders_init = FALSE;
+	int oldNbReaders_init = false;
 #endif
 	spin_start();
 
@@ -784,7 +775,7 @@ get_readers:
 			if (! oldNbReaders_init)
 			{
 				oldNbReaders = newNbReaders;
-				oldNbReaders_init = TRUE;
+				oldNbReaders_init = true;
 			}
 			if (newNbReaders != oldNbReaders)
 #else
