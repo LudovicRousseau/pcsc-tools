@@ -836,8 +836,8 @@ get_readers:
 				color_end);
 
 			/* Event number */
-			printf("  Event number: %s%ld%s\n", magenta,
-				rgReaderStates_t[current_reader].dwEventState >> 16,
+			printf("  Event number: %s%d%s\n", magenta,
+				(int)(rgReaderStates_t[current_reader].dwEventState >> 16),
 				color_end);
 
 			/* Dump the full current state */
