@@ -93,7 +93,7 @@ do { \
 
 static void usage(const char *pname)
 {
-	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs ]\n\n", pname, pname);
+	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs | -d]\n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
 	printf("\t\t  -V : print version number\n");
 #ifndef WIN32
@@ -105,6 +105,7 @@ static void usage(const char *pname)
 	printf("\t\t  -q : quiet mode\n");
 	printf("\t\t  -v : verbose mode (default)\n");
 	printf("\t\t  -t secs : quit after secs seconds\n");
+	printf("\t\t  -d : debug mode\n");
 	printf("\n");
 }
 
@@ -129,6 +130,7 @@ typedef struct
 	Boolean verbose;
 	Boolean only_list_readers;
 	Boolean only_list_cards;
+	Boolean debug;
 	long maxtime; // in seconds
 } options_t;
 
@@ -301,7 +303,7 @@ static void initialize_options(options_t *options, const char *pname)
 	options->only_list_cards = False;
 }
 
-#define OPTIONS_BASE "Vhvrcst:q"
+#define OPTIONS_BASE "Vhvrcst:qd"
 #ifdef WIN32
 #define OPTIONS OPTIONS_BASE
 #else
@@ -363,6 +365,10 @@ static int parse_options(int argc, char *argv[], options_t *options)
 			case 'h':
 				usage(pname);
 				exit(EX_OK);
+
+			case 'd':
+				options->debug = True;
+				break;
 
 			default:
 				usage(pname);
@@ -475,6 +481,43 @@ static void print_readers(const char **readers, int nbReaders)
 	for (i = 0;i < nbReaders; i++)
 	{
 		printf("%s%d: %s%s\n", blue, i, readers[i], color_end);
+	}
+}
+
+static void displayChangedStatus(SCARD_READERSTATE rgReaderStates[], int count)
+{
+	char state_bits[][sizeof "UNAVAILABLE"] = {
+		"IGNORE",		/* 0x0001 */
+		"CHANGED",		/* 0x0002 */
+		"UNKNOWN",		/* 0x0004 */
+		"UNAVAILABLE",	/* 0x0008 */
+		"EMPTY",		/* 0x0010 */
+		"PRESENT",		/* 0x0020 */
+		"ATRMATCH",		/* 0x0040 */
+		"EXCLUSIVE",	/* 0x0080 */
+		"INUSE",		/* 0x0100 */
+		"MUTE",			/* 0x0200 */
+		"UNPOWERED"		/* 0x0400 */
+	};
+	printf("\n");
+	for (int i=0; i<count; i++)
+	{
+		SCARD_READERSTATE r = rgReaderStates[i];
+		printf("Reader: %s, 0x%04X -> 0x%04X",
+			r.szReader,
+			(int)(r.dwCurrentState & 0xFFFF),
+			(int)(r.dwEventState & 0xFFFF));
+		for (int b=0; b<11; b++)
+		{
+			int v = 1 << b;
+			if ((r.dwEventState & v) && (r.dwCurrentState & v))
+				printf(" =%s", state_bits[b]);
+			if ((r.dwEventState & v) && !(r.dwCurrentState & v))
+				printf(" %s+%s%s", blue, state_bits[b], color_end);
+			if (!(r.dwEventState & v) && (r.dwCurrentState & v))
+				printf(" %s-%s%s", red, state_bits[b], color_end);
+		}
+		printf("\n");
 	}
 }
 
@@ -630,6 +673,9 @@ get_readers:
 			spin_stop();
 
 			test_rv("SCardGetStatusChange", rv, hContext);
+
+			if (Options.debug)
+				displayChangedStatus(rgReaderStates, 1);
 		}
 		else
 		{
@@ -725,6 +771,8 @@ get_readers:
 
 	spin_stop();
 
+	if (Options.debug)
+		displayChangedStatus(rgReaderStates_t, nbReaders);
 	while ((rv == SCARD_S_SUCCESS) || (rv == SCARD_E_TIMEOUT))
 	{
 		time_t t;
@@ -907,6 +955,9 @@ get_readers:
 			nbReaders);
 
 		spin_stop();
+
+		if (Options.debug)
+			displayChangedStatus(rgReaderStates_t, nbReaders);
 	} /* while */
 
 	/* A reader disappeared */
