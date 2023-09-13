@@ -23,7 +23,6 @@
 #include <unistd.h>
 #include <string.h>
 #include <signal.h>
-typedef void (*sighandler_t)(int);
 #include <sysexits.h>
 #include <sys/time.h>
 #include <pthread.h>
