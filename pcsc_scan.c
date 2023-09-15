@@ -83,7 +83,7 @@ do { \
 
 static void usage(const char *pname)
 {
-	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs | -d]\n\n", pname, pname);
+	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs | -d | -p]\n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
 	printf("\t\t  -V : print version number\n");
 #ifndef WIN32
@@ -96,6 +96,7 @@ static void usage(const char *pname)
 	printf("\t\t  -v : verbose mode (default)\n");
 	printf("\t\t  -t secs : quit after secs seconds\n");
 	printf("\t\t  -d : debug mode\n");
+	printf("\t\t  -p : force use of PnP mechanism\n");
 	printf("\n");
 }
 
@@ -121,6 +122,7 @@ typedef struct
 	bool only_list_readers;
 	bool only_list_cards;
 	bool debug;
+	bool pnp;
 	long maxtime; // in seconds
 } options_t;
 
@@ -291,9 +293,10 @@ static void initialize_options(options_t *options, const char *pname)
 	options->verbose = true;
 	options->only_list_readers = false;
 	options->only_list_cards = false;
+	options->pnp = false;
 }
 
-#define OPTIONS_BASE "Vhvrcst:qd"
+#define OPTIONS_BASE "Vhvrcst:qdp"
 #ifdef WIN32
 #define OPTIONS OPTIONS_BASE
 #else
@@ -350,6 +353,10 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 'q':
 				options->verbose = false;
+				break;
+
+			case 'p':
+				options->pnp = true;
 				break;
 
 			case 'h':
@@ -530,7 +537,6 @@ int main(int argc, char *argv[])
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
-	bool pnp = true;
 	pthread_t spin_pthread;
 
 	start_time = time(NULL);
@@ -560,16 +566,16 @@ int main(int argc, char *argv[])
 	rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
 
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
-	if (rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
+	if (! Options.pnp && rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
 		if (Options.verbose)
 		{
 			printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
 		}
-		pnp = false;
 	}
 	else
 	{
+		Options.pnp = true;
 		if (Options.verbose)
 		{
 			printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
@@ -651,7 +657,7 @@ get_readers:
 			fflush(stdout);
 		}
 
-		if (pnp)
+		if (Options.pnp)
 		{
 			rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
 			rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
@@ -743,7 +749,7 @@ get_readers:
 	}
 
 	/* If Plug and Play is supported by the PC/SC layer */
-	if (pnp)
+	if (Options.pnp)
 	{
 		rgReaderStates_t[nbReaders].szReader = "\\\\?PnP?\\Notification";
 		rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
@@ -769,7 +775,7 @@ get_readers:
 	{
 		time_t t;
 
-		if (pnp)
+		if (Options.pnp)
 		{
 			/* check if the number of readers has changed */
 #ifdef WIN32
