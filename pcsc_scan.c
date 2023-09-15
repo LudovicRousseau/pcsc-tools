@@ -823,15 +823,12 @@ get_readers:
 				continue;
 #endif
 
-			if (rgReaderStates_t[current_reader].dwEventState &
-				SCARD_STATE_CHANGED)
-			{
-				/* If something has changed the new state is now the current
-				 * state */
-				rgReaderStates_t[current_reader].dwCurrentState =
-					rgReaderStates_t[current_reader].dwEventState;
-			}
-			else
+			/* The new current state is now the old event state */
+			rgReaderStates_t[current_reader].dwCurrentState =
+				rgReaderStates_t[current_reader].dwEventState;
+
+			if (! (rgReaderStates_t[current_reader].dwEventState &
+				SCARD_STATE_CHANGED))
 				/* If nothing changed then skip to the next reader */
 				continue;
 
