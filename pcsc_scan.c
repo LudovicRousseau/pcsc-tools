@@ -289,11 +289,13 @@ static void initialize_options(options_t *options, const char *pname)
 #define ATR_PARSER ""
 #endif
 	options->stress_card = false;
-	options->maxtime = 0;
+	options->print_version = false;
 	options->verbose = true;
 	options->only_list_readers = false;
 	options->only_list_cards = false;
+	options->debug = false;
 	options->pnp = false;
+	options->maxtime = 0;
 }
 
 #define OPTIONS_BASE "Vhvrcst:qdp"
