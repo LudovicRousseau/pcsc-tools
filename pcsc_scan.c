@@ -754,7 +754,7 @@ get_readers:
 	if (Options.pnp)
 	{
 		rgReaderStates_t[nbReaders].szReader = "\\\\?PnP?\\Notification";
-		rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNAWARE;
+		rgReaderStates_t[nbReaders].dwCurrentState = SCARD_STATE_UNKNOWN;
 		nbReaders++;
 	}
 
