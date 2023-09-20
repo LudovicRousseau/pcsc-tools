@@ -19,10 +19,18 @@ dnl Checks for programs.
 AC_PROG_INSTALL
 AC_PROG_CC
 
-AC_CHECK_PROG([found_msgfmt], [msgfmt], [yes])
-if test x$found_msgfmt != xyes; then
-  AC_MSG_ERROR([msgfmt not found. Please install gettext])
+# --disable-gettext
+AC_ARG_ENABLE(gettext,
+	AS_HELP_STRING([--disable-gettext],[do not use gettext]),
+	[ use_gettext="${enableval}" ], [ use_gettext=yes ] )
+
+if test "x$use_gettext" != xno ; then
+	AC_CHECK_PROG([found_msgfmt], [msgfmt], [yes])
+	if test x$found_msgfmt != xyes; then
+	  AC_MSG_ERROR([msgfmt not found. Please install gettext or use --disable-gettext])
+	fi
 fi
+AM_CONDITIONAL(WITH_GETTEXT, test "${use_gettext}" != "no")
 
 # Check for some target-specific stuff
 ATR_PARSER="ATR_analysis"
