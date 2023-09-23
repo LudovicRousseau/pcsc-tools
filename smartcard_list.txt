@@ -1582,6 +1582,9 @@
 	BNP Paribas Visa Classic Card (Bank)
 	https://mabanque.bnpparibas/en/managing-your-accounts/cards-and-payment-methods/all-cards/visa-classic-card
 
+3B 65 00 00 20 63 CB C7 80
+	DEBIT CARD (Bank)
+
 3B 65 00 00 20 63 CB FF 00
 	Crédit Agricole business mastercard (Bank)
 
@@ -2762,6 +2765,9 @@
 3B 6D 00 00 00 80 31 80 65 B0 89 35 01 F1 83 00 90 00
 	MasterCard  (Bank)
 
+3B 6D 00 00 00 81 4D 22 08 86 60 20 08 11 00 00 01
+	BANK OF HEBEI Debit Card (Bank)
+
 3B 6D 00 00 00 81 4D 22 08 86 60 22 22 28 40 00 01
 	Unipay Credit Card Issued by CITIC (Bank)
 
@@ -3870,6 +3876,10 @@
 
 3B 6F 00 00 80 5A 0A 01 01 20 03 11 93 61 D7 D7 82 90 00
 	Carte Técély (Réseau TCL: metro, tramway, bus et funiculaire de Lyon) (Idemia)
+
+3B 6F 00 00 80 5A 0A 01 01 20 03 11 93 76 A4 86 82 90 00
+	Técély Card - Metro, Tram, Bus and Funicular of the TCL network in Lyon (Transport)
+	https://www.tcl.fr/assistance/carte-de-transport/quest-ce-que-la-carte-tcl
 
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 .. .. .. .. 82 90 00
 	Card « Oùra ! » of region Rhône-Alpes, Calypso standard (TER, Transisère)
@@ -5628,6 +5638,10 @@
 
 3B 7F 96 00 00 80 31 80 65 B0 85 03 00 EF 12 FF FE 82 90 00
 	JavaCard (JavaCard)
+
+3B 7F 96 00 00 80 31 80 65 B0 85 04 00 11 12 02 F0 82 90 00
+	Region Stockholm temporary eService card (eID)
+	https://vardgivarguiden.se/it-stod/etjanstekort/bestalla/reservkort--ett-tillfalligt-etjanstekort/
 
 3B 7F 96 00 00 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00
 	Swedish national ID card (eID)
@@ -7682,12 +7696,19 @@
 3B 8F 80 01 56 69 6E 50 61 79 53 79 73 20 50 75 72 73 65 2F
 	JCOP (Other)
 
+3B 8F 80 01 80 31 80 65 49 54 4A 34 41 12 0F FF 82 90 00 88
+	CIE - Carta di Identità Elettronica - Italian ID Card (eID)
+	https://www.cartaidentita.interno.gov.it
+
 3B 8F 80 01 80 31 80 65 49 54 4A 34 42 12 0F FF 82 90 00
 	Italian Identity Card CIE (eID) (eID)
 	https://www.cartaidentita.interno.gov.it/en/home/
 
 3B 8F 80 01 80 31 80 65 49 54 4A 34 42 12 0F FF 82 90 00 8B
 	Identity Card (eID)
+
+3B 8F 80 01 80 31 80 65 49 54 4A 34 44 12 0F FF 82 90 00 8D
+	CIE Italian Electronic Identity Card (eID)
 
 3B 8F 80 01 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00 ..
 	IDPrime MD 3810 T=Contactless (Prox DU)
@@ -7721,6 +7742,10 @@
 
 3B 8F 80 01 80 31 B8 65 B0 85 04 02 1B 12 00 F6 82 90 00 BC
 	Finnish identity card (eID)
+
+3B 8F 80 01 80 31 B8 65 B0 85 05 00 11 12 24 60 82 90 00 07
+	Finnish Citizen Certificate ID Card (eID)
+	https://dvv.fi/en/citizen-certificate-on-id-card
 
 3B 8F 80 01 80 31 D8 65 B0 85 05 00 11 12 75 20 82 90 00 76
 	Swedish national ID card (eID)
@@ -8314,6 +8339,10 @@
 3B 97 95 C0 2A 31 FE 35 D0 00 48 01 05 A3 11 3C
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controller et atelier/workshop, 2010-2015
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
+
+3B 97 96 00 80 73 F7 C1 80 81 05
+	ISBC ESMART Token (Bank)
+	https://cdn.esmart.ru/token/docs/manuals/ESMART%20PKI%20Client%20-%20Administrative%20manual%20(2).pdf
 
 3B 97 97 81 71 FE 24 00 77 43 53 4D 01 02 03 00
 	Infineon CIPURSE SAM SLF 9630 (Other)
@@ -9350,6 +9379,10 @@
 	U Mobile POWER Prepaid (Telecommunication)
 	http://www.u.com.my/prepaid
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 37 86 60 9C 80 80 80 2F
+	Telenor (Telecommunication)
+	https://www.telenor.com.pk/
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 CD A1 00 12 46
 	Beeline SIM card (RUS) (Telecommunication)
 	https://beeline.ru
@@ -9803,6 +9836,9 @@
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 00 67 11 01 67 40 06 00 77 89
 	Beni's UICC 4G LTE  (Telecommunication)
 	https://cslgroup.co.id/
+
+3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B 64 AE F5 00 20 82 90 00 BE
+	SFR SIM (Telecommunication)
 
 3B 9F 96 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 02 7E 83 0F 90 00 82
 	Vodafone SIM Card (D2, 1800Mhz, Germany, Twincard, possibly others too?), manufactured by Gemplus (See stamp on the chip)
@@ -10491,6 +10527,9 @@
 
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FF
 	SIM Card Fastweb IT GSM mobile network  (Telecommunication)
+
+3B 9F 96 C0 0A 3F C7 82 80 31 E0 73 FE 21 1F 65 D0 02 09 14 6C 81 0F 13
+	euicc (eID)
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E 8D 81 0F B0
 	USIM
