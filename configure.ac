@@ -27,7 +27,8 @@ AC_ARG_ENABLE(gettext,
 if test "x$use_gettext" != xno ; then
 	AC_CHECK_PROG([found_msgfmt], [msgfmt], [yes])
 	if test x$found_msgfmt != xyes; then
-	  AC_MSG_ERROR([msgfmt not found. Please install gettext or use --disable-gettext])
+	  AC_MSG_WARN([msgfmt not found. Please install gettext])
+	  use_gettext=no
 	fi
 fi
 AM_CONDITIONAL(WITH_GETTEXT, test "${use_gettext}" != "no")
