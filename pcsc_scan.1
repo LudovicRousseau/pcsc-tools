@@ -2,7 +2,7 @@
 .\" First parameter, NAME, should be all caps
 .\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
 .\" other parameters are allowed: see man(7), man(1)
-.TH PCSC_SCAN 1 "April 10, 2018"
+.TH PCSC_SCAN 1 "Oct 2, 2023"
 .\" Please adjust this date whenever revising the manpage.
 .\"
 .\" Some roff macros, for reference:
@@ -39,14 +39,14 @@ printed before each reader.
 
 Example:
  PC/SC device scanner
- V 1.4.27 (c) 2001-2017, Ludovic Rousseau
+ V 1.6.2 (c) 2001-2022, Ludovic Rousseau <ludovic.rousseau@free.fr>
  Scanning present readers...
  0: Gemalto PC Twin Reader
 
 When a card is inserted in any reader some information is printed:
 .TP
 date and time:
-Wed Apr 12 14:25:30 2017
+Mon Oct  2 21:01:40 2023
 .TP
 reader name:
 Reader 0: Gemalto PC Twin Reader
@@ -79,6 +79,9 @@ Use this option if \fBATR_analysis\fP is not available for example.
 .B \-r
 prints the list of readers and then exits.
 .TP
+.B \-c
+prints the list of cards and then exits.
+.TP
 .B \-s
 stress mode. Sends APDU commands to the card indefinitely (until the
 card or the reader is removed).
@@ -92,6 +95,13 @@ quiet: prints minimal messages.
 .TP
 .B \-v
 verbose: prints additional messages (default).
+.TP
+.B \-d
+debug: prints what changed between .dwCurrentState and .dwEventState
+fields for each reader.
+.TP
+.B \-p
+Plug and Play: force the use of the "\\\\?PnP?\\Notification" specific reader.
 .SH SEE ALSO
 .BR pcscd "(8), " ATR_analysis (1)
 .SH AUTHOR
