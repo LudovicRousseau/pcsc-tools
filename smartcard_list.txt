@@ -1324,6 +1324,10 @@
 	Montréal metropolitan area and Québec city area OPUS card (Transport)
 	https://www.carteopus.info/
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 3A A6 E0 82 90 00
+	Montreal/Quebec transit OPUS card (Transport)
+	https://www.carteopus.info/?language=en
+
 3B 60 00 00
 	Meano (Bank)
 
@@ -1704,6 +1708,9 @@
 
 3B 67 00 00 00 31 80 71 86 90 00
 	Swiss ZKB-Bancomat-Card
+
+3B 67 00 00 00 C0 01 7B 0C 6F 12
+	JCOP21-40K (JavaCard)
 
 3B 67 00 00 04 12 45 01 60 01 11
 	Bank ATM card (Bank)
@@ -2387,6 +2394,10 @@
 3B 6B 00 00 00 31 C0 64 13 14 02 00 0F 90 00
 	UBA Card PREPAID (Bank)
 
+3B 6B 00 00 00 31 C0 64 13 66 01 00 07 90 00
+	banque populaire (JavaCard)
+	https://bpnet.gbp.ma/
+
 3B 6B 00 00 00 31 C0 64 1F 18 01 00 0F 90 00
 	Portuguese Medical Association eID card (Cédula Profissional, Ordem dos Médicos, Portugal) (eID)
 	http://www.omsul.pt/tabid/242/Default.aspx
@@ -2518,6 +2529,9 @@
 3B 6B 00 00 00 31 C1 64 09 64 41 36 0F 90 00
 	VISA Business Folio AS /Norway (Sparebanken Vest) [IDEMIA] (Bank)
 	https://folio.no/
+
+3B 6B 00 00 00 31 C1 64 09 78 61 31 0F 90 00
+	Mastercard (Bank)
 
 3B 6B 00 00 20 90 00 00 00 00 00 B0 A2 BD 69
 	Fudan FM1280 (JavaCard)
@@ -3884,6 +3898,10 @@
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 .. .. .. .. 82 90 00
 	Card « Oùra ! » of region Rhône-Alpes, Calypso standard (TER, Transisère)
 
+3B 6F 00 00 80 5A 0A 07 06 20 02 10 7C 7C 5C 18 82 90 00
+	Rav-Kav card.  Public transport in Israel (Transport)
+	https://ravkavonline.co.il/
+
 3B 6F 00 00 80 5A 0A 07 06 20 04 01 02 94 95 D3 82 90 00
 	Rav-Kav Public Transport (Transport)
 	https://ravkavonline.co.il/he/
@@ -4658,6 +4676,10 @@
 
 3B 78 12 00 00 A0 C4 06 07 8F F1 90 00
 	Skylink CZ/SK - Cryptoworks
+
+3B 78 13 00 00 00 73 C8 40 00 00 90 00
+	Revolut Visa card (Bank)
+	https://www.revolut.com/
 
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
@@ -6422,6 +6444,9 @@
 	Resident Identity Card of People Republic of China (Second Generation with RF Feature) (eID)
 	http://www.gov.cn/banshi/2005-08/02/content_19457.htm
 
+3B 88 80 01 E1 00 00 01 F7 81 C1 00 5E
+	Brazilian Passport (passport)
+
 3B 88 80 01 E1 68 6C 17 77 83 95 00 9A
 	Algerian ID card  (eID)
 
@@ -7198,6 +7223,10 @@
 3B 8C 80 01 50 C0 AA 57 4E 00 00 00 00 B3 71 71 9D
 	Transportation Pastel Card from Toulouse (France)  (Transport)
 	https://www.tisseo.fr/se-deplacer/bien-voyager
+
+3B 8C 80 01 50 C0 B4 D0 7B 00 00 00 00 B3 71 71 31
+	Toulouse Transport card (Transport)
+	https://www.tisseo.fr/les-tarifs/e-agence/demande-carte-pastel
 
 3B 8C 80 01 50 C0 C8 94 D3 00 00 00 00 B3 71 71 A1
 	pastel (Transport)
@@ -8326,6 +8355,9 @@
 
 3B 97 94 80 3F 44 90 80 31 A0 73 BE 21 00 95
 	Comprion Simulated card that indicate Low Impedance support: TB(3) = 0x90 (Telecommunication)
+
+3B 97 95 80 1F 03 4B 61 7A 44 4C 30 31 C7
+	Kazakhstan Driver's License (Other)
 
 3B 97 95 80 1F 43 80 31 E0 73 FE 21 1B 38
 	JIO (Telecommunication)
@@ -12700,6 +12732,10 @@
 3B F7 11 00 01 40 96 70 71 09 0E 6C B6 D6
 	Carte pour décodeur télé de Neuf Telecom TV
 
+3B F7 13 00 00 10 00 F1 40 40 91 9B 90 00
+	Handelsbanken Inloggningskort (Bank)
+	https://www.handelsbanken.se/sv/privat/digitala-tjanster/bankid-pa-kort
+
 3B F7 13 00 00 81 31 FE 45 00 C0 8A C8 0C 65 81 85
 	NXP JCop (JavaCard)
 
@@ -14268,6 +14304,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
+	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
 
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
