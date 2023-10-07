@@ -130,6 +130,15 @@ Licences:
 History:
 ========
 
+1.7.0 - 7 October 2023, Ludovic ROUSSEAU
+    - 182 new ATRs
+    - pcsc_scan:
+      . add debug option -d
+      . add PnP option -p
+    - gscriptor: i18n and l10n in English (default), French and Russian
+    - configure: add --enable-ATRparser=foobar to specify an ATR parser
+    - minor fixes and improvements
+
 1.6.2 - 22 January 2023, Ludovic ROUSSEAU
     - 18 new ATRs
     - smartcard_list.txt moved to https://pcsc-tools.apdu.fr/smartcard_list.txt
