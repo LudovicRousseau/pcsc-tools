@@ -75,7 +75,7 @@ distclean:
 	languages='$(LINGUAS)'; \
 	for lang in $$languages; do \
 		cat="$$lang.gmo"; \
-		rm $(abs_builddir)/$$cat || exit 1; \
+		rm -f $(abs_builddir)/$$cat || exit 1; \
 	done; \
 	rm $(abs_builddir)/Makefile
 
