@@ -2475,6 +2475,9 @@
 	ICA Bank, Mastercard (Bank)
 	https://www.icabanken.se/kort-och-betala/bankkort/
 
+3B 6B 00 00 00 31 C1 64 08 60 32 1A 0F 90 00
+	HSBC UnionPay CN Debit (Bank)
+
 3B 6B 00 00 00 31 C1 64 08 60 32 1F 07 90 00
 	NMRC Card (Transport)
 
@@ -3532,6 +3535,9 @@
 3B 6F 00 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
 	Postepay Evolution (Bank)
 	https://postepay.poste.it/prodotti/postepay-evolution.html
+
+3B 6F 00 00 57 69 4C 4C 57 00 00 00 00 00 00 20 20 04 29
+	AMEX CHINA Debit card, Java Card version 2.2, Global Platform version 2.1.1, Visa card manager (Bank)
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -7477,6 +7483,9 @@
 3B 8D 80 01 80 91 E1 65 D0 00 5B 01 03 73 D4 41 40 B6
 	French passport (2010-2011)
 
+3B 8E 01 00 73 80 20 C0 06 53 4C 43 4F 53 05 90 00 4F
+	idex (JavaCard)
+
 3B 8E 80 01 00 51 00 63 1F 6D 01 73 9F 20 C0 C0 90 00 12
 	Identity card (eID) Republic of Latvia (eID)
 	https://www.pmlp.gov.lv/en/home/services/personal-certificates-%28eid%29/
@@ -8788,6 +8797,9 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6D 85 0E 00 E4
 	Vodafone Germany SIM Card (Telecommunication)
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6D B9 0E 00 D8
+	jazztel (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 79 0E 6B 00 1E
 	TracFone (US) TF64SIMC4 V2 GSM SIM Card
 
@@ -9751,6 +9763,10 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 06 31 71 DF 00 00 00 00 00 24
 	FT ePass2003Auto USB Token (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 86 00 00 B5
+	HYPERSECU HYP2003 (PKI)
+	https://www.hypersecu.com/hyperpki
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 32 38 71 DF 00 00 06 00 00 1F
 	token (PKI)
 
@@ -9791,6 +9807,10 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 06 00 00 67
 	Epass2003 (PKI)
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 86 00 00 E7
+	HYPERSECU HYP2003 (PKI)
+	https://www.hypersecu.com/hyperpki
 
 3B 9F 95 C0 0A 1F 07 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 1D
 	EMT WPKI USIM (2014, Estonia, JavaCard) (Telecommunication)
@@ -10325,6 +10345,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 50 31 00 82 90 00 E1
 	telcel sim card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 63 94 00 82 90 00 77
+	EMnify SIMcard (Telecommunication)
+	https://www.emnify.com/global-iot-sim
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 51 00 82 90 00 A3
 	Free Mobile (French wireless service provider) SIM card (mini-SIM with micro-SIM cutout) received in 2020-09 (Telecommunication)
 	https://mobile.free.fr/
@@ -10727,7 +10751,7 @@
 
 3B B2 11 00 10 80 00 16
 	Atmel memory card AT88SC1616C
-	http://www.atmel.com/dyn/resources/prod_documents/doc5210.pdf
+	https://www.microchip.com/en-us/product/AT88SC1616C#document-table
 	Rexall (Canada) - Blood Pressure Check card
 	http://www.rexall.ca/services/blood-pressure-tracking
 
@@ -11422,6 +11446,9 @@
 
 3B DB 18 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 4F
 	Oberthur ID-One Cosmo 64K V5.2
+
+3B DB 18 00 80 31 FE 44 80 59 49 44 65 61 6C 20 31 2E 36 7D
+	ID card Albania (eID)
 
 3B DB 18 00 80 B1 FE 45 1F 83 00 31 C0 64 C7 FC 10 00 01 90 00 FA
 	Oberthur Cosmo V7 64K Dual/128K
@@ -14290,8 +14317,16 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 02 71 50 07 30 A4
+	Debitcard Sparkasse Duesseldorf (Bank) (Bank)
+	https://www.sskduesseldorf.de/
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 24 09 0A 10 CC 02 00 AB
+	Postbank Germany (Bank)
+	https://www.postbank.de/privatkunden/services.html
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 03 08 C0 B7 02 00 0A
 	German Debitcard from Sparkasse (Bank)
