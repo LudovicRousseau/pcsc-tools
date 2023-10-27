@@ -457,6 +457,9 @@
 3B 16 94 71 01 01 0A 01 00
 	TIM Brazil SIM card (Telecommunication)
 
+3B 16 94 71 01 01 5C 02 00
+	full size GSM SIM card pulled from a Tracfone Motorola phone from 2009. TF64SIMT5 (Telecommunication)
+
 3B 16 94 72 04 01 00 00 00
 	MTS SIM card, Russia (Telecommunication)
 
@@ -4562,6 +4565,10 @@
 	Aktiv Rutoken S
 	https://www.rutoken.ru/products/all/rutoken-s/
 
+3B 6F 00 FF 00 6A 44 4E 49 65 10 02 4C 34 01 11 03 90 00
+	Spanish National Identity card (eID)
+	https://www.dnielectronico.es/PDFs/ATR1.pdf
+
 3B 6F 00 FF 52 53 41 53 65 63 75 72 49 44 28 52 29 31 30
 	RSA SecurID SID800 token
 
@@ -4922,6 +4929,9 @@
 
 3B 7C 18 00 00 86 88 00 00 01 B3 F4 20 55 01 81 B3
 	smart (Telecommunication)
+
+3B 7C 18 00 00 86 88 00 00 04 7E CD C2 55 01 81 A0
+	My Own Fuel Card (Other)
 
 3B 7C 94 00 00 50 52 4F 47 45 58 49 41 43 53 50 32
 	mutual health Martinique (UFR PASS+) (HealthCare)
@@ -6282,6 +6292,10 @@
 
 3B 88 80 01 00 00 00 11 77 81 83 00 6D
 	Taglio PIVKey C980 - RFID I/F (PKI)
+
+3B 88 80 01 00 00 00 11 F7 81 81 00 EF
+	MOBIB card (Transport)
+	https://mobib.be/en.html
 
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
 	Belgian passport (2008-2009)
@@ -9183,6 +9197,10 @@
 	verymobile wind 3 (Telecommunication)
 	https://verymobile.it/
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 2F 15 00 78
+	Free Mobile (French carrier) SIM card (Telecommunication)
+	https://mobile.free.fr/
+
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 73 15 00 3A
 	Twilio Super SIM (Telecommunication)
 	https://www.twilio.com/iot/super-sim-card
@@ -9992,6 +10010,9 @@
 	telekom HU nano sim card (Telecommunication)
 	https://www.telekom.hu
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 24 DB 14 10 05 FC
+	CZ KAKTUS SIM CARD (Telecommunication)
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
 
@@ -10061,6 +10082,9 @@
 	Chunghwa Telecom (Taiwan) 3G/4G PrePaid card
 	https://www.twgate.net/prepaidcard/product_en.html
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 65 66 74 0E 10 13 91 00 56
+	TestCard For Agilent 8960 (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 65 66 74 0E 11 13 91 00 57
 	XLB.LTE Test Card (Telecommunication)
 	http://www.xielibo.com
@@ -10108,6 +10132,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 81 04 33 33 00 14
 	PureTalk SIM Card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 27 86 98 61 43 F4
+	China Telecommunications Corporation (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 91 18 02 04 06 06 06 51
 	USIM (3G PF) Orange
@@ -10555,6 +10582,9 @@
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 09 12 EE 81 0F 35
 	German SIM card Drillisch (Telefonica) (Telecommunication) (Telecommunication)
 	https://www.drillisch-online.de/
+
+3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 09 14 F9 81 0F 24
+	CONNEXA SIM CARD (Telecommunication)
 
 3B 9F 96 C0 0A 1F C7 80 31 E0 73 FE 21 1F 65 D0 02 0B 11 A4 81 0F 7E
 	Telia Finland Oyj, network operator LTE  (Telecommunication)
@@ -13698,6 +13728,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00
 	Debit payment card (Rabobank NL) (Bank)
 	https://www.rabobank.nl/en/business/making-and-receiving-payments/payments/paying-with-your-bank-card
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00
+	Huntington  (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 42 4E 07 90 00
 	Portuguese "BancoCTT" Bank Card (Bank)
