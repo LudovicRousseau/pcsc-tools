@@ -33,17 +33,14 @@ AM_CONDITIONAL(WITH_GETTEXT, test "${use_gettext}" != "no")
 
 # Check for some target-specific stuff
 ATR_PARSER="ATR_analysis"
-case "$host" in
-*-*-darwin*)
-	PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
-	PCSC_PATH="PCSC/"
-	ATR_PARSER="no"
-    ;;
-*-*-msys)
-	PCSC_LIBS=-lwinscard
-	ATR_PARSER="no"
-	;;
-esac
+AS_CASE(["$host"],
+	[*-*-darwin*],
+		[PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
+		PCSC_PATH="PCSC/"
+		ATR_PARSER="no"],
+	[*-*-msys],
+		[PCSC_LIBS=-lwinscard
+		ATR_PARSER="no"])
 
 dnl Checks for libraries.
 # check pcsc-lite
