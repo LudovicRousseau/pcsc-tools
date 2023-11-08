@@ -4358,6 +4358,10 @@
 	Rav Kav Transit Payment Card (Israel) (Transport)
 	https://ravkavonline.co.il/
 
+3B 6F 00 00 80 5A 3B 07 06 15 01 01 79 3A 23 43 82 90 00
+	Rav-Kav is a smart card used as the main form of payment for public transportation in Israel.  (Transport)
+	https://ravkavonline.co.il/en/
+
 3B 6F 00 00 80 5A 3B 07 06 15 01 01 79 3E 79 7B 82 90 00
 	Rav Kav (Transport)
 	http://alhakav.mot.gov.il/he/rav-kav
@@ -8669,6 +8673,10 @@
 3B 9D 95 80 1F C7 80 31 A0 73 BE 21 00 51 04 83 05 90 00 EE
 	SIM :NTT Docomo(Japan) (Telecommunication)
 
+3B 9D 95 80 1F C7 80 31 E0 73 FE 21 13 65 D0 01 75 0D FE 8C
+	Prepaid i-mobile 3GX Thailand (Telecommunication)
+	http://www.i-mobilephone.com/
+
 3B 9D 95 80 1F C7 80 73 1A 21 1B 63 AF 06 A6 83 0F 90 00 F3
 	Orange UK GSM/UMTS SIM
 
@@ -9148,6 +9156,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 36 14 00 04
 	SIM (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 6D 13 00 56
+	USIM card (JavaCard)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 6D 14 00 51
 	Mobitel SIM from Sri Lanka (Telecommunication)
 	https://mobitel.lk/
@@ -9179,6 +9190,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
 	4G-LTE (Telecommunication)
+
+3B 9E 96 80 3F 47 A0 80 31 E0 73 EE 21 13 66 86 88 42 18 52 21 EF
+	SIM card (Telecommunication)
 
 3B 9E 96 80 3F C3 A0 80 31 E0 73 FE 21 1B 63 08 01 14 0F 90 00 D3
 	KT Olleh LTE Warp SA-L 1670 (Telecommunication)
@@ -9879,6 +9893,14 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 75 30 31 13 62 88
 	Zimbabwe sim card provider: ECONET (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 35 75 30 35 02 59 C4
+	sysmoISIM-SJA5-9FV programmable SIM/UICC/USIM/ISIM (Telecommunication)
+	https://sysmocom.de/products/sim/sysmoisim-sja5/index.html
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 35 75 30 35 02 65 F8
+	sysmoISIM-SJA5 (Telecommunication)
+	https://sysmocom.de/products/sim/sysmoisim-sja5/index.html
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 52 75 31 04 51 D5
 	Test card provided with 4G/5G network from Amarisoft (Telecommunication)
@@ -10708,6 +10730,7 @@
 3B A7 00 40 18 80 65 A2 08 01 01 52
 	Gemplus GPK8000
 	GemSAFE Smart Card (8K)
+	MultiApp ID IAS ECC 72K CC (with IAS XL / IAS ECC Applet) IAS ECC Type 3 (Bank)
 
 3B A7 00 40 18 80 65 A2 09 01 01 52
 	Gemplus GPK16000
@@ -11644,6 +11667,10 @@
 3B DC 18 FF 81 11 FE 80 73 C8 21 13 66 01 06 01 30 80 01 8D
 	Aladdin R.D. JaCarta LT (eID)
 
+3B DC 18 FF 81 91 FE 1F C3 06 0A 2B 06 01 04 01 E9 10 05 01 03 D2
+	DoD (Other)
+	https://cps.ca.pkidefensie.nl/
+
 3B DC 18 FF 81 91 FE 1F C3 06 0A 2B 06 01 04 01 E9 10 05 02 03 D1
 	Caregiver card for Dutch Medical System called UZI (Unieke Zorgverlener Identificatie, Caring Unique Identification) (HealthCare)
 	https://www.uziregister.nl/
@@ -11819,6 +11846,9 @@
 	Carta Regionale dei Servizi - Regione Lombardia
 	Tuscany TS-CNS
 	http://www.regione.toscana.it/cartasanitaria
+
+3B DF 18 01 C0 40 31 FC 75 80 73 84 21 E0 69 4D 54 43 4F 53 73 02 05 05 16
+	German digital tachograph control card (Transport)
 
 3B DF 18 FF 80 91 FE 1F C3 00 31 38 64 47 90 EC C2 73 14 01 50 82 90 00 BB
 	Ministry of Interior - France "Agent Card" (Other)
@@ -13732,6 +13762,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00
 	Huntington  (Bank)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 42 4E 07 90 00
+	Rabobank Netherlands VISA debit (Bank)
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 42 4E 07 90 00
 	Portuguese "BancoCTT" Bank Card (Bank)
 	https://www.bancoctt.pt/o-seu-dia-a-dia/cartao-de-credito-banco-ctt
@@ -14659,6 +14692,10 @@
 3F 77 18 00 00 D3 8A 42 01 64 90 00
 	Satellite decoder card for TV Vlaanderen (Other)
 	https://www.tv-vlaanderen.be
+
+3F 77 18 00 00 DA AC 41 14 64 90 00
+	Fransat PC7 (Pay TV)
+	https://www.fransat.fr/
 
 3F 77 18 25 00 29 14 00 62 68 90 00
 	Viaccess card
