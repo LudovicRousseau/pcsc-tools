@@ -24,13 +24,11 @@ AC_ARG_ENABLE(gettext,
 	AS_HELP_STRING([--disable-gettext],[do not use gettext]),
 	[ use_gettext="${enableval}" ], [ use_gettext=yes ] )
 
-if test "x$use_gettext" != xno ; then
-	AC_CHECK_PROG([found_msgfmt], [msgfmt], [yes])
-	if test x$found_msgfmt != xyes; then
-	  AC_MSG_WARN([msgfmt not found. Please install gettext])
-	  use_gettext=no
-	fi
-fi
+AS_IF([test "x$use_gettext" != xno],
+	[AC_CHECK_PROG([found_msgfmt], [msgfmt], [yes])
+	 AS_IF([test x$found_msgfmt != xyes],
+		[AC_MSG_WARN([msgfmt not found. Please install gettext])
+		 use_gettext=no])])
 AM_CONDITIONAL(WITH_GETTEXT, test "${use_gettext}" != "no")
 
 # Check for some target-specific stuff
@@ -52,11 +50,9 @@ dnl Checks for libraries.
 PKG_CHECK_EXISTS([libpcsclite],
     [PKG_CHECK_MODULES(PCSC, libpcsclite, [],
     [
-    if test -f /usr/local/lib/pkgconfig/libpcsclite.pc -a "x$PKG_CONFIG" != x ; then
-        AC_MSG_ERROR([use PKG_CONFIG_PATH=/usr/local/lib/pkgconfig ./configure])
-      else
-        AC_MSG_WARN([install pcsc-lite])
-      fi
+    AS_IF([test -f /usr/local/lib/pkgconfig/libpcsclite.pc -a "x$PKG_CONFIG" != x],
+        [AC_MSG_ERROR([use PKG_CONFIG_PATH=/usr/local/lib/pkgconfig ./configure])],
+        [AC_MSG_WARN([install pcsc-lite])])
     ])],
     [AC_MSG_WARN([libpcsclite not found by pkg-config])]
 )
@@ -79,10 +75,8 @@ CPPFLAGS="$saved_CPPFLAGS"
 AC_ARG_ENABLE(ATRparser,
 	AS_HELP_STRING([--enable-ATRparser=foobar], [pathname of the ATR parser to use]),
 	[ ATRparser="${enableval}" ], [ ATRparser="no" ] )
-if test "$ATRparser" != no
-then
-	AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATRparser", [ATR parser to use])
-fi
+AS_IF([test "$ATRparser" != no],
+	[AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATRparser", [ATR parser to use])])
 
 dnl Checks for header files.
 AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h sys/time.h)
