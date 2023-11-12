@@ -324,6 +324,18 @@
 3B 06 A2 16 10 91 90 00
 	rectangular (Other)
 
+3B 06 FF 53 49 53 44 31
+	SPECINFOSYSTEMS DIAMOND 1000 token (PKI)
+	https://specinfosystems.com
+
+3B 06 FF 53 49 53 44 32
+	SPECINFOSYSTEMS DIAMOND 2000 token (PKI)
+	https://specinfosystems.com
+
+3B 06 FF 53 49 53 44 33
+	SPECINFOSYSTEMS DIAMOND 3000 token (PKI)
+	https://specinfosystems.com
+
 3B 07 55 4E 4B 4E 4F 57 4E
 	US DOD Smart Card
 
@@ -333,6 +345,14 @@
 
 3B 07 64 08 10 .. .. .. ..
 	UC Berkeley student card
+
+3B 07 FF 53 49 53 44 31 31
+	SPECINFOSYSTEMS DIAMOND token (PKI)
+	https://specinfosystems.com
+
+3B 07 FF 53 49 53 44 32 31
+	SPECINFOSYSTEMS DIAMOND token (last 2 bytes - version) (PKI)
+	https://specinfosystems.com
 
 3B 09 41 04 11 DD 82 2F 00 00 88
 	1k contactless Mifare
@@ -2204,6 +2224,10 @@
 3B 6A 00 00 30 30 30 30 33 30 44 45 42 41
 	HID Global DuoProx II Low Frequency 125 KHz (HealthCare)
 	https://www.hidglobal.com/sites/default/files/resource_files/prox-duoprox-ii-card-ds-en.pdf
+
+3B 6A 00 00 31 38 30 30 42 41 30 37 39 35
+	SYNNIX STD200 - Clinique SAINT PAUL - Fort de France (HealthCare)
+	http://www.synnix.com/Downloads/STD200/STD200%20datasheet/STD200IC%20spec.pdf
 
 3B 6A 00 00 4A 43 4F 50 31 30 56 32 33 31
 	Dongle Smart Card (MxKey) (Other)
@@ -6096,6 +6120,9 @@
 	Nickel.eu prepaid account (Bank)
 	https://nickel.eu
 
+3B 86 80 01 80 54 04 20 01 0F F9
+	advance medical expenses in France (consultation, medications, hospitalization, etc.). commercial name is "Avance Santé". (HealthCare)
+
 3B 86 80 01 C1 05 2F 2F 01 BC 7E
 	Contactless interface to St. Petersburg unified card, Russia (Единая карта петербуржца) (Other)
 	https://ekp.spb.ru/
@@ -7098,6 +7125,10 @@
 3B 8C 80 01 50 27 52 31 81 00 00 00 00 00 71 81
 	Calypso (Transport)
 	https://www.innovatron.fr/CalypsoFuncSpecification.pdf
+
+3B 8C 80 01 50 27 55 46 F6 00 00 00 00 00 71 81 6F
+	Paris transport Navigo card (Transport)
+	https://www.iledefrance-mobilites.fr/en
 
 3B 8C 80 01 50 27 B1 F7 6B 00 00 00 00 00 71 71 57
 	Navigo (public transportation in Île-de-France), IDF Mobilités (Transport)
@@ -14409,6 +14440,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 13 09 81 39 01 10 C4
+	girocard contactless (Bank)
+
 3B FF 96 00 FF 81 31 FE 45 65 63 0D 09 71 07 64 00 0D 00 03 54 50 07 01 81
 	Commerzbank ServiceCard / Maestro / GeldKarte / Cirrus / girocard / CashGroup / electronic cash
 
@@ -14430,6 +14464,9 @@
 
 3B FF 96 00 FF C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 43 49 1C 31 30 32 1E
 	Giesecke & Devrient - UniverSIM Pegasus
+
+3B FF 96 00 FF C0 0A 31 FE 4D 80 31 E0 6B 04 20 05 02 58 55 55 55 55 55 55 9F
+	MULTOS (Other)
 
 3B FF 96 00 FF C0 0A 31 FE 4D 80 31 E0 6B 04 31 05 02 A8 55 55 55 55 55 55 7E
 	Multos (Other)
