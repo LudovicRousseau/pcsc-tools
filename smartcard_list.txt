@@ -670,6 +670,10 @@
 	ChipCity CC32RS512 factory boot loader
 	(this is a flash based CPU card with a factory-default bootloader)
 
+3B 1B 96 50 6F 6C 61 72 69 73 20 23 03 17
+	Token2 T2F2-NFC-Card FIDO2.1, U2F Security Card (Other)
+	https://www.token2.com/shop/product/token2-t2f2-nfc-card-fido2-u2f-security-card
+
 3B 1C 94 43 48 49 50 44 52 49 56 45 30 30 31
 	SCM Chipdrive MyKey MasterKey 24k
 
@@ -2915,6 +2919,10 @@
 	Discover it Credit Card (Bank)
 	https://www.discover.com/credit-cards/cash-back/it-card.html
 
+3B 6D 00 FF 00 31 C1 73 C8 40 00 52 A2 62 00 90 00
+	Platinum American Express (Bank)
+	https://www.americanexpress.com/en-gb/credit-cards/platinum-card/
+
 3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 0[15]
 	Giesecke & Devrient CardToken 350 (ICCD)
 
@@ -3272,6 +3280,10 @@
 3B 6E 00 00 00 73 C8 00 13 64 57 44 30 33 20 00 90 00
 	Up Day Tronic electronic meal voucher card (Italy) (Other)
 	https://www.day.it/pausa-pranzo-buoni-pasto
+
+3B 6E 00 00 00 73 C8 40 00 65 DB 03 02 07 03 00 90 00
+	CitiBank  (Bank)
+	https://www.citi.com/credit-cards/citi-double-cash-credit-card
 
 3B 6E 00 00 33 30 4A 30 33 86 88 76 70 36 76 33 2E 30
 	Agricultural Bank of China (Bank)
@@ -5732,6 +5744,10 @@
 	LuxTrust card (Luxembourg qualified electronic signature / authentication system) (Other)
 	https://www.luxtrust.com/en/professionals/smartcard
 
+3B 7F 96 00 00 80 31 80 65 B0 85 05 00 39 12 0F FE 82 90 00
+	SafeNet IDPrime 940C (eID)
+	https://data-protection-updates.gemalto.com/2023/10/05/safenet-etoken-5110-cc-940c-release-announcement/
+
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 68 82 90 00
 	qualified certificate (eID)
 	https://www.elektronicznypodpis.pl/en/offer/qualified-certificates/
@@ -6022,6 +6038,10 @@
 3B 85 80 01 30 01 01 30 30 34
 	German Health Insurance Card "elektronische Gesundheitskarte" (eGK) / European Health Insurance Card (EHIC) (HealthCare)
 	https://fachportal.gematik.de/karten-und-identitaeten/elektronische-gesundheitskarte
+
+3B 85 80 01 43 32 33 30 30 46
+	HID Crescendo 2300 (PKI)
+	https://www.hidglobal.com/products/crescendo
 
 3B 85 80 01 4A 4D 52 54 44 41
 	JMRTD - Java Machine Readable Travel Document (ePassport emulator
@@ -6986,6 +7006,10 @@
 	CodeWav NFC Sticker Tag Micro Edition (JavaCard)
 	https://www.codewav.com/product-page/codewav-module-nfc-tag
 
+3B 8B 80 01 50 6F 6C 61 72 69 73 20 23 03 17 47
+	Token2 T2F2-NFC-Card FIDO2.1, U2F Security Card (Other)
+	https://www.token2.com/shop/product/token2-t2f2-nfc-card-fido2-u2f-security-card
+
 3B 8B 80 01 53 6F 6C 6F 4B 65 79 20 74 61 70 27
 	Solokeys Solo Tap: 2FA device with NFC (Other)
 	https://solokeys.com/products/solo-tap-usb-a-preorder?variant=27688204271680
@@ -7433,6 +7457,9 @@
 3B 8C 80 01 59 75 62 69 6B 65 79 4E 45 4F 72 FF 94
 	Yubikey Neo via NFC reader (Other)
 	https://www.yubico.com/
+
+3B 8C 80 01 80 31 D8 65 B0 85 05 00 11 82 90 00 32
+	Finnish passport (MRTD) (passport)
 
 3B 8C 80 01 80 5A 41 4B 44 65 44 4C 76 31 2E 30 AD
 	Electronic driving license card
@@ -8756,6 +8783,9 @@
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 42 10 14
 	Airspan USIM (Telecommunication)
 
+3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 70 10 26
+	ethio telecom 4G sim card (Telecommunication)
+
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 73 10 25
 	module (JavaCard)
 
@@ -9970,6 +10000,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
 	sysmoISIM-SJA2 (Telecommunication)
 	https://osmocom.org/projects/cellular-infrastructure/wiki/SysmoISIM-SJA2
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 33 05 68 8C
+	Somtel SIM (Telecommunication)
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
 	Softbank (C2) USIM card (Telecommunication)
@@ -11344,6 +11377,10 @@
 
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
+
+3B D2 96 FF 81 B1 FE 45 1F 87 01 02 AB
+	Electronic Vehicle Registration (eVR) from RDW.nl (The Netherlands), open sourced at [URL], demo (Windows / Linux Wine Mono) (Transport)
+	https://github.com/eVRMTV/eVR
 
 3B D3 96 FF 81 B1 FE 45 1F 07 80 81 05 2D
 	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2) (HealthCare)
@@ -12959,6 +12996,10 @@
 	JPMorgan Chase (Bank)
 	Visa (Bank)
 	https://unitedfcu.com/
+	JP Morgan chase bank (Bank)
+	http://www.jpmorganchase.com/
+	Navy Federal Credit Union (Bank)
+	https://www.navyfederal.org
 
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
