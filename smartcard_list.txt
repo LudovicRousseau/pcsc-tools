@@ -499,6 +499,10 @@
 3B 16 94 D0 01 6E 66 0D 00
 	Vodafone Romania (Telecommunication)
 
+3B 16 94 D0 01 6E F4 0C 00
+	Telecomarmenia/Beeline Armenia SIM card (Armenia) (Telecommunication)
+	https://www.telecomarmenia.am/
+
 3B 16 94 D0 01 76 0D 2A 00
 	Peruvian GSM SIM
 
@@ -600,6 +604,10 @@
 
 3B 17 95 80 65 D0 01 7E 0E 05
 	Finnish DNA Prepaid SIM-card (Telecommunication)
+
+3B 17 95 80 65 D0 01 97 0E DB
+	Karabakh Telecom - cell operator of Republic of Artsakh (1992-2023) (Telecommunication)
+	http://web.archive.org/web/20230927140946/https://kt.am/
 
 3B 17 95 80 65 D0 02 0C 10 3E
 	Airtel Tanzania (Telecommunication)
@@ -4549,6 +4557,10 @@
 
 3B 6F 00 00 80 5A 48 80 C1 20 50 01 AE C0 02 95 82 90 00
 	Calypso SAM C1 (Transport)
+
+3B 6F 00 00 80 5A 50 2F C4 15 32 01 79 D7 C8 8E 82 90 00
+	Belgian Rail MOBIB transportation card (Transport)
+	https://www.belgiantrain.be/en/travel-info/prepare-for-your-journey/mobib-card
 
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
@@ -9248,6 +9260,12 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 72 13 00 49
 	SIM Card OI (Brazil) (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 76 13 00 4D
+	MTS Russia (Telecommunication)
+	https://www.mts.ru/
+	Megafon Russia (Telecommunication)
+	https://www.megafon.ru
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BD
 	Mobile Vikings SIM Card (Telecommunication)
 	https://mobilevikings.com
@@ -9481,12 +9499,20 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 40 82 92 83 07 90 00 98
 	PrixTel (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 41 21 92 83 07 90 00 3A
+	Beeline Armenia / Telecomarmenia (Telecommunication)
+	https://www.telecomarmenia.am
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 41 28 41 83 07 90 00 E0
 	Mongolian MNO Skytel (Telecommunication)
 	https://www.skytel.mn
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 4C 00 90 83 07 90 00 14
 	Obertur Java 2.21 card (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 67 00 00 00 00 00 00 70 A8
+	VIVA MTS (Armenia) (Telecommunication)
+	https://www.mts.am/
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 57 12 29 11 02 01 00 00 C3
 	Sysmocom USIM-GR1 (Telecommunication)
@@ -9526,6 +9552,10 @@
 	Celcom XPAX (Telecommunication)
 	https://www.celcom.com.my/personal/prepaid
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 04 01 F0 0E
+	Karabakh Telecom - cell operator of Republic of Artsakh (1992-2023) (Telecommunication)
+	http://web.archive.org/web/20230927140946/https://kt.am/
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 CF B9 02 A0 EE
 	Gotanet SE USIM (Telecommunication)
 
@@ -9544,6 +9574,10 @@
 	Telenor (Telecommunication)
 	https://www.telenor.com.pk/
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 AF 03 00 70 E4
+	MTS Russia (Telecommunication)
+	https://www.mts.ru
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 CD A1 00 12 46
 	Beeline SIM card (RUS) (Telecommunication)
 	https://beeline.ru
@@ -9558,6 +9592,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 96 A1 00 00 0C
 	Lycamobile UICC/SIM card. (Telecommunication)
 	https://www.lycamobile.com.au
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 AE A0 00 00 35
+	VIVA MTS (Armenia) (Telecommunication)
+	https://www.mts.am/
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 AF 01 00 00 95
 	Gotanet SE USIM (Telecommunication)
@@ -9760,6 +9798,10 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 94 03 11 00 00 02 03 5C
 	AT&T (US) GSM SIM
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 BE B5 00 20 12
+	Beeline Armenia / Telecomarmenia (Telecommunication)
+	https://www.telecomarmenia.am
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 57 3C 86 60 BE B7 00 20 10
 	Kyivstar SIM (Telecommunication)
@@ -10196,6 +10238,10 @@
 	Chunghwa Telecom (Taiwan) 3G/4G PrePaid card
 	https://www.twgate.net/prepaidcard/product_en.html
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 41 66 01 83 07 90 00 EC
+	Magti Georgia (Telecommunication)
+	https://magticom.ge
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 65 66 74 0E 10 13 91 00 56
 	TestCard For Agilent 8960 (Telecommunication)
 
@@ -10311,6 +10357,10 @@
 	CSL Mobile / PCCW SIM Card (Telecommunication)
 	http://www.hkcsl.com/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 16 02 08 02 02 01 51
+	Orange / Ucom Armenia (Telecommunication)
+	https://www.ucom.am
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 16 02 12 01 01 01 4B
 	Airtel India Sim Card (Telecommunication)
 
@@ -10365,6 +10415,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 06 01 01 01 42
 	Digi Mobil (Telecommunication)
 	https://digi.ro
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 06 05 01 02 45
+	Ucom Armenia (Telecommunication)
+	https://www.ucom.am
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
@@ -10500,6 +10554,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 76 32 00 82 90 00 C4
 	T-Mobile SIM card issued April 2021 (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 83 72 00 82 90 00 71
+	Ucom Armenia (Telecommunication)
+	https://www.ucom.am
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 04 01 00 82 6A 82 EC
 	SIM (Telecommunication)
