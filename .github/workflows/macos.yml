@@ -1,0 +1,22 @@
+name: macOS
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: setup prerequisites
+        shell: bash
+        run: |
+          brew install autoconf-archive automake autoconf gettext
+
+      - name: compile
+        shell: bash
+        run: |
+          ./bootstrap
+          ./configure
+          make V=1
