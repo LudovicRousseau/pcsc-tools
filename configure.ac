@@ -38,7 +38,7 @@ AS_CASE(["$host"],
 		[PCSC_LIBS=${PCSC_LIBS:--framework PCSC}
 		PCSC_PATH="PCSC/"
 		ATR_PARSER="no"],
-	[*-*-msys],
+	[*-*-mingw*|*-*-msys],
 		[PCSC_LIBS=-lwinscard
 		ATR_PARSER="no"])
 
