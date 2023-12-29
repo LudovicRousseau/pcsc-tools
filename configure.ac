@@ -82,6 +82,10 @@ AC_ARG_ENABLE(ATRparser,
 if test "$ATRparser" != no
 then
 	AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATRparser", [ATR parser to use])
+elif test "$ATR_PARSER" != no
+then
+	AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATR_PARSER", [ATR parser to use])
+	ATRparser="$ATR_PARSER"
 fi
 
 dnl Checks for header files.
