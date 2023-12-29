@@ -71,7 +71,7 @@ CPPFLAGS="$saved_CPPFLAGS"
 # --enable-parser=foobar
 AC_ARG_ENABLE(ATRparser,
 	AS_HELP_STRING([--enable-ATRparser=foobar], [pathname of the ATR parser to use]),
-	[ ATRparser="${enableval}" ], [ ATRparser="no" ] )
+	[ ATRparser="${enableval}" ], [ ATRparser="$ATR_PARSER" ] )
 AS_IF([test "$ATRparser" != no],
 	[AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATRparser", [ATR parser to use])])
 
