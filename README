@@ -130,6 +130,11 @@ Licences:
 History:
 ========
 
+1.7.1 - 30 December 2023, Ludovic ROUSSEAU
+    - 64 new ATRs
+    - configure: Use ATR_analysis by default on GNU/Linux
+    - improve Windows support
+
 1.7.0 - 7 October 2023, Ludovic ROUSSEAU
     - 182 new ATRs
     - pcsc_scan:
