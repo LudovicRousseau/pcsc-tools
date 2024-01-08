@@ -27,7 +27,13 @@
 #include <unistd.h>
 #include <string.h>
 #include <signal.h>
+#ifdef HAVE_SYSEXITS_H
 #include <sysexits.h>
+#else
+#define EX_OK     0 /* successful termination */
+#define EX_OSERR 71 /* system error (e.g., can't fork) */
+#define EX_USAGE 64 /* command line usage error */
+#endif
 #include <sys/time.h>
 #include <pthread.h>
 #include <stdbool.h>
