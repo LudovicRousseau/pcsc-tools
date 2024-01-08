@@ -76,7 +76,7 @@ AS_IF([test "$ATRparser" != no],
 	[AC_DEFINE_UNQUOTED(ATR_PARSER, "$ATRparser", [ATR parser to use])])
 
 dnl Checks for header files.
-AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h sys/time.h)
+AC_CHECK_HEADERS(unistd.h time.h string.h stdio.h stdlib.h sys/time.h sysexits.h)
 
 # Substitute
 AX_RECURSIVE_EVAL($datarootdir, datarootdir_exp)
