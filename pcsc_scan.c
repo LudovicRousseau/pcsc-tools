@@ -60,7 +60,7 @@ const char *pcsc_stringify_error(DWORD rv)
 	if (! FormatMessage(FORMAT_MESSAGE_FROM_SYSTEM,
 		NULL,
 		rv,
-		MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT), // default language
+		LANG_USER_DEFAULT,
 		buffer,
 		sizeof buffer,
 		NULL))
