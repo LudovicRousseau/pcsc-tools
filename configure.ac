@@ -96,6 +96,8 @@ pcsc-tools has been configured with following options:
 
 pcsc_dir:   ${pcsc_dir}
 ATR parser: ${ATRparser}
+CFLAGS:     ${CFLAGS}
+CPPFLAGS:   ${CPPFLAGS}
 
 EOF
 
