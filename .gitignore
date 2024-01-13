@@ -21,3 +21,7 @@ install-sh
 missing
 pcsc_scan
 stamp-h1
+ATR_analysis
+ATR_analysis.1p
+gscriptor.desktop
+po/*.gmo
