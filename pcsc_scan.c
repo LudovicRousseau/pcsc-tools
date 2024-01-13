@@ -92,9 +92,7 @@ static void usage(const char *pname)
 	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs | -d | -p]\n\n", pname, pname);
 	printf("\t\t  -h : this help\n");
 	printf("\t\t  -V : print version number\n");
-#ifndef WIN32
 	printf("\t\t  -n : no ATR analysis\n");
-#endif
 	printf("\t\t  -r : only lists readers\n");
 	printf("\t\t  -c : only lists cards\n");
 	printf("\t\t  -s : stress mode\n");
@@ -299,12 +297,7 @@ static void initialize_options(options_t *options, const char *pname)
 	options->maxtime = 0;
 }
 
-#define OPTIONS_BASE "Vhvrcst:qdp"
-#ifdef WIN32
-#define OPTIONS OPTIONS_BASE
-#else
-#define OPTIONS OPTIONS_BASE "n"
-#endif
+#define OPTIONS "Vhvrcst:qdpn"
 
 static void print_version(void)
 {
