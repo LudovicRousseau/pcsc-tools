@@ -190,11 +190,6 @@ static bool should_exit(void)
 			return true;
 	}
 
-#ifdef WIN32
-	if (GetKeyState(VK_SHIFT) & 0x80)
-		return true;
-#endif
-
 	if (Interrupted)
 		return true;
 
@@ -558,14 +553,7 @@ int main(int argc, char *argv[])
 		print_version();
 	}
 
-#ifdef WIN32
-	if (Options.verbose)
-	{
-		printf("%sPress shift key to quit%s\n", magenta, color_end);
-	}
-#else
 	initialize_signal_handlers();
-#endif
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
 	test_rv("SCardEstablishContext", rv, hContext);
