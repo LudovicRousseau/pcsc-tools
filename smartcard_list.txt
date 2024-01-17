@@ -825,6 +825,9 @@
 3B 26 00 11 06 23 03 90 00
 	Tarjeta de la Seguridad Social (Spanish Social Insurance Card)
 
+3B 26 00 21 09 C6 03 90 00
+	Old version of spanish Social Security card for its employees (eID)
+
 3B 26 00 21 18 26 03 90 00
 	Smart card used in transport (spain) (Transport)
 
@@ -1364,6 +1367,10 @@
 3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 3A A6 E0 82 90 00
 	Montreal/Quebec transit OPUS card (Transport)
 	https://www.carteopus.info/?language=en
+
+3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
+	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
+	https://www.oura.com/xbi/boutique/card
 
 3B 60 00 00
 	Meano (Bank)
@@ -2576,6 +2583,9 @@
 
 3B 6B 00 00 00 31 C1 64 09 78 61 31 0F 90 00
 	Mastercard (Bank)
+
+3B 6B 00 00 00 31 C1 64 09 97 61 26 0F 90 00
+	Visa debit (Bank)
 
 3B 6B 00 00 20 90 00 00 00 00 00 B0 A2 BD 69
 	Fudan FM1280 (JavaCard)
@@ -8298,6 +8308,7 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 40 00 00 00 00 00 00 28
 	HID Proximity. Used to access buildings. Reference on the card "HID0008P".
 	http://www.hidglobal.com/product-display/cards-and-credentials/hid-proximity
+	HITAG 1 or 2 (Other)
 
 3B 8F 80 01 80 4F 0C A0 00 1A 00 00 00 00 78
 	iclass 16k cl (eID)
@@ -8508,6 +8519,10 @@
 3B 97 13 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5D
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controller et atelier/workshop, 2005-2006
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
+
+3B 97 93 80 3F C7 82 80 31 E0 73 FE 21 13 10
+	eSTK.me v1.2.3.1 or older (Telecommunication)
+	https://eSTK.me
 
 3B 97 94 80 1F 43 80 31 E0 73 FE 21 1B 39
 	Telenor SIM card (Hungary) (Telecommunication)
@@ -10101,6 +10116,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 73 30 31 09 4B BF
 	NB-IoT SIM (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 55 54 30 30 30 10 6E DF
+	payroll card (Bank)
+
 3B 9F 96 80 1F C3 00 68 10 44 05 01 46 49 53 45 31 C8 07 90 00 1A
 	SETEC SetCard 32K PKI Evaluated SetCOS 4.4.1
 
@@ -10720,9 +10738,21 @@
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 20 03 55 02 0B 60 50 00 18
 	iPhone 11 SIM Slot eUICC chip. Identified by eSTK.me. (Telecommunication)
 
+3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 20 03 55 02 0C 60 80 00 CF
+	ST33J2M0STL9DZB0 (Telecommunication)
+	https://www.st.com/en/secure-mcus/st33j2m0.html
+
+3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 01 00 48
+	ST33G1M2STL8ENL0 (Telecommunication)
+	https://www.st.com/en/secure-mcus/st33g1m2.html
+
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0B 60 50 00 19
 	st33g1m2 (Telecommunication)
 	https://www.st.com/en/secure-mcus/st33g1m2.html
+
+3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 21 03 55 02 0C 60 80 00 CE
+	ST33J2M0STL9DZB1 (Telecommunication)
+	https://www.st.com/en/secure-mcus/st33j2m0.html
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 16 57 4A 4D 02 02 33 45 63 77
 	ISIS-Ready T-Mobile Sim Card (Telecommunication)
@@ -10900,6 +10930,9 @@
 
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 90 0F 3B 81 0F 62
 	Gemalto Multi-SIM consumer 4.2 (ST33I1M2) (Telecommunication)
+
+3B 9F 97 C0 0A 3F C6 82 80 31 E0 73 FE 21 1B 65 D0 02 33 14 A5 81 0F E4
+	Thales eUICC French Ministry BAP v2 (Telecommunication)
 
 3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D6
 	Verizon 4G LTE Micro SIM (Telecommunication)
@@ -11407,6 +11440,14 @@
 
 3B BF 18 00 C0 20 31 70 52 53 54 41 52 43 4F 53 20 53 32 31 20 43 90 00 9C
 	Giesecke & Devrient SPK 2.1 C
+
+3B BF 93 00 80 1F C6 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 E3
+	eSTK.me v1.2.5 or later (Telecommunication)
+	https://eSTK.me
+
+3B BF 93 00 80 3F C6 82 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 41
+	eSTK.me v1.2.4 (Telecommunication)
+	https://eSTK.me
 
 3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
 	A-Trust: trust-sign (Old Version, ca. 2002) for Digital Signature etc.
@@ -12149,6 +12190,9 @@
 3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
 	Test PIV Cards available for sale from NIST
 	http://csrc.nist.gov/groups/SNS/piv/testcards.html
+
+3B DF 96 00 90 10 3F 07 00 80 31 E0 67 73 77 69 63 63 00 00 73 FE 21 00 DC
+	swsim (Telecommunication)
 
 3B DF 96 FF 81 31 FE 45 5A 01 80 48 49 44 43 31 31 58 58 73 00 01 1B 09
 	HID Crescendo iCLASS Px G8H
@@ -14166,6 +14210,10 @@
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
 	https://www.postbank.de/
 
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 00 80 C0 47 12 B2
+	1822direct Bank Card (Bank)
+	https://www.1822direkt.de
+
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 90 73 60 47 12 71
 	Debit card (Germany): Deutsche Kreditbank (DKB), ec-cash,  (Bank)
 	https://www.dkb.de/privatkunden/karten/girocard
@@ -14594,6 +14642,10 @@
 	Portuguese National Identity Card (eID) (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 01 78 82 90 00 88
+	SafeNet 5110 token for eSignature (eID)
+	https://www.certsign.ro/en/support/safenet-installing-the-device-on-windows/
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 0F FC 82 90 00 02
 	THALES SafeNet IDPrime 3940 Fido (PKI)
 	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
@@ -14678,6 +14730,9 @@
 
 3B FF 97 00 00 81 31 FE 43 80 31 80 65 B0 84 66 69 39 12 FF FE 82 90 00 32
 	IDCore3230 build 6.8, test APDU applet (JavaCard)
+
+3B FF 97 00 FF C0 0A 31 FE 4D 80 31 E0 6B 04 52 05 02 BB 55 55 55 55 55 55 0F
+	MULTOS Dual Interface Card - MC4-P23-S1 (Other)
 
 3F 05 DC 20 FC 00 01
 	DigiCash Facility Card
