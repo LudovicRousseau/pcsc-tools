@@ -24,6 +24,8 @@
 # You can get the latest version of this file from:
 # https://pcsc-tools.apdu.fr/smartcard_list.txt
 #
+# To submit new ATRs please use: https://smartcard-atr.apdu.fr/
+#
 
 # syntax:
 # ATR in regular expression form
