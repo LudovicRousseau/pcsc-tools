@@ -213,6 +213,9 @@
 3B 04 A2 01 00 00
 	Hospital's expenditure (HealthCare)
 
+3B 04 A2 13 10 88
+	printer cartridge (VJ magenta 220mL) (Other)
+
 3B 04 A2 13 10 91
 	PM2P Chipkarte SLE 4442, Code FFFFFF
 	Bahn BKK (Deutsche Bahn AG - Insurance Company)
@@ -3073,6 +3076,9 @@
 3B 6E 00 00 00 31 C0 65 E2 C4 02 01 01 71 D6 8C 61 22
 	mastercard (Bank)
 
+3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 22
+	santander-k  (Bank)
+
 3B 6E 00 00 00 31 C0 65 E2 C4 02 02 01 71 D6 8C 61 25
 	Spanish "Santander" bank - Maestro debit card - Made by gemalto sp SA
 
@@ -3838,6 +3844,10 @@
 3B 6F 00 00 80 5A 08 06 08 20 02 00 92 35 1E 52 82 90 00
 	Public transport card of Lisbon (www.carris.pt)
 
+3B 6F 00 00 80 5A 08 06 08 20 02 00 C1 1A CA 2E 82 90 00
+	CTS, public transport card of Strasbourg (France) (Transport)
+	https://www.cts-strasbourg.eu
+
 3B 6F 00 00 80 5A 08 06 08 20 02 23 92 16 D1 BD 82 90 00
 	"OPUS Card" Montreal's transit system by oberthur cardsystems
 
@@ -4553,6 +4563,10 @@
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
 
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 37 6C 64 82 90 00
+	Brussel public transport NFC card (Transport)
+	https://www.stib-mivb.be/mystib
+
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 37 D7 AE 82 90 00
 	MOBIB - Brussels (Transport)
 	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=fr
@@ -4612,6 +4626,7 @@
 	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard) with WG10 and Maestro (JavaCard)
 	Client bizness card (Bank)
 	Ceva (Bank)
+	Bank of America Business (Bank)
 
 3B 6F 00 00 80 66 B0 07 01 01 77 .. .. .. .. .. .. 90 00
 	Other Optelio Card (Santander)
@@ -6368,6 +6383,10 @@
 3B 88 80 01 00 00 00 00 80 81 71 00 79
 	Apple Pay card - Usually EMV
 
+3B 88 80 01 00 00 00 00 80 81 75 00 7D
+	Singapore SimplyGo EZ-Link Card (Transport)
+	https://simplygo.com.sg
+
 3B 88 80 01 00 00 00 00 91 71 71 00 98
 	Public transportation fare card (Morocco CAS: Urban bus) (Transport)
 
@@ -7659,6 +7678,10 @@
 3B 8E 80 01 13 78 80 80 02 46 49 4F 4D 4B 5F 30 30 31 4E
 	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contactless chip)
 	note the ASCII string 'FIOK_001N' embedded in ATR
+
+3B 8E 80 01 41 05 43 00 00 00 00 00 00 00 00 00 90 00 98
+	ACOS5-EVO PKI Smart Card (Combi) (PKI)
+	https://www.acs.com.hk/en/products/471/acos5-evo-pki-smart-card/
 
 3B 8E 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 38 30 5A
 	RFIDIOt G&D SmartCafe 80K
@@ -9673,6 +9696,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 07 56 42 00 82 90 00 D0
 	SIM mobi orange
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 41 83 72 00 82 90 00 73
+	Reglo Mobile SIM Card - Afone (Telecommunication)
+	https://www.reglomobile.fr/
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 64 9F 4F 00 20 82 90 00 33
 	USIM (3G DF) Orange (French Mobile Network) (Telecommunication)
 
@@ -11257,6 +11284,9 @@
 3B BC 94 00 40 14 47 47 33 53 34 43 45 43 32 30 30 30
 	Era-PL SIM Card (Telecommunication)
 
+3B BD 11 00 00 41 4C 49 46 41 58 20 50 30 31 52 30 41
+	alifax (HealthCare)
+
 3B BD 18 00 81 31 FE 45 80 51 02 67 04 14 B1 01 01 02 00 81 05 3D
 	Austrian "e-Card" (=Health Card)
 	special Version of Starcos 3.1
@@ -11570,6 +11600,10 @@
 3B D5 96 02 80 31 FE 65 4F 73 45 49 44 1F
 	AVR128DA32 microcontroller based open source EID smartcard with RSA and ECC.  (eID)
 	https://oseid.sourceforge.io/
+
+3B D5 96 FF 80 B1 FE 45 1F 87 80 73 C8 21 10 A4
+	French national identity card (eID)
+	https://en.wikipedia.org/wiki/National_identity_card_(France)
 
 3B D5 96 FF 81 91 FE 1F C3 43 32 33 30 30 CC
 	HID Global - Crescendo C2300 (PKI)
@@ -13971,6 +14005,10 @@
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 44 35 33 07 90 00
 	BRADESCO-CONTA SALARIO (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 30 37 07 90 00
+	UP Day Ticket Restaurant Card (Other)
+	https://www.day.it/login
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 31 30 07 90 00
 	Tangerine MasterCard (Bank)
