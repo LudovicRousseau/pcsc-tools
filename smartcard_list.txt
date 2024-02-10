@@ -2655,6 +2655,9 @@
 	Max Mastercard (Bank)
 	https://www.aumax.fr
 
+3B 6B 00 00 FF 86 88 5A 48 54 44 30 32 20 11
+	CMB UnionPay Debit (Bank)
+
 3B 6B 00 FF 33 00 00 09 FA 10 00 80 01 FF FF
 	Atmel 6464C PRO 64K
 
@@ -3465,6 +3468,9 @@
 
 3B 6F 00 00 00 00 4A 30 0A 86 45 4A 5A 23 10 44 43 33 30
 	Personal Card (eID)
+
+3B 6F 00 00 00 00 86 86 01 00 00 00 82 CE 67 8F 06 03 04
+	CHINA CONSTRUCTION BANK Debit Card (Bank)
 
 3B 6F 00 00 00 31 C0 68 43 53 50 45 4D 56 03 00 07 90 00
 	SOCCARDRT (HealthCare)
@@ -6158,6 +6164,10 @@
 3B 86 80 01 44 49 20 30 32 56 7E
 	DKB VISA paywave (Bank)
 	http://www.visaeurope.com/en/cardholders/visa_paywave.aspx
+
+3B 86 80 01 49 44 2D 56 44 56 63
+	eCard for naldo (Transport)
+	https://www.naldo.de
 
 3B 86 80 01 4A 43 4F 50 33 30 12
 	Mifare ProX T=CL
@@ -10687,6 +10697,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 09 02 0A 81 05 79
 	cellcom israel sim (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 09 06 02 81 05 75
+	Indosat SIM Card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 0A 03 01 81 05 70
 	SMART Prepaid SIM (Telecommunication)
 
@@ -10923,6 +10936,9 @@
 
 3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 08 01 12 04 01 04 5B
 	Tmobile Sim card  (Telecommunication)
+
+3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 08 01 12 06 01 06 5B
+	Tmobile (Telecommunication)
 
 3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 14 01 02 02 01 02 57
 	Orange SIM from Egypt (Telecommunication)
@@ -11646,6 +11662,9 @@
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
 	IDEMIA Cosmo V8.1 with a PIV applet
 
+3B D7 11 00 40 0A 65 4E 43 4F 53 30 37
+	eNCOS MC MChip Advance (Bank)
+
 3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F
 	US Government CAC (PKI) / IDEMIA Cosmo v8 (PKI)
 	https://www.idemia.com/id-one-piv-card
@@ -12092,6 +12111,10 @@
 3B DE 96 FF 81 91 FE 1F C3 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 92
 	SmartCard HSM (PKI)
 	https://www.smartcard-hsm.com/
+
+3B DE 98 FF 81 91 FE 1F C3 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 92
+	Nitrokey HSM 2 (PKI)
+	https://docs.nitrokey.com/hsm/
 
 3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
 	Identity Card in Slovakia with security chip and e-signature
@@ -14688,6 +14711,10 @@
 	THALES SafeNet IDPrime 3940 Fido (PKI)
 	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 0F FE 82 90 00 00
+	SafeNet eToken 5110 SC (PKI)
+	https://cpl.thalesgroup.com/access-management/authenticators/pki-usb-authentication/etoken-5110-usb-toke3B 86 80 01 49 44 2D 56 44 56 63n
+
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
 
@@ -14721,6 +14748,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 14 07 10 B8 02 00 CD
 	Sparkasse Aachen - german Maestro/Girocard (S-Payment TGI 50380969) (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 15 08 60 DC 02 00 D7
+	Deutsche Kreditbank AG, Girocard (Bank)
+	https://www.dkb.de
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
@@ -14824,6 +14855,9 @@
 3F 36 11 00 53 49 5B 01 51 53
 	Sodexo Pass Lunch Card. An employee benefits card to provide meal tickets to workers. (Other)
 	https://www.sodexo-benefits.it/prodotto/aziende/pausa-pranzo-aziende/pass-lunch-card/#tabsoluzioni
+
+3F 3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76
+	District6 Group employee ID (eID)
 
 3F 3D 11 00 80 67 28 50 04 02 20 00 00 83 8E 90 00
 	GSM SIM card of the Austrian provider A1
