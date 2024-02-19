@@ -1393,6 +1393,9 @@
 3B 64 00 FF 80 62 02 A2
 	VISA credit card (Nordea bank)
 
+3B 65 00 00 20 63 CB 10 20
+	VISA Premier debit card (Bank)
+
 3B 65 00 00 20 63 CB 30 20
 	CB / VISA La Banque Postale (IDEMIA) (Bank)
 
@@ -4660,6 +4663,9 @@
 
 3B 6F 00 FF 00 31 C1 73 C8 21 10 64 41 4D 33 48 07 90 00
 	BNP (Bank)
+
+3B 6F 00 FF 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
+	National Bank Card (Bank)
 
 3B 6F 00 FF 00 56 72 75 54 6F 6B 6E 73 30 20 00 00 90 00
 	Aktiv Rutoken S
@@ -8873,6 +8879,10 @@
 3B 9D 96 80 1F C7 80 31 E0 73 FE 21 13 65 4C 04 04 02 00 96
 	China umion 5G SIM (Telecommunication)
 
+3B 9D 96 80 3F C7 A0 80 31 E0 73 FE 21 1B 65 53 41 30 11 25 46
+	KT MVNO Baro USIM (Telecommunication)
+	https://ktmyr.com/fe/service/svc/usimGuide.do?menuNo=F0604
+
 3B 9D 96 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 04 C5
 	Mozambique ID Card (eID)
 
@@ -10320,6 +10330,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 02 01 00 A0
 	vivo (Other)
 
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 07 01 00 A5
+	weex sim card  (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 20 02 00 81
 	VALID brand SIM card from T-Mobile (Telecommunication)
 
@@ -10512,6 +10525,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 04 02 38 01 7A
 	Beeline (Russia) SIM card (Telecommunication)
 	https://moskva.beeline.ru/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 05 03 01 03 41
+	cellcom (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 05 06 03 01 44
 	French free.fr 2€/month sim card  (Telecommunication)
@@ -12116,6 +12132,10 @@
 	Nitrokey HSM 2 (PKI)
 	https://docs.nitrokey.com/hsm/
 
+3B DF 11 00 40 0A 00 31 80 71 86 66 65 4E 43 4F 53 31 83 90 00
+	eNCOS MC MChip Advance V10 (Bank)
+	https://tr.iccore.tech/
+
 3B DF 18 00 81 31 FE 58 00 31 B9 64 05 0E 01 00 73 B4 01 D3 00 00 00 22
 	Identity Card in Slovakia with security chip and e-signature
 
@@ -12178,6 +12198,9 @@
 	https://www.ebeeoffice.ca/ebee-home/public
 	Digital Signature Costa Rica (issued since 09/2019) (eID)
 	https://www.mifirmadigital.go.cr/
+
+3B DF 18 FF 81 B1 FE 45 1F 87 00 31 B9 64 09 37 72 13 73 84 01 E0 00 00 00 8E
+	Slovak eID card with dual (NFC and physical) interface. It is Cosmo v9.2. The card is used for electronic identification and for electronic signing with either qualified or just electronic signing certificate. (eID)
 
 3B DF 18 FF 81 F1 FE 43 00 1F 03 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 98
 	Mifare SAM AV2
@@ -14135,6 +14158,10 @@
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
 	Deutsche Kreditbank Debit (Bank)
 
+3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 47 69 75 6C 69 61 20 4C 63 36 B5
+	revolut debit visa (Bank)
+	https://www.revolut.com/
+
 3B FF 13 00 FF 91 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 DF
 	Alior Bank MasterCard debit (Bank)
 	Comdirect (Deutsch Bank) débit VISA (AUSTRIACARD 56015/001) (Bank)
@@ -14739,6 +14766,10 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 24 09 0A 10 CC 02 00 AB
 	Postbank Germany (Bank)
 	https://www.postbank.de/privatkunden/services.html
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 01 0A 60 D4 02 00 C9
+	DKB Girocard (Bank)
+	https://www.dkb.de/privatkunden/karten/girocard
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 03 08 C0 B7 02 00 0A
 	German Debitcard from Sparkasse (Bank)
@@ -15379,6 +15410,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 31 42 30 20 4D 65 72 57 32 30 79
 	Vodafone HUNGARY (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 31 13
+	Nagravision D08 / KD-31 Vodafone Cable Germany (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 32 10
 	Telenet CI+ card Belgium (Pay TV)
