@@ -525,7 +525,7 @@ int main(int argc, char *argv[])
 	LONG rv;
 #endif
 	SCARD_READERSTATE *rgReaderStates_t = NULL;
-	SCARD_READERSTATE rgReaderStates[1];
+	SCARD_READERSTATE rgReaderStates[1] = { 0, };
 	DWORD dwReaders = 0, dwReadersOld;
 	LPSTR mszReaders = NULL;
 	char *ptr = NULL;
