@@ -4561,6 +4561,10 @@
 	MOBIB Basic (public transport card for Brussels, Belgium) (Transport)
 	https://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en
 
+3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 07 F8 C4 82 90 00
+	MOBIB basic card from STIB-MIVB (Brussels public transport operator) (Transport)
+	https://mobib.be/en.html
+
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 08 A3 C1 82 90 00
 	MIVB/STIB MOBIB Card (Transport)
 	https://mobib.be/
@@ -4802,6 +4806,10 @@
 
 3B 78 13 00 00 00 73 C8 40 10 00 90 00
 	credit/debit card from issued by Finnish credit authority Luottokunta Oy
+
+3B 78 13 00 00 00 73 C8 40 13 00 90 00
+	Thales DIS Banking cards (JavaCard)
+	https://www.thalesgroup.com/en/markets/digital-identity-and-security
 
 3B 78 13 00 00 43 43 31 69 AA 20 00 00
 	PostFinance debit card (Bank)
@@ -8222,6 +8230,8 @@
 	https://onay.kz
 	Warsaw City Card (Transport)
 	https://www.wtp.waw.pl/en/warsaw-city-card/
+	Medellin Civica Card (Transport)
+	https://civica.metrodemedellin.gov.co/
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 02 00 00 00 00 69
 	RFID - ISO 14443 Type A - NXP Mifare card with 4k EEPROM
@@ -9660,6 +9670,9 @@
 	Karabakh Telecom - cell operator of Republic of Artsakh (1992-2023) (Telecommunication)
 	http://web.archive.org/web/20230927140946/https://kt.am/
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 06 02 40 BF
+	Vietnamobile SIM card (Telecommunication)
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 CF B9 02 A0 EE
 	Gotanet SE USIM (Telecommunication)
 
@@ -9706,6 +9719,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B8 03 00 00 80
 	Zero1 SIM card, Singapore (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B8 A1 00 00 22
+	MEO (Portugal) SIM-Card (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 63 45 43 19 83 00 90 00 DA
 	Smartjac (Telecommunication)
@@ -10539,6 +10555,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 06 05 01 02 45
 	Ucom Armenia (Telecommunication)
 	https://www.ucom.am
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 08 02 01 02 4C
+	T-Mobile SIM card - Poland (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 10 01 01 01 54
 	SIM Card (Carrier: BOB, Country: Austria) (Telecommunication)
@@ -11826,6 +11845,10 @@
 	SafeSign Default QSCD (NXP JCOP 3 SecID P60) (PKI)
 	https://www.tuv-nederland.nl/assets/files/cerfiticaten/2020/02/security-target-v1.0.pdf
 
+3B DB 18 FF 81 91 FE 1F C3 06 09 2B 06 01 04 01 E9 10 05 04 D0
+	Serbian qualified electronic certificate issued by Serbian Post sertification centr (PKI)
+	https://www.ca.posta.rs/serbian_post_ca.htm
+
 3B DB 18 FF 81 B1 FE 75 1F 03 50 4B 43 61 72 64 20 56 31 2E 30 ED
 	Tecos 3 card (Other)
 
@@ -12151,6 +12174,10 @@
 
 3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 76 00 00 38 33 00 58
 	Infineon SICRYPT Card Module D4 PC/SC Compliance Test Card
+
+3B DF 18 00 81 31 FE 67 00 5C 49 43 4D D4 91 47 D2 77 00 00 38 33 00 59
+	Infocrypt Token++ (PKI)
+	https://tokenplus.ru/products/%D0%A2%D0%BE%D0%BA%D0%B5%D0%BD/
 
 3B DF 18 00 81 31 FE 7D 00 6B 02 0C 01 82 01 11 01 43 4E 53 10 31 80 FC
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
@@ -14083,6 +14110,10 @@
 	MasterCard issued by President's Choice Bank (Canada)  (Bank)
 	http://pcfinancial.ca/mastercard
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 44 07 90 00
+	VISA debit emitted by FinecoBank (Bank)
+	https://finecobank.com/
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 33 47 07 90 00
 	Chase Visa Debit Card (Bank)
 	https://www.chase.com/bankinghelp
@@ -14154,6 +14185,10 @@
 3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00 94
 	AirPlus MasterCard Commercial (Bank)
 	https://www.airplus.com/us/en/products-solutions/products/corporate-cards/corporate-cards.html
+
+3B FF 13 00 FF 91 01 31 FE 41 41 43 4F 53 20 48 6F 6C 6C 79 31 20 4C 63 36 65
+	OEAMTC Visa Club Card (Bank)
+	https://www.oeamtc.at/mitgliedschaft/leistungen/die-oeamtc-kreditkarte-31091443
 
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
 	Deutsche Kreditbank Debit (Bank)
@@ -14308,6 +14343,9 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
 	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 08 30 9A 57 11 D2
+	Bank card from German Bank "Sparkasse", issued by manufacturer "S-Payment GmbH" (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 08 20 24 57 11 63
 	German Sparkasse with visa  (Bank)
