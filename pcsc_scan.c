@@ -112,6 +112,7 @@ const char *color_end = "";
 const char *cub2 = "";
 const char *cub3 = "";
 const char *cpl = "";
+const char *cnl = "";
 
 time_t start_time;
 _Atomic bool Interrupted = false;
@@ -169,6 +170,7 @@ static void initialize_terminal(void)
 		cub2 = "\r"; /* use carriage return */
 		cub3 = "\r";
 		cpl = "\n"; /* can't do previous line,  let's go to the next line. */
+		cnl = "\n";
 	}
 	else
 	{
@@ -206,6 +208,7 @@ _Atomic SpinState_t spin_state = SpinStopped;
 static void spin_start(void)
 {
 	spin_state = Options.verbose ? SpinRunning : SpinDisabled;
+	printf("%s", cnl);
 }
 
 static void spin_stop(void)
