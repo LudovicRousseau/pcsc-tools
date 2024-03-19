@@ -1371,6 +1371,10 @@
 	Montreal/Quebec transit OPUS card (Transport)
 	https://www.carteopus.info/?language=en
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 42 76 98 82 90 00
+	Opus Card for public transportation in the Greater Montreal Area, and in Quebec City. It uses the Calypso Standard. (Transport)
+	https://en.wikipedia.org/wiki/OPUS_card
+
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
 	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
 	https://www.oura.com/xbi/boutique/card
@@ -4917,6 +4921,9 @@
 3B 79 96 00 00 54 48 20 4E 49 44 20 31 3.
 	Thai National ID Card (eID)
 
+3B 79 96 00 FF 54 48 20 4E 49 44 20 31 35
+	Thailand Citizen Card(JC3) (eID)
+
 3B 79 98 00 00 50 01 01 04 01 00 01 01 A9
 	Gemalto PayFlex used in Aristocrat System 7000 Casino Management System (South Africa only)
 
@@ -5754,6 +5761,9 @@
 3B 7F 96 00 00 80 31 80 65 B0 84 53 4C 0F 12 03 7B 82 90 00
 	Serbian International Student Identity Card (ISIC) (eID)
 	https://www.gpa.rs/kartice
+
+3B 7F 96 00 00 80 31 80 65 B0 84 56 51 10 12 0F FE 82 90 00
+	Swiss Government PKI (PKI)
 
 3B 7F 96 00 00 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00
 	IDPrime 930/3930 FIPS Level 2 or Level 3 (T=0 CT=96) (BAI1, BAI2, BAI3, BAI5, BAI7) (PKI)
@@ -7048,9 +7058,17 @@
 	French ID Card 2021 (contactless interface) (eID)
 	https://ants.gouv.fr/Les-titres/Carte-nationale-d-identite/La-puce-de-la-nouvelle-carte-nationale-d-identite
 
+3B 8B 80 01 00 31 C1 64 09 58 21 36 00 90 00 48
+	American Express Corporate Card (Bank)
+	https://www.americanexpress.com/es-es/negocios/corporativa/tarjetas/corporate-card/
+
 3B 8B 80 01 00 31 C1 64 09 64 41 36 00 90 00 14
 	Monzo (Bank)
 	https://monzo.com/
+
+3B 8B 80 01 00 31 C1 64 09 78 61 31 00 90 00 2F
+	BBVA credit card (Bank)
+	https://www.bbva.es/personas/productos/tarjetas/credito.html
 
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
@@ -7710,6 +7728,9 @@
 3B 8E 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 38 30 5A
 	RFIDIOt G&D SmartCafe 80K
 
+3B 8E 80 01 53 43 45 20 38 2E 30 2D 43 33 56 30 0D 0A 60
+	Latvian passport (2024) (passport)
+
 3B 8E 80 01 53 43 45 36 30 2D 43 44 30 38 31 2D 6E 46 4A
 	SmartCafe Expert 6.0 80K Dual (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
@@ -7952,6 +7973,10 @@
 
 3B 8F 80 01 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 66
 	IDPrime 3930 FIPS Level 2 (Contactless TypeA) (BAI5, BAI7) (PKI)
+
+3B 8F 80 01 80 31 80 65 B0 84 65 66 FB 12 0F FC 82 90 00 65
+	Thales SafeNet IDPrime 3930 (PKI)
+	https://cpl.thalesgroup.com/resources/access-management/idprime-3930-product-brief
 
 3B 8F 80 01 80 31 80 65 B0 85 03 00 EF 12 0F FE 82 90 00 72
 	Gemalto IDPrime MD 3840
@@ -8410,6 +8435,9 @@
 
 3B 8F 80 01 80 91 E1 31 80 65 B0 85 02 00 E9 83 00 90 00 E7
 	MultiApp ID Dual Citizen EAC 144K CC (with IAS Applet V3) -Contactless Mode
+
+3B 8F 80 01 80 91 E1 31 80 65 B0 85 03 01 0F 83 01 90 00 00
+	Jordan ID (eID)
 
 3B 8F 80 01 80 91 E1 31 98 65 B0 85 03 00 EF 73 94 41 C0 8D
 	Italian Passport (passport)
@@ -10806,6 +10834,9 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 11 EE
 	eSIM.me pluggable eSIM (Telecommunication)
 	https://esim.me/
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 17 E8
+	eSim.me Orange Setup (Telecommunication)
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 63 3A 20 4E 83 00 90 00 31
 	eSIM (Telecommunication)
@@ -14800,6 +14831,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 21 08 B0 A9 02 00 7F
+	Debit Card Sparda-Bank Baden-Württemberg eG (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 24 09 0A 10 CC 02 00 AB
 	Postbank Germany (Bank)
