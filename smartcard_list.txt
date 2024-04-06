@@ -1375,6 +1375,10 @@
 	Opus Card for public transportation in the Greater Montreal Area, and in Quebec City. It uses the Calypso Standard. (Transport)
 	https://en.wikipedia.org/wiki/OPUS_card
 
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 D7 A7 E9 82 90 00
+	« Oùra » transport card (Transport)
+	https://www.oura.com/
+
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
 	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
 	https://www.oura.com/xbi/boutique/card
@@ -6217,6 +6221,10 @@
 	WWPass Passkey (eID)
 	https://www.wwpass.com/passkey
 
+3B 86 80 01 75 54 72 75 73 74 26
+	uTrust FIDO2 Security Key (Other)
+	https://www.identiv.com/products/logical-access-control/utrust-fido2-security-keys/nfc
+
 3B 86 80 01 80 14 34 37 30 00 A0
 	Malta eID Identity Card (eID)
 	https://www.identitymalta.com/
@@ -7777,6 +7785,10 @@
 3B 8E 80 01 80 31 80 66 B1 C5 24 01 00 ED 83 00 90 00 F7
 	Mastercard (Bank)
 
+3B 8E 80 01 80 31 80 66 B1 EB 01 01 00 22 83 00 90 00 33
+	ING debit card NL (Bank)
+	https://ing.nl
+
 3B 8E 80 01 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 18
 	Smartcard-HSM (Contactless Interface) (PKI)
 	http://www.cardcontact.de/products/sc-hsm.html
@@ -8463,6 +8475,9 @@
 3B 8F 80 01 FF 43 72 79 70 74 6E 6F 78 46 49 44 FF FF FF 70
 	CRYPTNOX FIDO2 CARD (Other)
 	http://www.cryptnox.ch
+
+3B 8F 81 11 FC 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 33 CD
+	Ziggo Irdeto (Pay TV)
 
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
@@ -9363,6 +9378,9 @@
 	Free Mobile (Telecommunication)
 	http://mobile.free.fr
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 95 12 00 92
+	Twilio SIM (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 A0 12 00 A7
 	USIM Card (Etisalat) (Telecommunication)
 
@@ -9835,6 +9853,10 @@
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 31 05 00 00 3A
 	T-MOBILE CZ GSM card
 
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 13 57 61 11 95 71 25 56 01 09
+	mobile phone test white card from Shenzhen Huahai Smart Card Co., Ltd (Telecommunication)
+	https://www.cnhuahai.com/en/products/mobile-phone-test-white-card
+
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 13 57 86 81 02 86 98 44 18 A8
 	GREEN CARD, Grcard (Hong Kong ) Co.,Limited, LTE Usim Card (Telecommunication)
 	Celcom Postpaid 3G (Telecommunication)
@@ -10100,6 +10122,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 0. 00 00 0.
 	FEITAIN ePASS2003 (PKI)
 	http://www.ftsafe.com/product/epass/epass2003
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 00 00 00 05
+	Gemalto 840 (eID)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 23 00 25 71 DF 00 00 03 90 00 96
 	Feitian USB Cryptographic token (FIPS 140-2 Level 3) (PKI)
@@ -13427,6 +13452,9 @@
 	NXP JCOP J3A081 (JavaCard)
 	https://secure.smartcardsource.com/j3a081m.html
 
+3B F9 91 00 FF 91 81 71 40 40 00 41 80 04 31 76 6A 78 16 90 E0
+	DESFIRE MIVARE EV2 (Other)
+
 3B F9 91 00 FF 91 81 71 40 40 00 41 80 04 5B 89 BA B3 52 80 3A
 	mifare desfire 2k (eID)
 
@@ -13657,6 +13685,10 @@
 3B FB 13 00 00 81 31 FE 45 63 68 61 72 69 73 6D 61 74 65 78 84
 	Charismathics smart card JCOP and Qualified electronic signature CHJCOP-xxx (PKI)
 	https://www.stampit.org/en/page/808
+
+3B FB 13 00 FF 10 00 00 31 C1 64 09 95 11 38 0F 90 00
+	Mastercard World Elite (CapitalOne Venture) (Bank)
+	https://www.mastercard.us/en-us/personal/find-a-card/world-elite-mastercard-credit.html
 
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 0F 90 00
 	Stripe Issuing Card (Bank)
@@ -14158,6 +14190,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 34 30 07 90 00
 	PNC BUSINESS VISA DEBIT (Bank)
 	https://www.pnc.com/en/small-business/payments-and-processing/payment-cards/pnc-bank-visa-business-debit-card.html
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 35 31 07 90 00
+	Discover It Credit Card (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
 	National Bank Debit Card with expiration date and cvv code (Bank)
@@ -14809,7 +14844,7 @@
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 0F FE 82 90 00 00
 	SafeNet eToken 5110 SC (PKI)
-	https://cpl.thalesgroup.com/access-management/authenticators/pki-usb-authentication/etoken-5110-usb-toke3B 86 80 01 49 44 2D 56 44 56 63n
+	https://cpl.thalesgroup.com/access-management/authenticators/pki-usb-authentication/etoken-5110-usb-token
 
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
@@ -15463,6 +15498,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 38 30 20 4D 65 72 4A 30 32 0E
 	Nagra 3 Digital Plus Spain
+
+3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 31 41 30 20 4D 65 72 53 32 33 6D
+	Ziggo (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 47 00 44 4E 41 53 50 32 34 31 20 44 73 68
 	DISH Network G3 (Pay TV)
