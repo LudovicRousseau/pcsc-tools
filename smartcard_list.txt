@@ -704,6 +704,10 @@
 3B 1D 96 00 23 07 00 00 00 00 00 00 00 00 90 00
 	emulator card prototype from ST
 
+3B 1D 96 81 17 08 12 12 00 3D 17 02 00 00 C3 00
+	J3R180 SecID (Telecommunication)
+	http://www.gdrfid.com/
+
 3B 1D 97 43 4C 5F 53 41 4D 00 14 38 00 00 90 00
 	CLSAM (Transport)
 	http://www.planeta.inf.br
@@ -1267,6 +1271,9 @@
 
 3B 3F 94 00 80 69 AF 03 0F 02 80 FF FF 06 0E 83 3E 9F 16
 	GSM-SIM Telefonica Movistar, prepaid (Spain)
+
+3B 3F 94 00 80 69 AF 03 0F 06 A3 FF FF 06 0E 83 3E 9F 16
+	Kievstar gsm operator Ukrain (Telecommunication)
 
 3B 3F 94 00 80 69 AF 03 0F 07 A4 00 00 06 0E 83 3E 9F 16
 	SIM Card PRO from the austrian telecom "A1"
@@ -3792,6 +3799,10 @@
 	VISA Debit Card Issued by State Employees Credit Union of Maryland (Bank)
 	https://www.secumd.org/personal/credit-cards/card-services.aspx
 
+3B 6F 00 00 80 31 E0 6B 08 2B 05 02 DC 55 55 55 55 55 55
+	Bradesco Bank Account Card (Brazil) (Bank)
+	https://banco.bradesco/
+
 3B 6F 00 00 80 31 E0 6B 08 2D 05 02 B8 55 55 55 55 55 55
 	pag seguro Brasil (Bank)
 
@@ -5388,6 +5399,10 @@
 3B 7F 13 00 00 80 31 C0 52 02 71 64 05 62 34 70 83 83 90 00
 	Mastercard Debit Card issued by Caixa d'Enginyers
 	http://www.caixa-enginyers.com
+
+3B 7F 13 00 00 80 31 C0 52 02 F5 64 05 69 93 70 83 83 90 00
+	Bradesco Bank Account Card (Brazil) (Bank)
+	https://banco.bradesco/
 
 3B 7F 13 00 00 80 31 C0 52 05 6E 64 02 53 04 36 83 83 90 00
 	Mastercard from Banc Sabadell in Spain
@@ -8003,6 +8018,10 @@
 	Italian electronic identity card (eID)
 	https://en.wikipedia.org/wiki/Italian_electronic_identity_card
 
+3B 8F 80 01 80 31 80 65 B0 85 59 56 FB 12 0F FC 82 90 00 68
+	THALES SafeNet IDPrime 3940 Fido (PKI) (PKI)
+	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
+
 3B 8F 80 01 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00 4D
 	Finnish electronic identity card (eID)
 	https://vrk.fi/en/electronic-identity-and-certificates
@@ -8585,6 +8604,9 @@
 	Ukrainian Telecommunications Operator Kyivstar (old simcard) (Telecommunication)
 	https://kyivstar.ua/uk/mm
 
+3B 96 11 81 21 75 75 54 72 75 73 74 73
+	Identiv uTrust FIDO2 NFC+ (Other)
+
 3B 96 18 80 01 80 51 00 61 10 30 9F 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1 (warm reset)
 
@@ -8963,6 +8985,9 @@
 
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
+
+3B 9E 94 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F EF 10 00 62
+	Vodacom GSM SIM (Telecommunication)
 
 3B 9E 94 80 1F C7 80 31 E0 73 FE 21 13 66 42 54 54 42 30 31 DB
 	XLB.5G CTC Test Card (Telecommunication)
@@ -11478,6 +11503,9 @@
 	ACS ACOS5 "ACOS5-32-G" dual card
 	http://www.acs.com.hk/acos5.asp
 
+3B BE 94 00 40 14 47 47 33 46 30 34 41 5A 45 54 39 31 33 30
+	GSM operator Life Ukraine (Telecommunication)
+
 3B BE 94 00 40 14 47 47 33 53 33 45 44 41 54 4C 36 30 31 30
 	SingTel hi! Prepaid GSM SIM UICC (Telecommunication)
 
@@ -13511,6 +13539,10 @@
 3B FA .. 00 00 81 31 .. 43 80 65 A2 .. .. .. .. 72 D6 .. ..
 	IDClassic 3XX Cards (with MPCOS Applet)
 
+3B FA 00 00 81 31 FE 45 00 31 C1 73 C8 40 00 00 90 00 7A
+	J3R150 EMV (JavaCard)
+	http://www.gdrfid.com/
+
 3B FA 11 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 49 56 00 E0
 	MyWireCard 2go Prepaid VISA Card
 
@@ -13967,6 +13999,10 @@
 3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
 	LOT test card (JavaCard)
 	www.lotgroup.eu
+
+3B FE 13 00 00 91 81 31 80 41 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 1F
+	Japan Post Bank Visa Debit Card (Bank)
+	https://www.jp-bank.japanpost.jp/kojin/cashless/yuchodebit/kj_cl_yd_index.html
 
 3B FE 18 00 00 80 31 FE 45 45 73 74 45 49 44 20 76 65 72 20 31 2E 30 A8
 	Estonian Identity Card (EstEID 3.0 "JavaCard" cold)
@@ -14893,6 +14929,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 21 06 F0 ED 02 00 4C
+	DKB Girocard (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
