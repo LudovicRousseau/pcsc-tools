@@ -10204,6 +10204,10 @@
 	Norsk Tipping tippekort (eID)
 	https://www.norsk-tipping.no/bli-nettspiller
 
+3B 9F 96 40 0A 80 31 E0 6B 04 52 05 02 4F 55 55 55 55 55 55
+	Buypass ID on Smart card (eID)
+	https://www.buypass.no/produkter/buypass-id-smartkort
+
 3B 9F 96 80 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 09 31 41 00 AA
 	Elisa UICC (Telecommunication)
 
@@ -10890,6 +10894,10 @@
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 17 E8
 	eSim.me Orange Setup (Telecommunication)
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 1E E1
+	5Ber (Telecommunication)
+	https://esim.5ber.com
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 63 3A 20 4E 83 00 90 00 31
 	eSIM (Telecommunication)
@@ -11696,6 +11704,7 @@
 
 3B D2 18 00 81 31 FE 58 CB 01 16
 	D-Trust Card 5.1/5.4 (contact based)
+	https://www.d-trust.net/de/support/signatur-und-siegelkarten
 
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
@@ -14361,6 +14370,9 @@
 	Izenpe Certificado Ciudadano (eID)
 	https://www.izenpe.eus/informacion/certificado-ciudadano/s15-content/es/
 
+3B FF 18 00 00 81 31 FE 45 00 6B 15 0C 03 02 01 01 01 43 4E 53 10 31 80 61
+	Bit4id Digital-DNA Key (eID)
+
 3B FF 18 00 00 81 31 FE 4D 80 25 A0 00 00 00 56 57 44 4B 34 30 30 06 00 DD
 	DataKey 400 (DK400)
 
@@ -14876,6 +14888,10 @@
 	Portuguese National Identity Card (eID) (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 05 00 39 12 01 78 82 90 00 40
+	Identicard for french advocates (eID)
+	https://doc.ubuntu-fr.org/avocats_sur_ubuntu
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 01 78 82 90 00 88
 	SafeNet 5110 token for eSignature (eID)
 	https://www.certsign.ro/en/support/safenet-installing-the-device-on-windows/
@@ -14905,6 +14921,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 02 71 50 07 30 A4
 	Debitcard Sparkasse Duesseldorf (Bank) (Bank)
 	https://www.sskduesseldorf.de/
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 22 BB EB 07 40 80
+	girocard contactless (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
