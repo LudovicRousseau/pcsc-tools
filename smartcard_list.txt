@@ -5978,6 +5978,9 @@
 3B 82 80 01 C9 02 C8
 	Bartl V5.3DI (PKI)
 
+3B 82 80 01 CB 01 C9
+	D-Trust Card 5.1/5.4 (contactless)
+
 3B 82 81 31 76 43 C0 02 C5
 	CardOS/M2 V2.01(SLE44CxxS)
 
@@ -11690,6 +11693,9 @@
 3B D2 18 00 81 31 FE 58 CA 60 76
 	CardOS IoT V5.4 (PKI)
 	https://atos.net/wp-content/uploads/2018/11/ct_181127_lpm_cardos_iot_v5-4_fs_en4_web.pdf
+
+3B D2 18 00 81 31 FE 58 CB 01 16
+	D-Trust Card 5.1/5.4 (contact based)
 
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
