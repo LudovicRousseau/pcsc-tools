@@ -262,6 +262,9 @@
 3B 06 00 05 64 03 2B 2B
 	HID 0009 P (eID)
 
+3B 06 00 09 C4 80 00 3B
+	XceedID (Other)
+
 3B 06 00 10 01 D6 C5 46
 	HID ProxKey II FOB
 	http://www.hidglobal.com/documents/proxkey_ds_en.pdf
@@ -719,6 +722,9 @@
 3B 1E 95 80 67 21 54 4D 4D 04 12 0E 71 32 82 9F 00
 	SIM card of old Ukrainian Telecommunications Operator Ace&Base (deriving from Kyivstar) (Telecommunication)
 	https://kyivstar.ua/uk/mm
+
+3B 1E 96 80 69 08 48 51 04 37 61 72 02 0A 0F 90 00
+	Swedish Defense electronic ID card (PKI)
 
 3B 1F 11 00 67 42 41 46 49 53 45 53 52 66 FF 81 90 00
 	Finnish student id card
@@ -2730,6 +2736,10 @@
 
 3B 6C 00 00 80 66 B1 A3 30 40 11 10 B8 30 09 00
 	Visa debit  (Bank)
+
+3B 6C 00 00 81 00 03 00 20 30 02 22 01 00 14 0C
+	CRDB TEMBO CARD (Bank)
+	https://crdbbank.co.tz
 
 3B 6C 00 02 36 61 86 38 4B 8C 13 04 62 03 59 8A
 	Nagravision, Swiss mode
@@ -4869,6 +4879,9 @@
 	Bank of America Travel Rewards Credit Card (Bank)
 	https://www.bankofamerica.com/credit-cards/products/travel-rewards-credit-card/
 
+3B 78 96 00 00 53 43 06 61 01 07 90 00
+	Bank of America Cash Rewards World Mastercard (Bank)
+
 3B 78 96 00 00 53 43 06 62 01 07 90 00
 	ATM Card (Bank)
 
@@ -6082,6 +6095,9 @@
 
 3B 85 80 01 01 A2 13 10 91 35
 	Contact (7816-10) 2WBP (HealthCare)
+
+3B 85 80 01 20 63 C8 B8 80 B4
+	Visa Classic  (Bank)
 
 3B 85 80 01 20 63 CB A0 00 2C
 	Visa card from Banque populaire du nord/Casden
@@ -7689,6 +7705,10 @@
 3B 8D 80 01 54 41 58 54 43 4F 53 4E 20 17 03 07 33 04
 	Contactless Java Card v.2.2, GP version 2.2.1 with a NDEF storage applet installed. (JavaCard)
 
+3B 8D 80 01 61 75 74 68 65 6E 74 6F 6E 23 31 2E FF B9
+	authenton#1 NFC via ACR122U. Features similar to a yubikey, the USB SmartCard interface is not recognized. Here, it's the ATR when i use the NFC interface with my ACR122U. (Other)
+	http://authenton.com/
+
 3B 8D 80 01 73 66 74 65 2D 63 64 30 38 30 2D 6E 66 3F
 	G&D SmartCafe Expert 3.2 80K Dual
 
@@ -7760,6 +7780,10 @@
 3B 8E 80 01 53 43 45 36 30 2D 43 44 30 38 31 2D 6E 46 4A
 	SmartCafe Expert 6.0 80K Dual (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~684/smartcafe-expert-6-0-80k-dual-/p/index.shtml
+
+3B 8E 80 01 56 44 56 2D 4B 41 20 49 44 33 37 20 4A 34 1B
+	eTicket (Transport)
+	https://www.eticket-deutschland.de/
 
 3B 8E 80 01 80 31 80 65 49 54 4E 58 50 12 0F FF 82 90 F0
 	Italian Electronic Contactless Identity Card v. 3.0 (CIE 3.0) - ICAO 9303 Compliant (eID)
@@ -10859,6 +10883,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 04 A5 83 0F 90 00 5B
 	Tre Italia Gemplus (Telecommunication)
+
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 13 65 02
+	sysmoEUICC1-Cxx - eUCICC for econsumer eSIM RSP (Telecommunication)
+	https://sysmocom.de/products/sim/sysmocom-euicc/index.html
 
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
@@ -14272,6 +14300,9 @@
 3B FF 13 00 FF 10 80 80 31 E0 6B 04 31 05 02 AF 55 55 55 55 55 55
 	USAA EMV Visa Debit Card (Bank)
 
+3B FF 13 00 FF 10 80 80 31 E0 6B 04 54 6B 02 67 55 55 55 55 55 55
+	Target RedCard debit card (Other)
+
 3B FF 13 00 FF 10 80 80 31 E0 6B 07 14 05 02 8A 55 55 55 55 55 55
 	Tangerine Debit Card (Bank)
 	https://www.tangerine.ca
@@ -14460,6 +14491,9 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 90 73 60 47 12 71
 	Debit card (Germany): Deutsche Kreditbank (DKB), ec-cash,  (Bank)
 	https://www.dkb.de/privatkunden/karten/girocard
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 03 08 B0 99 57 11 5B
+	Debit card Sparkasse (Germany) (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
 	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
@@ -14857,6 +14891,10 @@
 
 3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 00 EF 12 FF FE 82 90 00 96
 	Gematlo IDCore 8030 (JavaCard)
+
+3B FF 96 00 00 81 31 80 43 80 31 80 65 B0 85 03 01 0F 12 0F FF 82 90 00 86
+	Azerbaijan Republic National Identity Card (eID) (eID)
+	https://www.mia.gov.az/
 
 3B FF 96 00 00 81 31 80 43 80 31 80 68 B0 85 03 00 EF 78 01 00 82 90 00 F1
 	Cameroon National Identity Card (eID)
