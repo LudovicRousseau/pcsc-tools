@@ -1423,6 +1423,17 @@
 3B 65 00 00 20 63 CB 30 40
 	Crédit Mutuel Debit card (Bank)
 
+3B 65 00 00 20 63 CB 32 20
+	Société Générale CB Visa Debit (Bank)
+
+3B 65 00 00 20 63 CB 32 40
+	Fnac MasterCard (contact interface) (Bank)
+	https://www.fnac.com/carte-fnac-mastercard
+
+3B 65 00 00 20 63 CB 32 C1
+	Credit Card Crédit Mutuel (Bank)
+	https://www.creditmutuel.fr/partage/fr/CC/telechargements/communiques-de-presse/CM/2021/2021-03-17_CP-Carte_PVC_recycle.pdf
+
 3B 65 00 00 20 63 CB 47 00
 	Orga SmartyPlus DATA STORE issued by MORPHO CARDS PERU
 
@@ -4137,6 +4148,10 @@
 	Île-de-France Mobilités (Navigo Easy) (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
 
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 03 7A C8 F7 82 90 00
+	Navigo Easy (contact interface) (Transport)
+	https://www.ratp.fr/en/titres-et-tarifs/pass-navigo-easy
+
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 03 7A ED 59 82 90 00
 	Navigo Easy (Paris) (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
@@ -4186,6 +4201,9 @@
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 2A 8F E7 82 90 00
 	Navigo Découverte card, a rechargeable card for travel in Paris, France. (Transport)
 	https://parisbytrain.com/paris-train-metro-week-pass-navigo-decouverte/
+
+3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 32 20 2E 82 90 00
+	Navigo card ("A" marking for annual contract), contact interface (Transport)
 
 3B 6F 00 00 80 5A 28 11 42 10 12 2B 27 32 83 08 82 90 00
 	Navigo Easy (Paris) (Transport) (Transport)
@@ -6629,6 +6647,9 @@
 	Silesian public services card (Transport)
 	http://www.kartaskup.pl
 
+3B 88 80 01 53 4C 4A 01 30 50 23 10 0E
+	bunq Credit MasterCard (contactless interface) (Bank)
+
 3B 88 80 01 53 6D 61 72 74 41 70 70 11
 	national Lithuania ID card (eID)
 	https://www.dokumentai.lt/viewpage.php?page_id=77
@@ -7133,6 +7154,10 @@
 3B 8B 80 01 2A 26 A7 A1 0C 80 41 00 00 07 09 C3
 	T-Mobilitat (Transport)
 	https://t-mobilitat.cat/
+
+3B 8B 80 01 2A 26 A7 A1 0C 80 41 00 01 9A B1 E7
+	T-Mobilitat (Transport)
+	https://t-mobilitat.atm.cat/
 
 3B 8B 80 01 47 48 41 20 4A 32 34 31 20 50 31 58
 	Republic of Ghana eID (eID)
@@ -7918,6 +7943,10 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00 89
 	SpareBank Visa Card, Norway (Bank)
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 56 31 43 4E 07 90 00 ED
+	Tarjeta Después BBVA España (contact interface) (Bank)
+	https://www.bbva.es/personas/productos/tarjetas/tarjeta-despues.html
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 33 00 90 00 9E
 	TIM Pay - HYPE (Mastercard debit card) (Bank)
 	https://www.tim.it/fisso-e-mobile/mobile/servizi/tim-pay
@@ -7925,6 +7954,10 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 57 4B 31 34 00 90 00 99
 	G&D Sm@rtCafe Card embedded in a wristband (Bank)
 	https://www.gi-de.com/en/au/mobile-security/industries/financial-institutions/wearables/
+
+3B 8F 80 01 00 51 00 64 09 08 06 78 73 D3 20 C0 C0 90 00 54
+	French residency permit (contactless interface) (eID)
+	https://www.service-public.fr/particuliers/vosdroits/N110
 
 3B 8F 80 01 00 66 46 53 05 10 00 FF 71 DF 00 00 00 00 00 39
 	JavaCOS A40 dual interface Java card - 64K (JavaCard)
@@ -8044,6 +8077,9 @@
 	Dutch driver licence (eID)
 	Italian electronic identity card (eID)
 	https://en.wikipedia.org/wiki/Italian_electronic_identity_card
+
+3B 8F 80 01 80 31 80 65 B0 85 05 00 11 12 04 80 82 90 00 FF
+	Mauritius eID (eID)
 
 3B 8F 80 01 80 31 80 65 B0 85 59 56 FB 12 0F FC 82 90 00 68
 	THALES SafeNet IDPrime 3940 Fido (PKI) (PKI)
@@ -15357,6 +15393,9 @@
 
 3F 7F 13 25 03 33 B0 11 69 FF 4A 50 50 00 00 49 56 01 00 00
 	Indonesia Videoguard 2 card
+
+3F 7F 13 25 03 33 B0 11 69 FF 4A 50 50 00 00 53 44 01 00 00
+	STAR TV (Pay TV)
 
 3F 7F 13 25 03 38 B0 04 FF FF 4A 50 00 00 29 48 55 .. .. ..
 	DSS/DTV HU
