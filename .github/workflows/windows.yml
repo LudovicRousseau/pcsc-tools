@@ -14,14 +14,15 @@ jobs:
         with:
           msystem: UCRT64
           update: true
-          pacboy: >-
+          install: >-
             autoconf
             autoconf-archive
             automake
-            gcc:p
-            gettext:p
             make
             pkg-config
+          pacboy: >-
+            gcc:p
+            gettext:p
 
       - uses: actions/checkout@v4
 
