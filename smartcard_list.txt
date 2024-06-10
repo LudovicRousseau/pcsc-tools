@@ -3650,6 +3650,9 @@
 	Postepay Evolution (Bank)
 	https://postepay.poste.it/prodotti/postepay-evolution.html
 
+3B 6F 00 00 57 69 4C 4C 57 00 00 00 00 00 00 20 19 03 28
+	meza classic card (Bank)
+
 3B 6F 00 00 57 69 4C 4C 57 00 00 00 00 00 00 20 20 04 29
 	AMEX CHINA Debit card, Java Card version 2.2, Global Platform version 2.1.1, Visa card manager (Bank)
 
@@ -4110,6 +4113,14 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 04 90 EF CB 82 90 00
 	Rav-Kav Israel (Transport)
 	https://ravkavonline.co.il
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 04 94 0F 18 82 90 00
+	Israeli anonymous rail road Rav Kav 2022 model (Transport)
+	https://en.wikipedia.org/wiki/Rav-Kav
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2C 04 94 62 5E 82 90 00
+	Israeli rail road rav card (Transport)
+	https://en.wikipedia.org/wiki/Rav-Kav
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 66 0B 73 82 90 00
 	Rav-Kav: Israel's Travel Card (Transport)
@@ -6945,6 +6956,10 @@
 
 3B 8A 80 01 00 64 05 76 02 03 31 80 90 00 3C
 	T-System Contactless TCOS Min
+
+3B 8A 80 01 01 50 49 56 4B 45 59 37 30 16 03
+	Taglio PIVkey C70-DP-DF1 (Contactless interface) (JavaCard)
+	https://store.taglio.com/products/c70-dp-df1-dual-pki-smart-card-with-prox-and-desfire-ev1
 
 3B 8A 80 01 30 37 39 31 34 31 5F 30 30 31 6F
 	Electronic Citizen Identity Card (e-ID Card) (eID)
@@ -10482,6 +10497,9 @@
 	T-Mobile Compatible Straight Talk™ SIM Card (Telecommunication)
 	https://www.straighttalk.com/home
 
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 02 27 01 01 02 03 A2
+	Movistar ES SIM Card (ICCID 89304075700066xxxxxx) (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 00 89 01 02 28
 	TMobile Prepaid USIM (Telecommunication)
 
@@ -10817,6 +10835,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 38 02 00 82 90 00 BA
 	SIM card operateur Free (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 44 42 00 82 90 00 86
+	wom chile (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 44 73 00 82 90 00 B7
 	Bouygues Telecom (French Mobile Provider SIM card) (Telecommunication)
 	https://www.bouyguestelecom.fr
@@ -10919,6 +10940,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B B3 E2 04 A5 83 0F 90 00 5B
 	Tre Italia Gemplus (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE A1 17 57 4A 33 05 8C 33 39 00 96
+	1NCE SIM card (Telecommunication)
+	https://1nce.com/en-eu/1nce-os/our-architecture
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 13 65 02
 	sysmoEUICC1-Cxx - eUCICC for econsumer eSIM RSP (Telecommunication)
@@ -11158,6 +11183,9 @@
 
 3B 9F 97 81 31 FE 45 80 65 54 43 D3 22 82 31 C0 73 F6 21 80 81 05 D3
 	Turkish eID (Türkiye Cumhuriyeti Kimlik Kartı) (eID)
+
+3B 9F 97 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 15 0E 81 0F E8
+	SIM Card (Telecommunication)
 
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 10 09 22 81 00 F2
 	"ultra fast card, max speed supported for telecom"? (transport)
@@ -12204,6 +12232,9 @@
 
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 35 07 73 FF A1 C0 3C
 	NXP JCOP 4, J3R200P0X3U/0ZA16CP NXD6.2 (JavaCard)
+
+3B DC 96 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 03 63 51 00 02 DE
+	Montenegro eID (eID)
 
 3B DC 96 FF 81 B1 FE 43 1F C3 0B 46 41 52 45 47 4F 53 41 4D 56 32 CC
 	Multismartcard SAM (used in proprietary Scheidt&Bachmann Smartcard Reader v2)
@@ -13454,6 +13485,9 @@
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 01 30 50 23 10 0D
 	Walden Mutual Bank (Bank)
 	https://www.waldenmutual.com/sustainable-bank-for-individuals#footnote-s0-4
+
+3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 42 1F 36
+	Infineon SLJ26P (JavaCard)
 
 3B F8 18 00 00 80 31 FE 45 00 73 C8 40 13 00 90 00 92
 	G&D StarSign Token
