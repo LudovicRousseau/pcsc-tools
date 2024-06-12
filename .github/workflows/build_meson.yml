@@ -1,0 +1,28 @@
+name: Ubuntu meson
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: setup prerequisites
+        shell: bash
+        run: |
+          sudo apt update
+          sudo apt install \
+            gettext \
+            libpcsclite-dev \
+            meson
+
+      - name: compile
+        shell: bash
+        run: |
+          export CFLAGS="-Wall -Wextra -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wold-style-definition -Wpointer-arith -Wredundant-decls -Wshadow -Wstrict-prototypes -Wswitch-enum -Wundef -Wuninitialized -Wunused -Wwrite-strings -Wmissing-noreturn -flto=auto -O2 -Wp,-D_FORTIFY_SOURCE=2"
+          meson setup builddir
+          cd builddir
+
+          meson dist
