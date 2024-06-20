@@ -6674,6 +6674,9 @@
 3B 88 80 01 80 66 B0 07 01 01 07 .. ..
 	Gemalto Santander Optelio TUI R7 with WG10 using Contactless interface
 
+3B 88 80 01 80 73 C8 21 10 52 B8 1D F4
+	Arculus AuthentiKey (via NFC) (Other)
+
 3B 88 80 01 99 02 00 D1 03 04 22 01 67
 	Debit card (Bank)
 
@@ -8414,6 +8417,10 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 06 .. .. 00 00 00 00 ..
 	RFID - ISO 14443 Type B Part 2 (as per PCSC std part3)
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 06 00 00 00 00 00 00 6E
+	ATM Milano RICARICA-MI Card (Transport)
+	https://www.atm.it/en/ViaggiaConNoi/Biglietti/Pages/Ricaricami.aspx
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 07 .. .. 00 00 00 00 ..
 	RFID - ISO 14443 Type B Part 3 (as per PCSC std part3)
 
@@ -8987,6 +8994,9 @@
 	Lithuanian e-ID Card (eID)
 	https://www.nsc.vrm.lt/default_en.htm
 
+3B 9D 18 81 31 FC 35 80 31 C0 69 4D 54 43 4F 53 73 02 06 04 D1
+	Lithuanian ID card (MaskTech, 2024) (eID)
+
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec smartcard running Miocos 2.0 on an Atmel AT90SC646
 	http://www.miotec.fi
@@ -9531,6 +9541,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 8F 14 00 B3
 	Telefonica USIM (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A B7 14 00 8B
+	AT&T Prepaid UICC (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A D3 13 00 E8
 	sim card from Mobilcom Debitel Telefonica (Telecommunication)
@@ -10088,6 +10101,9 @@
 	Kazakhstan "Beeline" 4G SIM card (Telecommunication)
 	https://beeline.kz
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 6E 40 27 83 00 90 00 CD
+	SimCard in China (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 E2 03 94 83 0F 90 00 BE
 	Telenet N.V. Walk & Talk SIM Card Belgium
 
@@ -10500,6 +10516,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 02 27 01 01 02 03 A2
 	Movistar ES SIM Card (ICCID 89304075700066xxxxxx) (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 02 35 01 03 01 03 B1
+	Keepgo (Movistar) Lifetime World SIM Card (Telecommunication)
+	https://www.keepgo.com/products/keepgo-lifetime-prepaid-data-sim-card
+
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 00 89 01 02 28
 	TMobile Prepaid USIM (Telecommunication)
 
@@ -10514,6 +10534,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 20 02 00 81
 	VALID brand SIM card from T-Mobile (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 27 01 20 02 01 80
+	TMbl SIM (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 46 01 49 01 00 8A
 	T-Mobile Poland pre-paid SIM card (Telecommunication)
@@ -12227,6 +12250,10 @@
 3B DC 18 FF 81 91 FE 1F C3 80 73 C8 21 13 66 05 03 63 51 00 02 50
 	JCOP3 SecID P60 CS (JavaCard)
 
+3B DC 18 FF C0 80 B1 FE 75 1F 03 5A 43 38 2E 36 20 52 45 56 20 44 36 57
+	ZeitControl Professional Multi-Application BasicCard ZC8.6  (Other)
+	https://www.zeitcontrol.de/Smart-card-BasicCard-Professional-ZC76
+
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
 	NXP Javacard with Athena SCS OS (JavaCard)
 
@@ -12401,6 +12428,9 @@
 3B DF 18 FF 81 31 FE 45 80 59 01 80 48 49 44 43 37 30 30 73 00 01 1B 33
 	Crescendo C700 + MiFare 4K
 	http://www.smartcardfocus.com/shop/ilp/id~265/p/index.shtml
+
+3B DF 18 FF 81 31 FE 45 80 73 C8 21 10 59 B8 1D 41 75 74 68 4B 65 79 BA
+	Arculus AuthentiKey (Other)
 
 3B DF 18 FF 81 91 FE 1F C3 00 31 38 64 47 90 EC C2 73 14 01 50 82 90 00 BA
 	Card store authentication and signature keys (JavaCard)
@@ -13700,6 +13730,10 @@
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
 
+3B FA 13 00 FF 91 81 31 FE 47 80 12 39 2F 31 C0 73 C7 01 49 07
+	MITSUBISHI Standard-9M (PKI)
+	https://www.mdis.co.jp/service/standard-9m/
+
 3B FA 18 00 00 80 31 FE 45 FE 65 49 44 20 2F 20 50 4B 49 03
 	Estonian Identity Card (EstEID v3.5 (10.2014) cold) (eID)
 	http://id.ee/
@@ -14498,6 +14532,9 @@
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 14 03 01 01 01 43 4E 53 10 31 80 75
 	Smart Card INFOCERT digital key CNS from CST PADOVA (eID)
 
+3B FF 18 00 00 81 31 FE 55 00 6B 02 09 16 13 01 01 01 43 4E 53 10 31 80 67
+	ANPR -- Ministero dell'Interno - Italia (PKI)
+
 3B FF 18 00 00 81 31 FE 55 00 6B 02 09 17 17 01 01 01 43 4E 53 10 31 80 62
 	Carta Nazionale dei Servizi (CNS) Centro Servizi Territoriali (CST) (PKI)
 	http://cst.provincia.padova.it/category/faq/firma-digitale
@@ -14926,6 +14963,9 @@
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 47
 	Platforma Canal+ Polska, cameleon card (Pay TV)
 	https://www.flysat.com/canalplus-pl.php
+
+3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 34 4A
+	Sat Tv (Nagra) (Pay TV)
 
 3B FF 95 00 FF 50 80 1C 44 4E 41 53 50 34 30 30 20 52 65 76 49 35 48
 	Canal+ France Nagra3 (Pay TV)
