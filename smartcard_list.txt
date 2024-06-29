@@ -1376,6 +1376,10 @@
 	Multi-Transport Pass (Navegante) (Metro, Bus, Electric, Boat) Carris Metropolitano, PT (Transport)
 	https://www.navegante.pt/
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 2F 0E 8D 82 90 00
+	OPUS Card / Montreal (Transport)
+	https://opusenligne.ca/en
+
 3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 32 5F DE 82 90 00
 	Montréal metropolitan area and Québec city area OPUS card (Transport)
 	https://www.carteopus.info/
@@ -4357,6 +4361,10 @@
 	Korigo card transport for star company (France) (Transport)
 	https://www.star.fr/
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B C3 15 C9 C8 82 90 00
+	KorriGo is a multimodal ticketing card given in the Région Brittany Council (Other)
+	https://www.korrigo.bzh/fr/une-carte-multiservice/71
+
 3B 6F 00 00 80 5A 29 13 09 10 11 3[36] .. .. .. .. 82 90 00
 	MOBIB (reseau transport en commun Bruxelles, Belgique)
 	http://www.uclouvain.be/sites/security/mobib.html
@@ -4633,6 +4641,9 @@
 
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
+
+3B 6F 00 00 80 5A 3D 23 C4 15 01 01 79 9A AA 14 82 90 00
+	Tec MOBIB Wallonia (Transport)
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 37 6C 64 82 90 00
 	Brussel public transport NFC card (Transport)
@@ -6210,6 +6221,10 @@
 3B 85 80 01 80 73 84 21 40 12
 	Dutch Biometric Passport
 
+3B 85 80 01 80 73 84 21 C0 92
+	Moroccan Identity Card (eID)
+	https://www.cnie.ma/
+
 3B 85 80 01 80 73 C8 21 10 0E
 	NXP P71 (SmartMX3 P71D320 JCOP4) (JavaCard)
 
@@ -6445,6 +6460,10 @@
 3B 88 80 01 00 00 00 00 00 81 70 00 F8
 	Qantas Frequent Flyer Loyalty Card - Contactless (Loyalty)
 
+3B 88 80 01 00 00 00 00 00 81 71 00 F9
+	Passe Navigo Découverte (Transport Île de France) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-decouverte
+
 3B 88 80 01 00 00 00 00 00 81 77 00 FF
 	KBC Maestro card (Bank)
 
@@ -6513,6 +6532,8 @@
 3B 88 80 01 00 00 00 11 F7 81 81 00 EF
 	MOBIB card (Transport)
 	https://mobib.be/en.html
+	Passe Navigo Easy (Transport Île de France) (Transport)
+	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
 
 3B 88 80 01 00 00 01 07 01 72 90 00 EC
 	Belgian passport (2008-2009)
@@ -7560,6 +7581,9 @@
 3B 8C 80 01 50 C1 6A 34 72 00 00 00 00 00 71 71 B0
 	Navigo pass (RATP) (Transport)
 	http://www.navigo.fr/
+
+3B 8C 80 01 50 C1 77 72 22 00 00 00 00 00 71 71 BB
+	Pass Navigo Easy Paris (Transport)
 
 3B 8C 80 01 50 C1 7B 55 BA 00 00 00 00 00 71 71 08
 	Navigo Easy (Paris public transportation) (Transport)
@@ -8967,6 +8991,10 @@
 	Feitian Biopass K27 (PKI)
 	https://www.ftsafe.com/Products/FIDO/Bio
 
+3B 9C 95 81 31 FE 9F 90 67 46 4A 01 04 00 05 01 72 FE 00 AE
+	ePass FIDO-NFC Plus (eID)
+	https://www.ftsafe.com/products/FIDO/NFC
+
 3B 9C 96 00 52 75 74 6F 6B 65 6E 45 43 50 73 63
 	Aktiv Rutoken ECP SC T0
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
@@ -9594,6 +9622,9 @@
 	Twilio Super SIM (Telecommunication)
 	https://www.twilio.com/iot/super-sim-card
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 90 15 00 D9
+	SMARTY (a subsidiary of Three UK) 4G SIM Card (Telecommunication)
+
 3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
 	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
 	https://www.tracfone.com
@@ -9878,6 +9909,9 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 AF 01 00 00 95
 	Gotanet SE USIM (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B4 A0 00 00 2F
+	Beeline RUS (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 B8 03 00 00 80
 	Zero1 SIM card, Singapore (Telecommunication)
@@ -10605,6 +10639,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 3F 33 34 00 A7
 	SIM Card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 48 33 30 00 D4
+	Lifecell UA (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 81 01 33 00 17
 	Telefonica M2M Global SIM (Telecommunication)
@@ -15763,6 +15800,9 @@
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 34 13
 	claro card honduras central america "NAGRA" (Pay TV)
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 41 66
+	NAGRA KUDELSKI (Pay TV)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 42 65
 	Nagra Kudelski / Canalsat Reunion (Pay TV)
