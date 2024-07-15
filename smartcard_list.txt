@@ -1392,8 +1392,16 @@
 	Opus Card for public transportation in the Greater Montreal Area, and in Quebec City. It uses the Calypso Standard. (Transport)
 	https://en.wikipedia.org/wiki/OPUS_card
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 4E 6F 25 82 90 00
+	OPUS Metro card from Quebec, Canada (Transport)
+	https://en.wikipedia.org/wiki/Opus_card
+
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 D7 A7 E9 82 90 00
 	« Oùra » transport card (Transport)
+	https://www.oura.com/
+
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 61 9B EA 82 90 00
+	Oura card for Auvergne-Rhone-Alpes region in France. Using for several public transport (Transport)
 	https://www.oura.com/
 
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
@@ -5368,6 +5376,10 @@
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 00 01 19
 	Česká spořitelna personal certificate card
 
+3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 81 01 14
+	CryptoPlus by Monet+ (eID)
+	https://www.cryptoplus.cz/
+
 3B 7E 94 00 00 80 25 A0 00 00 00 28 56 80 10 12 81 01 17
 	Česká Spořitelna SERVIS24 certificate card
 	http://smallhacks.wordpress.com/2012/05/04/exploring-servis24-certificate-card-from-the-ceska-sporitelna-bank/
@@ -6225,6 +6237,9 @@
 	Moroccan Identity Card (eID)
 	https://www.cnie.ma/
 
+3B 85 80 01 80 73 94 21 40 02
+	European Union Passport (passport)
+
 3B 85 80 01 80 73 C8 21 10 0E
 	NXP P71 (SmartMX3 P71D320 JCOP4) (JavaCard)
 
@@ -6931,6 +6946,9 @@
 
 3B 89 80 01 80 64 16 04 02 82 82 90 00 6C
 	Maestro card (from Mastercard) used by BCGE (switzerland) bank (Bank)
+
+3B 89 80 01 80 64 20 04 01 83 82 90 00 58
+	Raiffeisen Debit Card / Master (Bank)
 
 3B 89 80 01 80 67 04 12 B0 03 05 01 02 4C
 	Austrian Passport
@@ -9547,6 +9565,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 36 14 00 04
 	SIM (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 DE 14 00 EC
+	Romanian Vodafone SIM Card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 6D 13 00 56
 	USIM card (JavaCard)
 
@@ -9606,6 +9627,10 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 11 15 00 46
 	SIM Card for French mobile provider Unyc (Telecommunication)
 	https://www.unyc.io/
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 18 15 00 4F
+	Lebara.fr (Telecommunication)
+	https://www.lebara.fr/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 1D 15 00 4A
 	Telia Sim card for IoT (Telecommunication)
@@ -11666,6 +11691,9 @@
 	ACS ACOS5 "ACOS5-32-G" dual card
 	http://www.acs.com.hk/acos5.asp
 
+3B BE 18 00 00 42 06 11 00 00 00 00 00 00 00 00 00 90 00
+	Etoken nano 192k (eID)
+
 3B BE 94 00 40 14 47 47 33 46 30 34 41 5A 45 54 39 31 33 30
 	GSM operator Life Ukraine (Telecommunication)
 
@@ -13344,6 +13372,10 @@
 3B F5 96 00 00 8. 31 FE 45 4D 79 45 49 44 1.
 	MyEID card (Infineon chip) (PKI)
 	https://services.aventra.fi/English/products_MyEID_E.php
+
+3B F6 13 00 FF 10 80 43 48 49 50 32 32
+	PostFinance debit (Bank)
+	https://www.postfinance.ch
 
 3B F6 18 00 FF 81 31 FE 45 4A 32 41 30 38 30 1B
 	NXP J2A080 - 80K (blank)
@@ -15142,6 +15174,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 21 06 F0 ED 02 00 4C
 	DKB Girocard (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0B 90 FE 01 10 34
+	EC card from Raiffeisenbank im Hochtaunus, Germany (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
