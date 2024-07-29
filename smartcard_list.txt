@@ -1327,6 +1327,9 @@
 3B 4F 00 53 6C 65 34 34 32 2D 34 34 3D A2 13 10 91
 	Debit card  (Bank)
 
+3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D 30 00 00 00
+	Blank card (Other)
+
 3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D A2 13 10 91
 	VISA (Bank)
 
@@ -3378,6 +3381,10 @@
 3B 6E 00 00 4B 41 44 4E 49 4B 41 48 76 31 2E 30 90 00
 	Nikah, Cerai, Rujuk (NCR) - The marriage information with identity of Husband and Wife registered at Jabatan Agama Islam Selangor, Malaysia (eID)
 	http://ncr.jais.gov.my/
+
+3B 6E 00 00 50 6C 61 79 65 72 73 50 6C 75 73 31 2E 31
+	ACOS3 Microprocessor Card (Loyalty)
+	https://www.acs.com.hk/en/products/470/acos3-microprocessor-card/
 
 3B 6E 00 00 57 44 36 13 69 86 93 02 22 19 36 28 12 11
 	bb token bank Banco do Brasil (Bank)
@@ -5849,6 +5856,9 @@
 3B 7F 96 00 00 80 31 80 65 B0 84 56 51 10 12 0F FE 82 90 00
 	Swiss Government PKI (PKI)
 
+3B 7F 96 00 00 80 31 80 65 B0 84 5C 59 FB 12 FF FE 82 90 00
+	Serbian Student ID card - EMV (Other)
+
 3B 7F 96 00 00 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00
 	IDPrime 930/3930 FIPS Level 2 or Level 3 (T=0 CT=96) (BAI1, BAI2, BAI3, BAI5, BAI7) (PKI)
 
@@ -5973,6 +5983,10 @@
 	Venez_Prox
 	Carta nazionale dei servizi
 	https://www.agid.gov.it/it/piattaforme/carta-nazionale-servizi
+
+3B 80 81 11 3C 2C
+	Giesecke+Devrient StarSign Keyfob (JavaCard)
+	https://www.gi-de.com/en/digital-security/identity-technology/enterprise-security/hardware-based-authentication/starsign-key-fob
 
 3B 81 00 20
 	Old MobilCOM GSM (Telecom D1) (Telecommunication)
@@ -10160,6 +10174,9 @@
 	Kazakhstan "Beeline" 4G SIM card (Telecommunication)
 	https://beeline.kz
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 6D 40 2B 83 00 90 00 C2
+	Test SmartCard (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 63 6E 40 27 83 00 90 00 CD
 	SimCard in China (Telecommunication)
 
@@ -10379,6 +10396,10 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 75 30 06 62 F8
 	SIM Card (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 75 30 08 68 FC
+	Vodafone UA Card (Telecommunication)
+	https://www.vodafone.ua
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 73 30 31 07 46 BE
 	Hologram Developer Global IoT SIM Card (Telecommunication)
@@ -11095,6 +11116,9 @@
 	ST33J2M0STL9DZB1 (Telecommunication)
 	https://www.st.com/en/secure-mcus/st33j2m0.html
 
+3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 3C 04 55 02 0C 61 01 00 54
+	euicc from iphone14 (Telecommunication)
+
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 16 57 4A 4D 02 02 33 45 63 77
 	ISIS-Ready T-Mobile Sim Card (Telecommunication)
 
@@ -11810,6 +11834,14 @@
 	A-Trust: a-sign-premium (ca. 2004) "Bürgerkarte" ("Citizen-Card")
 	for Identifikation, Digital Signature etc.
 	("should be" Starcos 2.3)
+
+3B BF 95 00 80 1F C6 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 E5
+	eSTK.me v3.1.1 or later (Telecommunication)
+	https://estk.me
+
+3B BF 95 00 80 3F C6 82 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 47
+	eSTK.me v3.1.1 (Telecommunication)
+	https://eSTK.me
 
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
@@ -12788,6 +12820,9 @@
 3B E9 00 00 81 31 FE 00 FF 50 65 72 73 6F 53 69 6D 54
 	German PersoSim (eID)
 	https://persosim.secunet.com/en/
+
+3B E9 00 00 81 31 FE 45 41 43 4F 53 4A 76 32 30 34 F6
+	ACS ACOSJ-DI 95K (in T=1 mode) (JavaCard)
 
 3B E9 00 00 81 31 FE 45 43 44 31 69 A9 00 00 00 00 14
 	Mastercard credit card, UBS Switzerland (Bank)
