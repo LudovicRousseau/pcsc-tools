@@ -13,10 +13,11 @@ conf_data = configuration_data({
   })
 
 pcsc_dep = dependency('libpcsclite')
+threads_dep = dependency('threads')
 
 executable('pcsc_scan',
   sources : files('pcsc_scan.c'),
-  dependencies : pcsc_dep,
+  dependencies : [pcsc_dep, threads_dep],
   install : true,
   )
 
