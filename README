@@ -130,6 +130,15 @@ Licences:
 History:
 ========
 
+1.7.2 - 10 August 2024, Ludovic ROUSSEAU
+    - 191 new ATRs
+    - provide meson configuration file
+    - improve pcsc_scan Windows support
+      . Use Ctrl-C also on Windows
+      . Windows can also use option -n
+      . better output on Windows dumb terminals
+    - minor fixes and improvements
+
 1.7.1 - 30 December 2023, Ludovic ROUSSEAU
     - 64 new ATRs
     - configure: Use ATR_analysis by default on GNU/Linux

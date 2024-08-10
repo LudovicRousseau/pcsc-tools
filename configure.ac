@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
 
-AC_INIT([pcsc-tools],[1.7.1])
+AC_INIT([pcsc-tools],[1.7.2])
 AC_CONFIG_SRCDIR([pcsc_scan.c])
 AM_INIT_AUTOMAKE([1.8 dist-bzip2 no-dist-gzip foreign])
 

@@ -5,7 +5,7 @@
 # regenerate configuration (run from builddir/)
 # meson setup --reconfigure --wipe
 
-project('pcsc-tools', 'c', version : '1.7.1')
+project('pcsc-tools', 'c', version : '1.7.2')
 
 # for config.h
 conf_data = configuration_data({
