@@ -25,6 +25,7 @@ man_MANS = pcsc_scan.1 $(subst .in, , $(PERL_MANPAGES))
 EXTRA_DIST = \
 	Changelog \
 	LICENCE \
+	meson.build \
 	$(PERL_BINS) \
 	$(PERL_MANPAGES) \
 	$(pcsc_DATA) \
