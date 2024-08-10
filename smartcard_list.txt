@@ -1664,6 +1664,9 @@
 	CIC (Bank)
 	https://www.cic.fr/
 
+3B 65 00 00 20 63 CB C2 80
+	Debit Card (Bank)
+
 3B 65 00 00 20 63 CB C3 00
 	CIC Credit Card (Bank)
 
@@ -3818,6 +3821,10 @@
 
 3B 6F 00 00 80 31 E0 6B 04 54 6B 02 6D 55 55 55 55 55 55
 	Mastercard Credit/Debit Card (Bank)
+
+3B 6F 00 00 80 31 E0 6B 04 54 6B 02 82 55 55 55 55 55 55
+	At Brazil is known as "Elo Card". Outside Brazil in known as "Discover" (Bank)
+	https://www.discover.com/
 
 3B 6F 00 00 80 31 E0 6B 05 05 05 02 80 55 55 55 55 55 55
 	Banamex cuenta perfiles (Bank)
@@ -8010,6 +8017,9 @@
 	Ukrainian International resere bank (ex Sberbak RF) debit card (Bank)
 	https://www.sbrf.com.ua/
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 48 07 90 00 F0
+	Consorsbank VISA debit card  (Bank)
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00 8B
 	S-Etukortti Visa (Bank)
 	https://www.s-pankki.fi/fi/s-etukortti-visa
@@ -11981,6 +11991,9 @@
 	ASECard Crypto
 	http://www.athena-scs.com/product.asp?pid=8
 
+3B D6 18 FF 81 91 FE 1F C3 45 73 C8 21 11 10 DD
+	PDOX J3R180 (JavaCard)
+
 3B D6 96 00 81 B1 FE 45 1F 07 80 31 C1 52 11 18 F8
 	smart card from NASA, 2019 (PKI)
 
@@ -13124,6 +13137,9 @@
 3B EF 00 FF 81 31 86 45 49 42 4D 20 4D 46 43 34 30 30 30 30 38 33 31 43
 	ComCard MFC 4.1
 
+3B EF 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 15 11 31 28 01 10 FD
+	DKB Banking Card (EC-Karte 2023) (Bank)
+	https://www.dkb.de/
 
 3B EF 00 FF 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 66
 	EUROBANK GR (Bank)
@@ -13136,6 +13152,9 @@
 3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 4D
 	Alior Bank SA (Bank)
 	https://www.aliorbank.pl/
+
+3B EF 00 FF 81 31 FE 45 65 63 06 08 71 02 50 00 23 B8 10 5B A0 47 11 16
+	DKB Banking Card (EC-Karte 2020) (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 0D 12 81 01 56 00 1F 00 00 66 86 08 01 22
 	Commerzbank signature card SECCOS (6 or 7) providing RAH security profile (Bank)
@@ -14386,6 +14405,10 @@
 	albo (Bank)
 	https://www.albo.mx/
 
+3B FF 13 00 00 10 00 31 01 F1 56 40 11 00 23 00 00 00 00 00 00 00
+	ANZ BANK (Bank)
+	https://www.anz.com.au/personal/
+
 3B FF 13 00 00 81 31 FE 45 00 31 B9 64 04 04 EC C1 73 94 01 80 82 90 00 52
 	AKD kID (eID)
 	https://www.id.hr
@@ -15139,6 +15162,10 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00 D0
 	Portuguese National Identity Card (eID) (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
+
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 05 00 11 12 0F FF 82 90 00 E1
+	Portuguese autentication card (eID)
+	https://www.autenticacao.gov.pt/web/guest/cc-aplicacao
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 05 00 39 12 01 78 82 90 00 40
 	Identicard for french advocates (eID)
