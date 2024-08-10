@@ -42,6 +42,19 @@ AS_CASE(["$host"],
 		[PCSC_LIBS=-lwinscard
 		CFLAGS="-Wl,-Bstatic -pthread"
 		ATR_PARSER="no"])
+#
+# Special check for pthread support
+AX_PTHREAD([
+ AC_DEFINE(HAVE_PTHREAD, 1,
+  [Define if you have POSIX threads libraries and header files.])
+], [
+ AC_MSG_ERROR([POSIX thread support required])
+])
+
+CC="$PTHREAD_CC"
+
+AC_SUBST(PTHREAD_LIBS)
+AC_SUBST(PTHREAD_CFLAGS)
 
 dnl Checks for libraries.
 # check pcsc-lite

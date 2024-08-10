@@ -7,8 +7,8 @@ PERL_MANPAGES = ATR_analysis.1p.in scriptor.1p gscriptor.1p
 
 bin_PROGRAMS = pcsc_scan
 pcsc_scan_SOURCES = pcsc_scan.c pcsc_scan.1
-pcsc_scan_CFLAGS = $(PCSC_CFLAGS)
-pcsc_scan_LDADD = $(PCSC_LIBS)
+pcsc_scan_CFLAGS = $(PCSC_CFLAGS) $(PTHREAD_CFLAGS)
+pcsc_scan_LDADD = $(PCSC_LIBS) $(PTHREAD_LIBS)
 
 bin_SCRIPTS = $(subst .in, , $(PERL_BINS))
 
