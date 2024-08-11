@@ -1,0 +1,29 @@
+name: Windows_meson
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: msys2 {0}
+
+    steps:
+      - uses: msys2/setup-msys2@v2
+        with:
+          msystem: UCRT64
+          update: true
+          install: >-
+            make
+            pkg-config
+          pacboy: >-
+            gcc:p
+            meson:p
+
+      - uses: actions/checkout@v4
+
+      - name: compile
+        run: |
+          meson setup builddir
+          meson compile -C builddir
