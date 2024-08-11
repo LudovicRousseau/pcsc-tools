@@ -425,10 +425,10 @@ static LONG stress(SCARDCONTEXT hContext2, const char *readerName)
 
 
 #define COUNT 100
-	size_t count;
+	int count;
 	for (count=0; count<COUNT; count++)
 	{
-		printf("%sFAPDU n°: %ld\n", cpl, count);
+		printf("%sFAPDU n°: %d\n", cpl, count);
 		dwSendLength = sizeof(pbSendBuffer);
 		dwRecvLength = sizeof(pbRecvBuffer);
 		rv = SCardTransmit(hCard, pioSendPci, pbSendBuffer, dwSendLength,
