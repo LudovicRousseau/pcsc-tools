@@ -40,6 +40,7 @@ AS_CASE(["$host"],
 		ATR_PARSER="no"],
 	[*-*-mingw*|*-*-msys],
 		[PCSC_LIBS=-lwinscard
+		CFLAGS="-Wl,-Bstatic -pthread"
 		ATR_PARSER="no"])
 #
 # Special check for pthread support
