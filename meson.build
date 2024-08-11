@@ -12,7 +12,13 @@ conf_data = configuration_data({
   'PACKAGE_VERSION' : '"' + meson.project_version() + '"',
   })
 
-pcsc_dep = dependency('libpcsclite')
+# special for Windows
+if host_machine.system() == 'windows'
+  cc = meson.get_compiler('c')
+  pcsc_dep = cc.find_library('winscard')
+else
+  pcsc_dep = dependency('libpcsclite')
+endif
 threads_dep = dependency('threads')
 
 executable('pcsc_scan',
