@@ -64,7 +64,7 @@ const char *pcsc_stringify_error(DWORD rv)
 		NULL))
 	{
 		/* if FormatMessage() failed */
-		snprintf(buffer, sizeof(buffer), "ERROR: 0x%08X\n", rv);
+		snprintf(buffer, sizeof(buffer), "ERROR: 0x%08lX\n", rv);
 	}
 
 	return buffer;
