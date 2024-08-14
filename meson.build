@@ -42,6 +42,9 @@ configure_file(output : 'ATR_analysis.1p',
   install_dir : get_option('mandir') / 'man1',
   configuration : conf_data,
   )
+install_data('smartcard_list.txt',
+  install_dir : conf_data.get('pcsc_dir'),
+  )
 
 # scriptor
 install_data('scriptor',
