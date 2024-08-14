@@ -30,6 +30,11 @@ executable('pcsc_scan',
   install : true,
   )
 
+# man page
+install_man(
+  'pcsc_scan.1'
+  )
+
 # generate config.h
 configure_file(output : 'config.h',
   configuration : conf_data)
