@@ -43,9 +43,15 @@ configure_file(output : 'ATR_analysis.1p',
   configuration : conf_data,
   )
 
+# scriptor
+install_data('scriptor',
+  install_dir : get_option('bindir'),
+  )
+
 # man page
 install_man(
-  'pcsc_scan.1'
+  'pcsc_scan.1',
+  'scriptor.1'
   )
 
 # generate config.h
