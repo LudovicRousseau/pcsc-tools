@@ -10,6 +10,7 @@ project('pcsc-tools', 'c', version : '1.7.2')
 # for config.h
 conf_data = configuration_data({
   'PACKAGE_VERSION' : '"' + meson.project_version() + '"',
+  'pcsc_dir' : get_option('prefix') / get_option('datadir') / 'pcsc',
   })
 
 extra_link_args = []
@@ -28,6 +29,18 @@ executable('pcsc_scan',
   dependencies : [pcsc_dep, threads_dep],
   link_args : extra_link_args,
   install : true,
+  )
+
+# ATR_analysis
+configure_file(output : 'ATR_analysis',
+  input : 'ATR_analysis.in',
+  install_dir : get_option('bindir'),
+  configuration : conf_data,
+  )
+configure_file(output : 'ATR_analysis.1p',
+  input : 'ATR_analysis.1p.in',
+  install_dir : get_option('mandir') / 'man1',
+  configuration : conf_data,
   )
 
 # man page
