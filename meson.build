@@ -51,10 +51,24 @@ install_data('scriptor',
   install_dir : get_option('bindir'),
   )
 
+# gscriptor
+install_data('gscriptor',
+  install_dir : get_option('bindir'),
+  )
+configure_file(output : 'gscriptor.desktop',
+  input : 'gscriptor.desktop.in',
+  install_dir : get_option('datadir') / 'applications',
+  configuration : conf_data,
+  )
+install_data('gscriptor.png',
+  install_dir : conf_data.get('pcsc_dir'),
+  )
+
 # man page
 install_man(
   'pcsc_scan.1',
-  'scriptor.1'
+  'scriptor.1',
+  'gscriptor.1',
   )
 
 # generate config.h
