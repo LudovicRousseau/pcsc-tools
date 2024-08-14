@@ -3,7 +3,7 @@ SUBDIRS = po
 endif
 
 PERL_BINS = ATR_analysis.in scriptor gscriptor
-PERL_MANPAGES = ATR_analysis.1p.in scriptor.1p gscriptor.1p
+PERL_MANPAGES = ATR_analysis.1p.in scriptor.1 gscriptor.1p
 
 bin_PROGRAMS = pcsc_scan
 pcsc_scan_SOURCES = pcsc_scan.c pcsc_scan.1
