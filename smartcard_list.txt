@@ -2308,7 +2308,6 @@
 
 3B 6A 00 00 4A 43 4F 50 31 30 56 32 33 31
 	Dongle Smart Card (MxKey) (Other)
-	http://www.mxkey.biz/
 
 3B 6A 00 00 80 31 C0 A1 02 03 01 32 81 16
 	Lloyds TSB Visa Credit/Debit Card
