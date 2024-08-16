@@ -1,0 +1,5 @@
+option('ATRparser',
+  type : 'string',
+  value : 'ATR_analysis',
+  description : 'filename of the ATR parser to use')
+

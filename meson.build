@@ -11,6 +11,7 @@ project('pcsc-tools', 'c', version : '1.7.2')
 conf_data = configuration_data({
   'PACKAGE_VERSION' : '"' + meson.project_version() + '"',
   'pcsc_dir' : get_option('prefix') / get_option('datadir') / 'pcsc',
+  'ATR_PARSER' : '"' + get_option('ATRparser') + '"',
   })
 
 extra_link_args = []
