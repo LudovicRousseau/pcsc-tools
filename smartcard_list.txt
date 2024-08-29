@@ -1395,6 +1395,10 @@
 	Opus Card for public transportation in the Greater Montreal Area, and in Quebec City. It uses the Calypso Standard. (Transport)
 	https://en.wikipedia.org/wiki/OPUS_card
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 4C FB 30 82 90 00
+	OPUS Card, used for transit in Greater Montreal and Quebec City, Canada (Transport)
+	https://www.carteopus.info/?language=en
+
 3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 4E 6F 25 82 90 00
 	OPUS Metro card from Quebec, Canada (Transport)
 	https://en.wikipedia.org/wiki/Opus_card
@@ -3903,6 +3907,9 @@
 3B 6F 00 00 80 5A 08 03 03 00 00 00 02 C8 83 CB 82 92 00
 	card for Bordeaux transport (Transport)
 
+3B 6F 00 00 80 5A 08 03 03 00 00 00 7C 56 BC 7E 82 90 00
+	Unico Campania (Italy) transport card (Transport)
+
 3B 6F 00 00 80 5A 08 03 03 00 00 00 C0 0F AF 04 82 92 00
 	Bordeaux Urban Transportation Card (NFC) (Transport)
 
@@ -4933,6 +4940,9 @@
 3B 78 94 00 00 86 84 04 49 30 31 06 04
 	bank of china Debit Card (Bank)
 
+3B 78 95 00 00 57 44 29 03 60 86 93 03
+	Driving Licence (Transport)
+
 3B 78 96 00 00 00 73 C8 40 00 00 90 00
 	SAM card for acquirer module by lanit.ru (Bank)
 
@@ -5835,6 +5845,9 @@
 3B 7F 96 00 00 31 00 DE 52 50 01 00 15 00 00 00 00 00 00 00
 	VALES (Bank)
 
+3B 7F 96 00 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
+	ST Topaz (JavaCard)
+
 3B 7F 96 00 00 80 31 80 58 43 65 72 74 75 6D 30 31 82 90 00
 	Certum Electronic Seal (PKI)
 
@@ -6256,6 +6269,9 @@
 3B 85 80 01 80 73 84 21 C0 92
 	Moroccan Identity Card (eID)
 	https://www.cnie.ma/
+
+3B 85 80 01 80 73 84 21 E0 B2
+	Dutch ID-card (eID)
 
 3B 85 80 01 80 73 94 21 40 02
 	European Union Passport (passport)
@@ -8026,6 +8042,10 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 37 00 90 00 89
 	SpareBank Visa Card, Norway (Bank)
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00 F6
+	Debit Card (Deutsche Bank Card Plus) (Bank)
+	https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 56 31 43 4E 07 90 00 ED
 	Tarjeta Después BBVA España (contact interface) (Bank)
 	https://www.bbva.es/personas/productos/tarjetas/tarjeta-despues.html
@@ -9673,6 +9693,9 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 90 15 00 D9
 	SMARTY (a subsidiary of Three UK) 4G SIM Card (Telecommunication)
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E C0 15 00 89
+	Orange France Postpaid SIM Card (Telecommunication)
+
 3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
 	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
 	https://www.tracfone.com
@@ -10314,6 +10337,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 32 38 71 DF 00 00 06 00 00 1F
 	token (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 52 39 71 DF 00 00 00 00 00 78
+	"Feitian ePass2003" USB (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
@@ -10629,6 +10655,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 46 01 49 01 00 8A
 	T-Mobile Poland pre-paid SIM card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 57 57 4A 4D 02 0C 60 80 00 4D
+	Google Fi Data SIM (Telecommunication)
+	https://fi.google.com
 
 3B 9F 96 80 1F C7 80 31 E0 73 F6 A1 57 57 4A 4D 02 0B 61 10 00 5B
 	G+D Mobile Security for private 5G USIM (Telecommunication)
@@ -10979,6 +11009,10 @@
 	Ucom Armenia (Telecommunication)
 	https://www.ucom.am
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 95 00 82 90 00 92
+	Dish Wireless 5G (Telecommunication)
+	https://help.boostmobile.com/docs/boost-mobile-network
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 04 01 00 82 6A 82 EC
 	SIM (Telecommunication)
 
@@ -11259,6 +11293,9 @@
 
 3B 9F 96 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FE
 	ISPL Card (Telecommunication)
+
+3B 9F 96 C0 F0 31 FE 45 75 4A 61 76 65 6C 69 6E 2D 4F 53 20 31 2E 30 AB
+	ATKey.Card NFC Bio-ID (eID)
 
 3B 9F 97 80 1F C6 80 31 E0 73 FE 21 1B 64 41 44 21 00 82 90 00 E5
 	SAKURA Internet SIM (Telecommunication)
@@ -12023,6 +12060,10 @@
 3B D7 11 00 40 0A 65 4E 43 4F 53 30 37
 	eNCOS MC MChip Advance (Bank)
 
+3B D7 97 00 81 B1 FE 45 1F 87 80 31 C1 53 51 13 20 12
+	IdemiaID-ONEPIV (eID)
+	https://www.idemia.com/id-one-piv-card
+
 3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F
 	US Government CAC (PKI) / IDEMIA Cosmo v8 (PKI)
 	https://www.idemia.com/id-one-piv-card
@@ -12630,6 +12671,9 @@
 3B DF 96 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 79
 	Test PIV Cards available for sale from NIST
 	http://csrc.nist.gov/groups/SNS/piv/testcards.html
+
+3B DF 96 00 90 10 3F 07 00 80 31 E0 67 73 77 69 63 63 00 00 73 FE 21 00 06
+	swsim card (Telecommunication)
 
 3B DF 96 00 90 10 3F 07 00 80 31 E0 67 73 77 69 63 63 00 00 73 FE 21 00 DC
 	swsim (Telecommunication)
@@ -13904,6 +13948,10 @@
 
 3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 93
 	National Health Insurance (Taiwan) (HealthCare)
+
+3B FA 18 00 00 91 01 31 FE 45 4A 33 52 33 31 30 2D 33 35 35 FF
+	NXP JCOP 4 Java Card 3.0.5 Classic (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
 
 3B FA 18 00 00 91 01 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 82
 	Supposed P71 SecID purchased from a Chinese manufacturer (JavaCard)
