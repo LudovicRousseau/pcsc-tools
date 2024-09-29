@@ -1407,6 +1407,9 @@
 	OPUS Metro card from Quebec, Canada (Transport)
 	https://en.wikipedia.org/wiki/Opus_card
 
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 D3 AD C1 82 90 00
+	OURA card (Transport)
+
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 D7 A7 E9 82 90 00
 	« Oùra » transport card (Transport)
 	https://www.oura.com/
@@ -1414,6 +1417,10 @@
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 61 9B EA 82 90 00
 	Oura card for Auvergne-Rhone-Alpes region in France. Using for several public transport (Transport)
 	https://www.oura.com/
+
+3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C5 82 69 63 82 90 00
+	MOBIB Personal Travel Card, Brussels | STIB-MIVB  (Transport)
+	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=en
 
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
 	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
@@ -2668,6 +2675,10 @@
 3B 6B 00 00 47 50 00 63 0A 00 40 00 0F 90 00
 	cash app visa prepaid debit (Bank)
 	https://cash.app/
+
+3B 6B 00 00 48 30 54 0A 04 05 30 3E 0F 90 00
+	Belfius Beats Debit/Credit Mastercard | Bancontact (Bank)
+	https://www.belfius.be/retail/nl/producten/betalen/kredietkaarten-prepaidkaarten/mastercard-new/Index.aspx
 
 3B 6B 00 00 53 43 00 15 02 02 50 01 0F 90 00
 	Visa (Bank)
@@ -4374,6 +4385,10 @@
 	ZOU! for Région Sud (Transport)
 	https://zou.maregionsud.fr/ma-carte-zou/
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 11 8E 47 82 90 00
+	ZOU! for Région Sud (Transport)
+	https://zou.maregionsud.fr/ma-carte-zou/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
 
@@ -4476,6 +4491,10 @@
 
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 21 7A 3A 82 90 00
 	mobob (Transport)
+
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 2E 0E 2B 82 90 00
+	De Lijn - Vlaamse Vervoermaatschappij Travel Pass  |  NMBS-SNCB (Transport)
+	https://www.delijn.be/en/content/abonnementen/de-lijn-nmbs/
 
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 22 4F 89 82 90 00
 	MoBIB card (Transport)
@@ -6191,6 +6210,9 @@
 
 3B 85 80 01 20 63 C8 B8 80 B4
 	Visa Classic  (Bank)
+
+3B 85 80 01 20 63 CB 32 20 9E
+	VISA Prepaid card for Paris 2024 Olympics (Bank)
 
 3B 85 80 01 20 63 CB A0 00 2C
 	Visa card from Banque populaire du nord/Casden
@@ -11123,6 +11145,10 @@
 	1NCE SIM card (Telecommunication)
 	https://1nce.com/en-eu/1nce-os/our-architecture
 
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1B 67 45 4D 75 30 34 02 4B 02
+	Hologram Global G1  eUICC SIM (Telecommunication)
+	https://www.hologram.io/products/global-iot-sim-card/
+
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 13 65 02
 	sysmoEUICC1-Cxx - eUCICC for econsumer eSIM RSP (Telecommunication)
 	https://sysmocom.de/products/sim/sysmocom-euicc/index.html
@@ -12026,6 +12052,10 @@
 3B D5 18 FF 81 91 FE 1F C3 80 73 C8 21 13 09
 	Athena IDProtect Key (v2)
 	http://www.athena-scs.com/product.asp?pid=33
+
+3B D5 18 FF 81 B1 FE 45 1F C3 80 73 C8 21 10 6F
+	DPI Card ID Guatemala Versión 2024 (eID)
+	https://www.renap.gob.gt/
 
 3B D5 95 04 00 AE 01 02 01 01
 	Axalto Cyberflex Access 64K v2b SM 1.1
@@ -14797,6 +14827,9 @@
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
 	https://www.postbank.de/
 
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 D0 44 A0 47 12 EF
+	Debitcard (Bank)
+
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 00 80 C0 47 12 B2
 	1822direct Bank Card (Bank)
 	https://www.1822direkt.de
@@ -15087,6 +15120,10 @@
 
 3B FF 94 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0E
 	IDPrime 930 FIPS Level 3 (T=1 CT=94) (BAI4) (PKI)
+
+3B FF 94 00 00 81 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 E2
+	DPI Card ID Guatemala Versión 2018 (eID) (eID)
+	https://www.renap.gob.gt
 
 3B FF 94 00 00 C0 0A B1 FE 49 1F 43 80 31 E0 73 F6 21 13 57 34 36 43 41 32 30 20 68
 	Sonera UICC (Telecommunication)
