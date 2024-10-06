@@ -8193,6 +8193,9 @@
 3B 8F 80 01 80 31 80 65 49 54 4A 34 42 12 0F FF 82 90 00 8B
 	Identity Card (eID)
 
+3B 8F 80 01 80 31 80 65 49 54 4A 34 43 12 0F FF 82 90 00 8A
+	Electronic Identity (CIE) (eID)
+
 3B 8F 80 01 80 31 80 65 49 54 4A 34 44 12 0F FF 82 90 00 8D
 	CIE Italian Electronic Identity Card (eID)
 
@@ -8243,6 +8246,10 @@
 3B 8F 80 01 80 31 B8 65 B0 85 05 00 11 12 24 60 82 90 00 07
 	Finnish Citizen Certificate ID Card (eID)
 	https://dvv.fi/en/citizen-certificate-on-id-card
+
+3B 8F 80 01 80 31 D8 53 65 49 44 64 B0 85 05 10 12 23 3F 16
+	Estonian Identity Card 2025 (eID) (eID)
+	https://www.id.ee/
 
 3B 8F 80 01 80 31 D8 65 B0 85 05 00 11 12 75 20 82 90 00 76
 	Swedish national ID card (eID)
@@ -8649,6 +8656,9 @@
 
 3B 8F 80 01 80 5A 08 03 04 00 02 00 24 E2 79 78 82 90 00 0C
 	Paris Navigo card 14443 B' (Innovatron - Calypso)
+
+3B 8F 80 01 80 65 54 43 20 14 13 31 C0 73 F4 A1 80 81 05 08
+	Turkey id card (eID)
 
 3B 8F 80 01 80 66 B0 07 01 01 07 .. .. .. .. .. .. 90 00 ..
 	Gemalto Santander Optelio TUI R7 with WG10 customized using Contactless interface
@@ -11319,6 +11329,9 @@
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D7
 	Verizon "4G LTE" USIM (Telecommunication)
 
+3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0F 13 81 0F 2E
+	SFR GSM SIM Card (Telecommunication)
+
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0F 50 81 0F 6D
 	5G (Telecommunication)
 
@@ -11899,6 +11912,9 @@
 
 3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 00 00 00 00 00 00 00 00 F1
 	a.sign premium signature card
+
+3B BF 11 00 81 31 FE 45 45 50 41 00 00 00 00 79 27 80 76 00 00 00 00 59
+	Raiffeisenbank Austria (Raffeisen Club) Maestro debit card (old model) (Bank)
 
 3B BF 11 00 81 31 FE 45 4D 43 41 00 00 01 00 01 69 71 85 00 00 00 00 77
 	Austrian "easybank" branded Mastercard, issued 2007
@@ -13163,6 +13179,12 @@
 3B EF 00 00 81 31 FE 45 44 4C 41 5A 46 54 56 32 44 49 44 31 30 30 FF 06
 	Lufthansa ID Card (eID)
 
+3B EF 00 00 81 31 FE 45 45 50 41 00 00 00 00 88 91 02 72 00 00 00 00 D9
+	Raiffeisenbank Austria (Raffeisen Club) Maestro debit card (Bank)
+
+3B EF 00 00 81 31 FE 45 45 50 41 00 00 00 01 01 30 62 22 00 00 00 00 C0
+	Raiffeisenbank Austria (Raffeisen Club) Maestro debit card (Bank)
+
 3B EF 00 00 81 31 FE 45 46 49 4F 4D 4B 5F 30 30 31 20 30 31 30 41 00 9C
 	MasterCard/PayPass Card issued by Czech FIO Banka a.s. (contact chip)
 	note the ASCII string ' FIOMK_001 010A' embedded in ATR
@@ -13850,6 +13872,9 @@
 3B F9 18 00 FF 81 31 FE 45 50 56 5F 4A 33 41 30 38 31 4D
 	NXP JCOP J3A081 (JavaCard)
 	https://secure.smartcardsource.com/j3a081m.html
+
+3B F9 91 00 FF 91 81 71 40 40 00 0A 80 04 1E 2E 22 2C 14 90 C2
+	Mifare DESFIRE (Other)
 
 3B F9 91 00 FF 91 81 71 40 40 00 41 80 04 31 76 6A 78 16 90 E0
 	DESFIRE MIVARE EV2 (Other)
@@ -14678,6 +14703,10 @@
 	OEAMTC Visa Club Card (Bank)
 	https://www.oeamtc.at/mitgliedschaft/leistungen/die-oeamtc-kreditkarte-31091443
 
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 08 33 99 56 00 00 00 00 AC
+	Austrian Sparkasse ISIC debit card (Mastercard) (eID)
+	https://isic.at/
+
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
 	Deutsche Kreditbank Debit (Bank)
 
@@ -15339,6 +15368,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 07 09 E0 F9 02 00 61
 	Sparkasse Ingolstadt (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 12 08 A0 EB 02 00 27
+	Girocard (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 14 07 10 B8 02 00 CD
 	Sparkasse Aachen - german Maestro/Girocard (S-Payment TGI 50380969) (Bank)
