@@ -15,7 +15,6 @@ jobs:
           msystem: UCRT64
           update: true
           install: >-
-            make
             pkg-config
           pacboy: >-
             gcc:p
