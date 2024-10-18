@@ -1097,6 +1097,9 @@
 3B 3B 94 00 6A 38 20 00 00 0A 20 33 33 90 00
 	SIM Card for cellular (Orange) (Telecommunication)
 
+3B 3B 94 00 6F 38 10 10 41 01 80 03 03 90 00
+	Orange SIM (Telecommunication)
+
 3B 3B 94 00 80 65 32 13 04 03 30 83 81 90 00
 	SIM cards by the austrian cell phone provider A1
 
@@ -6910,6 +6913,9 @@
 	ACS ACOSJ (Combi) (JavaCard)
 	http://www.acs.com.hk/en/products/405/acosj-java-card-combi/
 
+3B 89 80 01 41 43 4F 53 4A 76 32 30 35 1D
+	ACOSJ dual interface Java card 95K (JavaCard)
+
 3B 89 80 01 43 41 52 44 41 47 41 46 43 5E
 	Student ID of University Duisburg-Essen (Other)
 	https://www.uni-due.de/studierendensekretariat/studierendenausweis.shtml
@@ -7087,6 +7093,10 @@
 	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
 
+3B 8A 80 01 4A 33 52 33 31 30 2D 33 35 35 0C
+	NXP JCOP 4 (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
+
 3B 8A 80 01 4A 43 4F 50 33 31 56 32 33 32 7A
 	Snapper New Zealand (JCOP)
 
@@ -7235,6 +7245,10 @@
 
 3B 8B 80 01 00 31 C1 64 08 98 62 00 00 90 00 FC
 	ERSTE Bank creditcard (mastercard) (Bank)
+
+3B 8B 80 01 00 31 C1 64 08 98 62 29 00 90 00 D5
+	CashApp (Tap) (Bank)
+	https://cash.app/help
 
 3B 8B 80 01 00 31 C1 64 09 11 21 30 00 90 00 07
 	SmartMX (Other)
@@ -8121,6 +8135,9 @@
 3B 8F 80 01 00 B8 54 31 00 00 90 00 00 00 00 00 FF FF FF BC
 	VISA Debit issued by WIREX. card made by CONTIS / TAG SYSTEMS (Bank)
 	https://wirexapp.com/
+
+3B 8F 80 01 01 65 4E 43 4F 53 2D 4D 43 41 2D 43 4C 30 37 3C
+	eNCOS + MCA, MchipAdvance 123 bundled with eNCOS (Bank)
 
 3B 8F 80 01 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00 D1
 	Revolut Mastercard (Bank)
@@ -9998,6 +10015,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 06 02 40 BF
 	Vietnamobile SIM card (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 07 02 10 EE
+	Serbia, Yettel, Prepaid (touristic) SIM (Telecommunication)
+	https://www.yettel.rs/en/consumer/offer/tariff-packages/prepaid-tariff-package
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 CF B9 02 A0 EE
 	Gotanet SE USIM (Telecommunication)
 
@@ -10166,6 +10187,9 @@
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 01 74 83 0F 90 00 88
 	Gemplus GemXplore 3G USIM
+
+3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6A
+	Sim Card Proximus (Telecommunication)
 
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 15 CA 9C D7 09 20
 	RBC Bank Card (Bank)
@@ -12315,6 +12339,9 @@
 	ZeitControl BasicCard 7.6 (Other)
 	https://www.zeitcontrol.de/en/products/basiccard/basiccard
 
+3B DB 96 00 40 10 00 4F 53 5F 33 5F 31 34 05 90 00
+	Vehicle identity card for Iran (eID)
+
 3B DB 96 00 80 1F 03 00 31 C0 64 77 E3 03 00 82 90 00 C1
 	Oberthur Card Systems (contactless pilot) ID-One Cosmo v5.2D 64K
 	Oberthur Card Systems (PIV Transitional) ID-One Cosmo v5.2D 72K
@@ -13687,6 +13714,9 @@
 3B F7 91 00 FF 91 81 71 FE 40 00 41 20 00 11 77 81 80 40
 	Contactless Mifare DESFire
 
+3B F8 11 00 00 40 0A 01 65 4E 43 4F 53 30 37
+	eNCOS + MCA, MchipAdvance bundled with eNCOS (Bank)
+
 3B F8 11 00 00 81 71 FE 42 00 54 4E 05 19 00 00 00 02 A1
 	Taiwan EasyCard (Transport)
 	https://www.easycard.com.tw/english/index.asp
@@ -14266,6 +14296,10 @@
 
 3B FD .. 00 00 81 31 .. 43 80 31 80 65 B0 .. .. .. .. 83 .. 90 .. ..
 	IDClassic 3XX / Classic TPC (IXS, IS, IS V2, IS CC, IM, IM CC, IM CC V3) / MultiApp ID Cards
+
+3B FD 13 00 00 10 00 80 31 80 65 49 53 06 0B 01 83 07 90 00
+	MIR card issued by Gazprombank (Russia) (Bank)
+	https://www.gazprombank.ru/personal/cards/7579039/
 
 3B FD 13 00 00 81 31 60 65 80 31 C0 69 4D 54 43 4F 53 73 01 01 16 60
 	Silesian University (Katowice, Poland) Student Identity Card (eID)
@@ -14855,6 +14889,10 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 60 2A A0 47 12 31
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
 	https://www.postbank.de/
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 C0 44 21 47 12 7E
+	Commerzbank Classic Kreditkarte Mastercard (Bank)
+	https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 D0 44 A0 47 12 EF
 	Debitcard (Bank)
