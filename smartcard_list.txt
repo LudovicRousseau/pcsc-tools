@@ -533,6 +533,9 @@
 3B 16 95 D0 01 7B DA 0D 00
 	Verizon GSM SIM (Telecommunication)
 
+3B 16 96 2A 00 0E 01 01 03
+	RW SIM card for mobile forensics (Telecommunication)
+
 3B 16 96 41 73 74 72 69 64
 	Gemalto IDPrime v2+ .NET
 
@@ -3620,6 +3623,9 @@
 	neat MasterCard  (Bank)
 	https://www.neatcommerce.com/
 
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 49 30 37 00 90 00
+	Payment VISA card (Bank)
+
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 57 49 31 31 00 90 00
 	Banca Popolare Di Sondrio (IT) - Ateneo+ Card for University of Brescia (Bank)
 	https://www.ateneopiu.it/home
@@ -4391,6 +4397,9 @@
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 11 8E 47 82 90 00
 	ZOU! for Région Sud (Transport)
 	https://zou.maregionsud.fr/ma-carte-zou/
+
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 75 14 67 3E 82 90 00
+	bus card (Transport)
 
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 92 E6 42 82 90 00
 	Transport card in côte d'or France (mobigo)
@@ -9686,6 +9695,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 DE 14 00 EC
 	Romanian Vodafone SIM Card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 32 15 00 0F
+	Bell 5G/LTE multi SIM card, Canada (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 6D 13 00 56
 	USIM card (JavaCard)
 
@@ -11094,6 +11106,9 @@
 	Ucom Armenia (Telecommunication)
 	https://www.ucom.am
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 21 00 82 90 00 26
+	French SIM card from MVNO Phenix Partners, host operator Orange (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 95 00 82 90 00 92
 	Dish Wireless 5G (Telecommunication)
 	https://help.boostmobile.com/docs/boost-mobile-network
@@ -12454,6 +12469,9 @@
 	Public Services Card | Ireland (Other)
 	https://psc.gov.ie/
 
+3B DC 18 FF 00 00 12 25 00 64 80 00 04 01 00 90 00
+	Vitale card CPS V4 (Carte Profesionnel de Santé) (HealthCare)
+
 3B DC 18 FF 80 11 C1 80 73 C8 21 13 66 05 03 63 51 00 02 32
 	GoTrust Idem Card (Other)
 	https://www.gotrustid.com/idem-card
@@ -12766,6 +12784,10 @@
 	Sri Lankan driving license [ web: motortraffic.gov.lk ] (eID)
 	http://www.motortraffic.gov.lk/web/index.php?option=com_content&view=article&id=83&Itemid=140&lang=en
 
+3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 49 78 00 00 80 83 0F 90 00 0C
+	Idemia Cosmo X (eID)
+	https://cyber.gouv.fr/sites/default/files/2021/08/anssi-cible-cc-2021_36n.pdf
+
 3B DF 96 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 20
 	Austrian health insurance card "e-card" (HealthCare)
 	https://de.wikipedia.org/wiki/E-card_(Chipkarte)
@@ -12889,6 +12911,10 @@
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 33 31 06
 	IBM JCOP 30/31bio (contact interface)
+
+3B E6 00 FF 81 31 FE 45 80 64 0C 70 00 00 8A
+	AEON Credit Card (Bank)
+	https://www.aeon.co.jp/card/lineup/
 
 3B E7 00 00 81 31 FE 42 00 63 95 31 05 90 00 B9
 	Chunghwa Post Co., Ltd. Visa Debit Card (Bank)
@@ -13581,6 +13607,10 @@
 3B F6 13 00 FF 10 80 43 48 49 50 32 32
 	PostFinance debit (Bank)
 	https://www.postfinance.ch
+
+3B F6 13 00 FF 91 01 31 FE 40 80 64 0F 70 00 00 9E
+	JA Bank Cash Card (Bank)
+	https://www.jabank.org/
 
 3B F6 18 00 FF 81 31 FE 45 4A 32 41 30 38 30 1B
 	NXP J2A080 - 80K (blank)
@@ -14517,6 +14547,9 @@
 3B FE 96 00 00 80 31 FE 43 80 73 84 00 E0 65 B0 85 04 00 FB 82 90 00 4E
 	EU smart tachograph card (driver/company/control/workshop)
 	https://dtc.jrc.ec.europa.eu/
+
+3B FE 96 00 00 80 31 FE 43 80 73 84 00 E0 65 B0 85 05 00 25 82 90 00 91
+	Swiss truck driver card (Transport)
 
 3B FE 96 00 00 81 31 FE 45 80 31 80 66 40 90 A5 10 2E 03 83 01 90 00 6E 90 00
 	Swissbit PS-100u (JavaCard)
