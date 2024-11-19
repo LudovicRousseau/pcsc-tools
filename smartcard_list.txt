@@ -1420,6 +1420,10 @@
 	« Oùra » transport card (Transport)
 	https://www.oura.com/
 
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 56 B5 AA 82 90 00
+	Oura Auvergne Rhône Alpes (Transport)
+	https://oura.com
+
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 61 9B EA 82 90 00
 	Oura card for Auvergne-Rhone-Alpes region in France. Using for several public transport (Transport)
 	https://www.oura.com/
@@ -3022,6 +3026,10 @@
 
 3B 6D 00 00 80 67 A1 11 01 01 64 08 55 83 0E 90 00
 	Italian Intesa SanPaolo Maestro
+
+3B 6D 00 00 86 01 48 44 4D 71 02 07 04 26 69 68 10
+	Sinopec Gas Card (Other)
+	https://www.sinopec.com
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
@@ -5516,6 +5524,10 @@
 3B 7F 12 00 00 44 56 4E 20 54 45 43 48 20 52 65 76 35 33 76
 	Chinese cable TV JETCAS card (DVN)
 
+3B 7F 12 00 00 44 56 4E 20 54 45 43 48 20 52 65 76 35 33 94
+	Hangzhou HDTV V4.0 Subscription Card (Pay TV)
+	https://www.wasu.com/
+
 3B 7F 13 00 00 80 31 C0 52 02 0F 64 02 B3 02 70 83 83 90 00
 	Banco Bradesco ELO (Brazil) (Bank)
 
@@ -7131,6 +7143,10 @@
 	Super SIM X-SIM 16-in-1 (Telecommunication)
 	https://multi-com.eu/,details,id_pr,14881,key,super-sim-16-in-1-card,smenu,gsm.html
 
+3B 8A 80 01 54 32 43 31 33 52 46 4E 90 00 E6
+	Anordsem NFC Forum Type 4 Writable RFID NFC Card (Other)
+	https://www.aliexpress.us/item/2251832653152623.html
+
 3B 8A 80 01 54 69 63 54 6F 6B 20 33 2E 30 08
 	Cryptas TicTok v3 (PKI)
 	https://www.cryptas.com/en/products/tictok-card
@@ -7434,6 +7450,10 @@
 
 3B 8C 80 01 50 04 46 3E C3 E1 F3 5E 11 77 81 A1 E8
 	Spanish ID (eID)
+
+3B 8C 80 01 50 04 6F 2A 86 00 00 00 00 00 71 71 9A
+	RavKav israel (PKI)
+	https://ravkavonline.co.il/en/
 
 3B 8C 80 01 50 05 09 CE 35 00 00 00 00 33 71 A1 49
 	Libertan transport card from Nantes (France), based on Calypso (Transport)
@@ -10597,6 +10617,10 @@
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 02 22 00 80 01 01 27
 	giffgaff USIM (Telecommunication)
 
+3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 03 22 00 88 01 02 2D
+	T-Mobile Sim Card (Telecommunication) (Telecommunication)
+	https://www.t-mobile.com/
+
 3B 9F 96 80 1F C6 80 31 E0 73 F6 21 13 67 56 03 22 01 21 01 00 87
 	Rain 4G 5G Internet Service provider  (Telecommunication)
 	https://www.rain.co.za
@@ -11202,6 +11226,10 @@
 	sysmoEUICC1-Cxx - eUCICC for econsumer eSIM RSP (Telecommunication)
 	https://sysmocom.de/products/sim/sysmocom-euicc/index.html
 
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 26 6F 3D
+	An eSIM physical card, you can write eSIM profiles into it and use it as a general SIM (Telecommunication)
+	https://www.9esim.com/
+
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
 
@@ -11420,6 +11448,10 @@
 
 3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 14 01 02 02 01 02 57
 	Orange SIM from Egypt (Telecommunication)
+
+3B 9F 97 80 3F C6 82 80 31 E0 73 FE 21 1F 63 00 89 00 83 81 90 00 69
+	ST4SIM-200M (Telecommunication)
+	https://www.st.com/en/secure-mcus/st4sim-200m.html
 
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 08 56 21 00 82 90 00 19
 	eSIM card (Telecommunication)
@@ -14096,6 +14128,10 @@
 3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 93
 	National Health Insurance (Taiwan) (HealthCare)
 
+3B FA 18 00 00 91 01 31 FE 45 4A 33 52 31 38 30 2D 32 35 35 F5
+	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard) (JavaCard)
+	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
+
 3B FA 18 00 00 91 01 31 FE 45 4A 33 52 33 31 30 2D 33 35 35 FF
 	NXP JCOP 4 Java Card 3.0.5 Classic (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
@@ -14454,6 +14490,10 @@
 3B FD 96 00 00 81 31 FE 45 00 00 01 66 87 03 80 00 00 00 00 00 00 03
 	DPI (Documento Personal de Identificación) Guatemala (eID)
 
+3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 41 30 38 30 43 43 48
+	Universal JCard C-UJC128-PAC-001 (JavaCard)
+	https://www.usmartcards.co.uk/universal-j-cards
+
 3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 44 4C 31 32 38 43 52 57
 	Universal JCard (Contact) with Infineon SLE78 (JavaCard)
 	http://www.usmartcards.co.uk/cards/universal-jcard-contact-with-infineon-sle78-white-gloss-pvc-card.html
@@ -14463,6 +14503,8 @@
 
 3B FE 13 00 00 10 80 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
 	Sberbank of Russia MIR debit card (Bank)
+	Swile card
+	https://www.swile.co/fr-fr/swile-card
 
 3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
 	LOT test card (JavaCard)
@@ -14914,6 +14956,10 @@
 3B FF 18 00 FF 81 31 FE 40 65 63 11 16 71 01 56 00 0F 13 09 D0 A9 57 11 1B
 	Harzer Volksbank eG bank card (girocard, V-PAY, debit card, Germany / Giesecke & Devrient, DG Nexolution, 10/22) (Bank)
 	https://www.harzer-volksbank.de/privatkunden/girokonto-kreditkarten/bankkarte-v-pay.html
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 10 26 20 47 12 CD
+	Fyrst Bank Card (Bank)
+	https://fyrst.de
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 50 73 20 47 12 D8
 	Commerzbank maestro (Bank)
