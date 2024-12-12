@@ -527,6 +527,9 @@
 3B 16 95 D0 01 6C FD 0D 00
 	Virgin Mobile SIM card (SIM)
 
+3B 16 95 D0 01 6E F4 0C 00
+	SIM card (Telecommunication)
+
 3B 16 95 D0 01 7B 01 0E 00
 	Vivo Brasil - SIM Card (Telecommunication)
 
@@ -3507,6 +3510,7 @@
 	Italian Webank.it BPM Banca Popolare di Milano Bancomat & Maestro Card (Bank)
 	Sberbank of Russia MIR debit card (Bank)
 	MasterCard bank card by OTP Bank (Hungary)
+	UniCredit Bank in Serbia
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -5989,6 +5993,10 @@
 	SafeNet IDPrime 940C (eID)
 	https://data-protection-updates.gemalto.com/2023/10/05/safenet-etoken-5110-cc-940c-release-announcement/
 
+3B 7F 96 00 00 80 31 80 65 B0 85 05 10 24 12 0F FF 82 90 00
+	Swedish ID card from Skatteverket with an Electronic ID from AB Svenska Pass (eID)
+	https://www.thalesgroup.com/sv/europe/sweden/digital-identity-services-sweden/svensk-elegitimation/skatteverkets-id
+
 3B 7F 96 00 00 80 31 80 65 B0 85 59 56 FB 12 02 68 82 90 00
 	qualified certificate (eID)
 	https://www.elektronicznypodpis.pl/en/offer/qualified-certificates/
@@ -7290,6 +7298,10 @@
 	French ID Card 2021 (contactless interface) (eID)
 	https://ants.gouv.fr/Les-titres/Carte-nationale-d-identite/La-puce-de-la-nouvelle-carte-nationale-d-identite
 
+3B 8B 80 01 00 31 C1 64 09 46 01 2A 00 90 00 6A
+	Zwipe Access badge with HID Seos applet (eID)
+	https://www.zwipe.com/access
+
 3B 8B 80 01 00 31 C1 64 09 58 21 36 00 90 00 48
 	American Express Corporate Card (Bank)
 	https://www.americanexpress.com/es-es/negocios/corporativa/tarjetas/corporate-card/
@@ -7746,6 +7758,10 @@
 3B 8C 80 01 50 C5 17 70 F0 00 00 00 00 80 81 71 7F
 	SumUp Limited Apple Pay Virtual Card (Bank)
 	https://sumup.co.uk
+
+3B 8C 80 01 50 C5 FD 63 0D 00 00 00 00 00 81 71 FB
+	Navigo Easy (Transport)
+	https://www.iledefrance-mobilites.fr/en/tickets-fares/media/navigo-easy-travel-card
 
 3B 8C 80 01 50 C7 25 1C 5A 00 00 00 11 F7 81 81 1F
 	MOBIB Belgian public transport Card (Transport)
@@ -9178,6 +9194,7 @@
 3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 04 40
 	DPI Card Guatemala (eID)
 	http://www.masktech.de/
+	Serbian ID (eID)
 
 3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 05 41
 	MTCOS  (eID)
@@ -9237,6 +9254,9 @@
 
 3B 9D 96 00 53 49 23 03 03 00 20 00 04 00 F5 90 00
 	shell (Transport)
+
+3B 9D 96 00 53 4D 41 52 54 50 41 52 4B 20 46 4B 43
+	T token (Russia) (Other)
 
 3B 9D 96 80 1F C7 80 31 E0 73 FE 21 13 65 4C 04 04 02 00 96
 	China umion 5G SIM (Telecommunication)
@@ -9767,6 +9787,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
 	4G-LTE (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 39 0D 15 00 23
+	Orange Belgium Hello (Telecommunication)
 
 3B 9E 96 80 31 FE 45 53 43 45 20 38 2E 30 2D 43 31 56 30 0D 0A 6F
 	Serbian Identity Card (eID) (eID)
@@ -10460,6 +10483,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 06 31 71 DF 00 00 00 00 00 24
 	FT ePass2003Auto USB Token (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 00 00 00 33
+	Epass 2003 (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 03 90 00 A0
 	Feitian ePass2003 PKI Token (PKI)
 
@@ -10500,6 +10526,10 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 34 00 25 71 DF 00 00 03 6A 82 F9
 	Feitian ePass2003Auto (PKI)
 	https://www.ftsafe.com/Products/PKI/Standard/Specification
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 40 23 18 71 DF 00 00 00 00 00 78
+	Feitian ePass2003 (PKI)
+	https://www.ftsafe.com/store/product/epass2003-pki-token/
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 51 00 33 71 DF 00 00 00 00 00 61
 	FT ePass2003Auto 00 00 (PKI)
@@ -10726,6 +10756,10 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 24 DB 14 10 05 FC
 	CZ KAKTUS SIM CARD (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 3B FE 14 10 01 C2
+	Freenet SIM Card (Deutsche Telekom, green LTE) (Telecommunication)
+	https://www.freenet-mobilfunk.de/handytarife/green-lte-tarife/
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
@@ -11159,6 +11193,7 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 05 51 00 82 90 00 C5
 	Sim card Team Telecom Armenia (Telecommunication)
 	https://www.telecomarmenia.am/hy/
+	SIM card issued by Serbian MTS (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -11284,6 +11319,10 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 1E E1
 	5Ber (Telecommunication)
 	https://esim.5ber.com
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 27 D8
+	5ber physical eUICC / eSIM (Standard Version) (Telecommunication)
+	https://esim.5ber.com/order?language=en-US
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 63 3A 20 4E 83 00 90 00 31
 	eSIM (Telecommunication)
@@ -11693,9 +11732,9 @@
 
 3B B9 18 00 81 31 FE 9E 80 73 FF 61 40 83 00 00 00 DF
 	Serbian Identity Card
-	This is the new Serbian biometric identity card (every adult cityzen
-	must have). The chip contains owners picture, name, date and place
-	of birth, current address, unique ID number and fingerprint.
+	1st Serbian biometric identity card (every adult cityzen must have).
+	The chip contains owners picture, name, date and place of birth, current
+	address, unique ID number and fingerprint.
 
 3B B9 94 00 40 14 47 47 33 4D 48 38 35 33 30
 	T D1 GSM card (Telecommunication)
@@ -14154,7 +14193,7 @@
 	National Health Insurance (Taiwan) (HealthCare)
 
 3B FA 18 00 00 91 01 31 FE 45 4A 33 52 31 38 30 2D 32 35 35 F5
-	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard) (JavaCard)
+	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
 
 3B FA 18 00 00 91 01 31 FE 45 4A 33 52 33 31 30 2D 33 35 35 FF
@@ -14843,6 +14882,7 @@
 
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
 	Deutsche Kreditbank Debit (Bank)
+	Banca Intesa Visa card (Bank)
 
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 47 69 75 6C 69 61 20 4C 63 36 B5
 	revolut debit visa (Bank)
