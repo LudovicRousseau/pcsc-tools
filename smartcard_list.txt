@@ -6655,15 +6655,19 @@
 	Belgian passport (2008-2009)
 
 3B 88 80 01 00 00 05 E0 B3 81 A1 00 7F
-	Japanese JPKI card (aka JINC card) (eID)
-	https://github.com/jpki/myna
+	Japanese Public Key Infrastructure (PKI)
+	https://www.jpki.go.jp/
+	Japanese Individual Number Card (My Number Card) (eID)
+	https://www.kojinbango-card.go.jp/en
 
 3B 88 80 01 00 00 14 E0 B3 81 91 00 5E
 	"JUKICARD", the Basic Resident Registration Card in Japan (eID)
 
 3B 88 80 01 00 00 41 E0 B3 81 A1 00 3B
-	ID card issued by Japan government (eID)
-	https://www.kojinbango-card.go.jp/mynumber/index.html
+	Japanese Public Key Infrastructure (PKI)
+	https://www.jpki.go.jp/
+	Japanese Individual Number Card (My Number Card) (eID)
+	https://www.kojinbango-card.go.jp/en
 
 3B 88 80 01 00 00 C9 04 77 81 73 00 41
 	D-TRUST Card 4.1, qualified signature card (eID)
@@ -12105,8 +12109,10 @@
 	http://www.datev.de
 
 3B C5 FF 81 31 FB 45 80 73 C6 01 00 00
-	Japanese Individual Number Card (eID)
-	https://www.kojinbango-card.go.jp/en/kojinbango/index.html
+	Japanese Public Key Infrastructure (PKI)
+	https://www.jpki.go.jp/
+	Japanese Individual Number Card (My Number Card) (eID)
+	https://www.kojinbango-card.go.jp/en/
 
 3B C8 00 00 00 73 C8 40 00 00 00 00
 	verve (Bank)
@@ -13686,15 +13692,17 @@
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 00 D1 D6
 	Japanese Public Key Infrastructure (PKI)
 	https://www.jpki.go.jp/
-	My Number Card (The Social Security and Tax Number System in JAPAN) (eID)
-	https://www.cao.go.jp/bangouseido/
+	Japanese Individual Number Card (My Number Card) (eID)
+	https://www.kojinbango-card.go.jp/en/
 
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 77 D1 A1
 	German Passport (ePass) (issued May 2008)
 
 3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 B3 A1 15
-	Individual Number Card (eID)
-	https://www.kojinbango-card.go.jp/
+	Japanese Public Key Infrastructure (PKI)
+	https://www.jpki.go.jp/
+	Japanese Individual Number Card (My Number Card) (eID)
+	https://www.kojinbango-card.go.jp/en
 
 3B F5 96 00 00 8. 31 FE 45 4D 79 45 49 44 1.
 	MyEID card (Infineon chip) (PKI)
