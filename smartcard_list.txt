@@ -1445,6 +1445,10 @@
 3B 61 00 00 80
 	blank A40CR card (JavaCard)
 
+3B 62 00 00 47 44
+	UnionPay Debit card issued by Bank of China (Contact) (Bank)
+	https://www.boc.cn/
+
 3B 63 00 00 36 41 80
 	Schlumberger Payflex 4k User
 
@@ -2373,6 +2377,10 @@
 3B 6A 00 00 81 3F 01 75 11 01 02 81 01 0A
 	Huada CIU9872B (Java Card 2.2.2) (JavaCard)
 
+3B 6A 00 00 81 41 01 98 10 00 00 00 00 0A
+	UnionPay Debit card issued by Bank of China (Contact) (Bank)
+	https://www.boc.cn/
+
 3B 6A 00 00 86 65 00 A7 58 C0 46 00 90 00
 	China Merchants Bank card (Bank)
 
@@ -2937,8 +2945,20 @@
 3B 6D 00 00 00 81 4D 22 08 86 60 22 22 28 40 00 01
 	Unipay Credit Card Issued by CITIC (Bank)
 
+3B 6D 00 00 00 85 00 00 10 86 88 00 00 00 1D A8 44
+	UnionPay Debit card issued by China Construction Bank (Bank)
+	https://www.ccb.com/
+
+3B 6D 00 00 00 8C 43 01 01 86 88 21 01 40 15 D8 56
+	UnionPay Debit card issued by Industrial and Commercial Bank of China (Contact) (Bank)
+	https://www.icbc.com.cn/
+
 3B 6D 00 00 00 90 08 20 90 00 90 00 00 FF FF FF FF
 	Student college card
+
+3B 6D 00 00 04 00 86 88 01 00 01 62 6A 79 68 69 63
+	UnionPay Debit card issued by China Minsheng Bank (Contact) (Bank)
+	https://www.cmbc.com.cn/
 
 3B 6D 00 00 49 46 58 2D 6A 63 33 30 31 67 70 32 32
 	MasterCard Debit card of N26 bank (Bank)
@@ -3053,6 +3073,10 @@
 
 3B 6D 00 FF 80 73 00 21 13 57 4A 54 48 61 31 48 00
 	Spanish Medical College Card
+
+3B 6E 00 00 00 00 81 4D 22 08 86 60 30 00 20 E0 00 07
+	Mastercard Debit card issued by Bank of China (Contact) (Bank)
+	https://www.boc.cn/
 
 3B 6E 00 00 00 31 80 71 86 65 01 64 02 22 32 80 90 00
 	MasterCard Card - bonus plus (paypass) - Garanti Bank / Turkey
@@ -3554,6 +3578,10 @@
 	Bank of America (Bank)
 	https://www.bankofamerica.com/
 
+3B 6E 00 00 86 88 11 02 01 01 00 00 47 48 F1 FF 55 50
+	UnionPay Debit card issued by Industrial and Commercial Bank of China (Contact) (Bank)
+	https://www.icbc.com.cn/
+
 3B 6E 00 FF 00 62 00 00 57 41 56 41 4E 54 10 81 90 00
 	debit card (Visa Electron) issued by Nordea bank
 
@@ -3615,6 +3643,10 @@
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 41 00 90 00
 	Fineco debit card (Bancomat, Visa Debit) (Bank)
 	https://finecobank.com/it/online/conto-e-carte/carte-e-bancomat/
+
+3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 33 42 00 90 00
+	Visa Debit card issued by Bank of China (Contact) (Bank)
+	https://www.boc.cn/
 
 3B 6F 00 00 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00
 	VISA card, issued by OP Financial Group, Finland (Bank)
@@ -3716,6 +3748,10 @@
 
 3B 6F 00 00 57 69 4C 4C 57 00 00 00 00 00 00 20 20 04 29
 	AMEX CHINA Debit card, Java Card version 2.2, Global Platform version 2.1.1, Visa card manager (Bank)
+
+3B 6F 00 00 57 69 4C 4C 57 00 00 00 00 00 00 20 20 04 30
+	Mastercard China Debit card issued by Postal Savings Bank of China (Contact) (Bank)
+	https://www.psbc.com/
 
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
@@ -6426,6 +6462,10 @@
 3B 86 80 01 80 31 C1 52 41 1A 7E
 	IDEMIA Cosmo V8.1 with a PIV applet (contactless) (PKI)
 
+3B 86 80 01 80 4F 03 F0 01 00 3A
+	Second-generation Resident Identity Card of the People's Republic of China (eID)
+	https://www.gov.cn/zhengce/2011-10/29/content_2602263.htm
+
 3B 86 80 01 80 54 04 10 01 0F C9
 	Nickel.eu prepaid account (Bank)
 	https://nickel.eu
@@ -6673,6 +6713,10 @@
 	D-TRUST Card 4.1, qualified signature card (eID)
 	https://www.d-trust.net
 
+3B 88 80 01 00 4B 51 FF B3 81 D1 00 0F
+	Japanese Individual Number Card (My Number Card) (eID)
+	https://www.kojinbango-card.go.jp/en/
+
 3B 88 80 01 00 73 C8 40 00 00 90 00 62
 	NXP JCOP 31 V2.2 36K - RFID I/F
 	Barclaycard Visa Wave & Pay - RFID I/F
@@ -6904,6 +6948,10 @@
 3B 88 80 01 E1 F3 5E 13 77 83 D5 00 77
 	ePerso - German ID card (issued 2011)
 
+3B 88 80 01 FD 01 10 20 20 10 30 00 C5
+	Changsha Xiaoxiang TU Transport Card issued by China Mobile (Transport)
+	https://www.xxka.com/
+
 3B 88 81 31 20 55 00 57 69 6E 43 61 72 64 29
 	SmartCard for Windows 1.0
 
@@ -7061,6 +7109,14 @@
 3B 89 80 01 80 67 04 12 B0 03 05 01 02 4C
 	Austrian Passport
 
+3B 89 80 01 86 84 10 54 30 34 31 31 31 7B
+	e-CNY hard wallet issued by Bank of China & Meituan (Bank)
+	https://www.mpaypass.com.cn/news/202209/01101324.html
+
+3B 89 80 01 86 88 55 50 50 48 49 43 4B 5A
+	UnionPay Debit card issued by Industrial and Commercial Bank of China (Contactless) (Bank)
+	https://www.icbc.com.cn/
+
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
@@ -7138,6 +7194,10 @@
 	NXP JCOP 41 v2.2.1 72k RFID I/F
 
 3B 8A 80 01 4D 54 00 05 00 20 86 64 00 01 D4
+	Beijing Municipal Administration & Communication Card (Transport)
+	https://www.bmac.com.cn/
+
+3B 8A 80 01 4D 54 00 05 00 30 86 93 69 5B 00
 	Beijing Municipal Administration & Communication Card (Transport)
 	https://www.bmac.com.cn/
 
@@ -7266,6 +7326,10 @@
 3B 8B 80 01 00 31 C1 64 08 60 32 12 00 90 00 46
 	AMEX Silver Credit (Bank)
 
+3B 8B 80 01 00 31 C1 64 08 60 32 1A 00 90 00 4E
+	UnionPay Debit card issued by HSBC CN (Contactless) (Bank)
+	https://www.hsbc.com.cn/debit-cards/
+
 3B 8B 80 01 00 31 C1 64 08 60 32 1F 00 90 00 4B
 	Hanseatic Bank Visa Card (Bank)
 	https://www.hanseaticbank.de/kreditkarte/genialcard
@@ -7326,6 +7390,10 @@
 3B 8B 80 01 0B 78 80 82 02 44 49 20 30 32 4D 1B
 	Mastercard Debit issued by Raiffeisen bank in Czech Republic
 
+3B 8B 80 01 20 70 01 00 00 00 00 07 1C 61 51 70
+	Residence Permit for Residents of Liaoning, China (eID)
+	https://www.gov.cn/xinwen/2018-04/02/content_5279248.htm
+
 3B 8B 80 01 20 85 00 8B 03 0F E0 9A A0 E0 40 52
 	Shanghai Public Transportation Card (Transport)
 	http://www.sptcc.com/
@@ -7336,6 +7404,10 @@
 
 3B 8B 80 01 20 90 00 00 00 00 00 16 14 CD AA DF
 	JCOP 41 IBM card for Guizhou Normal University (JavaCard)
+
+3B 8B 80 01 20 90 00 00 00 00 00 99 5D 58 30 16
+	Northeastern University (China) student ID card (Other)
+	http://ecard.neu.edu.cn/
 
 3B 8B 80 01 20 90 00 00 00 00 00 C3 A4 CC 09 18
 	ID card (Other)
@@ -7399,6 +7471,10 @@
 
 3B 8B 80 01 86 88 FF 6F 39 1E 74 3C 20 08 00 D3
 	Chinese ICBC (bank)
+
+3B 8B 80 01 86 88 FF 85 11 BB BD 21 20 08 00 60
+	UnionPay Debit card issued by China Minsheng Bank (Contactless) (Bank)
+	https://www.cmbc.com.cn/
 
 3B 8B 81 31 40 34 53 4D 41 52 54 53 43 4F 50 45 31 6D
 	Zeeland kaart (Telecommunication)
@@ -7914,6 +7990,10 @@
 	Sahl Payment Card (Other)
 	https://www.english.sahlpay.app/
 
+3B 8D 80 01 00 8C 43 01 01 86 88 21 01 40 15 D8 56 36
+	UnionPay Debit card issued by Industrial and Commercial Bank of China (Contactless) (Bank)
+	https://www.icbc.com.cn/
+
 3B 8D 80 01 0D 78 80 84 02 00 73 C8 40 13 00 90 FF F8
 	Nokia 6212 phone seen as NFC device
 
@@ -7962,6 +8042,10 @@
 
 3B 8E 01 00 73 80 20 C0 06 53 4C 43 4F 53 05 90 00 4F
 	idex (JavaCard)
+
+3B 8E 80 01 00 00 81 4D 22 08 86 60 30 00 20 E0 00 07 F8
+	Mastercard Debit card issued by Bank of China (Contactless) (Bank)
+	https://www.boc.cn/
 
 3B 8E 80 01 00 51 00 63 1F 6D 01 73 9F 20 C0 C0 90 00 12
 	Identity card (eID) Republic of Latvia (eID)
@@ -8143,6 +8227,14 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 48 07 90 00 F0
 	Consorsbank VISA debit card  (Bank)
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 31 36 00 90 00 8D
+	Mastercard Debit card issued by China Construction Bank (Contactless) (Bank)
+	https://www.ccb.com/
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 33 42 00 90 00 FB
+	Visa Debit card issued by Bank of China (Contactless) (Bank)
+	https://www.boc.cn/
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 34 35 00 90 00 8B
 	S-Etukortti Visa (Bank)
 	https://www.s-pankki.fi/fi/s-etukortti-visa
@@ -8247,6 +8339,18 @@
 
 3B 8F 80 01 56 69 6E 50 61 79 53 79 73 20 50 75 72 73 65 2F
 	JCOP (Other)
+
+3B 8F 80 01 57 69 4C 4C 57 00 00 00 00 00 00 20 19 03 28 75
+	Mastercard Debit card issued by Industrial and Commercial Bank of China (Contactless) (Bank)
+	https://www.icbc.com.cn/
+
+3B 8F 80 01 57 69 4C 4C 57 00 00 00 00 00 00 20 20 04 29 4A
+	Amex China bank card (Contactless) (Bank)
+	https://www.americanexpress.com.cn/
+
+3B 8F 80 01 57 69 4C 4C 57 00 00 00 00 00 00 20 20 04 30 53
+	Mastercard China Debit card issued by Postal Savings Bank of China (Contactless) (Bank)
+	https://www.psbc.com/
 
 3B 8F 80 01 80 31 80 65 49 54 4A 34 41 12 0F FF 82 90 00 88
 	CIE - Carta di Identità Elettronica - Italian ID Card (eID)
@@ -15065,6 +15169,9 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 08 30 9A 57 11 D2
 	Bank card from German Bank "Sparkasse", issued by manufacturer "S-Payment GmbH" (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 07 F0 8D 57 11 15
+	comdirect girocard (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 08 20 24 57 11 63
 	German Sparkasse with visa  (Bank)
