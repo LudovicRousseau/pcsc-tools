@@ -2108,6 +2108,13 @@
 3B 68 00 00 53 43 06 60 01 0F 90 90
 	Discount (Bank)
 
+3B 68 00 00 53 43 06 62 01 0F 90 00
+	LINE Bank by Hana Bank Sally Debit Visa (Bank)
+
+3B 68 00 00 53 43 06 63 01 0F 90 00
+	Maybank ID Debit Mastercard (Bank)
+	Bank BRI Blue Debit GPN (Bank)
+
 3B 68 00 00 53 43 2D 30 31 32 4A 53
 	Blue (Bank)
 
@@ -2655,6 +2662,9 @@
 3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
 	Sodexo Czech Gastro/Multipass (Other)
 	https://www.sodexo.cz/
+
+3B 6B 00 00 00 31 C1 64 08 98 62 02 0F 90 00
+	Blu BCA Digital Debit Mastercard (Bank)
 
 3B 6B 00 00 00 31 C1 64 09 24 33 1E 0F 90 00
 	Cembra Money Bank - Certo! Mastercard credit card (Bank)
@@ -4606,6 +4616,10 @@
 	Comboios de Portugal Transit Card (Transport)
 	https://www.cp.pt/passageiros/pt/consultar-horarios/precos/cartao-cp
 
+3B 6F 00 00 80 5A 2D 06 08 10 10 05 94 68 C0 83 82 90 00
+	Comboios de Portugal Transit Card (Transport)
+	https://www.cp.pt/passageiros/pt/consultar-horarios/precos/cartao-cp
+
 3B 6F 00 00 80 5A 2E 13 02 00 01 01 04 EF 83 42 82 90 00
 	Oùra Auvergne-Rhône-Alpes (Transport)
 	https://www.oura.com
@@ -5038,6 +5052,9 @@
 
 3B 78 96 00 00 53 43 06 62 01 07 90 00
 	ATM Card (Bank)
+
+3B 78 96 00 00 53 43 06 63 01 07 90 00
+	Bank Saqu Debit GPN (Bank)
 
 3B 78 96 00 00 81 00 03 50 01 07 90 00
 	RMA BMCE BANK CARD (Bank)
@@ -11656,6 +11673,10 @@
 3B 9F 97 C0 0A 3F C6 82 80 31 E0 73 FE 21 1B 65 D0 02 33 14 A5 81 0F E4
 	Thales eUICC French Ministry BAP v2 (Telecommunication)
 
+3B 9F 97 C0 0A 3F C6 82 80 31 E0 73 FE 21 1F 65 D0 02 33 14 A5 81 0F E0
+	Flexiroam SIM card (Telecommunication)
+	https://www.flexiroam.com/
+
 3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1B 65 D0 01 74 0E EB 81 0F D6
 	Verizon 4G LTE Micro SIM (Telecommunication)
 
@@ -12646,6 +12667,9 @@
 
 3B DB 96 00 81 B1 FE 45 1F 03 80 F9 A0 00 00 03 48 00 00 00 01 49
 	Fly Clear card
+
+3B DB 96 00 81 B1 FE 45 1F 83 00 31 C0 64 FC 29 10 00 01 90 00 9B
+	Sm@rtCafe Expert 7.0 (SCE7.0) SAM card (Transport)
 
 3B DB 96 00 81 B1 FE 45 1F 83 80 F9 A0 00 00 03 08 00 00 10 00 98
 	Oberthur Cosmo v7 128K with PIV applet
@@ -13743,6 +13767,10 @@
 3B F3 96 00 FF C0 0A 31 FE 4D 80 31 E0 83
 	MARX Cryptoken (supported by RaakSign)
 
+3B F4 13 00 00 81 31 FE 45 00 4E 00 00 A2
+	Japanese HPKI card (PKI)
+	https://www.medis.or.jp/8_hpki/index.html
+
 3B F4 13 00 00 81 31 FE 45 52 46 5A 4F ED
 	Serbian Health Care electronic card (HealthCare)
 	http://www.rfzo.rs/index.php/osiguranalica/ekartica
@@ -14248,6 +14276,9 @@
 3B FA 13 00 00 81 31 FE 54 A4 34 F5 03 23 31 91
 	Jcop (JavaCard)
 
+3B FA 13 00 00 81 71 FE 42 00 43 4F 49 46 43 32 56 31 2E 31 AF
+	Castles Technology Partner Self Signing Card (Other)
+
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
 
@@ -14413,6 +14444,9 @@
 3B FB 13 00 FF 10 80 00 31 C1 64 09 24 33 1E 0F 90 00
 	TransferWise Debit Card (Bank)
 	https://wise.com/
+
+3B FB 13 00 FF 10 80 00 31 C1 64 09 58 22 36 0F 90 00
+	LINE Bank by Hana Bank BT21 Debit Visa (Bank)
 
 3B FB 13 00 FF 10 80 00 31 C1 64 09 64 41 36 0F 90 00
 	Truist Business Debit (Bank)
@@ -14984,6 +15018,10 @@
 	AirPlus MasterCard Commercial (Bank)
 	https://www.airplus.com/us/en/products-solutions/products/corporate-cards/corporate-cards.html
 
+3B FF 13 00 FF 91 01 31 FE 41 31 01 F1 56 40 12 00 22 00 00 00 00 00 00 00 EA
+	JCB T-CARD PLUS (eID)
+	https://www.aplus.co.jp/creditcard/use/tcardplus_t/index.html
+
 3B FF 13 00 FF 91 01 31 FE 41 41 43 4F 53 20 48 6F 6C 6C 79 31 20 4C 63 36 65
 	OEAMTC Visa Club Card (Bank)
 	https://www.oeamtc.at/mitgliedschaft/leistungen/die-oeamtc-kreditkarte-31091443
@@ -15169,6 +15207,10 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 08 30 9A 57 11 D2
 	Bank card from German Bank "Sparkasse", issued by manufacturer "S-Payment GmbH" (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 06 A0 94 57 11 5D
+	GLS Bank MasterCard Debit (Bank)
+	https://www.gls.de/konten-karten/karten/bankcard/
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 07 F0 8D 57 11 15
 	comdirect girocard (Bank)
@@ -15687,6 +15729,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0B 90 FE 01 10 34
 	EC card from Raiffeisenbank im Hochtaunus, Germany (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 20 09 31 38 01 10 62
+	GLS Bank MasterCard (Bank)
+	https://www.gls.de/konten-karten/karten/kreditkarte/
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 02 0B 20 DD 01 10 92
 	DKB Visa (Debit) (Bank)
