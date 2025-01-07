@@ -1160,6 +1160,12 @@
 3B 3B 96 00 A7 4C 90 00 00 90 AC 33 33 90 00
 	Brazilian TIM GSM SIM
 
+3B 3B D6 97 00 81 B1 FE 45 1F 07 80 31 C1 52
+	US government PIV card eID
+	Oberthur ID One PIV eID
+	NASA Personal Identity Verification (PIV) card (eID)
+	IDEMIA Cosmo V8.0 with a PIV applet eID
+
 3B 3B F7 18 00 00 80 31 FE 45 73 66 74 65 2D
 	Serasa Experian (PKI)
 	https://serasa.certificadodigital.com.br/
@@ -4859,6 +4865,9 @@
 	American Express "Entourage" credit card issued by CIBC
 	http://www.cibc.com
 
+3B 6F 00 FF 00 31 C1 73 C8 21 10 64 41 4D 31 37 07 90 00
+	Mastercard ING (Bank)
+
 3B 6F 00 FF 00 31 C1 73 C8 21 10 64 41 4D 33 48 07 90 00
 	BNP (Bank)
 
@@ -4914,6 +4923,10 @@
 
 3B 75 13 00 00 49 09 EA 90 00
 	Vitale Card French Healthcare (HealthCare)
+	https://www.service-public.fr/particuliers/vosdroits/F265
+
+3B 75 13 00 00 4B 09 EA 90 00
+	Carte Vitale d'assurance maladie, France (HealthCare)
 	https://www.service-public.fr/particuliers/vosdroits/F265
 
 3B 75 13 00 00 9C 02 02 01 02
@@ -6489,6 +6502,9 @@
 
 3B 86 80 01 80 54 04 20 01 0F F9
 	advance medical expenses in France (consultation, medications, hospitalization, etc.). commercial name is "Avance Santé". (HealthCare)
+
+3B 86 80 01 87 87 02 02 00 00 07
+	Nano USIM card of "LG U+" in South Korea. (model name U2720) (Telecommunication)
 
 3B 86 80 01 C1 05 2F 2F 01 BC 7E
 	Contactless interface to St. Petersburg unified card, Russia (Единая карта петербуржца) (Other)
@@ -8891,6 +8907,9 @@
 
 3B 8F 80 01 80 91 E1 31 D8 65 B2 8C 01 00 07 73 C4 41 E0 5C
 	Portuguese epassport (passport)
+
+3B 8F 80 01 80 91 E1 31 D8 65 B2 8C 01 00 26 73 C4 41 E0 7D
+	ePassport chip of South Korea (passport)
 
 3B 8F 80 01 86 38 4D 57 4F 48 50 CF 1E 4D 2B 12 11 29 10 70
 	Hangzhou Tong (Hangzhou Public Transport Card) (Transport)
@@ -13381,6 +13400,10 @@
 3B ED 00 FF 81 31 20 75 4D 42 43 20 53 4D 50 20 56 31 2E 31 30 BD
 	Used to Control a Laser Device
 
+3B EE 00 00 81 31 80 41 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8D
+	CTBC Bank Co., Ltd. debit VISA card (Bank)
+	https://www.ctbcbank.com/twrbo/zh_tw/cc_index/cc_product/cc_debitcard_index.html
+
 3B EE 00 00 81 31 80 42 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00 8E
 	MultiApp Cards (Easy 72K Type B and Combi 72K Type B)
 	E.SUN Commercial bank debit master card (Bank)
@@ -13694,6 +13717,10 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 19 01 62 02 80 00 0F 00 35 00 42 06 20 BB
 	Credit card (Germany, Postbank AG): VISA
+
+3B EF 00 FF 81 31 FE 45 65 63 1D 02 84 01 56 00 24 14 0B 60 E4 01 01 6E
+	EthikBank Giro Card (Bank)
+	https://www.ethikbank.de/privatkunden/konten-karten/karten-zum-konto/girocard
 
 3B EF 00 FF 81 31 FE 45 65 63 1D 02 84 02 50 00 23 05 09 A0 D9 01 01 82
 	Debit card (Bank)
@@ -14517,6 +14544,9 @@
 3B FB 98 00 FF C1 10 31 FE 55 00 64 05 20 47 03 31 80 00 90 00 F3
 	Gemplus GemGate 32K
 	distributed by Postecert (www.postecert.it) to legally sign documents
+
+3B FC 13 00 00 10 80 81 00 03 00 20 30 02 22 01 00 14 0C
+	SberBank card (Bank)
 
 3B FC 13 00 00 81 31 FE 15 59 75 62 69 6B 65 79 4E 45 4F 72 33 E1
 	YubiKey NEO (PKI)
@@ -15681,6 +15711,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 BF 86 07 30 BF
+	German Bank Verbundvolksbank-OWL Bank
+
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 02 71 50 07 30 A4
 	Debitcard Sparkasse Duesseldorf (Bank) (Bank)
 	https://www.sskduesseldorf.de/
@@ -16392,6 +16425,9 @@
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 31 30 20 52 65 76 51 32 53 71
 	Slovak and Czech pay TV provider Slovak Telecom (Pay TV)
 	http://www.flysat.com/novadigi-sk.php
+
+3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 32 36 15
+	bank comercial do huambo (Bank)
 
 3F FF 95 00 FF 91 81 71 FE 57 00 44 4E 41 53 50 34 32 30 20 52 65 76 53 36 30 17
 	HD+ HD04b Card (Pay TV)
