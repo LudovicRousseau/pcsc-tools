@@ -2069,6 +2069,8 @@
 	https://www.lacaixa.cat/
 	American Express Canada Credit Card (Bank)
 	Alfa-bank Russia Visa
+	PNC Bank Visa debit card (Bank)
+	https://www.pnc.com/en/personal-banking/banking/debit-and-prepaid-cards/pnc-bank-visa-debit-card.html
 
 3B 68 00 00 00 73 C8 40 13 00 90 7D
 	NextCard - Mastercard Debit card - Intesa Sanpaolo Bank (Italy) (Bank)
@@ -3879,6 +3881,8 @@
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 A6 55 55 55 55 55 55
 	USAA EMV Mastercard Creditcard (Bank)
 	https://www.usaa.com/inet/pages/bk_cc_chipcardLP_landing_mkt?adID=VURL_chipcard
+	Target REDcard debit
+	https://target.com/myREDcard
 
 3B 6F 00 00 80 31 E0 6B 04 31 05 02 AC 55 55 55 55 55 55
 	Diners Club Credit card (British Airways, Switzerland) (Bank)
@@ -3899,6 +3903,8 @@
 3B 6F 00 00 80 31 E0 6B 04 52 05 02 BB 55 55 55 55 55 55
 	AlfaBROU - Mastercard (prepaid card emitted by Banco Republica - Uruguay) (Bank)
 	https://www.brou.com.uy/personas/tarjetas/prepaga-alfabrou
+	Capital One - Mastercard debit card (Bank)
+	https://www.capitalone.com/bank/debit-card/
 
 3B 6F 00 00 80 31 E0 6B 04 52 05 02 FD 55 55 55 55 55 55
 	C6 Bank Mastercard Global Account (Bank)
@@ -4241,6 +4247,10 @@
 3B 6F 00 00 80 5A 0A 07 06 20 04 2C 04 94 62 5E 82 90 00
 	Israeli rail road rav card (Transport)
 	https://en.wikipedia.org/wiki/Rav-Kav
+
+3B 6F 00 00 80 5A 0A 07 06 20 04 2D 93 63 A2 2B 82 90 00
+	Rav-Kav Transport
+	https://ravkavonline.co.il/en/
 
 3B 6F 00 00 80 5A 0A 07 06 20 04 2D C1 66 0B 73 82 90 00
 	Rav-Kav: Israel's Travel Card (Transport)
@@ -6702,6 +6712,10 @@
 
 3B 88 80 01 00 00 00 00 91 71 71 00 98
 	Public transportation fare card (Morocco CAS: Urban bus) (Transport)
+
+3B 88 80 01 00 00 00 00 91 81 71 00 68
+	PassPass card (Transport)
+	https://www.passpass.fr/fr/e-boutique/achat-carte
 
 3B 88 80 01 00 00 00 00 91 81 C1 00 D8
 	Driving License card of Japan (NFC type-B) (eID)
@@ -9495,6 +9509,9 @@
 3B 9E 95 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 9F BD 10 00 31
 	H3G (Three UK) Prepaid USIM (Telecommunication)
 
+3B 9E 95 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 73 15 00 38
+	albert heijn prepaid SIM netherlands (Telecommunication)
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 1E 00 1A
 	H3G (Ireland, UK) UMTS USIM card
 
@@ -9854,6 +9871,9 @@
 	Free Mobile (Telecommunication)
 	http://mobile.free.fr
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 62 13 00 64
+	SIM Card (possibly Gemalto/Thales) Telecommunication
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 95 12 00 92
 	Twilio SIM (Telecommunication)
 
@@ -9862,6 +9882,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 BF 11 00 BB
 	Telkom (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 C4 11 00 C0
+	STC Telecommunication
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 C9 11 00 CD
 	Vivo 4G (Other)
@@ -9920,6 +9943,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A D9 13 00 E2
 	sim (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A DA 13 00 E1
+	Zevvle SIM Card (Telecommunication) Telecommunication
+	https://zevvle.com
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A E8 13 00 D3
 	Twilio Super SIM card (Telecommunication)
@@ -11331,6 +11358,9 @@
 	Dish Wireless 5G (Telecommunication)
 	https://help.boostmobile.com/docs/boost-mobile-network
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 01 66 00 82 90 00 F6
+	SIM card (manufactured by IDEMIA) Telecommunication
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 04 01 00 82 6A 82 EC
 	SIM (Telecommunication)
 
@@ -11358,6 +11388,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2A 01 0E 02 01 81 05 70
 	gsm (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2B 01 0E 01 09 81 05 7A
+	Standard SIM card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2D 01 0C 04 00 81 05 72
 	Tri Indonesia Bima+ SIM Card (Telecommunication)
@@ -11414,7 +11447,7 @@
 	https://1nce.com/en-eu/1nce-os/our-architecture
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1B 67 45 4D 75 30 34 02 4B 02
-	Hologram Global G1  eUICC SIM (Telecommunication)
+	Hologram Global G1 eUICC SIM (Telecommunication)
 	https://www.hologram.io/products/global-iot-sim-card/
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 13 65 02
@@ -11422,7 +11455,11 @@
 	https://sysmocom.de/products/sim/sysmocom-euicc/index.html
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 26 6F 3D
-	An eSIM physical card, you can write eSIM profiles into it and use it as a general SIM (Telecommunication)
+	eSIM physical card, you can write eSIM profiles into it and use it as a general SIM (Telecommunication)
+	https://www.9esim.com/
+
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 27 6F 3C
+	An eSIM physical card, you can write eSIM profiles into it and use it as a general SIM Telecommunication
 	https://www.9esim.com/
 
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
@@ -12323,6 +12360,9 @@
 
 3B D3 96 FF 81 B1 FE 45 1F 07 80 81 05 2D
 	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2) (HealthCare)
+
+3B D4 95 00 40 0A 53 48 43 4C
+	Rc book (Transport)
 
 3B D5 18 00 81 31 3A 7D 80 73 C8 21 10 30
 	Aladdin eToken NG-Flash with 256MB of flash memory
@@ -15055,6 +15095,10 @@
 3B FF 13 00 FF 91 01 31 FE 41 41 43 4F 53 20 48 6F 6C 6C 79 31 20 4C 63 36 65
 	OEAMTC Visa Club Card (Bank)
 	https://www.oeamtc.at/mitgliedschaft/leistungen/die-oeamtc-kreditkarte-31091443
+
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 06 81 35 89 00 00 00 00 63
+	Austrian Bank Card for kids, teens and young adults Bank
+	https://www.sparkasse.at/sgruppe/spark7
 
 3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 08 33 99 56 00 00 00 00 AC
 	Austrian Sparkasse ISIC debit card (Mastercard) (eID)
