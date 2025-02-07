@@ -1194,6 +1194,9 @@
 3B 3C 94 00 4B 31 25 A2 10 13 14 47 83 83 90 00
 	GSM SFR
 
+3B 3C 94 00 4B 31 25 A7 24 0C 02 7E 80 80 90 00
+	D2 mannesmann mobilphone-card (Other)
+
 3B 3C 94 00 4C 31 25 A7 20 1B 00 15 83 83 90 00
 	GSM-SIM (900MHz) card of the carrier vodafone for their cellular
 	network (phase 2+ with 3V)
@@ -4798,6 +4801,10 @@
 	MOBIB basic (Transport)
 	http://www.stib-mivb.be/article.html?_guid=30af0085-2483-3410-5394-a71daf08acd1&l=en#contentBodyList1
 
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 49 B7 D5 82 90 00
+	MOBIB basic card (Transport)
+	https://www.stib-mivb.be/buy/all-your-journeys-with-mobib
+
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 5A 86 3C 82 90 00
 	mobib transportation card (Transport)
 
@@ -7882,6 +7889,10 @@
 	Navigo easy (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-easy
 
+3B 8C 80 01 50 C4 64 D7 12 00 00 00 00 11 81 71 D9
+	Carte Opus (Montréal) (Transport)
+	https://www.carteopus.info/
+
 3B 8C 80 01 50 C5 17 70 F0 00 00 00 00 80 81 71 7F
 	SumUp Limited Apple Pay Virtual Card (Bank)
 	https://sumup.co.uk
@@ -8371,6 +8382,10 @@
 
 3B 8F 80 01 4A 43 4F 50 33 20 41 54 53 20 43 48 41 52 53 26
 	Samsung Galaxy Watch Active NFC (Other)
+
+3B 8F 80 01 4D 54 00 02 01 00 FF FF 01 14 01 34 22 07 11 00
+	HK Octopus – China T-Union Card (Felica/ISO-14443A combo 14443A section) (Transport)
+	https://www.octopus.com.hk/en/consumer/octopus-cards/products/cross-border/china-t-union.html
 
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 20 33 36 76
 	RFIDIOt JCOP 36K Blank
@@ -10507,6 +10522,9 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 1E 32 36 00 86
 	SIM Enreach (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 06 86 98 40 00 B4
+	China Mobile LTE USIM Card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 88 83 07 90 00 06
 	SHOW or UPlus USIM (Telecommunication)
 
@@ -11336,6 +11354,9 @@
 	EMnify SIMcard (Telecommunication)
 	https://www.emnify.com/global-iot-sim
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 70 31 00 82 90 00 C1
+	Slovak Railways (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 72 51 00 82 90 00 A3
 	Free Mobile (French wireless service provider) SIM card (mini-SIM with micro-SIM cutout) received in 2020-09 (Telecommunication)
 	https://mobile.free.fr/
@@ -11346,6 +11367,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 76 32 00 82 90 00 C4
 	T-Mobile SIM card issued April 2021 (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 83 71 00 82 90 00 72
+	SIM card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 83 72 00 82 90 00 71
 	Ucom Armenia (Telecommunication)
@@ -11358,6 +11382,9 @@
 	Dish Wireless 5G (Telecommunication)
 	https://help.boostmobile.com/docs/boost-mobile-network
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 88 92 00 82 90 00 9A
+	VIVO pré SIM card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 01 66 00 82 90 00 F6
 	SIM card (manufactured by IDEMIA) Telecommunication
 
@@ -11368,6 +11395,9 @@
 	Sim card Team Telecom Armenia (Telecommunication)
 	https://www.telecomarmenia.am/hy/
 	SIM card issued by Serbian MTS (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 09 43 00 82 90 00 DB
+	Czech Railways (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 24 01 09 01 00 81 05 7B
 	Lycamobile (UK) GSM SIM card
@@ -11467,6 +11497,9 @@
 
 3B 9F 96 80 3F C6 A0 80 31 E0 73 F6 21 16 57 4A 4D 02 0B 34 54 63 69
 	SIM card Wingo operator (Switzerland) (Telecommunication)
+
+3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 13 67 67 A0 02 D9 00 00 01 E5
+	Kcell (Telecommunication)
 
 3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 1B 64 08 05 03 00 82 90 00 EF
 	Multipurpose UICC card for 2G, 3G, 4G/LTE, CDMA, ISIM & NFC (Telecommunication)
@@ -12842,6 +12875,10 @@
 	Open Physical PIV-Compatible NXP SECID P60 (eID)
 	https://openphysical.org/
 
+3B DD 18 FF 81 B1 FE 45 1F C3 9E 41 4B 44 2D 43 65 72 74 69 6C 69 61 BD
+	Certilia Gen2 Card (eID)
+	https://www.certilia.com/
+
 3B DD 18 FF C0 80 B1 FE 45 1F C3 00 68 D2 76 00 00 28 04 04 11 00 90 00 C9
 	Russian Federation driver card for the digital tachograph
 	Polish driver card for digital tachograph
@@ -13850,6 +13887,9 @@
 
 3B F4 98 00 FF C1 10 31 FE 55 4D 34 63 76 B4
 	Eutron Digipass 860 (reader + card token)
+
+3B F5 13 00 00 10 00 20 63 CB 12 C1
+	CB Master Carte du Crédit Mutuel (Bank)
 
 3B F5 13 00 00 81 31 FE 45 73 74 64 31 30 8F
 	card for NF-e in Brazil (PKI)
