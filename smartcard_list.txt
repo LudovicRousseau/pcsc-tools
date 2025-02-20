@@ -648,6 +648,10 @@
 	OBILedit Forensic SIM Cloning card (Telecommunication)
 	https://www.mobiledit.com/connection-kit
 
+3B 18 96 89 21 A0 01 20 24 07 16
+	Token2 T2F2-NFC-Card PIN+ Release3 (Other)
+	https://www.token2.com/shop/product/t2f2-nfc-card-pin-release3
+
 3B 19 14 55 90 01 01 01 00 05 08 B0
 	Schlumberger Multiflex 8k
 
@@ -1447,6 +1451,10 @@
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
 	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
 	https://www.oura.com/xbi/boutique/card
+
+3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 8A 57 82 90 00
+	France Rhone-Alpes Region "Carte Oura" 2nd generation (Transport)
+	https://www.oura.com/la-demarche-oura/
 
 3B 60 00 00
 	Meano (Bank)
@@ -2652,6 +2660,9 @@
 	Universidade de Aveiro (ID Card) (eID)
 	https://www.ua.pt/pt/sas/cartao
 
+3B 6B 00 00 00 31 C1 64 08 60 32 42 07 90 00
+	CIMB BANK MALAYSIA (Bank)
+
 3B 6B 00 00 00 31 C1 64 08 60 32 42 0F 90 00
 	Westpac Handybank EFTPOS/ATM Card (Bank)
 
@@ -2763,6 +2774,10 @@
 
 3B 6B 00 00 81 00 72 26 02 00 41 00 0F 90 00
 	Wave Crest Holding (Bank)
+
+3B 6B 00 00 81 00 72 30 05 00 70 00 0F 90 00
+	Postbank VISA card prepaid (Bank)
+	https://www.postbank.de/privatkunden/services/konten-und-karten/visa-card-prepaid-aufladen.html
 
 3B 6B 00 00 81 00 78 43 04 02 41 01 0F 90 00
 	Max Mastercard (Bank)
@@ -6916,6 +6931,10 @@
 3B 88 80 01 80 73 C8 21 10 52 B8 1D F4
 	Arculus AuthentiKey (via NFC) (Other)
 
+3B 88 80 01 89 21 A0 01 20 24 07 16 15
+	Token2 T2F2-NFC-Card PIN+ Release3 (via NFC) (Other)
+	https://www.token2.com/shop/product/t2f2-nfc-card-pin-release3
+
 3B 88 80 01 99 02 00 D1 03 04 22 01 67
 	Debit card (Bank)
 
@@ -8140,6 +8159,10 @@
 
 3B 8E 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 38 30 5A
 	RFIDIOt G&D SmartCafe 80K
+
+3B 8E 80 01 53 43 45 20 38 2E 30 2D 43 32 56 32 0D 0A 63
+	ePassport (passport)
+	https://www.veridos.com/en/
 
 3B 8E 80 01 53 43 45 20 38 2E 30 2D 43 33 56 30 0D 0A 60
 	Latvian passport (2024) (passport)
@@ -12391,6 +12414,10 @@
 	Electronic Vehicle Registration (eVR) from RDW.nl (The Netherlands), open sourced at [URL], demo (Windows / Linux Wine Mono) (Transport)
 	https://github.com/eVRMTV/eVR
 
+3B D3 96 FF 81 B1 FE 45 1F 03 80 81 05 29
+	German Health Insurance Card "Gesundheitskarte" (HealthCare)
+	https://www.bahn-bkk.de/
+
 3B D3 96 FF 81 B1 FE 45 1F 07 80 81 05 2D
 	German public health insurance card (Elektronische Gesundheitskarte eGK), 2nd generation (G2) (HealthCare)
 
@@ -14558,6 +14585,10 @@
 3B FB 13 00 FF 10 80 00 31 C1 64 09 64 41 36 0F 90 00
 	Truist Business Debit (Bank)
 
+3B FB 13 00 FF 10 80 00 31 C1 64 09 78 61 31 0F 90 00
+	Deel Visa Business Debit Card (Bank)
+	https://help.letsdeel.com/hc/en-gb/articles/4407737595409-What-is-the-Deel-Card
+
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
 
@@ -14721,6 +14752,10 @@
 3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 A1 D5 00 90 00
 	PayPal Business Debit Mastercard (Bank)
 	https://www.paypal.com/merchantapps/appcenter/makepayments/bdmc
+
+3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 A3 7B 00 90 00
+	Payoneer Card - USD Currency (Bank)
+	https://payoneer.custhelp.com/app/answers/detail/a_id/18226/~/account-with-card---faq
 
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
@@ -15066,6 +15101,9 @@
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 35 31 07 90 00
 	Discover It Credit Card (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 42 30 43 4E 07 90 00
+	Unicredit debit Card MasterCard (Italy) (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
 	National Bank Debit Card with expiration date and cvv code (Bank)
