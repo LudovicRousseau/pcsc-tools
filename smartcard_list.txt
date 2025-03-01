@@ -5377,6 +5377,9 @@
 3B 7D 94 00 00 57 44 53 63 96 86 93 00 9D F7 10 00 9D
 	China Mobile SIM card
 
+3B 7D 94 00 00 57 44 53 64 96 86 93 04 9D F7 10 00 9D
+	oiran-sim-card (Telecommunication)
+
 3B 7D 94 00 00 57 44 53 72 FD 86 93 11 01 06 75 5B 0F
 	China Telecom UIM 64K
 
@@ -6820,6 +6823,10 @@
 	casatramway rechargeable card (Transport)
 	https://www.casatramway.ma/
 
+3B 88 80 01 11 00 00 11 77 81 81 00 7E
+	Transport card of Bordeaux, France (Transport)
+	https://www.infotbm.com/fr
+
 3B 88 80 01 11 00 00 11 77 81 83 00 7C
 	Passport of citizen of Ukraine, Passport of citizen of Ukraine for traveling abroad (passport)
 
@@ -7781,6 +7788,10 @@
 	... (Transport)
 	https://www.portalviva.pt/
 
+3B 8C 80 01 50 78 71 82 D4 00 00 00 00 11 81 71 E3
+	BUS Synchro in Grand Chambéry (Transport)
+	https://synchro.grandchambery.fr
+
 3B 8C 80 01 50 78 F8 72 17 E1 F3 5E 11 77 81 A5 B6
 	US (passport)
 
@@ -8174,6 +8185,10 @@
 3B 8E 80 01 54 4A 4F 50 32 31 44 30 34 31 56 32 32 31 1B
 	China Construction Bank Lutong Card Type A (Credit) with ETC (Bank)
 	http://ccb.com/sd/cn/fhgg/20200122_1579670876.html
+
+3B 8E 80 01 56 44 56 2D 4B 41 20 49 44 33 37 20 46 4D 6E
+	"VBB-fahrCard" time and season tickets on public transports in Berlin and Brandenburg - eTicket (Transport)
+	https://www.vbb.de/tickets/tarifinformationen-services/vbb-fahrcard/
 
 3B 8E 80 01 56 44 56 2D 4B 41 20 49 44 33 37 20 4A 34 1B
 	eTicket (Transport)
@@ -11535,6 +11550,9 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 33 05 81 05 30 00 CE
 	COMPRION M2M eUICC (Telecommunication)
 
+3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 34 46 00 7A
+	cosmo one 9.1 (eID)
+
 3B 9F 96 80 3F C7 82 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 60 01 00 69
 	eSIM GSMA Card (Telecommunication)
 	https://www.gsma.com/newsroom/wp-content/uploads/SGP.22_v2.2.pdf
@@ -12315,6 +12333,9 @@
 3B BF 93 00 80 3F C6 82 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 41
 	eSTK.me v1.2.4 (Telecommunication)
 	https://eSTK.me
+
+3B BF 94 00 80 1F C6 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 E4
+	eSTK.me SGP.22 consumer card T001V06 (3.4.3) (Telecommunication)
 
 3B BF 94 00 81 31 FE 65 45 4C 55 20 41 75 73 74 72 69 61 20 31 2E 32 38
 	A-Trust: trust-sign (Old Version, ca. 2002) for Digital Signature etc.
@@ -15119,6 +15140,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00
 	Huntington  (Bank)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 55 30 43 4E 07 90 00
+	caixa bank debit card (Bank)
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 42 4E 07 90 00
 	Rabobank Netherlands VISA debit (Bank)
 
@@ -15342,6 +15366,10 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 D0 44 A0 47 12 EF
 	Debitcard (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 F0 BD 20 47 12 B6
+	Postbank Girocard Vpay Debit (Bank)
+	https://postbank.de/privatkunden/services.html
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 00 80 C0 47 12 B2
 	1822direct Bank Card (Bank)
@@ -15842,6 +15870,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 22 BB EB 07 40 80
 	girocard contactless (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 81 31 07 40 61
+	Debit card (Germany): girocard, V-Pay (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
@@ -16431,6 +16462,9 @@
 
 3F FF 14 25 03 10 80 54 B0 01 69 FF 4A 50 70 00 00 4B 57 01 00 00
 	PayTV Card Kabel BW (www.kabelbw.de), Encryption: NDS by Videoguard, Distribution Standard: DVB-C
+
+3F FF 15 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 11
+	V13 or V14 (NDS) (Pay TV)
 
 3F FF 15 25 03 10 80 41 B0 07 69 FF 4A 50 70 00 00 50 31 01 00 15
 	Sky (Germany) VideoGuard CAM card (www.sky.de) in Fast Mode (ins7e11=15) (Pay TV)
