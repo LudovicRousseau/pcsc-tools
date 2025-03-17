@@ -467,6 +467,9 @@
 3B 16 94 20 06 01 0C 01 00
 	Vodafone Romania (Telecommunication)
 
+3B 16 94 58 80 00 01 02 03
+	Thales PayShield 9000 Test Local Master Key (hardware key) card (Other)
+
 3B 16 94 61 80 00 01 06 03
 	Thales PayShield9000 Local Master Key (hardware key) card (Other)
 
@@ -6900,6 +6903,9 @@
 	Fidesmo card (install or uninstall JavaCard applets or Mifare-based services on the field, using the Fidesmo Android App. (JavaCard))
 	https://developer.fidesmo.com/
 
+3B 88 80 01 4A 43 4F 50 42 4D 42 32 60
+	emoney (Bank)
+
 3B 88 80 01 4A 43 4F 50 76 32 34 31 5E
 	RFID - ISO 14443 Type A - NXP JCOP
 	NXP J3A081 JavaCard (contactless interface)
@@ -7469,6 +7475,10 @@
 
 3B 8B 80 01 0B 78 80 82 02 44 49 20 30 32 4D 1B
 	Mastercard Debit issued by Raiffeisen bank in Czech Republic
+
+3B 8B 80 01 20 55 5F 4A 43 41 52 44 5F 53 20 52
+	Universal JCard S (C-UJC080-PCG-101) (JavaCard)
+	https://www.usmartcards.co.uk/universal-j-cards
 
 3B 8B 80 01 20 70 01 00 00 00 00 07 1C 61 51 70
 	Residence Permit for Residents of Liaoning, China (eID)
@@ -8342,6 +8352,9 @@
 	Debit Card (Deutsche Bank Card Plus) (Bank)
 	https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 56 30 43 4E 07 90 00 EC
+	Amazon VISA Card (Bank)
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 56 31 43 4E 07 90 00 ED
 	Tarjeta Después BBVA España (contact interface) (Bank)
 	https://www.bbva.es/personas/productos/tarjetas/tarjeta-despues.html
@@ -8382,6 +8395,9 @@
 3B 8F 80 01 31 01 F1 56 40 11 00 19 00 00 00 00 FF FF FF 2E
 	BVG Guthabenkarte (Prepaid Payment Card for Berlin/Brandenburg Public Transport) (Transport)
 	https://www.bvg.de/de/service-und-kontakt/guthabenkarte
+
+3B 8F 80 01 31 01 F1 56 40 11 00 1D 00 00 00 00 FF FF FF 2A
+	n26 (Bank)
 
 3B 8F 80 01 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 5B
 	DKB-VISA-Card (Bank)
@@ -9720,6 +9736,9 @@
 3B 9E 96 80 1F 83 80 31 E0 73 FE 21 12 66 55 57 4E 41 32 33 91
 	TDC mobile UICC (Telecommunication)
 
+3B 9E 96 80 1F 87 80 31 E0 73 FE 21 19 66 4A 55 60 21 AA 16 70
+	telkomsel (Telecommunication)
+
 3B 9E 96 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 01 6C 04 0D 00 60
 	toggle GSM SIM
 	http://www.togglemobile.co.uk
@@ -9903,6 +9922,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 A7 0F 00 08
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
 	http://www.movistar.es/
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 B8 10 00 08
+	Bancorp (Bank)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 E6 0F 00 49
 	SIM O2 CZ (Telecommunication)
@@ -10700,6 +10722,9 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 00 00 00 26
 	ePass2003 (PKI)
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 03 6A 82 CD
+	ePass2003 Auto (eID)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 04 31 71 DF 00 00 06 00 00 20
 	FEITIAN ePASS 2003 Auto (PKI)
@@ -13231,6 +13256,9 @@
 	Atac is the public transport company of the city of Rome.)
 	http://www.atac.roma.it/smart/smart.asp?A=2&S=22&PR=4&LNG=2
 
+3B E4 00 00 81 21 45 9C 10 00 80 0D
+	JCP2040 (JavaCard)
+
 3B E5 00 00 81 21 45 9C 10 01 00 80 0D
 	BIN 470132 -- BANK OF AMERICA VISA DEBIT -- GEMALTO MGY 0 U1090788B - 12/14 F8 00 89 (Bank)
 
@@ -15553,6 +15581,9 @@
 
 3B FF 18 00 FF 81 31 FE 45 65 63 1A 01 41 02 50 00 10 52 09 05 67 05 10 21
 	Maestro/Geldkarte (BBBank Karlsruhe, Germany)
+
+3B FF 18 00 FF 81 31 FE 4D 00 6B 04 04 B8 5B 01 F1 01 43 4E 53 10 31 80 9D
+	Italian CNS (HealthCare)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 02 00 01 01 01 43 4E 53 10 31 80 9F
 	Carta Nazionale dei Servizi - InfoCamere
