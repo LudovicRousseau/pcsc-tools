@@ -20,6 +20,8 @@ if host_machine.system() == 'windows'
   cc = meson.get_compiler('c')
   pcsc_dep = cc.find_library('winscard')
   extra_link_args += ['-static', '-pthread']
+elif  host_machine.system() == 'darwin'
+  pcsc_dep = dependency('PCSC')
 else
   pcsc_dep = dependency('libpcsclite')
 endif
