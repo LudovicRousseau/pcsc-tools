@@ -1,0 +1,22 @@
+name: macOS_meson
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: setup prerequisites
+        shell: bash
+        run: brew install meson
+
+      - name: compile
+        shell: bash
+        run: |
+          meson setup builddir
+          cd builddir
+
+          meson dist
