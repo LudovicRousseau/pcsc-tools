@@ -26,6 +26,7 @@ EXTRA_DIST = \
 	Changelog \
 	LICENCE \
 	meson.build \
+	meson.options \
 	$(PERL_BINS) \
 	$(PERL_MANPAGES) \
 	$(pcsc_DATA) \
