@@ -130,6 +130,14 @@ Licences:
 History:
 ========
 
+1.7.3 - 22 March 2025, Ludovic ROUSSEAU
+    - 199 new ATRs
+    - meson:
+      . add Windows support
+      . add macOS support
+      . add option to set ATRparser
+    - minor fixes and improvements
+
 1.7.2 - 10 August 2024, Ludovic ROUSSEAU
     - 191 new ATRs
     - provide meson configuration file
