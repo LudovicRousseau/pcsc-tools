@@ -1497,6 +1497,9 @@
 	Fnac MasterCard (contact interface) (Bank)
 	https://www.fnac.com/carte-fnac-mastercard
 
+3B 65 00 00 20 63 CB 32 A1
+	MONABANQ (Bank - France) (Bank)
+
 3B 65 00 00 20 63 CB 32 C1
 	Credit Card Crédit Mutuel (Bank)
 	https://www.creditmutuel.fr/partage/fr/CC/telechargements/communiques-de-presse/CM/2021/2021-03-17_CP-Carte_PVC_recycle.pdf
@@ -2258,6 +2261,9 @@
 
 3B 69 00 00 24 94 01 03 01 00 01 00 A9
 	Schlumberger MicroPayflex S card
+
+3B 69 00 00 47 44 5F 44 69 5F 54 50 4E
+	ICBC (Bank)
 
 3B 69 00 00 49 44 35 30 56 31 2E .. ..
 	eID Card to user authenticate and save passwords in the Card. Product ID50 Password manager from IDENTOS GmbH (eID)
@@ -6899,6 +6905,10 @@
 	javacard.pro card (JavaCard)
 	https://javacard.pro/
 
+3B 88 80 01 45 53 43 4F 53 31 30 30 71
+	Legic Prime and Legic Advant (Other)
+	https://www.legic.com/de/products/smartcards/legic-smartcard-ics
+
 3B 88 80 01 46 49 44 45 53 4D 4F 31 67
 	Fidesmo card (install or uninstall JavaCard applets or Mifare-based services on the field, using the Fidesmo Android App. (JavaCard))
 	https://developer.fidesmo.com/
@@ -9880,6 +9890,9 @@
 	Aldi Talk SIM card, Germany (Telecommunication)
 	https://www.alditalk.de/talk
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 0F 11 00 BF
+	Vodafone UK SIM card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 1E 11 00 AE
 	Zevvle SIM Card (Telecommunication)
 	https://zevvle.com
@@ -11749,6 +11762,9 @@
 3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F FF
 	SIM Card Fastweb IT GSM mobile network  (Telecommunication)
 
+3B 9F 96 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 33 14 E0 81 0F 86
+	Verizon 5G sim card (Telecommunication)
+
 3B 9F 96 C0 0A 3F C7 82 80 31 E0 73 FE 21 1F 65 D0 02 09 14 6C 81 0F 13
 	euicc (eID)
 
@@ -11837,6 +11853,10 @@
 
 3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 1B 13 F6 81 0F BE
 	Verizon SIM Card (Telecommunication)
+
+3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 33 14 E0 81 0F 87
+	Verizon 5G SIM Card (Telecommunication)
+	https://www.verizon.com/
 
 3B 9F 97 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 01 90 0F EE 81 0F 33
 	AT&T Mobility LLC MicroSIM Card (Telecommunication)
@@ -12003,6 +12023,9 @@
 3B B8 13 00 81 31 FA 52 43 48 54 4D 4F 49 43 41 A5
 	citizen digital certificate (PKI)
 	http://moica.nat.gov.tw/
+
+3B B8 96 00 C0 08 31 FE 45 FF FF 11 54 30 50 23 00 6A
+	Infineon SECORA ID S, SLJ52GDT120CS (JavaCard)
 
 3B B8 97 00 81 31 FE 45 FF FF 14 82 30 50 23 00 F1
 	UAE Emirates ID (eID)
@@ -13180,6 +13203,9 @@
 3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 49 78 00 00 80 83 0F 90 00 0C
 	Idemia Cosmo X (eID)
 	https://cyber.gouv.fr/sites/default/files/2021/08/anssi-cible-cc-2021_36n.pdf
+
+3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 69 78 00 00 80 83 07 90 00 24
+	Romanian Electronic Identity Card (eID)
 
 3B DF 96 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 20
 	Austrian health insurance card "e-card" (HealthCare)
@@ -14628,6 +14654,10 @@
 	TransferWise Debit Card (Bank)
 	https://wise.com/
 
+3B FB 13 00 FF 10 80 00 31 C1 64 09 58 21 36 0F 90 00
+	American Express issued by American Express Europe S.A. (Germany branch) (Bank)
+	https://www.americanexpress.com/de-de/
+
 3B FB 13 00 FF 10 80 00 31 C1 64 09 58 22 36 0F 90 00
 	LINE Bank by Hana Bank BT21 Debit Visa (Bank)
 
@@ -15905,6 +15935,10 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 81 31 07 40 61
 	Debit card (Germany): girocard, V-Pay (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 B7 B2 07 40 D4
+	Hannoversche Volksbank girocard / Visa Debit Card (Bank)
+	https://www.hannoversche-volksbank.de/privatkunden/girokonto-kreditkarten/girocards/hannover-girocard.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
 
@@ -15950,6 +15984,10 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 20 09 31 38 01 10 62
 	GLS Bank MasterCard (Bank)
 	https://www.gls.de/konten-karten/karten/kreditkarte/
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 21 0B 61 24 01 10 2D
+	Girocard (Bank)
+	https://www.muenchner-bank.de
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 02 0B 20 DD 01 10 92
 	DKB Visa (Debit) (Bank)
