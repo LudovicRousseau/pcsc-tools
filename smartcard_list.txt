@@ -1362,6 +1362,9 @@
 3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D A2 13 10 91
 	VISA (Bank)
 
+3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D FF FF FF FF
+	LTE Testing  (Telecommunication)
+
 3B 50 11 00
 	JAVA (JavaCard)
 
@@ -1461,6 +1464,9 @@
 
 3B 60 00 00
 	Meano (Bank)
+
+3B 61 00 00 41
+	SBERKARTA MOMENTUM (Bank)
 
 3B 61 00 00 80
 	blank A40CR card (JavaCard)
@@ -7093,6 +7099,10 @@
 3B 89 80 01 41 43 4F 53 4A 76 32 30 35 1D
 	ACOSJ dual interface Java card 95K (JavaCard)
 
+3B 89 80 01 43 32 33 30 30 2D 4B 45 59 30
+	HID® Crescendo® Key (PKI)
+	https://www.hidglobal.com/documents/hid-crescendo-key-datasheet
+
 3B 89 80 01 43 41 52 44 41 47 41 46 43 5E
 	Student ID of University Duisburg-Essen (Other)
 	https://www.uni-due.de/studierendensekretariat/studierendenausweis.shtml
@@ -7569,6 +7579,10 @@
 3B 8B 80 01 80 F9 A0 00 00 03 08 00 00 10 00 C8
 	Probably the same as "JCOP3 SecID P60 CS (JavaCard)" but mated with a contactless Identiv reader (JavaCard)
 
+3B 8B 80 01 86 86 02 56 33 90 31 4F 8B B9 8F 3E
+	Macau Pass (Transport)
+	https://www.macaupass.com/
+
 3B 8B 80 01 86 88 FF 6F 39 1E 74 3C 20 08 00 D3
 	Chinese ICBC (bank)
 
@@ -7974,6 +7988,10 @@
 3B 8C 80 01 50 E2 F8 28 2E 00 00 00 00 00 81 87 47
 	ING Maestro Debit Card (Bank)
 	https://www.ing.nl/particulier/index.html
+
+3B 8C 80 01 50 EA 5A 3F 19 30 AA AA 01 77 81 D7 DB
+	Indonesia's Official Citizenship/Identity Card (e-KTP) (eID)
+	https://en.wikipedia.org/wiki/Indonesian_identity_card
 
 3B 8C 80 01 50 EB 5E 6A 12 00 00 00 00 00 81 77 66
 	Maestro card (Bank)
@@ -10885,6 +10903,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 02 48 A9
 	Cardcentrics (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 06 4B AE
+	USIM (Telecommunication)
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
 	sysmoISIM-SJA2 (Telecommunication)
 	https://osmocom.org/projects/cellular-infrastructure/wiki/SysmoISIM-SJA2
@@ -11461,6 +11482,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 88 92 00 82 90 00 9A
 	VIVO pré SIM card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 89 61 00 82 90 00 68
+	SIM card of a MEO subsidiary "UZO" (Telecommunication)
+	https://www.uzo.pt/uzo/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 01 66 00 82 90 00 F6
 	SIM card (manufactured by IDEMIA) Telecommunication
 
@@ -11551,6 +11576,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE A1 17 57 4A 33 05 8C 33 39 00 96
 	1NCE SIM card (Telecommunication)
 	https://1nce.com/en-eu/1nce-os/our-architecture
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE A1 1F 64 41 80 51 00 82 90 00 D5
+	Smartjac smaot500b234ff (Telecommunication)
+	https://www.smartjac.biz
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1B 67 45 4D 75 30 34 02 4B 02
 	Hologram Global G1 eUICC SIM (Telecommunication)
@@ -14638,6 +14667,10 @@
 	Mastercard World Elite (CapitalOne Venture) (Bank)
 	https://www.mastercard.us/en-us/personal/find-a-card/world-elite-mastercard-credit.html
 
+3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 07 90 00
+	America First Credit Union Visa Credit Card (Bank)
+	https://www.americafirst.com/
+
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 0F 90 00
 	Stripe Issuing Card (Bank)
 
@@ -16092,6 +16125,10 @@
 3F 36 11 00 53 49 5B 01 51 53
 	Sodexo Pass Lunch Card. An employee benefits card to provide meal tickets to workers. (Other)
 	https://www.sodexo-benefits.it/prodotto/aziende/pausa-pranzo-aziende/pass-lunch-card/#tabsoluzioni
+
+3F 3B 11 00 4B 49 41 54 32 5F 52 53 07 90 00
+	singe-use Smart Card from Indesit/Whirlpool containing dishwasher EEPROM data (spare part no C00277010, containing the file 28655190905.eep) (Other)
+	https://fixpart.co.uk/product/whirlpool-indesit-c00277010-programming-card
 
 3F 3B F8 13 00 00 81 31 FE 45 4A 43 4F 50 76
 	District6 Group employee ID (eID)
