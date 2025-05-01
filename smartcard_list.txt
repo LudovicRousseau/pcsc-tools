@@ -2703,6 +2703,9 @@
 3B 6B 00 00 00 31 C1 64 08 98 62 02 0F 90 00
 	Blu BCA Digital Debit Mastercard (Bank)
 
+3B 6B 00 00 00 31 C1 64 08 98 62 13 07 90 00
+	Stravenka (Other)
+
 3B 6B 00 00 00 31 C1 64 09 24 33 1E 0F 90 00
 	Cembra Money Bank - Certo! Mastercard credit card (Bank)
 	https://certo-card.ch/certo/de/
@@ -6948,6 +6951,10 @@
 	national Lithuania ID card (eID)
 	https://www.dokumentai.lt/viewpage.php?page_id=77
 
+3B 88 80 01 59 5A 52 43 4F 53 03 00 04
+	Waveshare 4.2inch Passive NFC-Powered e-Paper 400x300 Screen (Other)
+	https://www.amazon.com/dp/B0CNR5KGZN?ref=ppx_yo2ov_dt_b_fed_asin_title&th=1
+
 3B 88 80 01 76 61 75 6C 74 69 74 31 5F
 	ID06 2.0 (eID)
 
@@ -10112,6 +10119,9 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 90 15 00 D9
 	SMARTY (a subsidiary of Three UK) 4G SIM Card (Telecommunication)
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E AE 15 00 E7
+	kiwisim (Telecommunication)
+
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E C0 15 00 89
 	Orange France Postpaid SIM Card (Telecommunication)
 
@@ -11645,6 +11655,10 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 27 D8
 	5ber physical eUICC / eSIM (Standard Version) (Telecommunication)
 	https://esim.5ber.com/order?language=en-US
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F3 03 00 02 FC
+	Xesim X2 (Telecommunication)
+	https://xesim.cc/products/xesim?VariantsId=10004
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 63 3A 20 4E 83 00 90 00 31
 	eSIM (Telecommunication)
@@ -14677,6 +14691,9 @@
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 10 0F 90 00
 	Varo (Bank)
 
+3B FB 13 00 FF 10 80 00 31 C1 64 08 77 71 30 0F 90 00
+	Apple Card (Bank)
+
 3B FB 13 00 FF 10 80 00 31 C1 64 08 98 62 21 0F 90 00
 	Visa Debit (Bank)
 
@@ -14686,6 +14703,9 @@
 3B FB 13 00 FF 10 80 00 31 C1 64 09 24 33 1E 0F 90 00
 	TransferWise Debit Card (Bank)
 	https://wise.com/
+
+3B FB 13 00 FF 10 80 00 31 C1 64 09 29 62 25 0F 90 00
+	Apple Credit Card (Bank)
 
 3B FB 13 00 FF 10 80 00 31 C1 64 09 58 21 36 0F 90 00
 	American Express issued by American Express Europe S.A. (Germany branch) (Bank)
@@ -15361,6 +15381,9 @@
 	Izenpe Certificado Ciudadano (eID)
 	https://www.izenpe.eus/informacion/certificado-ciudadano/s15-content/es/
 
+3B FF 18 00 00 81 31 FE 45 00 6B 15 0C 03 02 01 01 01 42 34 44 10 31 80 0D
+	bit4id (PKI)
+
 3B FF 18 00 00 81 31 FE 45 00 6B 15 0C 03 02 01 01 01 43 4E 53 10 31 80 61
 	Bit4id Digital-DNA Key (eID)
 
@@ -15450,6 +15473,9 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 60 2A A0 47 12 31
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
 	https://www.postbank.de/
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 C0 40 C0 47 12 9B
+	Maestro Bank card (aka. Giro card) of the Kreissparkasse (German bank) (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 C0 44 21 47 12 7E
 	Commerzbank Classic Kreditkarte Mastercard (Bank)
@@ -15971,6 +15997,12 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 B7 B2 07 40 D4
 	Hannoversche Volksbank girocard / Visa Debit Card (Bank)
 	https://www.hannoversche-volksbank.de/privatkunden/girokonto-kreditkarten/girocards/hannover-girocard.html
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 6D 78 07 40 C3
+	Mastercard Debit Card from the Kreissparkasse (German bank) (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 10 07 C0 BC 02 00 24
+	sparda-bank (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
