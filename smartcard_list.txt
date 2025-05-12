@@ -1435,6 +1435,9 @@
 	OPUS Metro card from Quebec, Canada (Transport)
 	https://en.wikipedia.org/wiki/Opus_card
 
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 68 50 4E 82 90 00
+	OURA transport French (Transport)
+
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 D3 AD C1 82 90 00
 	OURA card (Transport)
 
@@ -1449,6 +1452,10 @@
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 61 9B EA 82 90 00
 	Oura card for Auvergne-Rhone-Alpes region in France. Using for several public transport (Transport)
 	https://www.oura.com/
+
+3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C5 2E 6F D3 82 90 00
+	Mobib basic (Brussels transit card) (contact interface) (Transport)
+	https://www.stib-mivb.be/buy/all-your-journeys-with-mobib
 
 3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C5 82 69 63 82 90 00
 	MOBIB Personal Travel Card, Brussels | STIB-MIVB  (Transport)
@@ -4458,6 +4465,10 @@
 	Île-de-France Mobilités (Navigo Nominative) (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B A1 94 82 90 00
+	Korrigo (Brittany transit card) (contact interface) (Transport)
+	https://www.korrigo.bzh/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 03 4B EB 8D 82 90 00
 	Korigo card transport for star company (France) (Transport)
 	http://www.star.fr/titres-et-tarifs/carte-korrigo/
@@ -6767,6 +6778,10 @@
 	Public transportation card in Riga, Latvia, called "e-Talons"
 	http://etalons.rigassatiksme.lv/en/payments/activating_the_e-ticket/
 	Belgian MOBIB (transport)
+
+3B 88 80 01 00 00 00 00 B3 71 71 00 BA
+	Pastel (transport card in Occitania and Toulouse, France) (Transport)
+	https://www.ter.sncf.com/occitanie/services-contacts/souscription-carte-pastel
 
 3B 88 80 01 00 00 00 00 F7 81 C1 00 BE
 	Italian Health Insurance card (eID)
@@ -9940,6 +9955,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 22 11 00 93
 	Lebara (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 42 10 00 F2
+	SIM card (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 58 11 00 E9
 	Vodafone CZ: SIMPLUS V128 LTE (Telecommunication)
 
@@ -10017,6 +10035,10 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 36 14 00 04
 	SIM (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 B3 14 00 81
+	Drei AT Prepaid SIM Card (Telecommunication)
+	https://www.drei.at/de/shop/wertkarte/
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 24 DE 14 00 EC
 	Romanian Vodafone SIM Card (Telecommunication)
@@ -12552,6 +12574,9 @@
 	Thales nShield Security World Card - Remote Administration Ready
 	https://www.thalesesecurity.fr/products/hsm-management-and-monitoring/nshield-remote-administration
 
+3B D5 18 FF 81 91 FE 1F C3 4A 43 4F 50 34 22
+	algerian driving licence (eID)
+
 3B D5 18 FF 81 91 FE 1F C3 80 73 C8 21 10 0A
 	ComSign digital signature card (eID)
 	https://www.comsign.co.uk/
@@ -13286,6 +13311,14 @@
 3B DF 96 FF 91 01 31 FE 46 80 31 90 52 41 02 64 05 02 00 AC 73 D6 22 C0 17
 	Acos-ID (AUSTRIACARD’s Operating System) (Other)
 	https://www.austriacard.com/digital-security/solutions/card-solutions/acos-id/
+
+3B DF 97 00 81 31 FE 46 80 31 90 52 41 03 64 05 02 01 AC 73 D6 22 C0 F8
+	A-Trust ACOS-ID v3 (AustriaCard Operating System), used for Austrian RKSV fiscal signature cards (Other)
+	https://github.com/A-Trust/RKSV
+
+3B DF 97 00 81 31 FE 46 80 31 90 52 41 04 64 05 04 01 AC 73 D6 22 C0 F9
+	A-Trust ACOS-ID v4.1 (AustriaCard Operating System), used for Austrian RKSV fiscal signature cards (Other)
+	https://github.com/A-Trust/RKSV
 
 3B DF 97 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 21
 	Austrian healthcare insurance identification card (HealthCare)
@@ -14587,6 +14620,10 @@
 3B FA 18 00 00 81 31 FE 45 50 56 4A 43 4F 50 34 53 49 44 93
 	National Health Insurance (Taiwan) (HealthCare)
 
+3B FA 18 00 00 81 31 FE 45 53 4C 4A 35 32 47 78 78 79 79 FC
+	National Health Insurance of Taiwan (HealthCare)
+	https://www.nhi.gov.tw/
+
 3B FA 18 00 00 91 01 31 FE 45 4A 33 52 31 38 30 2D 32 35 35 F5
 	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
@@ -15723,8 +15760,8 @@
 	http://www.polito.it/
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 16 17 01 11 01 43 4E 53 11 31 80 8D
-	Carta Regionale dei Servizi - Regione Autonoma Friuli Venezia Giulia (HealthCare)
-	https://www.regione.fvg.it/rafvg/cms/RAFVG/GEN/carta-regionale-servizi/
+	Tessera Sanitaria - Carta Nazionale dei Servizi (TS-CNS)
+	Italian Health Insurance Card (healthcare)
 
 3B FF 18 00 FF 81 31 FE 55 00 6B 02 09 17 17 01 11 01 43 4E 53 11 31 80 8C
 	european health insurance card and Regional (ItalY - Provincia Autonoma di Trento) Service Card (CPS) (eID)
