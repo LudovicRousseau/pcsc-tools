@@ -65,6 +65,9 @@
 3B 02 14 1C
 	UAE (United Arab Emirates) (eID)
 
+3B 02 14 25
+	Nk (Bank)
+
 3B 02 14 35
 	cartão cidadão (eID)
 
@@ -4718,6 +4721,10 @@
 	Rav-Kav Israel (Transport)
 	https://ravkavonline.co.il
 
+3B 6F 00 00 80 5A 3C 06 08 14 01 01 C2 F8 B0 EF 82 90 00
+	Navegante Lisboa Viva (Transport)
+	https://www.portalviva.pt/
+
 3B 6F 00 00 80 5A 3C 06 08 14 01 01 C3 80 5E 38 82 90 00
 	Lisboa VIVA - Lisbon public transport card (Transport)
 	https://www.portalviva.pt/
@@ -5381,6 +5388,9 @@
 
 3B 7D 94 00 00 55 55 53 0A 74 86 93 0B 24 7C 4D 54 68
 	SIM from sysmocom sysmoSIM-GR2
+
+3B 7D 94 00 00 57 44 21 01 18 12 07 01 00 00 00 00 00
+	mir (Bank)
 
 3B 7D 94 00 00 57 44 29 08 30 86 93 07 05 65 18 2B 56
 	Canal Digitaal (Pay TV)
@@ -9445,6 +9455,10 @@
 3B 9C 95 80 81 1F 03 90 67 46 4A 01 01 17 06 F2 72 7E 00 00
 	A40CR (JavaCard)
 
+3B 9C 95 81 01 50 53 43 50 2D 53 43 53 56 31 2E 30 8E
+	SSE Carte à puce Inc. : PIV - GIDS - FIDO2.1 - OPENPGP 2.1 Identity Services for Corporation (eID)
+	https://www.smartcardsecurity.ca
+
 3B 9C 95 81 31 FE 9F 90 67 46 4A 01 02 53 05 01 72 FE 00 FB
 	Feitian Biopass K27 (PKI)
 	https://www.ftsafe.com/Products/FIDO/Bio
@@ -9785,6 +9799,9 @@
 
 3B 9E 96 80 1F 83 80 31 E0 73 FE 21 12 66 55 57 4E 41 32 33 91
 	TDC mobile UICC (Telecommunication)
+
+3B 9E 96 80 1F 87 80 31 E0 73 FE 21 19 66 4A 55 43 14 01 10 CB
+	SIM card for 5G exploration (Telecommunication)
 
 3B 9E 96 80 1F 87 80 31 E0 73 FE 21 19 66 4A 55 60 21 AA 16 70
 	telkomsel (Telecommunication)
@@ -13275,6 +13292,10 @@
 3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 69 78 00 00 80 83 07 90 00 24
 	Romanian Electronic Identity Card (eID)
 
+3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 69 78 54 00 01 83 0F 90 00 F9
+	National ID Card of Peru issued by RENIEC (eID)
+	https://identidad.reniec.gob.pe/dni-electronico
+
 3B DF 96 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 20
 	Austrian health insurance card "e-card" (HealthCare)
 	https://de.wikipedia.org/wiki/E-card_(Chipkarte)
@@ -15338,6 +15359,10 @@
 	AirPlus MasterCard Commercial (Bank)
 	https://www.airplus.com/us/en/products-solutions/products/corporate-cards/corporate-cards.html
 
+3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 56 30 43 4E 07 90 00 8F
+	Girocard for ING bank in germany (Bank)
+	https://www.ing.de/girokonto/
+
 3B FF 13 00 FF 91 01 31 FE 41 31 01 F1 56 40 12 00 22 00 00 00 00 00 00 00 EA
 	JCB T-CARD PLUS (eID)
 	https://www.aplus.co.jp/creditcard/use/tcardplus_t/index.html
@@ -15520,6 +15545,9 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 D0 44 A0 47 12 EF
 	Debitcard (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 D0 9B 60 47 12 F0
+	Kreissparkasse Girocard (Germany) (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 F0 BD 20 47 12 B6
 	Postbank Girocard Vpay Debit (Bank)
@@ -15992,6 +16020,10 @@
 	Identicard for french advocates (eID)
 	https://doc.ubuntu-fr.org/avocats_sur_ubuntu
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 05 00 39 12 0F FE 82 90 00 C8
+	SafeNet IDPrime 3940C (PKI)
+	https://cpl.thalesgroup.com/resources/access-management/safenet-idprime-940c-3940c-smart-cards-product-brief
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 59 56 FB 12 01 78 82 90 00 88
 	SafeNet 5110 token for eSignature (eID)
 	https://www.certsign.ro/en/support/safenet-installing-the-device-on-windows/
@@ -16014,6 +16046,9 @@
 3B FF 96 00 00 C0 0A 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 AB
 	French National Identity Card (eID) (eID)
 	https://www.interieur.gouv.fr/actualites/actu-du-ministere/nouvelle-carte-nationale-didentite
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 69 C9 07 30 26
+	Kreissparkasse Mastercard (Germany) (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
