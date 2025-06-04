@@ -3642,6 +3642,10 @@
 	Bank of America (Bank)
 	https://www.bankofamerica.com/
 
+3B 6E 00 00 80 66 B1 A3 04 01 11 0B 83 00 90 00 00 00
+	Bank of America (Bank)
+	https://www.bankofamerica.com/
+
 3B 6E 00 00 86 88 11 02 01 01 00 00 47 48 F1 FF 55 50
 	UnionPay Debit card issued by Industrial and Commercial Bank of China (Contact) (Bank)
 	https://www.icbc.com.cn/
@@ -4690,6 +4694,10 @@
 	Oùra Auvergne-Rhône-Alpes (Transport)
 	https://www.oura.com
 
+3B 6F 00 00 80 5A 2E 13 02 00 01 01 05 5C A7 E3 82 90 00
+	OURA card, FRench isère transport (Transport)
+	https://www.oura.com
+
 3B 6F 00 00 80 5A 34 07 06 15 00 01 79 17 A7 E2 82 90 00
 	Rav-Kav multi-line travel ticket used in the public transportation system in Israel (Transport)
 	https://www.gov.il/en/departments/guides/multi_line_card
@@ -4720,6 +4728,9 @@
 3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 C3 C3 31 82 90 00
 	Rav-Kav Israel (Transport)
 	https://ravkavonline.co.il
+
+3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 ED 69 05 82 90 00
+	rav-kav (Transport)
 
 3B 6F 00 00 80 5A 3C 06 08 14 01 01 C2 F8 B0 EF 82 90 00
 	Navegante Lisboa Viva (Transport)
@@ -6604,6 +6615,10 @@
 3B 87 80 01 5A 43 50 75 72 73 65 5E
 	ZCPurse RFID card (ATR created by PCSC-Reader) (Transport)
 	http://www.zeitcontrol.de/en/zcpurse
+
+3B 87 80 01 69 53 68 69 65 6C 64 50
+	SwissBit iShield Key Security Key (FIDO2) (Other)
+	https://www.swissbit.com/en/products/ishield-key/
 
 3B 87 80 01 73 C8 40 00 00 90 00 6D
 	Amazon.de VISA Card (Bank)
@@ -10955,6 +10970,10 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 06 4B AE
 	USIM (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 31 13 59 A8
+	IR MCI simcard (Telecommunication)
+	https://mci.ir/
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 34 05 4B A9
 	sysmoISIM-SJA2 (Telecommunication)
 	https://osmocom.org/projects/cellular-infrastructure/wiki/SysmoISIM-SJA2
@@ -11751,6 +11770,9 @@
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 FE 21 1F 64 41 26 91 00 82 90 00 B3
 	LTE Lab SIM Ver 1.3 (Telecommunication)
+
+3B 9F 96 81 31 FE 45 4F 52 43 4C 2D 4A 43 33 2E 32 47 50 32 2E 33 23
+	Oracle JavaCard simulator (25.0) (Other)
 
 3B 9F 96 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9A
 	Scientific and Technological Research Council of Turkey (test card) (eID)
@@ -12929,6 +12951,10 @@
 3B DB 96 00 80 B1 FE 45 1F 83 00 31 E8 54 27 E6 04 00 0F 90 00 8C
 	Token card from iBRE CompanyNet (mbank) (Bank)
 
+3B DB 96 00 80 B1 FE 45 1F 83 00 31 E8 54 27 E6 05 00 07 90 00 85
+	Polish qualified signature card by CenCert (Other)
+	https://www.cencert.pl/produkt/podpis-elektroniczny-kwalifikowany-na-karcie-2024/
+
 3B DB 96 00 80 B1 FE 45 1F 83 45 53 54 4F 4E 49 41 2D 65 49 44 55
 	Estonian Identity Card (ID-One Cosmo v8.1) (eID)
 
@@ -13332,6 +13358,10 @@
 3B DF 96 FF 91 01 31 FE 46 80 31 90 52 41 02 64 05 02 00 AC 73 D6 22 C0 17
 	Acos-ID (AUSTRIACARD’s Operating System) (Other)
 	https://www.austriacard.com/digital-security/solutions/card-solutions/acos-id/
+
+3B DF 97 00 81 31 FE 45 41 43 4F 53 00 03 00 01 02 00 01 01 00 01 01 5D
+	Academic ID (Other)
+	https://submit-academicid.minedu.gov.gr/
 
 3B DF 97 00 81 31 FE 46 80 31 90 52 41 03 64 05 02 01 AC 73 D6 22 C0 F8
 	A-Trust ACOS-ID v3 (AustriaCard Operating System), used for Austrian RKSV fiscal signature cards (Other)
@@ -15424,6 +15454,9 @@
 	Regional Card - Regione Liguria, Veneto - Italy (eID)
 	Tessera Sanitaria - Carta Regionale dei Servizi
 
+3B FF 18 00 00 81 31 FE 45 00 6B 05 05 20 00 01 12 02 48 50 43 10 31 80 4C
+	CARTA SISS (HealthCare)
+
 3B FF 18 00 00 81 31 FE 45 00 6B 05 05 20 00 01 21 01 43 4E 53 10 31 80 79
 	health card (HealthCare)
 	https://tscns.regione.sardegna.it/
@@ -15563,6 +15596,10 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 03 08 B0 99 57 11 5B
 	Debit card Sparkasse (Germany) (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 03 0C D0 43 57 11 E5
+	Commerzbank AG (Bank)
+	https://www.commerzbank.de/portal/de/privatkunden/produkte/bezahlen/kreditkarten
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
 	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
