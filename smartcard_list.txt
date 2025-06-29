@@ -523,6 +523,10 @@
 3B 16 94 D0 01 7B 2C 0E 00
 	SIM tunisiana
 
+3B 16 95 91 00 08 02 16 03
+	telephone prepaid card (Telecommunication)
+	https://www.yesss.at/
+
 3B 16 95 9B 00 07 01 18 03
 	Thai GSM UICC (Telecommunication)
 
@@ -1028,7 +1032,7 @@
 	Credit Suisse CSX Mastercard Debit (Bank)
 	https://www.credit-suisse.com/ch/en/private-clients/account-cards/bank-cards/debit-mastercard.html
 
-3B 39 19 00 53 4F 4D 41 44 53 33 30 3[1,3]
+3B 39 19 00 53 4F 4D 41 44 53 33 30 3[13]
 	Identity card of the Republic of Kazakhstan (passport)
 	http://pki.gov.kz/
 
@@ -1065,7 +1069,7 @@
 3B 3B 13 00 80 66 12 03 01 03 00 08 82 90 00
 	UBS Switzerland Maestro Debit Card (Bank)
 
-3B 3B 13 00 80 66 12 04 01 04 00 4[4,9] 82 90 00
+3B 3B 13 00 80 66 12 04 01 04 00 4[49] 82 90 00
 	Neue Aargauer Bank Maestro card (Bank)
 
 3B 3B 13 00 80 66 12 04 01 04 00 61 82 90 00
@@ -7835,6 +7839,9 @@
 	USA PASSPORT BOOK ICAO  (passport)
 	https://www.icao.int/publications/pages/publication.aspx?docnum=9303
 
+3B 8C 80 01 50 4D 31 30 31 11 00 00 11 33 81 A3 31
+	SLE 77CLFX2400P (Other)
+
 3B 8C 80 01 50 53 81 57 36 30 AA AA 01 77 81 D7 FE
 	Indonesian ektp (eID)
 
@@ -8560,6 +8567,10 @@
 3B 8F 80 01 80 31 80 65 49 54 4A 34 44 12 0F FF 82 90 00 8D
 	CIE Italian Electronic Identity Card (eID)
 
+3B 8F 80 01 80 31 80 65 49 54 4A 34 49 12 0F FF 82 90 00 80
+	Italian Identity Card (eID)
+	https://www.cartaidentita.interno.gov.it/
+
 3B 8F 80 01 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00 ..
 	IDPrime MD 3810 T=Contactless (Prox DU)
 
@@ -9144,6 +9155,9 @@
 
 3B 95 94 40 FF 63 01 01 02 01
 	Schlumberger Cryptoflex 16Ko
+
+3B 95 94 40 FF D0 01 75 00 00
+	vehicle RC Smartcard (Transport)
 
 3B 95 95 40 FF AE 01 01 02 03
 	Axalto Cyberflex Access 64K v2a SM 2.3
@@ -11721,6 +11735,9 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 63 3A 20 4E 83 00 90 00 31
 	eSIM (Telecommunication)
 
+3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 20 03 55 02 0B 60 01 00 49
+	german elektronische gesundheitskarte (HealthCare)
+
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 20 03 55 02 0B 60 50 00 18
 	iPhone 11 SIM Slot eUICC chip. Identified by eSTK.me. (Telecommunication)
 
@@ -11814,6 +11831,9 @@
 
 3B 9F 96 C0 0A 1F C3 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DA
 	SIM SFR Pro (French Mobile Operator)
+
+3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 1A 13 78 81 0F B0
+	Vodafone Iceland card from Thales / Gemalto (Telecommunication)
 
 3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 13 1B 81 0F FA
 	Tinkoff SIM card (Telecommunication)
@@ -14461,6 +14481,10 @@
 	PIVKey T840 (Other)
 	https://pivkey.com/
 
+3B F9 13 00 FF 10 00 80 64 20 01 01 04 82 90 00
+	ECCP CARD (Bank)
+	https://eccp.poste.dz/commande-edahabia
+
 3B F9 13 00 FF 10 80 80 31 E0 55 42 45 52 47 53
 	Banrisul bank
 
@@ -16335,7 +16359,7 @@
 3F 65 25 08 65 04 6C 90 00
 	CB visa Boursorama France (Axalto)
 
-3F 65 35 10 0. 04 [6,E]C 90 00
+3F 65 35 10 0. 04 [6E]C 90 00
 	Postcard (Switzerland)
 
 3F 65 35 10 01 04 EC 90 00
