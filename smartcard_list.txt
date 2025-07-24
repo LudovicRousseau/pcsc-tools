@@ -1485,6 +1485,9 @@
 3B 61 00 00 80
 	blank A40CR card (JavaCard)
 
+3B 61 00 00 90
+	visa card (Bank)
+
 3B 62 00 00 47 44
 	UnionPay Debit card issued by Bank of China (Contact) (Bank)
 	https://www.boc.cn/
@@ -3124,6 +3127,10 @@
 
 3B 6D 00 FF 00 31 80 71 8E 64 48 D5 02 00 82 90 00
 	Blue for Business, American Express@Business
+
+3B 6D 00 FF 00 31 C1 73 C8 40 00 52 A1 D7 00 90 00
+	American Express Platinum Credit Card (Bank)
+	https://www.americanexpress.com/en-ca/charge-cards/the-platinum-card/
 
 3B 6D 00 FF 00 31 C1 73 C8 40 00 52 A1 D8 00 90 00
 	Discover it Credit Card (Bank)
@@ -6603,6 +6610,9 @@
 	بلیت مترو (Transport)
 	https://ezpay.ir/
 
+3B 86 81 11 FE 81 43 69 6E 64 79 30
+	Elatec TWN4 virtual slot smartcard (Simple Protocol) (Other)
+
 3B 86 81 31 70 34 45 50 41 20 45 4B 08
 	Austrian Quick E-purse "Einreichkarte" (transfer card)
 	http://www.quick.at/
@@ -7008,6 +7018,10 @@
 3B 88 80 01 80 66 B0 07 01 01 07 .. ..
 	Gemalto Santander Optelio TUI R7 with WG10 using Contactless interface
 
+3B 88 80 01 80 73 C8 21 10 52 B5 CF 2B
+	Swissbit iShield Key 2 (JavaCard)
+	https://www.swissbit.com/en/products/security-products/ishield-key/
+
 3B 88 80 01 80 73 C8 21 10 52 B8 1D F4
 	Arculus AuthentiKey (via NFC) (Other)
 
@@ -7395,6 +7409,9 @@
 
 3B 8A 80 01 80 65 A2 01 31 01 3D 72 D6 41 A5
 	Resident Identity Card (eID)
+
+3B 8A 80 01 86 65 00 05 00 70 11 00 90 00 1C
+	Aqara NFC card - quick access for your Aqara Smart Lock U200. Made by Lumi United Technology Co. Ltd. in China. (Other)
 
 3B 8B 00 52 75 74 6F 6B 65 6E 6C 74 53 44 E3
 	Aktiv Rutoken Lite SD
@@ -7898,6 +7915,9 @@
 
 3B 8C 80 01 50 7E DE 1E 06 00 88 3C 1F 77 81 95 2D
 	Bahrain CPR (eID)
+
+3B 8C 80 01 50 7F 09 26 C8 00 00 11 F7 81 81 23
+	Calypso Prime Wathdata sample card (Transport)
 
 3B 8C 80 01 50 7F 9C 66 8A 00 00 00 00 00 81 87 54
 	NFC Mastercard issued by CSOB bank Czech Republic, first 4 digits 5168
@@ -10270,6 +10290,10 @@
 
 3B 9F 11 81 11 3D 12 04 2C DB A2 98 3C 81 00 00 00 00 00 00 00 45
 	business card from a chinese manufacturer ("Realmart") commercial. (Other)
+
+3B 9F 11 81 31 FE 9F 00 6A 6D 54 6F 6B 65 6E 2D 45 00 00 81 90 00 7A
+	mToken CryptoID-FIPS 140-3 Level 3 (PKI)
+	https://longmai.net/products/mtoken/cryptoid/
 
 3B 9F 11 81 31 FE 9F 00 6A 6D 54 6F 6B 65 6E 2D 46 00 00 81 90 00 79
 	USB Token mToken CryptoID by Longmai (JavaCard)
@@ -13342,6 +13366,10 @@
 	National ID Card of Peru issued by RENIEC (eID)
 	https://identidad.reniec.gob.pe/dni-electronico
 
+3B DF 96 00 81 31 FE 45 80 73 84 21 E0 57 4D 44 41 5F 41 53 50 81 0F 78
+	miniLector POCKET EVO (Manufacturer: bit4id) (eID)
+	https://resources.bit4id.com/#/product/miniLector_POCKET
+
 3B DF 96 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 20
 	Austrian health insurance card "e-card" (HealthCare)
 	https://de.wikipedia.org/wiki/E-card_(Chipkarte)
@@ -13394,6 +13422,9 @@
 3B DF 97 00 81 31 FE 58 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 21
 	Austrian healthcare insurance identification card (HealthCare)
 	https://www.chipkarte.at
+
+3B DF 97 00 81 31 FE 58 80 31 B0 52 02 06 64 05 A3 11 AC 73 D6 22 C0 31
+	e-card Austria (eID)
 
 3B DF 97 00 81 B1 FE 45 1F 83 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 78
 	NASA PIV Card (Other)
@@ -13898,6 +13929,10 @@
 	EUROBANK GR (Bank)
 	NBG BANK (Bank)
 
+3B EF 00 FF 81 31 FE 41 65 63 06 08 71 02 50 00 23 B8 C0 79 60 47 12 23
+	V-Pay Debit DKB (Bank)
+	https://banking.dkb.de
+
 3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 4E
 	comdirect VISA card (Bank)
 	https://www.comdirect.de/konto/karten.html#Visa-Karte
@@ -13957,6 +13992,9 @@
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 12 0F 24 37 20 72
 	Debit card (Germany): Postbank - GeldKarte (EUR), girocard, V-PAY (Bank)
+
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 14 06 3C 37 20 65
+	comdirect (Bank)
 
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 15 3D 47 37 20 24
 	Girocard issued by Comdirect bank AG (Bank)
@@ -15399,6 +15437,10 @@
 3B FF 13 00 FF 80 31 FE 45 53 46 53 45 2D 43 58 33 32 32 2D 56 18 03 08 77
 	Giesecke & Devrient SmartCafe Expert 32K v2.0 #2
 
+3B FF 13 00 FF 81 31 FE 21 00 31 C1 73 C8 21 10 64 4A 30 42 4E 07 90 00 83
+	kyash Visa Card (Other)
+	https://www.kyash.co
+
 3B FF 13 00 FF 81 31 FE 45 65 63 11 04 50 02 80 00 08 39 00 04 02 05 02 E9
 	German "Geldkarte" supplied by the Deutsche Bank in Karlsruhe,
 	Baden-Württemberg, Germany.
@@ -15441,6 +15483,9 @@
 	revolut debit visa (Bank)
 	https://www.revolut.com/
 
+3B FF 13 00 FF 91 81 31 FE 41 45 50 41 00 00 00 01 03 40 99 17 00 00 00 00 15
+	Debit Bank-Card (Bank)
+
 3B FF 13 00 FF 91 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 32 20 4C 63 36 DF
 	Alior Bank MasterCard debit (Bank)
 	Comdirect (Deutsch Bank) débit VISA (AUSTRIACARD 56015/001) (Bank)
@@ -15456,6 +15501,9 @@
 3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 04 00 3C
 	SafeNet AT SC650 V4.0 02/2018 (PKI)
 	https://www.safenetat.com/Solutions/Enterprise-Security/high-assurance-authentication/sc650/
+
+3B FF 18 00 00 81 01 86 8E 00 26 60 00 60 38 31 36 39 31 35 39 36 44
+	TOKEN2 FIDO2 Security Key(0026) (Other)
 
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
