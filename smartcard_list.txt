@@ -1460,6 +1460,10 @@
 	Oura card for Auvergne-Rhone-Alpes region in France. Using for several public transport (Transport)
 	https://www.oura.com/
 
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 61 F3 2B 82 90 00
+	Oùra (Transport)
+	https://oura.com
+
 3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C5 2E 6F D3 82 90 00
 	Mobib basic (Brussels transit card) (contact interface) (Transport)
 	https://www.stib-mivb.be/buy/all-your-journeys-with-mobib
@@ -1471,6 +1475,9 @@
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
 	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
 	https://www.oura.com/xbi/boutique/card
+
+3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 89 71 82 90 00
+	Oura Card (Transport)
 
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 8A 57 82 90 00
 	France Rhone-Alpes Region "Carte Oura" 2nd generation (Transport)
@@ -4216,6 +4223,10 @@
 3B 6F 00 00 80 5A 0A 01 02 20 03 11 .. .. .. .. 82 90 00
 	Card « Oùra ! » of region Rhône-Alpes, Calypso standard (TER, Transisère)
 
+3B 6F 00 00 80 5A 0A 07 06 20 02 10 7C 21 CB F1 82 90 00
+	Rav-Kav (Israeli transport card) (Transport)
+	https://ravkavonline.co.il
+
 3B 6F 00 00 80 5A 0A 07 06 20 02 10 7C 7C 5C 18 82 90 00
 	Rav-Kav card.  Public transport in Israel (Transport)
 	https://ravkavonline.co.il/
@@ -4801,6 +4812,10 @@
 	"Pass Navigo Découverte" - Parisian transport card (Transport)
 	https://www.iledefrance-mobilites.fr/titres-et-tarifs/supports/passe-navigo-decouverte
 
+3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 A6 8D 38 82 90 00
+	navigo" - Paris transportation pass - Île de France mobilités (Transport)
+	https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/supports/passe-navigo
+
 3B 6F 00 00 80 5A 3C 11 42 14 10 01 C2 BF 7B 46 82 90 00
 	Navigo RATP (Transport)
 
@@ -4880,6 +4895,9 @@
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 5A 86 3C 82 90 00
 	mobib transportation card (Transport)
+
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 71 49 46 82 90 00
+	Belgian STIB MOBiB card (MOBiB basic) (Transport)
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 74 8A 25 82 90 00
 	Mobib (Brussels transport card) for the STIB-MIVB network (Transport)
@@ -6566,6 +6584,10 @@
 3B 86 80 01 4B 4F 4E 41 14 11 09
 	Mastercard paypass enabled credit card
 
+3B 86 80 01 53 49 47 49 43 4C 1C
+	PWPW Sigillum Blue Dual  (PKI)
+	https://sklep.sigillum.pl/#/product/information?id=22
+
 3B 86 80 01 57 41 52 49 30 31 0B
 	Gusto Karta (Bank)
 	https://www.gustokarta.cz
@@ -7221,6 +7243,9 @@
 	German eTicketing SAM (Transport)
 	https://www.eticket-deutschland.de/
 
+3B 89 80 01 4D 54 43 4F 53 73 02 05 02 38
+	MTCOS from MaskTech (passport)
+
 3B 89 80 01 4D 54 43 4F 53 73 02 05 04 3E
 	VGN eTicket (regional public transport for Nuremberg, Germany) (Transport)
 	https://www.vgn.de/
@@ -7363,6 +7388,10 @@
 3B 8A 80 01 4A 43 4F 50 34 31 56 32 32 31 7F
 	JCOP41 Cards (not supported, but recognized by Classic Client)
 	NXP JCOP 41 v2.2.1 72k RFID I/F
+
+3B 8A 80 01 4A 54 61 78 43 6F 72 65 56 31 50
+	atoChip supporting Nostr/P2TR Schnorr Signatures for Developers (JavaCard)
+	https://satochip.io/product/satochip/
 
 3B 8A 80 01 4D 54 00 05 00 20 86 64 00 01 D4
 	Beijing Municipal Administration & Communication Card (Transport)
@@ -9055,6 +9084,10 @@
 3B 8F 80 01 80 66 B0 07 01 01 07 .. .. .. .. .. .. 90 00 ..
 	Gemalto Santander Optelio TUI R7 with WG10 customized using Contactless interface
 
+3B 8F 80 01 80 73 84 21 E0 55 69 78 00 00 80 83 07 90 00 68
+	Romanian eID Identity Card (NFC) (eID)
+	https://carteadeidentitate.gov.ro/despre/
+
 3B 8F 80 01 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 29
 	NIST demo PIV card (eID)
 
@@ -9473,6 +9506,10 @@
 3B 9C 94 80 11 40 52 75 74 6F 6B 65 6E 45 43 50 73 63 C3
 	Aktiv Rutoken ECP SC T1
 	https://www.rutoken.ru/products/all/rutoken-ecp-sc/
+
+3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 09 65 51 0F
+	T2 USIM (Telecommunication)
+	https://t2.ru/
 
 3B 9C 94 80 1F 47 80 31 E0 73 FE 21 1B 54 50 15 74 01 52
 	VI india  (Telecommunication)
@@ -10912,6 +10949,9 @@
 	Feitian ePass2003Auto (PKI)
 	https://www.ftsafe.com/Products/PKI/Standard/Specification
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 40 08 18 71 DF 00 00 00 00 00 53
+	Feitian ePass2003 (Argentina ONTI) (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 40 23 18 71 DF 00 00 00 00 00 78
 	Feitian ePass2003 (PKI)
 	https://www.ftsafe.com/store/product/epass2003-pki-token/
@@ -10988,6 +11028,12 @@
 	Hologram Developer Global IoT SIM Card (Telecommunication)
 	https://hologram.io/store/global-iot-sim-card/17
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 75 30 31 12 58 B3
+	SIM Card (Carrier: Tomato, Country: Croatia) (Telecommunication) (Telecommunication)
+	https://www.tomato.com.hr/
+	SIM Card (Carrier: HT Eronet , Country: Bosnia) (Telecommunication)
+	https://www.hteronet.ba/
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 75 30 31 13 62 88
 	Zimbabwe sim card provider: ECONET (Telecommunication)
 
@@ -11004,6 +11050,9 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 02 48 A9
 	Cardcentrics (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 05 6E 88
+	SIM (Telecommunication)
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 30 06 4B AE
 	USIM (Telecommunication)
@@ -11469,8 +11518,16 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 4A 33 82 04 33 39 00 19
 	NB-IoT SIM (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 17 57 65 73 74 6B 2E 6D 65 C3
+	ESTKme Classic Essential eSIM adapter (Telecommunication)
+	https://www.estk.me/shop/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 31 86 60 B2 1A 0C 0C 9F
 	SIM CARD (JavaCard)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 02 00 02 5C
+	Programmable 9eSIM (Telecommunication)
+	https://www.9esim.com/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
 	3 (3g microUSIM) Italian subsidiary H3G
@@ -14234,6 +14291,10 @@
 	MyEID card (Infineon chip) (PKI)
 	https://services.aventra.fi/English/products_MyEID_E.php
 
+3B F6 13 00 00 81 31 FE 45 57 57 50 61 73 73 DF
+	WWPass Key (eID)
+	https://www.wwpass.com/passkey
+
 3B F6 13 00 FF 10 80 43 48 49 50 32 32
 	PostFinance debit (Bank)
 	https://www.postfinance.ch
@@ -14423,6 +14484,9 @@
 	Navy Federal Credit Union (Bank)
 	https://www.navyfederal.org
 
+3B F8 13 00 00 81 31 FE 45 4A 43 4F 59 76 32 34 31 B7
+	j2A040 (JavaCard)
+
 3B F8 13 00 00 81 31 FE 45 4A 4F 50 76 32 34 31 B7
 	Nigerian eID card (eID)
 
@@ -14455,6 +14519,9 @@
 
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 02 01 68
 	Chase Visa Debit (Bank)
+
+3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 02 A0 C9
+	OnePay Debit (Bank)
 
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 42 1F 36
 	Infineon SLJ26P (JavaCard)
@@ -16161,6 +16228,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 AB FF 07 30 D2
+	girocard Sparkasse Altbayern, Germany BLZ 72051210 (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 BF 86 07 30 BF
 	German Bank Verbundvolksbank-OWL Bank
