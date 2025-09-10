@@ -8620,6 +8620,9 @@
 	Italian Identity Card (eID)
 	https://www.cartaidentita.interno.gov.it/
 
+3B 8F 80 01 80 31 80 65 49 54 4A 34 4C 12 0F FF 82 90 00 85
+	Italian electronic identifity card (CIE) (eID)
+
 3B 8F 80 01 80 31 80 65 B0 .. .. .. .. 12 0F FE 82 90 00 ..
 	IDPrime MD 3810 T=Contactless (Prox DU)
 
@@ -9406,6 +9409,10 @@
 3B 99 95 00 00 15 06 03 01 05 04 01 00
 	Skylink CDMA R-UIM card (Telecommunication)
 	https://en.wikipedia.org/wiki/Sky_Link_(Russia)
+
+3B 99 96 80 31 FE 45 4A 54 61 78 43 6F 72 65 56 6F
+	Serbia TaxCore secure element smartcard (PKI)
+	https://tap.sandbox.suf.purs.gov.rs/help/view/1197015008/General-Commands/en-US
 
 3B 9A 18 00 82 62 75 93 11 00 01 02 02 00
 	Supersim 6 in 1 (Telecommunication)
@@ -10911,6 +10918,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 03 90 00 A0
 	Feitian ePass2003 PKI Token (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 46 00 00 75
+	ePass2003Auto (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 86 00 00 B5
 	HYPERSECU HYP2003 (PKI)
 	https://www.hypersecu.com/hyperpki
@@ -11065,6 +11075,10 @@
 	sysmoISIM-SJA2 (Telecommunication)
 	https://osmocom.org/projects/cellular-infrastructure/wiki/SysmoISIM-SJA2
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 31 01 62 80
+	SIM Card (Telecommunication)
+	https://www.simbase.com/
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 33 05 68 8C
 	Somtel SIM (Telecommunication)
 
@@ -11124,6 +11138,9 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 63 00 85 00 83 81 90 00 C2
 	Vodafone IoT USIM (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 63 7E 00 00 83 81 90 00 39
+	Telcel mexico sim card (Telecommunication)
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 64 41 02 41 00 82 90 00 C2
 	Empire Bank ltd (Bank)
@@ -12046,6 +12063,10 @@
 3B 9F 97 C0 0A 1F C7 80 31 E0 73 FE 21 1B 65 D0 01 90 0F 3B 81 0F 62
 	Gemalto Multi-SIM consumer 4.2 (ST33I1M2) (Telecommunication)
 
+3B 9F 97 C0 0A 3F C6 00 80 31 E0 73 FE 21 1F 65 D0 02 33 15 07 81 0F C1
+	Smart Prepaid Multi SIM (removable eSIM) (Telecommunication)
+	https://smart.com.ph/Prepaid/multiSIM
+
 3B 9F 97 C0 0A 3F C6 82 80 31 E0 73 FE 21 1B 65 D0 02 33 14 A5 81 0F E4
 	Thales eUICC French Ministry BAP v2 (Telecommunication)
 
@@ -12791,6 +12812,10 @@
 3B D7 11 00 40 0A 65 4E 43 4F 53 30 37
 	eNCOS MC MChip Advance (Bank)
 
+3B D7 18 FF 81 91 FE 1F C3 53 49 47 49 43 42 31 26
+	Polish qualified electronic signature PWPW Sigillum - Blue Dual (PKI)
+	https://sklep.sigillum.pl/#/product/information?id=22
+
 3B D7 97 00 81 B1 FE 45 1F 87 80 31 C1 53 51 13 20 12
 	IdemiaID-ONEPIV (eID)
 	https://www.idemia.com/id-one-piv-card
@@ -12970,6 +12995,9 @@
 3B DB 18 FF C0 80 B1 FE 75 1F 03 5A 43 37 2E 36 20 52 45 56 20 44 69
 	ZeitControl BasicCard 7.6 (Other)
 	https://www.zeitcontrol.de/en/products/basiccard/basiccard
+
+3B DB 94 00 80 31 FE 45 00 31 C0 64 20 27 02 00 00 90 00 45
+	DAK (HealthCare)
 
 3B DB 96 00 40 10 00 4F 53 5F 33 5F 31 34 05 90 00
 	Vehicle identity card for Iran (eID)
@@ -14452,6 +14480,10 @@
 3B F8 13 00 00 10 00 00 73 C8 40 11 00 90 00
 	Vivid Money Visa Debit (Bank)
 	https://vivid.money
+
+3B F8 13 00 00 10 80 00 73 C8 40 00 00 90 00
+	First Iraqi Bank (FIB) VISA Platinum Debit Card (Bank)
+	https://fib.iq/card-services/
 
 3B F8 13 00 00 81 31 FE 15 59 75 62 69 6B 65 79 34 D4
 	Yubico Yubikey 4 OTP+CCID
@@ -16293,6 +16325,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 23 09 00 A8 02 00 F4
 	Kreissparkasse girocard (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 02 0E B1 34 01 10 CB
+	Debit card (Germany): girocard, Mastercard Debit (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0B 90 FE 01 10 34
 	EC card from Raiffeisenbank im Hochtaunus, Germany (Bank)
