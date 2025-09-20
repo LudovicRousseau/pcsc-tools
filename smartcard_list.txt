@@ -832,6 +832,9 @@
 3B 24 00 00 E2 92 67
 	Health care (HealthCare)
 
+3B 24 00 27 44 FE FF
+	futurecard by Mondadori, Italy (Loyalty)
+
 3B 24 00 30 42 30 30
 	ComHem Digital-TV smartcard (Sweden)
 	TNK Telewizja Na Kartę (Poland) - Conditional access system : Conax (Norway)
@@ -1179,6 +1182,9 @@
 	Oberthur ID One PIV eID
 	NASA Personal Identity Verification (PIV) card (eID)
 	IDEMIA Cosmo V8.0 with a PIV applet eID
+
+3B 3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92
+	DOD-CAC (PKI)
 
 3B 3B F7 18 00 00 80 31 FE 45 73 66 74 65 2D
 	Serasa Experian (PKI)
@@ -3824,6 +3830,9 @@
 3B 6F 00 00 02 31 B8 13 FF 00 00 00 00 00 00 00 0F 90 00
 	Coverflex | Flexible Benefits Platform (Other)
 	https://www.coverflex.com/
+
+3B 6F 00 00 31 01 F1 56 40 01 00 19 00 00 00 00 00 00 00
+	librettopostale BancoPosta by Poste Italiane, Italy (Bank)
 
 3B 6F 00 00 31 01 F1 56 40 11 00 19 00 00 00 00 00 00 00
 	Postepay Evolution (Bank)
@@ -6821,6 +6830,9 @@
 3B 88 80 01 00 00 00 00 80 81 71 00 79
 	Apple Pay card - Usually EMV
 
+3B 88 80 01 00 00 00 00 80 81 74 00 7C
+	Laurenz Handy (eID)
+
 3B 88 80 01 00 00 00 00 80 81 75 00 7D
 	Singapore SimplyGo EZ-Link Card (Transport)
 	https://simplygo.com.sg
@@ -7101,6 +7113,10 @@
 3B 88 80 01 E1 F3 5E 11 77 81 E1 00 43
 	DNIE Spain (eID) Contactless (eID)
 	http://www.dnielectronico.es/PortalDNIe/
+
+3B 88 80 01 E1 F3 5E 11 77 81 E1 10 53
+	Spanish Identity Card DNIe (eID)
+	https://www.dnielectronico.es/PortalDNIe/
 
 3B 88 80 01 E1 F3 5E 11 77 81 E1 60 23
 	DNIe v4 (Spanish eID) - contactless interface (PC/SC wrapped 14443 Type B ATR) (eID)
@@ -8652,6 +8668,10 @@
 	Dutch driver licence (eID)
 	Italian electronic identity card (eID)
 	https://en.wikipedia.org/wiki/Italian_electronic_identity_card
+
+3B 8F 80 01 80 31 80 65 B0 85 05 00 11 12 02 68 82 90 00 11
+	polish ID card with electronic layer, 3 cerificates (signing, login, presenceattestation) and ability to hold qualified certificates (eID)
+	https://www.gov.pl/web/mswia/e-dowod
 
 3B 8F 80 01 80 31 80 65 B0 85 05 00 11 12 04 80 82 90 00 FF
 	Mauritius eID (eID)
@@ -12084,6 +12104,9 @@
 	Verizon 5G SIM Card (Telecommunication)
 	https://www.verizon.com/
 
+3B 9F 97 C0 0A 3F C7 82 80 31 E0 73 FE 21 1F 65 D0 02 1A 14 A2 81 0F CF
+	FIDO2 Applet installed on a javacard 3.0.1 card (JavaCard)
+
 3B 9F 97 C0 0A 3F C7 A0 80 31 E0 73 FE 21 1F 65 D0 01 90 0F EE 81 0F 33
 	AT&T Mobility LLC MicroSIM Card (Telecommunication)
 	https://www.att.com/wireless/
@@ -12945,6 +12968,9 @@
 3B DA 96 FF 81 91 FE 1F C3 43 32 33 30 30 2D 46 49 50 53 E2
 	Crescendo 2300 FIPS (JavaCard)
 
+3B DA 96 FF 81 B1 FE 45 1F 07 80 58 44 54 52 20 56 31 2E 31 E2
+	D-Trust Card 6.1/6.4 (PKI)
+
 3B DA 96 FF 81 B1 FE 45 1F 07 80 58 49 43 41 20 56 32 2E 30 E9
 	Starcos chip card from Giesecke & Devrient  (PKI)
 	https://ica.cz/functionality-smart-card
@@ -13116,6 +13142,10 @@
 3B DB 96 FF C0 10 31 FE 45 80 67 15 01 B4 03 00 09 00 81 05 21
 	Digital Tachograph Card for Professional Driver
 	olish driver card for digital tachograph
+
+3B DB 97 00 81 31 FE 85 80 13 49 52 4E 73 96 71 5B 91 30 2F
+	Iranian Smart National ID Card (eID)
+	https://en.wikipedia.org/wiki/Iranian_identity_card
 
 3B DC 18 02 C1 0A 31 FE 58 80 31 A8 73 B0 01 9B 24 60 07 13 20 AA
 	Public Services Card | Ireland (Other)
@@ -16335,6 +16365,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 20 09 31 38 01 10 62
 	GLS Bank MasterCard (Bank)
 	https://www.gls.de/konten-karten/karten/kreditkarte/
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 20 0D D1 02 01 10 BC
+	Consors bank vpay card (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 21 0B 61 24 01 10 2D
 	Girocard (Bank)
