@@ -523,6 +523,10 @@
 3B 16 94 D0 01 7B 2C 0E 00
 	SIM tunisiana
 
+3B 16 95 62 00 07 01 08 03
+	TrueMove H SIM card (Telecommunication)
+	https://truemoveh.simoptions.com/
+
 3B 16 95 91 00 08 02 16 03
 	telephone prepaid card (Telecommunication)
 	https://www.yesss.at/
@@ -621,6 +625,10 @@
 
 3B 17 94 89 01 02 01 02 41 87
 	Vodafone/Omnitel 16K GSM SIM
+
+3B 17 95 80 65 D0 01 75 0E 2D
+	Heyah SIM card (Telecommunication)
+	https://heyah.pl
 
 3B 17 95 80 65 D0 01 7E 0D F0
 	Si.Mobil Slovenia GSM SIM card (Telecommunication)
@@ -5046,6 +5054,10 @@
 	Carte Vitale d'assurance maladie, France (HealthCare)
 	https://www.service-public.fr/particuliers/vosdroits/F265
 
+3B 75 13 00 00 4C 09 EA 90 00
+	Carte Vitale (HealthCare)
+	https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale
+
 3B 75 13 00 00 9C 02 02 01 02
 	Cyberflex Access 32k v2
 
@@ -7240,6 +7252,9 @@
 	JCOP41 Cards (not supported, but recognized by Classic Client)
 	New Zealand e-Passport
 	Philips Semiconductor JCOP41V22
+
+3B 89 80 01 4D 4B 6A 43 4F 53 2D 33 37 12
+	viet nam (eID)
 
 3B 89 80 01 4D 54 43 4F 53 70 02 01 04 39
 	Tajikistan passport (passport)
@@ -9694,6 +9709,10 @@
 	MTS Moscow (Russia) SIM card (Telecommunication)
 	https://moskva.mts.ru/personal
 
+3B 9E 94 80 1F 87 80 31 E0 73 FE 21 12 66 55 57 4E 4E 30 31 98
+	Talk 'N Text SIM Card (Telecommunication)
+	https://www.talkntext.com.ph
+
 3B 9E 94 80 1F C3 80 31 E0 73 FE 21 1B 66 D0 00 17 B4 00 00 A5
 	Vodafone Ireland SIM card
 
@@ -10094,6 +10113,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 68 0F 00 C7
 	Free Mobile SIM card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 6B 0F 00 C4
+	Lycamobile dual SIM card (Telecommunication)
+	https://www.lycamobile.ie
+
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 72 10 00 C2
 	Vodafone (Telecommunication)
 
@@ -10104,6 +10127,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 77 10 00 C7
 	SIM Card  Model X1 for Ting Mobile Carrier (Telecommunication)
 	https://tingmobile.com/
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 79 0F 00 D6
+	O2 UK SIM Card (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 A7 0F 00 08
 	Spanish Movistar Mobile phone SIM card (Telecommunication)
@@ -11878,6 +11904,9 @@
 3B 9F 96 80 3F C7 82 80 31 E0 75 F6 21 57 3C 04 55 02 0C 61 01 00 54
 	euicc from iphone14 (Telecommunication)
 
+3B 9F 96 80 3F C7 83 80 31 E0 73 F6 21 13 67 56 07 62 E0 27 03 00 84
+	Removable eUICC that supports MEP (Telecommunication)
+
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 16 57 4A 4D 02 02 33 45 63 77
 	ISIS-Ready T-Mobile Sim Card (Telecommunication)
 
@@ -13205,6 +13234,9 @@
 3B DC 18 FF C0 80 B1 FE 75 1F 03 5A 43 38 2E 36 20 52 45 56 20 44 36 57
 	ZeitControl Professional Multi-Application BasicCard ZC8.6  (Other)
 	https://www.zeitcontrol.de/Smart-card-BasicCard-Professional-ZC76
+
+3B DC 96 00 80 B1 FE 45 1F 83 00 12 23 3F 54 65 49 44 32 0F 90 00 C3
+	Estonian E-residence ID Card (eID)
 
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
 	NXP Javacard with Athena SCS OS (JavaCard)
@@ -15226,6 +15258,10 @@
 
 3B FD 95 00 00 81 31 FE 41 00 8C 0F 17 BD 00 8C 00 00 00 00 00 30 F2
 	Khmer Identify Card (eID)
+
+3B FD 96 00 00 80 11 FE 71 48 53 4D 5F 53 46 49 5F 32 30 90 00 ED
+	STM32HSM-V2AE: STMicroelectronics SAM for Secure Firmware Installation (v2) of STM32 products (max 25 licenses)  (PKI)
+	https://www.st.com/en/development-tools/stm32hsm-v2.html
 
 3B FD 96 00 00 80 31 FE 45 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 25
 	TIPL (Other)
