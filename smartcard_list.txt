@@ -6225,6 +6225,10 @@
 3B 7F 96 00 00 80 31 B8 65 B0 85 05 00 11 12 24 60 82 90 00
 	wasim finnish id (eID)
 
+3B 7F 96 00 00 80 31 B8 65 B0 85 05 10 24 12 24 60 82 90 00
+	Finnish identification card (eID)
+	https://dvv.fi/en/activation-of-the-citizen-certificate
+
 3B 7F 96 00 00 EA 5C BD F0 7A EB 65 41 89 4B 04 00 00 00 00
 	Gemalto TOP IM GX4 (Other)
 
@@ -8447,6 +8451,9 @@
 3B 8F 01 80 5D 4E 69 74 72 6F 6B 65 79 00 00 00 00 00 6A
 	Nitrokey Nitrokey 3 Mini (eID)
 	https://shop.nitrokey.com/shop/product/nk3am-nitrokey-3a-mini-149
+
+3B 8F 01 80 5D 58 49 4E 59 58 20 44 65 73 69 67 6E 00 1F
+	NFC Authenticator (eID)
 
 3B 8F 80 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 0E
 	Tangem card (Other)
@@ -11823,8 +11830,15 @@
 	An eSIM physical card, you can write eSIM profiles into it and use it as a general SIM Telecommunication
 	https://www.9esim.com/
 
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 35 6F 2E
+	9esim (Telecommunication)
+	https://www.9esim.com
+
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
+
+3B 9F 96 80 3F C6 00 80 31 E0 73 FE 21 13 57 86 8C 1E 86 98 61 49 EB
+	CMLink Global Data SIM(Physical) (Telecommunication)
 
 3B 9F 96 80 3F C6 A0 80 31 E0 73 F6 21 16 57 4A 4D 02 0B 34 54 63 69
 	SIM card Wingo operator (Switzerland) (Telecommunication)
@@ -12867,6 +12881,10 @@
 3B D7 18 FF 81 91 FE 1F C3 53 49 47 49 43 42 31 26
 	Polish qualified electronic signature PWPW Sigillum - Blue Dual (PKI)
 	https://sklep.sigillum.pl/#/product/information?id=22
+
+3B D7 18 FF 81 91 FE 1F C3 53 49 47 49 43 42 32 25
+	Private Certificate Sigillum Blue (eID)
+	https://sigillum.pl/
 
 3B D7 97 00 81 B1 FE 45 1F 87 80 31 C1 53 51 13 20 12
 	IdemiaID-ONEPIV (eID)
@@ -15566,6 +15584,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00
 	Huntington  (Bank)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 50 4E 07 90 00
+	World Elite Mastercard (JavaCard)
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 55 30 43 4E 07 90 00
 	caixa bank debit card (Bank)
 
@@ -15843,6 +15864,10 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 08 30 9A 57 11 D2
 	Bank card from German Bank "Sparkasse", issued by manufacturer "S-Payment GmbH" (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 10 02 10 28 57 11 53
+	German Banking Card From "Sparkasse Elbe Elster" (Bank)
+	https://www.spk-elbe-elster.de/de/home.html
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 06 A0 94 57 11 5D
 	GLS Bank MasterCard Debit (Bank)
@@ -16310,6 +16335,9 @@
 	SafeNet eToken 5110 SC (PKI)
 	https://cpl.thalesgroup.com/access-management/authenticators/pki-usb-authentication/etoken-5110-usb-token
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 88 66 6B 39 12 01 78 82 90 00 45
+	Thales eToken Fusion NFC (PKI)
+
 3B FF 96 00 00 81 31 FE 45 80 F9 A0 00 00 03 08 00 00 10 00 53 45 4E 54 AC
 	cac (eID)
 
@@ -16337,6 +16365,10 @@
 	Debitcard Sparkasse Duesseldorf (Bank) (Bank)
 	https://www.sskduesseldorf.de/
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 22 AB F5 07 40 8E
+	VISA VR Debit Card (Bank)
+	https://www.vr.de/privatkunden/produkte/konten-karten/kreditkarten/debitkarte.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 22 BB EB 07 40 80
 	girocard contactless (Bank)
 
@@ -16349,6 +16381,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 6D 78 07 40 C3
 	Mastercard Debit Card from the Kreissparkasse (German bank) (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 07 0A 10 B5 02 00 E7
+	VISA VR Credit Card Gold (Bank)
+	https://www.vr.de/privatkunden/produkte/konten-karten/kreditkarten/goldkarte.html
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 10 07 C0 BC 02 00 24
 	sparda-bank (Bank)
