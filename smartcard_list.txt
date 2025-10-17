@@ -2897,6 +2897,10 @@
 3B 6C 00 00 80 66 B1 A3 30 40 11 10 B8 30 09 00
 	Visa debit  (Bank)
 
+3B 6C 00 00 81 00 02 93 10 30 02 22 00 00 17 0C
+	Russian Agricultural Bank UnionPay card (Bank)
+	https://www.rshb.ru/natural/debetcards/unionpay-action
+
 3B 6C 00 00 81 00 03 00 20 30 02 22 01 00 14 0C
 	CRDB TEMBO CARD (Bank)
 	https://crdbbank.co.tz
@@ -8017,6 +8021,10 @@
 	TI rf430cl330h (Other)
 	http://www.ti.com/product/rf430cl330h
 
+3B 8C 80 01 50 C0 1D 96 09 00 00 00 00 B3 71 71 AC
+	MOBIB -  Brussels Public Transport card (Transport)
+	https://www.stib-mivb.be/accueil/acheter/mobib
+
 3B 8C 80 01 50 C0 98 37 3F 00 00 00 00 91 71 71 9C
 	PassPass card issued by Transpole : the public transportation service of Lille, France, and SNCF : the french national railway. (Transport)
 	https://www.transpole.fr/fr/pass-pass-et-tarifs/carte-pass-pass-personnelle.aspx
@@ -8263,6 +8271,10 @@
 
 3B 8D 80 01 0D 78 F7 B1 02 4A 43 4F 50 76 32 34 31 6A
 	Electronic Identity For Students at university (eID)
+
+3B 8D 80 01 41 37 30 30 35 43 47 20 32 34 32 52 31 3C
+	FEITIAN Technologies K32 FIDO2 (Other)
+	https://ftsafe.us/products/feitian-multipass-fido2-fido-u2f-usb-c-nfc-ble-security-key-k32
 
 3B 8D 80 01 49 46 58 2D 6A 63 33 30 31 67 70 32 32 5A
 	Degussa Bank Corporate MasterCard (Bank)
@@ -9133,6 +9145,9 @@
 	Romanian eID Identity Card (NFC) (eID)
 	https://carteadeidentitate.gov.ro/despre/
 
+3B 8F 80 01 80 73 84 21 E0 55 69 78 54 00 80 83 0F 90 00 34
+	Passport card (passport)
+
 3B 8F 80 01 80 73 CC 91 CB F9 A0 00 00 03 08 00 00 10 00 29
 	NIST demo PIV card (eID)
 
@@ -9177,6 +9192,10 @@
 
 3B 8F 80 01 80 91 E1 31 D8 65 B2 8C 01 00 26 73 C4 41 E0 7D
 	ePassport chip of South Korea (passport)
+
+3B 8F 80 01 80 91 E1 31 D8 65 B2 8C 01 02 22 73 C4 41 E0 7B
+	Belgian eID (eID)
+	https://www.ibz.rrn.fgov.be/fr/citoyen/documents-didentite/eid
 
 3B 8F 80 01 86 38 4D 57 4F 48 50 CF 1E 4D 2B 12 11 29 10 70
 	Hangzhou Tong (Hangzhou Public Transport Card) (Transport)
@@ -12117,6 +12136,9 @@
 3B 9F 97 81 31 FE 45 80 65 54 43 D3 22 82 31 C0 73 F6 21 80 81 05 D3
 	Turkish eID (Türkiye Cumhuriyeti Kimlik Kartı) (eID)
 
+3B 9F 97 81 31 FE 45 80 65 54 43 D3 23 02 31 C0 73 F6 21 80 81 05 52
+	karlitepe (eID)
+
 3B 9F 97 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 15 0E 81 0F E8
 	SIM Card (Telecommunication)
 
@@ -13256,6 +13278,10 @@
 3B DC 96 00 80 B1 FE 45 1F 83 00 12 23 3F 54 65 49 44 32 0F 90 00 C3
 	Estonian E-residence ID Card (eID)
 
+3B DC 96 00 80 B1 FE 45 1F 83 00 12 42 8F 54 65 49 44 32 0F 90 00 12
+	Latvia eID (eID) (eID)
+	https://www.eparaksts.lv/lv/
+
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
 	NXP Javacard with Athena SCS OS (JavaCard)
 
@@ -14098,6 +14124,9 @@
 	V-Pay Debit DKB (Bank)
 	https://banking.dkb.de
 
+3B EF 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 0C 07 70 09 57 11 03
+	bank visa (Bank)
+
 3B EF 00 FF 81 31 FE 45 41 43 4F 53 20 44 49 61 6E 61 31 20 4C 63 36 4E
 	comdirect VISA card (Bank)
 	https://www.comdirect.de/konto/karten.html#Visa-Karte
@@ -14859,6 +14888,10 @@
 3B FA 13 00 FF 81 31 80 45 00 31 C1 73 C0 01 00 00 90 00 B1
 	OpenPGP
 
+3B FA 13 00 FF 91 01 31 FE 00 00 31 C1 73 C8 40 00 00 90 00 D2
+	cryptnox smart card (Other)
+	https://cryptnox.com/how-to-use-cryptnox-fido2-smartcard/
+
 3B FA 13 00 FF 91 81 31 FE 47 80 12 39 2F 31 C0 73 C7 01 49 07
 	MITSUBISHI Standard-9M (PKI)
 	https://www.mdis.co.jp/service/standard-9m/
@@ -15570,6 +15603,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 42 30 43 4E 07 90 00
 	Unicredit debit Card MasterCard (Italy) (Bank)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 44 4D 33 30 07 90 00
+	NSPK MIR (Bank)
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
 	National Bank Debit Card with expiration date and cvv code (Bank)
 
@@ -16264,6 +16300,10 @@
 3B FF 95 00 FF C0 0A 1F 47 80 31 E0 73 F6 21 13 57 4A 33 20 0B 31 41 41 D5
 	Telenor SIM card (Norway)
 
+3B FF 96 00 00 80 31 FE 43 80 31 B8 53 65 49 44 64 B0 85 05 10 12 23 3F 1D
+	Estonia ID-card (eID) (eID)
+	https://id.ee
+
 3B FF 96 00 00 80 31 FE 45 53 6D 40 72 74 43 61 66 65 20 45 78 70 2E 37 4E
 	haruka (eID)
 
@@ -16454,6 +16494,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 13 09 81 39 01 10 C4
 	girocard contactless (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 25 09 61 5B 01 10 06
+	banking card from S-Payment (Bank)
 
 3B FF 96 00 FF 81 31 FE 45 65 63 06 07 52 02 50 00 10 30 25 41 1A 06 40 82
 	DKB (Deutsche Kreditbank) girocard (V-PAY, GeldKarte) (Bank)
