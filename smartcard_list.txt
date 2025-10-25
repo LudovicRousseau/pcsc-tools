@@ -10575,6 +10575,10 @@
 	Karabakh Telecom - cell operator of Republic of Artsakh (1992-2023) (Telecommunication)
 	http://web.archive.org/web/20230927140946/https://kt.am/
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 06 00 75 88
+	Smart Communications Inc. Sim card (Telecommunication)
+	https://smart.com.ph
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 06 02 40 BF
 	Vietnamobile SIM card (Telecommunication)
 
@@ -10949,6 +10953,10 @@
 3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
 	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
 	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
+
+3B 9F 95 80 3F C7 A0 80 31 E0 73 FA 21 10 63 00 00 00 83 F0 90 00 BB
+	Taisys SIMoME VAULT (Telecommunication)
+	https://taisys.com/mwc2016/download/SIMoME_JAR_VAULT.pdf
 
 3B 9F 95 80 3F C7 A0 80 31 E0 73 FE 21 13 63 55 40 22 83 07 90 00 7C
 	Ubivelox (JavaCard)
@@ -12562,6 +12570,10 @@
 3B BE 11 00 00 41 01 38 25 00 03 00 00 00 00 00 01 90 00
 	8 pin (eID)
 
+3B BE 11 00 00 41 01 38 3F 00 00 00 00 00 00 00 01 90 00
+	ACS ACOS3 (Loyalty)
+	https://www.acs.com.hk/en/products/470/acos3-microprocessor-card/
+
 3B BE 11 00 00 41 01 38 4D 80 0A 80 50 52 4F 56 00 90 00
 	ACS (Advanced Card System) ACOS-3
 
@@ -12896,6 +12908,10 @@
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
 	IDEMIA Cosmo V8.1 with a PIV applet
+
+3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 51 1B 3A
+	U.S. State Department badge (Other)
+	https://pkaps.pki.state.gov
 
 3B D7 11 00 40 0A 65 4E 43 4F 53 30 37
 	eNCOS MC MChip Advance (Bank)
@@ -14650,6 +14666,9 @@
 	MIDAS Card Diversification Key JavaCard (J2A040) (Bank)
 	https://github.com/kategray/midas
 
+3B F8 13 00 00 91 81 31 FE 41 00 73 C8 40 00 00 90 00 1E
+	PIVKey by Taglio (PKI)
+
 3B F8 13 00 FF 10 80 53 43 06 63 01 0F 90 00 00
 	Affinity CUIA Debit (JavaCard)
 	https://www.affinitycuia.org
@@ -15043,6 +15062,10 @@
 	Mastercard World Elite (CapitalOne Venture) (Bank)
 	https://www.mastercard.us/en-us/personal/find-a-card/world-elite-mastercard-credit.html
 
+3B FB 13 00 FF 10 00 00 31 C1 64 09 97 61 26 0F 90 00
+	Danske Bank Debit Card (Bank)
+	https://danskebank.fi/
+
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 07 90 00
 	America First Credit Union Visa Credit Card (Bank)
 	https://www.americafirst.com/
@@ -15174,6 +15197,10 @@
 	http://www.smartcardfocus.com/shop/ilp/id~712/javacos-a22-dual-interface-java-card-150k/p/index.shtml
 	Feitian A40 JavaCard (64K) (JavaCard)
 	http://www.smartcardfocus.com/shop/ilp/id~711/javacos-a40-dual-interface-java-card-64k/p/index.shtml
+
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 00 6A 04 24 C0 72 7E 00 EC
+	Feitian C21C (JavaCard)
+	https://www.grama.es/wp-content/uploads/2016/07/feitian_c21c_grama_en.pdf
 
 3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 00 20 05 00 00 00 00 4E
 	Feitian A40 (JavaCard)
@@ -15676,6 +15703,10 @@
 3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00 94
 	AirPlus MasterCard Commercial (Bank)
 	https://www.airplus.com/us/en/products-solutions/products/corporate-cards/corporate-cards.html
+
+3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 56 30 42 4E 07 90 00 8E
+	ING bank card used to make transactions. It uses an RFID chip, as well as a standard CIE chip for gathering data. No PKCS data is provided. (Bank)
+	https://ing.ro/persoane-fizice/carduri-si-conturi
 
 3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 56 30 43 4E 07 90 00 8F
 	Girocard for ING bank in germany (Bank)
@@ -16429,6 +16460,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 10 07 C0 BC 02 00 24
 	sparda-bank (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 14 0A C0 E6 02 00 77
+	FinTS Online-Banking Volksbank (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
 
@@ -16464,6 +16498,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 21 06 F0 ED 02 00 4C
 	DKB Girocard (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 22 0B B0 B6 02 00 59
+	Deutsche Kreditbank Debit (Bank)
+	https://www.dkb.de/privatkunden/karten/girocard
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 23 09 00 A8 02 00 F4
 	Kreissparkasse girocard (Bank)
