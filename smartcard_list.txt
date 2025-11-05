@@ -9636,6 +9636,10 @@
 3B 9D 11 40 23 00 68 10 11 4D 69 6F 43 4F 53 00 90 00
 	MioCOS 1.0
 
+3B 9D 11 81 21 75 61 75 74 68 65 6E 74 6F 6E 23 31 2E 30 23
+	authenton#1 USB SmartCard interface (Other)
+	http://authenton.com/
+
 3B 9D 13 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 04 40
 	DPI Card Guatemala (eID)
 	http://www.masktech.de/
@@ -10322,6 +10326,10 @@
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 90 15 00 D9
 	SMARTY (a subsidiary of Three UK) 4G SIM Card (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 9A 15 00 D3
+	Cellular SIM (Cablenet, Cyprus) (Telecommunication)
+	https://cablenet.com.cy
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E AE 15 00 E7
 	kiwisim (Telecommunication)
@@ -11299,6 +11307,9 @@
 	Freenet SIM Card (Deutsche Telekom, green LTE) (Telecommunication)
 	https://www.freenet-mobilfunk.de/handytarife/green-lte-tarife/
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 47 16 15 10 01 57
+	Telekom.de (Telecommunication)
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
 
@@ -11707,6 +11718,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 50 31 00 82 90 00 E1
 	telcel sim card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 63 32 00 82 90 00 D1
+	Fido SIM card, Canada (Telecommunication)
+	https://www.fido.ca/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 63 94 00 82 90 00 77
 	EMnify SIMcard (Telecommunication)
 	https://www.emnify.com/global-iot-sim
@@ -11872,6 +11887,9 @@
 
 3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 13 67 67 A0 02 D9 00 00 01 E5
 	Kcell (Telecommunication)
+
+3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 1B 64 07 72 0C 00 82 90 00 98
+	Belgium Orange SIM Card (Telecommunication)
 
 3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 1B 64 08 05 03 00 82 90 00 EF
 	Multipurpose UICC card for 2G, 3G, 4G/LTE, CDMA, ISIM & NFC (Telecommunication)
@@ -12114,6 +12132,9 @@
 
 3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 14 01 02 02 01 02 57
 	Orange SIM from Egypt (Telecommunication)
+
+3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 16 01 01 01 01 01 56
+	A1 Croatia SIM Card (Telecommunication)
 
 3B 9F 97 80 3F C6 82 80 31 E0 73 FE 21 1F 63 00 89 00 83 81 90 00 69
 	ST4SIM-200M (Telecommunication)
@@ -14440,6 +14461,10 @@
 	Japanese Individual Number Card (My Number Card) (eID)
 	https://www.kojinbango-card.go.jp/en
 
+3B F5 91 00 FF 91 81 71 FE 40 00 42 00 01 B3 C1 75
+	Japanese Driver's License Card (eID)
+	https://www.keishicho.metro.tokyo.lg.jp/menkyo/menkyo/menkyo_annai/ic.html
+
 3B F5 96 00 00 8. 31 FE 45 4D 79 45 49 44 1.
 	MyEID card (Infineon chip) (PKI)
 	https://services.aventra.fi/English/products_MyEID_E.php
@@ -15758,6 +15783,10 @@
 3B FF 18 00 00 81 01 86 8E 00 26 60 00 60 38 31 36 39 31 35 39 36 44
 	TOKEN2 FIDO2 Security Key(0026) (Other)
 
+3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 31 31 38 38 31 37 37 34 6C
+	Token2 Bio3 Hardware Key (Other)
+	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
+
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
 	Carta Nazionale dei Servizi (Italia)
@@ -16378,6 +16407,10 @@
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 00 11 12 0F FF 82 90 00 E0
 	Pakistan National identity card (eID)
 
+3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 00 11 12 B1 9E 82 90 00 3F
+	Kuwait Driving License (eID)
+	https://www.moi.gov.kw/
+
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 85 04 01 20 12 0F FF 82 90 00 D0
 	Portuguese National Identity Card (eID) (eID)
 	https://www.autenticacao.gov.pt/o-cartao-de-cidadao
@@ -16532,6 +16565,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 13 09 81 39 01 10 C4
 	girocard contactless (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0B 61 3A 01 10 45
+	Sparkassen Banking Card (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 25 09 61 5B 01 10 06
 	banking card from S-Payment (Bank)
