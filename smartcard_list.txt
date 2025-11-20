@@ -998,6 +998,9 @@
 3B 2F 00 80 69 AF 03 07 06 68 00 05 0A 0E 83 3E 9F 16
 	KPN @ Mobile SIM card
 
+3B 2F 00 80 69 AF 03 09 02 61 00 00 0A 0D 83 0F 9F 16
+	GemXplore XpressoV2-A (Telecommunication)
+
 3B 32 15 00 06 80
 	Schlumberger Multiflex 8k
 
@@ -6314,6 +6317,9 @@
 3B 82 00 55 22
 	GSM-SIM TELE2 Smart (Estonia, prepaid or subscription)
 
+3B 82 00 86 1E
+	SIM SFR (Telecommunication)
+
 3B 82 01 02 03 82
 	EMV CL (Bank)
 
@@ -7086,6 +7092,10 @@
 3B 88 80 01 89 21 A0 01 20 24 07 16 15
 	Token2 T2F2-NFC-Card PIN+ Release3 (via NFC) (Other)
 	https://www.token2.com/shop/product/t2f2-nfc-card-pin-release3
+
+3B 88 80 01 89 21 A0 03 20 24 11 21 36
+	Token2 - SecurityKey NFC USB-A+C Rev3 (PKI)
+	https://www.token2.com/shop/product/pin-dual-release3-fido2-1-key-with-openpgp-and-otp-and-dual-usb-ports
 
 3B 88 80 01 99 02 00 D1 03 04 22 01 67
 	Debit card (Bank)
@@ -11898,6 +11908,10 @@
 	9esim (Telecommunication)
 	https://www.9esim.com
 
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 31 11 65 01
+	Kigen SGP.22+ Tri-cut eUICC (Telecommunication)
+	https://techship.com/product/kigen-sgp-22-tri-cut-e-uicc-e-sim/?variant=001
+
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
 
@@ -13344,6 +13358,10 @@
 3B DC 96 00 80 B1 FE 45 1F 83 00 12 42 8F 54 65 49 44 32 0F 90 00 12
 	Latvia eID (eID) (eID)
 	https://www.eparaksts.lv/lv/
+
+3B DC 96 FF 81 11 FE 47 65 6F 72 67 69 61 45 49 44 76 31 84
+	Georgian ID card (eID)
+	https://id.ge
 
 3B DC 96 FF 81 11 FE 80 31 C8 54 43 56 30 05 73 FF A1 C0 3B
 	NXP Javacard with Athena SCS OS (JavaCard)
@@ -15113,6 +15131,9 @@
 	Charismathics smart card JCOP and Qualified electronic signature CHJCOP-xxx (PKI)
 	https://www.stampit.org/en/page/808
 
+3B FB 13 00 FF 10 00 00 31 C1 64 09 78 62 31 0F 90 00
+	cash app card (Bank)
+
 3B FB 13 00 FF 10 00 00 31 C1 64 09 95 11 38 0F 90 00
 	Mastercard World Elite (CapitalOne Venture) (Bank)
 	https://www.mastercard.us/en-us/personal/find-a-card/world-elite-mastercard-credit.html
@@ -15227,6 +15248,9 @@
 3B FB 98 00 FF C1 10 31 FE 55 00 64 05 20 47 03 31 80 00 90 00 F3
 	Gemplus GemGate 32K
 	distributed by Postecert (www.postecert.it) to legally sign documents
+
+3B FC 13 00 00 10 80 81 00 02 99 20 30 02 22 01 00 0C 0D
+	CardFinans Credit Card (Bank)
 
 3B FC 13 00 00 10 80 81 00 03 00 20 30 02 22 01 00 14 0C
 	SberBank card (Bank)
@@ -16600,6 +16624,10 @@
 	DKB Visa (Debit) (Bank)
 	https://www.dkb.de/
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 02 0F F1 14 01 10 8E
+	DKB girocard (DebitCard of Deutsche Kredit Bank) (Bank)
+	https://www.dkb.de/fragen-antworten/was-ist-die-girokarte-und-was-kostet-sie
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
 
@@ -16676,6 +16704,12 @@
 
 3F 2F 00 80 69 AE 02 02 01 36 00 00 0A 0E 83 3E 9F 16
 	GSM-SIM e-plus (1800MHz)
+
+3F 2F 00 80 69 AF 02 01 01 35 00 01 0A 0E 83 1E 9F 16
+	SIM MNT-GSM Tele Matkapuhelut (Finland) (Telecommunication)
+
+3F 2F 00 80 69 AF 02 04 01 31 00 00 00 0E 83 3E 9F 16
+	SIM Bouygues Telecom (Telecommunication)
 
 3F 2F 00 80 69 AF 02 04 01 36 00 00 0A 0E 83 3E 9F 16
 	Telia Mobitel GSM (Telecommunication)
