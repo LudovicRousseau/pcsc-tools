@@ -1380,6 +1380,9 @@
 3B 4F 00 53 6C 65 34 34 32 2D 34 34 3D A2 13 10 91
 	Debit card  (Bank)
 
+3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D 0A 13 10 91
+	SLE4442 (Other)
+
 3B 4F 00 53 6C 65 34 34 33 32 2D 34 32 3D 30 00 00 00
 	Blank card (Other)
 
@@ -5320,6 +5323,10 @@
 	Emirates Identification authority UAE card (eID)
 	http://sdk.emiratesid.ae/
 
+3B 7A 96 00 00 54 45 4C 45 4D 32 10 21 10 10
+	Israeli biomeric ID (eID)
+	https://www.gov.il/en/service/activation_of_smart_indentification_card
+
 3B 7A 96 00 00 80 65 A2 01 01 01 3D 72 D6 43
 	AGH University of Science and Technology (Poland) - Student Identity Card (ELS) (eID)
 	Warsaw University of Technology (Poland) (eID)
@@ -6374,6 +6381,10 @@
 	Mastercard debit (BNP Paribas Ukrsibbank) (Bank)
 	https://my.ukrsibbank.com/ru/personal/cards/welcome_card/
 
+3B 83 80 01 41 01 25 67
+	ACS ACOS3-8 v01.25.08 (Loyalty)
+	https://www.acs.com.hk/en/products/316/acos3-microprocessor-card-contactless/
+
 3B 83 80 01 41 01 26 64
 	ACOS3 Multi-Application Contactless Card (Other)
 	https://www.acs.com.hk/en/products/316/acos3-microprocessor-card-contactless/
@@ -6995,6 +7006,9 @@
 3B 88 80 01 30 AB AB 01 77 81 B7 00 79
 	Italian healthcare card (TS) National Service Card (CNS) (HealthCare)
 
+3B 88 80 01 30 AB AB 01 77 81 B7 10 69
+	CNS CARD (HealthCare)
+
 3B 88 80 01 31 01 09 00 00 00 00 00 30
 	Indonesian Electronic Driving License (e-SIM) (Other)
 	https://polri.go.id/sim, https://www.digitalkorlantas.id/sim/
@@ -7064,6 +7078,9 @@
 
 3B 88 80 01 53 4C 4A 01 30 50 23 10 0E
 	bunq Credit MasterCard (contactless interface) (Bank)
+
+3B 88 80 01 53 4C 4A 26 31 23 02 00 6A
+	ByBit Debit (Bank)
 
 3B 88 80 01 53 6D 61 72 74 41 70 70 11
 	national Lithuania ID card (eID)
@@ -8439,6 +8456,10 @@
 	all transport travel pass (Transport)
 	http://www.metro.spb.ru/cnblt41.html
 
+3B 8E 80 01 80 31 80 66 B1 84 0C 01 6E 01 83 00 FF FF 8C
+	OV-pas (EMV card, Replacement of the OV-Chipkaart) (Transport)
+	https://www.ovpay.nl/ov-pas
+
 3B 8E 80 01 80 31 80 66 B1 C5 24 01 00 ED 83 00 90 00 F7
 	Mastercard (Bank)
 
@@ -8651,6 +8672,10 @@
 3B 8F 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 37 32 72 24
 	RFIDIOt JCOP 72K RANDOM_UID Blank
 	http://rfidiot.org
+
+3B 8F 80 01 54 4B 00 50 49 56 04 02 38 38 38 38 38 38 38 60
+	TOKEN2 FIDO2 Security Key (0024) HW 349e:0024 (Other)
+	https://www.token2.com/shop/product/pin-release3-1-usb-a-nonbranded-fido2-u2f-and-totp-security-key-with-pin-complexity-feature
 
 3B 8F 80 01 56 69 6E 50 61 79 53 79 73 20 50 75 72 73 65 2F
 	JCOP (Other)
@@ -11291,6 +11316,10 @@
 	Ting X1 GSM SIM Card (4G, T-Mobile network) (Telecommunication)
 	https://ting.com/shop/gsmSIM
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 65 CA 01 09 02 02 81 05 95
+	Newroz 4G LTE SIM Card (Telecommunication)
+	https://www.newroztelecom.com/newroz4g
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 65 CA 01 0E 02 09 81 05 99
 	Liquid Telecom Zambia (Telecommunication)
 	https://zm.liquidhome.tech/
@@ -11887,6 +11916,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE A1 1F 64 41 80 51 00 82 90 00 D5
 	Smartjac smaot500b234ff (Telecommunication)
 	https://www.smartjac.biz
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE A1 1F 64 41 91 03 00 82 90 00 96
+	Sunrise Switzerland (UMTS-OT_AES_XRES8_128K_5G) (Telecommunication)
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1B 67 45 4D 75 30 34 02 4B 02
 	Hologram Global G1 eUICC SIM (Telecommunication)
@@ -13565,6 +13597,9 @@
 
 3B DF 18 FF 81 B1 FE 45 1F 87 00 31 B9 64 09 37 72 13 73 84 01 E0 00 00 00 8E
 	Slovak eID card with dual (NFC and physical) interface. It is Cosmo v9.2. The card is used for electronic identification and for electronic signing with either qualified or just electronic signing certificate. (eID)
+
+3B DF 18 FF 81 B1 FE 45 1F C3 9E 41 4B 44 65 49 44 32 2E 30 2D 53 53 43 44 D1
+	Croatian ID card (eID)
 
 3B DF 18 FF 81 F1 FE 43 00 1F 03 4D 49 46 41 52 45 20 50 6C 75 73 20 53 41 4D 98
 	Mifare SAM AV2
@@ -15703,6 +15738,9 @@
 	PNC BUSINESS VISA DEBIT (Bank)
 	https://www.pnc.com/en/small-business/payments-and-processing/payment-cards/pnc-bank-visa-business-debit-card.html
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 34 48 07 90 00
+	PNC Bank VISA Debit Card (Bank)
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 35 31 07 90 00
 	Discover It Credit Card (Bank)
 
@@ -16606,6 +16644,10 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 02 0E B1 34 01 10 CB
 	Debit card (Germany): girocard, Mastercard Debit (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0A F1 47 01 10 ED
+	girocard, Debit card issued by ING (Germany) (Bank)
+	https://www.ing.de/girokonto/karten-bargeld/
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0B 90 FE 01 10 34
 	EC card from Raiffeisenbank im Hochtaunus, Germany (Bank)
 
@@ -16636,6 +16678,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0B 61 3A 01 10 45
 	Sparkassen Banking Card (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 24 10 51 08 01 10 7D
+	Chip TAN QR Banking Card Sparkasse/Naspa Germany (Bank)
+	https://www.naspa.de/
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 25 09 61 5B 01 10 06
 	banking card from S-Payment (Bank)
