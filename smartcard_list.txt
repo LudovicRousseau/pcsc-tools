@@ -3603,6 +3603,10 @@
 	eID Blutronics Blucard 8K
 	http://blucard.blutronics.com
 
+3B 6E 00 00 77 77 77 2E 67 64 72 66 69 64 2E 63 6F 6D
+	Guangzhou LX DH Smartech Co., Ltd. (JavaCard)
+	http://www.gdrfid.com/
+
 3B 6E 00 00 80 25 A0 00 00 00 28 56 80 10 24 00 01 11
 	Opencard, new card in Prague, Czech Republic (transport card)
 
@@ -3869,6 +3873,10 @@
 3B 6F 00 00 62 6C 75 63 61 72 64 20 31 36 4B 42 2F 76 34
 	eID Blutronics Blucard 16K
 	http://blucard.blutronics.com
+
+3B 6F 00 00 77 77 77 77 2E 67 64 72 66 69 64 2E 63 6F 6D
+	D & H SMARTID CO., LTD. (eID)
+	https://www.smartcardrfidtag.com/
 
 3B 6F 00 00 80 31 C0 52 00 83 64 02 19 08 32 83 83 90 00
 	Bancomer Mexican Bank
@@ -4780,6 +4788,9 @@
 
 3B 6F 00 00 80 5A 3B 07 06 15 01 02 79 ED 69 05 82 90 00
 	rav-kav (Transport)
+
+3B 6F 00 00 80 5A 3B 07 06 15 01 02 7F 12 D6 D3 82 90 00
+	Israeli Rav-Kav public transport card (Transport)
 
 3B 6F 00 00 80 5A 3C 06 08 14 01 01 C2 F8 B0 EF 82 90 00
 	Navegante Lisboa Viva (Transport)
@@ -6689,6 +6700,9 @@
 	Austrian Quick E-purse "Einreichkarte" (transfer card)
 	http://www.quick.at/
 
+3B 87 00 80 31 C0 73 FC A1 D1
+	Special Secret Media (Other)
+
 3B 87 80 01 4D 49 46 41 52 45 2B 39
 	PEKA CARD (JavaCard)
 
@@ -7102,6 +7116,9 @@
 3B 88 80 01 80 73 C8 21 10 52 B5 CF 2B
 	Swissbit iShield Key 2 (JavaCard)
 	https://www.swissbit.com/en/products/security-products/ishield-key/
+
+3B 88 80 01 80 73 C8 21 10 52 B7 7F 99
+	JCOP card (JavaCard)
 
 3B 88 80 01 80 73 C8 21 10 52 B8 1D F4
 	Arculus AuthentiKey (via NFC) (Other)
@@ -14232,6 +14249,10 @@
 	DKB Banking Card (EC-Karte 2023) (Bank)
 	https://www.dkb.de/
 
+3B EF 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 03 0D C0 F4 01 10 AC
+	German Sparkasse debit card (Bank)
+	https://www.sparkasse.de/pk/produkte/konten-und-karten/karten/sparkassencard-debitkarte.html
+
 3B EF 00 FF 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 66
 	EUROBANK GR (Bank)
 	NBG BANK (Bank)
@@ -14713,6 +14734,9 @@
 3B F8 13 00 00 10 00 00 73 C8 40 11 00 90 00
 	Vivid Money Visa Debit (Bank)
 	https://vivid.money
+
+3B F8 13 00 00 10 00 00 73 C8 40 13 00 90 00
+	Türkish (Bank)
 
 3B F8 13 00 00 10 80 00 73 C8 40 00 00 90 00
 	First Iraqi Bank (FIB) VISA Platinum Debit Card (Bank)
@@ -15532,6 +15556,10 @@
 
 3B FE 18 00 00 80 31 FE 45 80 31 80 66 40 90 A5 10 2E 10 83 01 90 00 F2
 	Infineon CJTOP 80K INF SLJ 52GLA080AL M8.4 (JavaCard)
+
+3B FE 18 00 00 81 31 FE 45 77 77 77 2E 67 64 72 66 69 64 2E 63 6F 6D E1
+	NXP J3R180 SecID (JavaCard)
+	http://www.gdrfid.com/
 
 3B FE 18 00 00 81 31 FE 45 80 31 81 54 48 53 4D 31 73 80 21 40 81 07 FA
 	Smartcard-HSM
@@ -16592,6 +16620,10 @@
 	VISA VR Credit Card Gold (Bank)
 	https://www.vr.de/privatkunden/produkte/konten-karten/kreditkarten/goldkarte.html
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 08 09 D0 DB 02 00 45
+	VR-NetWorldCard (HBCI-Chipkarte) (Bank)
+	https://www.volksbank-pur.de/banking-und-vertraege/banking/banking-privatkunden/hbci-chipkarte.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 10 07 C0 BC 02 00 24
 	sparda-bank (Bank)
 
@@ -16630,6 +16662,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 19 0A 20 C4 02 00 81
+	DKB Debit card (Germany): girocard, V-Pay (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 21 06 F0 ED 02 00 4C
 	DKB Girocard (Bank)
