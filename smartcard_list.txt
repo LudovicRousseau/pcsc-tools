@@ -1438,6 +1438,10 @@
 	Multi-Transport Pass (Navegante) (Metro, Bus, Electric, Boat) Carris Metropolitano, PT (Transport)
 	https://www.navegante.pt/
 
+3B 5F 96 00 80 5A 3F 06 08 14 01 01 C6 9F 45 B5 82 90 00
+	Transportation card - Lisbon Metropolitan Transportation company  (Transport)
+	https://www.navegante.pt/
+
 3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 2F 0E 8D 82 90 00
 	OPUS Card / Montreal (Transport)
 	https://opusenligne.ca/en
@@ -4955,6 +4959,10 @@
 	Belgian Rail MOBIB transportation card (Transport)
 	https://www.belgiantrain.be/en/travel-info/prepare-for-your-journey/mobib-card
 
+3B 6F 00 00 80 5A 50 2F C4 15 32 01 7F 1F C0 3A 82 90 00
+	Belgian MOBIB Card (Transport)
+	https://belgianmobilitycompany.be/en/solutions/ticketing/mobib
+
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
 	http://www.fnmt.es/es/html/tage/fichaTarjeta/fp1_ta_01.asp
@@ -6562,9 +6570,8 @@
 	http://www.basiccard.com
 
 3B 85 80 01 5A 43 56 44 56 59
-	Card Issued by "Verkéiersverbond" Luxembourg "M Kaart" Card containing Tickets for all public transportation in the country of Luxembourg (Transport)
-	https://mshop.lu/
-	http://http://www.mobiliteit.lu/
+	Electronic ticketing and electronic fare management in public transport smart card (VDV-KA core application interface)
+	https://www.eticket-deutschland.de/en/eticket/vdv-ka-and-eticore
 
 3B 85 80 01 80 73 84 21 40 12
 	Dutch Biometric Passport
@@ -9940,6 +9947,10 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 7F 0F 00 EB
 	sim card RUS Megafon Krasnodar (Telecommunication)
 
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 C5 0F 00 51
+	Yoigo Spain SIM card (Telecommunication)
+	https://www.yoigo.com/
+
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 74 10 00 C6
 	vodafone italy sim (Telecommunication)
 
@@ -10164,6 +10175,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 99 FE 0E 00 68
 	Finnish Sonera SIM-card (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 03 11 00 B3
+	lucky mobile lte sim (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A0 04 11 00 B4
 	Aldi Talk SIM card, Germany (Telecommunication)
@@ -10438,6 +10452,10 @@
 	skylink, Pay TV
 	http://www.skylink.cz
 	T-Mobile Czech Republic, Irdeto Satellite TV encryption card
+
+3B 9F 11 40 60 49 52 44 45 54 4F 20 41 43 53 20 56 37 2E 30
+	Austria  Pay TV Digital Satellite Card for ORF HD (Irdeto) (issued 2025) (Pay TV)
+	https://digital.orf.at/cardless/show_content2.php?s2id=135
 
 3B 9F 11 80 1F C3 80 31 E0 73 FE 21 1B 64 07 53 63 01 82 90 00 74
 	Cingular SIM
@@ -12665,6 +12683,9 @@
 3B BE 11 00 00 41 01 38 04 00 14 00 00 00 00 00 02 90 00
 	DEKART proprietary logon authentication solution for Windows (Other)
 	http://www.dekart.com/products/
+
+3B BE 11 00 00 41 01 38 04 C0 01 80 00 00 00 00 00 90 00
+	GLOBAL VR Players' Card (Other)
 
 3B BE 11 00 00 41 01 38 05 00 07 00 00 00 00 00 02 90 00
 	EEPROM card (Other)
@@ -15416,6 +15437,9 @@
 	Payoneer Card - USD Currency (Bank)
 	https://payoneer.custhelp.com/app/answers/detail/a_id/18226/~/account-with-card---faq
 
+3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 B9 79 00 90 00
+	AMEX (Bank)
+
 3B FD 18 00 00 80 31 FE 45 00 31 80 71 8E 64 52 D9 04 00 81 90 00 5B
 	Oberthur Card Systems, authentIC
 
@@ -15518,6 +15542,9 @@
 
 3B FD 96 00 00 81 31 FE 45 53 4C 4A 35 32 47 78 78 79 79 79 7A 52 24
 	J3R180 (JavaCard)
+
+3B FE 13 00 00 10 00 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
+	Hallifx Visa Bank Card (Bank)
 
 3B FE 13 00 00 10 80 80 31 80 66 B0 84 0C 01 6E 01 83 00 90 00
 	Sberbank of Russia MIR debit card (Bank)
@@ -16627,6 +16654,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 10 07 C0 BC 02 00 24
 	sparda-bank (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 12 0A 80 CB 02 00 1C
+	Volksbank eG NetWorld Card FinTS EBICS (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 14 0A C0 E6 02 00 77
 	FinTS Online-Banking Volksbank (Bank)
 
@@ -16685,6 +16715,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0B 90 FE 01 10 34
 	EC card from Raiffeisenbank im Hochtaunus, Germany (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 14 0A D0 EB 01 10 67
+	Debit Card issued by Hamburger Volksbank (girocard, VPAY) (Bank)
+	https://www.hamburger-volksban.de/
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 20 09 31 38 01 10 62
 	GLS Bank MasterCard (Bank)
