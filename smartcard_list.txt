@@ -510,6 +510,10 @@
 	OPLUZ OPM610 EU Multifunction Smartcard Reader (Telecommunication)
 	http://www.opluz.net/en/productshow.asp?id=135
 
+3B 16 94 D0 00 5C 00 00 00
+	MTS SIM card  (Telecommunication)
+	https://mts.ru
+
 3B 16 94 D0 01 6E 66 0D 00
 	Vodafone Romania (Telecommunication)
 
@@ -720,6 +724,13 @@
 
 3B 1C 94 43 48 49 50 44 52 49 56 45 30 30 31
 	SCM Chipdrive MyKey MasterKey 24k
+
+3B 1C 95 80 31 30 73 32 21 00 53 26 13 02 0C
+	TELE2 GSM (old blue) SIM card  (Telecommunication)
+
+3B 1C 95 80 31 30 73 32 21 00 53 26 71 01 6D
+	TELE2 GSM (old blue) SIM card (Telecommunication)
+	https://t2.ru
 
 3B 1D 11 00 32 04 00 00 00 FF 00 00 00 00 90 00
 	chip ST32F32A (Telecommunication)
@@ -1227,6 +1238,10 @@
 
 3B 3C 94 00 4B 31 25 A7 24 0C 02 7E 80 80 90 00
 	D2 mannesmann mobilphone-card (Other)
+
+3B 3C 94 00 4B 31 25 F2 10 09 03 94 80 83 90 00
+	Beeline GSM SIM card (old blue) (Telecommunication)
+	https://beeline.ru
 
 3B 3C 94 00 4C 31 25 A7 20 1B 00 15 83 83 90 00
 	GSM-SIM (900MHz) card of the carrier vodafone for their cellular
@@ -8459,6 +8474,10 @@
 	MultiApp Cards (Easy 72K Type B and Combi 72K Type B)
 	Barclaycard Platinum contact/contactless (wave)
 
+3B 8E 80 01 80 31 80 66 B0 84 0C 01 6E FF FC 82 90 00 1E
+	Thales IDPrime FIDO BIO smartcard   (Other)
+	https://cpl.thalesgroup.com/access-management/safenet-idprime-fido-biometric-smart-card
+
 3B 8E 80 01 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00 03
 	Contactless Barclaycard Visa
 	MyCiti Transport Card MasterCard PayPass (Cape Town, South Africa)
@@ -9580,6 +9599,9 @@
 3B 9A 96 00 92 01 98 93 17 00 02 28 02 00
 	Hardware USB Key (Other)
 
+3B 9A 96 00 92 02 51 94 03 07 09 03 20 11
+	Megafon SIM card (64k white) (Telecommunication)
+
 3B 9A 96 00 92 02 71 93 16 00 01 07 01 00
 	SIM card (emitted in ~2007) of Ukrainian Telecommunications Operator Kyivstar (Kyivstar GSM) (GSM/UMTS services) (Telecommunication)
 	http://www.kyivstar.ua
@@ -10070,6 +10092,10 @@
 
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 10 15 00 46
 	Kyivstar USIM-card (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 00 73 1A 21 1B 66 D0 01 7B 49 0D 00 3A
+	Tele2 SIM card RU (Telecommunication)
+	https://t2.ru
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 13 62 00 49 83 81 90 00 07
 	Claro Brazil SIM card (Telecommunication)
@@ -10709,6 +10735,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 83 02 00 00 BA
 	GSM-SIM Beeline RU (Telecommunication)
 	http://beeline.ru
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 90 07 00 00 AC
+	Beeline SIM card (Telecommunication)
+	https://beeline.ru
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 1B 57 3F 86 60 96 A1 00 00 0C
 	Lycamobile UICC/SIM card. (Telecommunication)
@@ -11621,6 +11651,9 @@
 	Telenor SIM card (Hungary) (Telecommunication)
 	https://www.telenor.hu
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 04 01 20 12 77
+	Megafon SIM card (4G 64k) (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 01 01 04 02 03 02 47
 	ReadySIM / T-Mobile USA USIM (2013) (Telecommunication)
 	http://www.readysim.com/
@@ -12143,6 +12176,10 @@
 
 3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 1A 13 78 81 0F B0
 	Vodafone Iceland card from Thales / Gemalto (Telecommunication)
+
+3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 1B 12 B7 81 0F 7F
+	Yota SIM card (Telecommunication)
+	https://www.yota.ru
 
 3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 13 1B 81 0F FA
 	Tinkoff SIM card (Telecommunication)
@@ -17160,6 +17197,10 @@
 
 3F FD 11 25 02 50 00 03 33 B0 15 69 FF 4A 50 F0 80 03 4B 4C 03
 	Kabel Deutschland G02  (Pay TV)
+
+3F FD 11 25 02 50 80 0F 41 B0 05 69 FF 4A 50 F0 00 00 41 5A 03
+	Astro Malaysia (Pay TV Service) (Pay TV)
+	https://www.astro.com.my
 
 3F FD 11 25 02 50 80 0F 41 B0 0A 69 FF 4A 50 70 80 00 5A 45 03
 	Buypass smart card (Bank)
