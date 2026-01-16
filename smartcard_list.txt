@@ -3879,6 +3879,9 @@
 	Postepay Evolution (Bank)
 	https://postepay.poste.it/prodotti/postepay-evolution.html
 
+3B 6F 00 00 57 69 4C 4C 55 00 0B 00 00 00 00 20 22 01 28
+	Debit card (Bank)
+
 3B 6F 00 00 57 69 4C 4C 57 00 00 00 00 00 00 20 19 03 28
 	meza classic card (Bank)
 
@@ -4959,6 +4962,10 @@
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 74 8A 25 82 90 00
 	Mobib (Brussels transport card) for the STIB-MIVB network (Transport)
 	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=fr
+
+3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 74 AE D1 82 90 00
+	Belgian STIB MOBiB card (MOBiB personal) (Transport)
+	https://en.wikipedia.org/wiki/MOBIB
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 02 79 A9 E5 67 82 90 00
 	MoBIB card, a medium for the transport tickets of the four Belgian public transport operators (Transport)
@@ -7718,6 +7725,9 @@
 	Hungarian eID (2024) (eID)
 	https://eszemelyi.hu/en/
 
+3B 8B 80 01 20 90 00 00 00 00 00 15 C0 47 7A 52
+	FM12080 (JavaCard)
+
 3B 8B 80 01 20 90 00 00 00 00 00 16 14 CD AA DF
 	JCOP 41 IBM card for Guizhou Normal University (JavaCard)
 
@@ -9751,6 +9761,9 @@
 3B 9D 18 81 31 FC 35 80 31 C0 69 4D 54 43 4F 53 73 02 06 04 D1
 	Lithuanian ID card (MaskTech, 2024) (eID)
 
+3B 9D 18 81 31 FC 35 80 31 C0 69 4D 54 43 4F 53 73 02 06 05 D0
+	Republic of Lithuania Identity Card (eID)
+
 3B 9D 94 40 23 00 68 20 01 4D 69 6F 43 4F 53 00 90 00
 	Miotec smartcard running Miocos 2.0 on an Atmel AT90SC646
 	http://www.miotec.fi
@@ -11494,6 +11507,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 46 01 49 01 00 8A
 	T-Mobile Poland pre-paid SIM card (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 F6 21 13 67 56 03 59 01 56 01 01 8B
+	Movistar Chile SIM Card (non-prepaid) (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 F6 21 57 57 4A 4D 02 0C 60 80 00 4D
 	Google Fi Data SIM (Telecommunication)
 	https://fi.google.com
@@ -11995,6 +12011,10 @@
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 13 65 02
 	sysmoEUICC1-Cxx - eUCICC for econsumer eSIM RSP (Telecommunication)
 	https://sysmocom.de/products/sim/sysmocom-euicc/index.html
+
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 25 65 34
+	EIOTCLUB Physical eSIM eUICC Card (Telecommunication)
+	https://www.eiotclub.com/products/physical-esim-card
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 26 6F 3D
 	eSIM physical card, you can write eSIM profiles into it and use it as a general SIM (Telecommunication)
@@ -14186,6 +14206,9 @@
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 01 53 41 43 45 81 04 21
 	Slovenska sporitelna (SLSP) Bank card, Maestro Card with chip
 
+3B EF 00 00 81 31 FC 45 80 31 80 65 11 01 13 00 0D 53 41 43 45 81 04 2D
+	ISIC/Maestro card hybrid issued by Volksbank Slovakia (Sberbank) using a Cirrus chip  (Bank)
+
 3B EF 00 00 81 31 FC 45 80 31 80 65 11 11 23 10 02 53 41 43 45 81 04 12
 	VISA card issued by UBS, Switzerland
 
@@ -15974,6 +15997,10 @@
 	Token2 Bio3 Hardware Key (Other)
 	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
 
+3B FF 18 00 00 81 01 86 8E 02 06 60 00 60 37 35 32 33 37 33 38 39 6D
+	Token2 PIN+Bio3 FIDO2 Security Key with Biometric Authentication (Other)
+	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
+
 3B FF 18 00 00 81 31 FE 45 00 6B 04 05 01 00 01 11 01 43 4E 53 10 31 80 69
 	Sanitary Card of "Friuli Venezia Giulia" region (Italian Republic)
 	Carta Nazionale dei Servizi (Italia)
@@ -16673,8 +16700,15 @@
 	Hannoversche Volksbank girocard / Visa Debit Card (Bank)
 	https://www.hannoversche-volksbank.de/privatkunden/girokonto-kreditkarten/girocards/hannover-girocard.html
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 61 BF 07 40 08
+	Sparkassen-Card (Girocard, MasterCard Debit) issued by Sparkasse Aschaffenburg-Miltenberg (Bank)
+	https://www.s-abmil.de/de/home/privatkunden/girokonto/sparkassen-card-mastercard-debitkarte.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 6D 78 07 40 C3
 	Mastercard Debit Card from the Kreissparkasse (German bank) (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 6D 7B 07 40 C0
+	German girocard  (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 6D 86 07 40 3D
 	Harzsparkasse Debit card (Germany): ec-cash, girocard, Mastercard (Bank)
