@@ -4715,6 +4715,10 @@
 	De Lijn - Vlaamse Vervoermaatschappij Travel Pass  |  NMBS-SNCB (Transport)
 	https://www.delijn.be/en/content/abonnementen/de-lijn-nmbs/
 
+3B 6F 00 00 80 5A 2C 23 C4 10 10 05 71 37 A4 4E 82 90 00
+	De Lijn MOBIB card | Flanders Public Transport (Transport)
+	https://www.delijn.be/en/content/mobib/
+
 3B 6F 00 00 80 5A 2C 23 C4 10 10 05 C0 22 4F 89 82 90 00
 	MoBIB card (Transport)
 	https://mobib.be/en.html
@@ -4930,6 +4934,10 @@
 3B 6F 00 00 80 5A 3C 23 C4 14 10 01 C1 0A E1 39 82 90 00
 	STIB/MIVB Mobib card (Transport)
 	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=en
+
+3B 6F 00 00 80 5A 3C 23 C4 29 01 00 71 42 21 15 82 90 00
+	De Lijn MOBIB card | Flanders Public Transport (Transport)
+	https://www.delijn.be/en/content/mobib/
 
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
@@ -10106,6 +10114,9 @@
 3B 9E 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 10 15 00 46
 	Kyivstar USIM-card (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 00 73 1A 21 1B 66 D0 01 6D 7B 0D 00 1E
+	SIM Card of Tesco Mobile (Telecommunication)
+
 3B 9E 96 80 1F C7 80 31 00 73 1A 21 1B 66 D0 01 7B 49 0D 00 3A
 	Tele2 SIM card RU (Telecommunication)
 	https://t2.ru
@@ -10283,6 +10294,9 @@
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 A1 E6 0F 00 49
 	SIM O2 CZ (Telecommunication)
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 02 14 00 03
+	SIM Card of O2 Czech Republic (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 09 12 00 0E
 	SIM/USIM (SPAIN) - ORANGE ESPAGNE VIRTUAL, S.A.U. (Orange / Jazztel / SIMYO) (Telecommunication)
@@ -10845,6 +10859,9 @@
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 09 09 01 00 00 98
 	German SIM card (T-Mobile) (Telecommunication)
 
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 47 01 09 21 05 00 00 B4
+	SIM Card from Tmobile Czech Republic (Telecommunication)
+
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 09 01 00 00 06
 	GSM, T-Mobile (Germany)
 
@@ -11146,6 +11163,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 52 39 71 DF 00 00 00 00 00 78
 	"Feitian ePass2003" USB (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 52 39 71 DF 00 00 03 90 00 EB
+	Feitian ePass2003 (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
@@ -11169,6 +11189,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 32 02 25 71 DF 00 00 06 00 00 10
 	ePass 3003 Auto (PKI)
 	https://www.ftsafe.com/products/PKI/Standard/Specification
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 33 02 25 71 DF 00 00 03 90 00 84
+	Feitian ePass2003 with pkcs15-init profile pkcs15+onepin (Other)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 34 00 25 71 DF 00 00 03 6A 82 F9
 	Feitian ePass2003Auto (PKI)
@@ -12023,6 +12046,10 @@
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 27 6F 3C
 	An eSIM physical card, you can write eSIM profiles into it and use it as a general SIM Telecommunication
 	https://www.9esim.com/
+
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 28 65 39
+	EIOTCLUB Physical eSIM Card (Telecommunication)
+	https://www.eiotclub.com/products/physical-esim-card
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 35 6F 2E
 	9esim (Telecommunication)
@@ -16714,6 +16741,9 @@
 	Harzsparkasse Debit card (Germany): ec-cash, girocard, Mastercard (Bank)
 	https://www.harzsparkasse.de/de/home/privatkunden/girokonto/sparkassen-card-mastercard-debitkarte.html
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 07 09 F0 E0 02 00 51
+	HBCI Card Volksbank Lüneburger Heide (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 07 0A 10 B5 02 00 E7
 	VISA VR Credit Card Gold (Bank)
 	https://www.vr.de/privatkunden/produkte/konten-karten/kreditkarten/goldkarte.html
@@ -16730,6 +16760,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 14 0A C0 E6 02 00 77
 	FinTS Online-Banking Volksbank (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 18 0B D0 BE 02 00 32
+	VR-NetWorld-Card (germany, Volksbank, HBCI, home-banking) (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
