@@ -4615,6 +4615,10 @@
 	French transport card of the city of Dijon and Côte d'or department. (Transport)
 	https://www.viamobigo.fr/fr/acheter-mes-titres-de-transport-mobigo-en-cote-dor/176
 
+3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 B7 3B 5A 82 90 00
+	French transport card Divia, Mobigo Bourgogne (legacy 2017) (Transport)
+	https://www.viamobigo.fr/
+
 3B 6F 00 00 80 5A 28 13 02 10 12 2B 92 D6 63 FC 82 90 00
 	Card "Korrigo" region Bretagne, France, Bibus Brest Métropole public transport  (Transport)
 	https://fr.wikipedia.org/wiki/KorriGo
@@ -9365,6 +9369,9 @@
 3B 95 15 40 FF 63 01 01 00 00
 	Cryptoflex 16K
 
+3B 95 15 40 FF D4 01 03 01 04
+	Aadhar card (PKI)
+
 3B 95 18 40 FF 62 01 02 01 04
 	Schlumberger Cryptoflex 32K e-gate
 
@@ -12355,6 +12362,10 @@
 3B 9F 97 81 31 FE 45 80 65 54 43 D3 23 02 31 C0 73 F6 21 80 81 05 52
 	karlitepe (eID)
 
+3B 9F 97 81 31 FE 5D 00 64 04 20 01 C2 31 F8 73 F4 01 E0 00 90 00 A7
+	Signature Card (Other)
+	https://www.telesec.de/en/products/tcos-smartcards/overview
+
 3B 9F 97 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 15 0E 81 0F E8
 	SIM Card (Telecommunication)
 
@@ -13046,6 +13057,9 @@
 	Thales nShield Security World Card - Remote Administration Ready
 	https://www.thalesesecurity.fr/products/hsm-management-and-monitoring/nshield-remote-administration
 
+3B D5 18 FF 80 B1 FE 45 1F C3 80 73 C8 21 10 6E
+	French state auth card (eID)
+
 3B D5 18 FF 81 91 FE 1F C3 4A 43 4F 50 34 22
 	algerian driving licence (eID)
 
@@ -13571,6 +13585,9 @@
 3B DD 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 82 48
 	Finnish Digital and Population Services Agency Organisation Card (eID)
 	https://dvv.fi/en/organisation-cards
+
+3B DD 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 83 49
+	Finish ID card (eID)
 
 3B DD 96 00 80 B1 FE 45 1F 83 80 64 05 03 04 00 56 56 44 53 41 45 54 FC
 	VASCO DIGIPASS KEY 101 (Other)
@@ -14986,6 +15003,10 @@
 	PIVKey T840 (Other)
 	https://pivkey.com/
 
+3B F9 13 00 00 91 81 31 80 41 80 64 24 03 01 01 82 90 00 DB
+	UBS Switzerland Visa Debit Card (Bank)
+	https://www.ubs.com/ch/en/services/accounts-and-cards/cards-and-twint/debitcards-private.html
+
 3B F9 13 00 FF 10 00 80 64 20 01 01 04 82 90 00
 	ECCP CARD (Bank)
 	https://eccp.poste.dz/commande-edahabia
@@ -15986,6 +16007,14 @@
 	Austrian Bank Card for kids, teens and young adults Bank
 	https://www.sparkasse.at/sgruppe/spark7
 
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 07 75 46 32 00 00 00 00 5E
+	Santander Consumer Bank Debit card (Mastercard) (Bank)
+	https://www.santanderconsumer.at/
+
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 07 84 32 94 00 00 00 00 7D
+	Erste Bank und Sparkassen Debit card (Mastercard) (Bank)
+	https://www.sparkasse.at/kaernten/
+
 3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 08 33 99 56 00 00 00 00 AC
 	Austrian Sparkasse ISIC debit card (Mastercard) (eID)
 	https://isic.at/
@@ -16022,6 +16051,10 @@
 
 3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 31 31 38 38 31 37 37 34 6C
 	Token2 Bio3 Hardware Key (Other)
+	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
+
+3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 34 36 39 33 30 34 37 34 66
+	TOKEN2 FIDO2 Security Key(0204),Bio3 Dual with FIDO + PGP 01 00 (Other)
 	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
 
 3B FF 18 00 00 81 01 86 8E 02 06 60 00 60 37 35 32 33 37 33 38 39 6D
@@ -16627,6 +16660,10 @@
 
 3B FF 96 00 00 81 31 80 43 80 31 80 68 B0 85 03 00 EF 78 01 00 82 90 00 F1
 	Cameroon National Identity Card (eID)
+
+3B FF 96 00 00 81 31 FE 43 80 25 A0 00 00 00 28 57 80 10 46 01 00 01 00 C8
+	KB QSCD smart card (Bank)
+	https://www.kb.cz/pki/cip_karta_qscd_navod.pdf
 
 3B FF 96 00 00 81 31 FE 43 80 31 80 65 B0 84 56 51 10 12 01 78 82 90 00 6A
 	SafeNet eToken 5300 (PKI)
