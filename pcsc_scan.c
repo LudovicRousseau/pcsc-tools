@@ -255,7 +255,7 @@ again:
 
 		spin_state++;
 		if (spin_state >= (int)sizeof patterns)
-			spin_state = SpinRunning;
+			spin_state = SpinRunning;	/* 0 */
 		printf("%s %c ", cub3, c);
 		fflush(stdout);
 
