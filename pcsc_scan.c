@@ -206,7 +206,8 @@ _Atomic SpinState_t spin_state = SpinStopped;
 static void spin_start(void)
 {
 	spin_state = Options.verbose ? SpinRunning : SpinDisabled;
-	printf("%s", cnl);
+	if (Options.verbose)
+		printf("%s", cnl);
 }
 
 static void spin_stop(void)
@@ -214,8 +215,12 @@ static void spin_stop(void)
 	spin_state = SpinStopped;
 
 	/* clean previous output */
-	printf("%s %s ", cub2, cub2);
-	fflush(stdout);
+	if (Options.verbose)
+	{
+		printf("%s%s                         ", cub2, cub2);
+		for (int i=0; i<8; i++)
+			printf("%s", cub3);
+	}
 }
 
 static void *spin_update(void *p)
@@ -243,6 +248,11 @@ again:
 		nanosleep(&wait_time, NULL);
 	} while (spin_state < 0);
 
+	printf(".  (use Ctrl-C to exit)");
+	for (int i=0; i<7; i++)
+		printf("%s", cub3);
+	fflush(stdout);
+
 	do
 	{
 		char c = patterns[spin_state];
@@ -256,7 +266,7 @@ again:
 		spin_state++;
 		if (spin_state >= (int)sizeof patterns)
 			spin_state = SpinRunning;	/* 0 */
-		printf("%s %c ", cub3, c);
+		printf("%s%c ", cub2, c);
 		fflush(stdout);
 
 		nanosleep(&wait_time, NULL);
