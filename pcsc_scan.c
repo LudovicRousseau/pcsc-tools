@@ -586,6 +586,9 @@ int main(int argc, char *argv[])
 	rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
 
 get_readers:
+	/* wait the current spinner exit the do-while loop*/
+	usleep(100*1000);
+
 	/* free memory possibly allocated in a previous loop */
 	if (NULL != readers)
 	{
