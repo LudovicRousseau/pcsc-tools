@@ -805,6 +805,9 @@ get_readers:
 			}
 		}
 
+		/* wait the current spinner exit the do-while loop*/
+		usleep(100*1000);
+
 		if (rv != SCARD_E_TIMEOUT)
 		{
 			/* Timestamp the event as we get notified */
