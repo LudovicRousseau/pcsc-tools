@@ -678,6 +678,7 @@ get_readers:
 
 				if (should_exit())
 				{
+					spin_stop();
 					printf("\n");
 					exit(EX_OK);
 				}
