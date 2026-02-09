@@ -94,8 +94,6 @@ static void usage(const char *pname)
 	printf("\t\t  -r : only lists readers\n");
 	printf("\t\t  -c : only lists cards\n");
 	printf("\t\t  -s : stress mode\n");
-	printf("\t\t  -q : quiet mode\n");
-	printf("\t\t  -v : verbose mode (default)\n");
 	printf("\t\t  -t secs : quit after secs seconds\n");
 	printf("\t\t  -d : debug mode\n");
 	printf("\t\t  -p : force use of PnP mechanism\n");
@@ -121,7 +119,6 @@ typedef struct
 	bool analyse_atr;
 	bool stress_card;
 	bool print_version;
-	bool verbose;
 	bool only_list_readers;
 	bool only_list_cards;
 	bool debug;
@@ -208,8 +205,8 @@ _Atomic SpinState_t spin_state = SpinStopped;
 static void spin_start(void)
 {
 	spin_state = SpinRunning;
-	if (Options.verbose)
-		printf("%s", cnl);
+	printf("%s", cnl);
+
 	pthread_cond_signal(&spinner_cond);
 }
 
@@ -218,12 +215,10 @@ static void spin_stop(void)
 	spin_state = SpinStopped;
 
 	/* clean previous output */
-	if (Options.verbose)
-	{
-		printf("%s%s                         ", cub2, cub2);
-		for (int i=0; i<8; i++)
-			printf("%s", cub3);
-	}
+	printf("%s%s                         ", cub2, cub2);
+	for (int i=0; i<8; i++)
+		printf("%s", cub3);
+
 	pthread_cond_signal(&spinner_cond);
 }
 
@@ -303,7 +298,6 @@ static void initialize_options(options_t *options, const char *pname)
 #endif
 	options->stress_card = false;
 	options->print_version = false;
-	options->verbose = true;
 	options->only_list_readers = false;
 	options->only_list_cards = false;
 	options->debug = false;
@@ -311,7 +305,7 @@ static void initialize_options(options_t *options, const char *pname)
 	options->maxtime = 0;
 }
 
-#define OPTIONS "Vhvrcst:qdpn"
+#define OPTIONS "Vhrcst:dpn"
 
 static void print_version(void)
 {
@@ -338,13 +332,8 @@ static int parse_options(int argc, char *argv[], options_t *options)
 				exit(EX_OK);
 				break;
 
-			case 'v':
-				options->verbose = true;
-				break;
-
 			case 'r':
 				options->only_list_readers = true;
-				options->verbose = false;
 				break;
 
 			case 'c':
@@ -358,10 +347,6 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 't':
 				options->maxtime = atol(optarg);
-				break;
-
-			case 'q':
-				options->verbose = false;
 				break;
 
 			case 'p':
@@ -397,12 +382,7 @@ static LONG stress(SCARDCONTEXT hContext2, const char *readerName)
 	DWORD dwActiveProtocol;
 	const SCARD_IO_REQUEST *pioSendPci;
 
-	if (Options.verbose)
-	{
-		printf("Stress card in reader: %s\n\n", readerName);
-	}
-	else
-		printf("\n");
+	printf("Stress card in reader: %s\n\n", readerName);
 	rv = SCardConnect(hContext2, readerName, SCARD_SHARE_SHARED,
 			SCARD_PROTOCOL_T0 | SCARD_PROTOCOL_T1, &hCard, &dwActiveProtocol);
 	if (rv != SCARD_S_SUCCESS)
@@ -554,10 +534,7 @@ int main(int argc, char *argv[])
 	{
 		exit(EX_USAGE);
 	}
-	if (Options.verbose)
-	{
-		print_version();
-	}
+	print_version();
 
 	initialize_signal_handlers();
 
@@ -570,18 +547,12 @@ int main(int argc, char *argv[])
 	rv = SCardGetStatusChange(hContext, 0, rgReaderStates, 1);
 	if (! Options.pnp && rgReaderStates[0].dwEventState & SCARD_STATE_UNKNOWN)
 	{
-		if (Options.verbose)
-		{
-			printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
-		}
+		printf("%sPlug'n play reader name not supported. Using polling every %d ms.%s\n", magenta, TIMEOUT, color_end);
 	}
 	else
 	{
 		Options.pnp = true;
-		if (Options.verbose)
-		{
-			printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
-		}
+		printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
 	}
 
 	pthread_cond_init(&spinner_cond, NULL);
@@ -610,10 +581,7 @@ get_readers:
 	 * 2. malloc the necessary storage
 	 * 3. call with the real allocated buffer
 	 */
-	if (Options.verbose)
-	{
-		printf("%sScanning present readers...%s\n", red, color_end);
-	}
+	printf("%sScanning present readers...%s\n", red, color_end);
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_E_NO_READERS_AVAILABLE)
 		test_rv("SCardListReaders", rv, hContext);
@@ -656,11 +624,8 @@ get_readers:
 			return EX_OK;
 		}
 
-		if (Options.verbose)
-		{
-			printf("%sWaiting for the first reader...%s   ", red, color_end);
-			fflush(stdout);
-		}
+		printf("%sWaiting for the first reader...%s   ", red, color_end);
+		fflush(stdout);
 
 		if (Options.pnp)
 		{
@@ -700,10 +665,7 @@ get_readers:
 			}
 			spin_stop();
 		}
-		if (Options.verbose)
-		{
-			printf("found one\n");
-		}
+		printf("found one\n");
 		goto get_readers;
 	}
 	else
