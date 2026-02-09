@@ -133,6 +133,9 @@ static options_t Options;
 
 SCARDCONTEXT hContext;
 
+pthread_mutex_t spinner_mutex;
+pthread_cond_t spinner_cond;
+
 static bool is_member(const char *  item, const char * list[])
 {
 	int i = 0;
@@ -196,7 +199,6 @@ static bool should_exit(void)
 
 typedef enum
 {
-	SpinDisabled = -2,
 	SpinStopped = -1,
 	SpinRunning = 0
 } SpinState_t;
@@ -205,9 +207,10 @@ _Atomic SpinState_t spin_state = SpinStopped;
 
 static void spin_start(void)
 {
-	spin_state = Options.verbose ? SpinRunning : SpinDisabled;
+	spin_state = SpinRunning;
 	if (Options.verbose)
 		printf("%s", cnl);
+	pthread_cond_signal(&spinner_cond);
 }
 
 static void spin_stop(void)
@@ -221,38 +224,30 @@ static void spin_stop(void)
 		for (int i=0; i<8; i++)
 			printf("%s", cub3);
 	}
+	pthread_cond_signal(&spinner_cond);
 }
 
 static void *spin_update(void *p)
 {
 	char patterns[] = {'-', '\\', '|', '/'};
 
-	/* 100 ms wait */
-	struct timespec wait_time = {.tv_sec = 0, .tv_nsec = 1000*1000*100};
+	struct timespec ts;
+	struct timeval tv;
 
 	(void)p;
 
 again:
 	/* wait until spinning starts */
-	do
-	{
-		if (should_exit())
-		{
-			if (SpinDisabled == spin_state)
-			{
-				SCardCancel(hContext);
-				pthread_exit(NULL);
-			}
-		}
-
-		nanosleep(&wait_time, NULL);
-	} while (spin_state < 0);
+	pthread_cond_wait(&spinner_cond, &spinner_mutex);
 
 	printf(".  (use Ctrl-C to exit)");
 	for (int i=0; i<7; i++)
 		printf("%s", cub3);
 	fflush(stdout);
 
+	gettimeofday(&tv, NULL);
+	ts.tv_sec = tv.tv_sec;
+	ts.tv_nsec = tv.tv_usec * 1000;
 	do
 	{
 		char c = patterns[spin_state];
@@ -269,7 +264,15 @@ again:
 		printf("%s%c ", cub2, c);
 		fflush(stdout);
 
-		nanosleep(&wait_time, NULL);
+		/* add 100 ms delay */
+		ts.tv_nsec += 100 * 1000 * 1000;
+		if (ts.tv_nsec > 1000 * 1000 * 1000)
+		{
+			ts.tv_nsec -= 1000* 1000 * 1000;
+			ts.tv_sec += 1;
+		}
+
+		pthread_cond_timedwait(&spinner_cond, &spinner_mutex, &ts);
 	} while (spin_state >= SpinRunning);
 
 	goto again;
@@ -346,7 +349,6 @@ static int parse_options(int argc, char *argv[], options_t *options)
 
 			case 'c':
 				options->only_list_cards = true;
-				options->verbose = false;
 				options->analyse_atr = false;
 				break;
 
@@ -582,13 +584,13 @@ int main(int argc, char *argv[])
 		}
 	}
 
+	pthread_cond_init(&spinner_cond, NULL);
+	pthread_mutex_init(&spinner_mutex, NULL);
+
 	/* start spining thread */
 	rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
 
 get_readers:
-	/* wait the current spinner exit the do-while loop*/
-	usleep(100*1000);
-
 	/* free memory possibly allocated in a previous loop */
 	if (NULL != readers)
 	{
@@ -808,9 +810,6 @@ get_readers:
 			}
 		}
 
-		/* wait the current spinner exit the do-while loop*/
-		usleep(100*1000);
-
 		if (rv != SCARD_E_TIMEOUT)
 		{
 			/* Timestamp the event as we get notified */
@@ -985,6 +984,9 @@ get_readers:
 		free(readers);
 	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
+
+	pthread_mutex_destroy(&spinner_mutex);
+	pthread_cond_destroy(&spinner_cond);
 
 	return EX_OK;
 }
