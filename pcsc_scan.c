@@ -87,16 +87,16 @@ do { \
 
 static void usage(const char *pname)
 {
-	printf("%s usage:\n\n\t%s [ -h | -V | -n | -r | -c | -s | -t secs | -d | -p]\n\n", pname, pname);
-	printf("\t\t  -h : this help\n");
-	printf("\t\t  -V : print version number\n");
-	printf("\t\t  -n : no ATR analysis\n");
-	printf("\t\t  -r : only lists readers\n");
-	printf("\t\t  -c : only lists cards\n");
-	printf("\t\t  -s : stress mode\n");
-	printf("\t\t  -t secs : quit after secs seconds\n");
-	printf("\t\t  -d : debug mode\n");
-	printf("\t\t  -p : force use of PnP mechanism\n");
+	printf("%s usage:\n\n%s [ -h | -V | -n | -r | -c | -s | -t secs | -d | -p]\n\n", pname, pname);
+	printf("  -h : this help\n");
+	printf("  -V : print version number\n");
+	printf("  -n : no ATR analysis\n");
+	printf("  -r : only lists readers\n");
+	printf("  -c : only lists cards\n");
+	printf("  -s : stress mode\n");
+	printf("  -t secs : quit after secs seconds\n");
+	printf("  -d : debug mode\n");
+	printf("  -p : force use of PnP mechanism\n");
 	printf("\n");
 }
 
