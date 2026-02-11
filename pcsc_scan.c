@@ -216,8 +216,11 @@ static void spin_stop(void)
 
 	/* clean previous output */
 	printf("%s%s                         ", cub2, cub2);
-	for (int i=0; i<8; i++)
-		printf("%s", cub3);
+	if (Interrupted)
+		printf("\n");
+	else
+		for (int i=0; i<8; i++)
+			printf("%s", cub3);
 
 	pthread_cond_signal(&spinner_cond);
 }
@@ -659,7 +662,6 @@ get_readers:
 				if (should_exit())
 				{
 					spin_stop();
-					printf("\n");
 					exit(EX_OK);
 				}
 			}
