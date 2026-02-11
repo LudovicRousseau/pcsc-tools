@@ -558,11 +558,14 @@ int main(int argc, char *argv[])
 		printf("%sUsing reader plug'n play mechanism%s\n", magenta, color_end);
 	}
 
-	pthread_cond_init(&spinner_cond, NULL);
-	pthread_mutex_init(&spinner_mutex, NULL);
+	if (! Options.only_list_cards && ! Options.only_list_readers)
+	{
+		pthread_cond_init(&spinner_cond, NULL);
+		pthread_mutex_init(&spinner_mutex, NULL);
 
-	/* start spining thread */
-	rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
+		/* start spining thread */
+		rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
+	}
 
 get_readers:
 	/* free memory possibly allocated in a previous loop */
@@ -937,7 +940,12 @@ get_readers:
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
 	test_rv("SCardGetStatusChange", rv, hContext);
 
-	pthread_join(spin_pthread, NULL);
+	if (! Options.only_list_cards && ! Options.only_list_readers)
+	{
+		pthread_join(spin_pthread, NULL);
+		pthread_mutex_destroy(&spinner_mutex);
+		pthread_cond_destroy(&spinner_cond);
+	}
 
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
@@ -948,9 +956,6 @@ get_readers:
 		free(readers);
 	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
-
-	pthread_mutex_destroy(&spinner_mutex);
-	pthread_cond_destroy(&spinner_cond);
 
 	return EX_OK;
 }
