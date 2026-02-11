@@ -934,14 +934,9 @@ get_readers:
 		goto get_readers;
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
-	if (rv != SCARD_E_CANCELLED)
-		test_rv("SCardGetStatusChange", rv, hContext);
-	else
-	{
-		printf("%s", cub3);
-		fflush(stdout);
-		pthread_join(spin_pthread, NULL);
-	}
+	test_rv("SCardGetStatusChange", rv, hContext);
+
+	pthread_join(spin_pthread, NULL);
 
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
