@@ -914,12 +914,16 @@ get_readers:
 		if (Options.only_list_cards)
 			break;
 
+		printf("%sInsert or remove a card or a reader...%s ", red, color_end);
+		fflush(stdout);
+
 		spin_start();
 
 		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t,
 			nbReaders);
 
 		spin_stop();
+		printf("\n");
 
 		if (Options.debug)
 			displayChangedStatus(rgReaderStates_t, nbReaders);
