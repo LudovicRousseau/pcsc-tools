@@ -657,6 +657,7 @@ get_readers:
 				rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 				if (SCARD_E_NO_READERS_AVAILABLE == rv)
 					rv = SCARD_S_SUCCESS;
+				/* wait before next call */
 				sleep(1);
 
 				if (should_exit())
