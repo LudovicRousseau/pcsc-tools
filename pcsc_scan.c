@@ -666,7 +666,7 @@ get_readers:
 				if (should_exit())
 				{
 					spin_stop();
-					exit(EX_OK);
+					goto end;
 				}
 			}
 			spin_stop();
