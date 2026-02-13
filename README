@@ -130,6 +130,10 @@ Licences:
 History:
 ========
 
+1.7.4 - 15 February 2026, Ludovic ROUSSEAU
+    - 282 new ATRs
+    - pcsc_scan: display what the program expect from the user
+
 1.7.3 - 22 March 2025, Ludovic ROUSSEAU
     - 199 new ATRs
     - meson:
