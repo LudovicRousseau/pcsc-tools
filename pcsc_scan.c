@@ -221,8 +221,6 @@ static void spin_stop(void)
 	else
 		for (int i=0; i<8; i++)
 			printf("%s", cub3);
-
-	pthread_cond_signal(&spinner_cond);
 }
 
 static void *spin_update(void *p)
