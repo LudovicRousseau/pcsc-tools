@@ -130,8 +130,8 @@ static options_t Options;
 
 SCARDCONTEXT hContext;
 
-pthread_mutex_t spinner_mutex;
-pthread_cond_t spinner_cond;
+pthread_mutex_t spinner_mutex = PTHREAD_MUTEX_INITIALIZER;
+pthread_cond_t spinner_cond = PTHREAD_COND_INITIALIZER;
 
 static bool is_member(const char *  item, const char * list[])
 {
@@ -563,11 +563,8 @@ int main(int argc, char *argv[])
 
 	if (! Options.only_list_cards && ! Options.only_list_readers)
 	{
-		pthread_cond_init(&spinner_cond, NULL);
-		pthread_mutex_init(&spinner_mutex, NULL);
-
 		/* start spining thread */
-		rv = pthread_create(&spin_pthread, NULL, spin_update, NULL);
+		pthread_create(&spin_pthread, NULL, spin_update, NULL);
 	}
 
 get_readers:
