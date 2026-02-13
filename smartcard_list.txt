@@ -1481,6 +1481,18 @@
 	OPUS Metro card from Quebec, Canada (Transport)
 	https://en.wikipedia.org/wiki/Opus_card
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 53 8F A9 82 90 00
+	OPUS Card (Transport)
+	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
+
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 69 33 67 82 90 00
+	Montréal metropolitan area and Québec city area OPUS card (Transport)
+	https://www.carteopus.info/
+
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 6C EB F1 82 90 00
+	OPUS Card (Transport)
+	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
+
 3B 5F 96 00 80 5A 3F 13 30 14 10 01 C5 68 50 4E 82 90 00
 	OURA transport French (Transport)
 
@@ -4993,6 +5005,10 @@
 	Belgian Rail MOBIB transportation card (Transport)
 	https://www.belgiantrain.be/en/travel-info/prepare-for-your-journey/mobib-card
 
+3B 6F 00 00 80 5A 50 2F C4 15 32 01 7F 09 68 07 82 90 00
+	Belgian Mobib card  (Transport)
+	https://www.belgiantrain.be/en/travel-info/prepare-for-your-journey/mobib-card
+
 3B 6F 00 00 80 5A 50 2F C4 15 32 01 7F 1F C0 3A 82 90 00
 	Belgian MOBIB Card (Transport)
 	https://belgianmobilitycompany.be/en/solutions/ticketing/mobib
@@ -5444,6 +5460,9 @@
 3B 7B 96 00 00 47 50 00 3A 06 01 41 20 07 90 00
 	Discover Card (Other)
 	http://Discover.com
+
+3B 7C 11 00 00 47 53 45 42 4C 03 42 48 48 80 01 01
+	French HealthCare (HealthCare)
 
 3B 7C 13 00 00 80 64 11 34 01 48 73 F7 41 C0 81 07
 	universal electronic card UEC Rissa (eID)
@@ -11109,6 +11128,9 @@
 3B 9F 95 80 3F C3 A0 80 31 E0 73 FE 21 13 63 8D 43 42 83 F0 90 00 34
 	Taisys Java Csrd (Telecommunication)
 
+3B 9F 95 80 3F C6 A0 80 31 E0 73 FE 21 1B 67 42 54 54 42 4E 30 31 1D
+	Mystery Chinese "Huawei Test SIM" (Telecommunication)
+
 3B 9F 95 80 3F C7 A0 80 31 A0 73 BE 21 1B 53 05 D0 80 83 05 90 00 24
 	NTT docomo Xi(LTE) AX05(Gemalto) Pink SIM (Telecommunication)
 	https://ja.wikipedia.org/wiki/%E3%83%89%E3%82%B3%E3%83%A2UIM%E3%82%AB%E3%83%BC%E3%83%89
@@ -11274,6 +11296,10 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 75 30 06 62 F8
 	SIM Card (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 75 30 08 4B DF
+	Vodafone Ukraine joice Start (Telecommunication)
+	https://www.vodafone.ua/
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 19 67 4A 55 54 75 30 08 68 FC
 	Vodafone UA Card (Telecommunication)
@@ -13152,6 +13178,10 @@
 3B D7 97 00 81 B1 FE 45 1F 87 80 31 C1 53 51 13 20 12
 	IdemiaID-ONEPIV (eID)
 	https://www.idemia.com/id-one-piv-card
+
+3B D8 13 FF 81 31 80 75 50 57 53 5F 56 33 2E 30 01
+	PasswordSafe Smartcard (passport)
+	https://www.sse-web.de/produkte/passwordsafe/
 
 3B D8 18 00 80 1F 07 80 31 C1 64 08 06 92 0F
 	US Government CAC (PKI) / IDEMIA Cosmo v8 (PKI)
@@ -16734,6 +16764,10 @@
 	French National Identity Card (eID) (eID)
 	https://www.interieur.gouv.fr/actualites/actu-du-ministere/nouvelle-carte-nationale-didentite
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 65 F0 07 30 13
+	girocard (Bank)
+	https://www.meine-rvb.de
+
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 69 C9 07 30 26
 	Kreissparkasse Mastercard (Germany) (Bank)
 
@@ -16745,6 +16779,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 BF 86 07 30 BF
 	German Bank Verbundvolksbank-OWL Bank
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 02 65 AE 07 30 4E
+	Girocard of the German Bank Sparkasse division Baden-Baden Gaggenau (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 02 71 50 07 30 A4
 	Debitcard Sparkasse Duesseldorf (Bank) (Bank)
@@ -16798,6 +16835,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 14 0A C0 E6 02 00 77
 	FinTS Online-Banking Volksbank (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 15 0A C0 CD 02 00 5D
+	Mastercard / GLS Bank (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 18 0B D0 BE 02 00 32
 	VR-NetWorld-Card (germany, Volksbank, HBCI, home-banking) (Bank)
 
@@ -16830,6 +16870,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 15 08 60 DC 02 00 D7
 	Deutsche Kreditbank AG, Girocard (Bank)
 	https://www.dkb.de
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 08 20 EB 02 00 A3
+	Spk-Suedhiolstein CreditCard (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 16 0B B0 C1 02 00 1A
 	debit card (Bank)
