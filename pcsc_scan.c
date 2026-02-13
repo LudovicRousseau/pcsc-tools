@@ -564,6 +564,9 @@ int main(int argc, char *argv[])
 	{
 		/* start spining thread */
 		pthread_create(&spin_pthread, NULL, spin_update, NULL);
+
+		/* let the spinner thread wait on condition */
+		usleep(10 * 1000);
 	}
 
 get_readers:
