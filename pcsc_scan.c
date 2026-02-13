@@ -252,13 +252,6 @@ again:
 	{
 		char c = patterns[spin_state];
 
-		if (should_exit())
-		{
-			SCardCancel(hContext);
-			pthread_mutex_unlock(&spinner_mutex);
-			pthread_exit(NULL);
-		}
-
 		spin_state++;
 		if (spin_state >= (int)sizeof patterns)
 			spin_state = SpinRunning;	/* 0 */
@@ -275,6 +268,13 @@ again:
 
 		pthread_cond_timedwait(&spinner_cond, &spinner_mutex, &ts);
 	} while (spin_state >= SpinRunning);
+
+	if (should_exit())
+	{
+		SCardCancel(hContext);
+		pthread_mutex_unlock(&spinner_mutex);
+		pthread_exit(NULL);
+	}
 
 	goto again;
 
