@@ -80,8 +80,8 @@ do { \
 	if (rv != SCARD_S_SUCCESS) \
 	{ \
 		print_pcsc_error(fct, rv); \
-		(void)SCardReleaseContext(hContext); \
-		return -1; \
+		ret_val = -1; \
+		goto end; \
 	} \
 } while(0)
 
@@ -523,6 +523,7 @@ int main(int argc, char *argv[])
 #else
 	LONG rv;
 #endif
+	int ret_val = EX_OK;
 	SCARD_READERSTATE *rgReaderStates_t = NULL;
 	SCARD_READERSTATE rgReaderStates[1] = { 0, };
 	DWORD dwReaders = 0, dwReadersOld;
@@ -940,6 +941,7 @@ get_readers:
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
 	test_rv("SCardGetStatusChange", rv, hContext);
 
+end:
 	if (! Options.only_list_cards && ! Options.only_list_readers)
 	{
 		pthread_join(spin_pthread, NULL);
@@ -957,5 +959,5 @@ get_readers:
 	if (NULL != rgReaderStates_t)
 		free(rgReaderStates_t);
 
-	return EX_OK;
+	return ret_val;
 }
