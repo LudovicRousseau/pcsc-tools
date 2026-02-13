@@ -234,6 +234,8 @@ static void *spin_update(void *p)
 
 	(void)p;
 
+	pthread_mutex_lock(&spinner_mutex);
+
 again:
 	/* wait until spinning starts */
 	pthread_cond_wait(&spinner_cond, &spinner_mutex);
@@ -253,6 +255,7 @@ again:
 		if (should_exit())
 		{
 			SCardCancel(hContext);
+			pthread_mutex_unlock(&spinner_mutex);
 			pthread_exit(NULL);
 		}
 
