@@ -265,7 +265,7 @@ again:
 		}
 
 		pthread_cond_timedwait(&spinner_cond, &spinner_mutex, &ts);
-	} while (spin_state >= SpinRunning);
+	} while (spin_state >= SpinRunning && ! should_exit());
 
 	if (should_exit())
 	{
