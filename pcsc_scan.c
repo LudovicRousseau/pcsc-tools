@@ -208,6 +208,9 @@ static void spin_start(void)
 	printf("%s", cnl);
 
 	pthread_cond_signal(&spinner_cond);
+
+	/* give the spinner thread some time to ALWAYS start the loop */
+	usleep(10 * 1000);
 }
 
 static void spin_stop(void)
