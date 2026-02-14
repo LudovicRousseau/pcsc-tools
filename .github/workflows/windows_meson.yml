@@ -26,3 +26,9 @@ jobs:
         run: |
           meson setup builddir
           meson compile -C builddir
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          path: builddir/pcsc_scan.exe
+
