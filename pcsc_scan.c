@@ -194,17 +194,11 @@ static bool should_exit(void)
 	return false;
 }
 
-typedef enum
-{
-	SpinStopped = -1,
-	SpinRunning = 0
-} SpinState_t;
-
-_Atomic SpinState_t spin_state = SpinStopped;
+_Atomic bool Spin_is_running = false;
 
 static void spin_start(void)
 {
-	spin_state = SpinRunning;
+	Spin_is_running = true;
 	printf("%s", cnl);
 
 	pthread_cond_signal(&spinner_cond);
@@ -215,7 +209,7 @@ static void spin_start(void)
 
 static void spin_stop(void)
 {
-	spin_state = SpinStopped;
+	Spin_is_running = false;
 
 	/* clean previous output */
 	printf("%s%s                         ", cub2, cub2);
@@ -232,6 +226,7 @@ static void spin_stop(void)
 static void *spin_update(void *p)
 {
 	char patterns[] = {'-', '\\', '|', '/'};
+	int spin_state;
 
 	struct timespec ts;
 	struct timeval tv;
@@ -249,6 +244,8 @@ again:
 		printf("%s", cub3);
 	fflush(stdout);
 
+	spin_state = 0;
+
 	gettimeofday(&tv, NULL);
 	ts.tv_sec = tv.tv_sec;
 	ts.tv_nsec = tv.tv_usec * 1000;
@@ -258,7 +255,7 @@ again:
 
 		spin_state++;
 		if (spin_state >= (int)sizeof patterns)
-			spin_state = SpinRunning;	/* 0 */
+			spin_state = 0;
 		printf("%s%c ", cub2, c);
 		fflush(stdout);
 
@@ -271,7 +268,7 @@ again:
 		}
 
 		pthread_cond_timedwait(&spinner_cond, &spinner_mutex, &ts);
-	} while (spin_state >= SpinRunning && ! should_exit());
+	} while (Spin_is_running && ! should_exit());
 
 	if (should_exit())
 	{
