@@ -11,7 +11,6 @@ project('pcsc-tools', 'c', version : '1.7.4')
 conf_data = configuration_data({
   'PACKAGE_VERSION' : '"' + meson.project_version() + '"',
   'pcsc_dir' : get_option('prefix') / get_option('datadir') / 'pcsc',
-  'ATR_PARSER' : '"' + get_option('ATRparser') + '"',
   })
 
 extra_link_args = []
@@ -26,6 +25,9 @@ else
   pcsc_dep = dependency('libpcsclite')
 endif
 threads_dep = dependency('threads')
+if get_option('ATRparser') != ''
+  conf_data.set('ATR_PARSER', '"' + get_option('ATRparser') + '"')
+endif
 
 executable('pcsc_scan',
   sources : files('pcsc_scan.c'),
