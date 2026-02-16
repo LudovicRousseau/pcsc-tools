@@ -24,7 +24,7 @@ jobs:
 
       - name: compile
         run: |
-          meson setup builddir
+          meson setup builddir -DATRparser=""
           meson compile -C builddir
 
       - name: Upload Artifact
