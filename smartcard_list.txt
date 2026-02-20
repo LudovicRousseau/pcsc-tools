@@ -2639,6 +2639,9 @@
 3B 6B 00 00 00 31 C0 64 08 44 03 77 07 90 00
 	Sber bank VISA with Novacard chip (Bank)
 
+3B 6B 00 00 00 31 C0 64 08 44 03 78 07 90 00
+	Debit card (Bank)
+
 3B 6B 00 00 00 31 C0 64 08 44 03 93 0F 90 00
 	MIR card (Bank)
 
@@ -3201,6 +3204,9 @@
 3B 6D 00 FF 00 31 C1 73 C8 40 00 52 A2 62 00 90 00
 	Platinum American Express (Bank)
 	https://www.americanexpress.com/en-gb/credit-cards/platinum-card/
+
+3B 6D 00 FF 00 31 C1 73 C8 40 00 52 A9 BA 00 90 00
+	American Express (Bank)
 
 3B 6D 00 FF 80 65 53 43 01 0D 06 73 94 21 1B 81 0[15]
 	Giesecke & Devrient CardToken 350 (ICCD)
@@ -7023,6 +7029,10 @@
 	TD Canada Trust Visa
 	TD Canada Trust Access Card (Visa Debit)
 
+3B 88 80 01 00 88 3C 1F 77 81 00 5F 0B
+	eID Luxembourg (eID)
+	https://ctie.gouvernement.lu/en/dossiers/eID/eID.html
+
 3B 88 80 01 00 88 3C 1F 77 81 95 00 C1
 	Polish Passport (passport)
 
@@ -8723,6 +8733,10 @@
 	DKB Visa (Debit) (Bank)
 	https://www.dkb.de/
 
+3B 8F 80 01 41 43 4F 53 2D 49 44 30 30 31 36 2E 30 31 36 2E
+	entrepreneur NFC card for Hale NFC system (Transport)
+	https://www.dmr24.com/hale-nfc-card-unternehmer-gelb-unt-card/ar125885?srsltid=AfmBOoqAWRuYTU5w1kYlJyE7m2hekCRGxtwXi4qELLpeulH9MF2EoOm8
+
 3B 8F 80 01 43 43 31 69 A9 20 00 00 20 20 20 20 20 20 20 FF
 	Reka (Bank)
 	https://reka.ch
@@ -9517,6 +9531,9 @@
 3B 97 96 00 80 73 F7 C1 80 81 05
 	ISBC ESMART Token (Bank)
 	https://cdn.esmart.ru/token/docs/manuals/ESMART%20PKI%20Client%20-%20Administrative%20manual%20(2).pdf
+
+3B 97 96 80 1F 47 80 31 E0 73 FE 21 1B 3F
+	SIM2ROAM US Prepaid SIM Unlimited 5G | 4G High-Speed Data in USA nation-wide (Telecommunication)
 
 3B 97 97 81 71 FE 24 00 77 43 53 4D 01 02 03 00
 	Infineon CIPURSE SAM SLF 9630 (Other)
@@ -12254,6 +12271,9 @@
 3B 9F 96 C0 0A 1F C3 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 DA
 	SIM SFR Pro (French Mobile Operator)
 
+3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1B 65 D0 02 33 15 1F 81 0F FC
+	Partner (Telecommunication)
+
 3B 9F 96 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 1A 13 78 81 0F B0
 	Vodafone Iceland card from Thales / Gemalto (Telecommunication)
 
@@ -12434,6 +12454,9 @@
 
 3B 9F 97 C0 FF 1F C7 80 31 E0 73 FE 21 1B 63 F1 00 AD 83 0F 90 00 2A
 	Gemalto Speed Enhancement 97 (Telecommunication)
+
+3B 9F B6 81 31 FE 8D 00 64 05 FF 04 01 31 C0 73 F7 01 D3 00 90 00 46
+	Deutsche Telekom MyCard 4.0 (PKI)
 
 3B 9F B6 81 B1 FE 5D 1F 47 00 64 04 11 03 01 31 C0 73 B7 01 00 00 90 00 35
 	BOS (Telecommunication)
@@ -16076,6 +16099,10 @@
 	SafeNet AT SC650 V4.0 02/2018 (PKI)
 	https://www.safenetat.com/Solutions/Enterprise-Security/high-assurance-authentication/sc650/
 
+3B FF 18 00 00 81 01 86 8E 00 26 60 00 60 32 33 34 36 35 33 34 36 4E
+	TOKEN2 FIDO2 Security Key (PKI)
+	https://www.token2.com/shop/product/pin-dual-release3-fido2-1-key-with-openpgp-and-otp-and-dual-usb-ports
+
 3B FF 18 00 00 81 01 86 8E 00 26 60 00 60 38 31 36 39 31 35 39 36 44
 	TOKEN2 FIDO2 Security Key(0026) (Other)
 
@@ -16926,11 +16953,18 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 11 07 31 0B 01 10 4A
+	BW-Bank Debit Card (Bank)
+	https://www.bw-bank.de/de/home/privatkunden/girokonto/sparkassen-card-visacard-debitkarte.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 13 09 81 39 01 10 C4
 	girocard contactless (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0B 61 3A 01 10 45
 	Sparkassen Banking Card (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0C E1 69 01 10 91
+	Banking ID-Card (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 24 10 51 08 01 10 7D
 	Chip TAN QR Banking Card Sparkasse/Naspa Germany (Bank)
