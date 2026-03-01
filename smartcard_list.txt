@@ -1515,6 +1515,10 @@
 	Oùra (Transport)
 	https://oura.com
 
+3B 5F 96 00 80 5A 3F 13 30 14 10 01 C6 99 63 21 82 90 00
+	Oura card for Auvergne-Rhone-Alpes region in France. Using for several public transport (Transport)
+	https://www.oura.com/
+
 3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C5 2E 6F D3 82 90 00
 	Mobib basic (Brussels transit card) (contact interface) (Transport)
 	https://www.stib-mivb.be/buy/all-your-journeys-with-mobib
@@ -2625,6 +2629,8 @@
 	Advanzia Credit Card (Master Card gold), Germany (IDK if there is a difference between the german one and the other ones) (Bank)
 	https://mastercard.gebuhrenfrei.com/
 	Italian Intesa Sanpaolo Superflash Prepaid Mastercard (Bank)
+	MasterCard / BNP Paribas Bank Polska S.A. (Poland) (Bank)
+	https://www.bnpparibas.pl/
 
 3B 6B 00 00 00 31 C0 64 08 44 03 76 07 90 00
 	Blu American Express Credit Card (Bank)
@@ -2724,6 +2730,8 @@
 
 3B 6B 00 00 00 31 C1 64 08 60 32 06 0F 90 00
 	Nationwide Building Society VISA Debit card (Bank)
+	MasterCard / Bank Millennium S.A. (Poland) (Bank)
+	https://www.bankmillennium.pl/
 
 3B 6B 00 00 00 31 C1 64 08 60 32 09 0F 90 00
 	Swedbank Estonia ISIC debit card (Bank)
@@ -3057,6 +3065,8 @@
 3B 6D 00 00 00 73 C8 00 13 64 54 37 43 33 00 90 00
 	SEB Debit mastercard (Skandinaviska Enskilda Banken) (Bank)
 	https://seb.se/privat/betala/kort/seb-debit
+	MasterCard / Bank Pekao S.A. (Poland) (Bank)
+	https://www.pekao.com.pl/
 
 3B 6D 00 00 00 73 C8 00 13 64 54 37 43 35 00 90 00
 	ABANCA Mastercard Credit Card (Bank)
@@ -3682,6 +3692,10 @@
 	Sberbank of Russia MIR debit card (Bank)
 	MasterCard bank card by OTP Bank (Hungary)
 	UniCredit Bank in Serbia
+	Visa / Inteligo (Inteligo Financial Services S.A.) (Poland) (Bank)
+	https://inteligo.pl/
+	Visa / Allegro Pay (Poland) (Bank)
+	https://allegro.pl/metody-platnosci/allegro-pay
 
 3B 6E 00 00 80 31 80 66 B0 84 12 01 6E 01 83 00 90 00
 	Barclaycard Platinum VISA
@@ -3695,6 +3709,8 @@
 
 3B 6E 00 00 80 31 80 66 B0 84 16 01 6E 01 83 00 90 00
 	UK "Barclaycard Gold VISA" with RFID
+	MasterCard / Citi Handlowy (old generation) (Poland) (Bank)
+	https://www.citibank.pl/
 
 3B 6E 00 00 80 31 80 66 B0 87 0C 01 6E 01 83 00 90 00
 	Banco Santander TUI/USC R7 - Gemalto Optelio/Desineo D72 (JavaCard)
@@ -6058,6 +6074,9 @@
 	Itaú Visa Volar Debit (Bank)
 	https://www.itau.com.uy/inst/tarjetaVolarDebitoComercios.html
 
+3B 7F 13 00 00 86 65 00 76 16 30 83 00 00 00 00 00 00 90 00
+	THD89 (Bank)
+
 3B 7F 13 00 FF 00 31 C1 73 C8 21 10 64 41 4D 31 37 07 90 00
 	icc (Bank)
 
@@ -6401,6 +6420,8 @@
 
 3B 82 00 55 22
 	GSM-SIM TELE2 Smart (Estonia, prepaid or subscription)
+	SIM card - Plus (Polkomtel Sp. z o.o.) (MCC 260 MNC 01) (Telecommunication)
+	https://www.plus.pl
 
 3B 82 00 86 1E
 	SIM SFR (Telecommunication)
@@ -8224,6 +8245,10 @@
 	Ile de france mobilités (Transport)
 	https://www.iledefrance-mobilites.fr/
 
+3B 8C 80 01 50 C4 2D 71 8D 00 00 00 00 11 81 71 A9
+	Opus card from the Autorité Régionale de Transport Métropolitain (Transport)
+	https://www.artm.quebec/tarification/support-de-titres/opus/
+
 3B 8C 80 01 50 C4 64 D7 12 00 00 00 00 11 81 71 D9
 	Carte Opus (Montréal) (Transport)
 	https://www.carteopus.info/
@@ -8855,6 +8880,9 @@
 	THALES SafeNet IDPrime 3940 Fido (PKI) (PKI)
 	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
 
+3B 8F 80 01 80 31 B0 52 04 05 64 05 A1 00 AC 73 D6 22 C0 77
+	Austrian eCard (HealthCare)
+
 3B 8F 80 01 80 31 B8 65 B0 85 03 00 EF 12 00 F6 82 90 00 4D
 	Finnish electronic identity card (eID)
 	https://vrk.fi/en/electronic-identity-and-certificates
@@ -9158,6 +9186,9 @@
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 F0 11 00 00 00 00 8A
 	Bangkok Metro (MRT)
 	HTC One X Android phone (European edition "endaevoru")
+
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 FF 20 00 00 00 00 B4
+	MIFARE DESFire EV3 4K (Other)
 
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 FF 40 00 00 00 00 D4
 	Nokia N9
@@ -10455,6 +10486,10 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 39 0D 15 00 23
 	Orange Belgium Hello (Telecommunication)
 
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 56 2F 15 00 6E
+	Plus (MCC 260 MNC 01) (Poland) (Telecommunication)
+	https://www.plus.pl/
+
 3B 9E 96 80 31 FE 45 53 43 45 20 38 2E 30 2D 43 31 56 30 0D 0A 6F
 	Serbian Identity Card (eID) (eID)
 
@@ -10472,6 +10507,8 @@
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 10 15 00 47
 	Simplex Wireless SIM card (Telecommunication)
+	Play (MCC 260 MNC 06) (Poland) (Telecommunication)
+	https://www.play.pl/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 11 15 00 46
 	SIM Card for French mobile provider Unyc (Telecommunication)
@@ -10480,6 +10517,10 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 18 15 00 4F
 	Lebara.fr (Telecommunication)
 	https://www.lebara.fr/
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 1B 15 00 4C
+	Orange Polska (MCC 260 MNC 03) (Poland) (Telecommunication)
+	https://www.orange.pl/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 40 1D 15 00 4A
 	Telia Sim card for IoT (Telecommunication)
@@ -10495,6 +10536,8 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 73 15 00 3A
 	Twilio Super SIM (Telecommunication)
 	https://www.twilio.com/iot/super-sim-card
+	O2 Czech Republic (MCC 230 MNC 02) (Czech Republic) (Telecommunication)
+	https://www.o2.cz/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E 90 15 00 D9
 	SMARTY (a subsidiary of Three UK) 4G SIM Card (Telecommunication)
@@ -10505,6 +10548,14 @@
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E AE 15 00 E7
 	kiwisim (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E BD 15 00 F4
+	Plus (Polkomtel Sp. z o.o.) (MCC 260 MNC 01) (Telecommunication)
+	https://www.plus.pl/
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E BF 15 00 F6
+	Orange Polska (MCC 260 MNC 03) (Poland) (Telecommunication)
+	https://www.orange.pl/
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E C0 15 00 89
 	Orange France Postpaid SIM Card (Telecommunication)
@@ -10695,6 +10746,12 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 07 52 51 83 07 90 00 CC
 	sim card RUS Beeline Krasnodar (Telecommunication)
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 07 72 91 83 07 90 00 2C
+	Plus GSM (old generation) (MCC 260 MNC 01) (Poland) (Telecommunication)
+	https://www.plus.pl/
+	Plus (MCC 260 MNC 01) (Poland) (Telecommunication)
+	https://www.plus.pl/
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 40 72 62 83 07 90 00 98
 	sim card RUS Beeline Krasnodar (Telecommunication)
@@ -10951,6 +11008,10 @@
 
 3B 9F 95 80 1F C3 80 31 E0 73 FE 21 1B B3 E2 03 94 83 0F 90 00 6A
 	Sim Card Proximus (Telecommunication)
+
+3B 9F 95 80 1F C6 80 31 A0 73 BE 21 00 67 91 14 01 09 01 01 01 45
+	Plus GSM (old generation) (MCC 260 MNC 01) (Poland) (Telecommunication)
+	https://www.plus.pl/
 
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 15 CA 9C D7 09 20
 	RBC Bank Card (Bank)
@@ -11511,6 +11572,10 @@
 	Freenet SIM Card (Deutsche Telekom, green LTE) (Telecommunication)
 	https://www.freenet-mobilfunk.de/handytarife/green-lte-tarife/
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 3B FE 14 30 05 E6
+	T-Mobile Czech Republic (MCC 230 MNC 01) (Czech Republic) (Telecommunication)
+	https://www.t-mobile.cz/osobni
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 47 16 15 10 01 57
 	Telekom.de (Telecommunication)
 
@@ -11595,6 +11660,10 @@
 	TIM (Italy) 128KB GSM SIM
 	H3G (Italy) UMTS USIM
 	Vodafone (UK) SIM
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 07 72 91 83 07 90 00 2E
+	Play (MCC 260 MNC 06) (old generation) (Poland) (Telecommunication)
+	https://www.play.pl/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 40 72 62 83 07 90 00 9A
 	GSM SIM / LTE UICC card issued by Omnitel, Lithuania (Telecomunications)
@@ -11733,6 +11802,10 @@
 	Orange / Ucom Armenia (Telecommunication)
 	https://www.ucom.am
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 16 02 08 03 02 02 53
+	Orange Polska (MCC 260 MNC 03) (Poland) (Telecommunication)
+	https://www.orange.pl/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 94 16 02 12 01 01 01 4B
 	Airtel India Sim Card (Telecommunication)
 
@@ -11759,6 +11832,10 @@
 	Vodafone SIM card (Czech Republic) (Telecommunication)
 	https://www.vodafone.cz
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 04 01 01 01 01 01 45
+	SIM card - Plus (Polkomtel Sp. z o.o.) (MCC 260 MNC 01) (Telecommunication)
+	https://www.plus.pl
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 04 01 01 03 01 03 45
 	Telekom Romania Mobile Communications (ex Cosmote) (Telecommunication)
 	https://www.telekom.ro/
@@ -11775,6 +11852,8 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 01 01 01 01 45
 	Chunghwa Telecom Prepaid 4G SIM (Telecommunication)
 	https://prepaidsim.twgate.net/index_en.html
+	SIM card - Play (P4 Sp. z o.o.) (MCC 260 MNC 06) (Telecommunication)
+	https://www.play.pl
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 01 02 01 02 45
 	SIM card from the Polish telecom operator "P4" or "Play" (Telecommunication)
@@ -11967,6 +12046,8 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 21 00 82 90 00 26
 	French SIM card from MVNO Phenix Partners, host operator Orange (Telecommunication)
+	Orange Polska (MCC 260 MNC 03) (Poland) (Telecommunication)
+	https://www.orange.pl/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 95 00 82 90 00 92
 	Dish Wireless 5G (Telecommunication)
@@ -12022,6 +12103,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 09 02 0A 81 05 79
 	cellcom israel sim (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 09 03 03 81 05 71
+	Plus (Polkomtel Sp. z o.o.) (MCC 260 MNC 01) (Telecommunication)
+	https://www.plus.pl/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 65 2F 01 09 06 02 81 05 75
 	Indosat SIM Card (Telecommunication)
@@ -12120,6 +12205,9 @@
 
 3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 13 67 67 A0 02 D9 00 00 01 E5
 	Kcell (Telecommunication)
+
+3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 13 67 6F 22 0C 19 00 00 01 A1
+	ispmobile SIM Card (Telecommunication)
 
 3B 9F 96 80 3F C7 00 80 31 E0 73 FE 21 1B 64 07 72 0C 00 82 90 00 98
 	Belgium Orange SIM Card (Telecommunication)
@@ -12363,6 +12451,10 @@
 3B 9F 97 80 1F C6 80 31 E0 73 FE 21 1B 65 CA 01 0E 06 0B 81 05 9E
 	rain Networks - R15 4G Sim Card (Telecommunication)
 	http://www.rain.co.za
+
+3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 07 02 36 01 01 01 73
+	Vodafone Czech Republic (MCC 230 MNC 03) (Czech Republic) (Telecommunication)
+	https://www.vodafone.cz/
 
 3B 9F 97 80 1F C7 80 31 E0 73 FE 21 13 67 98 08 01 12 04 01 04 5B
 	Tmobile Sim card  (Telecommunication)
@@ -13068,6 +13160,10 @@
 3B D2 18 00 81 31 FE 58 CA 60 76
 	CardOS IoT V5.4 (PKI)
 	https://atos.net/wp-content/uploads/2018/11/ct_181127_lpm_cardos_iot_v5-4_fs_en4_web.pdf
+
+3B D2 18 00 81 31 FE 58 CA 64 72
+	Eviden CardOS Security Token (PKI)
+	https://www.cryptovision.com/wp-content/uploads/2024/07/Sheet-CardOS-Token-1.pdf
 
 3B D2 18 00 81 31 FE 58 CB 01 16
 	D-Trust Card 5.1/5.4 (contact based)
@@ -13988,6 +14084,8 @@
 
 3B E6 00 FF 81 31 FE 45 44 49 20 30 32 56 6B
 	VISA credit card (DKB)
+	Visa Electron / Bank Pocztowy S.A. (Poland) (Bank)
+	https://www.pocztowy.pl/indywidualni
 
 3B E6 00 FF 81 31 FE 45 4A 43 4F 50 30 33 07
 	IBM JCOP 30/16
@@ -14068,6 +14166,8 @@
 3B E8 00 00 81 31 FE 45 00 73 C8 40 00 00 90 00 88
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
 	VISA card (Chinatrust Bank (Taiwan), dual-interface card with a Taipei Metro e-purse function)
+	Visa Electron / Bank Pocztowy S.A. (Poland) (Bank)
+	https://www.pocztowy.pl/indywidualni
 
 3B E8 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 .. ..
 	NXP JCOP v2.4.x (see hist bytes for more info)
@@ -14098,6 +14198,8 @@
 	Visa Card - Maximum - Oyak Bank / Turkey
 	VISA, issued by Austrian bank "Erste Bank"
 	VISA card, issued by the Latvian bank "Latvijas Krajbanka"
+	Visa Electron / mBank - BRE Bank SA (old generation) (Poland) (Bank)
+	https://www.mbank.pl/indywidualny/
 
 3B E9 00 00 81 31 C3 45 99 63 74 69 19 99 12 56 10 EC
 	Compunicate Technologies Inc. (Pay TV)
@@ -15711,6 +15813,12 @@
 	Sberbank of Russia MIR debit card (Bank)
 	Swile card
 	https://www.swile.co/fr-fr/swile-card
+	MasterCard / Santander Bank Polska S.A. (Erste Group Bank AG) (Poland) (Bank)
+	https://www.santander.pl/klient-indywidualny
+	MasterCard / Citi Handlowy (Poland) (Bank)
+	https://www.citibank.pl/
+	Visa / Santander Bank Polska S.A. (Erste Group Bank AG) (Poland) (Bank)
+	https://www.santander.pl/klient-indywidualny
 
 3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
 	LOT test card (JavaCard)
@@ -15954,6 +16062,10 @@
 	PNC BUSINESS VISA DEBIT (Bank)
 	https://www.pnc.com/en/small-business/payments-and-processing/payment-cards/pnc-bank-visa-business-debit-card.html
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 34 37 07 90 00
+	Visa / Bank Pekao S.A. (Poland) (Bank)
+	https://www.pekao.com.pl/
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 41 4D 34 48 07 90 00
 	PNC Bank VISA Debit Card (Bank)
 
@@ -16036,6 +16148,10 @@
 3B FF 13 00 FF 81 31 FE 5D 80 25 A0 00 00 00 56 57 44 4B 33 32 30 05 00 3F
 	Datakey DCOS model 320
 
+3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00 95
+	MasterCard / Bank Pekao S.A. (Poland) (Bank)
+	https://www.pekao.com.pl/
+
 3B FF 13 00 FF 91 01 31 FE 21 00 31 C1 73 C8 21 10 64 4D 30 43 4E 07 90 00 94
 	AirPlus MasterCard Commercial (Bank)
 	https://www.airplus.com/us/en/products-solutions/products/corporate-cards/corporate-cards.html
@@ -16071,6 +16187,14 @@
 3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 08 33 99 56 00 00 00 00 AC
 	Austrian Sparkasse ISIC debit card (Mastercard) (eID)
 	https://isic.at/
+
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 09 74 64 33 00 00 00 00 72
+	bank99 debit card (Bank)
+	https://bank99.at/debitkarte
+
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 11 95 71 65 00 00 00 00 C8
+	Easybank Debit card (Bank)
+	https://www.easybank.at/easybank/services/debitkarte
 
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 F4
 	Deutsche Kreditbank Debit (Bank)
@@ -16644,6 +16768,9 @@
 	Platforma Canal+ Polska, cayman card (Pay TV)
 	https://www.flysat.com/canalplus-pl.php
 
+3B FF 95 00 01 50 80 1C 44 4E 41 53 50 34 35 30 20 52 65 76 57 34 30
+	NAGRA Kudelski / CANAL+ Polska (Pay TV)
+
 3B FF 95 00 FF 40 0A 80 31 00 73 1A 21 13 57 4A 50 48 60 31 41 47
 	Vodafone 64 KB SIM with Javacard
 
@@ -16870,6 +16997,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 C0 B9 02 00 27
+	FinTS Online-Banking, VR-Networld-Card, HBCI, "Volksbank im Unterland"  (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 21 08 B0 A9 02 00 7F
 	Debit Card Sparda-Bank Baden-Württemberg eG (Bank)
