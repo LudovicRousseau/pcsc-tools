@@ -823,6 +823,10 @@
 	THC20F17BD blank smartcard (Pay TV)
 	http://tsinghuaic.com/product/product.asp?id=12&bid=8552
 
+3B 1F 96 54 4B 00 50 49 56 04 02 38 38 38 38 38 38 38
+	Token2 T2F2-NFC-Card PIN+ Release3.3 (PKI)
+	https://www.token2.com/shop/product/t2f2-nfc-card-pin-release3
+
 3B 23 00 00 36 41 81
 	Schlumberger Payflex 4k SAM
 
@@ -2035,6 +2039,9 @@
 	Industrial and Commercial Bank of China Savings Card (Bank)
 	http://www.icbc.com.cn/icbc/
 
+3B 67 00 00 86 88 50 42 4F 43 33
+	KCB bank card in kenya (Bank)
+
 3B 67 00 00 9C 10 01 01 03 FF 07
 	Schlumberger Cyberflex Palmera Protect
 
@@ -2781,6 +2788,8 @@
 
 3B 6B 00 00 00 31 C1 64 08 98 62 00 0F 90 00
 	NovaKBM Visa Debit (Bank)
+	MasterCard / VeloBank S.A. (Poland) (Bank)
+	https://www.velobank.pl/
 
 3B 6B 00 00 00 31 C1 64 08 98 62 01 0F 90 00
 	Sodexo Czech Gastro/Multipass (Other)
@@ -2807,6 +2816,8 @@
 3B 6B 00 00 00 31 C1 64 09 64 41 36 0F 90 00
 	VISA Business Folio AS /Norway (Sparebanken Vest) [IDEMIA] (Bank)
 	https://folio.no/
+	MasterCard / Bank Millennium S.A. (Poland) (Bank)
+	https://www.bankmillennium.pl/
 
 3B 6B 00 00 00 31 C1 64 09 78 61 31 0F 90 00
 	Mastercard (Bank)
@@ -5486,6 +5497,9 @@
 3B 7C 11 00 00 47 53 45 42 4C 03 42 48 48 80 01 01
 	French HealthCare (HealthCare)
 
+3B 7C 11 00 00 81 00 34 F0 20 30 02 12 02 00 14 0C
+	CIU9872B_01 V1.0 (Bank)
+
 3B 7C 13 00 00 80 64 11 34 01 48 73 F7 41 C0 81 07
 	universal electronic card UEC Rissa (eID)
 	http://www.uecard.ru/for-citizens/
@@ -6494,6 +6508,9 @@
 
 3B 83 80 01 41 10 09 5A
 	Card RFID ACS (Other)
+
+3B 83 80 01 80 71 F7 04
+	Navy (Other)
 
 3B 83 80 01 81 02 80 01
 	Mifare DESFire EV1 2K (Other)
@@ -9387,6 +9404,9 @@
 3B 8F 81 11 FC 49 52 44 45 54 4F 20 41 43 53 20 56 35 2E 33 CD
 	Ziggo Irdeto (Pay TV)
 
+3B 90 11 00
+	visa card (Bank)
+
 3B 90 16 01 87
 	BIFIT USB-Token iBank2key
 
@@ -10026,6 +10046,8 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 04 0D 00 67
 	3G Yoigo SIM Card from Spain
+	Red Bull MOBILE (old generation) (MCC 260 MNC 06) (Poland) (Telecommunication)
+	https://www.redbullmobile.pl/
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 01 6C 39 0D 00 5A
 	Andrews & Arnold (A&A) 3G mobile data SIM - using the "Three" network in the UK (Telecommunication)
@@ -10559,6 +10581,9 @@
 
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E C0 15 00 89
 	Orange France Postpaid SIM Card (Telecommunication)
+
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E D4 15 00 9D
+	MTN CI (Telecommunication)
 
 3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
 	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
@@ -12185,6 +12210,10 @@
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 28 65 39
 	EIOTCLUB Physical eSIM Card (Telecommunication)
 	https://www.eiotclub.com/products/physical-esim-card
+
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 34 65 25
+	sysmoEUICC1-C2G (Telecommunication)
+	https://shop.sysmocom.de/sysmoEUICC1-eUICC-for-consumer-eSIM-RSP/sysmoEUICC1-C2G
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 35 6F 2E
 	9esim (Telecommunication)
@@ -14399,6 +14428,10 @@
 3B EF 00 00 81 31 20 49 00 5C 50 43 54 10 27 F8 D2 76 00 00 38 33 00 4D
 	Infineon Technologies PC/SC Compliance Test Card V1.0
 
+3B EF 00 00 81 31 40 69 00 5C 50 43 41 16 FC C7 D2 76 00 00 38 33 00 FA
+	SICRYPT Secure Access S26381-F252-V1 (PKI)
+	https://www.eftlab.com/knowledge-base/complete-list-of-atrs
+
 3B EF 00 00 81 31 40 69 00 5C 50 43 53 35 C5 3A D2 76 00 00 38 33 00 0F
 	Siemens Nixdorf Sicrypt
 
@@ -14455,6 +14488,9 @@
 
 3B EF 00 00 81 31 FE 65 00 5C 50 43 53 D1 91 47 D2 76 00 00 38 33 00 70
 	Siemens/Infineon Sicrypt S26381-F252-V1 GS:03
+
+3B EF 00 00 81 31 FE 65 54 54 4B 01 43 53 36 CD 01 00 53 09 3B 33 00 36
+	SICRYPT Payphone Security Module (Other)
 
 3B EF 00 00 81 31 FE 67 00 5C 49 43 4D DB C9 7E D2 76 00 00 38 33 00 1E
 	Infineon SICRYPT CardModule Card
@@ -17018,6 +17054,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 07 09 E0 F9 02 00 61
 	Sparkasse Ingolstadt (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 11 07 C0 D4 02 00 74
+	HBCI Sparkasse (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 12 08 A0 EB 02 00 27
 	Girocard (Bank)
 
@@ -17080,6 +17119,9 @@
 	DKB girocard (DebitCard of Deutsche Kredit Bank) (Bank)
 	https://www.dkb.de/fragen-antworten/was-ist-die-girokarte-und-was-kostet-sie
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 03 0B A1 24 01 10 EB
+	German Debit Card (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 08 08 91 4F 01 10 B8
 	Debit card (Germany): ec-cash, GeldKarte(EUR), Visa, Cirrus (Bank)
 
@@ -17102,6 +17144,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 25 09 61 5B 01 10 06
 	banking card from S-Payment (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 25 09 71 55 01 10 18
+	Debit card (Germany): ec-cash, GeldKarte(EUR), Maestro, Cirrus, ... (Bank)
 
 3B FF 96 00 FF 81 31 FE 45 65 63 06 07 52 02 50 00 10 30 25 41 1A 06 40 82
 	DKB (Deutsche Kreditbank) girocard (V-PAY, GeldKarte) (Bank)
