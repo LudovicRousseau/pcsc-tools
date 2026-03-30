@@ -80,6 +80,9 @@
 3B 02 14 51
 	8A (Bank)
 
+3B 02 14 54
+	sber bank (Bank)
+
 3B 02 15 40
 	MasterCard  (Bank)
 
@@ -5046,6 +5049,10 @@
 	Belgian MOBIB Card (Transport)
 	https://belgianmobilitycompany.be/en/solutions/ticketing/mobib
 
+3B 6F 00 00 80 5A 50 2F C4 15 32 01 7F 5E EE 1C 82 90 00
+	Belgian MOBIB card (Transport)
+	https://www.letec.be/View/The_MOBIB_card/235
+
 3B 6F 00 00 80 66 45 46 01 38 18 03 53 02 31 10 82 90 00
 	Fábrica Nacional de Moneda y Timbre FNMT WG10
 	http://www.fnmt.es/es/html/tage/fichaTarjeta/fp1_ta_01.asp
@@ -5265,6 +5272,10 @@
 
 3B 78 13 00 00 72 75 74 6F 6B 65 6E 6D
 	Aktiv Rutoken Micron
+
+3B 78 13 00 00 80 31 C0 72 F7 41 81 07
+	Pochta Bank Russia (MIR) (Bank)
+	https://www.pochtabank.ru/
 
 3B 78 14 00 00 00 73 C8 40 00 00
 	e-tazkira (eID)
@@ -9541,6 +9552,10 @@
 3B 97 11 80 1F 42 80 31 A0 73 BE 21 00 A6
 	ETSI 102 230 Test case 5.2.5.3. Comprion IT3 SIM emulator (Telecommunication)
 
+3B 97 11 81 21 75 69 53 68 69 65 6C 64 05
+	SwissBit iShield Key Pro (Other)
+	https://www.swissbit.com/en/products/ishield-key/
+
 3B 97 11 C0 FF B1 FE 35 1F 83 A5 05 01 01 02 A3 01 5F
 	digital chronotachygraphe card: conducteur/driver, entreprise, contrôleur/controller et atelier/workshop, 2006-2010
 	manufactured by Imprimerie Nationale, distributed by Chronoservices
@@ -9637,6 +9652,10 @@
 
 3B 98 96 00 80 31 C0 72 F7 41 81 07
 	Aktiv Rutoken Magistra
+
+3B 98 96 00 93 94 03 03 09 01 01 01
+	Plus GSM (old generation) (MCC 260 MNC 01) (Poland) (Telecommunication) (Telecommunication)
+	https://www.plus.pl/
 
 3B 98 96 00 93 94 03 07 03 04 04 04
 	SIM card
@@ -10131,6 +10150,10 @@
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 8B 12 00 8F
 	Ufone (SIM Card) (Telecommunication)
 	https://ufone.com/Consumer-Manual/668-SIM-Information-System/
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 8D 11 00 8A
+	Play (MCC 260 MNC 06) (Poland) (Telecommunication)
+	https://www.play.pl/
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 17 C7 11 00 C0
 	3 UK SIM card (Telecommunication)
@@ -10783,6 +10806,8 @@
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 40 82 92 83 07 90 00 98
 	PrixTel (Telecommunication)
+	Plush - Plus (MCC 260 MNC 01) (Poland) (Telecommunication)
+	https://www.plushbezlimitu.pl/
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 11 63 41 21 92 83 07 90 00 3A
 	Beeline Armenia / Telecomarmenia (Telecommunication)
@@ -10836,6 +10861,9 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 13 67 61 21 0D 10 00 00 70 F7
 	Celcom XPAX (Telecommunication)
 	https://www.celcom.com.my/personal/prepaid
+
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 01 01 F0 0B
+	VTC (Telecommunication)
 
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 04 01 F0 0E
 	Karabakh Telecom - cell operator of Republic of Artsakh (1992-2023) (Telecommunication)
@@ -11456,6 +11484,9 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 33 05 68 8C
 	Somtel SIM (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 34 18 83 7D
+	SIM card (Telecommunication)
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
 	Softbank (C2) USIM card (Telecommunication)
 
@@ -11696,10 +11727,16 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 40 82 91 83 07 90 00 99
 	Chunghwa Telecom (Taiwan) 3G/4G PrePaid card
 	https://www.twgate.net/prepaidcard/product_en.html
+	Play (MCC 260 MNC 06) (old generation) (Poland) (Telecommunication)
+	https://www.play.pl/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 41 66 01 83 07 90 00 EC
 	Magti Georgia (Telecommunication)
 	https://magticom.ge
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 63 44 4D 21 83 07 90 00 E2
+	Play (MCC 260 MNC 06) (old generation) (Poland) (Telecommunication)
+	https://www.play.pl/
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 11 65 66 74 0E 10 13 91 00 56
 	TestCard For Agilent 8960 (Telecommunication)
@@ -13240,6 +13277,7 @@
 3B D5 18 FF 81 91 FE 1F C3 80 73 C8 21 10 0A
 	ComSign digital signature card (eID)
 	https://www.comsign.co.uk/
+	NXP crypto card (PKI)
 
 3B D5 18 FF 81 91 FE 1F C3 80 73 C8 21 13 09
 	Athena IDProtect Key (v2)
@@ -13386,6 +13424,9 @@
 3B D9 95 00 00 4D 45 16 00 54 01 00 90 00
 	MTS Ukraine (Telecommunication)
 	http://www.mts.ua/
+
+3B D9 96 00 81 71 20 4D 00 53 4C 43 4F 53 20 54 3D 31 EA
+	Dongwoon Anatech DSF310 Fingerprint Card with FIDO2 (JavaCard)
 
 3B D9 96 FF 81 31 FE 45 43 52 45 53 43 45 4E 44 4F FF
 	HID Global Crescendo JCOP 21 v2.4.1 R2 64K (PKI)
@@ -15420,6 +15461,10 @@
 	National Health Insurance of Taiwan (HealthCare)
 	https://www.nhi.gov.tw/
 
+3B FA 18 00 00 91 01 31 FE 45 20 30 50 49 56 4B 45 59 37 30 F7
+	Taglio PIVKey c980 (Other)
+	https://pivkey.zendesk.com/hc/en-us/articles/39807816451469-Personalizing-a-Taglio-PIV-Card-using-OpenSC-and-OpenSSL
+
 3B FA 18 00 00 91 01 31 FE 45 4A 33 52 31 38 30 2D 32 35 35 F5
 	Cardlogix J3R180 NXP JCOP 4 Java Card 3.0.5 Classic Dual Interface (JavaCard)
 	https://www.cardlogix.com/product/nxp-jcop-4-java-card-3-0-5-classic/
@@ -15735,6 +15780,10 @@
 3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 A3 7B 00 90 00
 	Payoneer Card - USD Currency (Bank)
 	https://payoneer.custhelp.com/app/answers/detail/a_id/18226/~/account-with-card---faq
+
+3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 B9 69 00 90 00
+	Chase Sapphire Preferred Credit Card (Bank)
+	https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred
 
 3B FD 13 00 FF 10 00 00 31 C1 73 C8 40 00 52 B9 79 00 90 00
 	AMEX (Bank)
@@ -16239,6 +16288,8 @@
 3B FF 13 00 FF 91 81 31 FE 41 41 43 4F 53 20 47 69 75 6C 69 61 20 4C 63 36 B5
 	revolut debit visa (Bank)
 	https://www.revolut.com/
+	MasterCard / Alior Bank SA (Poland) (Bank)
+	https://www.aliorbank.pl/
 
 3B FF 13 00 FF 91 81 31 FE 41 45 50 41 00 00 00 01 03 40 99 17 00 00 00 00 15
 	Debit Bank-Card (Bank)
