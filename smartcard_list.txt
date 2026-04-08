@@ -7370,6 +7370,9 @@
 	TCOS 3.0 release 2 on Philips P5CD080 (PKI)
 	https://www.digchip.com/datasheets/parts/datasheet/1019/P5CD080.php
 
+3B 89 80 01 00 64 05 FF 04 01 00 90 00 03
+	Deutsche Telekom MyCard 4.0 Contactless (PKI)
+
 3B 89 80 01 02 4D 4B 4D 57 4B 53 4B 54 11
 	Polish National ID (eID)
 	https://www.gov.pl/web/e-dowod/
@@ -7388,6 +7391,10 @@
 
 3B 89 80 01 41 43 4F 53 4A 76 32 30 35 1D
 	ACOSJ dual interface Java card 95K (JavaCard)
+
+3B 89 80 01 41 43 53 20 41 46 44 30 32 38
+	ACS PocketKey NFC (eID)
+	https://www.acs.com.hk/en/products/569/pocketkey-fido%C2%AE-certified-usb-security-key/
 
 3B 89 80 01 43 32 33 30 30 2D 4B 45 59 30
 	HID® Crescendo® Key (PKI)
@@ -7882,6 +7889,10 @@
 	Italian Electronic Contactless Identity Card v. 3.0 (CIE 3.0) (eID)
 	https://www.cartaidentita.interno.gov.it/
 
+3B 8B 80 01 80 73 84 21 E0 55 69 78 54 00 00 AC
+	National Identity Card of Greece (eID) (eID)
+	https://en.wikipedia.org/wiki/Greek_identity_card
+
 3B 8B 80 01 80 F9 A0 00 00 03 08 00 00 10 00 C8
 	Probably the same as "JCOP3 SecID P60 CS (JavaCard)" but mated with a contactless Identiv reader (JavaCard)
 
@@ -8143,6 +8154,10 @@
 
 3B 8C 80 01 50 7A A4 40 07 23 18 01 00 77 81 97 9F
 	Indonesian Driver License
+
+3B 8C 80 01 50 7C FC CD 4F 11 00 00 11 33 81 A3 4E
+	Bologna T>Per BOOST Travel Card (Transport)
+	https://www.tper.it/boost
 
 3B 8C 80 01 50 7E 00 71 D2 00 00 00 00 00 71 71 80
 	Unica (= Just one) joined train and public transport card for Italian region Emilia Romagna (evolution of MiMuovo) (Transport)
@@ -8699,6 +8714,9 @@
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 48 07 90 00 F0
 	Consorsbank VISA debit card  (Bank)
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 44 30 43 4E 07 90 00 FE
+	Discover Bank Debit Card Contactless (Bank)
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 47 4D 31 36 00 90 00 8D
 	Mastercard Debit card issued by China Construction Bank (Contactless) (Bank)
@@ -9716,6 +9734,10 @@
 
 3B 9A 94 00 92 02 90 93 11 00 01 34 02 00
 	Orange Spain (Telecommunication)
+
+3B 9A 95 00 53 54 4D 33 32 57 42 41 53 43
+	SimOverlay (JavaCard)
+	Airtel (Telecommunication)
 
 3B 9A 96 00 92 01 36 93 17 00 02 04 03 00
 	GSM-SIM EMT "Simpel" (prepaid, Estonia)
@@ -12600,6 +12622,9 @@
 	Verizon 5G SIM Card (Telecommunication)
 	https://www.verizon.com/
 
+3B 9F 97 C0 0A 3F C6 A0 80 31 E0 73 FE 21 1F 65 D0 02 33 15 0E 81 0F 68
+	Gemalto SIM (Telecommunication)
+
 3B 9F 97 C0 0A 3F C7 82 80 31 E0 73 FE 21 1F 65 D0 02 1A 14 A2 81 0F CF
 	FIDO2 Applet installed on a javacard 3.0.1 card (JavaCard)
 
@@ -13305,6 +13330,10 @@
 3B D5 96 FF 81 91 FE 1F C3 43 32 33 30 30 CC
 	HID Global - Crescendo C2300 (PKI)
 	https://www.hidglobal.com/products/cards-and-credentials/crescendo/c2300
+
+3B D5 96 FF 81 91 FE 1F C3 43 34 30 30 30 C9
+	HID Crescendo 4000 (eID)
+	https://www.hidglobal.com/documents/hid-crescendo-card-4000-series-datasheet
 
 3B D6 18 00 80 B1 80 6D 1F 03 80 51 00 61 10 30 9E
 	Atmel/Athena T0 PC/SC Compliance Test Card No. 1
@@ -15172,6 +15201,9 @@
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 02 A0 C9
 	OnePay Debit (Bank)
 
+3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 42 11 38
+	Debit card (Bank)
+
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 42 1F 36
 	Infineon SLJ26P (JavaCard)
 
@@ -16159,6 +16191,9 @@
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 42 30 43 4E 07 90 00
 	Unicredit debit Card MasterCard (Italy) (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 44 30 43 4E 07 90 00
+	Discover Bank Debit Card (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 44 4D 33 30 07 90 00
 	NSPK MIR (Bank)
@@ -17182,6 +17217,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 13 09 81 39 01 10 C4
 	girocard contactless (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 08 41 57 01 10 0B
+	German HBCI Bank Card (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0B 61 3A 01 10 45
 	Sparkassen Banking Card (Bank)
