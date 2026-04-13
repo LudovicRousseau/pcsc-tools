@@ -1,5 +1,6 @@
 EXTRA_DIST = \
 	fr.po \
+	ka.po \
 	ru.po \
 	PACKAGE \
 	pcsc-tools.pot \

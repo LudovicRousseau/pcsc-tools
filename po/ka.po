@@ -1,0 +1,351 @@
+# Georgian translation for pcsc-tools.
+# Copyright (C) 2026 Ludovic Rousseau
+# This file is distributed under the same license as the pcsc-tools package.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pcsc-tools\n"
+"Report-Msgid-Bugs-To: https://github.com/LudovicRousseau/pcsc-tools/issues\n"
+"POT-Creation-Date: 2023-04-11 21:56+0200\n"
+"PO-Revision-Date: 2026-04-13 07:43+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.9\n"
+
+#: ../gscriptor:68
+msgid "Wrap lines"
+msgstr "ხაზების გადატანა"
+
+#: ../gscriptor:69
+msgid "Run"
+msgstr "გაშვება"
+
+#: ../gscriptor:140
+msgid "Script"
+msgstr "სკრიპტი"
+
+#: ../gscriptor:141
+msgid "Result"
+msgstr "შედეგი"
+
+#: ../gscriptor:193
+msgid "_File"
+msgstr "_ფაილი"
+
+#: ../gscriptor:194
+msgid "_New"
+msgstr "_ახალი"
+
+#: ../gscriptor:194
+msgid "Create a new file"
+msgstr "ახალი ფაილის შექმნა"
+
+#: ../gscriptor:195
+msgid "_Open"
+msgstr "_გახსნა"
+
+#: ../gscriptor:195
+msgid "Open a file"
+msgstr "ფაილის გახსნა"
+
+#: ../gscriptor:196
+msgid "_Save"
+msgstr "_შენახვა"
+
+#: ../gscriptor:196
+msgid "Save current file"
+msgstr "მიმდინარე ფაილის შენახვა"
+
+#: ../gscriptor:197
+msgid "Save _As..."
+msgstr "შენახვა, _როგორც..."
+
+#: ../gscriptor:197
+msgid "Save to a file"
+msgstr "ფაილში შენახვა"
+
+#: ../gscriptor:198
+msgid "_Quit"
+msgstr "გასვ_ლა"
+
+#: ../gscriptor:198
+msgid "Quit"
+msgstr "გასვლა"
+
+#: ../gscriptor:199
+msgid "R_eader"
+msgstr "წამკით_ხველი"
+
+#: ../gscriptor:200
+msgid "_Connect"
+msgstr "_დაკავშირება"
+
+#: ../gscriptor:200
+msgid "Connect to the current Reader"
+msgstr "შეაერთეთ მიმდინარე წამკითხველი"
+
+#: ../gscriptor:201
+msgid "Reco_nnect"
+msgstr "თავიდა_ნ დაკავშირება"
+
+#: ../gscriptor:201
+msgid "Reconnect to the current Reader"
+msgstr "თავიდან დაკავშირება მიმდინარე წამკითხველთან"
+
+#: ../gscriptor:202
+msgid "_Disconnect"
+msgstr "_გათიშვა"
+
+#: ../gscriptor:202
+msgid "Disconnect from the current Reader"
+msgstr "გათიშვა მიმდინარე წამკითხველიდან"
+
+#: ../gscriptor:203
+msgid "_Status"
+msgstr "_სტატუსი"
+
+#: ../gscriptor:203
+msgid "Display the current Reader's status"
+msgstr "მიმდინარე წამკითხველის სტატუსის ჩვენება"
+
+#: ../gscriptor:204
+msgid "Ru_n"
+msgstr "_გაშვება"
+
+#: ../gscriptor:205
+msgid "_Run Script"
+msgstr "სკ_რიპტის გაშვება"
+
+#: ../gscriptor:205
+msgid "Run Script on current Reader"
+msgstr "სკრიპტის გაშვება მიმდინარე წამკითხველზე"
+
+#: ../gscriptor:206
+msgid "C_lear Results"
+msgstr "შედეგების გას_უფთავება"
+
+#: ../gscriptor:206
+msgid "Clear the Results Area"
+msgstr "შედეგების არეს გასუფთავება"
+
+#: ../gscriptor:207
+msgid "_Settings"
+msgstr "მორგება"
+
+#: ../gscriptor:208 ../gscriptor:272
+msgid "Reader"
+msgstr "მკითხველი"
+
+#: ../gscriptor:208
+msgid "Select the Reader"
+msgstr "აირჩიეთ წამკითხველი"
+
+#: ../gscriptor:209
+msgid "_Help"
+msgstr "_დახმარება"
+
+#: ../gscriptor:210
+msgid "_About"
+msgstr "_შესახებ"
+
+#: ../gscriptor:210
+msgid "About"
+msgstr "შესახებ"
+
+#: ../gscriptor:249
+msgid "welcome to the "
+msgstr "მოგესალმებათ "
+
+#: ../gscriptor:249
+msgid " application! - not connected"
+msgstr " აპლიკაცია! - დაკავშირებული არაა"
+
+#: ../gscriptor:255
+msgid "Can not open"
+msgstr "გახსნა შეუძლებელია"
+
+#: ../gscriptor:274
+msgid "Protocol"
+msgstr "პროტოკოლი"
+
+#: ../gscriptor:349
+msgid "New configuration !"
+msgstr "ახალი კონფიგურაცია !"
+
+#: ../gscriptor:354
+msgid "Preserving old configuration"
+msgstr "წინა კონფიგურაციის შენარჩუნება"
+
+#: ../gscriptor:431 ../gscriptor:495
+msgid ""
+"The current work will be lost!\n"
+"Are you sure you want to continue?"
+msgstr ""
+"ამჟამინდელი ნამუშევარი დაიკარგება!\n"
+"მართლა გნებავთ გაგრძელება?"
+
+#: ../gscriptor:452 ../gscriptor:475
+msgid "Successfully saved script to"
+msgstr "სკრიპტის შენახვა წარმატებულია ფაილში"
+
+#: ../gscriptor:456 ../gscriptor:470 ../gscriptor:479 ../gscriptor:514
+#: ../gscriptor:519
+msgid "Can't open"
+msgstr "ვერ გავხსენი"
+
+#: ../gscriptor:531
+msgid "Action Cancelled..."
+msgstr "ქმედება გაუქმდა..."
+
+#: ../gscriptor:605
+msgid ""
+"The card is already connected...\n"
+"Do you want to reconnect?"
+msgstr ""
+"ბარათი უკვე დაკავშირებულია...\n"
+"გნებავთ თავიდან დაკავშირება?"
+
+#: ../gscriptor:615 ../gscriptor:633
+msgid "Connected to"
+msgstr "დაკავშირებულია"
+
+#: ../gscriptor:617
+msgid "Can not connect to the reader named"
+msgstr "ვერ დავუკავშირდი წამკითხველს სახელით"
+
+#: ../gscriptor:623
+msgid ""
+"No default reader has been configured.\n"
+"Please make sure you have configured a reader first."
+msgstr ""
+"ნაგულისხმევი წამკითხველი მორგებული არაა\n"
+"დარწმუნდით, რომ წამკითხველის მორგება დასრულებულია."
+
+#: ../gscriptor:635
+msgid "Can not reconnect to the reader named"
+msgstr "ვერ დავუკავშირდი თავიდან წამკითხველს სახელით"
+
+#: ../gscriptor:647
+msgid ""
+"The Chipcard::PCSC:Card object is not connected...\n"
+" Do you want to connect?"
+msgstr ""
+"ობიექტი Chipcard::PCSC:Card დაკავშირებული არაა...\n"
+" გნებავთ დაკავშირება?"
+
+#: ../gscriptor:661
+msgid "Can not disconnect from the reader named"
+msgstr "ვერ გავთიშე კავშირი წამკითხველთან სახელით"
+
+#: ../gscriptor:665
+msgid "not connected"
+msgstr "არაა დაკავშირებული"
+
+#: ../gscriptor:668
+msgid "The Chipcard::PCSC::Card object is not connected!"
+msgstr "ობიექტი Chipcard::PCSC:Card დაკავშირებული არაა!"
+
+#: ../gscriptor:733
+msgid "Can not retrieve reader status:\n"
+msgstr "წამკითხველის სტატუსის მიღება შეუძლებელია:\n"
+
+#: ../gscriptor:743
+msgid ""
+"The reader is not connected...\n"
+" Do you want to connect?"
+msgstr ""
+"წამკითხველი დაკავშირებული არაა...\n"
+" გნებავთ დაკავშირება?"
+
+#: ../gscriptor:765
+msgid ""
+"Beginning script execution...\n"
+"\n"
+msgstr ""
+"სკრიპტის შესრულების დასაწყისი...\n"
+"\n"
+
+#: ../gscriptor:812
+msgid "Sending: "
+msgstr "იგზავნება: "
+
+#: ../gscriptor:818
+msgid "Received: "
+msgstr "მიღებულია: "
+
+#: ../gscriptor:822
+msgid "Transmit failed:"
+msgstr "გადაცემა ჩავარდა:"
+
+#: ../gscriptor:822
+msgid "Stopping script execution"
+msgstr "სკრიპტის შესრულების გაჩერება"
+
+#: ../gscriptor:825
+msgid ""
+"\n"
+"Errors During Script Execution:"
+msgstr ""
+"\n"
+"შეცდომები სკრიპტის შესრულებისას:"
+
+#: ../gscriptor:829
+msgid "Script was executed without error...\n"
+msgstr "სკრიპტი შესრულდა შეცდომის გარეშე...\n"
+
+#: ../gscriptor:836
+msgid ""
+"The Chipcard::PCSC::Card object is not connected!\n"
+"Do you want to connect?"
+msgstr ""
+"ობიექტი Chipcard::PCSC:Card დაკავშირებული არაა!\n"
+" გნებავთ დაკავშირება?"
+
+#: ../scriptor:47
+msgid "Usage:"
+msgstr "გამოყენება:"
+
+#: ../scriptor:47
+msgid "[-h] [-r reader] [-p protocol] [-u] [file]\n"
+msgstr "[-h] [-r წამკითხველი] [-p პროტოკოლი] [-u] [ფაილი]\n"
+
+#: ../scriptor:48
+msgid "          -h: this help\n"
+msgstr "          -h: ეს დახმარება\n"
+
+#: ../scriptor:49
+msgid "   -r reader: specify to use the PCSC smart card reader named reader\n"
+msgstr "   -r reader: მითითება, გამოყენებული იქნას PCSC ჭკვიანი ბარათის წამკითხველი სახელით reader\n"
+
+#: ../scriptor:50
+msgid "              By defaults the first one found is used so you\n"
+msgstr "              ნაგულისხმევად გამოიყენება პირველი აღმოჩენილი. ასე რომ, თქვენ\n"
+
+#: ../scriptor:51
+msgid "              don't have to specify anything if you just have\n"
+msgstr "              არაფრის მითითება არ გჭირდებათ, თუ გაქვთ, მხოლოდ,\n"
+
+#: ../scriptor:52
+msgid "              one reader\n"
+msgstr "              ერთი წამკითხველი\n"
+
+#: ../scriptor:53
+msgid " -p protocol: protocol to use among T=0 and T=1.\n"
+msgstr " -p protocol: გამოყენებული პროტოკოლი T=0-სა და T=1-ს შორის.\n"
+
+#: ../scriptor:54
+msgid "              Default is to let pcsc-lite choose the protocol\n"
+msgstr "              ნაგულისხმევად pcsc-lite თვითონ ირჩევს პროტოკოლს\n"
+
+#: ../scriptor:55
+msgid "          -u: use unbuffered stdout\n"
+msgstr "          -u: უბუფერო stdout-ის გამოყენება\n"
+
+#: ../scriptor:56
+msgid "        file: file containing APDUs\n"
+msgstr "        ფაილი: APDU-ების შემცველი ფაილი\n"
