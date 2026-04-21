@@ -5758,6 +5758,9 @@
 3B 7E 13 00 00 00 6A 11 63 54 05 48 .. .. .. 01 22 90 00
 	Sagem Windows for smart cards
 
+3B 7E 13 00 00 86 9B 11 02 01 01 80 81 44 4D 10 87 00 06
+	ICBC Bank Card (Bank)
+
 3B 7E 18 00 00 80 58 4D 43 33 32 20 42 49 4F 83 05 90 00
 	Person Authentication Service Card (PKI)
 	https://igc2.finances.gouv.fr/#igc1
@@ -7463,6 +7466,9 @@
 	VGN eTicket (regional public transport for Nuremberg, Germany) (Transport)
 	https://www.vgn.de/
 
+3B 89 80 01 4D 54 43 4F 53 73 02 05 05 3F
+	BG ID CARD (passport)
+
 3B 89 80 01 50 56 5F 4A 33 41 30 34 30 5D
 	Java Card J3A040 (JavaCard)
 	http://smartcardsource.com/contents/en-ca/d9_JCOP-NXP-cards.html
@@ -7831,6 +7837,10 @@
 3B 8B 80 01 20 90 00 00 00 00 00 99 5D 58 30 16
 	Northeastern University (China) student ID card (Other)
 	http://ecard.neu.edu.cn/
+
+3B 8B 80 01 20 90 00 00 00 00 00 B0 AC 28 42 CC
+	Fudan Microsystem FM1208 (Other)
+	https://www.fmsh.com/38bd06c9-d430-70e2-eb5c-393c198068a4/
 
 3B 8B 80 01 20 90 00 00 00 00 00 C3 A4 CC 09 18
 	ID card (Other)
@@ -8654,6 +8664,9 @@
 
 3B 8F 01 41 56 42 00 00 00 00 00 00 00 00 01 00 00 00 DA
 	AVEST-SYSTEMS AvBign (PKI)
+
+3B 8F 01 41 56 4B 00 00 00 00 00 00 00 00 04 00 00 00 D6
+	AVEST KEY token (PKI)
 
 3B 8F 01 45 46 4B 00 00 00 00 00 00 00 00 04 00 00 00 C2
 	EfitKey (PKI)
@@ -11260,6 +11273,9 @@
 	MTS SIM card (Russia) (Telecommunication)
 	https://www.mts.ru
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 64 50 02 41 00 82 90 00 D1
+	AT&T mobile (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 9F 01 09 02 04 81 05 C4
 	2degrees mobile SIM card
 	http://www.2degreesmobile.co.nz/
@@ -13304,6 +13320,9 @@
 	https://www.comsign.co.uk/
 	NXP crypto card (PKI)
 
+3B D5 18 FF 81 91 FE 1F C3 80 73 C8 21 10 0B
+	NXP JCOP4 J3R180 SECID 4K RSA OBKG ECC (PKI)
+
 3B D5 18 FF 81 91 FE 1F C3 80 73 C8 21 13 09
 	Athena IDProtect Key (v2)
 	http://www.athena-scs.com/product.asp?pid=33
@@ -14028,6 +14047,10 @@
 	CardLogix Credensys-J Contacted Java Card 2.2.1 Global Platform 2.1.1 (Atmel AT90SC12872RCFT)
 	(bank)
 
+3B DF 96 00 80 31 FE 44 00 31 B8 64 05 24 EC C1 73 94 01 C0 05 90 00 10
+	Taxi Driver Card (Transport)
+	https://www.ilent.nl/onderwerpen/taxi/arbeids--en-rusttijden-registreren-taxi/boordcomputer-taxi-bct
+
 3B DF 96 00 80 31 FE 45 00 31 B8 64 04 1F EC C1 73 94 01 80 82 90 00 EC
 	Ministry of Interior - France "Agent Card"
 	(Carte Agent du Ministère de l'Intérieur Français)
@@ -14410,6 +14433,9 @@
 	Junta de Extremadura (Spain) public healthcare card (HealthCare)
 	https://saludextremadura.ses.es/web/preguntas-frecuentes
 
+3B EB 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 31 2E 30 00 D0
+	Payango VISA by BW Bank (Bank)
+
 3B EB 00 00 81 31 FE 45 43 6F 6D 62 4F 53 20 31 2E 30 15 C5
 	Reka Card - Swiss Holiday Member Card (Loyalty)
 	https://reka.ch/en/rekamoney/privatepersons/reka-card/Seiten/reka-card.aspx?lang=en
@@ -14501,6 +14527,10 @@
 3B EF 00 00 81 31 40 69 00 5C 50 43 41 16 FC C7 D2 76 00 00 38 33 00 FA
 	SICRYPT Secure Access S26381-F252-V1 (PKI)
 	https://www.eftlab.com/knowledge-base/complete-list-of-atrs
+
+3B EF 00 00 81 31 40 69 00 5C 50 43 53 29 96 1E D2 76 00 00 38 33 00 64
+	Siemens Nixdorf Sicrypt Card
+	https://www.sourcesecurity.com/infineon-sicrypt-csp.1-technical-details.html
 
 3B EF 00 00 81 31 40 69 00 5C 50 43 53 35 C5 3A D2 76 00 00 38 33 00 0F
 	Siemens Nixdorf Sicrypt
@@ -15749,6 +15779,10 @@
 	Feitian FTJCOS (https://www.ftsafe.com/products/Card_OS) (JavaCard)
 	https://www.ftsafe.com/onlinestore/product?id=18
 
+3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 03 55 06 00 00 00 00 3B
+	FeiTian A50CR (JavaCard)
+	https://www.ftsafe.com/Products/Card_OS
+
 3B FC 18 00 00 81 31 80 45 90 67 46 4A 01 64 2F 70 C1 72 FE E0 FD
 	Feitian eJavaToken (JavaCard)
 	http://www.ftsafe.com/product/epass/eJavaToken
@@ -16354,6 +16388,10 @@
 
 3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 31 31 38 38 31 37 37 34 6C
 	Token2 Bio3 Hardware Key (Other)
+	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
+
+3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 31 33 38 31 32 35 34 33 62
+	Token2 PIN+Bio3 FIDO2 Security Key with Biometric Authentication (Other)
 	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
 
 3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 34 36 39 33 30 34 37 34 66
