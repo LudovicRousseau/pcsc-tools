@@ -649,6 +649,13 @@ get_readers:
 				rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates, 1);
 			}
 			while (SCARD_E_TIMEOUT == rv);
+
+			if (rv != SCARD_S_SUCCESS)
+			{
+				/* something bad happened. We need to exit */
+				Interrupted = true;
+			}
+
 			spin_stop();
 
 			test_rv("SCardGetStatusChange", rv, end);
@@ -931,6 +938,12 @@ get_readers:
 
 		rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t,
 			nbReaders);
+
+		if (rv != SCARD_S_SUCCESS)
+		{
+			/* something bad happened. We need to exit */
+			Interrupted = true;
+		}
 
 		spin_stop();
 		printf("\n");
