@@ -956,8 +956,9 @@ end:
 
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
-	test_rv("SCardReleaseContext", rv, end);
+	test_rv("SCardReleaseContext", rv, end2);
 
+end2:
 	/* free memory possibly allocated */
 	if (NULL != readers)
 		free(readers);
