@@ -75,13 +75,13 @@ const char *pcsc_stringify_error(DWORD rv)
 #define print_pcsc_error(fct, rv) \
 	fprintf(stderr, "%s%s: %s%s\n", red, fct, pcsc_stringify_error(rv), color_end)
 
-#define test_rv(fct, rv, hContext) \
+#define test_rv(fct, rv, label) \
 do { \
 	if (rv != SCARD_S_SUCCESS) \
 	{ \
 		print_pcsc_error(fct, rv); \
 		ret_val = -1; \
-		goto end; \
+		goto label; \
 	} \
 } while(0)
 
@@ -547,7 +547,7 @@ int main(int argc, char *argv[])
 	initialize_signal_handlers();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
-	test_rv("SCardEstablishContext", rv, hContext);
+	test_rv("SCardEstablishContext", rv, end);
 
 	rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
 	rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
@@ -595,7 +595,7 @@ get_readers:
 	printf("%sScanning present readers...%s\n", red, color_end);
 	rv = SCardListReaders(hContext, NULL, NULL, &dwReaders);
 	if (rv != SCARD_E_NO_READERS_AVAILABLE)
-		test_rv("SCardListReaders", rv, hContext);
+		test_rv("SCardListReaders", rv, end);
 
 	dwReadersOld = dwReaders;
 
@@ -651,7 +651,7 @@ get_readers:
 			while (SCARD_E_TIMEOUT == rv);
 			spin_stop();
 
-			test_rv("SCardGetStatusChange", rv, hContext);
+			test_rv("SCardGetStatusChange", rv, end);
 
 			if (Options.debug)
 				displayChangedStatus(rgReaderStates, 1);
@@ -681,7 +681,7 @@ get_readers:
 		goto get_readers;
 	}
 	else
-		test_rv("SCardListReader", rv, hContext);
+		test_rv("SCardListReader", rv, end);
 
 	/* allocate the readers table */
 	readers = calloc(nbReaders+1, sizeof(char *));
@@ -944,7 +944,7 @@ get_readers:
 		goto get_readers;
 
 	/* If we get out the loop, GetStatusChange() was unsuccessful */
-	test_rv("SCardGetStatusChange", rv, hContext);
+	test_rv("SCardGetStatusChange", rv, end);
 
 end:
 	if (! Options.only_list_cards && ! Options.only_list_readers)
@@ -956,7 +956,7 @@ end:
 
 	/* We try to leave things as clean as possible */
 	rv = SCardReleaseContext(hContext);
-	test_rv("SCardReleaseContext", rv, hContext);
+	test_rv("SCardReleaseContext", rv, end);
 
 	/* free memory possibly allocated */
 	if (NULL != readers)
