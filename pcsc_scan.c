@@ -534,7 +534,7 @@ int main(int argc, char *argv[])
 	int nbReaders, i;
 	char atr[MAX_ATR_SIZE*3+1];	/* ATR in ASCII */
 	char atr_command[sizeof(atr)+sizeof(ATR_PARSER)+2+1];
-	pthread_t spin_pthread;
+	pthread_t spin_pthread = pthread_self();
 
 	start_time = time(NULL);
 	initialize_terminal();
@@ -947,7 +947,7 @@ get_readers:
 	test_rv("SCardGetStatusChange", rv, end);
 
 end:
-	if (! Options.only_list_cards && ! Options.only_list_readers)
+	if (!pthread_equal(spin_pthread, pthread_self()))
 	{
 		pthread_join(spin_pthread, NULL);
 		pthread_mutex_destroy(&spinner_mutex);
