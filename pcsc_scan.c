@@ -547,7 +547,7 @@ int main(int argc, char *argv[])
 	initialize_signal_handlers();
 
 	rv = SCardEstablishContext(SCARD_SCOPE_SYSTEM, NULL, NULL, &hContext);
-	test_rv("SCardEstablishContext", rv, end);
+	test_rv("SCardEstablishContext", rv, end2);
 
 	rgReaderStates[0].szReader = "\\\\?PnP?\\Notification";
 	rgReaderStates[0].dwCurrentState = SCARD_STATE_UNAWARE;
