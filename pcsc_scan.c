@@ -754,6 +754,12 @@ get_readers:
 	 */
 	rv = SCardGetStatusChange(hContext, TIMEOUT, rgReaderStates_t, nbReaders);
 
+	if (rv != SCARD_S_SUCCESS)
+	{
+		/* something bad happened. We need to exit */
+		Interrupted = true;
+	}
+
 	spin_stop();
 
 	if (Options.debug)
