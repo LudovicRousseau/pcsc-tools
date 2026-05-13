@@ -1492,6 +1492,9 @@
 	OPUS Card (Transport)
 	https://www.stm.info/en/info/fares/opus-cards-and-other-fare-media/opus-card
 
+3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 58 94 2C 82 90 00
+	OPUS Bus card (Transport)
+
 3B 5F 96 00 80 5A 3F 06 08 20 12 23 C4 69 33 67 82 90 00
 	Montréal metropolitan area and Québec city area OPUS card (Transport)
 	https://www.carteopus.info/
@@ -1572,6 +1575,10 @@
 
 3B 64 00 FF 80 62 02 A2
 	VISA credit card (Nordea bank)
+
+3B 65 00 00 20 63 CB 10 10
+	Pluxee restaurant ticket card (Other)
+	https://www.pluxee.fr/produits/titres-restaurant/pluxee-carte-restaurant/
 
 3B 65 00 00 20 63 CB 10 20
 	VISA Premier debit card (Bank)
@@ -7804,6 +7811,9 @@
 	BBVA credit card (Bank)
 	https://www.bbva.es/personas/productos/tarjetas/credito.html
 
+3B 8B 80 01 00 31 C1 64 09 97 61 26 00 90 00 D7
+	Master card Debit Card (Bank)
+
 3B 8B 80 01 00 64 04 11 01 01 31 80 00 90 00 5A
 	German Passport (issued Nov 2006)
 	United Kingdom e-Passport
@@ -10900,6 +10910,10 @@
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 01 01 F0 0B
 	VTC (Telecommunication)
 
+3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 01 02 40 B8
+	Malaysian Nano SIM card for Celcomdigi (Telecommunication)
+	https://www.celcomdigi.com/
+
 3B 9F 94 80 1F C7 80 31 E0 73 FE 21 19 57 3C 86 60 C1 04 01 F0 0E
 	Karabakh Telecom - cell operator of Republic of Artsakh (1992-2023) (Telecommunication)
 	http://web.archive.org/web/20230927140946/https://kt.am/
@@ -11024,6 +11038,10 @@
 
 3B 9F 95 80 1F 47 80 31 E0 73 FE 21 13 57 4A 33 05 2C 32 34 00 3D
 	GSM SIM / LTE UICC card issued by TELE2, Lithuania (Telecommunication)
+
+3B 9F 95 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 30 31 08 49 A0
+	HamrahAval SIMcard (Telecommunication)
+	https://mci.ir/
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 00 53 02 D0 06 83 05 90 00 3A
 	NTT docomo FOMA(W-CDMA) AX02(Gemalto) Green SIM (Telecommunication)
@@ -14116,6 +14134,9 @@
 	BeA - Certification Card for German Solicitors (Other)
 	https://bea.bnotk.de/
 
+3B DF 96 FF 81 31 FE 45 80 73 84 21 E0 57 4D 44 41 5F 41 53 50 81 0F 87
+	Moldavian 2025 ID Card (eID)
+
 3B DF 96 FF 81 B1 FE 45 1F 87 00 31 B9 64 09 37 72 13 73 84 01 E0 00 00 00 00
 	National Identity Card of Slovakia (eID) (eID)
 	https://en.wikipedia.org/wiki/Slovak_identity_card
@@ -14716,6 +14737,10 @@
 	MasterCard of SpardaBank Hamburg in Germany (Bank)
 	https://www.sparda-bank-hamburg.de
 
+3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 01 29 31 37 20 52
+	BankCard Sparda-Bank Baden-Württemberg (Germany) (Bank)
+	https://www.sparda-bw.de/
+
 3B EF 00 FF 81 31 FE 45 65 63 11 13 71 05 28 00 1F 00 06 12 41 37 20 1E
 	BankCard Sparda-Bank Baden-Württemberg eG (Bank)
 
@@ -15014,6 +15039,10 @@
 3B F6 18 00 FF 81 31 FE 45 4A 43 4F 50 33 31 0E
 	IBM JCOP BIO31
 	IBM JCOP BIO31 Java card
+
+3B F6 96 00 00 91 01 31 FE 45 75 54 72 75 73 74 5B
+	Cardlogix/Hirsch uTrust FIDO2 FIPS card; part number 905622-1 (Other)
+	https://www.cardlogix.com/product/identiv-hirsch-utrust-fido2-piv-pgp-card/
 
 3B F7 11 00 00 81 31 FE 65 43 61 6E 6F 6B 65 79 99
 	Canokey (Other)
@@ -16580,6 +16609,10 @@
 	German Banking Card From "Sparkasse Elbe Elster" (Bank)
 	https://www.spk-elbe-elster.de/de/home.html
 
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 12 03 30 5F 57 11 07
+	postbank Weilburg (Bank)
+	https://www.postbank.de/privatkunden/services/filiale.html
+
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 06 A0 94 57 11 5D
 	GLS Bank MasterCard Debit (Bank)
 	https://www.gls.de/konten-karten/karten/bankcard/
@@ -17262,6 +17295,10 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0B 61 3A 01 10 45
 	Sparkassen Banking Card (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0C 51 12 01 10 5A
+	sparkasse dillenburg (Bank)
+	https://www.sparkasse-dillenburg.de/de/home.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 0C E1 69 01 10 91
 	Banking ID-Card (Bank)
 
@@ -17306,6 +17343,10 @@
 
 3B FF 96 00 FF C0 0A 31 FE 4D 80 31 E0 6B 04 31 05 02 A8 55 55 55 55 55 55 7E
 	Multos (Other)
+
+3B FF 97 00 00 80 31 FE 45 00 31 C1 73 C8 21 10 64 41 4D 33 48 03 90 00 98
+	DemirBank Kyrgyzstan Visa card (Bank)
+	https://www.demirbank.kg/retail/cards/credit-visa-cards
 
 3B FF 97 00 00 81 31 FE 43 80 31 80 65 B0 84 61 60 FB 12 0F FD 82 90 00 0D
 	IDPrime 3930 FIPS Level 3 (T=1 CT=97) (BAI6) (PKI)
