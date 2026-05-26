@@ -7539,6 +7539,10 @@
 	UnionPay Debit card issued by Industrial and Commercial Bank of China (Contactless) (Bank)
 	https://www.icbc.com.cn/
 
+3B 89 80 01 D0 05 00 03 00 5E BB 00 00 3B
+	Malaysia Touch 'n Go Enhanced Card (NFC) (Transport)
+	https://shop.touchngo.com.my/touch-n-go-enhanced-nfc.html
+
 3B 8A 00 91 01 00 16 00 01 16 01 00 96
 	GSM-SIM T-Mobil D1 (900MHz)
 
@@ -9994,6 +9998,10 @@
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 42 10 14
 	Airspan USIM (Telecommunication)
 
+3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 6E 10 38
+	Old/Obsolete L-mobi Mobile SIM card (Telecommunication)
+	http://web.archive.org/web/20250713141423/https://l-mobimobile.nl/
+
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 13 66 86 88 02 10 70 10 26
 	ethio telecom 4G sim card (Telecommunication)
 
@@ -10211,6 +10219,9 @@
 
 3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A 86 13 00 BE
 	KPN, Netherlands (Telecommunication)
+
+3B 9E 95 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 39 12 15 00 3F
+	chinese esim chip from aliexpress (Telecommunication)
 
 3B 9E 95 C0 0A 1F C6 80 31 E0 73 FE 21 1B 66 D0 01 83 0D 58 81 1E
 	Mobile Paypass G199 NFC
@@ -12052,6 +12063,10 @@
 	Programmable 9eSIM (Telecommunication)
 	https://www.9esim.com/
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 57 AA 86 60 F3 03 00 08 54
+	9eSIM v0 (Telecommunication)
+	https://www.9esim.com/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 63 00 57 00 83 81 90 00 11
 	3 (3g microUSIM) Italian subsidiary H3G
 
@@ -12418,6 +12433,10 @@
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 34 44 00 5A
 	Verizon 4G SIM (Telecommunication)
+
+3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 34 54 00 4A
+	RedPocket CDMA (Verizon) SIM Card (Telecommunication)
+	https://help.redpocket.com/what-is-cdma
 
 3B 9F 96 80 3F C7 A0 80 31 E0 73 F6 21 57 57 4A 4D 02 0B 34 54 63 29
 	Orange FR - opa (Telecommunication)
@@ -13213,6 +13232,10 @@
 	eSTK.me v3.1.1 (Telecommunication)
 	https://eSTK.me
 
+3B BF 96 00 80 1F C7 80 31 E0 73 FE 21 13 57 65 73 74 6B 2E 6D 65 E7
+	JMP eSIM adapter (Telecommunication)
+	https://jmp.chat/esim-adapter
+
 3B BF 96 00 81 31 FE 5D 00 64 .. .. .. .. 31 C0 73 F7 01 D0 00 90 00 ..
 	TCOS 3.0 / NetKey 3.0
 
@@ -13521,6 +13544,10 @@
 	SuisseID Post - ATOS CardOS 4.x (eID)
 	https://postsuisseid.ch/
 
+3B DA 18 FF 81 91 FE 1F C3 50 49 44 45 4D 4B 45 59 53 32 6C
+	Kensington VeriMark NFC+ USB-C Security Key (PKI)
+	https://www.kensington.com/p/products/data-protection/fingerprint-security-keys/verimark-nfc-usb-c-security-key/
+
 3B DA 18 FF 81 91 FE 1F C3 50 56 4A 43 4F 50 33 53 49 44 72
 	J3H145 (P6 SecID) purchased from FUTAKO Ltd., Taiwan (JavaCard)
 	http://www.javacardsdk.com
@@ -13623,6 +13650,10 @@
 
 3B DB 94 00 80 31 FE 45 00 31 C0 64 20 27 02 00 00 90 00 45
 	DAK (HealthCare)
+
+3B DB 94 00 80 31 FE 45 00 31 C0 64 20 27 03 00 00 90 00 44
+	Digital National ID Card of Bangladesh Govt. (eID)
+	https://services.nidw.gov.bd/nid-pub/card-status
 
 3B DB 96 00 40 10 00 4F 53 5F 33 5F 31 34 05 90 00
 	Vehicle identity card for Iran (eID)
@@ -15700,6 +15731,10 @@
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 47 63
 	ZeitControl BasicCard 5.5
 
+3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 35 20 52 45 56 20 4C 68
+	ZeitControl Professional BasicCard ZC5.5L (Other)
+	https://www.basiccard.com/cards.htm
+
 3B FB 13 00 FF 81 31 80 75 5A 43 35 2E 36 20 52 45 56 20 4D 6A
 	ZeitControl BasicCard ZC5.6 user-programmable smart card
 	http://www.basiccard.com/index.html?overview.htm
@@ -16598,6 +16633,9 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 03 0C D0 43 57 11 E5
 	Commerzbank AG (Bank)
 	https://www.commerzbank.de/portal/de/privatkunden/produkte/bezahlen/kreditkarten
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 04 04 60 89 57 11 90
+	German girocard + maestro (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
 	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
