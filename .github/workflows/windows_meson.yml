@@ -20,7 +20,7 @@ jobs:
             gcc:p
             meson:p
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: compile
         run: |
