@@ -4,6 +4,7 @@
 # you have to adhere to make syntax.
 LINGUAS = \
 	ru \
+	ka \
 	fr
 
 # Textdomain for our package.
