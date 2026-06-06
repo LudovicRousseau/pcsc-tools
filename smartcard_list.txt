@@ -9992,6 +9992,9 @@
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
 
+3B 9E 94 80 1F 47 80 31 A0 73 BE 21 10 66 00 76 02 12 20 40 5F
+	telcel (Telecommunication)
+
 3B 9E 94 80 1F 47 80 31 A0 73 BE 21 10 66 86 88 02 12 20 40 27
 	americamobile (Telecommunication)
 
@@ -10580,6 +10583,9 @@
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 2A F2 14 00 CE
 	Tello (Telecommunication)
 	https://tello.com/
+
+3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 36 15 00 12
+	T-Mobile US  (Telecommunication)
 
 3B 9E 96 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 02 33 AD 14 00 88
 	4G-LTE (Telecommunication)
@@ -12330,6 +12336,9 @@
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 31 11 65 01
 	Kigen SGP.22+ Tri-cut eUICC (Telecommunication)
 	https://techship.com/product/kigen-sgp-22-tri-cut-e-uicc-e-sim/?variant=001
+
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 67 45 54 75 32 30 08 65 3D
+	Kigen eSIM (eID)
 
 3B 9F 96 80 3F C3 A0 80 31 E0 73 F6 21 13 57 4A 4D 0E 1D 31 30 00 71
 	Telenor SIM card (Norway)
@@ -14204,6 +14213,9 @@
 3B E0 00 00 81 31 20 40 30
 	SmarTEC
 
+3B E0 00 00 81 31 FE 45 EB
+	visa (Bank)
+
 3B E0 00 FF 81 31 FE 45 14
 	"JUKICARD", digitally sign tax documents in Japan
 
@@ -15687,6 +15699,8 @@
 3B FB 13 00 FF 10 00 00 31 C1 64 09 97 61 26 0F 90 00
 	Danske Bank Debit Card (Bank)
 	https://danskebank.fi/
+	Visa / Bank Millennium S.A. (Poland) (Bank)
+	https://www.bankmillennium.pl/
 
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 07 90 00
 	America First Credit Union Visa Credit Card (Bank)
@@ -15741,6 +15755,10 @@
 
 3B FB 13 00 FF 81 31 80 75 5A 43 36 2E 35 20 52 45 56 20 43 64
 	ZeitControl BasicCard 6.5, multiapplication with 30 kByte EEPROM
+
+3B FB 13 00 FF 91 81 31 FE 20 00 31 C1 64 09 58 22 36 0F 90 00 A6
+	Debit card of Mega International Commercial Bank (Bank)
+	https://www.megabank.com.tw/en-us/english/financial-services/overview/savings/twd-savings-account/deposit
 
 3B FB 13 00 FF C0 80 31 80 75 5A 43 35 2E 34 20 52 45 56 20 41 A5
 	ZeitControl BasicCard Professional 5.4 Revision A
@@ -16627,6 +16645,10 @@
 	Debit card (Germany): Deutsche Kreditbank (DKB), ec-cash,  (Bank)
 	https://www.dkb.de/privatkunden/karten/girocard
 
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 03 07 A0 3C 57 11 E1
+	Maestro girocard (Bank)
+	https://www.kskgg.de/de/home.html
+
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 03 08 B0 99 57 11 5B
 	Debit card Sparkasse (Germany) (Bank)
 
@@ -16661,6 +16683,10 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 08 20 24 57 11 63
 	German Sparkasse with visa  (Bank)
 	https://www.sparkasse.de/lp/echtesmultitalent.html#alle-funktionen
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 17 06 E0 31 57 11 B9
+	Bank card of Deutsche Bank (Bank)
+	https://www.deutsche-bank.de
 
 3B FF 18 00 FF 81 31 FE 45 00 31 C5 73 C0 01 80 54 76 15 02 01 05 90 00 74
 	SIGILANCE NFC OpenPGP Smart Card (JavaCard)
@@ -17223,6 +17249,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 15 0A C0 CD 02 00 5D
 	Mastercard / GLS Bank (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 16 0B 80 D2 02 00 00
+	VR NetWorld-Card (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 18 0B D0 BE 02 00 32
 	VR-NetWorld-Card (germany, Volksbank, HBCI, home-banking) (Bank)
 
@@ -17284,6 +17313,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 02 0E B1 34 01 10 CB
 	Debit card (Germany): girocard, Mastercard Debit (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 03 0C 21 55 01 10 39
+	VR Bank Germany (Bank)
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 13 0A F1 47 01 10 ED
 	girocard, Debit card issued by ING (Germany) (Bank)
 	https://www.ing.de/girokonto/karten-bargeld/
@@ -17326,6 +17358,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 13 09 81 39 01 10 C4
 	girocard contactless (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 20 0B D1 20 01 10 BC
+	girocard (Sparkasse) (Bank)
+	https://www.sparkasse.de/
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 08 41 57 01 10 0B
 	German HBCI Bank Card (Bank)
