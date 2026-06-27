@@ -2917,6 +2917,9 @@
 3B 6B 00 FF 56 43 41 52 44 5F 4E 53 53
 	NSSVirtual smart card for qemu
 
+3B 6B 00 FF 80 31 A0 73 BE 21 13 67 43 20 07
+	Anordsem J3R150 EMV 2FF/3FF/4FF (JavaCard)
+
 3B 6C 00 00 00 31 C0 71 D6 64 00 0A 01 00 5D 84
 	Inteligo (Poland) Mastercard Debit paypass (Bank)
 	https://www.inteligo.pl
@@ -11557,6 +11560,10 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 33 05 68 8C
 	Somtel SIM (Telecommunication)
 
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 33 07 75 93
+	SilkNet GE USIM (Telecommunication)
+	https://en.wikipedia.org/wiki/Silknet
+
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 34 18 83 7D
 	SIM card (Telecommunication)
 
@@ -12176,6 +12183,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 76 32 00 82 90 00 C4
 	T-Mobile SIM card issued April 2021 (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 79 61 00 82 90 00 98
+	T-Mobile USIM (Telecommunication)
+	https://t-mobile.pl/
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 83 71 00 82 90 00 72
 	SIM card (Telecommunication)
 
@@ -12191,6 +12202,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 95 00 82 90 00 92
 	Dish Wireless 5G (Telecommunication)
 	https://help.boostmobile.com/docs/boost-mobile-network
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 87 96 00 82 90 00 91
+	sim card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 88 92 00 82 90 00 9A
 	VIVO pré SIM card (Telecommunication)
@@ -12397,6 +12411,10 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 27 D8
 	5ber physical eUICC / eSIM (Standard Version) (Telecommunication)
 	https://esim.5ber.com/order?language=en-US
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 02 00 06 FA
+	eSIM ZOVAGOLO (Telecommunication)
+	https://www.aliexpress.com/item/1005010483884461.html
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F3 03 00 02 FC
 	Xesim X2 (Telecommunication)
@@ -13443,6 +13461,9 @@
 	Oberthur Technologies ID-One PIV/CIV on V8 Device (eID)
 	https://csrc.nist.gov/csrc/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf
 	IDEMIA Cosmo V8.1 with a PIV applet
+
+3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 51 13 32
+	WidePoint ECA9 (eID)
 
 3B D6 97 00 81 B1 FE 45 1F 87 80 31 C1 52 51 1B 3A
 	U.S. State Department badge (Other)
@@ -15300,6 +15321,10 @@
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 02 01 68
 	Chase Visa Debit (Bank)
 
+3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 02 04 6D
+	Banco do Brasil BB Cash Card (Bank)
+	https://www.bb.com.br/site/pra-voce/contas/bb-cash/
+
 3B F8 13 00 FF 91 01 31 FE 41 53 4C 4A 26 31 23 02 A0 C9
 	OnePay Debit (Bank)
 
@@ -16428,6 +16453,9 @@
 	bank99 debit card (Bank)
 	https://bank99.at/debitkarte
 
+3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 11 91 11 07 00 00 00 00 CE
+	AUSTRIACARD debit card (Bank)
+
 3B FF 13 00 FF 91 01 31 FE 41 45 50 41 00 00 00 01 11 95 71 65 00 00 00 00 C8
 	Easybank Debit card (Bank)
 	https://www.easybank.at/easybank/services/debitkarte
@@ -16478,6 +16506,10 @@
 
 3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 34 36 39 33 30 34 37 34 66
 	TOKEN2 FIDO2 Security Key(0204),Bio3 Dual with FIDO + PGP 01 00 (Other)
+	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
+
+3B FF 18 00 00 81 01 86 8E 02 04 60 00 60 39 36 38 32 32 35 34 37 68
+	Token2 PIN+Bio3 FIDO2 Security Key with Biometric Authentication (Other)
 	https://www.token2.com/shop/product/token2-pin-bio3-fido2-security-key-with-biometric-authentication
 
 3B FF 18 00 00 81 01 86 8E 02 06 60 00 60 37 35 32 33 37 33 38 39 6D
@@ -17207,6 +17239,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 81 31 07 40 61
 	Debit card (Germany): girocard, V-Pay (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 A8 07 07 40 7E
+	VISA (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 B7 B2 07 40 D4
 	Hannoversche Volksbank girocard / Visa Debit Card (Bank)
