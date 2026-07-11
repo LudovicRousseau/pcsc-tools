@@ -2364,6 +2364,9 @@
 3B 69 00 00 24 94 01 03 01 00 01 00 A9
 	Schlumberger MicroPayflex S card
 
+3B 69 00 00 41 71 36 01 08 A2 6C 19 A0
+	Electricity card (eID)
+
 3B 69 00 00 47 44 5F 44 69 5F 54 50 4E
 	ICBC (Bank)
 
@@ -7405,6 +7408,10 @@
 3B 89 80 01 41 43 4F 53 4A 76 32 30 35 1D
 	ACOSJ dual interface Java card 95K (JavaCard)
 
+3B 89 80 01 41 43 4F 53 4A 76 32 30 37 1F
+	ACOSJ contactless only Java card - 95K (JavaCard)
+	https://www.smartcardfocus.com/shop/ilp/id~1024/p/index.shtml
+
 3B 89 80 01 41 43 53 20 41 46 44 30 32 38
 	ACS PocketKey NFC (eID)
 	https://www.acs.com.hk/en/products/569/pocketkey-fido%C2%AE-certified-usb-security-key/
@@ -9688,6 +9695,9 @@
 3B 98 94 80 1F C3 80 31 E0 73 FE 21 1B 08 BE
 	XLB EVDO Test Card (Telecommunication)
 
+3B 98 95 00 93 94 03 03 04 05 05 05
+	Orange UK Prepaid GSM SIM (Telecommunication)
+
 3B 98 95 00 93 94 04 04 03 03 03 03
 	T-Mobile MVNO SIM card
 
@@ -9991,6 +10001,9 @@
 
 3B 9D 96 81 31 60 37 80 31 C0 69 4D 54 43 4F 53 73 02 02 04 C5
 	Mozambique ID Card (eID)
+
+3B 9E 18 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 07 00 07 00 8E
+	Axalto Three UK Prepaid USIM (Telecommunication)
 
 3B 9E 94 80 1F 42 80 31 00 73 BE 21 10 66 54 59 53 04 4C 25 CF
 	MCI (Mobile Communication Company of Iran) SIM
@@ -11090,6 +11103,9 @@
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 09 01 00 00 06
 	GSM, T-Mobile (Germany)
+
+3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 09 02 00 00 05
+	T-Mobile UK Prepaid USIM (Telecommunication)
 
 3B 9F 95 80 1F C3 80 31 A0 73 BE 21 13 67 D0 02 03 19 01 00 00 16
 	GSM SIM card from congstar (a no-frills service provider of Deutsche Telekom)
@@ -12339,6 +12355,10 @@
 	EIOTCLUB Physical eSIM Card (Telecommunication)
 	https://www.eiotclub.com/products/physical-esim-card
 
+3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 29 6F 32
+	9esim v3 (Telecommunication)
+	https://www.9esim.com
+
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1F 57 45 43 75 31 30 34 65 25
 	sysmoEUICC1-C2G (Telecommunication)
 	https://shop.sysmocom.de/sysmoEUICC1-eUICC-for-consumer-eSIM-RSP/sysmoEUICC1-C2G
@@ -12407,6 +12427,10 @@
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 1E E1
 	5Ber (Telecommunication)
 	https://esim.5ber.com
+
+3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 23 DC
+	5ber eSIM Adapter (Telecommunication)
+	https://esim.5ber.com/
 
 3B 9F 96 80 3F C7 82 80 31 E0 73 FE 21 1B 57 AA 86 60 F0 01 00 27 D8
 	5ber physical eUICC / eSIM (Standard Version) (Telecommunication)
@@ -16362,8 +16386,16 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 55 30 43 4E 07 90 00
 	caixa bank debit card (Bank)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 55 31 4F 4E 07 90 00
+	BBVA Visa (Mexico) (Bank)
+	https://www.bbva.mx/
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 42 4E 07 90 00
 	Rabobank Netherlands VISA debit (Bank)
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 43 43 07 90 00
+	Chase ATM Card (Bank)
+	https://chase.com
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 42 4E 07 90 00
 	Portuguese "BancoCTT" Bank Card (Bank)
@@ -17344,6 +17376,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 23 09 00 A8 02 00 F4
 	Kreissparkasse girocard (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 02 50 00 23 24 0A 70 C6 02 00 EE
+	Banking (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 02 0E B1 34 01 10 CB
 	Debit card (Germany): girocard, Mastercard Debit (Bank)
