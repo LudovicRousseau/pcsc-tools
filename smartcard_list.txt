@@ -170,6 +170,9 @@
 3B 04 1B F4 3F 54
 	German TelefonKarte 50DM. Memory card with Solaic chip (Other)
 
+3B 04 22 FF 32 00
+	CSC Laundry Card (Other)
+
 3B 04 2A FF 32 00
 	Mac Gray Intelligent Laundry Systems laundry card
 
@@ -1536,6 +1539,9 @@
 3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C5 82 69 63 82 90 00
 	MOBIB Personal Travel Card, Brussels | STIB-MIVB  (Transport)
 	https://www.stib-mivb.be/article.html?_guid=d02c7fb6-3e9c-3810-248e-eec4ee5ebc8c&l=en
+
+3B 5F 96 00 80 5A 3F 2B C4 14 10 01 C6 52 F2 21 82 90 00
+	MOBIB (Transport card STIB Brussels) (Transport)
 
 3B 5F 96 00 80 5A FF FF 00 FF FF 01 78 72 40 41 82 90 00
 	Oura Card SNCF Transport - France Auvergne Rhône-Alpes (Transport)
@@ -4830,6 +4836,10 @@
 	Lisbon Metro Monthly Student Pass (Transport)
 	https://www.metrolisboa.pt/
 
+3B 6F 00 00 80 5A 2D 06 08 10 10 02 78 77 A3 35 82 90 00
+	Lisbon Navegante Card, used in metros, busses and other public transport in Lisbon, Portugal (Transport)
+	https://www.navegante.pt/viajar/cartoes
+
 3B 6F 00 00 80 5A 2D 06 08 10 10 05 93 5C 42 FB 82 90 00
 	Comboios de Portugal Transit Card (Transport)
 	https://www.cp.pt/passageiros/pt/consultar-horarios/precos/cartao-cp
@@ -5006,6 +5016,9 @@
 
 3B 6F 00 00 80 5A 3D 07 06 15 01 01 79 2C B6 36 82 90 00
 	RavKav (Transport)
+
+3B 6F 00 00 80 5A 3D 21 EA 15 01 02 79 EA 0C EF 82 90 00
+	Paycard for german Company "PCARD"; paying parkinglot  (Other)
 
 3B 6F 00 00 80 5A 3D 23 C4 15 01 01 79 9A AA 14 82 90 00
 	Tec MOBIB Wallonia (Transport)
@@ -9251,6 +9264,9 @@
 	Gamestate rechargable play card (Other)
 	https://shop.gamestate.com/
 
+3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 03 00 00 00 00 6A
+	Chase bank  (Bank)
+
 3B 8F 80 01 80 4F 0C A0 00 00 03 06 03 00 3A 00 00 00 00 51
 	Belgrade (Serbia) Bus Plus thin transport card (abandoned in 2023) (Transport)
 	https://en.wikipedia.org/wiki/BusPlus
@@ -11239,6 +11255,10 @@
 	2degrees NFC (Telecommunication)
 	http://www.2degreesmobile.co.nz/home
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 50 88 83 07 90 00 46
+	uSIM card for LG U+ South Korean data roaming service (Telecommunication)
+	https://www.lguplus.com/korea-sim/eng/pc
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 67 22 28 00 40 01 00 01 91
 	Lycamobile Prepaid SIM-Card (Telecommunication)
 	http://lycamobile.at
@@ -12696,6 +12716,9 @@
 	Signature Card (Other)
 	https://www.telesec.de/en/products/tcos-smartcards/overview
 
+3B 9F 97 C0 0A 1F C6 80 31 E0 73 FE 21 1B 65 D0 02 59 15 5D 81 0F D5
+	Metro PCS (Telecommunication)
+
 3B 9F 97 C0 0A 1F C6 80 31 E0 73 FE 21 1F 65 D0 02 33 15 0E 81 0F E8
 	SIM Card (Telecommunication)
 
@@ -13367,6 +13390,10 @@
 3B D2 18 00 81 31 FE 58 CB 01 16
 	D-Trust Card 5.1/5.4 (contact based)
 	https://www.d-trust.net/de/support/signatur-und-siegelkarten
+
+3B D2 18 00 81 31 FE 58 CB 02 15
+	CardOS 6.1 (PKI)
+	https://www.cryptoshop.com/atos-cardos-v61.html
 
 3B D2 18 02 C1 0A 31 FE 58 C8 0D 51
 	Siemens Card CardOS M4.4
@@ -15717,6 +15744,9 @@
 3B FA 98 00 FF C1 10 31 FE 55 C8 04 53 41 47 5F 50 4B 49 32 70
 	Siemens Corporate Card (Belgium , Germany)
 
+3B FB 01 00 FF 10 00 00 31 C1 64 09 97 61 26 0F 90 00
+	EMV (Bank)
+
 3B FB 11 00 00 40 28 80 59 53 50 59 52 55 53 AE 00 02
 	Spyrus Rosetta Basic
 
@@ -16369,6 +16399,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 32 42 4E 07 90 00
 	Interact, Visa Debit Bank of Novia Scotia (Bank)
 	https://www.scotiabank.com/global/en/credit-card-terms-and-conditions.html
+
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 32 4F 4E 07 90 00
+	Scotiabank Scene Visa Debit Card (Bank)
 
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00
 	Debit payment card (Rabobank NL) (Bank)
@@ -17268,6 +17301,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 22 BB EB 07 40 80
 	girocard contactless (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 61 AA 07 41 1B
+	Banking Card from Volksbank Bodensee. Maybe provided by DG Nexolutions (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 23 81 31 07 40 61
 	Debit card (Germany): girocard, V-Pay (Bank)
