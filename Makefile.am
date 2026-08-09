@@ -19,6 +19,9 @@ desktopdir = $(datadir)/applications
 desktop_in_files = gscriptor.desktop.in
 desktop_DATA = $(desktop_in_files:.desktop.in=.desktop)
 
+completiondir = $(datadir)/bash-completion/completions
+completion_DATA = completions/bash/pcsc_scan
+
 #  install the man pages
 man_MANS = pcsc_scan.1 $(subst .in, , $(PERL_MANPAGES))
 
@@ -30,6 +33,7 @@ EXTRA_DIST = \
 	$(PERL_BINS) \
 	$(PERL_MANPAGES) \
 	$(pcsc_DATA) \
+	$(completion_DATA) \
 	gscriptor.desktop \
 	test.script
 
