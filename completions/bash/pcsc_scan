@@ -1,0 +1,20 @@
+_mycommand_completions()
+{
+	local cur prev OPTS
+	COMPREPLY=()
+    cur="${COMP_WORDS[COMP_CWORD]}"
+    prev="${COMP_WORDS[COMP_CWORD-1]}"
+
+	case $prev in
+		'-t')
+			COMPREPLY=( $(compgen -W "number" -- $cur) )
+
+			return 0
+			;;
+	esac
+
+	OPTS="-h -V -n -r -c -s -q -v -t -d -p"
+	COMPREPLY=( $(compgen -W "$OPTS" -- $cur) )
+}
+
+complete -F _mycommand_completions pcsc_scan
