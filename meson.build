@@ -36,6 +36,10 @@ executable('pcsc_scan',
   install : true,
   )
 
+install_data('completions' / 'bash' / 'pcsc_scan',
+  install_dir : get_option('datadir') / 'bash-completion' / 'completions',
+  )
+
 # ATR_analysis
 configure_file(output : 'ATR_analysis',
   input : 'ATR_analysis.in',
