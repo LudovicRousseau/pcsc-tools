@@ -8596,6 +8596,10 @@
 	ACOS5-EVO PKI Smart Card (Combi) (PKI)
 	https://www.acs.com.hk/en/products/471/acos5-evo-pki-smart-card/
 
+3B 8E 80 01 50 4B 03 58 58 58 5F 44 53 43 5F 4B 45 59 4C
+	Precision Biometric InnaIT DSC (PKI)
+	https://www.innait.com/ourproduct/innaitkey-dsc/
+
 3B 8E 80 01 52 46 49 44 49 4F 74 20 4A 43 4F 50 38 30 5A
 	RFIDIOt G&D SmartCafe 80K
 
@@ -8853,6 +8857,10 @@
 3B 8F 80 01 41 43 4F 53 20 46 69 6F 6E 61 31 20 4C 63 36 77
 	DKB Visa (Debit) (Bank)
 	https://www.dkb.de/
+
+3B 8F 80 01 41 43 4F 53 20 48 6F 6C 6C 79 31 20 4C 63 36 66
+	OMV Card with ROUTEX function (Other)
+	https://routex.com/routex-participants/omv/
 
 3B 8F 80 01 41 43 4F 53 2D 49 44 30 30 31 36 2E 30 31 36 2E
 	entrepreneur NFC card for Hale NFC system (Transport)
@@ -9516,6 +9524,10 @@
 	01-3936b2013 (Pay TV)
 	http://www.lripl.com
 
+3B 93 12 91 81 31 FE 31 70 67 68 10
+	KeoPass Biometric Key (PKI)
+	https://keopass.com
+
 3B 94 18 81 B1 80 7D 1F 03 19 C8 00 50 DC
 	GoldKey Security PIV Token
 
@@ -10049,6 +10061,9 @@
 3B 9E 94 80 1F 47 80 31 E0 73 FE 21 13 66 86 88 02 12 65 32 13
 	MTS Moscow (Russia) SIM card (Telecommunication)
 	https://moskva.mts.ru/personal
+
+3B 9E 94 80 1F 47 80 31 E0 73 FE 21 13 66 86 88 02 14 5B 10 09
+	V-Cell (Telecommunication)
 
 3B 9E 94 80 1F 87 80 31 E0 73 FE 21 12 66 55 57 4E 4E 30 31 98
 	Talk 'N Text SIM Card (Telecommunication)
@@ -11357,6 +11372,10 @@
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 65 B4 01 0E 01 02 81 05 ED
 	USIM Card by Maroc Telecom Morocco (Telecommunication)
 
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 67 44 57 38 38 32 44 48 FE
+	SIM card MTS Russia (Telecommunication) (Telecommunication)
+	https://www.mts.ru
+
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 1B 67 53 48 43 4F 5F 01 01 9B
 	baicells sim card (Telecommunication)
 	http://www.baicells.com/
@@ -11428,6 +11447,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 86 00 00 B5
 	HYPERSECU HYP2003 (PKI)
 	https://www.hypersecu.com/hyperpki
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 39 71 DF 00 00 88 00 00 B3
+	Mobifone CA (eID)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 32 38 71 DF 00 00 06 00 00 1F
 	token (PKI)
@@ -11602,6 +11624,10 @@
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 34 18 83 7D
 	SIM card (Telecommunication)
+
+3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 38 02 59 B1
+	MTEL Macedonia (Telecommunication)
+	https://mtel.mk/
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
 	Softbank (C2) USIM card (Telecommunication)
@@ -12350,6 +12376,10 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE A1 1F 64 41 91 03 00 82 90 00 96
 	Sunrise Switzerland (UMTS-OT_AES_XRES8_128K_5G) (Telecommunication)
+
+3B 9F 96 80 3F 87 00 80 31 E0 73 FE 21 1F 57 45 4D 75 31 30 19 65 84
+	hologram.io G3 (Global-3) SIM card (Telecommunication)
+	https://cdn1.hologram.io/docs/datasheets/2025_Hyper_SIM_Triple_Cut_Format_Datasheet.pdf
 
 3B 9F 96 80 3F 87 82 80 31 E0 73 FE 21 1B 67 45 4D 75 30 34 02 4B 02
 	Hologram Global G1 eUICC SIM (Telecommunication)
@@ -15073,6 +15103,9 @@
 	card for NF-e in Brazil (PKI)
 	https://certificadodigital.imprensaoficial.com.br/certificados-digitais/e-cnpj/a3/e-cnpj-a3-cartao
 
+3B F5 13 00 FF 10 00 20 63 CB 34 A1
+	CB VISA (Bank)
+
 3B F5 13 20 06 0E 49 42 4D 01 01 B3
 	User Identity card for TeleGuide, a Swedish terminal from the 90's similar to the French minitel. (eID)
 
@@ -16396,6 +16429,9 @@
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 42 4E 07 90 00
 	National Bank Debit Card with expiration date and cvv code (Bank)
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 30 4F 4E 07 90 00
+	bank of montreal debit card (Bank)
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 49 32 42 4E 07 90 00
 	Interact, Visa Debit Bank of Novia Scotia (Bank)
 	https://www.scotiabank.com/global/en/credit-card-terms-and-conditions.html
@@ -16553,6 +16589,9 @@
 3B FF 14 00 FF 81 31 FE 45 80 25 A0 00 00 00 56 57 53 43 36 35 30 04 00 3C
 	SafeNet AT SC650 V4.0 02/2018 (PKI)
 	https://www.safenetat.com/Solutions/Enterprise-Security/high-assurance-authentication/sc650/
+
+3B FF 18 00 00 81 01 86 8E 00 14 60 00 60 32 32 38 38 34 37 31 35 7C
+	Token2 (PKI)
 
 3B FF 18 00 00 81 01 86 8E 00 26 60 00 60 32 33 34 36 35 33 34 36 4E
 	TOKEN2 FIDO2 Security Key (PKI)
@@ -16769,6 +16808,9 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 12 03 30 5F 57 11 07
 	postbank Weilburg (Bank)
 	https://www.postbank.de/privatkunden/services/filiale.html
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 14 06 10 2F 57 11 54
+	Sparkasse girocard with Visa (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 16 06 A0 94 57 11 5D
 	GLS Bank MasterCard Debit (Bank)
@@ -17357,6 +17399,9 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 18 0B D0 BE 02 00 32
 	VR-NetWorld-Card (germany, Volksbank, HBCI, home-banking) (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 06 80 E0 02 00 30
+	VR-Bank Online Banking hbci (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 19 08 50 E1 02 00 EF
 	Raiffeiesenbank Girocard Maestro (Bank)
