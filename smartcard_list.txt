@@ -1206,6 +1206,10 @@
 3B 3B 96 00 92 42 10 10 5A 02 E0 00 33 90 00
 	Roaming Test SIM (Telecommunication)
 
+3B 3B 96 00 9B 44 20 10 4D 3D 40 00 33 90 00
+	One Mobile Macedonia (Old obsolette) (Telecommunication)
+	https://mk.wikipedia.org/wiki/One
+
 3B 3B 96 00 A7 4C 90 00 00 90 AC 33 33 90 00
 	Brazilian TIM GSM SIM
 
@@ -5438,6 +5442,10 @@
 3B 7A 13 00 00 72 75 74 6F 6B 65 6E 6D 73 63
 	Aktiv Rutoken Mikron SC
 
+3B 7A 13 00 00 86 65 00 A7 58 C0 60 00 90 00
+	MIR Debit card issued by AlfaBank (Bank)
+	https://alfabank.ru/
+
 3B 7A 18 00 00 00 48 79 70 73 49 44 20 53 33
 	Certinomis card (eID)
 
@@ -8984,6 +8992,10 @@
 	THALES SafeNet IDPrime 3940 Fido (PKI) (PKI)
 	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
 
+3B 8F 80 01 80 31 B0 52 02 06 64 05 A3 11 AC 73 D6 22 C0 61
+	Austrian Health Services ID card (e-card) (HealthCare)
+	https://www.chipkarte.at/cdscontent/?contentid=10007.678532&portal=ecardportal
+
 3B 8F 80 01 80 31 B0 52 04 05 64 05 A1 00 AC 73 D6 22 C0 77
 	Austrian eCard (HealthCare)
 
@@ -10717,6 +10729,10 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E D4 15 00 9D
 	MTN CI (Telecommunication)
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E F3 15 00 BA
+	SIM card from ONE Hungary (Telecommunication)
+	https://one.hu/
+
 3B 9E 97 80 1F C7 80 31 E0 73 FE 21 1B 66 D0 00 6B 95 11 00 EE
 	TracFone SIM Verizon Wireless LTE supported (Telecommunication)
 	https://www.tracfone.com
@@ -11453,6 +11469,10 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 32 38 71 DF 00 00 06 00 00 1F
 	token (PKI)
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 40 31 71 DF 00 00 63 00 00 01
+	Viettel PKI Token (passport)
+	https://viettelca.vn/huong-dan-cai-dat-phan-mem-chu-ky-so-viettel-token-manager
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 52 39 71 DF 00 00 00 00 00 78
 	"Feitian ePass2003" USB (PKI)
@@ -14218,6 +14238,9 @@
 3B DF 96 00 80 31 FE 45 00 31 B8 64 04 29 EC C1 73 94 01 80 82 90 00 DA
 	Finnish identity card given by the City of Helsinki to all members of city council, board and commitees
 
+3B DF 96 00 80 91 FE 3F 4C 83 80 31 E0 73 FE 21 17 63 49 50 20 83 0F 90 00 FA
+	Symantec CI (Telecommunication)
+
 3B DF 96 00 80 B1 FE 45 1F 83 00 12 27 6F 57 41 49 52 42 55 53 31 07 90 00 EA
 	IDEMIA ID-One Cosmo V8.2 IAS ECC card (eID)
 
@@ -16466,6 +16489,10 @@
 	Chase ATM Card (Bank)
 	https://chase.com
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 50 4E 07 90 00
+	CCF Autonom' Card (Bank)
+	https://ccf.fr/particuliers/au-quotidien/moyens-de-paiement/cartes-bancaires/carte-visa-autonom.html
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 31 42 4E 07 90 00
 	Portuguese "BancoCTT" Bank Card (Bank)
 	https://www.bancoctt.pt/o-seu-dia-a-dia/cartao-de-credito-banco-ctt
@@ -16592,6 +16619,10 @@
 
 3B FF 18 00 00 81 01 86 8E 00 14 60 00 60 32 32 38 38 34 37 31 35 7C
 	Token2 (PKI)
+
+3B FF 18 00 00 81 01 86 8E 00 16 60 00 60 38 32 32 38 35 39 33 38 7E
+	token2 fido2 physical security key (PKI)
+	https://www.token2.com/products/pin-mini-c-release3-1-fido2-u2f-and-totp-security-key-with-pin-complexity
 
 3B FF 18 00 00 81 01 86 8E 00 26 60 00 60 32 33 34 36 35 33 34 36 4E
 	TOKEN2 FIDO2 Security Key (PKI)
@@ -16794,6 +16825,9 @@
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 04 04 60 89 57 11 90
 	German girocard + maestro (Bank)
+
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 08 0C 60 5B 57 11 46
+	Banking card with Debit card functionality (Bank)
 
 3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 09 02 90 4E 57 11 AC
 	German Bank Card IDEMIA 9 Maestro/Girocard (Sparkasse S-Payment TPY 1974693D) (Bank)
@@ -17653,6 +17687,10 @@
 
 3F 3E 11 00 46 52 45 43 43 49 41 52 4F 53 53 41 90 00
 	Trenitalia (Italy) fidelity card "CartaFreccia" (Smartcard)
+
+3F 3E 11 00 4D 49 54 54 49 48 86 65 82 69 83 69 90 00
+	Transport card issued by Provincia autonoma di Trento, Italy (Transport)
+	https://www.provincia.tn.it/Servizi/Abbonamento-trasporto-per-pensionati
 
 3F 3F 94 00 80 69 AF 03 07 01 59 00 00 0A 0E 83 3E 9F 16
 	Finnish SIM card from "Radiolinja" now "Elisa"
