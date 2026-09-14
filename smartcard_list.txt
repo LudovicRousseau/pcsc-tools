@@ -2832,6 +2832,10 @@
 	SANTANDER BASIC CASH CARD (Bank)
 	https://www.santander.co.uk/assets/s3fs-public/2018-09/Basic%20Current%20Account%20KFD.pdf
 
+3B 6B 00 00 00 31 C1 64 09 58 22 36 0F 90 00
+	DinaCard - national payment card of the Republic of Serbia  (Bank)
+	https://dinacard.nbs.rs/en
+
 3B 6B 00 00 00 31 C1 64 09 64 41 36 07 90 00
 	HSBC UK Visa Debit Card (Bank)
 	https://www.hsbc.co.uk/content/dam/hsbc/gb/pdf/help/hsbc-visa-debit-card-guide.pdf
@@ -7063,6 +7067,10 @@
 	Pastel (transport card in Occitania and Toulouse, France) (Transport)
 	https://www.ter.sncf.com/occitanie/services-contacts/souscription-carte-pastel
 
+3B 88 80 01 00 00 00 00 B3 81 71 00 4A
+	Lignes d'Azur (Transport)
+	https://www.lignesdazur.com/fr
+
 3B 88 80 01 00 00 00 00 F7 81 C1 00 BE
 	Italian Health Insurance card (eID)
 	https://en.wikipedia.org/wiki/Italian_health_insurance_card
@@ -7211,6 +7219,10 @@
 3B 88 80 01 43 4C 61 69 72 65 20 36 0F
 	VISA credit card with NFC payment function (Bank)
 	http://www.visa.ca/en/personal/visa-paywave/index.jsp
+
+3B 88 80 01 43 6F 69 6E 6B 69 74 65 31
+	Coinkite Satscard (JavaCard)
+	https://satscard.com/
 
 3B 88 80 01 44 31 31 43 52 32 2E 30 70
 	javacard.pro card (JavaCard)
@@ -8987,6 +8999,9 @@
 
 3B 8F 80 01 80 31 80 65 B0 85 05 00 11 12 04 80 82 90 00 FF
 	Mauritius eID (eID)
+
+3B 8F 80 01 80 31 80 65 B0 85 05 00 11 12 0F FF 82 90 00 8B
+	Portuguese Citizen Card (eID)
 
 3B 8F 80 01 80 31 80 65 B0 85 59 56 FB 12 0F FC 82 90 00 68
 	THALES SafeNet IDPrime 3940 Fido (PKI) (PKI)
@@ -11790,6 +11805,9 @@
 	Freenet SIM Card (Deutsche Telekom, green LTE) (Telecommunication)
 	https://www.freenet-mobilfunk.de/handytarife/green-lte-tarife/
 
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 3B FE 14 10 09 CA
+	4G 5G Internet provider sim card (Telecommunication)
+
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 3B FE 14 30 05 E6
 	T-Mobile Czech Republic (MCC 230 MNC 01) (Czech Republic) (Telecommunication)
 	https://www.t-mobile.cz/osobni
@@ -13973,6 +13991,9 @@
 3B DC 96 00 80 B1 FE 45 1F 83 00 12 42 8F 54 65 49 44 32 0F 90 00 12
 	Latvia eID (eID) (eID)
 	https://www.eparaksts.lv/lv/
+
+3B DC 96 FF 81 11 FE 41 6C 67 65 72 69 61 45 49 44 76 32 82
+	Algeria (eID)
 
 3B DC 96 FF 81 11 FE 47 65 6F 72 67 69 61 45 49 44 76 31 84
 	Georgian ID card (eID)
@@ -16489,6 +16510,10 @@
 	Chase ATM Card (Bank)
 	https://chase.com
 
+3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 43 4E 07 90 00
+	Gnosis Pay Visa Debit card (Bank)
+	https://gnosispay.com/
+
 3B FF 13 00 FF 10 00 00 31 C1 73 C8 21 10 64 56 30 50 4E 07 90 00
 	CCF Autonom' Card (Bank)
 	https://ccf.fr/particuliers/au-quotidien/moyens-de-paiement/cartes-bancaires/carte-visa-autonom.html
@@ -16793,6 +16818,10 @@
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 C0 44 21 47 12 7E
 	Commerzbank Classic Kreditkarte Mastercard (Bank)
 	https://www.commerzbank.de/konten-zahlungsverkehr/produkte/kreditkarten/classic-kreditkarte/
+
+3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 C0 A2 A0 47 12 19
+	German banking card, distributed by "Volksbank" (Bank)
+	https://www.vbank.de/ogs.html
 
 3B FF 18 00 FF 81 31 FE 41 65 63 06 08 71 01 56 00 0F B8 D0 44 A0 47 12 EF
 	Debitcard (Bank)
@@ -17179,6 +17208,9 @@
 3B FF 95 00 00 80 31 FE 43 80 31 80 67 B0 85 02 01 F3 A3 13 83 01 F8 3B FF
 	UK Drivers Tachograph Card (Transport)
 
+3B FF 95 00 00 81 31 FE 43 80 31 80 65 B0 84 65 66 FB 12 0F FC 82 90 00 0C
+	Thales IDPrime DI card (JavaCard)
+
 3B FF 95 00 00 C0 0A 1F 43 80 31 E0 73 36 21 13 57 4A 33 0E 02 31 41 00 88
 	"BASE" SIM card; BASE is a german mobile phone operator, which is a brand of E-Plus, Germany.
 
@@ -17358,6 +17390,10 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 90 A9 07 30 BF
 	girocard Sparkasse Ansbach, Germany BLZ 76550000 (Bank)
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 AB EC 07 30 C1
+	"Mastercard" credit card, distributed by german "Volksbank" (Bank)
+	https://www.mastercard.com/de/de/personal/get-support.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 11 15 62 02 50 00 10 0A 01 AB FF 07 30 D2
 	girocard Sparkasse Altbayern, Germany BLZ 72051210 (Bank)
 
@@ -17522,6 +17558,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 21 0B 61 24 01 10 2D
 	Girocard (Bank)
 	https://www.muenchner-bank.de
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 22 0C 60 F3 01 10 FF
+	Debit card of Volksbank Paderborn (Bank, Germany) (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 02 0B 20 DD 01 10 92
 	DKB Visa (Debit) (Bank)
