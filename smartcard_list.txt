@@ -7715,6 +7715,9 @@
 3B 8A 80 01 86 65 00 05 00 70 11 00 90 00 1C
 	Aqara NFC card - quick access for your Aqara Smart Lock U200. Made by Lumi United Technology Co. Ltd. in China. (Other)
 
+3B 8A 80 01 86 65 00 A7 08 C1 13 00 90 00 05
+	China Merchants Bank (CMB) Bilibili Co-branded Debit Card (Bank)
+
 3B 8B 00 52 75 74 6F 6B 65 6E 6C 74 53 44 E3
 	Aktiv Rutoken Lite SD
 	https://www.rutoken.ru/products/catalogue/info_52.html
@@ -8810,6 +8813,9 @@
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 4D 30 42 4E 07 90 00 F6
 	Debit Card (Deutsche Bank Card Plus) (Bank)
 	https://www.deutsche-bank.de/pk/konto-und-karte/karten-im-ueberblick/deutsche-bank-card-plus.html
+
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 4D 30 50 4E 07 90 00 E4
+	Venmo (Other)
 
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 56 30 43 4E 07 90 00 EC
 	Amazon VISA Card (Bank)
@@ -10730,6 +10736,10 @@
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E AE 15 00 E7
 	kiwisim (Telecommunication)
 
+3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E B4 15 00 FD
+	O2 Czech Republic SIM card, pre-paid. (Telecommunication)
+	https://www.o2.cz/osobni/volani/predplacena-karta
+
 3B 9E 97 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 5E BD 15 00 F4
 	Plus (Polkomtel Sp. z o.o.) (MCC 260 MNC 01) (Telecommunication)
 	https://www.plus.pl/
@@ -11663,6 +11673,8 @@
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 4C 75 31 38 02 59 B1
 	MTEL Macedonia (Telecommunication)
 	https://mtel.mk/
+	Telemach (MCC 219 MNC 02) (Croatia) (Telecommunication)
+	https://telemach.hr/
 
 3B 9F 96 80 1F 87 80 31 E0 73 FE 21 1B 67 4A 55 52 75 31 05 4B D7
 	Softbank (C2) USIM card (Telecommunication)
@@ -11800,6 +11812,8 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 24 DB 14 10 05 FC
 	CZ KAKTUS SIM CARD (Telecommunication)
+	T-Mobile Czech Republic (MCC 230 MNC 01) (Czech Republic) (Telecommunication)
+	https://www.t-mobile.cz/osobni
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 3B FE 14 10 01 C2
 	Freenet SIM Card (Deutsche Telekom, green LTE) (Telecommunication)
@@ -11814,6 +11828,10 @@
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 47 16 15 10 01 57
 	Telekom.de (Telecommunication)
+
+3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1B 66 D0 02 47 16 15 10 09 5F
+	Hrvatski Telekom (MCC 219 MNC 01) (Croatia) (Telecommunication)
+	https://www.hrvatskitelekom.hr/
 
 3B 9F 96 80 1F C6 80 31 E0 73 FE 21 1C 64 41 19 31 00 82 90 00 AE
 	SORACOM SIM (plan unknown) (Telecommunication)
@@ -11975,6 +11993,10 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 82 03 33 33 00 10
 	Cablenet (Cyprus) prepaid SIM card (Telecommunication)
 	https://cablenet.com.cy
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 82 03 33 39 00 1A
+	ALSA BUS student card (Transport)
+	https://www.alsa.ma/carte-etudiant
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 27 86 98 61 43 F4
 	China Telecommunications Corporation (Telecommunication)
@@ -12312,6 +12334,9 @@
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 89 61 00 82 90 00 68
 	SIM card of a MEO subsidiary "UZO" (Telecommunication)
 	https://www.uzo.pt/uzo/
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 41 96 51 00 82 90 00 47
+	Orange SIM Card (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 01 66 00 82 90 00 F6
 	SIM card (manufactured by IDEMIA) Telecommunication
@@ -13770,6 +13795,10 @@
 	Serbian qualified electronic certificate issued by Serbian Post sertification centr (PKI)
 	https://www.ca.posta.rs/serbian_post_ca.htm
 
+3B DB 18 FF 81 B1 FE 45 1F C3 80 73 C8 21 10 65 43 4E 53 10 73 39
+	INTESI GROUP FimraQUI JCOP4 (PKI)
+	https://www.intesigroup.com/it/firmaqui/
+
 3B DB 18 FF 81 B1 FE 75 1F 03 50 4B 43 61 72 64 20 56 31 2E 30 ED
 	Tecos 3 card (Other)
 
@@ -14283,6 +14312,10 @@
 3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 69 78 00 00 80 83 07 90 00 24
 	Romanian Electronic Identity Card (eID)
 
+3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 69 78 54 00 01 83 07 90 00 F1
+	Peruvian national identity card (eID)
+	Polish eID (e-dowód) - NXP TCOS (eID)
+
 3B DF 96 00 81 31 FE 45 80 73 84 21 E0 55 69 78 54 00 01 83 0F 90 00 F9
 	National ID Card of Peru issued by RENIEC (eID)
 	https://identidad.reniec.gob.pe/dni-electronico
@@ -14494,6 +14527,10 @@
 3B E8 00 00 81 31 FE 00 50 65 72 73 6F 53 69 6D AA
 	Simulated virtual smartcard, from project PersoSim (eID)
 	https://persosim.de/?q=node/33
+
+3B E8 00 00 81 31 FE 41 00 73 C8 40 00 00 90 00 8C
+	Taglio PIVKey C915 (Dual Interface) (PKI) (PKI)
+	https://pivkey.com/
 
 3B E8 00 00 81 31 FE 45 00 73 C8 40 00 00 90 00 88
 	VISA Card (Skandinaviska Enskilda Banken) with Swedish BankID
@@ -17586,6 +17623,9 @@
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 20 0B D1 20 01 10 BC
 	girocard (Sparkasse) (Bank)
 	https://www.sparkasse.de/
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 04 0E F1 22 01 10 C9
+	Kreissparkasse Girocard/Maestro (Germany) (Bank)
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 07 02 00 02 05 08 41 57 01 10 0B
 	German HBCI Bank Card (Bank)
