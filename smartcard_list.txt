@@ -7051,6 +7051,10 @@
 3B 88 80 01 00 00 00 00 91 71 71 00 98
 	Public transportation fare card (Morocco CAS: Urban bus) (Transport)
 
+3B 88 80 01 00 00 00 00 91 81 00 00 19
+	Driving License card of Japan (eID)
+	https://www.police.pref.kanagawa.jp/tetsuzuki/english4/eng83000.html
+
 3B 88 80 01 00 00 00 00 91 81 71 00 68
 	PassPass card (Transport)
 	https://www.passpass.fr/fr/e-boutique/achat-carte
@@ -9807,6 +9811,10 @@
 	Skylink CDMA R-UIM card (Telecommunication)
 	https://en.wikipedia.org/wiki/Sky_Link_(Russia)
 
+3B 99 96 80 01 41 43 53 20 41 46 44 30 32 BE
+	ACS PocketKey NFC Card (AFD02) (PKI)
+	https://www.acs.com.hk/en/products/598/pocketkey-nfc-card-fido%C2%AE-certified-security-key-card/
+
 3B 99 96 80 31 FE 45 4A 54 61 78 43 6F 72 65 56 6F
 	Serbia TaxCore secure element smartcard (PKI)
 	https://tap.sandbox.suf.purs.gov.rs/help/view/1197015008/General-Commands/en-US
@@ -11227,6 +11235,9 @@
 	Plus GSM (old generation) (MCC 260 MNC 01) (Poland) (Telecommunication)
 	https://www.plus.pl/
 
+3B 9F 95 80 1F C6 80 31 E0 73 FE 21 1B 64 40 97 02 00 82 90 00 16
+	tracfone 3G sim card (Telecommunication)
+
 3B 9F 95 80 1F C7 80 31 A0 73 B6 A1 00 67 CF 15 CA 9C D7 09 20
 	RBC Bank Card (Bank)
 	https://www.rbc.com
@@ -11303,6 +11314,10 @@
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 86 81 06 86 98 40 00 B4
 	China Mobile LTE USIM Card (Telecommunication)
+
+3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 57 86 85 09 86 98 44 18 A3
+	Lycamobile SIM/USIM card (Telecommunication)
+	https://www.lycagroup.com/
 
 3B 9F 95 80 1F C7 80 31 E0 73 FE 21 13 63 55 10 88 83 07 90 00 06
 	SHOW or UPlus USIM (Telecommunication)
@@ -11475,6 +11490,9 @@
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 06 31 71 DF 00 00 00 00 00 24
 	FT ePass2003Auto USB Token (PKI)
+
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 06 31 71 DF 00 00 68 00 00 4C
+	etoken (eID)
 
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 11 31 71 DF 00 00 00 00 00 33
 	Epass 2003 (PKI)
@@ -11977,6 +11995,9 @@
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 26 33 32 00 B8
 	Vodafone sim card (Telecommunication)
+
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 37 32 30 00 AA
+	SIM card of Phoenix cellular operator from Russian occupied Donetsk region of Ukraine (pre 2022 times) (Telecommunication)
 
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 13 57 4A 33 0E 3F 33 34 00 A7
 	SIM Card (Telecommunication)
@@ -15895,6 +15916,10 @@
 	Visa / Bank Millennium S.A. (Poland) (Bank)
 	https://www.bankmillennium.pl/
 
+3B FB 13 00 FF 10 00 00 31 C1 64 09 A2 51 26 0F 90 00
+	Ryt Debit Card (Bank)
+	https://www.rytbank.my/ryt-card
+
 3B FB 13 00 FF 10 80 00 31 C1 64 08 60 32 06 07 90 00
 	America First Credit Union Visa Credit Card (Bank)
 	https://www.americafirst.com/
@@ -16245,6 +16270,8 @@
 	https://www.citibank.pl/
 	Visa / Santander Bank Polska S.A. (Erste Group Bank AG) (Poland) (Bank)
 	https://www.santander.pl/klient-indywidualny
+	Visa / PKO Bank Polski S.A. (Poland) (Bank)
+	https://www.pkobp.pl/
 
 3B FE 13 00 00 81 31 FE 45 4A 43 4F 50 76 32 34 31 20 4C 4F 54 20 57 B1
 	LOT test card (JavaCard)
@@ -16927,6 +16954,10 @@
 	Bank card of Deutsche Bank (Bank)
 	https://www.deutsche-bank.de
 
+3B FF 18 00 FF 81 31 FE 41 65 63 11 16 71 01 56 00 0F 18 0C C0 2E 67 10 B2
+	Commerzbank SparCard (Bank)
+	https://www.commerzbank.de/privatkunden/sparen-anlegen/sparkonto-mit-sparcard/
+
 3B FF 18 00 FF 81 31 FE 45 00 31 C5 73 C0 01 80 54 76 15 02 01 05 90 00 74
 	SIGILANCE NFC OpenPGP Smart Card (JavaCard)
 	https://www.sigilance.com/
@@ -17478,6 +17509,10 @@
 	Harzsparkasse Debit card (Germany): ec-cash, girocard, Mastercard (Bank)
 	https://www.harzsparkasse.de/de/home/privatkunden/girokonto/sparkassen-card-mastercard-debitkarte.html
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 17 68 02 50 00 10 10 26 36 C4 07 51 20
+	Ver. Spk im MK Debit card (Bank)
+	https://www.spk-mk.de/de/home/privatkunden/girokonto/sparkassencard.html
+
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 07 09 F0 E0 02 00 51
 	HBCI Card Volksbank Lüneburger Heide (Bank)
 
@@ -17598,6 +17633,10 @@
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 22 0C 60 F3 01 10 FF
 	Debit card of Volksbank Paderborn (Bank, Germany) (Bank)
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 01 56 00 02 24 0C 21 48 01 10 03
+	C24 Girocard (Bank)
+	https://www.c24.de/giro-card
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 03 86 02 50 00 23 02 0B 20 DD 01 10 92
 	DKB Visa (Debit) (Bank)
