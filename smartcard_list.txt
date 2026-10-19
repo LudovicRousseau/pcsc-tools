@@ -8789,6 +8789,9 @@
 	NAB VISA Debit (Bank)
 	https://www.nab.com.au/
 
+3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 37 07 90 00 8F
+	Visa Debit Card - ING in Germany (Bank)
+
 3B 8F 80 01 00 31 C1 73 C8 21 10 64 41 4D 33 41 07 90 00 F9
 	Ukrainian International resere bank (ex Sberbak RF) debit card (Bank)
 	https://www.sbrf.com.ua/
@@ -9016,6 +9019,10 @@
 3B 8F 80 01 80 31 80 65 B0 85 59 56 FB 12 0F FC 82 90 00 68
 	THALES SafeNet IDPrime 3940 Fido (PKI) (PKI)
 	https://cpl.thalesgroup.com/fr/resources/access-management/idprime-3940-product-brief
+
+3B 8F 80 01 80 31 B0 52 02 05 64 05 A1 00 AC 73 D6 22 C0 71
+	Austrian public health insurance card (e-card) (HealthCare)
+	https://www.chipkarte.at/
 
 3B 8F 80 01 80 31 B0 52 02 06 64 05 A3 11 AC 73 D6 22 C0 61
 	Austrian Health Services ID card (e-card) (HealthCare)
@@ -11523,6 +11530,9 @@
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 52 39 71 DF 00 00 03 90 00 EB
 	Feitian ePass2003 (PKI)
 
+3B 9F 95 81 31 FE 9F 00 66 46 53 05 10 52 39 71 DF 00 00 60 00 00 18
+	USB TOKEN (PKI)
+
 3B 9F 95 81 31 FE 9F 00 66 46 53 05 20 03 25 71 DF 00 00 00 00 00 05
 	Feitian ePass2003 token
 
@@ -12370,6 +12380,9 @@
 	https://www.telecomarmenia.am/hy/
 	SIM card issued by Serbian MTS (Telecommunication)
 
+3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 07 71 00 82 90 00 E7
+	vodafone sim card (Telecommunication)
+
 3B 9F 96 80 1F C7 80 31 E0 73 FE 21 1B 64 50 09 43 00 82 90 00 DB
 	Czech Railways (Telecommunication)
 
@@ -12647,6 +12660,18 @@
 3B 9F 96 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05 9A
 	Scientific and Technological Research Council of Turkey (test card) (eID)
 
+3B 9F 96 81 31 FE 45 80 65 54 43 20 20 12 31 C0 73 F6 21 80 81 05 B3
+	Unknown Infineon chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.0 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
+3B 9F 96 81 31 FE 45 80 65 54 43 D2 21 08 31 C0 73 F6 21 80 81 05 5A
+	Unknown Infineon chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.8 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
+3B 9F 96 81 31 FE 45 80 65 54 43 D3 21 08 31 C0 73 F6 21 80 81 05 5B
+	Unknown NXP chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.8 by TUBITAK BILGEM; also used for Turkish eID circa 2020 (eID)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
 3B 9F 96 81 31 FE 45 80 67 55 45 4B 41 45 12 12 31 80 73 B3 A1 80 EA
 	AKiS v1.2 on nxp chip
 
@@ -12804,6 +12829,18 @@
 3B 9F 97 80 3F C7 82 80 31 E0 73 FE 21 1F 64 09 06 92 00 82 90 00 FB
 	Ubigi Transatel esim (Telecommunication)
 
+3B 9F 97 81 31 FE 45 80 65 54 43 12 21 00 31 C0 73 F6 21 80 81 05 93
+	Unknown Infineon chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.0 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
+3B 9F 97 81 31 FE 45 80 65 54 43 12 21 07 31 C0 73 F6 21 80 81 05 94
+	Unknown Infineon chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.7 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
+3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 01 9F
+	Unknown Infineon chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.8 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
 3B 9F 97 81 31 FE 45 80 65 54 43 12 21 08 31 C0 73 F6 21 80 81 05
 	Republic of Turkey Identity Card (eID)
 	https://bilgem.tubitak.gov.tr/en/icerik/national-identity-card-tr-nc-identity-card
@@ -12816,6 +12853,14 @@
 	Turkish Republic Identity Card - Türkiye Cumhuriyeti Kimlik Kartı (TCKK) (eID)
 	http://www.ekds.gov.tr/tckk/t-c-kimlik-karti/tanim
 
+3B 9F 97 81 31 FE 45 80 65 54 43 53 22 82 31 C0 73 F6 21 80 81 05 53
+	Unknown NXP chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.5.2 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
+3B 9F 97 81 31 FE 45 80 65 54 43 D2 21 08 31 C0 73 F6 21 80 81 01 5F
+	Unknown Infineon chip running AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.8 by TUBITAK BILGEM (Other)
+	https://akiskart.bilgem.tubitak.gov.tr/
+
 3B 9F 97 81 31 FE 45 80 65 54 43 D2 21 08 31 C0 73 F6 21 80 81 05 5B
 	Turkish Republic official electronic ID card with biometric data, e-signature, authentication, secure private-key cryptographic messaging, etc.  (eID)
 	http://bilgem.tubitak.gov.tr/en/icerik/national-identity-card-tr-nc-identity-card
@@ -12825,6 +12870,10 @@
 
 3B 9F 97 81 31 FE 45 80 65 54 43 D3 23 02 31 C0 73 F6 21 80 81 05 52
 	karlitepe (eID)
+
+3B 9F 97 81 31 FE 45 80 65 54 43 E4 21 08 31 C0 73 F6 21 80 81 05 6D
+	Unknown UKTUM ("Ulusal Akıllı Kart Tumdevresi" / "National Smart Card IC") chip built by HHNEC running UKiS ("Ulusal Akilli Kart Isletim Sistemi" / "National Smart Card Operating System") variant of AKiS ("Akilli Kart Isletim Sistemi" / "Smart Card Operating System") v2.2.8 by TUBITAK BILGEM (Other)
+	https://en.bilgem.tubitak.gov.tr/en/semiconductor-technologies/
 
 3B 9F 97 81 31 FE 5D 00 64 04 20 01 C2 31 F8 73 F4 01 E0 00 90 00 A7
 	Signature Card (Other)
@@ -16709,6 +16758,9 @@
 3B FF 18 00 00 81 01 86 8E 00 14 60 00 60 32 32 38 38 34 37 31 35 7C
 	Token2 (PKI)
 
+3B FF 18 00 00 81 01 86 8E 00 16 60 00 60 30 37 30 38 33 39 33 31 7E
+	one.com Token2 (Other)
+
 3B FF 18 00 00 81 01 86 8E 00 16 60 00 60 38 32 32 38 35 39 33 38 7E
 	token2 fido2 physical security key (PKI)
 	https://www.token2.com/products/pin-mini-c-release3-1-fido2-u2f-and-totp-security-key-with-pin-complexity
@@ -17509,9 +17561,17 @@
 	Harzsparkasse Debit card (Germany): ec-cash, girocard, Mastercard (Bank)
 	https://www.harzsparkasse.de/de/home/privatkunden/girokonto/sparkassen-card-mastercard-debitkarte.html
 
+3B FF 96 00 FF 81 31 FE 40 65 63 11 16 65 02 50 00 10 0B 24 81 33 07 41 65
+	Debit card (Germany): girocard, mastercard debit, online banking TAN generation - GLS Bank "BankCard" (Bank)
+	https://www.gls.de/konten-karten/karten/bankcard/
+
 3B FF 96 00 FF 81 31 FE 40 65 63 11 17 68 02 50 00 10 10 26 36 C4 07 51 20
 	Ver. Spk im MK Debit card (Bank)
 	https://www.spk-mk.de/de/home/privatkunden/girokonto/sparkassencard.html
+
+3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 01 09 60 DD 02 00 FA
+	VR-NetWorldCard (HBCI-Chipkarte) (Bank)
+	https://www.volksbanking.de/banking-und-service/banking/banking-firmenkunden/fints-und-ebics.html/
 
 3B FF 96 00 FF 81 31 FE 40 65 63 1D 02 84 01 56 00 1F 07 09 F0 E0 02 00 51
 	HBCI Card Volksbank Lüneburger Heide (Bank)
